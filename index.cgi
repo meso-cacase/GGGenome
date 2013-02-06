@@ -687,6 +687,8 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 <div>
 新着情報：
 <ul>
+	<li>2013-02-06 ソースを公開 -
+		<a class=a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>
 	<li>2013-01-16 RefSeq rel. 57 (Jan, 2013) に更新。
 	<li>2012-12-21 GGGenome REST APIを公開。
 	<li>2012-12-21 ラット、ショウジョウバエ、線虫のゲノムを追加。
