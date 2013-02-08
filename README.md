@@ -36,13 +36,9 @@ GGGenome《ゲゲゲノム》
 
 下記のように検索クエリとURIとが対応しています。
 
-**URI:** http://GGGenome.dbcls.jp/<font 
-  color=red>db</font>/<font 
-  color=blue>k</font>/<font 
-  color=green>sequence</font>[.<font 
-  color=magenta>format</font>]
+**URI:** http://GGGenome.dbcls.jp/db/k/sequence[.format]
 
-+ <font color=red>*db*</font> : 塩基配列データベース  
++ *db* : 塩基配列データベース  
   'hg19' - ヒトゲノム [GRCh37/hg19 (Feb, 2009)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
            (省略時のデフォルト)  
@@ -54,39 +50,33 @@ GGGenome《ゲゲゲノム》
            (http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
   'ce10' - 線虫ゲノム [WS220/ce10 (Oct, 2010)]  
            (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
+  'rice' - イネゲノム [Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)]  
+           (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
   'refseq' - [RefSeq complete RNA release 57 (Jan, 2013)]  
            (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 89.0 (Jun, 2012)]  
            (ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/)  
-+ <font color=blue>*k*</font> : 許容するミスマッチ/ギャップの数  
++ *k* : 許容するミスマッチ/ギャップの数  
   省略時のデフォルト: 0
-+ <font color=green>*sequence*</font> : 塩基配列 (省略不可)
-+ <font color=magenta>*format*</font> : 検索結果のフォーマット  
++ *sequence* : 塩基配列 (省略不可)
++ *format* : 検索結果のフォーマット  
   'html' - HTML (省略時のデフォルト)  
   'txt' - タブ区切りテキスト  
   'json' - JSON  
 
-**例1:** [http://GGGenome.dbcls.jp/<font 
-  color=red>ce10</font>/<font 
-  color=blue>1</font>/<font 
-  color=green>GCAAGAAGAGATTGC</font>]
-(http://GGGenome.dbcls.jp/ce10/1/GCAAGAAGAGATTGC)
+**例1:** http://GGGenome.dbcls.jp/ce10/1/GCAAGAAGAGATTGC
 
-+ 線虫ゲノム <font color=red>ce10</font> に対して
-+ <font color=blue>1</font> ミスマッチ/ギャップまで許容して
-+ <font color=green>GCAAGAAGAGATTGC</font> を検索し
-+ <font color=magenta>html</font> (省略時のデフォルト) で結果を返す
++ 線虫ゲノム ce10 に対して
++ 1 ミスマッチ/ギャップまで許容して
++ GCAAGAAGAGATTGC を検索し
++ html (省略時のデフォルト) で結果を返す
 
-**例2:** [http://GGGenome.dbcls.jp/<font 
-  color=red>refseq</font>/<font 
-  color=green>GCAAGAAGAGATTGC</font>.<font 
-  color=magenta>txt</font>]
-(http://GGGenome.dbcls.jp/refseq/GCAAGAAGAGATTGC.txt)
+**例2:** http://GGGenome.dbcls.jp/refseq/GCAAGAAGAGATTGC.txt
 
-+ RefSeq complete RNA (<font color=red>refseq</font>) に対して
++ RefSeq complete RNA (refseq) に対して
 + ミスマッチ/ギャップを許容せず (省略時のデフォルト)
-+ <font color=green>GCAAGAAGAGATTGC</font> を検索し
-+ タブ区切りテキスト (<font color=magenta>txt</font>) で結果を返す
++ GCAAGAAGAGATTGC を検索し
++ タブ区切りテキスト (txt) で結果を返す
 
 
 関連プロジェクト
