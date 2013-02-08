@@ -1,10 +1,15 @@
-RewriteEngine On
-
 # GGGenome (ゲゲゲノム)： 塩基配列を高速に検索するサービス
 # http://GGGenome.dbcls.jp/
 # http://GGGenome.dbcls.jp/test/ (テスト用)
-#
+
+AddLanguage en .en
+AddLanguage ja .ja
+LanguagePriority en ja
+ForceLanguagePriority Prefer Fallback
+Options +MultiViews
+
 # クエリとURIを一意に対応させるためmod_rewriteを利用してURI書き換えを行う
+RewriteEngine On
 
 # [NC] は大文字小文字を区別しない
 # [R] はリダイレクト
