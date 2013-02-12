@@ -51,7 +51,7 @@ GGGenome《ゲゲゲノム》
   'ce10' - 線虫ゲノム [WS220/ce10 (Oct, 2010)]  
            (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
   'rice' - イネゲノム [Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)]  
-           (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
+           (http://rapdb.dna.affrc.go.jp/download/irgsp1.html)  
   'refseq' - [RefSeq complete RNA release 57 (Jan, 2013)]  
            (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 89.0 (Jun, 2012)]  
