@@ -52,6 +52,8 @@ GGGenome《ゲゲゲノム》
            (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
   'rice' - イネゲノム [Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)]  
            (http://rapdb.dna.affrc.go.jp/download/irgsp1.html)  
+  'bmor1' - カイコゲノム [Bmor1 (Apr, 2008)]  
+           (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
   'refseq' - [RefSeq complete RNA release 57 (Jan, 2013)]  
            (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 89.0 (Jun, 2012)]  

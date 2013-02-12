@@ -40,6 +40,7 @@ my %db_fullname = (            # データベースの正式名
 	'dm3'    => 'Drosophila genome, BDGP Rel. 5/dm3 (Apr, 2006)',
 	'ce10'   => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
 	'rice'   => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
+	'bmor1'  => 'Silkworm genome, Bmor1 (Apr, 2008)',
 	'refseq' => 'RefSeq complete RNA, release 57 (Jan, 2013)',
 	'ddbj'   => 'DDBJ release 89.0 (Jun, 2012)'
 ) ;
@@ -91,6 +92,7 @@ my $port =                              # 曖昧検索サーバのポート
 	($db eq 'dm3'   ) ? 22273 :
 	($db eq 'ce10'  ) ? 22283 :
 	($db eq 'rice'  ) ? 22293 :
+	($db eq 'bmor1' ) ? 22303 :
 	($db eq 'refseq') ? 22243 :
 	($db eq 'ddbj'  ) ? 32313 :
 	                    22233 ;         # default: Human genome (hg19)
@@ -565,6 +567,7 @@ http://GGGenome.dbcls.jp/DATABASE/K/SEQUENCE[.FORMAT]
     'dm3'  - $db_fullname{'dm3'} or
     'ce10' - $db_fullname{'ce10'} or
     'rice' - $db_fullname{'rice'} or
+    'bmor1' - $db_fullname{'bmor1'} or
     'refseq' - $db_fullname{'refseq'} or
     'ddbj' - $db_fullname{'ddbj'}
     Default: hg19
@@ -658,6 +661,7 @@ my $select =
 	<option value=dm3>$db_fullname{'dm3'}</option>
 	<option value=ce10>$db_fullname{'ce10'}</option>
 	<option value=rice>$db_fullname{'rice'}</option>
+	<option value=bmor1>$db_fullname{'bmor1'}</option>
 	<option disabled>----------</option>
 	<option value=refseq>$db_fullname{'refseq'}</option>
 	<option value=ddbj>$db_fullname{'ddbj'}</option>" ;
@@ -707,7 +711,7 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 		-->[.<span style='color:#FF0080'>format</span>]
 	<ul>
 		<li><span style='color:#ff6600'>db</span> &rarr;
-			hg19, mm10, rn5, dm3, ce10, rice, refseq, ddbj。省略時は hg19
+			hg19, mm10, rn5, dm3, ce10, rice, bmor1, refseq, ddbj。省略時は hg19
 		<li><span style='color:#0000ff'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
 		<li><span style='color:#008000'>sequence</span> &rarr;
@@ -744,6 +748,7 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 <div>
 新着情報：
 <ul>
+	<li>2013-02-12 カイコゲノムを追加。
 	<li>2013-02-08 <a class=a href='en/'>英語版</a> を公開。
 	<li>2013-02-08 イネゲノムを追加。
 	<li>2013-02-06 ソースを公開 -
@@ -870,6 +875,7 @@ my $select =
 	<option value=dm3>$db_fullname{'dm3'}</option>
 	<option value=ce10>$db_fullname{'ce10'}</option>
 	<option value=rice>$db_fullname{'rice'}</option>
+	<option value=bmor1>$db_fullname{'bmor1'}</option>
 	<option disabled>----------</option>
 	<option value=refseq>$db_fullname{'refseq'}</option>
 	<option value=ddbj>$db_fullname{'ddbj'}</option>" ;
@@ -919,7 +925,7 @@ URIs:
 		-->[.<span style='color:#FF0080'>format</span>]
 	<ul>
 		<li><span style='color:#ff6600'>db</span>:
-			hg19, mm10, rn5, dm3, ce10, rice, refseq, ddbj. (default: hg19)
+			hg19, mm10, rn5, dm3, ce10, rice, bmor1, refseq, ddbj. (default: hg19)
 		<li><span style='color:#0000ff'>k</span>:
 			Maximum number of mismatches/gaps. (default: 0)
 		<li><span style='color:#008000'>sequence</span>:
@@ -956,6 +962,7 @@ URIs:
 <div>
 What's new:
 <ul>
+	<li>2013-02-12 Silkworm genome is available.
 	<li>2013-02-08 English page has launched.
 	<li>2013-02-08 Rice genome is available.
 	<li>2013-02-06 Source code available via

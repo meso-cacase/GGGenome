@@ -29,7 +29,7 @@ RewriteRule  .*  /%1%2  [R,L,NE]
 
 # 例：/?query=gaattc&db=hg19&k=3 → /hg19/3/gaattc
 # 以下のリダイレクトパターンを上から順番に繰り返し適用する
-# [a-z]\w\w+/ の部分は (hg19|mm10|rn5|dm3|ce10|rice|refseq|ddbj)/ を想定
+# [a-z]\w\w+/ の部分は (hg19|mm10|rn5|dm3|ce10|rice|bmor1|refseq|ddbj)/ を想定
 
 # URIに複数のdbやkが指定されている場合の解消、変な文字列の除去
 # 例：/hg19/0/refseq/3/___/2/mm10/ → /mm10/2/
@@ -85,7 +85,7 @@ RewriteRule  .*  /%1%2?  [R,L,NE]
 
 # 未知のdbが指定されている場合は除去
 RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}  !^/(test/)?((en|ja)/)?((hg19|mm10|rn5|dm3|ce10|rice|refseq|ddbj)/)?(\d+/)?([^/]*?)$  [NC]  # 正しい名前の場合はスルー
+RewriteCond  %{REQUEST_URI}  !^/(test/)?((en|ja)/)?((hg19|mm10|rn5|dm3|ce10|rice|bmor1|refseq|ddbj)/)?(\d+/)?([^/]*?)$  [NC]  # 正しい名前の場合はスルー
 RewriteCond  %{REQUEST_URI}  ^/(test/)?((?:en|ja)/)?(?:[a-z]\w\w+/)?(\d+/)?([^/]*?)$  [NC]
 RewriteRule  .*  /%1%2%3%4  [R,L,NE]
 
