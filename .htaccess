@@ -8,95 +8,29 @@ LanguagePriority en ja
 ForceLanguagePriority Prefer Fallback
 Options +MultiViews
 
-# クエリとURIを一意に対応させるためmod_rewriteを利用してURI書き換えを行う
+# mod_rewriteを利用し、画像以外の全リクエストをindex.cgiで処理するようURIを書き換える
 RewriteEngine On
 
 # [NC] は大文字小文字を区別しない
-# [R] はリダイレクト
+# [R]  はリダイレクト
 # [R=301] はredirect permanent
-# [L] は評価終了
+# [L]  は評価終了
 # [NE] はURIエンコードしない。指定しないと %22query+str%22 が %2522query+str%2522 になる
 
-# GGGlogo.png (GGGlogo_en.png, GGGlogo_ja.png) の表示
-# 正しいURIの場合はmod_rewriteの適用を終了
-RewriteCond  %{REQUEST_URI}  ^/(test/)?GGGlogo(_(en|ja))?.png$
-RewriteRule  .*  -  [L]
-# それ以外の場合はURIを修正 (大文字小文字の修正も兼ねる)
-RewriteCond  %{REQUEST_URI}  ^/(test/)?.*(GGGlogo(?:_(?:en|ja))?.png)$  [NC]
-RewriteRule  .*  /%1%2  [R,L,NE]
+#- ▼ GGGlogo_en.png, GGGlogo_ja.pngの表示
+# mod_rewriteの適用を終了する条件
+RewriteRule  ^GGGlogo_(en|ja).png$  -  [L]
 
-#- ▼ クエリをURIに変換、リダイレクトする
+# それ以外の場合にURIを修正してリダイレクト
+RewriteCond  %{REQUEST_URI}  ^/(test/)?.*(GGGlogo_(en|ja).png)$
+RewriteRule  .*  /%1%2  [R,L]
+#- ▲ GGGlogo_en.png, GGGlogo_ja.pngの表示
 
-# 例：/?query=gaattc&db=hg19&k=3 → /hg19/3/gaattc
-# 以下のリダイレクトパターンを上から順番に繰り返し適用する
-# [a-z]\w\w+/ の部分は (hg19|mm10|rn5|dm3|ce10|rice|bmor1|refseq|ddbj)/ を想定
+#- ▼ それ以外のリクエストを全てindex.cgiに送る
+# mod_rewriteの適用を終了する条件
+RewriteRule  ^index.cgi  -  [L]
 
-# URIに複数のdbやkが指定されている場合の解消、変な文字列の除去
-# 例：/hg19/0/refseq/3/___/2/mm10/ → /mm10/2/
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}  !^/(test/)?((en|ja)/)?([a-z]\w\w+/)?(\d+/)?([^/]*?)$  [NC]  # 正しい形式の場合はスルー
-RewriteCond  %{REQUEST_URI}  ^/(test/)?(?:((?:en|ja)/)|([a-z]\w\w+/)|(\d+/)|(?:[^/]*/))+([^/]*?)$  [NC]
-RewriteRule  .*  /%1%2%3%4%5  [R,L,NE]
-
-# ?query= が指定されている場合
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}\?%{QUERY_STRING}  ^/(test/)?((?:en|ja)/)?([a-z]\w\w+/)?(\d+/)?(?:.*?)(\.(?:html|txt|json|rdf))?\?query=(.*?)(?:&(.*))?$  [NC]
-RewriteRule  .*  /%1%2%3%4%6%5?%7  [R,L,NE]
-
-# ?db= が指定されている場合
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}\?%{QUERY_STRING}  ^/(test/)?((?:en|ja)/)?(?:[a-z]\w\w+/)?(\d+/)?(.*)\?db=([a-z]\w\w+)(?:&(.*))?$  [NC]
-RewriteRule  .*  /%1%2%5/%3%4?%6  [R,L,NE]
-
-# ?k= が指定されている場合
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}\?%{QUERY_STRING}  ^/(test/)?((?:en|ja)/)?([a-z]\w\w+/)?(?:\d+/)?(.*)\?k=(\d+)(?:&(.*))?$  [NC]
-RewriteRule  .*  /%1%2%3%5/%4?%6  [R,L,NE]
-
-# ?format= が指定されている場合
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}\?%{QUERY_STRING}  ^/(.*?)(?:\.(?:html|txt|json|rdf))*\?format=(html|txt|json|rdf)(?:&(.*))?$  [NC]
-RewriteRule  .*  /%1.%2?%3  [R,L,NE]
-
-# ?lang= が指定されている場合
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}\?%{QUERY_STRING}  ^/(test/)?(?:(?:en|ja)/)?([a-z]\w\w+/)?(\d+/)?(.*)\?lang=(en|ja)(?:&(.*))?$  [NC]
-RewriteRule  .*  /%1%5/%2%3%4?%6  [R,L,NE]
-
-# 上記以外の場合はその変数を破棄
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}\?%{QUERY_STRING}  ^/(.*)\?(?:.*?)&(.*)$  [NC]
-RewriteRule  .*  /%1?%2  [R,L,NE]
-
-# 最後に未知の文字列があれば破棄
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}\?%{QUERY_STRING}  ^/(.*)\?.+$  [NC]
-RewriteRule  .*  /%1?  [R,L,NE]
-
-# k=0の場合に/0/を省略
-RewriteCond  %{QUERY_STRING}  ^$
-RewriteCond  %{REQUEST_URI}  ^/(.*/)?0/(.*)$  [NC]
-RewriteRule  .*  /%1%2?  [R,L,NE]
-
-# .txt.json など重複している場合は最後のもののみ残す
-RewriteCond  %{QUERY_STRING}  ^$
-RewriteCond  %{REQUEST_URI}  ^/(.*)(?:\.(?:html|txt|json|rdf))+(\.(?:html|txt|json|rdf))$  [NC]
-RewriteRule  .*  /%1%2?  [R,L,NE]
-
-# 未知のdbが指定されている場合は除去
-RewriteCond  %{QUERY_STRING}  !rewrite=stop  [NC]
-RewriteCond  %{REQUEST_URI}  !^/(test/)?((en|ja)/)?((hg19|mm10|rn5|dm3|ce10|rice|bmor1|refseq|ddbj)/)?(\d+/)?([^/]*?)$  [NC]  # 正しい名前の場合はスルー
-RewriteCond  %{REQUEST_URI}  ^/(test/)?((?:en|ja)/)?(?:[a-z]\w\w+/)?(\d+/)?([^/]*?)$  [NC]
-RewriteRule  .*  /%1%2%3%4  [R,L,NE]
-
-#- ▲ クエリをURIに変換、リダイレクトする
-
-#- ▼ URIを解釈してQUERY_STRINGに戻す
-
-# 例：/en/hg19/3/gaattc → /?query=gaattc&db=hg19&k=3&lang=en&rewrite=stop
-
-RewriteCond  %{QUERY_STRING}  ^$
-RewriteCond  %{REQUEST_URI}  ^/(test/)?(?:(en|ja)/)?(?:([a-z]\w\w+)/)?(?:(\d+)/)?(.*?)(?:\.(html|txt|json|rdf))?$  [NC]
-RewriteRule  .*  /%1?query=%5&db=%3&k=%4&format=%6&lang=%2&rewrite=stop  [L,NE]
-
-#- ▲ URIを解釈してQUERY_STRINGに戻す
+# それ以外の場合はURIを index.cgi に修正
+RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteRule  .*  /%1index.cgi  [L]
+#- ▲ それ以外のリクエストを全てindex.cgiに送る

@@ -14,26 +14,27 @@
 # 2012-11-30 Yuki Naito (@meso_cacase) index.html と search.cgi とを統合
 # 2012-12-21 Yuki Naito (@meso_cacase) 出力フォーマットの切り替えに対応
 # 2013-02-08 Yuki Naito (@meso_cacase) 英語版HTMLの出力に対応
+# 2013-02-22 Yuki Naito (@meso_cacase) URIルーティングを本スクリプトに実装
 
 #- ▼ モジュール読み込みと変数の初期化
 use warnings ;
 use strict ;
 use Time::HiRes ;
 
-eval 'use LWP::Simple ; 1' or  # 曖昧検索サーバとの接続に使用
+eval 'use LWP::Simple ; 1' or   # 曖昧検索サーバとの接続に使用
 	printresult('ERROR : cannot load LWP::Simple') ;
 
-eval 'use JSON::XS ; 1' or     # 曖昧検索サーバとの接続に使用
+eval 'use JSON::XS ; 1' or      # 曖昧検索サーバとの接続に使用
 	printresult('ERROR : cannot load JSON::XS') ;
 
-my @timer ;                    # 実行時間計測用
-my $timestamp = timestamp() ;  # CGIを実行した時刻
-my $min_query_length = 6 ;     # クエリの最低塩基長
-my $max_k = 20 ;               # 許容するミスマッチ/ギャップ数の上限、％
-my $max_hit_html = 50 ;        # 検索を打ち切るヒット数、HTMLの場合
-my $max_hit_api = 10000 ;      # 検索を打ち切るヒット数、TXTまたはJSONの場合
+my @timer ;                     # 実行時間計測用
+my $timestamp = timestamp() ;   # CGIを実行した時刻
+my $min_query_length = 6 ;      # クエリの最低塩基長
+my $max_k            = 20 ;     # 許容するミスマッチ/ギャップ数の上限、％
+my $max_hit_html     = 50 ;     # 検索を打ち切るヒット数、HTMLの場合
+my $max_hit_api      = 10000 ;  # 検索を打ち切るヒット数、TXTまたはJSONの場合
 
-my %db_fullname = (            # データベースの正式名
+my %db_fullname = (             # データベースの正式名
 	'hg19'   => 'Human genome, GRCh37/hg19 (Feb, 2009)',
 	'mm10'   => 'Mouse genome, GRCm38/mm10 (Dec, 2011)',
 	'rn5'    => 'Rat genome, RGSC 5.0/rn5 (Mar, 2012)',
@@ -46,25 +47,102 @@ my %db_fullname = (            # データベースの正式名
 ) ;
 #- ▲ モジュール読み込みと変数の初期化
 
-#- ▼ CGIが受け取ったクエリの処理
+#- ▼ リクエストからパラメータを取得
 push @timer, [Time::HiRes::time(), 'start;'] ;                       #===== 実行時間計測 =====
 
+#-- ▽ 使用するパラメータ一覧
+my $lang         = '' ;  # HTMLの場合の日本語/英語: ja, en
+my $db           = '' ;  # 生物種 (データベース): hg19, mm10, ...
+my $k            = '' ;  # 許容するミスマッチ/ギャップの数: 0, 1, 2, ...
+my $query_string = '' ;  # 塩基配列
+my $format       = '' ;  # 出力フォーマット: html, txt, json
+#-- △ 使用するパラメータ一覧
+
+#-- ▽ URIからパラメータを取得
+# 例：/en/mm10/2/GCAAGAGAGATTGCTTAGCG.txt
+#
+my $request_uri = $ENV{'REQUEST_URI'} // '' ;
+$request_uri =~ s/\?.*// ;  # '?' 以降のQUERY_STRING部分を除去
+
+#--- ▽ スラッシュ間 (/value/) のパラメーターを処理
+my @path = split m{/}, $request_uri ;
+foreach (@path){
+	($_ =~ /^(ja|en)$/i) ?
+		$lang = lc $1 :
+	($_ =~ /^(hg19|mm10|rn5|dm3|ce10|rice|bmor1|refseq|ddbj)$/i) ?
+		$db = lc $1 :
+	($_ =~ /^(\d+)$/) ?
+		$k = $1 :
+	() ;  # 解釈できないものは無視
+}
+#--- △ スラッシュ間 (/value/) のパラメーターを処理
+
+#--- ▽ パスの最後の要素 (query.format) を処理
+$request_uri =~ m{([^/]*)$} and $query_string = $1 ;
+if ($query_string =~ s/(?:\.(html|txt|json))+$//i){
+	$1 and $format   = lc $1 ;
+}
+#--- △ パスの最後の要素 (query.format) を処理
+#-- △ URIからパラメータを取得
+
+#-- ▽ QUERY_STRINGからパラメータを取得
 my %query = get_query_parameters() ;  # HTTPリクエストからクエリを取得
-my $query_string = $query{'query'} // '' ;  # 塩基配列
-my $db = lc($query{'db'} ||  # 生物種 (データベース)
-	'hg19') ;                # default: Human genome (hg19)
-my $k = ($query{'k'} and $query{'k'} =~ /^\d+$/) ?
-	$query{'k'} :            # 許容するミスマッチ/ギャップの数: 0,1,2,...
-	0 ;                      # default: 0
-my $format = ($query{'format'} and $query{'format'} =~ /^(txt|json)$/i) ?
-	lc($query{'format'}) :   # 出力フォーマット: txt, json
-	'html' ;                 # default: html
-my $lang = ($query{'lang'} and $query{'lang'} =~ /^(ja|en)$/i) ?
-	lc($query{'lang'}) :     # HTMLの場合の日本語/英語: ja, en
-	($0 =~ /ja$/) ? 'ja' :   # lang が未定義で実行ファイルが index.cgi.ja の場合
-	($0 =~ /en$/) ? 'en' :   # lang が未定義で実行ファイルが index.cgi.en の場合
-	'en' ;                   # default: en
-#- ▲ CGIが受け取ったクエリの処理
+
+$query_string =                       # 塩基配列
+	$query{'query'} //                # 1) QUERY_STRINGから
+	$query_string   //                # 2) QUERY_STRING未指定 → URIから
+	'' ;                              # 3) URI未指定 → 空欄
+
+$lang =                               # HTMLの場合の日本語/英語
+	(defined $query{'lang'} and $query{'lang'} =~ /^(ja|en)?$/i) ?
+	lc($query{'lang'}) :              # 1) QUERY_STRINGから
+	$lang //                          # 2) QUERY_STRING未指定 → URIから
+	'' ;                              # 3) URI未指定 → 空欄
+
+$db = lc(                             # 生物種 (データベース)
+	$query{'db'} //                   # 1) QUERY_STRINGから
+	$db          //                   # 2) QUERY_STRING未指定 → URIから
+	'') ;                             # 3) URI未指定 → 空欄
+
+$k =                                  # 許容するミスマッチ/ギャップの数
+	(defined $query{'k'} and $query{'k'} =~ /^\d+$/) ?
+	$query{'k'} :                     # 1) QUERY_STRINGから
+	$k //                             # 2) QUERY_STRING未指定 → URIから
+	'' ;                              # 3) URI未指定 → 空欄
+
+$format =                             # 出力フォーマット
+	(defined $query{'format'} and $query{'format'} =~ /^(html|txt|json)?$/i) ?
+	lc($query{'format'}) :            # 1) QUERY_STRINGから
+	$format //                        # 2) QUERY_STRING未指定 → URIから
+	'' ;                              # 3) URI未指定 → 空欄
+#-- △ QUERY_STRINGからパラメータを取得
+#- ▲ リクエストからパラメータを取得
+
+#- ▼ パラメータからURIを生成してリダイレクト
+my $redirect_uri = '/' ;
+$redirect_uri .= ($request_uri =~ m{^/test/}) ? 'test/' : '' ;  # テストページ /test/ 対応
+$redirect_uri .= $lang ? "$lang/" : '' ;
+$redirect_uri .= $db   ? "$db/"   : '' ;
+$redirect_uri .= $k    ? "$k/"    : '' ;  # 値が 0 の場合は /0/ を省略
+$redirect_uri .= $query_string ;
+$redirect_uri .= $format   ? ".$format"  : '' ;
+
+if ($ENV{'HTTP_HOST'} and              # HTTP経由のリクエストで、かつ
+	($request_uri ne $redirect_uri or  # 現在のURIと異なる場合にリダイレクト
+	 $ENV{'QUERY_STRING'})
+){
+	redirect_page("http://$ENV{'HTTP_HOST'}$redirect_uri") ;
+}
+#- ▲ パラメータからURIを生成してリダイレクト
+
+#- ▼ defaultパラメータ設定
+$lang     ||= ($0 =~ /ja$/) ? 'ja' :  # lang が未定義で実行ファイルが index.cgi.ja の場合
+	          ($0 =~ /en$/) ? 'en' :  # lang が未定義で実行ファイルが index.cgi.en の場合
+	                          'en' ;  # default: en
+$db       ||= 'hg19' ;
+$k        ||= 0 ;
+$format   ||= 'html' ;
+#- ▲ defaultパラメータ設定
 
 #- ▼ クエリの内容をチェック
 my $queryseq = flatsequence($query_string) ;  # 塩基構成文字以外を除去
@@ -277,8 +355,8 @@ if ($format eq 'txt'){
 	}
 	#--- △ 実行時間計測データの処理
 
-	$query_string = escape_char($query{'query'} // '') ;  # 結果ページに表示するためXSS対策
-	$query_string =~ s/(^\s+|\s+$)//g ;                   # 先頭または末尾の空白文字を除去
+	$query_string = escape_char($query_string // '') ;  # 結果ページに表示するためXSS対策
+	$query_string =~ s/(^\s+|\s+$)//g ;                 # 先頭または末尾の空白文字を除去
 	$" = "\n" ;
 	my $html = ($lang eq 'ja') ?
 	#--- ▽ +++++++++++++++++ Japanese HTML ++++++++++++++++++
@@ -313,6 +391,19 @@ if ($format eq 'txt'){
 </div>
 
 <h4 class=s>デバッグ用データ:</h4>
+
+<p class=s>
+<!--
+Request URI  : http://<font color='#808080'>$ENV{'HTTP_HOST'}</font>$request_uri<br>
+-->
+Redirect URI : http://<font color='#808080'>$ENV{'HTTP_HOST'}</font>$redirect_uri<br>
+lang         : <font color='#808080'>$lang</font>         |
+db           : <font color='#ffb280'>$db</font>           |
+k            : <font color='#7f7fff'>$k</font>            |
+query_string : <font color='#6bb36b'>$query_string</font> |
+format       : <font color='#ff80bf'>$format</font>
+</p>
+
 <pre class=s>
 @timelog
 </pre>" :
@@ -351,6 +442,19 @@ Matches are <em>highlighted with blue background.
 </div>
 
 <h4 class=s>Debug Info:</h4>
+
+<p class=s>
+<!--
+Request URI  : http://<font color='#808080'>$ENV{'HTTP_HOST'}</font>$request_uri<br>
+-->
+Redirect URI : http://<font color='#808080'>$ENV{'HTTP_HOST'}</font>$redirect_uri<br>
+lang         : <font color='#808080'>$lang</font>         |
+db           : <font color='#ffb280'>$db</font>           |
+k            : <font color='#7f7fff'>$k</font>            |
+query_string : <font color='#6bb36b'>$query_string</font> |
+format       : <font color='#ff80bf'>$format</font>
+</p>
+
 <pre class=s>
 @timelog
 </pre>" ;
@@ -393,6 +497,13 @@ foreach (@query){
 	}
 }
 return %query ;
+} ;
+# ====================
+sub redirect_page {  # リダイレクトする
+my $uri = $_[0] // '' ;
+print "Location: $uri\n\n" ;
+
+exit ;
 } ;
 # ====================
 sub flatsequence {  # 塩基構成文字以外を除去
@@ -527,9 +638,9 @@ return $string ;
 } ;
 # ====================
 sub printresult {  # $format (global) にあわせて結果を出力
-($format eq 'txt')  ? print_txt($_[0])  :
-($format eq 'json') ? print_json($_[0]) :
-($lang eq 'ja')     ? print_html_ja($_[0]) :  # default format: html
+($format eq 'txt' ) ? print_txt($_[0])     :
+($format eq 'json') ? print_json($_[0])    :
+($lang   eq 'ja'  ) ? print_html_ja($_[0]) :  # default format: html
                       print_html_en($_[0]) ;  # default lang  : en
 exit ;
 } ;
