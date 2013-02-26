@@ -21,10 +21,19 @@ RewriteEngine On
 # mod_rewriteの適用を終了する条件
 RewriteRule  ^GGGlogo_(en|ja).png$  -  [L]
 
-# それ以外の場合にURIを修正してリダイレクト
-RewriteCond  %{REQUEST_URI}  ^/(test/)?.*(GGGlogo_(en|ja).png)$
-RewriteRule  .*  /%1%2  [R,L]
+# パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
+RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteRule  (?:^|/)(GGGlogo_(en|ja).png)$  /%1$1  [R,L]
 #- ▲ GGGlogo_en.png, GGGlogo_ja.pngの表示
+
+#- ▼ api.txtの表示
+# mod_rewriteの適用を終了する条件
+RewriteRule  ^api.txt$  -  [L]
+
+# クエリが空欄またはパスに/db/k/等が含まれる場合にURIを修正してリダイレクト
+RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteRule  (?:^|/)(api)?.txt$  /%1api.txt  [R,L]
+#- ▲ api.txtの表示
 
 #- ▼ それ以外のリクエストを全てindex.cgiに送る
 # mod_rewriteの適用を終了する条件

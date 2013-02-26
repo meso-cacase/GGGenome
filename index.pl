@@ -664,7 +664,7 @@ sub print_txt {  # TXTを出力
 #- ▼ メモ
 # ・検索結果をタブ区切りテキストで出力
 # ・引数が ERROR で始まる場合はエラーを出力
-# ・引数がない場合はREST APIの仕様を出力
+# ・引数がない場合 → ERROR : query is empty
 #- ▲ メモ
 
 my $txt = $_[0] // '' ;
@@ -673,56 +673,13 @@ my $txt = $_[0] // '' ;
 # 引数をそのまま出力するので何もしなくてよい
 #- ▲ 検索結果を出力：default
 
+#- ▼ 引数がない場合 → ERROR : query is empty
+(not $txt) and $txt = 'ERROR : query is empty' ;
+#- ▲ 引数がない場合 → ERROR : query is empty
+
 #- ▼ エラーを出力：引数が ERROR で始まる場合
 $txt =~ s/^(ERROR.*)$/### $1 ###/s ;
 #- ▲ エラーを出力：引数が ERROR で始まる場合
-
-#- ▼ REST API仕様を出力：引数がない場合
-(not $txt) and $txt =
-#-- ▽ ++++++++++++++++++++++++++++++++++++++++++++++++++
-"GGGenome REST API
-
-Query format:
-
-http://GGGenome.dbcls.jp/DATABASE/K/SEQUENCE[.FORMAT][.download]
-  DATABASE (optional):
-    'hg19' - $db_fullname{'hg19'} or
-    'mm10' - $db_fullname{'mm10'} or
-    'rn5'  - $db_fullname{'rn5'} or
-    'dm3'  - $db_fullname{'dm3'} or
-    'ce10' - $db_fullname{'ce10'} or
-    'rice' - $db_fullname{'rice'} or
-    'bmor1' - $db_fullname{'bmor1'} or
-    'refseq' - $db_fullname{'refseq'} or
-    'ddbj' - $db_fullname{'ddbj'}
-    Default: hg19
-  K (optional):
-    Maximun number of mismatches and gaps.
-    Default: 0
-  SEQUENCE:
-    Nucleotide sequence.
-  FORMAT (optional):
-    'html' - HTML
-    'txt' - Tab delimited text
-    'json' - JSON object
-    Default: html
-  download (optional):
-    Download result as a file.
-
-Examples:
-
-http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC
-  Search 'GCAAGAAGAGATTGC' in human genome hg19. (default)
-  Search only perfect match sequences. (default)
-  Output in HTML format. (default)
-
-http://GGGenome.dbcls.jp/mm10/2/GCAAGAGAGATTGCTTAGCG.txt
-  Search 'GCAAGAGAGATTGCTTAGCG' in mouse genome mm10.
-  Search sequences within two mismatches and gaps.
-  Output in tab delimited text format.
-" ;
-#-- △ ++++++++++++++++++++++++++++++++++++++++++++++++++
-#- ▲ REST API仕様を出力：引数がない場合
 
 #- ▼ TXT出力
 print "Content-type: text/plain; charset=utf-8\n" ;

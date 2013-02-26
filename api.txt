@@ -1,0 +1,40 @@
+GGGenome REST API
+
+Query format:
+
+http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
+  DB (optional):
+    'hg19' - Human genome, GRCh37/hg19 (Feb, 2009) or
+    'mm10' - Mouse genome, GRCm38/mm10 (Dec, 2011) or
+    'rn5'  - Rat genome, RGSC 5.0/rn5 (Mar, 2012) or
+    'dm3'  - Drosophila genome, BDGP Rel. 5/dm3 (Apr, 2006) or
+    'ce10' - C. elegans genome, WS220/ce10 (Oct, 2010) or
+    'rice' - Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) or
+    'bmor1' - Silkworm genome, Bmor1 (Apr, 2008) or
+    'refseq' - RefSeq complete RNA, release 57 (Jan, 2013) or
+    'ddbj' - DDBJ release 89.0 (Jun, 2012)
+    Default: hg19
+  K (optional):
+    Maximum number of mismatches/gaps.
+    Default: 0
+  SEQUENCE:
+    Nucleotide sequence, case insensitive.
+  FORMAT (optional):
+    'html' - HTML
+    'txt' - Tab-delimited text
+    'json' - JSON object
+    Default: html
+  download (optional):
+    Download result as a file.
+
+Examples:
+
+http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC
+  Search 'GCAAGAAGAGATTGC' in human genome hg19. (default)
+  Search only perfect match sequences. (default)
+  Output in HTML format. (default)
+
+http://GGGenome.dbcls.jp/mm10/2/GCAAGAGAGATTGCTTAGCG.txt
+  Search 'GCAAGAGAGATTGCTTAGCG' in mouse genome mm10.
+  Search sequences within two mismatches and gaps.
+  Output in tab-delimited text format.
