@@ -36,7 +36,7 @@ GGGenome《ゲゲゲノム》
 
 下記のように検索クエリとURIとが対応しています。
 
-**URI:** http://GGGenome.dbcls.jp/db/k/sequence[.format]
+**URI:** http://GGGenome.dbcls.jp/db/k/sequence[.format][.download]
 
 + *db* : 塩基配列データベース  
   'hg19' - ヒトゲノム [GRCh37/hg19 (Feb, 2009)]
@@ -64,7 +64,8 @@ GGGenome《ゲゲゲノム》
 + *format* : 検索結果のフォーマット  
   'html' - HTML (省略時のデフォルト)  
   'txt' - タブ区切りテキスト  
-  'json' - JSON  
+  'json' - JSON
++ *download* : 検索結果をファイルとしてダウンロード (txt, jsonのみ)
 
 **例1:** http://GGGenome.dbcls.jp/ce10/1/GCAAGAAGAGATTGC
 

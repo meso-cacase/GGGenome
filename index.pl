@@ -15,6 +15,7 @@
 # 2012-12-21 Yuki Naito (@meso_cacase) 出力フォーマットの切り替えに対応
 # 2013-02-08 Yuki Naito (@meso_cacase) 英語版HTMLの出力に対応
 # 2013-02-22 Yuki Naito (@meso_cacase) URIルーティングを本スクリプトに実装
+# 2013-02-25 Yuki Naito (@meso_cacase) 検索結果のダウンロードに対応
 
 #- ▼ モジュール読み込みと変数の初期化
 use warnings ;
@@ -56,10 +57,11 @@ my $db           = '' ;  # 生物種 (データベース): hg19, mm10, ...
 my $k            = '' ;  # 許容するミスマッチ/ギャップの数: 0, 1, 2, ...
 my $query_string = '' ;  # 塩基配列
 my $format       = '' ;  # 出力フォーマット: html, txt, json
+my $download     = '' ;  # ファイルとしてダウンロードするか: (boolean)
 #-- △ 使用するパラメータ一覧
 
 #-- ▽ URIからパラメータを取得
-# 例：/en/mm10/2/GCAAGAGAGATTGCTTAGCG.txt
+# 例：/en/mm10/2/GCAAGAGAGATTGCTTAGCG.txt.download
 #
 my $request_uri = $ENV{'REQUEST_URI'} // '' ;
 $request_uri =~ s/\?.*// ;  # '?' 以降のQUERY_STRING部分を除去
@@ -79,8 +81,9 @@ foreach (@path){
 
 #--- ▽ パスの最後の要素 (query.format) を処理
 $request_uri =~ m{([^/]*)$} and $query_string = $1 ;
-if ($query_string =~ s/(?:\.(html|txt|json))+$//i){
+if ($query_string =~ s/(?:\.(html|txt|json)|\.(download))+$//i){
 	$1 and $format   = lc $1 ;
+	$2 and $download = 'true' ;
 }
 #--- △ パスの最後の要素 (query.format) を処理
 #-- △ URIからパラメータを取得
@@ -115,6 +118,13 @@ $format =                             # 出力フォーマット
 	lc($query{'format'}) :            # 1) QUERY_STRINGから
 	$format //                        # 2) QUERY_STRING未指定 → URIから
 	'' ;                              # 3) URI未指定 → 空欄
+
+$download =                           # ファイルとしてダウンロードするか
+	($format =~ /^(txt|json)$/) ?     # ダウンロードはtxt,jsonの場合に限る
+	$query{'download'} //             # 1) QUERY_STRINGから
+	$download //                      # 2) QUERY_STRING未指定 → URIから
+	'' :                              # 3) URI未指定 → 空欄
+	'' ;                              # txt,json以外 → 空欄
 #-- △ QUERY_STRINGからパラメータを取得
 #- ▲ リクエストからパラメータを取得
 
@@ -126,6 +136,7 @@ $redirect_uri .= $db   ? "$db/"   : '' ;
 $redirect_uri .= $k    ? "$k/"    : '' ;  # 値が 0 の場合は /0/ を省略
 $redirect_uri .= $query_string ;
 $redirect_uri .= $format   ? ".$format"  : '' ;
+$redirect_uri .= $download ? '.download' : '' ;
 
 if ($ENV{'HTTP_HOST'} and              # HTTP経由のリクエストで、かつ
 	($request_uri ne $redirect_uri or  # 現在のURIと異なる場合にリダイレクト
@@ -142,6 +153,7 @@ $lang     ||= ($0 =~ /ja$/) ? 'ja' :  # lang が未定義で実行ファイル�
 $db       ||= 'hg19' ;
 $k        ||= 0 ;
 $format   ||= 'html' ;
+$download ||= '' ;
 #- ▲ defaultパラメータ設定
 
 #- ▼ クエリの内容をチェック
@@ -382,11 +394,11 @@ if ($format eq 'txt'){
 <ul>
 	<li>タブ区切りテキスト &rarr;
 		<a href='?format=txt'>表示</a> |
-		<a hret=''>ダウンロード</a><br>
+		<a href='?format=txt&download=true'>ダウンロード</a><br>
 		エクセル等の表計算ソフトに直接コピペできます。
 	<li>JSON形式 &rarr;
 		<a href='?format=json'>表示</a> |
-		<a hret=''>ダウンロード</a>
+		<a href='?format=json&download=true'>ダウンロード</a>
 </ul>
 </div>
 
@@ -401,7 +413,8 @@ lang         : <font color='#808080'>$lang</font>         |
 db           : <font color='#ffb280'>$db</font>           |
 k            : <font color='#7f7fff'>$k</font>            |
 query_string : <font color='#6bb36b'>$query_string</font> |
-format       : <font color='#ff80bf'>$format</font>
+format       : <font color='#ff80bf'>$format</font>       |
+download     : <font color='#808080'>$download</font>
 </p>
 
 <pre class=s>
@@ -432,12 +445,12 @@ Matches are <em>highlighted with blue background.
 <ul>
 	<li>Tab-delimited text:
 		<a href='?format=txt'>Open in new window</a> |
-		<a hret=''>Download</a><br>
+		<a href='?format=txt&download=true'>Download</a><br>
 		You can copy-paste the result into spreadsheet softwares
 		(<i>e.g.</i> Excel) or text editors.
 	<li>JSON format:
 		<a href='?format=json'>Open in new window</a> |
-		<a hret=''>Download</a>
+		<a href='?format=json&download=true'>Download</a>
 </ul>
 </div>
 
@@ -452,7 +465,8 @@ lang         : <font color='#808080'>$lang</font>         |
 db           : <font color='#ffb280'>$db</font>           |
 k            : <font color='#7f7fff'>$k</font>            |
 query_string : <font color='#6bb36b'>$query_string</font> |
-format       : <font color='#ff80bf'>$format</font>
+format       : <font color='#ff80bf'>$format</font>       |
+download     : <font color='#808080'>$download</font>
 </p>
 
 <pre class=s>
@@ -493,7 +507,7 @@ foreach (@query){
 		$value =~ tr/+/ / ;
 		$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack('C', hex($1))/eg ;
 		$name  =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack('C', hex($1))/eg ;
-		$query{$name} = $value ;
+		$query{lc($name)} = $value ;
 	}
 }
 return %query ;
@@ -670,7 +684,7 @@ $txt =~ s/^(ERROR.*)$/### $1 ###/s ;
 
 Query format:
 
-http://GGGenome.dbcls.jp/DATABASE/K/SEQUENCE[.FORMAT]
+http://GGGenome.dbcls.jp/DATABASE/K/SEQUENCE[.FORMAT][.download]
   DATABASE (optional):
     'hg19' - $db_fullname{'hg19'} or
     'mm10' - $db_fullname{'mm10'} or
@@ -692,6 +706,8 @@ http://GGGenome.dbcls.jp/DATABASE/K/SEQUENCE[.FORMAT]
     'txt' - Tab delimited text
     'json' - JSON object
     Default: html
+  download (optional):
+    Download result as a file.
 
 Examples:
 
@@ -709,7 +725,10 @@ http://GGGenome.dbcls.jp/mm10/2/GCAAGAGAGATTGCTTAGCG.txt
 #- ▲ REST API仕様を出力：引数がない場合
 
 #- ▼ TXT出力
-print "Content-type: text/plain; charset=utf-8\n\n" ;
+print "Content-type: text/plain; charset=utf-8\n" ;
+$download and  # ファイルとしてダウンロードする場合
+	print "Content-Disposition: attachment; filename=gggenome_result.txt\n" ;
+print "\n" ;
 print "$txt\n" ;
 #- ▲ TXT出力
 
@@ -728,7 +747,6 @@ my $json_txt = $_[0] // '' ;
 
 #- ▼ 検索結果を出力：default
 # 引数をそのまま出力するので何もしなくてよい
-#【TODO】{error: none} を付加
 #- ▲ 検索結果を出力：default
 
 #- ▼ 引数がない場合 → ERROR : query is empty
@@ -743,7 +761,10 @@ $json_txt = JSON::XS->new->canonical->utf8->encode(
 #- ▲ エラーを出力：引数が ERROR で始まる場合
 
 #- ▼ JSON出力
-print "Content-type: application/json; charset=utf-8\n\n" ;
+print "Content-type: application/json; charset=utf-8\n" ;
+$download and  # ファイルとしてダウンロードする場合
+	print "Content-Disposition: attachment; filename=gggenome_result.json\n" ;
+print "\n" ;
 print "$json_txt\n" ;
 #- ▲ JSON出力
 
@@ -819,7 +840,8 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 		--><span style='color:#ff6600'>db</span>/<!--
 		--><span style='color:#0000ff'>k</span>/<!--
 		--><span style='color:#008000'>sequence</span><!--
-		-->[.<span style='color:#FF0080'>format</span>]
+		-->[.<span style='color:#FF0080'>format</span>]<!--
+		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#ff6600'>db</span> &rarr;
 			hg19, mm10, rn5, dm3, ce10, rice, bmor1, refseq, ddbj。省略時は hg19
@@ -829,6 +851,8 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 			塩基配列。大文字・小文字は区別しない
 		<li><span style='color:#FF0080'>format</span> &rarr;
 			html, txt, json。省略時は html
+		<li><span style='color:brown'>download</span> &rarr;
+			URLの最後に付加すると検索結果をファイルとしてダウンロードできる
 	</ul>
 	<li>例1：<a href='http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC'><!--
 		-->http://GGGenome.dbcls.jp/<!--
@@ -859,6 +883,7 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 <div>
 新着情報：
 <ul>
+	<li>2013-02-26 検索結果のダウンロードに対応。
 	<li>2013-02-12 カイコゲノムを追加。
 	<li>2013-02-08 <a class=a href='en/'>英語版</a> を公開。
 	<li>2013-02-08 イネゲノムを追加。
@@ -1033,7 +1058,8 @@ URIs:
 		--><span style='color:#ff6600'>db</span>/<!--
 		--><span style='color:#0000ff'>k</span>/<!--
 		--><span style='color:#008000'>sequence</span><!--
-		-->[.<span style='color:#FF0080'>format</span>]
+		-->[.<span style='color:#FF0080'>format</span>]<!--
+		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#ff6600'>db</span>:
 			hg19, mm10, rn5, dm3, ce10, rice, bmor1, refseq, ddbj. (default: hg19)
@@ -1043,6 +1069,8 @@ URIs:
 			Nucleotide sequence, case insensitive.
 		<li><span style='color:#FF0080'>format</span>:
 			html, txt, json. (default: html)
+		<li><span style='color:brown'>download</span>:
+			Download result as a file. (optional)
 	</ul>
 	<li>Example 1: <a href='http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC'><!--
 		-->http://GGGenome.dbcls.jp/<!--
@@ -1073,6 +1101,7 @@ URIs:
 <div>
 What's new:
 <ul>
+	<li>2013-02-26 Search results are also available for download.
 	<li>2013-02-12 Silkworm genome is available.
 	<li>2013-02-08 English page has launched.
 	<li>2013-02-08 Rice genome is available.
