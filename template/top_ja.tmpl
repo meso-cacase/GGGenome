@@ -1,0 +1,87 @@
+<div>
+検索例：
+<ul>
+	<li><font color=purple>[</font>
+		<a href='GCAAGAAGAGATTGC'>GCAAGAAGAGATTGC</a>
+		<font color=purple>]</font> ...... 塩基配列を検索
+</ul>
+</div>
+
+<div>
+ひとこと：
+<ul>
+	<li>塩基配列を高速に検索するサイトです。
+	<li>大文字・小文字は区別しません。
+	<li>U は T とまったく同じです。
+	<li>ATGCU 以外の塩基 (R,Y等) は N とみなします。
+	<li>それ以外の文字は除去して検索されます。
+	<li>＋鎖および－鎖それぞれ<TMPL_VAR NAME=MAX_HIT_HTML>件まで結果を表示します。
+	<li>TXT, JSON形式ではそれぞれ<TMPL_VAR NAME=MAX_HIT_API>件まで取得できます。</font>
+</ul>
+</div>
+
+<div>
+検索結果へのリンク：
+<ul>
+	<li>http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#ff6600'>db</span>/<!--
+		--><span style='color:#0000ff'>k</span>/<!--
+		--><span style='color:#008000'>sequence</span><!--
+		-->[.<span style='color:#FF0080'>format</span>]<!--
+		-->[.<span style='color:brown'>download</span>]
+	<ul>
+		<li><span style='color:#ff6600'>db</span> &rarr;
+			hg19, mm10, rn5, dm3, ce10, rice, bmor1, refseq, ddbj。省略時は hg19
+		<li><span style='color:#0000ff'>k</span> &rarr;
+			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
+		<li><span style='color:#008000'>sequence</span> &rarr;
+			塩基配列。大文字・小文字は区別しない
+		<li><span style='color:#FF0080'>format</span> &rarr;
+			html, txt, json。省略時は html
+		<li><span style='color:brown'>download</span> &rarr;
+			URLの最後に付加すると検索結果をファイルとしてダウンロードできる
+	</ul>
+	<li>例1：<a href='http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC'><!--
+		-->http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#008000'>GCAAGAAGAGATTGC</span><!--
+		--></a>
+	<ul>
+		<li>ヒトゲノム <span style='color:#ff6600'>hg19</span> (省略可) で
+		<li>ミスマッチ/ギャップを許容せず (省略可)
+		<li><span style='color:#008000'>GCAAGAAGAGATTGC</span> を検索し
+		<li><span style='color:#FF0080'>html</span> 形式 (省略可) で結果を返す
+	</ul>
+	<li>例2：<a href='http://GGGenome.dbcls.jp/mm10/2/GCAAGAGAGATTGCTTAGCG.txt'><!--
+		-->http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#ff6600'>mm10</span>/<!--
+		--><span style='color:#0000ff'>2</span>/<!--
+		--><span style='color:#008000'>GCAAGAGAGATTGCTTAGCG</span><!--
+		-->.<span style='color:#FF0080'>txt</span><!--
+		--></a>
+	<ul>
+		<li>マウスゲノム <span style='color:#ff6600'>mm10</span> で
+		<li><span style='color:#0000ff'>2</span> ミスマッチ/ギャップまで許容して
+		<li><span style='color:#008000'>GCAAGAGAGATTGCTTAGCG</span> を検索し
+		<li><span style='color:#FF0080'>txt</span> 形式 (タブ区切りテキスト) で結果を返す
+	</ul>
+</ul>
+</div>
+
+<div>
+新着情報：
+<ul>
+	<li>2013-02-26 検索結果のダウンロードに対応。
+	<li>2013-02-12 カイコゲノムを追加。
+	<li>2013-02-08 <a class=a href='en/'>英語版</a> を公開。
+	<li>2013-02-08 イネゲノムを追加。
+	<li>2013-02-06 ソースを公開 -
+		<a class=a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>
+	<li>2013-01-16 RefSeq rel. 57 (Jan, 2013) に更新。
+	<li>2012-12-21 GGGenome REST APIを公開。
+	<li>2012-12-21 ラット、ショウジョウバエ、線虫のゲノムを追加。
+	<li>2012-11-15 RefSeq rel. 56 (Nov, 2012) に更新。
+	<li>2012-07-26 マウスゲノムを追加。
+	<li>2012-07-25 RefSeq rel. 54 (Jul, 2012) に更新。
+	<li>2012-07-04 ゲゲゲノムのテストサイトを構築
+</ul>
+</div>

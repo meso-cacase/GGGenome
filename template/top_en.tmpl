@@ -1,0 +1,87 @@
+<div>
+Search example:
+<ul>
+	<li><font color=purple>[</font>
+		<a href='GCAAGAAGAGATTGC'>GCAAGAAGAGATTGC</a>
+		<font color=purple>]</font> ...... Search for a nucleotide sequence
+</ul>
+</div>
+
+<div>
+Search tips:
+<ul>
+	<li>GGGenome is an ultrafast search engine for nucleotide sequences.
+	<li>Searches are always case insensitive.
+	<li>U and T will be treated identically.
+	<li>Ambiguous nucleotide characters (R,Y etc.) are converted to N's.
+	<li>All other characters are ignored.
+	<li>GGGenome shows first <TMPL_VAR NAME=MAX_HIT_HTML> results for each strand of the query sequence.
+	<li>Maximum <TMPL_VAR NAME=MAX_HIT_API> results can be retrieved as TXT or JSON format.
+</ul>
+</div>
+
+<div>
+URIs:
+<ul>
+	<li>http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#ff6600'>db</span>/<!--
+		--><span style='color:#0000ff'>k</span>/<!--
+		--><span style='color:#008000'>sequence</span><!--
+		-->[.<span style='color:#FF0080'>format</span>]<!--
+		-->[.<span style='color:brown'>download</span>]
+	<ul>
+		<li><span style='color:#ff6600'>db</span>:
+			hg19, mm10, rn5, dm3, ce10, rice, bmor1, refseq, ddbj. (default: hg19)
+		<li><span style='color:#0000ff'>k</span>:
+			Maximum number of mismatches/gaps. (default: 0)
+		<li><span style='color:#008000'>sequence</span>:
+			Nucleotide sequence, case insensitive.
+		<li><span style='color:#FF0080'>format</span>:
+			html, txt, json. (default: html)
+		<li><span style='color:brown'>download</span>:
+			Download result as a file. (optional)
+	</ul>
+	<li>Example 1: <a href='http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC'><!--
+		-->http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#008000'>GCAAGAAGAGATTGC</span><!--
+		--></a>
+	<ul>
+		<li>Search <span style='color:#008000'>GCAAGAAGAGATTGC</span> in
+		<li>human genome <span style='color:#ff6600'>hg19</span> (default),
+		<li>with perfect matches (default),
+		<li>output in <span style='color:#FF0080'>html</span> format (default).
+	</ul>
+	<li>Example 2: <a href='http://GGGenome.dbcls.jp/mm10/2/GCAAGAGAGATTGCTTAGCG.txt'><!--
+		-->http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#ff6600'>mm10</span>/<!--
+		--><span style='color:#0000ff'>2</span>/<!--
+		--><span style='color:#008000'>GCAAGAGAGATTGCTTAGCG</span><!--
+		-->.<span style='color:#FF0080'>txt</span><!--
+		--></a>
+	<ul>
+		<li>Search <span style='color:#008000'>GCAAGAGAGATTGCTTAGCG</span> in
+		<li>mouse genome <span style='color:#ff6600'>mm10</span>,
+		<li>allowing <span style='color:#0000ff'>2</span> mismatches/gaps,
+		<li>output in tab-delimited <span style='color:#FF0080'>txt</span> format.
+	</ul>
+</ul>
+</div>
+
+<div>
+What's new:
+<ul>
+	<li>2013-02-26 Search results are also available for download.
+	<li>2013-02-12 Silkworm genome is available.
+	<li>2013-02-08 English page has launched.
+	<li>2013-02-08 Rice genome is available.
+	<li>2013-02-06 Source code available via
+		<a class=a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>.
+	<li>2013-01-16 Database updated to RefSeq rel. 57 (Jan, 2013).
+	<li>2012-12-21 GGGenome REST API is available.
+	<li>2012-12-21 Rat, <i>Drosophila</i> and <i>C. elegans</i> genomes are available.
+	<li>2012-11-15 Database updated to RefSeq rel. 56 (Nov, 2012).
+	<li>2012-07-26 Mouse genome is available.
+	<li>2012-07-25 Database updated to RefSeq rel. 54 (Jul, 2012).
+	<li>2012-07-04 GGGenome launched.
+</ul>
+</div>

@@ -6,6 +6,7 @@
 # 曖昧検索サーバに問い合わせを行い、結果を HTML, TXT, JSON 形式で出力する
 #
 # 必要なモジュール：
+# HTML::Template
 # LWP::Simple
 # JSON::XS
 # ./Align2seq.pm (by Yuki Naito)
@@ -16,24 +17,28 @@
 # 2013-02-08 Yuki Naito (@meso_cacase) 英語版HTMLの出力に対応
 # 2013-02-22 Yuki Naito (@meso_cacase) URIルーティングを本スクリプトに実装
 # 2013-02-25 Yuki Naito (@meso_cacase) 検索結果のダウンロードに対応
+# 2013-02-26 Yuki Naito (@meso_cacase) HTMLをテンプレート化
 
 #- ▼ モジュール読み込みと変数の初期化
 use warnings ;
 use strict ;
 use Time::HiRes ;
 
-eval 'use LWP::Simple ; 1' or   # 曖昧検索サーバとの接続に使用
+eval 'use HTML::Template ; 1' or  # HTMLをテンプレート化
+	printresult('ERROR : cannot load HTML::Template') ;
+
+eval 'use LWP::Simple ; 1' or     # 曖昧検索サーバとの接続に使用
 	printresult('ERROR : cannot load LWP::Simple') ;
 
-eval 'use JSON::XS ; 1' or      # 曖昧検索サーバとの接続に使用
+eval 'use JSON::XS ; 1' or        # 曖昧検索サーバとの接続に使用
 	printresult('ERROR : cannot load JSON::XS') ;
 
-my @timer ;                     # 実行時間計測用
-my $timestamp = timestamp() ;   # CGIを実行した時刻
-my $min_query_length = 6 ;      # クエリの最低塩基長
-my $max_k            = 20 ;     # 許容するミスマッチ/ギャップ数の上限、％
-my $max_hit_html     = 50 ;     # 検索を打ち切るヒット数、HTMLの場合
-my $max_hit_api      = 10000 ;  # 検索を打ち切るヒット数、TXTまたはJSONの場合
+my @timer ;                       # 実行時間計測用
+my $timestamp = timestamp() ;     # CGIを実行した時刻
+my $min_query_length = 6 ;        # クエリの最低塩基長
+my $max_k            = 20 ;       # 許容するミスマッチ/ギャップ数の上限、％
+my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
+my $max_hit_api      = 10000 ;    # 検索を打ち切るヒット数、TXTまたはJSONの場合
 
 my %db_fullname = (             # データベースの正式名
 	'hg19'   => 'Human genome, GRCh37/hg19 (Feb, 2009)',
@@ -369,112 +374,35 @@ if ($format eq 'txt'){
 
 	$query_string = escape_char($query_string // '') ;  # 結果ページに表示するためXSS対策
 	$query_string =~ s/(^\s+|\s+$)//g ;                 # 先頭または末尾の空白文字を除去
+
+	my $template_search_file = ($lang eq 'ja') ?
+	                           'template/search_ja.tmpl' :  # Japanese HTML
+	                           'template/search_en.tmpl' ;  # default: English HTML
+
+	my $template_search = HTML::Template->new(filename => $template_search_file) ;
+
 	$" = "\n" ;
-	my $html = ($lang eq 'ja') ?
-	#--- ▽ +++++++++++++++++ Japanese HTML ++++++++++++++++++
-"<p class=g>$timestamp, GGGenome : $db_fullname</p>
+	$template_search->param(
+		TIMESTAMP    => $timestamp,
+		DB_FULLNAME  => $db_fullname,
+		SUMMARY      => "@summary",
+		MAX_HIT_HTML => $max_hit_html,
+		HIT_LIST     => "@hit_list",
+		MAX_HIT_API  => $max_hit_api,
+		HTTP_HOST    => $ENV{'HTTP_HOST'},
+		REQUEST_URI  => $request_uri,
+		REDIRECT_URI => $redirect_uri,
+		LANG         => $lang,
+		DB           => $db,
+		K            => $k,
+		QUERY        => $query_string,
+		FORMAT       => $format,
+		DOWNLOAD     => $download,
+		TIMELOG      => "@timelog"
+	) ;
 
-<h4>Summary:</h4>
-<div>
-<ul>
-@summary
-</ul>
-</div>
-
-<h4>Results:</h4>
-<p>＋鎖および－鎖それぞれ${max_hit_html}件まで表示。
-検索語に<em>色がつきます（<strong>ミスマッチ</strong>・<ins>挿入</ins><del>欠失</del>）</em>。</p>
-@hit_list
-
-<h4>Data Export:</h4>
-
-<p>下記より最大${max_hit_api}件まで検索結果を取得できます。</p>
-
-<div>
-<ul>
-	<li>タブ区切りテキスト &rarr;
-		<a href='?format=txt'>表示</a> |
-		<a href='?format=txt&download=true'>ダウンロード</a><br>
-		エクセル等の表計算ソフトに直接コピペできます。
-	<li>JSON形式 &rarr;
-		<a href='?format=json'>表示</a> |
-		<a href='?format=json&download=true'>ダウンロード</a>
-</ul>
-</div>
-
-<h4 class=s>デバッグ用データ:</h4>
-
-<p class=s>
-<!--
-Request URI  : http://<font color='#808080'>$ENV{'HTTP_HOST'}</font>$request_uri<br>
--->
-Redirect URI : http://<font color='#808080'>$ENV{'HTTP_HOST'}</font>$redirect_uri<br>
-lang         : <font color='#808080'>$lang</font>         |
-db           : <font color='#ffb280'>$db</font>           |
-k            : <font color='#7f7fff'>$k</font>            |
-query_string : <font color='#6bb36b'>$query_string</font> |
-format       : <font color='#ff80bf'>$format</font>       |
-download     : <font color='#808080'>$download</font>
-</p>
-
-<pre class=s>
-@timelog
-</pre>" :
-	#--- △ +++++++++++++++++ Japanese HTML ++++++++++++++++++
-	#--- ▽ +++++++++++++++++ English HTML +++++++++++++++++++
-"<p class=g>$timestamp, GGGenome : $db_fullname</p>
-
-<h4>Summary:</h4>
-<div>
-<ul>
-@summary
-</ul>
-</div>
-
-<h4>Results:</h4>
-<p>Showing first ${max_hit_html} results for each strand of the query sequence.<br>
-Matches are <em>highlighted with blue background.
-<strong>Mismatches</strong> and <ins>in</ins><del>dels</del></em> are marked in red.</p>
-@hit_list
-
-<h4>Data Export:</h4>
-
-<p>Maximum ${max_hit_api} results can be retrieved as Tab-delimited text or JSON format.</p>
-
-<div>
-<ul>
-	<li>Tab-delimited text:
-		<a href='?format=txt'>Open in new window</a> |
-		<a href='?format=txt&download=true'>Download</a><br>
-		You can copy-paste the result into spreadsheet softwares
-		(<i>e.g.</i> Excel) or text editors.
-	<li>JSON format:
-		<a href='?format=json'>Open in new window</a> |
-		<a href='?format=json&download=true'>Download</a>
-</ul>
-</div>
-
-<h4 class=s>Debug Info:</h4>
-
-<p class=s>
-<!--
-Request URI  : http://<font color='#808080'>$ENV{'HTTP_HOST'}</font>$request_uri<br>
--->
-Redirect URI : http://<font color='#808080'>$ENV{'HTTP_HOST'}</font>$redirect_uri<br>
-lang         : <font color='#808080'>$lang</font>         |
-db           : <font color='#ffb280'>$db</font>           |
-k            : <font color='#7f7fff'>$k</font>            |
-query_string : <font color='#6bb36b'>$query_string</font> |
-format       : <font color='#ff80bf'>$format</font>       |
-download     : <font color='#808080'>$download</font>
-</p>
-
-<pre class=s>
-@timelog
-</pre>" ;
-	#--- △ +++++++++++++++++ English HTML +++++++++++++++++++
-	($lang eq 'ja') ? print_html_ja($html) :  # Japanese HTML
-	                  print_html_en($html) ;  # default: English HTML
+	($lang eq 'ja') ? print_html_ja($template_search->output) :  # Japanese HTML
+	                  print_html_en($template_search->output) ;  # default: English HTML
 }
 #-- △ HTML形式
 #- ▲ 塩基配列の検索と結果出力
@@ -766,181 +694,33 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 #- ▲ エラーページを出力：引数が ERROR で始まる場合
 
 #- ▼ トップページ：引数がない場合
-(not $html) and $html =
-#-- ▽ ++++++++++++++++++++++++++++++++++++++++++++++++++
-"<div>
-検索例：
-<ul>
-	<li><font color=purple>[</font>
-		<a href='GCAAGAAGAGATTGC'>GCAAGAAGAGATTGC</a>
-		<font color=purple>]</font> ...... 塩基配列を検索
-</ul>
-</div>
+my $template_top = HTML::Template->new(filename => 'template/top_ja.tmpl') ;
 
-<div>
-ひとこと：
-<ul>
-	<li>塩基配列を高速に検索するサイトです。
-	<li>大文字・小文字は区別しません。
-	<li>U は T とまったく同じです。
-	<li>ATGCU 以外の塩基 (R,Y等) は N とみなします。
-	<li>それ以外の文字は除去して検索されます。
-	<li>＋鎖および－鎖それぞれ${max_hit_html}件まで結果を表示します。
-	<li>TXT, JSON形式ではそれぞれ${max_hit_api}件まで取得できます。</font>
-</ul>
-</div>
+$template_top->param(
+	MAX_HIT_HTML => $max_hit_html,
+	MAX_HIT_API  => $max_hit_api
+) ;
 
-<div>
-検索結果へのリンク：
-<ul>
-	<li>http://GGGenome.dbcls.jp/<!--
-		--><span style='color:#ff6600'>db</span>/<!--
-		--><span style='color:#0000ff'>k</span>/<!--
-		--><span style='color:#008000'>sequence</span><!--
-		-->[.<span style='color:#FF0080'>format</span>]<!--
-		-->[.<span style='color:brown'>download</span>]
-	<ul>
-		<li><span style='color:#ff6600'>db</span> &rarr;
-			hg19, mm10, rn5, dm3, ce10, rice, bmor1, refseq, ddbj。省略時は hg19
-		<li><span style='color:#0000ff'>k</span> &rarr;
-			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
-		<li><span style='color:#008000'>sequence</span> &rarr;
-			塩基配列。大文字・小文字は区別しない
-		<li><span style='color:#FF0080'>format</span> &rarr;
-			html, txt, json。省略時は html
-		<li><span style='color:brown'>download</span> &rarr;
-			URLの最後に付加すると検索結果をファイルとしてダウンロードできる
-	</ul>
-	<li>例1：<a href='http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC'><!--
-		-->http://GGGenome.dbcls.jp/<!--
-		--><span style='color:#008000'>GCAAGAAGAGATTGC</span><!--
-		--></a>
-	<ul>
-		<li>ヒトゲノム <span style='color:#ff6600'>hg19</span> (省略可) で
-		<li>ミスマッチ/ギャップを許容せず (省略可)
-		<li><span style='color:#008000'>GCAAGAAGAGATTGC</span> を検索し
-		<li><span style='color:#FF0080'>html</span> 形式 (省略可) で結果を返す
-	</ul>
-	<li>例2：<a href='http://GGGenome.dbcls.jp/mm10/2/GCAAGAGAGATTGCTTAGCG.txt'><!--
-		-->http://GGGenome.dbcls.jp/<!--
-		--><span style='color:#ff6600'>mm10</span>/<!--
-		--><span style='color:#0000ff'>2</span>/<!--
-		--><span style='color:#008000'>GCAAGAGAGATTGCTTAGCG</span><!--
-		-->.<span style='color:#FF0080'>txt</span><!--
-		--></a>
-	<ul>
-		<li>マウスゲノム <span style='color:#ff6600'>mm10</span> で
-		<li><span style='color:#0000ff'>2</span> ミスマッチ/ギャップまで許容して
-		<li><span style='color:#008000'>GCAAGAGAGATTGCTTAGCG</span> を検索し
-		<li><span style='color:#FF0080'>txt</span> 形式 (タブ区切りテキスト) で結果を返す
-	</ul>
-</ul>
-</div>
-
-<div>
-新着情報：
-<ul>
-	<li>2013-02-26 検索結果のダウンロードに対応。
-	<li>2013-02-12 カイコゲノムを追加。
-	<li>2013-02-08 <a class=a href='en/'>英語版</a> を公開。
-	<li>2013-02-08 イネゲノムを追加。
-	<li>2013-02-06 ソースを公開 -
-		<a class=a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>
-	<li>2013-01-16 RefSeq rel. 57 (Jan, 2013) に更新。
-	<li>2012-12-21 GGGenome REST APIを公開。
-	<li>2012-12-21 ラット、ショウジョウバエ、線虫のゲノムを追加。
-	<li>2012-11-15 RefSeq rel. 56 (Nov, 2012) に更新。
-	<li>2012-07-26 マウスゲノムを追加。
-	<li>2012-07-25 RefSeq rel. 54 (Jul, 2012) に更新。
-	<li>2012-07-04 ゲゲゲノムのテストサイトを構築
-</ul>
-</div>" and
-#-- △ ++++++++++++++++++++++++++++++++++++++++++++++++++
+(not $html) and
+$html   = $template_top->output and
 $title  = '超絶高速ゲノム配列検索 GGGenome' and
 $robots = '' ;
 #- ▲ トップページ：引数がない場合
 
 #- ▼ HTML出力
-print
-#-- ▽ ++++++++++++++++++++++++++++++++++++++++++++++++++
-"Content-type: text/html; charset=utf-8
+my $template_index = HTML::Template->new(filename => 'template/index_ja.tmpl') ;
 
-<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
-<html lang=ja>
+$template_index->param(
+	ROBOTS => $robots,
+	TITLE  => $title,
+	QUERY  => $query_string,
+	SELECT => $select,
+	K      => $k,
+	HTML   => $html
+) ;
 
-<head>
-<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-<meta http-equiv='Content-Style-Type' content='text/css'>
-$robots<meta name=author content='Yuki Naito'>
-<title>$title</title>
-<style type='text/css'>
-<!--
-	* { font-family:verdana,arial,helvetica,sans-serif }
-	p,ol,pre,div,small,cite { font-size:9pt }
-	cite { color:#0E774A; font-style:normal }
-	a { color:black; font-style:normal }
-	em { font-style:normal;
-		border:1px solid #00BCFF;
-		background-color:#DDF6FF }
-	strong { font-style:normal;
-		font-weight:bold;
-		color:red;
-		background-color:#DDF6FF }
-	ins,del { font-style:normal;
-		font-weight:bold;
-		text-decoration:none;
-		background-color:pink }
-	.position { position:absolute;
-		top:-1.2em;
-		color:#0E774A;
-		font-size:80%;
-		user-select:none　}
-	.gene { margin:10pt }
-	.a { color:#3366CC }
-	.t { font-size:10pt; width:90% }
-	.b { word-wrap:break-word; width:90% }
-	.g { color:gray; width:90% }
-	.s { color:silver; width:90% }
--->
-</style>
-</head>
-
-<body>
-
-<a href='.'><img src='GGGlogo_ja.png' alt='GGGenome' height=71 width=257 border=0></a>
-
-<small style='vertical-align:top'>
-<a style='vertical-align:top' class=k href='?lang=en'>English</a>
-</small>
-
-<form name=gggenome method=GET action='.'>
-<p>
-<input type=text name=query size=70 value='$query_string'>
-<input type=submit value='検索'>
-<select id=db name=db>
-$select
-</select>
-<br>
-許容するミスマッチ/ギャップの数：<input type=text name=k size=3 value='$k'>
-(検索する塩基配列の長さの20%まで)
-</p>
-</form>
-
-$html
-
-<hr><!-- __________________________________________________ -->
-
-<p class=g>by
-<a target='_blank' class=a href='http://twitter.com/meso_cacase'>\@meso_cacase</a> at 
-<a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
-This page is licensed under a
-<a target='_blank' class=a href='http://creativecommons.org/licenses/by/2.1/jp/'>
-Creative Commons Attribution 2.1 Japan License</a>.</p>
-
-</body>
-</html>
-" ;
-#-- △ ++++++++++++++++++++++++++++++++++++++++++++++++++
+print "Content-type: text/html; charset=utf-8\n\n" ;
+print $template_index->output ;
 #- ▲ HTML出力
 
 return ;
@@ -984,181 +764,33 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 #- ▲ エラーページを出力：引数が ERROR で始まる場合
 
 #- ▼ トップページ：引数がない場合
-(not $html) and $html =
-#-- ▽ ++++++++++++++++++++++++++++++++++++++++++++++++++
-"<div>
-Search example:
-<ul>
-	<li><font color=purple>[</font>
-		<a href='GCAAGAAGAGATTGC'>GCAAGAAGAGATTGC</a>
-		<font color=purple>]</font> ...... Search for a nucleotide sequence
-</ul>
-</div>
+my $template_top = HTML::Template->new(filename => 'template/top_en.tmpl') ;
 
-<div>
-Search tips:
-<ul>
-	<li>GGGenome is an ultrafast search engine for nucleotide sequences.
-	<li>Searches are always case insensitive.
-	<li>U and T will be treated identically.
-	<li>Ambiguous nucleotide characters (R,Y etc.) are converted to N's.
-	<li>All other characters are ignored.
-	<li>GGGenome shows first ${max_hit_html} results for each strand of the query sequence.
-	<li>Maximum ${max_hit_api} results can be retrieved as TXT or JSON format.
-</ul>
-</div>
+$template_top->param(
+	MAX_HIT_HTML => $max_hit_html,
+	MAX_HIT_API  => $max_hit_api
+) ;
 
-<div>
-URIs:
-<ul>
-	<li>http://GGGenome.dbcls.jp/<!--
-		--><span style='color:#ff6600'>db</span>/<!--
-		--><span style='color:#0000ff'>k</span>/<!--
-		--><span style='color:#008000'>sequence</span><!--
-		-->[.<span style='color:#FF0080'>format</span>]<!--
-		-->[.<span style='color:brown'>download</span>]
-	<ul>
-		<li><span style='color:#ff6600'>db</span>:
-			hg19, mm10, rn5, dm3, ce10, rice, bmor1, refseq, ddbj. (default: hg19)
-		<li><span style='color:#0000ff'>k</span>:
-			Maximum number of mismatches/gaps. (default: 0)
-		<li><span style='color:#008000'>sequence</span>:
-			Nucleotide sequence, case insensitive.
-		<li><span style='color:#FF0080'>format</span>:
-			html, txt, json. (default: html)
-		<li><span style='color:brown'>download</span>:
-			Download result as a file. (optional)
-	</ul>
-	<li>Example 1: <a href='http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC'><!--
-		-->http://GGGenome.dbcls.jp/<!--
-		--><span style='color:#008000'>GCAAGAAGAGATTGC</span><!--
-		--></a>
-	<ul>
-		<li>Search <span style='color:#008000'>GCAAGAAGAGATTGC</span> in
-		<li>human genome <span style='color:#ff6600'>hg19</span> (default),
-		<li>with perfect matches (default),
-		<li>output in <span style='color:#FF0080'>html</span> format (default).
-	</ul>
-	<li>Example 2: <a href='http://GGGenome.dbcls.jp/mm10/2/GCAAGAGAGATTGCTTAGCG.txt'><!--
-		-->http://GGGenome.dbcls.jp/<!--
-		--><span style='color:#ff6600'>mm10</span>/<!--
-		--><span style='color:#0000ff'>2</span>/<!--
-		--><span style='color:#008000'>GCAAGAGAGATTGCTTAGCG</span><!--
-		-->.<span style='color:#FF0080'>txt</span><!--
-		--></a>
-	<ul>
-		<li>Search <span style='color:#008000'>GCAAGAGAGATTGCTTAGCG</span> in
-		<li>mouse genome <span style='color:#ff6600'>mm10</span>,
-		<li>allowing <span style='color:#0000ff'>2</span> mismatches/gaps,
-		<li>output in tab-delimited <span style='color:#FF0080'>txt</span> format.
-	</ul>
-</ul>
-</div>
-
-<div>
-What's new:
-<ul>
-	<li>2013-02-26 Search results are also available for download.
-	<li>2013-02-12 Silkworm genome is available.
-	<li>2013-02-08 English page has launched.
-	<li>2013-02-08 Rice genome is available.
-	<li>2013-02-06 Source code available via
-		<a class=a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>.
-	<li>2013-01-16 Database updated to RefSeq rel. 57 (Jan, 2013).
-	<li>2012-12-21 GGGenome REST API is available.
-	<li>2012-12-21 Rat, <i>Drosophila</i> and <i>C. elegans</i> genomes are available.
-	<li>2012-11-15 Database updated to RefSeq rel. 56 (Nov, 2012).
-	<li>2012-07-26 Mouse genome is available.
-	<li>2012-07-25 Database updated to RefSeq rel. 54 (Jul, 2012).
-	<li>2012-07-04 GGGenome launched.
-</ul>
-</div>" and
-#-- △ ++++++++++++++++++++++++++++++++++++++++++++++++++
+(not $html) and
+$html   = $template_top->output and
 $title  = 'GGGenome | ultrafast DNA search' and
 $robots = '' ;
 #- ▲ トップページ：引数がない場合
 
 #- ▼ HTML出力
-print
-#-- ▽ ++++++++++++++++++++++++++++++++++++++++++++++++++
-"Content-type: text/html; charset=utf-8
+my $template_index = HTML::Template->new(filename => 'template/index_en.tmpl') ;
 
-<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
-<html lang=ja>
+$template_index->param(
+	ROBOTS => $robots,
+	TITLE  => $title,
+	QUERY  => $query_string,
+	SELECT => $select,
+	K      => $k,
+	HTML   => $html
+) ;
 
-<head>
-<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-<meta http-equiv='Content-Style-Type' content='text/css'>
-$robots<meta name=author content='Yuki Naito'>
-<title>$title</title>
-<style type='text/css'>
-<!--
-	* { font-family:verdana,arial,helvetica,sans-serif }
-	p,ol,pre,div,small,cite { font-size:9pt }
-	cite { color:#0E774A; font-style:normal }
-	a { color:black; font-style:normal }
-	em { font-style:normal;
-		border:1px solid #00BCFF;
-		background-color:#DDF6FF }
-	strong { font-style:normal;
-		font-weight:bold;
-		color:red;
-		background-color:#DDF6FF }
-	ins,del { font-style:normal;
-		font-weight:bold;
-		text-decoration:none;
-		background-color:pink }
-	.position { position:absolute;
-		top:-1.2em;
-		color:#0E774A;
-		font-size:80%;
-		user-select:none　}
-	.gene { margin:10pt }
-	.a { color:#3366CC }
-	.t { font-size:10pt; width:90% }
-	.b { word-wrap:break-word; width:90% }
-	.g { color:gray; width:90% }
-	.s { color:silver; width:90% }
--->
-</style>
-</head>
-
-<body>
-
-<a href='.'><img src='GGGlogo_en.png' alt='GGGenome' height=71 width=257 border=0></a>
-
-<small style='vertical-align:top'>
-<a style='vertical-align:top' class=k href='?lang=ja'>Japanese</a>
-</small>
-
-<form name=gggenome method=GET action='.'>
-<p>
-<input type=text name=query size=70 value='$query_string'>
-<input type=submit value='Search'>
-<select id=db name=db>
-$select
-</select>
-<br>
-Max number of mismatches/gaps: <input type=text name=k size=3 value='$k'>
-(no more than 20% of the query length)
-</p>
-</form>
-
-$html
-
-<hr><!-- __________________________________________________ -->
-
-<p class=g>by
-<a target='_blank' class=a href='http://twitter.com/meso_cacase'>\@meso_cacase</a> at 
-<a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
-This page is licensed under a
-<a target='_blank' class=a href='http://creativecommons.org/licenses/by/2.1/jp/'>
-Creative Commons Attribution 2.1 Japan License</a>.</p>
-
-</body>
-</html>
-" ;
-#-- △ ++++++++++++++++++++++++++++++++++++++++++++++++++
+print "Content-type: text/html; charset=utf-8\n\n" ;
+print $template_index->output ;
 #- ▲ HTML出力
 
 return ;

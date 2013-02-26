@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<meta http-equiv='Content-Style-Type' content='text/css'>
+<TMPL_VAR NAME=ROBOTS><meta name=author content='Yuki Naito'>
+<title><TMPL_VAR NAME=TITLE></title>
+<style type='text/css'>
+<!--
+	* { font-family:verdana,arial,helvetica,sans-serif }
+	p,ol,pre,div,small,cite { font-size:9pt }
+	cite { color:#0E774A; font-style:normal }
+	a { color:black; font-style:normal }
+	em { font-style:normal;
+		border:1px solid #00BCFF;
+		background-color:#DDF6FF }
+	strong { font-style:normal;
+		font-weight:bold;
+		color:red;
+		background-color:#DDF6FF }
+	ins,del { font-style:normal;
+		font-weight:bold;
+		text-decoration:none;
+		background-color:pink }
+	.position { position:absolute;
+		top:-1.2em;
+		color:#0E774A;
+		font-size:80%;
+		user-select:none　}
+	.gene { margin:10pt }
+	.a { color:#3366CC }
+	.t { font-size:10pt; width:90% }
+	.b { word-wrap:break-word; width:90% }
+	.g { color:gray; width:90% }
+	.s { color:silver; width:90% }
+-->
+</style>
+</head>
+
+<body>
+
+<a href='.'><img src='GGGlogo_en.png' alt='GGGenome' height=71 width=257 border=0></a>
+
+<small style='vertical-align:top'>
+<a style='vertical-align:top' class=k href='?lang=ja'>Japanese</a>
+</small>
+
+<form name=gggenome method=GET action='.'>
+<p>
+<input type=text name=query size=70 value='<TMPL_VAR NAME=QUERY>'>
+<input type=submit value='Search'>
+<select id=db name=db>
+<TMPL_VAR NAME=SELECT>
+</select>
+<br>
+Max number of mismatches/gaps: <input type=text name=k size=3 value='<TMPL_VAR NAME=K>'>
+(no more than 20% of the query length)
+</p>
+</form>
+
+<TMPL_VAR NAME=HTML>
+
+<hr><!-- __________________________________________________ -->
+
+<p class=g>by
+<a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
+<a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
+This page is licensed under a
+<a target='_blank' class=a href='http://creativecommons.org/licenses/by/2.1/jp/'>
+Creative Commons Attribution 2.1 Japan License</a>.</p>
+
+</body>
+</html>

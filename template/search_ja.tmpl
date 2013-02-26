@@ -1,0 +1,48 @@
+<p class=g><TMPL_VAR NAME=TIMESTAMP>, GGGenome : <TMPL_VAR NAME=DB_FULLNAME></p>
+
+<h4>Summary:</h4>
+<div>
+<ul>
+<TMPL_VAR NAME=SUMMARY>
+</ul>
+</div>
+
+<h4>Results:</h4>
+<p>＋鎖および－鎖それぞれ<TMPL_VAR NAME=MAX_HIT_HTML>件まで表示。
+検索語に<em>色がつきます（<strong>ミスマッチ</strong>・<ins>挿入</ins><del>欠失</del>）</em>。</p>
+<TMPL_VAR NAME=HIT_LIST>
+
+<h4>Data Export:</h4>
+
+<p>下記より最大<TMPL_VAR NAME=MAX_HIT_API>件まで検索結果を取得できます。</p>
+
+<div>
+<ul>
+	<li>タブ区切りテキスト &rarr;
+		<a href='?format=txt'>表示</a> |
+		<a href='?format=txt&download=true'>ダウンロード</a><br>
+		エクセル等の表計算ソフトに直接コピペできます。
+	<li>JSON形式 &rarr;
+		<a href='?format=json'>表示</a> |
+		<a href='?format=json&download=true'>ダウンロード</a>
+</ul>
+</div>
+
+<h4 class=s>デバッグ用データ:</h4>
+
+<p class=s>
+<!--
+Request URI  : http://<font color='#808080'><TMPL_VAR NAME=HTTP_HOST></font><TMPL_VAR NAME=REQUEST_URI><br>
+-->
+Redirect URI : http://<font color='#808080'><TMPL_VAR NAME=HTTP_HOST></font><TMPL_VAR NAME=REDIRECT_URI><br>
+lang         : <font color='#808080'><TMPL_VAR NAME=LANG></font>         |
+db           : <font color='#ffb280'><TMPL_VAR NAME=DB></font>           |
+k            : <font color='#7f7fff'><TMPL_VAR NAME=K></font>            |
+query_string : <font color='#6bb36b'><TMPL_VAR NAME=QUERY></font> |
+format       : <font color='#ff80bf'><TMPL_VAR NAME=FORMAT></font>       |
+download     : <font color='#808080'><TMPL_VAR NAME=DOWNLOAD></font>
+</p>
+
+<pre class=s>
+<TMPL_VAR NAME=TIMELOG>
+</pre>

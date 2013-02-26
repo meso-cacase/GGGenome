@@ -1,0 +1,50 @@
+<p class=g><TMPL_VAR NAME=TIMESTAMP>, GGGenome : <TMPL_VAR NAME=DB_FULLNAME></p>
+
+<h4>Summary:</h4>
+<div>
+<ul>
+<TMPL_VAR NAME=SUMMARY>
+</ul>
+</div>
+
+<h4>Results:</h4>
+<p>Showing first <TMPL_VAR NAME=MAX_HIT_HTML> results for each strand of the query sequence.<br>
+Matches are <em>highlighted with blue background.
+<strong>Mismatches</strong> and <ins>in</ins><del>dels</del></em> are marked in red.</p>
+<TMPL_VAR NAME=HIT_LIST>
+
+<h4>Data Export:</h4>
+
+<p>Maximum <TMPL_VAR NAME=MAX_HIT_API> results can be retrieved as Tab-delimited text or JSON format.</p>
+
+<div>
+<ul>
+	<li>Tab-delimited text:
+		<a href='?format=txt'>Open in new window</a> |
+		<a href='?format=txt&download=true'>Download</a><br>
+		You can copy-paste the result into spreadsheet softwares
+		(<i>e.g.</i> Excel) or text editors.
+	<li>JSON format:
+		<a href='?format=json'>Open in new window</a> |
+		<a href='?format=json&download=true'>Download</a>
+</ul>
+</div>
+
+<h4 class=s>Debug Info:</h4>
+
+<p class=s>
+<!--
+Request URI  : http://<font color='#808080'><TMPL_VAR NAME=HTTP_HOST></font><TMPL_VAR NAME=REQUEST_URI><br>
+-->
+Redirect URI : http://<font color='#808080'><TMPL_VAR NAME=HTTP_HOST></font><TMPL_VAR NAME=REDIRECT_URI><br>
+lang         : <font color='#808080'><TMPL_VAR NAME=LANG></font>         |
+db           : <font color='#ffb280'><TMPL_VAR NAME=DB></font>           |
+k            : <font color='#7f7fff'><TMPL_VAR NAME=K></font>            |
+query_string : <font color='#6bb36b'><TMPL_VAR NAME=QUERY></font> |
+format       : <font color='#ff80bf'><TMPL_VAR NAME=FORMAT></font>       |
+download     : <font color='#808080'><TMPL_VAR NAME=DOWNLOAD></font>
+</p>
+
+<pre class=s>
+<TMPL_VAR NAME=TIMELOG>
+</pre>
