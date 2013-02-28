@@ -545,15 +545,14 @@ my $align = Align2seq::diffseq(uc($queryseq), uc($sbjct)) ;
 my $snippet_html =
 	$snippet_5prime .
 	'<em style="position:relative">' .
-	"<span class=position>▼$position</span>" .
+	"<span class=position>&#9660;$position</span>" .
 	"$align</em>$snippet_3prime" ;
 
-#【TODO】NCBI等へのリンクを設定
 $name =~ s/^>// ;
 my $html =
 "<div class=gene><!-- ==================== -->
 <div class=t>
-$name:$position-$position_end
+@{[ link_seqname($name, $position, $position_end, $db) ]}
 </div>
 <div class=b>
 $snippet_html
@@ -567,6 +566,28 @@ $snippet_html
 -->
 </div>" ;
 return $html ;
+} ;
+# ====================
+sub link_seqname {  # 配列名やヒット位置の情報を整形、NCBIやUCSCへのリンクを設定
+my $name    = $_[0] // '' ;
+my $pos     = $_[1] // '' ;
+my $pos_end = $_[2] // '' ;
+my $db      = $_[3] // '' ;
+
+($db =~ /^(hg19|mm10|rn5|dm3|ce10)$/) ?
+	return "<a class=a target='_blank' href='" .
+	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
+	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
+($db eq 'refseq' and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
+	return "<a class=a target='_blank' href=" .
+	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
+	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
+($db eq 'ddbj' and $name =~ /^.*?\|(\S+)\s+(.*)$/) ?
+	return "<a class=a target='_blank' href=" .
+	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
+	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
+# それ以外の場合 (rice, bmor1)
+	return "$name<br>$pos-$pos_end\n" ;
 } ;
 # ====================
 sub escape_char {  # < > & ' " の5文字を実態参照に変換
