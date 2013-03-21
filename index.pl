@@ -205,7 +205,7 @@ my @hit_list ;    # 検索結果のリスト
 #-- ▽ TXT(タブ区切りテキスト)形式
 if ($format eq 'txt'){
 	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
-	push @summary, "# [GGGenome | $timestamp ]" ;
+	push @summary, "# [ GGGenome | $timestamp ]" ;
 	push @summary, "# database:	$db_fullname" ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
@@ -724,7 +724,7 @@ $template_top->param(
 
 (not $html) and
 $html   = $template_top->output and
-$title  = '超絶高速ゲノム配列検索 GGGenome' and
+$title  = '超絶高速ゲノム配列検索GGGenome' and
 $robots = '' ;
 #- ▲ トップページ：引数がない場合
 
