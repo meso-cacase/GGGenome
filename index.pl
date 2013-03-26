@@ -72,21 +72,22 @@ my $download     = '' ;  # ファイルとしてダウンロードするか: (bo
 my $request_uri = $ENV{'REQUEST_URI'} // '' ;
 $request_uri =~ s/\?.*// ;  # '?' 以降のQUERY_STRING部分を除去
 
-#--- ▽ スラッシュ間 (/value/) のパラメーターを処理
-my @path = split m{/}, $request_uri ;
-foreach (@path){
-	($_ =~ /^(ja|en)$/i) ?
+#--- ▽ スラッシュ間 (/param/) のパラメーターを処理
+while ($request_uri =~ m{([^/]+)(/?)}g){
+	my ($param, $slash) = ($1, $2) ;
+	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
-	($_ =~ /^(hg19|mm10|rn5|dm3|ce10|rice|bmor1|refseq|prok|ddbj)$/i) ?
+	($param =~ /^(hg19|mm10|rn5|dm3|ce10|rice|bmor1|refseq|prok|ddbj)$/i) ?
 		$db = lc $1 :
-	($_ =~ /^(\d+)$/) ?
+	($param =~ /^(\d+)$/) ?
 		$k = $1 :
+	(not $slash) ?  # 上記に当てはまらず最後の要素: $query_string へ
+		$query_string = $param :
 	() ;  # 解釈できないものは無視
 }
-#--- △ スラッシュ間 (/value/) のパラメーターを処理
+#--- △ スラッシュ間 (/param/) のパラメーターを処理
 
 #--- ▽ パスの最後の要素 (query.format) を処理
-$request_uri =~ m{([^/]*)$} and $query_string = $1 ;
 if ($query_string =~ s/(?:\.(html|txt|json)|\.(download))+$//i){
 	$1 and $format   = lc $1 ;
 	$2 and $download = 'true' ;
