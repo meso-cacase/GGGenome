@@ -218,7 +218,7 @@ if ($format eq 'txt'){
 	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
 
 	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_txt($_) ;
+		push @hit_list, show_hit_txt($_, '+') ;
 	}
 
 	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
@@ -238,7 +238,7 @@ if ($format eq 'txt'){
 	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
 
 	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_txt($_) ;
+		push @hit_list, show_hit_txt($_, '-') ;
 	}
 
 	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
@@ -250,7 +250,7 @@ if ($format eq 'txt'){
 	push @summary, "# count:	$hit_num" ;
 	#--- △ (-)鎖の検索実行と結果出力
 
-	push @summary, '# name	start	end	snippet' ;
+	push @summary, '# name	strand	start	end	snippet	snippet_pos	snippet_end' ;
 	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
 	print_txt(join "\n", (@summary, @hit_list)) ;
 #-- △ TXT(タブ区切りテキスト)形式
@@ -266,7 +266,7 @@ if ($format eq 'txt'){
 	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
 
 	foreach (@{$hits->{hits}}){
-		push @hit_list, @{ show_hit_json($_) } ;
+		push @hit_list, @{ show_hit_json($_, '+') } ;
 	}
 
 	# ヒット数、ヒット数が概算かどうかを出力
@@ -288,7 +288,7 @@ if ($format eq 'txt'){
 	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
 
 	foreach (@{$hits->{hits}}){
-		push @hit_list, @{ show_hit_json($_) } ;
+		push @hit_list, @{ show_hit_json($_, '-') } ;
 	}
 
 	# ヒット数、ヒット数が概算かどうかを出力
@@ -489,36 +489,53 @@ return (decode_json($json) // '', $uri) ;
 } ;
 # ====================
 sub show_hit_txt {  # ヒットした遺伝子をタブ区切りテキストで出力
-my $gene = $_[0] or return '' ;
+my $gene   = $_[0] or return '' ;
+my $strand = $_[1] // '' ;
 
-my $name     = $gene->{docname} // '' ;
-my $length   = $gene->{length}  // 0  ;
-my $position = $gene->{pos} + 1 // '' ;
-my $snippet  = $gene->{snippet} // '' ;
+my $name        = $gene->{docname}         // '' ;
+my $length      = $gene->{length}          // 0  ;
+my $position    = $gene->{pos} + 1         // '' ;
+my $snippet     = $gene->{snippet}         // '' ;
+my $snippet_pos = $gene->{snippet_pos} + 1 // '' ;
 
 my $position_end = $position + $length - 1 ;
+my $snippet_end  = $snippet_pos + length($snippet) - 1 ;
 
 $name =~ s/^>// ;
-my $txt = "$name	$position	$position_end	$snippet" ;
+my $txt = join "\t", (
+	$name,
+	$strand,
+	$position,
+	$position_end,
+	$snippet,
+	$snippet_pos,
+	$snippet_end
+) ;
 return $txt ;
 } ;
 # ====================
 sub show_hit_json {  # ヒットした遺伝子をJSONで出力
-my $gene = $_[0] or return '' ;
+my $gene   = $_[0] or return '' ;
+my $strand = $_[1] // '' ;
 
-my $name     = $gene->{docname} // '' ;
-my $length   = $gene->{length}  // 0  ;
-my $position = $gene->{pos} + 1 // '' ;
-my $snippet  = $gene->{snippet} // '' ;
+my $name        = $gene->{docname}         // '' ;
+my $length      = $gene->{length}          // 0  ;
+my $position    = $gene->{pos} + 1         // '' ;
+my $snippet     = $gene->{snippet}         // '' ;
+my $snippet_pos = $gene->{snippet_pos} + 1 // '' ;
 
 my $position_end = $position + $length - 1 ;
+my $snippet_end  = $snippet_pos + length($snippet) - 1 ;
 
 $name =~ s/^>// ;
 my $json = [{
 	name         => $name,
+	strand       => $strand,
 	position     => $position,
 	position_end => $position_end,
-	snippet      => $snippet
+	snippet      => $snippet,
+	snippet_pos  => $snippet_pos,
+	snippet_end  => $snippet_end
 }] ;
 return $json ;
 } ;
