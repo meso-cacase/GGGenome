@@ -48,7 +48,7 @@ my %db_fullname = (             # データベースの正式名
 	'ce10'   => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
 	'rice'   => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
 	'bmor1'  => 'Silkworm genome, Bmor1 (Apr, 2008)',
-	'refseq' => 'RefSeq complete RNA, release 57 (Jan, 2013)',
+	'refseq' => 'RefSeq complete RNA, release 58 (Mar, 2013)',
 	'prok'   => 'Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)',
 	'ddbj'   => 'DDBJ release 89.0 (Jun, 2012)'
 ) ;
@@ -190,8 +190,8 @@ my $port =                              # 曖昧検索サーバのポート
 	($db eq 'ce10'  ) ? 22283 :
 	($db eq 'rice'  ) ? 22293 :
 	($db eq 'bmor1' ) ? 22303 :
-	($db eq 'refseq') ? 22243 :
-	($db eq 'prok'  ) ? 22323 :
+	($db eq 'refseq') ? 42243 :
+	($db eq 'prok'  ) ? 42323 :
 	($db eq 'ddbj'  ) ? 32313 :
 	                    22233 ;         # default: Human genome (hg19)
 #-- △ 生物種 $db により切り替えるパラメータ

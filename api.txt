@@ -11,7 +11,7 @@ http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
     'ce10' - C. elegans genome, WS220/ce10 (Oct, 2010) or
     'rice' - Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) or
     'bmor1' - Silkworm genome, Bmor1 (Apr, 2008) or
-    'refseq' - RefSeq complete RNA, release 57 (Jan, 2013) or
+    'refseq' - RefSeq complete RNA, release 58 (Mar, 2013) or
     'prok' - Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013) or
     'ddbj' - DDBJ release 89.0 (Jun, 2012)
     Default: hg19
