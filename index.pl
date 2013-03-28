@@ -602,11 +602,11 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
-($db eq 'prok' and $name =~ /^rs:(\S+)\s+(.*?)\s*\{(.*)\}$/) ?
+($db eq 'prok' and $name =~ /^rs:(\S+)\s+(.*?)\s*\{((?:.*)refseq:"(.*?)"(?:.*))\}$/) ?
 	return "<a class=a target='_blank' href=" .
-	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
+	       "http://www.ncbi.nlm.nih.gov/nuccore/$4>$2</a><br>\n" .
 	       "<span class=g>$3</span><br>" .
-	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
+	       "<font color='#0E774A'>$4</font>:$pos-$pos_end" :
 ($db eq 'ddbj' and $name =~ /^.*?\|(\S+)\s+(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
