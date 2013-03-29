@@ -190,8 +190,8 @@ my $port =                              # 曖昧検索サーバのポート
 	($db eq 'ce10'  ) ? 22283 :
 	($db eq 'rice'  ) ? 22293 :
 	($db eq 'bmor1' ) ? 22303 :
-	($db eq 'refseq') ? 42243 :
-	($db eq 'prok'  ) ? 42323 :
+	($db eq 'refseq') ? 22243 :
+	($db eq 'prok'  ) ? 22323 :
 	($db eq 'ddbj'  ) ? 32313 :
 	                    22233 ;         # default: Human genome (hg19)
 #-- △ 生物種 $db により切り替えるパラメータ
