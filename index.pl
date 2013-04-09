@@ -155,7 +155,7 @@ if ($ENV{'HTTP_HOST'} and              # HTTP経由のリクエストで、か�
 
 #- ▼ defaultパラメータ設定
 $lang     ||= ($0 =~ /ja$/) ? 'ja' :  # lang が未定義で実行ファイルが index.cgi.ja の場合
-	          ($0 =~ /en$/) ? 'en' :  # lang が未定義で実行ファイルが index.cgi.en の場合
+              ($0 =~ /en$/) ? 'en' :  # lang が未定義で実行ファイルが index.cgi.en の場合
 	                          'en' ;  # default: en
 $db       ||= 'hg19' ;
 $k        ||= 0 ;
@@ -184,16 +184,16 @@ my $queryseq = flatsequence($query_string) ;  # 塩基構成文字以外を除�
 my $db_fullname = $db_fullname{$db} //  # データベースの正式名
 	$db_fullname{'hg19'} ;              # default: Human genome (hg19)
 my $port =                              # 曖昧検索サーバのポート
-	($db eq 'mm10'  ) ? 22253 :
-	($db eq 'rn5'   ) ? 22263 :
-	($db eq 'dm3'   ) ? 22273 :
-	($db eq 'ce10'  ) ? 22283 :
-	($db eq 'rice'  ) ? 22293 :
-	($db eq 'bmor1' ) ? 22303 :
-	($db eq 'refseq') ? 22243 :
-	($db eq 'prok'  ) ? 22323 :
+	($db eq 'mm10'  ) ? 42253 :
+	($db eq 'rn5'   ) ? 42263 :
+	($db eq 'dm3'   ) ? 42273 :
+	($db eq 'ce10'  ) ? 42283 :
+	($db eq 'rice'  ) ? 42293 :
+	($db eq 'bmor1' ) ? 42303 :
+	($db eq 'refseq') ? 42243 :
+	($db eq 'prok'  ) ? 42323 :
 	($db eq 'ddbj'  ) ? 32313 :
-	                    22233 ;         # default: Human genome (hg19)
+	                    42233 ;         # default: Human genome (hg19)
 #-- △ 生物種 $db により切り替えるパラメータ
 
 push @timer, [Time::HiRes::time(), 'search_start;'] ;                #===== 実行時間計測 =====
@@ -492,11 +492,11 @@ sub show_hit_txt {  # ヒットした遺伝子をタブ区切りテキストで�
 my $gene   = $_[0] or return '' ;
 my $strand = $_[1] // '' ;
 
-my $name        = $gene->{docname}         // '' ;
-my $length      = $gene->{length}          // 0  ;
-my $position    = $gene->{pos} + 1         // '' ;
-my $snippet     = $gene->{snippet}         // '' ;
-my $snippet_pos = $gene->{snippet_pos} + 1 // '' ;
+my $name        = $gene->{docname}     // '' ;
+my $length      = $gene->{length}      // 0  ;
+my $position    = $gene->{pos}         // '' ;
+my $snippet     = $gene->{snippet}     // '' ;
+my $snippet_pos = $gene->{snippet_pos} // '' ;
 
 my $position_end = $position + $length - 1 ;
 my $snippet_end  = $snippet_pos + length($snippet) - 1 ;
@@ -518,11 +518,11 @@ sub show_hit_json {  # ヒットした遺伝子をJSONで出力
 my $gene   = $_[0] or return '' ;
 my $strand = $_[1] // '' ;
 
-my $name        = $gene->{docname}         // '' ;
-my $length      = $gene->{length}          // 0  ;
-my $position    = $gene->{pos} + 1         // '' ;
-my $snippet     = $gene->{snippet}         // '' ;
-my $snippet_pos = $gene->{snippet_pos} + 1 // '' ;
+my $name        = $gene->{docname}     // '' ;
+my $length      = $gene->{length}      // 0  ;
+my $position    = $gene->{pos}         // '' ;
+my $snippet     = $gene->{snippet}     // '' ;
+my $snippet_pos = $gene->{snippet_pos} // '' ;
 
 my $position_end = $position + $length - 1 ;
 my $snippet_end  = $snippet_pos + length($snippet) - 1 ;
@@ -543,11 +543,11 @@ return $json ;
 sub show_hit_html {  # ヒットした遺伝子をHTMLで出力
 my $gene = $_[0] or return '' ;
 
-my $name        = $gene->{docname}         // '' ;
-my $length      = $gene->{length}          // 0  ;
-my $position    = $gene->{pos} + 1         // '' ;
-my $snippet     = $gene->{snippet}         // '' ;
-my $snippet_pos = $gene->{snippet_pos} + 1 // '' ;
+my $name        = $gene->{docname}     // '' ;
+my $length      = $gene->{length}      // 0  ;
+my $position    = $gene->{pos}         // '' ;
+my $snippet     = $gene->{snippet}     // '' ;
+my $snippet_pos = $gene->{snippet_pos} // '' ;
 
 my $position_end = $position + $length - 1 ;
 
