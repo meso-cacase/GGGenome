@@ -67,7 +67,7 @@ my $download     = '' ;  # ファイルとしてダウンロードするか: (bo
 #-- △ 使用するパラメータ一覧
 
 #-- ▽ URIからパラメータを取得
-# 例：/en/mm10/2/GCAAGAGAGATTGCTTAGCG.txt.download
+# 例：/en/mm10/2/TTCATTGACAACATTGCGT.txt.download
 #
 my $request_uri = $ENV{'REQUEST_URI'} // '' ;
 $request_uri =~ s/\?.*// ;  # '?' 以降のQUERY_STRING部分を除去

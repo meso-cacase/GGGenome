@@ -30,12 +30,12 @@ http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
 
 Examples:
 
-http://GGGenome.dbcls.jp/GCAAGAAGAGATTGC
-  Search 'GCAAGAAGAGATTGC' in human genome hg19. (default)
+http://GGGenome.dbcls.jp/TTCATTGACAACATT
+  Search 'TTCATTGACAACATT' in human genome hg19. (default)
   Search only perfect match sequences. (default)
   Output in HTML format. (default)
 
-http://GGGenome.dbcls.jp/mm10/2/GCAAGAGAGATTGCTTAGCG.txt
-  Search 'GCAAGAGAGATTGCTTAGCG' in mouse genome mm10.
+http://GGGenome.dbcls.jp/mm10/2/TTCATTGACAACATTGCGT.txt
+  Search 'TTCATTGACAACATTGCGT' in mouse genome mm10.
   Search sequences within two mismatches and gaps.
   Output in tab-delimited text format.

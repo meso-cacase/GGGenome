@@ -68,18 +68,18 @@ GGGenome《ゲゲゲノム》
   'json' - JSON
 + *download* : 検索結果をファイルとしてダウンロード (txt, jsonのみ)
 
-**例1:** http://GGGenome.dbcls.jp/ce10/1/GCAAGAAGAGATTGC
+**例1:** http://GGGenome.dbcls.jp/ce10/1/TTCATTGACAACATT
 
 + 線虫ゲノム ce10 に対して
 + 1 ミスマッチ/ギャップまで許容して
-+ GCAAGAAGAGATTGC を検索し
++ TTCATTGACAACATT を検索し
 + html (省略時のデフォルト) で結果を返す
 
-**例2:** http://GGGenome.dbcls.jp/refseq/GCAAGAAGAGATTGC.txt
+**例2:** http://GGGenome.dbcls.jp/refseq/TTCATTGACAACATT.txt
 
 + RefSeq complete RNA (refseq) に対して
 + ミスマッチ/ギャップを許容せず (省略時のデフォルト)
-+ GCAAGAAGAGATTGC を検索し
++ TTCATTGACAACATT を検索し
 + タブ区切りテキスト (txt) で結果を返す
 
 
