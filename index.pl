@@ -40,7 +40,7 @@ my $max_k            = 20 ;       # 許容するミスマッチ/ギャップ数�
 my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
 my $max_hit_api      = 10000 ;    # 検索を打ち切るヒット数、TXTまたはJSONの場合
 
-my %db_fullname = (             # データベースの正式名
+my %db_fullname = (               # データベースの正式名
 	'hg19'   => 'Human genome, GRCh37/hg19 (Feb, 2009)',
 	'mm10'   => 'Mouse genome, GRCm38/mm10 (Dec, 2011)',
 	'rn5'    => 'Rat genome, RGSC 5.0/rn5 (Mar, 2012)',
@@ -156,7 +156,7 @@ if ($ENV{'HTTP_HOST'} and              # HTTP経由のリクエストで、か�
 #- ▼ defaultパラメータ設定
 $lang     ||= ($0 =~ /ja$/) ? 'ja' :  # lang が未定義で実行ファイルが index.cgi.ja の場合
               ($0 =~ /en$/) ? 'en' :  # lang が未定義で実行ファイルが index.cgi.en の場合
-	                          'en' ;  # default: en
+                              'en' ;  # default: en
 $db       ||= 'hg19' ;
 $k        ||= 0 ;
 $format   ||= 'html' ;
@@ -181,9 +181,9 @@ my $queryseq = flatsequence($query_string) ;  # 塩基構成文字以外を除�
 
 #- ▼ 塩基配列の検索と結果出力
 #-- ▽ 生物種 $db により切り替えるパラメータ
-my $db_fullname = $db_fullname{$db} //  # データベースの正式名
-	$db_fullname{'hg19'} ;              # default: Human genome (hg19)
-my $port =                              # 曖昧検索サーバのポート
+my $db_fullname = $db_fullname{$db} //    # データベースの正式名
+                  $db_fullname{'hg19'} ;  # default: Human genome (hg19)
+my $port =                                # 曖昧検索サーバのポート
 	($db eq 'mm10'  ) ? 42253 :
 	($db eq 'rn5'   ) ? 42263 :
 	($db eq 'dm3'   ) ? 42273 :
@@ -193,7 +193,7 @@ my $port =                              # 曖昧検索サーバのポート
 	($db eq 'refseq') ? 42243 :
 	($db eq 'prok'  ) ? 42323 :
 	($db eq 'ddbj'  ) ? 32313 :
-	                    42233 ;         # default: Human genome (hg19)
+	                    42233 ;           # default: Human genome (hg19)
 #-- △ 生物種 $db により切り替えるパラメータ
 
 push @timer, [Time::HiRes::time(), 'search_start;'] ;                #===== 実行時間計測 =====
@@ -302,13 +302,13 @@ if ($format eq 'txt'){
 	} ;
 	#--- △ (-)鎖の検索実行と結果出力
 
-	my $json_result = JSON::XS->new->canonical->utf8->encode(
-		{time => $timestamp,
+	my $json_result = JSON::XS->new->canonical->utf8->encode({
+		time     => $timestamp,
 		database => $db_fullname,
-		summary => \@summary,
-		results => \@hit_list,
-		error => 'none'}
-	) ;
+		summary  => \@summary,
+		results  => \@hit_list,
+		error    => 'none'
+	}) ;
 	print_json($json_result) ;
 #-- △ JSON形式
 
@@ -365,7 +365,7 @@ if ($format eq 'txt'){
 	#--- ▽ 実行時間計測データの処理
 	my @timelog ;
 	my $start_time = ${shift @timer}[0] ;
-	my $last_time = $start_time ;  # 初期値
+	my $last_time  = $start_time ;  # 初期値
 	foreach (@timer){
 		push @timelog,
 			sprintf("%.3f", $$_[0] - $start_time) . ' | ' .  # 累積タイム
@@ -502,7 +502,8 @@ my $position_end = $position + $length - 1 ;
 my $snippet_end  = $snippet_pos + length($snippet) - 1 ;
 
 $name =~ s/^>// ;
-my $txt = join "\t", (
+
+return join "\t", (
 	$name,
 	$strand,
 	$position,
@@ -511,7 +512,6 @@ my $txt = join "\t", (
 	$snippet_pos,
 	$snippet_end
 ) ;
-return $txt ;
 } ;
 # ====================
 sub show_hit_json {  # ヒットした遺伝子をJSONで出力
@@ -528,7 +528,8 @@ my $position_end = $position + $length - 1 ;
 my $snippet_end  = $snippet_pos + length($snippet) - 1 ;
 
 $name =~ s/^>// ;
-my $json = [{
+
+return [{
 	name         => $name,
 	strand       => $strand,
 	position     => $position,
@@ -537,7 +538,6 @@ my $json = [{
 	snippet_pos  => $snippet_pos,
 	snippet_end  => $snippet_end
 }] ;
-return $json ;
 } ;
 # ====================
 sub show_hit_html {  # ヒットした遺伝子をHTMLで出力
@@ -569,23 +569,16 @@ my $snippet_html =
 	"$align</em>$snippet_3prime" ;
 
 $name =~ s/^>// ;
-my $html =
+
+return
 "<div class=gene><!-- ==================== -->
-<div class=t>
-@{[ link_seqname($name, $position, $position_end, $db) ]}
-</div>
-<div class=b>
-$snippet_html
-</div>
-<!--
-<div class=b>
-<cite>version_html</cite> -
-<cite>species</cite> -
-<a target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/nuccore/version\" class=a>NCBI</a>
-</div>
--->
+	<div class=t>
+	@{[ link_seqname($name, $position, $position_end, $db) ]}
+	</div>
+	<div class=b>
+	$snippet_html
+	</div>
 </div>" ;
-return $html ;
 } ;
 # ====================
 sub link_seqname {  # 配列名やヒット位置の情報を整形、NCBIやUCSCへのリンクを設定
