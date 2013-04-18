@@ -493,13 +493,17 @@ my $gene   = $_[0] or return '' ;
 my $strand = $_[1] // '' ;
 
 my $name        = $gene->{docname}     // '' ;
-my $length      = $gene->{length}      // 0  ;
+my $length      = $gene->{length}      // '' ;
 my $position    = $gene->{pos}         // '' ;
 my $snippet     = $gene->{snippet}     // '' ;
 my $snippet_pos = $gene->{snippet_pos} // '' ;
 
-my $position_end = $position + $length - 1 ;
-my $snippet_end  = $snippet_pos + length($snippet) - 1 ;
+my $position_end = ($position and $length) ?
+                   $position + $length - 1 :
+                   '' ;
+my $snippet_end  = ($snippet_pos and $snippet) ?
+                   $snippet_pos + length($snippet) - 1 :
+                   '' ;
 
 $name =~ s/^>// ;
 
@@ -519,13 +523,17 @@ my $gene   = $_[0] or return '' ;
 my $strand = $_[1] // '' ;
 
 my $name        = $gene->{docname}     // '' ;
-my $length      = $gene->{length}      // 0  ;
+my $length      = $gene->{length}      // '' ;
 my $position    = $gene->{pos}         // '' ;
 my $snippet     = $gene->{snippet}     // '' ;
 my $snippet_pos = $gene->{snippet_pos} // '' ;
 
-my $position_end = $position + $length - 1 ;
-my $snippet_end  = $snippet_pos + length($snippet) - 1 ;
+my $position_end = ($position and $length) ?
+                   $position + $length - 1 :
+                   '' ;
+my $snippet_end  = ($snippet_pos and $snippet) ?
+                   $snippet_pos + length($snippet) - 1 :
+                   '' ;
 
 $name =~ s/^>// ;
 
@@ -544,12 +552,14 @@ sub show_hit_html {  # ヒットした遺伝子をHTMLで出力
 my $gene = $_[0] or return '' ;
 
 my $name        = $gene->{docname}     // '' ;
-my $length      = $gene->{length}      // 0  ;
+my $length      = $gene->{length}      // '' ;
 my $position    = $gene->{pos}         // '' ;
 my $snippet     = $gene->{snippet}     // '' ;
 my $snippet_pos = $gene->{snippet_pos} // '' ;
 
-my $position_end = $position + $length - 1 ;
+my $position_end = ($position and $length) ?
+                   $position + $length - 1 :
+                   '' ;
 
 my $snippet_5prime = substr($snippet, 0, $position - $snippet_pos) ;
 my $sbjct = substr($snippet, $position - $snippet_pos, $length) ;
