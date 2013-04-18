@@ -537,15 +537,17 @@ my $snippet_end  = ($snippet_pos and $snippet) ?
 
 $name =~ s/^>// ;
 
-return [{
-	name         => $name,
-	strand       => $strand,
-	position     => $position,
-	position_end => $position_end,
-	snippet      => $snippet,
-	snippet_pos  => $snippet_pos,
-	snippet_end  => $snippet_end
-}] ;
+return [
+	parse_seqname_json({
+		name         => $name,
+		strand       => $strand,
+		position     => $position,
+		position_end => $position_end,
+		snippet      => $snippet,
+		snippet_pos  => $snippet_pos,
+		snippet_end  => $snippet_end
+	})
+] ;
 } ;
 # ====================
 sub show_hit_html {  # ヒットした遺伝子をHTMLで出力
@@ -589,6 +591,18 @@ return
 	$snippet_html
 	</div>
 </div>" ;
+} ;
+# ====================
+sub parse_seqname_json {  # 配列名に含まれるtaxonomy ID等をJSONに展開
+my $json = $_[0] or return $_[0] ;
+if ($db eq 'prok' and $json->{name} =~ s/^rs:\S+\s+(.*?)\s*\{(.*)\}/$1/){
+	foreach (split /,/, $2){
+		$_ =~ /taxonomy:\"(.*?)\"/   and $json->{taxonomy}   = $1 +0 ;  # 数値化
+		$_ =~ /bioproject:\"(.*?)\"/ and $json->{bioproject} = $1 ;
+		$_ =~ /refseq:\"(.*?)\"/     and $json->{refseq}     = $1 ;
+	}
+}
+return $json ;
 } ;
 # ====================
 sub link_seqname {  # 配列名やヒット位置の情報を整形、NCBIやUCSCへのリンクを設定
