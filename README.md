@@ -54,7 +54,7 @@ GGGenome《ゲゲゲノム》
            (http://rapdb.dna.affrc.go.jp/download/irgsp1.html)  
   'bmor1' - カイコゲノム [Bmor1 (Apr, 2008)]  
            (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
-  'refseq' - [RefSeq complete RNA release 58 (Mar, 2013)]  
+  'refseq' - [RefSeq complete RNA release 59 (May, 2013)]  
            (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'prok' - Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)  
   'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 89.0 (Jun, 2012)]  

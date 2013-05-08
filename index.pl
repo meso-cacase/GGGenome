@@ -48,7 +48,7 @@ my %db_fullname = (               # データベースの正式名
 	'ce10'   => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
 	'rice'   => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
 	'bmor1'  => 'Silkworm genome, Bmor1 (Apr, 2008)',
-	'refseq' => 'RefSeq complete RNA, release 58 (Mar, 2013)',
+	'refseq' => 'RefSeq complete RNA, release 59 (May, 2013)',
 	'prok'   => 'Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)',
 	'ddbj'   => 'DDBJ release 89.0 (Jun, 2012)'
 ) ;
@@ -447,18 +447,17 @@ return %query ;
 sub redirect_page {  # リダイレクトする
 my $uri = $_[0] // '' ;
 print "Location: $uri\n\n" ;
-
 exit ;
 } ;
 # ====================
 sub flatsequence {  # 塩基構成文字以外を除去
-my $seq = $_[0] // '' ;
+my $seq = $_[0] or return '' ;
 $seq =~ s/[^ATGCUNRYMKSWHBVD-]//gi ;
 return $seq ;
 } ;
 # ====================
 sub rna2dna {  # 塩基配列中のUをTに置換
-my $seq = $_[0] // '' ;
+my $seq = $_[0] or return '' ;
 $seq =~ tr/Uu/Tt/ ;
 return $seq ;
 } ;
@@ -633,13 +632,13 @@ my $db      = $_[3] // '' ;
 } ;
 # ====================
 sub escape_char {  # < > & ' " の5文字を実態参照に変換
-my $string = $_[0] // '' ;
-$string =~ s/\&/&amp;/g ;
-$string =~ s/</&lt;/g ;
-$string =~ s/>/&gt;/g ;
-$string =~ s/\'/&apos;/g ;
-$string =~ s/\"/&quot;/g ;
-return $string ;
+my $str = $_[0] // '' ;
+$str =~ s/\&/&amp;/g ;
+$str =~ s/</&lt;/g ;
+$str =~ s/>/&gt;/g ;
+$str =~ s/\'/&apos;/g ;
+$str =~ s/\"/&quot;/g ;
+return $str ;
 } ;
 # ====================
 sub printresult {  # $format (global) にあわせて結果を出力
