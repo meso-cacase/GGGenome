@@ -13,7 +13,7 @@ http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
     'bmor1' - Silkworm genome, Bmor1 (Apr, 2008) or
     'refseq' - RefSeq complete RNA, release 59 (May, 2013) or
     'prok' - Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013) or
-    'ddbj' - DDBJ release 89.0 (Jun, 2012)
+    'ddbj' - DDBJ release 92.0 (Feb, 2013)
     Default: hg19
   K (optional):
     Maximum number of mismatches/gaps.

@@ -50,7 +50,7 @@ my %db_fullname = (               # データベースの正式名
 	'bmor1'  => 'Silkworm genome, Bmor1 (Apr, 2008)',
 	'refseq' => 'RefSeq complete RNA, release 59 (May, 2013)',
 	'prok'   => 'Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)',
-	'ddbj'   => 'DDBJ release 89.0 (Jun, 2012)'
+	'ddbj'   => 'DDBJ release 92.0 (Feb, 2013)'
 ) ;
 #- ▲ モジュール読み込みと変数の初期化
 
@@ -192,7 +192,7 @@ my $port =                                # 曖昧検索サーバのポート
 	($db eq 'bmor1' ) ? 42303 :
 	($db eq 'refseq') ? 42243 :
 	($db eq 'prok'  ) ? 42323 :
-	($db eq 'ddbj'  ) ? 32313 :
+	($db eq 'ddbj'  ) ? 42313 :
 	                    42233 ;           # default: Human genome (hg19)
 #-- △ 生物種 $db により切り替えるパラメータ
 

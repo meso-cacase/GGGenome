@@ -57,7 +57,7 @@ GGGenome《ゲゲゲノム》
   'refseq' - [RefSeq complete RNA release 59 (May, 2013)]  
            (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'prok' - Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)  
-  'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 89.0 (Jun, 2012)]  
+  'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 92.0 (Feb, 2013)]  
            (ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/)  
 + *k* : 許容するミスマッチ/ギャップの数  
   省略時のデフォルト: 0
