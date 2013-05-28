@@ -58,6 +58,8 @@ GGGenome《ゲゲゲノム》
            (http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
   'ce10' - 線虫ゲノム [WS220/ce10 (Oct, 2010)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
+  'TAIR10' - シロイヌナズナゲノム [TAIR10 (Nov, 2010)]
+           (ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/)  
   'rice' - イネゲノム [Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)]
            (http://rapdb.dna.affrc.go.jp/download/irgsp1.html)  
   'bmor1' - カイコゲノム [Bmor1 (Apr, 2008)]

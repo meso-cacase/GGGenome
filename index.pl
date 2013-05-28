@@ -50,6 +50,7 @@ my %db_fullname = (               # データベースの正式名
 	'ci2'     => 'Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)',
 	'dm3'     => 'Drosophila genome, BDGP R5/dm3 (Apr, 2006)',
 	'ce10'    => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
+	'TAIR10'  => 'Arabidopsis thaliana genome, TAIR10 (Nov, 2010)',
 	'rice'    => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
 	'bmor1'   => 'Silkworm genome, Bmor1 (Apr, 2008)',
 	'refseq'  => 'RefSeq complete RNA, release 59 (May, 2013)',
@@ -82,7 +83,7 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
 	($param =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|
-	              dm3|ce10|rice|bmor1|refseq|prok|ddbj)$/xi) ?
+	              dm3|ce10|TAIR10|rice|bmor1|refseq|prok|ddbj)$/xi) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
@@ -121,6 +122,7 @@ $db = lc(                             # 生物種 (データベース)
 $db =~ s/galGal4/galGal4/i ;          # 大文字小文字を正規化
 $db =~ s/xenTro3/xenTro3/i ;          # 大文字小文字を正規化
 $db =~ s/danRer7/danRer7/i ;          # 大文字小文字を正規化
+$db =~ s/TAIR10/TAIR10/i ;            # 大文字小文字を正規化
 
 $k =                                  # 許容するミスマッチ/ギャップの数
 	(defined $query{'k'} and $query{'k'} =~ /^\d+$/) ?
@@ -200,6 +202,7 @@ my $port =                                # 曖昧検索サーバのポート
 	($db eq 'ci2'    ) ? 42363 :
 	($db eq 'dm3'    ) ? 42273 :
 	($db eq 'ce10'   ) ? 42283 :
+	($db eq 'TAIR10' ) ? 42373 :
 	($db eq 'rice'   ) ? 42293 :
 	($db eq 'bmor1'  ) ? 42303 :
 	($db eq 'refseq' ) ? 42243 :
@@ -626,6 +629,8 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
+($db eq 'TAIR10' and $name =~ s/\s*CHROMOSOME dumped from.*//) ?
+	return "$name<br>$pos-$pos_end\n" :
 ($db eq 'refseq' and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
@@ -755,6 +760,7 @@ my $select =
 	<option value=ci2    >$db_fullname{'ci2'    }</option>
 	<option value=dm3    >$db_fullname{'dm3'    }</option>
 	<option value=ce10   >$db_fullname{'ce10'   }</option>
+	<option value=TAIR10 >$db_fullname{'TAIR10' }</option>
 	<option value=rice   >$db_fullname{'rice'   }</option>
 	<option value=bmor1  >$db_fullname{'bmor1'  }</option>
 	<option disabled>----------</option>
@@ -830,6 +836,7 @@ my $select =
 	<option value=ci2    >$db_fullname{'ci2'    }</option>
 	<option value=dm3    >$db_fullname{'dm3'    }</option>
 	<option value=ce10   >$db_fullname{'ce10'   }</option>
+	<option value=TAIR10 >$db_fullname{'TAIR10' }</option>
 	<option value=rice   >$db_fullname{'rice'   }</option>
 	<option value=bmor1  >$db_fullname{'bmor1'  }</option>
 	<option disabled>----------</option>
