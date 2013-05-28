@@ -41,20 +41,20 @@ my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの�
 my $max_hit_api      = 10000 ;    # 検索を打ち切るヒット数、TXTまたはJSONの場合
 
 my %db_fullname = (               # データベースの正式名
-	'hg19'   => 'Human genome, GRCh37/hg19 (Feb, 2009)',
-	'mm10'   => 'Mouse genome, GRCm38/mm10 (Dec, 2011)',
-	'rn5'    => 'Rat genome, RGSC 5.0/rn5 (Mar, 2012)',
+	'hg19'    => 'Human genome, GRCh37/hg19 (Feb, 2009)',
+	'mm10'    => 'Mouse genome, GRCm38/mm10 (Dec, 2011)',
+	'rn5'     => 'Rat genome, RGSC 5.0/rn5 (Mar, 2012)',
 	'galGal4' => 'Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)',
 	'xenTro3' => 'Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)',
 	'danRer7' => 'Zebrafish genome, Zv9/danRer7 (Jul, 2010)',
 	'ci2'     => 'Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)',
-	'dm3'    => 'Drosophila genome, BDGP Rel. 5/dm3 (Apr, 2006)',
-	'ce10'   => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
-	'rice'   => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
-	'bmor1'  => 'Silkworm genome, Bmor1 (Apr, 2008)',
-	'refseq' => 'RefSeq complete RNA, release 59 (May, 2013)',
-	'prok'   => 'Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)',
-	'ddbj'   => 'DDBJ release 92.0 (Feb, 2013)'
+	'dm3'     => 'Drosophila genome, BDGP R5/dm3 (Apr, 2006)',
+	'ce10'    => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
+	'rice'    => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
+	'bmor1'   => 'Silkworm genome, Bmor1 (Apr, 2008)',
+	'refseq'  => 'RefSeq complete RNA, release 59 (May, 2013)',
+	'prok'    => 'Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)',
+	'ddbj'    => 'DDBJ release 92.0 (Feb, 2013)'
 ) ;
 #- ▲ モジュール読み込みと変数の初期化
 
@@ -192,20 +192,20 @@ my $queryseq = flatsequence($query_string) ;  # 塩基構成文字以外を除�
 my $db_fullname = $db_fullname{$db} //    # データベースの正式名
                   $db_fullname{'hg19'} ;  # default: Human genome (hg19)
 my $port =                                # 曖昧検索サーバのポート
-	($db eq 'mm10'  ) ? 42253 :
-	($db eq 'rn5'   ) ? 42263 :
+	($db eq 'mm10'   ) ? 42253 :
+	($db eq 'rn5'    ) ? 42263 :
 	($db eq 'galGal4') ? 42333 :
 	($db eq 'xenTro3') ? 42343 :
 	($db eq 'danRer7') ? 42353 :
 	($db eq 'ci2'    ) ? 42363 :
-	($db eq 'dm3'   ) ? 42273 :
-	($db eq 'ce10'  ) ? 42283 :
-	($db eq 'rice'  ) ? 42293 :
-	($db eq 'bmor1' ) ? 42303 :
-	($db eq 'refseq') ? 42243 :
-	($db eq 'prok'  ) ? 42323 :
-	($db eq 'ddbj'  ) ? 42313 :
-	                    42233 ;           # default: Human genome (hg19)
+	($db eq 'dm3'    ) ? 42273 :
+	($db eq 'ce10'   ) ? 42283 :
+	($db eq 'rice'   ) ? 42293 :
+	($db eq 'bmor1'  ) ? 42303 :
+	($db eq 'refseq' ) ? 42243 :
+	($db eq 'prok'   ) ? 42323 :
+	($db eq 'ddbj'   ) ? 42313 :
+	                     42233 ;          # default: Human genome (hg19)
 #-- △ 生物種 $db により切り替えるパラメータ
 
 push @timer, [Time::HiRes::time(), 'search_start;'] ;                #===== 実行時間計測 =====
@@ -746,21 +746,21 @@ my $robots = "<meta name=robots content=none>\n" ;  # トップページ以外�
 
 #-- ▽ プルダウンメニュー
 my $select =
-"	<option value=hg19  >$db_fullname{'hg19'  }</option>
-	<option value=mm10  >$db_fullname{'mm10'  }</option>
-	<option value=rn5   >$db_fullname{'rn5'   }</option>
+"	<option value=hg19   >$db_fullname{'hg19'   }</option>
+	<option value=mm10   >$db_fullname{'mm10'   }</option>
+	<option value=rn5    >$db_fullname{'rn5'    }</option>
 	<option value=galGal4>$db_fullname{'galGal4'}</option>
 	<option value=xenTro3>$db_fullname{'xenTro3'}</option>
 	<option value=danRer7>$db_fullname{'danRer7'}</option>
 	<option value=ci2    >$db_fullname{'ci2'    }</option>
-	<option value=dm3   >$db_fullname{'dm3'   }</option>
-	<option value=ce10  >$db_fullname{'ce10'  }</option>
-	<option value=rice  >$db_fullname{'rice'  }</option>
-	<option value=bmor1 >$db_fullname{'bmor1' }</option>
+	<option value=dm3    >$db_fullname{'dm3'    }</option>
+	<option value=ce10   >$db_fullname{'ce10'   }</option>
+	<option value=rice   >$db_fullname{'rice'   }</option>
+	<option value=bmor1  >$db_fullname{'bmor1'  }</option>
 	<option disabled>----------</option>
-	<option value=refseq>$db_fullname{'refseq'}</option>
-	<option value=prok  >$db_fullname{'prok'  }</option>
-	<option value=ddbj  >$db_fullname{'ddbj'  }</option>" ;
+	<option value=refseq >$db_fullname{'refseq' }</option>
+	<option value=prok   >$db_fullname{'prok'   }</option>
+	<option value=ddbj   >$db_fullname{'ddbj'   }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
 	$select =~ s/(?<=option value=hg19)/ selected/ ;      # default: Human genome (hg19)
 #-- △ プルダウンメニュー
@@ -821,21 +821,21 @@ my $robots = "<meta name=robots content=none>\n" ;  # トップページ以外�
 
 #-- ▽ プルダウンメニュー
 my $select =
-"	<option value=hg19  >$db_fullname{'hg19'  }</option>
-	<option value=mm10  >$db_fullname{'mm10'  }</option>
-	<option value=rn5   >$db_fullname{'rn5'   }</option>
+"	<option value=hg19   >$db_fullname{'hg19'   }</option>
+	<option value=mm10   >$db_fullname{'mm10'   }</option>
+	<option value=rn5    >$db_fullname{'rn5'    }</option>
 	<option value=galGal4>$db_fullname{'galGal4'}</option>
 	<option value=xenTro3>$db_fullname{'xenTro3'}</option>
 	<option value=danRer7>$db_fullname{'danRer7'}</option>
 	<option value=ci2    >$db_fullname{'ci2'    }</option>
-	<option value=dm3   >$db_fullname{'dm3'   }</option>
-	<option value=ce10  >$db_fullname{'ce10'  }</option>
-	<option value=rice  >$db_fullname{'rice'  }</option>
-	<option value=bmor1 >$db_fullname{'bmor1' }</option>
+	<option value=dm3    >$db_fullname{'dm3'    }</option>
+	<option value=ce10   >$db_fullname{'ce10'   }</option>
+	<option value=rice   >$db_fullname{'rice'   }</option>
+	<option value=bmor1  >$db_fullname{'bmor1'  }</option>
 	<option disabled>----------</option>
-	<option value=refseq>$db_fullname{'refseq'}</option>
-	<option value=prok  >$db_fullname{'prok'  }</option>
-	<option value=ddbj  >$db_fullname{'ddbj'  }</option>" ;
+	<option value=refseq >$db_fullname{'refseq' }</option>
+	<option value=prok   >$db_fullname{'prok'   }</option>
+	<option value=ddbj   >$db_fullname{'ddbj'   }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
 	$select =~ s/(?<=option value=hg19)/ selected/ ;      # default: Human genome (hg19)
 #-- △ プルダウンメニュー

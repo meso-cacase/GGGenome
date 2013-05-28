@@ -44,7 +44,7 @@ GGGenome《ゲゲゲノム》
            (省略時のデフォルト)  
   'mm10' - マウスゲノム [GRCm38/mm10 (Dec, 2011)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
-  'rn5'  - ラットゲノム [RGSC 5.0/rn5 (Mar, 2012)]  
+  'rn5'  - ラットゲノム [RGSC 5.0/rn5 (Mar, 2012)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/)  
   'galGal4' - ニワトリゲノム [ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/)  
@@ -54,18 +54,18 @@ GGGenome《ゲゲゲノム》
            (http://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/)  
   'ci2'  - ホヤゲノム [JGI 2.1/ci2 (Mar, 2005)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/ci2/bigZips/)  
-  'dm3'  - ショウジョウバエゲノム [BDGP Rel. 5/dm3 (Apr, 2006)]  
+  'dm3'  - ショウジョウバエゲノム [BDGP R5/dm3 (Apr, 2006)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
-  'ce10' - 線虫ゲノム [WS220/ce10 (Oct, 2010)]  
+  'ce10' - 線虫ゲノム [WS220/ce10 (Oct, 2010)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
-  'rice' - イネゲノム [Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)]  
+  'rice' - イネゲノム [Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)]
            (http://rapdb.dna.affrc.go.jp/download/irgsp1.html)  
-  'bmor1' - カイコゲノム [Bmor1 (Apr, 2008)]  
+  'bmor1' - カイコゲノム [Bmor1 (Apr, 2008)]
            (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
-  'refseq' - [RefSeq complete RNA release 59 (May, 2013)]  
+  'refseq' - [RefSeq complete RNA release 59 (May, 2013)]
            (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'prok' - Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)  
-  'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 92.0 (Feb, 2013)]  
+  'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 92.0 (Feb, 2013)]
            (ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/)  
 + *k* : 許容するミスマッチ/ギャップの数  
   省略時のデフォルト: 0
