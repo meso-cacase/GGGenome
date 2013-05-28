@@ -44,6 +44,10 @@ my %db_fullname = (               # データベースの正式名
 	'hg19'   => 'Human genome, GRCh37/hg19 (Feb, 2009)',
 	'mm10'   => 'Mouse genome, GRCm38/mm10 (Dec, 2011)',
 	'rn5'    => 'Rat genome, RGSC 5.0/rn5 (Mar, 2012)',
+	'galGal4' => 'Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)',
+	'xenTro3' => 'Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)',
+	'danRer7' => 'Zebrafish genome, Zv9/danRer7 (Jul, 2010)',
+	'ci2'     => 'Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)',
 	'dm3'    => 'Drosophila genome, BDGP Rel. 5/dm3 (Apr, 2006)',
 	'ce10'   => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
 	'rice'   => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
@@ -77,7 +81,8 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	my ($param, $slash) = ($1, $2) ;
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
-	($param =~ /^(hg19|mm10|rn5|dm3|ce10|rice|bmor1|refseq|prok|ddbj)$/i) ?
+	($param =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|
+	              dm3|ce10|rice|bmor1|refseq|prok|ddbj)$/xi) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
@@ -113,6 +118,9 @@ $db = lc(                             # 生物種 (データベース)
 	$query{'db'} //                   # 1) QUERY_STRINGから
 	$db          //                   # 2) QUERY_STRING未指定 → URIから
 	'') ;                             # 3) URI未指定 → 空欄
+$db =~ s/galGal4/galGal4/i ;          # 大文字小文字を正規化
+$db =~ s/xenTro3/xenTro3/i ;          # 大文字小文字を正規化
+$db =~ s/danRer7/danRer7/i ;          # 大文字小文字を正規化
 
 $k =                                  # 許容するミスマッチ/ギャップの数
 	(defined $query{'k'} and $query{'k'} =~ /^\d+$/) ?
@@ -186,6 +194,10 @@ my $db_fullname = $db_fullname{$db} //    # データベースの正式名
 my $port =                                # 曖昧検索サーバのポート
 	($db eq 'mm10'  ) ? 42253 :
 	($db eq 'rn5'   ) ? 42263 :
+	($db eq 'galGal4') ? 42333 :
+	($db eq 'xenTro3') ? 42343 :
+	($db eq 'danRer7') ? 42353 :
+	($db eq 'ci2'    ) ? 42363 :
 	($db eq 'dm3'   ) ? 42273 :
 	($db eq 'ce10'  ) ? 42283 :
 	($db eq 'rice'  ) ? 42293 :
@@ -610,7 +622,7 @@ my $pos     = $_[1] // '' ;
 my $pos_end = $_[2] // '' ;
 my $db      = $_[3] // '' ;
 
-($db =~ /^(hg19|mm10|rn5|dm3|ce10)$/) ?
+($db =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10)$/) ?
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
@@ -737,6 +749,10 @@ my $select =
 "	<option value=hg19  >$db_fullname{'hg19'  }</option>
 	<option value=mm10  >$db_fullname{'mm10'  }</option>
 	<option value=rn5   >$db_fullname{'rn5'   }</option>
+	<option value=galGal4>$db_fullname{'galGal4'}</option>
+	<option value=xenTro3>$db_fullname{'xenTro3'}</option>
+	<option value=danRer7>$db_fullname{'danRer7'}</option>
+	<option value=ci2    >$db_fullname{'ci2'    }</option>
 	<option value=dm3   >$db_fullname{'dm3'   }</option>
 	<option value=ce10  >$db_fullname{'ce10'  }</option>
 	<option value=rice  >$db_fullname{'rice'  }</option>
@@ -808,6 +824,10 @@ my $select =
 "	<option value=hg19  >$db_fullname{'hg19'  }</option>
 	<option value=mm10  >$db_fullname{'mm10'  }</option>
 	<option value=rn5   >$db_fullname{'rn5'   }</option>
+	<option value=galGal4>$db_fullname{'galGal4'}</option>
+	<option value=xenTro3>$db_fullname{'xenTro3'}</option>
+	<option value=danRer7>$db_fullname{'danRer7'}</option>
+	<option value=ci2    >$db_fullname{'ci2'    }</option>
 	<option value=dm3   >$db_fullname{'dm3'   }</option>
 	<option value=ce10  >$db_fullname{'ce10'  }</option>
 	<option value=rice  >$db_fullname{'rice'  }</option>

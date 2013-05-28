@@ -46,6 +46,14 @@ GGGenome《ゲゲゲノム》
            (http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
   'rn5'  - ラットゲノム [RGSC 5.0/rn5 (Mar, 2012)]  
            (http://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/)  
+  'galGal4' - ニワトリゲノム [ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)]
+           (http://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/)  
+  'xenTro3' - ツメガエルゲノム [JGI 4.2/xenTro3 (Nov, 2009)]
+           (http://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/)  
+  'danRer7' - ゼブラフィッシュゲノム [Zv9/danRer7 (Jul, 2010)]
+           (http://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/)  
+  'ci2'  - ホヤゲノム [JGI 2.1/ci2 (Mar, 2005)]
+           (http://hgdownload.soe.ucsc.edu/goldenPath/ci2/bigZips/)  
   'dm3'  - ショウジョウバエゲノム [BDGP Rel. 5/dm3 (Apr, 2006)]  
            (http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
   'ce10' - 線虫ゲノム [WS220/ce10 (Oct, 2010)]  
