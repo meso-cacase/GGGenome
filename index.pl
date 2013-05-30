@@ -629,8 +629,18 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
-($db eq 'TAIR10' and $name =~ s/\s*CHROMOSOME dumped from.*//) ?
-	return "$name<br>$pos-$pos_end\n" :
+($db eq 'TAIR10' and $name =~ s/\s*CHROMOSOME dumped from.*// and
+	eval '$name =~ s/^chloroplast$/ChrC/ ; $name =~ s/^mitochondria$/ChrM/ ; 1') ?
+	# GBrowseにリンクするため chloroplast → ChrC, mitochondria → ChrM に置換
+	return "<a class=a target='_blank' href='" .
+	       "http://gbrowse.tacc.utexas.edu/cgi-bin/gb2/gbrowse/arabidopsis/?" .
+	       "name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
+($db eq 'rice') ?
+	($name =~ /^chr\d\d$/) ?  # chrで始まるもののみGBrowseにリンク
+		return "<a class=a target='_blank' href='" .
+		       "http://rapdb.dna.affrc.go.jp/viewer/gbrowse/irgsp1/?" .
+		       "name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
+		return "$name:$pos-$pos_end" :
 ($db eq 'refseq' and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
@@ -644,7 +654,7 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
-# それ以外の場合 (rice, bmor1)
+# それ以外の場合 (bmor1)
 	return "$name<br>$pos-$pos_end\n" ;
 } ;
 # ====================
