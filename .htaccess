@@ -19,34 +19,34 @@ RewriteEngine On
 
 #- ▼ GGGlogo_en.png, GGGlogo_ja.pngの表示
 # mod_rewriteの適用を終了する条件
-RewriteRule  ^GGGlogo_(en|ja).png$  -  [L]
+RewriteRule  ^GGGlogo_(en|ja)\.png$  -  [L]
 
 # パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
 RewriteCond  %{REQUEST_URI}  ^/(test/)?
-RewriteRule  (?:^|/)(GGGlogo_(en|ja).png)$  /%1$1  [R,L]
+RewriteRule  (?:^|/)(GGGlogo_(en|ja)\.png)$  /%1$1  [R,L]
 #- ▲ GGGlogo_en.png, GGGlogo_ja.pngの表示
 
 #- ▼ chata_en.png, chata_ja.pngの表示
 # mod_rewriteの適用を終了する条件
-RewriteRule  ^chata_(en|ja).png$  -  [L]
+RewriteRule  ^chata_(en|ja)\.png$  -  [L]
 
 # パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
 RewriteCond  %{REQUEST_URI}  ^/(test/)?
-RewriteRule  (?:^|/)(chata_(en|ja).png)$  /%1$1  [R,L]
+RewriteRule  (?:^|/)(chata_(en|ja)\.png)$  /%1$1  [R,L]
 #- ▲ chata_en.png, chata_ja.pngの表示
 
 #- ▼ api.txtの表示
 # mod_rewriteの適用を終了する条件
-RewriteRule  ^api.txt$  -  [L]
+RewriteRule  ^api\.txt$  -  [L]
 
 # クエリが空欄またはパスに/db/k/等が含まれる場合にURIを修正してリダイレクト
 RewriteCond  %{REQUEST_URI}  ^/(test/)?
-RewriteRule  (?:^|/)(api)?.txt$  /%1api.txt  [R,L]
+RewriteRule  (?:^|/)(api)?\.txt$  /%1api.txt  [R,L]
 #- ▲ api.txtの表示
 
 #- ▼ それ以外のリクエストを全てindex.cgiに送る
 # mod_rewriteの適用を終了する条件
-RewriteRule  ^index.cgi  -  [L]
+RewriteRule  ^index\.cgi  -  [L]
 
 # それ以外の場合はURIを index.cgi に修正
 RewriteCond  %{REQUEST_URI}  ^/(test/)?
