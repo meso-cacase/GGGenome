@@ -17,6 +17,9 @@ RewriteEngine On
 # [L]  は評価終了
 # [NE] はURIエンコードしない。指定しないと %22query+str%22 が %2522query+str%2522 になる
 
+# メンテナンス領域へのアクセスはリライトしない
+RewriteRule  ^dev/  -  [L]
+
 #- ▼ GGGlogo_en.png, GGGlogo_ja.pngの表示
 # mod_rewriteの適用を終了する条件
 RewriteRule  ^GGGlogo_(en|ja)\.png$  -  [L]
