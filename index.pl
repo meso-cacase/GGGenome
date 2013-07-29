@@ -375,6 +375,14 @@ if ($format eq 'txt'){
 	@hit_list or
 		push @hit_list, '<div class=gene><p>No items found.</p></div>' ;  # ヒットがゼロ件
 
+	#--- ▽ TXT/JSON出力のbase URIを生成
+	my $linkbase_uri = '/' ;
+	$linkbase_uri .= ($request_uri =~ m{^/test/}) ? 'test/' : '' ;  # テストページ /test/ 対応
+	$linkbase_uri .= $db ? "$db/" : '' ;
+	$linkbase_uri .= $k  ? "$k/"  : '' ;  # 値が 0 の場合は /0/ を省略
+	$linkbase_uri .= $query_string ;
+	#--- △ TXT/JSON出力のbase URIを生成
+
 	push @timer, [Time::HiRes::time(), 'cgi_end;'] ;                 #===== 実行時間計測 =====
 
 	#--- ▽ 実行時間計測データの処理
@@ -407,6 +415,7 @@ if ($format eq 'txt'){
 		MAX_HIT_HTML => $max_hit_html,
 		HIT_LIST     => "@hit_list",
 		MAX_HIT_API  => $max_hit_api,
+		LINKBASE_URI => $linkbase_uri,
 		HTTP_HOST    => $ENV{'HTTP_HOST'},
 		REQUEST_URI  => $request_uri,
 		REDIRECT_URI => $redirect_uri,
@@ -700,8 +709,8 @@ $txt =~ s/^(ERROR.*)$/### $1 ###/s ;
 
 #- ▼ TXT出力
 print "Content-type: text/plain; charset=utf-8\n" ;
-$download and  # ファイルとしてダウンロードする場合
-	print "Content-Disposition: attachment; filename=gggenome_result.txt\n" ;
+print "Content-Disposition: attachment; filename=gggenome_result.txt\n"
+	if $download ;  # ファイルとしてダウンロードする場合
 print "\n" ;
 print "$txt\n" ;
 #- ▲ TXT出力
@@ -736,8 +745,8 @@ $json_txt = JSON::XS->new->canonical->utf8->encode(
 
 #- ▼ JSON出力
 print "Content-type: application/json; charset=utf-8\n" ;
-$download and  # ファイルとしてダウンロードする場合
-	print "Content-Disposition: attachment; filename=gggenome_result.json\n" ;
+print "Content-Disposition: attachment; filename=gggenome_result.json\n"
+	if $download ;  # ファイルとしてダウンロードする場合
 print "\n" ;
 print "$json_txt\n" ;
 #- ▲ JSON出力
