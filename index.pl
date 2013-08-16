@@ -7,8 +7,9 @@
 #
 # 必要なモジュール：
 # HTML::Template
-# LWP::Simple
-# JSON::XS
+# ./Approx.pm    (by Yuki Naito)
+#   LWP::Simple  (Approx.pm内で使用)
+#   JSON::XS     (Approx.pm内で使用)
 # ./Align2seq.pm (by Yuki Naito)
 #
 # 2012-07-03 Yuki Naito (@meso_cacase) 実装開始
@@ -18,6 +19,7 @@
 # 2013-02-22 Yuki Naito (@meso_cacase) URIルーティングを本スクリプトに実装
 # 2013-02-25 Yuki Naito (@meso_cacase) 検索結果のダウンロードに対応
 # 2013-02-26 Yuki Naito (@meso_cacase) HTMLをテンプレート化
+# 2013-08-16 Yuki Naito (@meso_cacase) 曖昧検索サーバへの問い合わせをモジュール化
 
 #- ▼ モジュール読み込みと変数の初期化
 use warnings ;
@@ -27,11 +29,8 @@ use Time::HiRes ;
 eval 'use HTML::Template ; 1' or  # HTMLをテンプレート化
 	printresult('ERROR : cannot load HTML::Template') ;
 
-eval 'use LWP::Simple ; 1' or     # 曖昧検索サーバとの接続に使用
-	printresult('ERROR : cannot load LWP::Simple') ;
-
-eval 'use JSON::XS ; 1' or        # 曖昧検索サーバとの接続に使用
-	printresult('ERROR : cannot load JSON::XS') ;
+eval 'use Approx ; 1' or          # 曖昧検索サーバに問い合わせを行うためのモジュール
+	printresult('ERROR : cannot load Approx') ;
 
 my @timer ;                       # 実行時間計測用
 my $timestamp = timestamp() ;     # CGIを実行した時刻
@@ -227,7 +226,7 @@ if ($format eq 'txt'){
 	push @summary, "# database:	$db_fullname" ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
-	($hits, $uri) = approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
 	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -247,7 +246,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	$queryseq = comp($queryseq) ;
-	($hits, $uri) = approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
 	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -275,7 +274,7 @@ if ($format eq 'txt'){
 	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
 
 	#--- ▽ (+)鎖の検索実行と結果出力
-	($hits, $uri) = approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
 	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -297,7 +296,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	$queryseq = comp($queryseq) ;
-	($hits, $uri) = approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
 	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -334,7 +333,7 @@ if ($format eq 'txt'){
 		printresult('ERROR : cannot load Align2seq') ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
-	($hits, $uri) = approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
 	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -354,7 +353,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	$queryseq = comp($queryseq) ;
-	($hits, $uri) = approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
 	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -498,17 +497,6 @@ if ($seq =~ /U/i){  # 配列にUが含まれる → RNAの場合
 		tr/GATUCRYMKSWHBVDNgatucrymkswhbvdn/CTAAGYRKMSWDVBHNctaagyrkmswdvbhn/ ;
 }
 return $comp ;
-} ;
-# ====================
-sub approx_q {  # 曖昧検索サーバに問い合わせを行う
-my $q     = $_[0] or return () ;
-my $port  = $_[1] or return () ;
-my $k     = $_[2] // 0  ;
-my $limit = $_[3] // '' ;
-my $host  = '172.17.1.21' ;  # ssd.dbcls.jp (曖昧検索サーバ)
-my $uri   = "http://$host:$port/match?q=$q&k=$k&offset=0&limit=$limit" ;
-my $json  = get($uri) or return () ;
-return (decode_json($json) // '', $uri) ;
 } ;
 # ====================
 sub show_hit_txt {  # ヒットした遺伝子をタブ区切りテキストで出力
