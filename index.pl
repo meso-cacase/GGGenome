@@ -788,11 +788,6 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 #- ▼ トップページ：引数がない場合
 my $template_top = HTML::Template->new(filename => 'template/top_ja.tmpl') ;
 
-$template_top->param(
-	MAX_HIT_HTML => $max_hit_html,
-	MAX_HIT_API  => $max_hit_api
-) ;
-
 (not $html) and
 $html   = $template_top->output and
 $title  = '超絶高速ゲノム配列検索GGGenome' and
@@ -863,11 +858,6 @@ $robots = "<meta name=robots content=none>\n" ;  # トップページ以外は�
 
 #- ▼ トップページ：引数がない場合
 my $template_top = HTML::Template->new(filename => 'template/top_en.tmpl') ;
-
-$template_top->param(
-	MAX_HIT_HTML => $max_hit_html,
-	MAX_HIT_API  => $max_hit_api
-) ;
 
 (not $html) and
 $html   = $template_top->output and

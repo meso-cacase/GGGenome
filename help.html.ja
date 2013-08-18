@@ -1,0 +1,291 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html lang=ja>
+
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<meta http-equiv='Content-Script-Type' content='text/javascript'>
+<meta http-equiv='Content-Style-Type' content='text/css'>
+<meta name=author content='Yuki Naito'>
+<title>超絶高速ゲノム配列検索GGGenome</title>
+<script type='text/javascript'>
+<!--
+function set_db(){
+	var db ;
+	if (location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)){
+		db = location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)[1] ;
+		if (db.match(/hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|bmor1|refseq|prok|ddbj/)){
+			document.gggenome.db.value = db ;
+		}
+	}
+}
+function set_k(){
+	var k ;
+	if (location.pathname.match(/\/(\d+)\/help.html$/)){
+		k = location.pathname.match(/\/(\d+)\/help.html$/)[1] ;
+		document.gggenome.k.value = k ;
+	}
+}
+//-->
+</script>
+<style type='text/css'>
+<!--
+	* { font-family:verdana,arial,helvetica,sans-serif }
+	p,ol,pre,div,small,cite { font-size:9pt }
+	cite { color:#0E774A; font-style:normal }
+	a { color:black; font-style:normal }
+	em { font-style:normal;
+		border:1px solid #00BCFF;
+		background-color:#DDF6FF }
+	strong { font-style:normal;
+		font-weight:bold;
+		color:red;
+		background-color:#DDF6FF }
+	ins,del { font-style:normal;
+		font-weight:bold;
+		text-decoration:none;
+		background-color:pink }
+	.position { position:absolute;
+		top:-1.2em;
+		color:#0E774A;
+		font-size:80%;
+		user-select:none　}
+	.gene { margin:10pt }
+	.a { color:#3366CC }
+	.t { font-size:10pt; width:90% }
+	.b { word-wrap:break-word; width:90% }
+	.g { color:gray; width:90% }
+	.s { color:silver; width:90% }
+-->
+</style>
+</head>
+
+<body>
+
+<a href='.'><img src='GGGlogo_ja.png' alt='GGGenome' height=71 width=257 border=0></a>
+
+<small style='vertical-align:top'>
+<a style='vertical-align:top' href='.'           >Home</a> |
+<a style='vertical-align:top' href='en/help.html'>English</a>
+</small>
+
+<form name=gggenome method=GET action='.'>
+<p>
+<input type=text name=query size=70 value=''>
+<input type=submit value='検索'>
+<select id=db name=db>
+	<option value=hg19 selected>Human genome, GRCh37/hg19 (Feb, 2009)                </option>
+	<option value=mm10   >Mouse genome, GRCm38/mm10 (Dec, 2011)                      </option>
+	<option value=rn5    >Rat genome, RGSC 5.0/rn5 (Mar, 2012)                       </option>
+	<option value=galGal4>Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</option>
+	<option value=xenTro3>Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)     </option>
+	<option value=danRer7>Zebrafish genome, Zv9/danRer7 (Jul, 2010)                  </option>
+	<option value=ci2    >Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)         </option>
+	<option value=dm3    >Drosophila genome, BDGP R5/dm3 (Apr, 2006)                 </option>
+	<option value=ce10   >C. elegans genome, WS220/ce10 (Oct, 2010)                  </option>
+	<option value=TAIR10 >Arabidopsis thaliana genome, TAIR10 (Nov, 2010)            </option>
+	<option value=rice   >Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) </option>
+	<option value=bmor1  >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
+	<option disabled>----------</option>
+	<option value=refseq >RefSeq complete RNA, release 60 (Jul, 2013)                </option>
+	<option value=prok   >Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)          </option>
+	<option value=ddbj   >DDBJ release 92.0 (Feb, 2013)                              </option>
+</select>
+<br>
+許容するミスマッチ/ギャップの数：<input type=text name=k size=3 value=0>
+(検索する塩基配列の長さの20%まで)
+</p>
+</form>
+
+<script type='text/javascript'>
+<!--
+set_db() ;
+set_k() ;
+//-->
+</script>
+
+<!--
+<div><font color=red>
+お知らせ：
+<ul>
+	<li>サーバメンテナンス中です。
+</ul>
+</font></div>
+
+<img src='chata_ja.png' alt='ニャーン' border=0>
+
+<hr> --> <!-- __________________________________________________ -->
+
+<div>
+検索例：
+<ul>
+	<li><font color=purple>[</font>
+		<a href='TTCATTGACAACATT'>TTCATTGACAACATT</a>
+		<font color=purple>]</font> ...... 塩基配列を検索
+</ul>
+</div>
+
+<div>
+ひとこと：
+<ul>
+	<li>塩基配列を高速に検索するサイトです。
+	<li>大文字・小文字は区別しません。
+	<li>U は T とまったく同じです。
+	<li>ATGCU 以外の塩基 (R,Y等) は N とみなします。
+	<li>それ以外の文字は除去して検索されます。
+	<li>＋鎖および－鎖それぞれ50件まで結果を表示します。
+	<li>TXT, JSON形式ではそれぞれ10000件まで取得できます。
+</ul>
+<ul>
+	<li><a target='_blank' href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
+		-->Googleスプレッドシート上で配列検索</a> ができます。
+</ul>
+</div>
+
+<div>
+検索結果へのリンク：
+<ul>
+	<li>http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#ff6600'>db</span>/<!--
+		--><span style='color:#0000ff'>k</span>/<!--
+		--><span style='color:#008000'>sequence</span><!--
+		-->[.<span style='color:#FF0080'>format</span>]<!--
+		-->[.<span style='color:brown'>download</span>]
+	<ul>
+		<li><span style='color:#ff6600'>db</span> &rarr;
+			hg19, mm10, rn5, galGal4, xenTro3, danRer7, ci2,
+			dm3, ce10, TAIR10, rice, bmor1, refseq, ddbj。省略時は hg19
+		<li><span style='color:#0000ff'>k</span> &rarr;
+			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
+		<li><span style='color:#008000'>sequence</span> &rarr;
+			塩基配列。大文字・小文字は区別しない
+		<li><span style='color:#FF0080'>format</span> &rarr;
+			html, txt, json。省略時は html
+		<li><span style='color:brown'>download</span> &rarr;
+			URLの最後に付加すると検索結果をファイルとしてダウンロードできる
+	</ul>
+	<li>例1：<a href='http://GGGenome.dbcls.jp/TTCATTGACAACATT'><!--
+		-->http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#008000'>TTCATTGACAACATT</span><!--
+		--></a>
+	<ul>
+		<li>ヒトゲノム <span style='color:#ff6600'>hg19</span> (省略可) で
+		<li>ミスマッチ/ギャップを許容せず (省略可)
+		<li><span style='color:#008000'>TTCATTGACAACATT</span> を検索し
+		<li><span style='color:#FF0080'>html</span> 形式 (省略可) で結果を返す
+	</ul>
+	<li>例2：<a href='http://GGGenome.dbcls.jp/mm10/2/TTCATTGACAACATTGCGT.txt'><!--
+		-->http://GGGenome.dbcls.jp/<!--
+		--><span style='color:#ff6600'>mm10</span>/<!--
+		--><span style='color:#0000ff'>2</span>/<!--
+		--><span style='color:#008000'>TTCATTGACAACATTGCGT</span><!--
+		-->.<span style='color:#FF0080'>txt</span><!--
+		--></a>
+	<ul>
+		<li>マウスゲノム <span style='color:#ff6600'>mm10</span> で
+		<li><span style='color:#0000ff'>2</span> ミスマッチ/ギャップまで許容して
+		<li><span style='color:#008000'>TTCATTGACAACATTGCGT</span> を検索し
+		<li><span style='color:#FF0080'>txt</span> 形式 (タブ区切りテキスト) で結果を返す
+	</ul>
+</ul>
+</div>
+
+<div>
+元データ：
+<ul>
+	<li>Human genome, GRCh37/hg19 (Feb, 2009)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz</a>
+	<li>Mouse genome, GRCm38/mm10 (Dec, 2011)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz</a>
+	<li>Rat genome, RGSC 5.0/rn5 (Mar, 2012)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/chromFa.tar.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/chromFa.tar.gz</a>
+	<li>Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/galGal4.fa.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/galGal4.fa.gz</a>
+	<li>Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/xenTro3.fa.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/xenTro3.fa.gz</a>
+	<li>Zebrafish genome, Zv9/danRer7 (Jul, 2010)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/danRer7.fa.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/danRer7.fa.gz</a>
+	<li>Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/ci2/bigZips/ScaffoldFa.zip'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/ci2/bigZips/ScaffoldFa.zip</a>
+	<li>Drosophila genome, BDGP R5/dm3 (Apr, 2006)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/chromFa.tar.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/chromFa.tar.gz</a>
+	<li>C. elegans genome, WS220/ce10 (Oct, 2010)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/chromFa.tar.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/chromFa.tar.gz</a>
+	<li>Arabidopsis thaliana genome, TAIR10 (Nov, 2010)<br>
+		<a target='_blank' href='ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/'>
+		ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes</a>/*.fas
+	<li>Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)<br>
+		Genome assemblies (12 chromosomes) + Unanchored sequences from<br>
+		<a target='_blank' href='http://rapdb.dna.affrc.go.jp/download/irgsp1.html'>
+		http://rapdb.dna.affrc.go.jp/download/irgsp1.html</a>
+	<li>Silkworm genome, Bmor1 (Apr, 2008)<br>
+		Bombyx_mori.Bmor1.17.dna.toplevel.fa.gz from<br>
+		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/'>
+		ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/</a>
+	<li>RefSeq complete RNA, release 60 (Jul, 2013)<br>
+		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
+		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
+	<li>Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)<br>
+		(unpublished)
+	<li>DDBJ release 92.0 (Feb, 2013)<br>
+		<a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/'>
+		ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj</a>/*.seq.gz
+</ul>
+</div>
+
+<div>
+文献：
+<ul>
+	<li>ソース：GitHub -
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome'><!--
+		-->meso-cacase/GGGenome</a>
+</ul>
+</div>
+
+<a name=news></a>
+<div>
+新着情報：
+<ul>
+	<li>2013-08-19 活用事例：<a class=a target='_blank'
+		href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
+		-->Googleスプレッドシート上で配列検索</a> ができます。
+	<li>2013-07-28 RefSeq rel. 60 (Jul, 2013) に更新。
+	<li>2013-05-28 ニワトリ、ツメガエル、ゼブラフィッシュ、ホヤ、シロイヌナズナのゲノムを追加。
+	<li>2013-05-21 DDBJ rel. 92.0 (Feb, 2013) に更新。
+	<li>2013-05-07 RefSeq rel. 59 (May, 2013) に更新。
+	<li>2013-03-28 RefSeq rel. 58 (Mar, 2013) に更新。
+	<li>2013-02-26 検索結果のダウンロードに対応。
+	<li>2013-02-12 カイコゲノムを追加。
+	<li>2013-02-08 <a class=a href='en/'>英語版</a> を公開。
+	<li>2013-02-08 イネゲノムを追加。
+	<li>2013-02-06 ソースを公開 -
+		<a class=a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>
+	<li>2013-01-16 RefSeq rel. 57 (Jan, 2013) に更新。
+	<li>2012-12-21 GGGenome REST APIを公開。
+	<li>2012-12-21 ラット、ショウジョウバエ、線虫のゲノムを追加。
+	<li>2012-11-15 RefSeq rel. 56 (Nov, 2012) に更新。
+	<li>2012-07-26 マウスゲノムを追加。
+	<li>2012-07-25 RefSeq rel. 54 (Jul, 2012) に更新。
+	<li>2012-07-04 ゲゲゲノムのテストサイトを構築
+</ul>
+</div>
+
+<hr><!-- __________________________________________________ -->
+
+<p class=g>Last modified on Aug 19, 2013 by
+<a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
+<a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
+This page is licensed under a
+<a target='_blank' class=a href='http://creativecommons.org/licenses/by/2.1/jp/'>
+Creative Commons Attribution 2.1 Japan License</a>.</p>
+
+</body>
+</html>
