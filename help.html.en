@@ -86,7 +86,7 @@ function set_k(){
 	<option value=rice   >Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) </option>
 	<option value=bmor1  >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
 	<option disabled>----------</option>
-	<option value=refseq >RefSeq complete RNA, release 60 (Jul, 2013)                </option>
+	<option value=refseq >RefSeq complete RNA, release 61 (Sep, 2013)                </option>
 	<option value=prok   >Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)          </option>
 	<option value=ddbj   >DDBJ release 92.0 (Feb, 2013)                              </option>
 </select>
@@ -230,7 +230,7 @@ Data source:
 		Bombyx_mori.Bmor1.17.dna.toplevel.fa.gz from<br>
 		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/'>
 		ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/</a>
-	<li>RefSeq complete RNA, release 60 (Jul, 2013)<br>
+	<li>RefSeq complete RNA, release 61 (Sep, 2013)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
 	<li>Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)<br>
@@ -254,6 +254,7 @@ Reference:
 <div>
 What's new:
 <ul>
+	<li>2013-09-20 Database updated to RefSeq rel. 61 (Sep, 2013).
 	<li>2013-08-19 Tips: <a class=a target='_blank'
 		href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
 		-->GGGenome search using Google Spreadsheet</a>.
@@ -281,7 +282,7 @@ What's new:
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Aug 19, 2013 by
+<p class=g>Last modified on Sep 20, 2013 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
