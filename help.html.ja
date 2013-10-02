@@ -87,7 +87,7 @@ function set_k(){
 	<option value=bmor1  >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
 	<option disabled>----------</option>
 	<option value=refseq >RefSeq complete RNA, release 61 (Sep, 2013)                </option>
-	<option value=prok   >Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)          </option>
+	<option value=prok   >Prokaryotic TogoGenome from RefSeq 60 (Jul, 2013)          </option>
 	<option value=ddbj   >DDBJ release 92.0 (Feb, 2013)                              </option>
 </select>
 <br>
@@ -233,7 +233,7 @@ set_k() ;
 	<li>RefSeq complete RNA, release 61 (Sep, 2013)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)<br>
+	<li>Prokaryotic TogoGenome from RefSeq 60 (Jul, 2013)<br>
 		(unpublished)
 	<li>DDBJ release 92.0 (Feb, 2013)<br>
 		<a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/'>
@@ -254,6 +254,7 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2013-10-02 TogoGenome from RefSeq 60 (Jul, 2013) に更新。
 	<li>2013-09-20 RefSeq rel. 61 (Sep, 2013) に更新。
 	<li>2013-08-19 活用事例：<a class=a target='_blank'
 		href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
@@ -281,7 +282,7 @@ set_k() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Sep 20, 2013 by
+<p class=g>Last modified on Oct 2, 2013 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a

@@ -53,7 +53,7 @@ my %db_fullname = (               # データベースの正式名
 	'rice'    => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
 	'bmor1'   => 'Silkworm genome, Bmor1 (Apr, 2008)',
 	'refseq'  => 'RefSeq complete RNA, release 61 (Sep, 2013)',
-	'prok'    => 'Prokaryotic TogoGenome from RefSeq 58 (Mar, 2013)',
+	'prok'    => 'Prokaryotic TogoGenome from RefSeq 60 (Jul, 2013)',
 	'ddbj'    => 'DDBJ release 92.0 (Feb, 2013)'
 ) ;
 #- ▲ モジュール読み込みと変数の初期化
@@ -606,7 +606,7 @@ return
 # ====================
 sub parse_seqname_json {  # 配列名に含まれるtaxonomy ID等をJSONに展開
 my $json = $_[0] or return $_[0] ;
-if ($db eq 'prok' and $json->{name} =~ s/^rs:\S+\s+(.*?)\s*\{(.*)\}/$1/){
+if ($db eq 'prok' and $json->{name} =~ s/^(.*?)\s*\{(.*)\}/$1/){
 	foreach (split /,/, $2){
 		$_ =~ /taxonomy:\"(.*?)\"/   and $json->{taxonomy}   = $1 +0 ;  # 数値化
 		$_ =~ /bioproject:\"(.*?)\"/ and $json->{bioproject} = $1 ;
@@ -642,11 +642,11 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
-($db eq 'prok' and $name =~ /^rs:(\S+)\s+(.*?)\s*\{((?:.*)refseq:"(.*?)"(?:.*))\}$/) ?
+($db eq 'prok' and $name =~ /^(.*?)\s*\{((?:.*)refseq:"(.*?)"(?:.*))\}$/) ?
 	return "<a class=a target='_blank' href=" .
-	       "http://www.ncbi.nlm.nih.gov/nuccore/$4>$2</a><br>\n" .
-	       "<span class=g>$3</span><br>" .
-	       "<font color='#0E774A'>$4</font>:$pos-$pos_end" :
+	       "http://www.ncbi.nlm.nih.gov/nuccore/$3>$1</a><br>\n" .
+	       "<span class=g>$2</span><br>" .
+	       "<font color='#0E774A'>$3</font>:$pos-$pos_end" :
 ($db eq 'ddbj' and $name =~ /^.*?\|(\S+)\s+(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
