@@ -103,17 +103,17 @@ set_k() ;
 //-->
 </script>
 
-<!--
 <div><font color=red>
 NOTICE:
 <ul>
-	<li>Currently under maintenance.
+	<li>Server maintenance: 27 Oct 2013, 7:00 to 28 Oct 2013 10:30 (JST).
+	    Sorry for the inconvenience.
 </ul>
 </font></div>
 
 <img src='chata_en.png' alt='nyaan' border=0>
 
-<hr> --> <!-- __________________________________________________ -->
+<hr><!-- __________________________________________________ -->
 
 <div>
 Search example:
@@ -283,7 +283,7 @@ What's new:
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Oct 2, 2013 by
+<p class=g>Last modified on Oct 25, 2013 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
