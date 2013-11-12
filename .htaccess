@@ -38,6 +38,15 @@ RewriteCond  %{REQUEST_URI}  ^/(test/)?
 RewriteRule  (?:^|/)(chata_(en|ja)\.png)$  /%1$1  [R,L]
 #- ▲ chata_en.png, chata_ja.pngの表示
 
+#- ▼ togotv_en.png, togotv_ja.pngの表示
+# mod_rewriteの適用を終了する条件
+RewriteRule  ^togotv_(en|ja)\.png$  -  [L]
+
+# パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
+RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteRule  (?:^|/)(togotv_(en|ja)\.png)$  /%1$1  [R,L]
+#- ▲ togotv_en.png, togotv_ja.pngの表示
+
 #- ▼ api.txtの表示
 # mod_rewriteの適用を終了する条件
 RewriteRule  ^api\.txt$  -  [L]

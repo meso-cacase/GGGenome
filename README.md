@@ -117,6 +117,7 @@ GGGenome《ゲゲゲノム》
 --------
 
 Copyright &copy; 2012-2013 Yuki Naito
- ([@meso_cacase](http://twitter.com/meso_cacase))  
+ ([@meso_cacase](http://twitter.com/meso_cacase)) at  
+Database Center for Life Science (DBCLS), Japan.  
 This software is distributed under [modified BSD license]
  (http://www.opensource.org/licenses/bsd-license.php).
