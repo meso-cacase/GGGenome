@@ -52,7 +52,7 @@ my %db_fullname = (               # データベースの正式名
 	'TAIR10'  => 'Arabidopsis thaliana genome, TAIR10 (Nov, 2010)',
 	'rice'    => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
 	'bmor1'   => 'Silkworm genome, Bmor1 (Apr, 2008)',
-	'refseq'  => 'RefSeq complete RNA, release 61 (Sep, 2013)',
+	'refseq'  => 'RefSeq complete RNA, release 62 (Nov, 2013)',
 	'prok'    => 'Prokaryotic TogoGenome from RefSeq 60 (Jul, 2013)',
 	'ddbj'    => 'DDBJ release 92.0 (Feb, 2013)'
 ) ;
