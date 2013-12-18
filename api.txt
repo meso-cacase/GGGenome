@@ -17,7 +17,7 @@ http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
     'rice' - Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) or
     'bmor1' - Silkworm genome, Bmor1 (Apr, 2008) or
     'refseq' - RefSeq complete RNA, release 62 (Nov, 2013) or
-    'prok' - Prokaryotic TogoGenome from RefSeq 60 (Jul, 2013) or
+    'prok' - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013) or
     'ddbj' - DDBJ release 92.0 (Feb, 2013)
     Default: hg19
   K (optional):

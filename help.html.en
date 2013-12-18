@@ -87,7 +87,7 @@ function set_k(){
 	<option value=bmor1  >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
 	<option disabled>----------</option>
 	<option value=refseq >RefSeq complete RNA, release 62 (Nov, 2013)                </option>
-	<option value=prok   >Prokaryotic TogoGenome from RefSeq 60 (Jul, 2013)          </option>
+	<option value=prok   >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
 	<option value=ddbj   >DDBJ release 92.0 (Feb, 2013)                              </option>
 </select>
 <br>
@@ -242,7 +242,7 @@ Data source:
 	<li>RefSeq complete RNA, release 62 (Nov, 2013)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>Prokaryotic TogoGenome from RefSeq 60 (Jul, 2013)<br>
+	<li>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)<br>
 		(unpublished)
 	<li>DDBJ release 92.0 (Feb, 2013)<br>
 		<a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/'>
@@ -263,6 +263,7 @@ Reference:
 <div>
 What's new:
 <ul>
+	<li>2013-12-18 Database updated to TogoGenome from RefSeq 62 (Nov, 2013).
 	<li>2013-11-17 Database updated to RefSeq rel. 62 (Nov, 2013).
 	<li>2013-10-02 Database updated to TogoGenome from RefSeq 60 (Jul, 2013).
 	<li>2013-09-20 Database updated to RefSeq rel. 61 (Sep, 2013).
@@ -293,7 +294,7 @@ What's new:
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 17, 2013 by
+<p class=g>Last modified on Dec 18, 2013 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

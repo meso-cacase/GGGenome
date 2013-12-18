@@ -66,7 +66,7 @@ GGGenome《ゲゲゲノム》
            (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
   'refseq' - [RefSeq complete RNA release 62 (Nov, 2013)]
            (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
-  'prok' - Prokaryotic TogoGenome from RefSeq 60 (Jul, 2013)  
+  'prok' - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)  
   'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 92.0 (Feb, 2013)]
            (ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/)  
 + *k* : 許容するミスマッチ/ギャップの数  
