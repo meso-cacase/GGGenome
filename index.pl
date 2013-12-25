@@ -52,6 +52,7 @@ my %db_fullname = (               # データベースの正式名
 	'TAIR10'  => 'Arabidopsis thaliana genome, TAIR10 (Nov, 2010)',
 	'rice'    => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
 	'bmor1'   => 'Silkworm genome, Bmor1 (Apr, 2008)',
+	'sacCer3' => 'S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)',
 	'refseq'  => 'RefSeq complete RNA, release 62 (Nov, 2013)',
 	'prok'    => 'Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)',
 	'ddbj'    => 'DDBJ release 92.0 (Feb, 2013)'
@@ -82,7 +83,7 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
 	($param =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|
-	              dm3|ce10|TAIR10|rice|bmor1|refseq|prok|ddbj)$/xi) ?
+	              dm3|ce10|TAIR10|rice|bmor1|sacCer3|refseq|prok|ddbj)$/xi) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
@@ -122,6 +123,7 @@ $db =~ s/galGal4/galGal4/i ;          # 大文字小文字を正規化
 $db =~ s/xenTro3/xenTro3/i ;          # 大文字小文字を正規化
 $db =~ s/danRer7/danRer7/i ;          # 大文字小文字を正規化
 $db =~ s/TAIR10/TAIR10/i ;            # 大文字小文字を正規化
+$db =~ s/sacCer3/sacCer3/i ;          # 大文字小文字を正規化
 
 $k =                                  # 許容するミスマッチ/ギャップの数
 	(defined $query{'k'} and $query{'k'} =~ /^\d+$/) ?
@@ -204,6 +206,7 @@ my $port =                                # 曖昧検索サーバのポート
 	($db eq 'TAIR10' ) ? 42373 :
 	($db eq 'rice'   ) ? 42293 :
 	($db eq 'bmor1'  ) ? 42303 :
+	($db eq 'sacCer3') ? 42383 :
 	($db eq 'refseq' ) ? 42243 :
 	($db eq 'prok'   ) ? 42323 :
 	($db eq 'ddbj'   ) ? 42313 :
@@ -622,7 +625,7 @@ my $pos     = $_[1] // '' ;
 my $pos_end = $_[2] // '' ;
 my $db      = $_[3] // '' ;
 
-($db =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10)$/) ?
+($db =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10|sacCer3)$/) ?
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
@@ -770,6 +773,7 @@ my $select =
 	<option value=TAIR10 >$db_fullname{'TAIR10' }</option>
 	<option value=rice   >$db_fullname{'rice'   }</option>
 	<option value=bmor1  >$db_fullname{'bmor1'  }</option>
+	<option value=sacCer3>$db_fullname{'sacCer3'}</option>
 	<option disabled>----------</option>
 	<option value=refseq >$db_fullname{'refseq' }</option>
 	<option value=prok   >$db_fullname{'prok'   }</option>
@@ -841,6 +845,7 @@ my $select =
 	<option value=TAIR10 >$db_fullname{'TAIR10' }</option>
 	<option value=rice   >$db_fullname{'rice'   }</option>
 	<option value=bmor1  >$db_fullname{'bmor1'  }</option>
+	<option value=sacCer3>$db_fullname{'sacCer3'}</option>
 	<option disabled>----------</option>
 	<option value=refseq >$db_fullname{'refseq' }</option>
 	<option value=prok   >$db_fullname{'prok'   }</option>

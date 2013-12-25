@@ -13,7 +13,7 @@ function set_db(){
 	var db ;
 	if (location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)[1] ;
-		if (db.match(/hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|bmor1|refseq|prok|ddbj/)){
+		if (db.match(/hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|bmor1|sacCer3|refseq|prok|ddbj/)){
 			document.gggenome.db.value = db ;
 		}
 	}
@@ -85,6 +85,7 @@ function set_k(){
 	<option value=TAIR10 >Arabidopsis thaliana genome, TAIR10 (Nov, 2010)            </option>
 	<option value=rice   >Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) </option>
 	<option value=bmor1  >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
+	<option value=sacCer3>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
 	<option disabled>----------</option>
 	<option value=refseq >RefSeq complete RNA, release 62 (Nov, 2013)                </option>
 	<option value=prok   >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
@@ -161,8 +162,8 @@ set_k() ;
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#ff6600'>db</span> &rarr;
-			hg19, mm10, rn5, galGal4, xenTro3, danRer7, ci2,
-			dm3, ce10, TAIR10, rice, bmor1, refseq, ddbj。省略時は hg19
+			hg19, mm10, rn5, galGal4, xenTro3, danRer7, ci2, dm3, ce10,<br>
+			TAIR10, rice, bmor1, sacCer3, refseq, prok, ddbj。省略時は hg19
 		<li><span style='color:#0000ff'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
 		<li><span style='color:#008000'>sequence</span> &rarr;
@@ -239,6 +240,9 @@ set_k() ;
 		Bombyx_mori.Bmor1.17.dna.toplevel.fa.gz from<br>
 		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/'>
 		ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/</a>
+	<li>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz</a>
 	<li>RefSeq complete RNA, release 62 (Nov, 2013)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
@@ -263,6 +267,7 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2013-12-25 出芽酵母のゲノムを追加。
 	<li>2013-12-18 TogoGenome from RefSeq 62 (Nov, 2013) に更新。
 	<li>2013-11-17 RefSeq rel. 62 (Nov, 2013) に更新。
 	<li>2013-10-02 TogoGenome from RefSeq 60 (Jul, 2013) に更新。
@@ -293,7 +298,7 @@ set_k() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Dec 18, 2013 by
+<p class=g>Last modified on Dec 25, 2013 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
