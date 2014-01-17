@@ -3,9 +3,21 @@
 
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<meta http-equiv='Content-Script-Type' content='text/javascript'>
 <meta http-equiv='Content-Style-Type' content='text/css'>
 <TMPL_VAR NAME=ROBOTS><meta name=author content='Yuki Naito'>
 <title><TMPL_VAR NAME=TITLE></title>
+<script type="text/javascript">
+<!--
+function hideDebug() {
+	if (document.getElementById('debug').style.display == 'none') {
+		document.getElementById('debug').style.display = 'block';
+	} else {
+		document.getElementById('debug').style.display = 'none';
+	}
+}
+//-->
+</script>
 <style type='text/css'>
 <!--
 	* { font-family:verdana,arial,helvetica,sans-serif }

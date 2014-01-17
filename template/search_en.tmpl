@@ -32,12 +32,10 @@ Matches are <em>highlighted with blue background.
 </ul>
 </div>
 
-<h4 class=s>Debug Info:</h4>
+<h4 class=s id='hide' onclick='hideDebug()'>Debug Info:</h4>
 
+<div id='debug'>
 <p class=s>
-<!--
-Request URI  : http://<font color='#808080'><TMPL_VAR NAME=HTTP_HOST></font><TMPL_VAR NAME=REQUEST_URI><br>
--->
 Redirect URI : http://<font color='#808080'><TMPL_VAR NAME=HTTP_HOST></font><TMPL_VAR NAME=REDIRECT_URI><br>
 lang         : <font color='#808080'><TMPL_VAR NAME=LANG    ></font> |
 db           : <font color='#ffb280'><TMPL_VAR NAME=DB      ></font> |
@@ -50,3 +48,6 @@ download     : <font color='#808080'><TMPL_VAR NAME=DOWNLOAD></font>
 <pre class=s>
 <TMPL_VAR NAME=TIMELOG>
 </pre>
+</div>
+
+<script>hideDebug()</script>

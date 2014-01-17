@@ -419,7 +419,6 @@ if ($format eq 'txt'){
 		MAX_HIT_API  => $max_hit_api,
 		LINKBASE_URI => $linkbase_uri,
 		HTTP_HOST    => $ENV{'HTTP_HOST'},
-		REQUEST_URI  => $request_uri,
 		REDIRECT_URI => $redirect_uri,
 		LANG         => $lang,
 		DB           => $db,
