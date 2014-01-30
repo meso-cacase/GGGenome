@@ -24,22 +24,39 @@ function hideDebug() {
 	p,ol,pre,div,small,cite { font-size:9pt }
 	cite { color:#0E774A; font-style:normal }
 	a { color:black; font-style:normal }
-	em { font-style:normal;
+	em {
+		font-style:normal;
 		border:1px solid #00BCFF;
-		background-color:#DDF6FF }
-	strong { font-style:normal;
+		background-color:#DDF6FF;
+	}
+	strong {
+		font-style:normal;
 		font-weight:bold;
 		color:red;
-		background-color:#DDF6FF }
-	ins,del { font-style:normal;
+		background-color:#DDF6FF;
+	}
+	ins,del {
+		font-style:normal;
 		font-weight:bold;
 		text-decoration:none;
-		background-color:pink }
-	.position { position:absolute;
+		background-color:pink;
+	}
+	.position {
+		position:absolute;
 		top:-1.2em;
+		left:1em;
 		color:#0E774A;
 		font-size:80%;
-		user-select:none　}
+		user-select:none;
+	}
+	.pointer {
+		position:absolute;
+		top:-0.8em;
+		width:0; height:0;
+		border-left: 0.35em solid transparent;
+		border-right:0.35em solid transparent;
+		border-top:  0.80em solid #0E774A;
+	}
 	.gene { margin:10pt }
 	.a { color:#3366CC }
 	.t { font-size:10pt; width:90% }

@@ -588,9 +588,10 @@ $snippet_3prime = substr($snippet_3prime, 0, 30) ;
 my $align = Align2seq::diffseq(uc($queryseq), uc($sbjct)) ;
 
 my $snippet_html =
-	$snippet_5prime .
-	'<em style="position:relative">' .
-	"<span class=position>&#9660;$position</span>" .
+	$snippet_5prime                         .
+	'<em style="position:relative">'        .
+	'<span class=pointer></span>'           .
+	"<span class=position>$position</span>" .
 	"$align</em>$snippet_3prime" ;
 
 $name =~ s/^>// ;
