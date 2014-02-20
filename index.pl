@@ -351,7 +351,8 @@ if ($format eq 'txt'){
 	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
 
 	push @summary,
-		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>$queryseq ($hit_num)</a>" ;
+		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
+		"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
@@ -371,7 +372,8 @@ if ($format eq 'txt'){
 	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
 
 	push @summary,
-		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>$queryseq ($hit_num)</a>" ;
+		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
+		"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
 	#--- △ (-)鎖の検索実行と結果出力
 
 	@hit_list or
@@ -601,7 +603,7 @@ return
 	<div class=t>
 	@{[ link_seqname($name, $position, $position_end, $db) ]}
 	</div>
-	<div class=b>
+	<div class='b mono'>
 	$snippet_html
 	</div>
 </div>" ;
