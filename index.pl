@@ -53,7 +53,7 @@ my %db_fullname = (               # データベースの正式名
 	'rice'    => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
 	'bmor1'   => 'Silkworm genome, Bmor1 (Apr, 2008)',
 	'sacCer3' => 'S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)',
-	'refseq'  => 'RefSeq complete RNA, release 63 (Jan, 2014)',
+	'refseq'  => 'RefSeq complete RNA, release 64 (Mar, 2014)',
 	'prok'    => 'Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)',
 	'ddbj'    => 'DDBJ release 92.0 (Feb, 2013)'
 ) ;

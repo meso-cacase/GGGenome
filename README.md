@@ -66,7 +66,7 @@ GGGenome《ゲゲゲノム》
            (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
   'sacCer3' - 出芽酵母ゲノム [sacCer3 (Apr, 2011)]
            (http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)  
-  'refseq' - [RefSeq complete RNA release 63 (Jan, 2014)]
+  'refseq' - [RefSeq complete RNA release 64 (Mar, 2014)]
            (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'prok' - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)  
   'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 92.0 (Feb, 2013)]
