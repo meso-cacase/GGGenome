@@ -219,6 +219,8 @@ my $hits ;        # 曖昧検索サーバから取得したJSON形式の結果
 my $uri ;         # 曖昧検索サーバへのリクエストURI
 my $hit_num ;     # ヒット件数
 my $hit_approx ;  # ヒット件数が概算かどうか
+my $ds_hit_num ;  # 両鎖のヒット件数の合計
+my $ds_approx ;   # 両鎖のヒット件数が概算かどうか
 my @summary ;     # 検索結果のヘッダ情報 (データベース名、ヒット件数など)
 my @hit_list ;    # 検索結果のリスト
 
@@ -348,7 +350,9 @@ if ($format eq 'txt'){
 	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
 	$hit_num    = $hits->{total_hit_num}           // '' ;
 	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+	$ds_hit_num += $hit_num ;
 	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+	$hit_approx and $ds_approx = 1 ;
 
 	push @summary,
 		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
@@ -369,12 +373,20 @@ if ($format eq 'txt'){
 	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
 	$hit_num    = $hits->{total_hit_num}           // '' ;
 	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+	$ds_hit_num += $hit_num ;
 	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+	$hit_approx and $ds_approx = 1 ;
 
 	push @summary,
 		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
 		"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
 	#--- △ (-)鎖の検索実行と結果出力
+
+	#--- ▽ 両鎖の合計数を出力
+	$ds_approx and $ds_hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+	push @summary,
+		"	<li><font color=maroon><b>TOTAL ($ds_hit_num)</b></font>" ;
+	#--- △ 両鎖の合計数を出力
 
 	@hit_list or
 		push @hit_list, '<div class=gene><p>No items found.</p></div>' ;  # ヒットがゼロ件
