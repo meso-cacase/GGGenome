@@ -104,7 +104,7 @@ function set_k(){
 	<option value=bmor1  >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
 	<option value=sacCer3>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
 	<option disabled>----------</option>
-	<option value=refseq >RefSeq complete RNA, release 64 (Mar, 2014)                </option>
+	<option value=refseq >RefSeq complete RNA, release 65 (May, 2014)                </option>
 	<option value=prok   >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
 	<option value=ddbj   >DDBJ release 92.0 (Feb, 2013)                              </option>
 </select>
@@ -261,7 +261,7 @@ set_k() ;
 	<li>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz</a>
-	<li>RefSeq complete RNA, release 64 (Mar, 2014)<br>
+	<li>RefSeq complete RNA, release 65 (May, 2014)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
 	<li>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)<br>
@@ -285,6 +285,7 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2014-05-30 RefSeq rel. 65 (May, 2014) に更新。
 	<li>2014-03-17 RefSeq rel. 64 (Mar, 2014) に更新。
 	<li>2014-01-24 RefSeq rel. 63 (Jan, 2014) に更新。
 	<li>2013-12-25 出芽酵母のゲノムを追加。
@@ -318,7 +319,7 @@ set_k() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on May 13, 2014 by
+<p class=g>Last modified on May 30, 2014 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
