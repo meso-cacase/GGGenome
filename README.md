@@ -39,50 +39,50 @@ GGGenome《ゲゲゲノム》
 **URI:** http://GGGenome.dbcls.jp/db/k/sequence[.format][.download]
 
 + *db* : 塩基配列データベース  
-  'hg19' - ヒトゲノム [GRCh37/hg19 (Feb, 2009)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
-           (省略時のデフォルト)  
-  'mm10' - マウスゲノム [GRCm38/mm10 (Dec, 2011)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
-  'rn5'  - ラットゲノム [RGSC 5.0/rn5 (Mar, 2012)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/)  
-  'susScr3' - ブタゲノム [SGSC Sscrofa10.2/susScr3 (Aug, 2011)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/)  
-  'galGal4' - ニワトリゲノム [ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/)  
-  'xenTro3' - ツメガエルゲノム [JGI 4.2/xenTro3 (Nov, 2009)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/)  
-  'danRer7' - ゼブラフィッシュゲノム [Zv9/danRer7 (Jul, 2010)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/)  
-  'ci2'  - ホヤゲノム [JGI 2.1/ci2 (Mar, 2005)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/ci2/bigZips/)  
-  'dm3'  - ショウジョウバエゲノム [BDGP R5/dm3 (Apr, 2006)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
-  'ce10' - 線虫ゲノム [WS220/ce10 (Oct, 2010)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
-  'TAIR10' - シロイヌナズナゲノム [TAIR10 (Nov, 2010)]
-           (ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/)  
-  'rice' - イネゲノム [Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)]
-           (http://rapdb.dna.affrc.go.jp/download/irgsp1.html)  
-  'sorBic' - ソルガムゲノム [Sorghum bicolor v2.1 (May, 2013)]
-           (http://www.phytozome.net/dataUsagePolicy.php?org=Org_Sbicolor_v2.1)  
-  'bmor1' - カイコゲノム [Bmor1 (Apr, 2008)]
-           (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
-  'sacCer3' - 出芽酵母ゲノム [sacCer3 (Apr, 2011)]
-           (http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)  
-  'refseq' - [RefSeq complete RNA release 65 (May, 2014)]
-           (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
+  'hg19'      - ヒトゲノム [GRCh37/hg19 (Feb, 2009)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
+                (省略時のデフォルト)  
+  'mm10'      - マウスゲノム [GRCm38/mm10 (Dec, 2011)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
+  'rn5'       - ラットゲノム [RGSC 5.0/rn5 (Mar, 2012)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/)  
+  'susScr3'   - ブタゲノム [SGSC Sscrofa10.2/susScr3 (Aug, 2011)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/)  
+  'galGal4'   - ニワトリゲノム [ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/)  
+  'xenTro3'   - ツメガエルゲノム [JGI 4.2/xenTro3 (Nov, 2009)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/)  
+  'danRer7'   - ゼブラフィッシュゲノム [Zv9/danRer7 (Jul, 2010)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/)  
+  'ci2'       - ホヤゲノム [JGI 2.1/ci2 (Mar, 2005)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/ci2/bigZips/)  
+  'dm3'       - ショウジョウバエゲノム [BDGP R5/dm3 (Apr, 2006)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
+  'ce10'      - 線虫ゲノム [WS220/ce10 (Oct, 2010)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
+  'TAIR10'    - シロイヌナズナゲノム [TAIR10 (Nov, 2010)]
+                (ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/)  
+  'rice'      - イネゲノム [Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)]
+                (http://rapdb.dna.affrc.go.jp/download/irgsp1.html)  
+  'sorBic'    - ソルガムゲノム [Sorghum bicolor v2.1 (May, 2013)]
+                (http://www.phytozome.net/dataUsagePolicy.php?org=Org_Sbicolor_v2.1)  
+  'bmor1'     - カイコゲノム [Bmor1 (Apr, 2008)]
+                (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
+  'sacCer3'   - 出芽酵母ゲノム [sacCer3 (Apr, 2011)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)  
+  'refseq'    - [RefSeq complete RNA release 65 (May, 2014)]
+                (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'hs_refseq' - [RefSeq human RNA release 60 (Jul, 2013)]
-           (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
-  'prok' - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)  
-  'ddbj' - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 92.0 (Feb, 2013)]
-           (ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/)  
+                (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
+  'prok'      - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)  
+  'ddbj'      - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 92.0 (Feb, 2013)]
+                (ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/)  
 + *k* : 許容するミスマッチ/ギャップの数  
   省略時のデフォルト: 0
 + *sequence* : 塩基配列 (省略不可)
 + *format* : 検索結果のフォーマット  
   'html' - HTML (省略時のデフォルト)  
-  'txt' - タブ区切りテキスト  
+  'txt'  - タブ区切りテキスト  
   'json' - JSON
 + *download* : 検索結果をファイルとしてダウンロード (txt, jsonのみ)
 
