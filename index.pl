@@ -43,6 +43,7 @@ my %db_fullname = (               # データベースの正式名
 	'hg19'    => 'Human genome, GRCh37/hg19 (Feb, 2009)',
 	'mm10'    => 'Mouse genome, GRCm38/mm10 (Dec, 2011)',
 	'rn5'     => 'Rat genome, RGSC 5.0/rn5 (Mar, 2012)',
+	'susScr3' => 'Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)',
 	'galGal4' => 'Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)',
 	'xenTro3' => 'Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)',
 	'danRer7' => 'Zebrafish genome, Zv9/danRer7 (Jul, 2010)',
@@ -51,6 +52,7 @@ my %db_fullname = (               # データベースの正式名
 	'ce10'    => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
 	'TAIR10'  => 'Arabidopsis thaliana genome, TAIR10 (Nov, 2010)',
 	'rice'    => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
+	'sorBic'  => 'Sorghum genome, Sorghum bicolor v2.1 (May, 2013)',
 	'bmor1'   => 'Silkworm genome, Bmor1 (Apr, 2008)',
 	'sacCer3' => 'S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)',
 	'refseq'  => 'RefSeq complete RNA release 65 (May, 2014)',
@@ -83,8 +85,8 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	my ($param, $slash) = ($1, $2) ;
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
-	($param =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|
-	              dm3|ce10|TAIR10|rice|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj)$/xi) ?
+	($param =~ /^(hg19|mm10|rn5|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|
+	              TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj)$/xi) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
@@ -120,10 +122,12 @@ $db = lc(                             # 生物種 (データベース)
 	$query{'db'} //                   # 1) QUERY_STRINGから
 	$db          //                   # 2) QUERY_STRING未指定 → URIから
 	'') ;                             # 3) URI未指定 → 空欄
+$db =~ s/susScr3/susScr3/i ;          # 大文字小文字を正規化
 $db =~ s/galGal4/galGal4/i ;          # 大文字小文字を正規化
 $db =~ s/xenTro3/xenTro3/i ;          # 大文字小文字を正規化
 $db =~ s/danRer7/danRer7/i ;          # 大文字小文字を正規化
 $db =~ s/TAIR10/TAIR10/i ;            # 大文字小文字を正規化
+$db =~ s/sorBic/sorBic/i ;            # 大文字小文字を正規化
 $db =~ s/sacCer3/sacCer3/i ;          # 大文字小文字を正規化
 
 $k =                                  # 許容するミスマッチ/ギャップの数
@@ -198,6 +202,7 @@ my $db_fullname = $db_fullname{$db} //    # データベースの正式名
 my $port =                                # 曖昧検索サーバのポート
 	($db eq 'mm10'   ) ? 42253 :
 	($db eq 'rn5'    ) ? 42263 :
+	($db eq 'susScr3') ? 42413 :
 	($db eq 'galGal4') ? 42333 :
 	($db eq 'xenTro3') ? 42343 :
 	($db eq 'danRer7') ? 42353 :
@@ -206,6 +211,7 @@ my $port =                                # 曖昧検索サーバのポート
 	($db eq 'ce10'   ) ? 42283 :
 	($db eq 'TAIR10' ) ? 42373 :
 	($db eq 'rice'   ) ? 42293 :
+	($db eq 'sorBic' ) ? 42403 :
 	($db eq 'bmor1'  ) ? 42303 :
 	($db eq 'sacCer3') ? 42383 :
 	($db eq 'refseq' ) ? 42243 :
@@ -641,7 +647,7 @@ my $pos     = $_[1] // '' ;
 my $pos_end = $_[2] // '' ;
 my $db      = $_[3] // '' ;
 
-($db =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10|sacCer3)$/) ?
+($db =~ /^(hg19|mm10|rn5|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|sacCer3)$/) ?
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
@@ -657,6 +663,10 @@ my $db      = $_[3] // '' ;
 		       "http://rapdb.dna.affrc.go.jp/viewer/gbrowse/irgsp1/?" .
 		       "name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
 		return "$name:$pos-$pos_end" :
+($db eq 'sorBic') ?
+	return "<a class=a target='_blank' href='" .
+	       "http://www.phytozome.net/cgi-bin/gbrowse/sorghum_er/?" .
+	       "version=100;name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
 ($db =~ /^(hs_)?refseq$/ and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
@@ -780,6 +790,7 @@ my $select =
 "	<option value=hg19   >$db_fullname{'hg19'   }</option>
 	<option value=mm10   >$db_fullname{'mm10'   }</option>
 	<option value=rn5    >$db_fullname{'rn5'    }</option>
+	<option value=susScr3>$db_fullname{'susScr3'}</option>
 	<option value=galGal4>$db_fullname{'galGal4'}</option>
 	<option value=xenTro3>$db_fullname{'xenTro3'}</option>
 	<option value=danRer7>$db_fullname{'danRer7'}</option>
@@ -788,6 +799,7 @@ my $select =
 	<option value=ce10   >$db_fullname{'ce10'   }</option>
 	<option value=TAIR10 >$db_fullname{'TAIR10' }</option>
 	<option value=rice   >$db_fullname{'rice'   }</option>
+	<option value=sorBic >$db_fullname{'sorBic' }</option>
 	<option value=bmor1  >$db_fullname{'bmor1'  }</option>
 	<option value=sacCer3>$db_fullname{'sacCer3'}</option>
 	<option disabled>----------</option>
@@ -853,6 +865,7 @@ my $select =
 "	<option value=hg19   >$db_fullname{'hg19'   }</option>
 	<option value=mm10   >$db_fullname{'mm10'   }</option>
 	<option value=rn5    >$db_fullname{'rn5'    }</option>
+	<option value=susScr3>$db_fullname{'susScr3'}</option>
 	<option value=galGal4>$db_fullname{'galGal4'}</option>
 	<option value=xenTro3>$db_fullname{'xenTro3'}</option>
 	<option value=danRer7>$db_fullname{'danRer7'}</option>
@@ -861,6 +874,7 @@ my $select =
 	<option value=ce10   >$db_fullname{'ce10'   }</option>
 	<option value=TAIR10 >$db_fullname{'TAIR10' }</option>
 	<option value=rice   >$db_fullname{'rice'   }</option>
+	<option value=sorBic >$db_fullname{'sorBic' }</option>
 	<option value=bmor1  >$db_fullname{'bmor1'  }</option>
 	<option value=sacCer3>$db_fullname{'sacCer3'}</option>
 	<option disabled>----------</option>

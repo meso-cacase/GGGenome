@@ -13,7 +13,7 @@ function set_db(){
 	var db ;
 	if (location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)[1] ;
-		if (db.match(/hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj/)){
+		if (db.match(/hg19|mm10|rn5|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj/)){
 			document.gggenome.db.value = db ;
 		}
 	}
@@ -93,6 +93,7 @@ function set_k(){
 	<option value=hg19 selected>Human genome, GRCh37/hg19 (Feb, 2009)                </option>
 	<option value=mm10   >Mouse genome, GRCm38/mm10 (Dec, 2011)                      </option>
 	<option value=rn5    >Rat genome, RGSC 5.0/rn5 (Mar, 2012)                       </option>
+	<option value=susScr3>Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)           </option>
 	<option value=galGal4>Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</option>
 	<option value=xenTro3>Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)     </option>
 	<option value=danRer7>Zebrafish genome, Zv9/danRer7 (Jul, 2010)                  </option>
@@ -101,6 +102,7 @@ function set_k(){
 	<option value=ce10   >C. elegans genome, WS220/ce10 (Oct, 2010)                  </option>
 	<option value=TAIR10 >Arabidopsis thaliana genome, TAIR10 (Nov, 2010)            </option>
 	<option value=rice   >Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) </option>
+	<option value=sorBic >Sorghum genome, Sorghum bicolor v2.1 (May, 2013)           </option>
 	<option value=bmor1  >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
 	<option value=sacCer3>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
 	<option disabled>----------</option>
@@ -181,8 +183,8 @@ set_k() ;
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#ff6600'>db</span> &rarr;
-			hg19, mm10, rn5, galGal4, xenTro3, danRer7, ci2, dm3, ce10,<br>
-			TAIR10, rice, bmor1, sacCer3, refseq, hs_refseq, prok, ddbj。省略時は hg19
+			hg19, mm10, rn5, susScr3, galGal4, xenTro3, danRer7, ci2, dm3, ce10, TAIR10,<br>
+			rice, sorBic, bmor1, sacCer3, refseq, hs_refseq, prok, ddbj。省略時は hg19
 		<li><span style='color:#0000ff'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
 		<li><span style='color:#008000'>sequence</span> &rarr;
@@ -230,6 +232,9 @@ set_k() ;
 	<li>Rat genome, RGSC 5.0/rn5 (Mar, 2012)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/chromFa.tar.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/chromFa.tar.gz</a>
+	<li>Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/susScr3.fa.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/susScr3.fa.gz</a>
 	<li>Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/galGal4.fa.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/galGal4.fa.gz</a>
@@ -255,6 +260,9 @@ set_k() ;
 		Genome assemblies (12 chromosomes) + Unanchored sequences from<br>
 		<a target='_blank' href='http://rapdb.dna.affrc.go.jp/download/irgsp1.html'>
 		http://rapdb.dna.affrc.go.jp/download/irgsp1.html</a>
+	<li>Sorghum genome, Sorghum bicolor v2.1 (May, 2013)<br>
+		<a target='_blank' href='ftp://ftp.jgi-psf.org/pub/compgen/phytozome/v9.0/early_release/Sbicolor_v2.1/assembly/Sbicolor_v2.1_255.fa.gz'>
+		ftp://ftp.jgi-psf.org/pub/compgen/phytozome/v9.0/early_release/Sbicolor_v2.1/assembly/Sbicolor_v2.1_255.fa.gz</a>
 	<li>Silkworm genome, Bmor1 (Apr, 2008)<br>
 		Bombyx_mori.Bmor1.17.dna.toplevel.fa.gz from<br>
 		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/'>
@@ -289,6 +297,7 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2014-06-02 ブタ、ソルガムのゲノムを追加。
 	<li>2014-05-30 RefSeq rel. 65 (May, 2014) に更新。
 	<li>2014-03-17 RefSeq rel. 64 (Mar, 2014) に更新。
 	<li>2014-01-24 RefSeq rel. 63 (Jan, 2014) に更新。
@@ -323,7 +332,7 @@ set_k() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jun 1, 2014 by
+<p class=g>Last modified on Jun 2, 2014 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
