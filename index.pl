@@ -655,7 +655,7 @@ my $db      = $_[3] // '' ;
 	eval '$name =~ s/^chloroplast$/ChrC/ ; $name =~ s/^mitochondria$/ChrM/ ; 1') ?
 	# GBrowseにリンクするため chloroplast → ChrC, mitochondria → ChrM に置換
 	return "<a class=a target='_blank' href='" .
-	       "http://gbrowse.tacc.utexas.edu/cgi-bin/gb2/gbrowse/arabidopsis/?" .
+	       "https://urgi.versailles.inra.fr/gb2/gbrowse/tairv10_pub/?" .
 	       "name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'rice') ?
 	($name =~ /^chr\d\d$/) ?  # chrで始まるもののみGBrowseにリンク
