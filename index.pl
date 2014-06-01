@@ -37,7 +37,7 @@ my $timestamp = timestamp() ;     # CGIを実行した時刻
 my $min_query_length = 6 ;        # クエリの最低塩基長
 my $max_k            = 20 ;       # 許容するミスマッチ/ギャップ数の上限、％
 my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
-my $max_hit_api      = 10000 ;    # 検索を打ち切るヒット数、TXTまたはJSONの場合
+my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXTまたはJSONの場合
 
 my %db_fullname = (               # データベースの正式名
 	'hg19'    => 'Human genome, GRCh37/hg19 (Feb, 2009)',
@@ -53,7 +53,8 @@ my %db_fullname = (               # データベースの正式名
 	'rice'    => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
 	'bmor1'   => 'Silkworm genome, Bmor1 (Apr, 2008)',
 	'sacCer3' => 'S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)',
-	'refseq'  => 'RefSeq complete RNA, release 65 (May, 2014)',
+	'refseq'  => 'RefSeq complete RNA release 65 (May, 2014)',
+	'hs_refseq' => 'RefSeq Human RNA release 60 (Jul, 2013)',
 	'prok'    => 'Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)',
 	'ddbj'    => 'DDBJ release 92.0 (Feb, 2013)'
 ) ;
@@ -83,7 +84,7 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
 	($param =~ /^(hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|
-	              dm3|ce10|TAIR10|rice|bmor1|sacCer3|refseq|prok|ddbj)$/xi) ?
+	              dm3|ce10|TAIR10|rice|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj)$/xi) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
@@ -208,6 +209,7 @@ my $port =                                # 曖昧検索サーバのポート
 	($db eq 'bmor1'  ) ? 42303 :
 	($db eq 'sacCer3') ? 42383 :
 	($db eq 'refseq' ) ? 42243 :
+	($db eq 'hs_refseq') ? 42393 :
 	($db eq 'prok'   ) ? 42323 :
 	($db eq 'ddbj'   ) ? 42313 :
 	                     42233 ;          # default: Human genome (hg19)
@@ -655,7 +657,7 @@ my $db      = $_[3] // '' ;
 		       "http://rapdb.dna.affrc.go.jp/viewer/gbrowse/irgsp1/?" .
 		       "name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
 		return "$name:$pos-$pos_end" :
-($db eq 'refseq' and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
+($db =~ /^(hs_)?refseq$/ and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
@@ -790,6 +792,7 @@ my $select =
 	<option value=sacCer3>$db_fullname{'sacCer3'}</option>
 	<option disabled>----------</option>
 	<option value=refseq >$db_fullname{'refseq' }</option>
+	<option value=hs_refseq >$db_fullname{'hs_refseq'}</option>
 	<option value=prok   >$db_fullname{'prok'   }</option>
 	<option value=ddbj   >$db_fullname{'ddbj'   }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
@@ -862,6 +865,7 @@ my $select =
 	<option value=sacCer3>$db_fullname{'sacCer3'}</option>
 	<option disabled>----------</option>
 	<option value=refseq >$db_fullname{'refseq' }</option>
+	<option value=hs_refseq >$db_fullname{'hs_refseq'}</option>
 	<option value=prok   >$db_fullname{'prok'   }</option>
 	<option value=ddbj   >$db_fullname{'ddbj'   }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択

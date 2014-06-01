@@ -13,7 +13,7 @@ function set_db(){
 	var db ;
 	if (location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)[1] ;
-		if (db.match(/hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|bmor1|sacCer3|refseq|prok|ddbj/)){
+		if (db.match(/hg19|mm10|rn5|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj/)){
 			document.gggenome.db.value = db ;
 		}
 	}
@@ -104,7 +104,8 @@ function set_k(){
 	<option value=bmor1  >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
 	<option value=sacCer3>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
 	<option disabled>----------</option>
-	<option value=refseq >RefSeq complete RNA, release 65 (May, 2014)                </option>
+	<option value=refseq >RefSeq complete RNA release 65 (May, 2014)                 </option>
+	<option value=hs_refseq >RefSeq human RNA release 60 (Jul, 2013)                 </option>
 	<option value=prok   >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
 	<option value=ddbj   >DDBJ release 92.0 (Feb, 2013)                              </option>
 </select>
@@ -181,7 +182,7 @@ URIs:
 	<ul>
 		<li><span style='color:#ff6600'>db</span>:
 			hg19, mm10, rn5, galGal4, xenTro3, danRer7, ci2, dm3, ce10,<br>
-			TAIR10, rice, bmor1, sacCer3, refseq, prok, ddbj. (default: hg19)
+			TAIR10, rice, bmor1, sacCer3, refseq, hs_refseq, prok, ddbj. (default: hg19)
 		<li><span style='color:#0000ff'>k</span>:
 			Maximum number of mismatches/gaps. (default: 0)
 		<li><span style='color:#008000'>sequence</span>:
@@ -261,7 +262,10 @@ Data source:
 	<li>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz</a>
-	<li>RefSeq complete RNA, release 65 (May, 2014)<br>
+	<li>RefSeq complete RNA release 65 (May, 2014)<br>
+		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
+		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
+	<li>RefSeq human RNA release 60 (Jul, 2013)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
 	<li>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)<br>
@@ -320,7 +324,7 @@ What's new:
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on May 30, 2014 by
+<p class=g>Last modified on Jun 1, 2014 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
