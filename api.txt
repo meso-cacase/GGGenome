@@ -19,7 +19,7 @@ http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
     'sorBic'    - Sorghum genome, Sorghum bicolor v2.1 (May, 2013) or
     'bmor1'     - Silkworm genome, Bmor1 (Apr, 2008) or
     'sacCer3'   - S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011) or
-    'refseq'    - RefSeq complete RNA release 65 (May, 2014) or
+    'refseq'    - RefSeq complete RNA release 66 (Jul, 2014) or
     'hs_refseq' - RefSeq human RNA release 60 (Jul, 2013) or
     'prok'      - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013) or
     'ddbj'      - DDBJ release 92.0 (Feb, 2013)

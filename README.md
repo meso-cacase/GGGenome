@@ -70,7 +70,7 @@ GGGenome《ゲゲゲノム》
                 (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
   'sacCer3'   - 出芽酵母ゲノム [sacCer3 (Apr, 2011)]
                 (http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)  
-  'refseq'    - [RefSeq complete RNA release 65 (May, 2014)]
+  'refseq'    - [RefSeq complete RNA release 66 (Jul, 2014)]
                 (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'hs_refseq' - [RefSeq human RNA release 60 (Jul, 2013)]
                 (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
