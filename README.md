@@ -46,6 +46,8 @@ GGGenome《ゲゲゲノム》
                 (http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
   'rn5'       - ラットゲノム [RGSC 5.0/rn5 (Mar, 2012)]
                 (http://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/)  
+  'calJac3'   - マーモセットゲノム [WUGSC 3.2/calJac3 (Mar, 2009)]
+                (http://hgdownload.soe.ucsc.edu/goldenPath/calJac3/bigZips/)  
   'susScr3'   - ブタゲノム [SGSC Sscrofa10.2/susScr3 (Aug, 2011)]
                 (http://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/)  
   'galGal4'   - ニワトリゲノム [ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)]

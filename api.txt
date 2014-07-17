@@ -7,6 +7,7 @@ http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
     'hg19'      - Human genome, GRCh37/hg19 (Feb, 2009) or
     'mm10'      - Mouse genome, GRCm38/mm10 (Dec, 2011) or
     'rn5'       - Rat genome, RGSC 5.0/rn5 (Mar, 2012) or
+    'calJac3'   - Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009) or
     'susScr3'   - Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011) or
     'galGal4'   - Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011) or
     'xenTro3'   - Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009) or

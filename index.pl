@@ -43,6 +43,7 @@ my %db_fullname = (               # データベースの正式名
 	'hg19'      => 'Human genome, GRCh37/hg19 (Feb, 2009)',
 	'mm10'      => 'Mouse genome, GRCm38/mm10 (Dec, 2011)',
 	'rn5'       => 'Rat genome, RGSC 5.0/rn5 (Mar, 2012)',
+	'calJac3'   => 'Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)',
 	'susScr3'   => 'Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)',
 	'galGal4'   => 'Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)',
 	'xenTro3'   => 'Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)',
@@ -85,7 +86,7 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	my ($param, $slash) = ($1, $2) ;
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
-	($param =~ /^(hg19|mm10|rn5|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|
+	($param =~ /^(hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|
 	              TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj)$/xi) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
@@ -122,6 +123,7 @@ $db = lc(                             # 生物種 (データベース)
 	$query{'db'} //                   # 1) QUERY_STRINGから
 	$db          //                   # 2) QUERY_STRING未指定 → URIから
 	'') ;                             # 3) URI未指定 → 空欄
+$db =~ s/calJac3/calJac3/i ;          # 大文字小文字を正規化
 $db =~ s/susScr3/susScr3/i ;          # 大文字小文字を正規化
 $db =~ s/galGal4/galGal4/i ;          # 大文字小文字を正規化
 $db =~ s/xenTro3/xenTro3/i ;          # 大文字小文字を正規化
@@ -202,6 +204,7 @@ my $db_fullname = $db_fullname{$db} //    # データベースの正式名
 my $port =                                # 曖昧検索サーバのポート
 	($db eq 'mm10'     ) ? 42253 :
 	($db eq 'rn5'      ) ? 42263 :
+	($db eq 'calJac3'  ) ? 42423 :
 	($db eq 'susScr3'  ) ? 42413 :
 	($db eq 'galGal4'  ) ? 42333 :
 	($db eq 'xenTro3'  ) ? 42343 :
@@ -647,7 +650,7 @@ my $pos     = $_[1] // '' ;
 my $pos_end = $_[2] // '' ;
 my $db      = $_[3] // '' ;
 
-($db =~ /^(hg19|mm10|rn5|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|sacCer3)$/) ?
+($db =~ /^(hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|sacCer3)$/) ?
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
@@ -790,6 +793,7 @@ my $select =
 "	<option value=hg19     >$db_fullname{'hg19'     }</option>
 	<option value=mm10     >$db_fullname{'mm10'     }</option>
 	<option value=rn5      >$db_fullname{'rn5'      }</option>
+	<option value=calJac3  >$db_fullname{'calJac3'  }</option>
 	<option value=susScr3  >$db_fullname{'susScr3'  }</option>
 	<option value=galGal4  >$db_fullname{'galGal4'  }</option>
 	<option value=xenTro3  >$db_fullname{'xenTro3'  }</option>
@@ -865,6 +869,7 @@ my $select =
 "	<option value=hg19     >$db_fullname{'hg19'     }</option>
 	<option value=mm10     >$db_fullname{'mm10'     }</option>
 	<option value=rn5      >$db_fullname{'rn5'      }</option>
+	<option value=calJac3  >$db_fullname{'calJac3'  }</option>
 	<option value=susScr3  >$db_fullname{'susScr3'  }</option>
 	<option value=galGal4  >$db_fullname{'galGal4'  }</option>
 	<option value=xenTro3  >$db_fullname{'xenTro3'  }</option>

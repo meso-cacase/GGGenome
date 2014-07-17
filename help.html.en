@@ -13,7 +13,7 @@ function set_db(){
 	var db ;
 	if (location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)[1] ;
-		if (db.match(/hg19|mm10|rn5|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj/)){
+		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj/)){
 			document.gggenome.db.value = db ;
 		}
 	}
@@ -93,6 +93,7 @@ function set_k(){
 	<option value=hg19 selected>Human genome, GRCh37/hg19 (Feb, 2009)                  </option>
 	<option value=mm10     >Mouse genome, GRCm38/mm10 (Dec, 2011)                      </option>
 	<option value=rn5      >Rat genome, RGSC 5.0/rn5 (Mar, 2012)                       </option>
+	<option value=calJac3  >Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)             </option>
 	<option value=susScr3  >Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)           </option>
 	<option value=galGal4  >Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</option>
 	<option value=xenTro3  >Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)     </option>
@@ -183,7 +184,7 @@ URIs:
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#ff6600'>db</span>:
-			hg19, mm10, rn5, susScr3, galGal4, xenTro3, danRer7, ci2, dm3, ce10, TAIR10,<br>
+			hg19, mm10, rn5, calJac3, susScr3, galGal4, xenTro3, danRer7, ci2, dm3, ce10, TAIR10,<br>
 			rice, sorBic, bmor1, sacCer3, refseq, hs_refseq, prok, ddbj. (default: hg19)
 		<li><span style='color:#0000ff'>k</span>:
 			Maximum number of mismatches/gaps. (default: 0)
@@ -232,6 +233,9 @@ Data source:
 	<li>Rat genome, RGSC 5.0/rn5 (Mar, 2012)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/chromFa.tar.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/chromFa.tar.gz</a>
+	<li>Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)<br>
+		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/calJac3/bigZips/calJac3.fa.gz'>
+		ftp://hgdownload.soe.ucsc.edu/goldenPath/calJac3/bigZips/calJac3.fa.gz</a>
 	<li>Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/susScr3.fa.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/susScr3.fa.gz</a>
@@ -297,6 +301,7 @@ Reference:
 <div>
 What's new:
 <ul>
+	<li>2014-07-17 Marmoset genome is available.
 	<li>2014-07-17 Database updated to RefSeq rel. 66 (Jul, 2014).
 	<li>2014-06-02 Pig and <i>Sorghum</i> genomes are available.
 	<li>2014-05-30 Database updated to RefSeq rel. 65 (May, 2014).
