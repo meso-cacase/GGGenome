@@ -57,7 +57,8 @@ my %db_fullname = (               # データベースの正式名
 	'bmor1'     => 'Silkworm genome, Bmor1 (Apr, 2008)',
 	'sacCer3'   => 'S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)',
 	'refseq'    => 'RefSeq complete RNA release 66 (Jul, 2014)',
-	'hs_refseq' => 'RefSeq Human RNA release 60 (Jul, 2013)',
+	'hs_refseq' => 'RefSeq human RNA release 60 (Jul, 2013)',
+	'mm_refseq' => 'RefSeq mouse RNA release 60 (Jul, 2013)',
 	'prok'      => 'Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)',
 	'ddbj'      => 'DDBJ release 92.0 (Feb, 2013)',
 ) ;
@@ -87,7 +88,7 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
 	($param =~ /^(hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|
-	              TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj)$/xi) ?
+	              TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|mm_refseq|prok|ddbj)$/xi) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
@@ -219,6 +220,7 @@ my $port =                                # 曖昧検索サーバのポート
 	($db eq 'sacCer3'  ) ? 42383 :
 	($db eq 'refseq'   ) ? 42243 :
 	($db eq 'hs_refseq') ? 42393 :
+	($db eq 'mm_refseq') ? 42433 :
 	($db eq 'prok'     ) ? 42323 :
 	($db eq 'ddbj'     ) ? 42313 :
 	                       42233 ;        # default: Human genome (hg19)
@@ -670,7 +672,7 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "http://www.phytozome.net/cgi-bin/gbrowse/sorghum_er/?" .
 	       "version=100;name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
-($db =~ /^(hs_)?refseq$/ and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
+($db =~ /^(hs_|mm_)?refseq$/ and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
@@ -809,6 +811,7 @@ my $select =
 	<option disabled>----------</option>
 	<option value=refseq   >$db_fullname{'refseq'   }</option>
 	<option value=hs_refseq>$db_fullname{'hs_refseq'}</option>
+	<option value=mm_refseq>$db_fullname{'mm_refseq'}</option>
 	<option value=prok     >$db_fullname{'prok'     }</option>
 	<option value=ddbj     >$db_fullname{'ddbj'     }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
@@ -885,6 +888,7 @@ my $select =
 	<option disabled>----------</option>
 	<option value=refseq   >$db_fullname{'refseq'   }</option>
 	<option value=hs_refseq>$db_fullname{'hs_refseq'}</option>
+	<option value=mm_refseq>$db_fullname{'mm_refseq'}</option>
 	<option value=prok     >$db_fullname{'prok'     }</option>
 	<option value=ddbj     >$db_fullname{'ddbj'     }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択

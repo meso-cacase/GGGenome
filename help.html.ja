@@ -13,7 +13,7 @@ function set_db(){
 	var db ;
 	if (location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)[1] ;
-		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|prok|ddbj/)){
+		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|mm_refseq|prok|ddbj/)){
 			document.gggenome.db.value = db ;
 		}
 	}
@@ -109,6 +109,7 @@ function set_k(){
 	<option disabled>----------</option>
 	<option value=refseq   >RefSeq complete RNA release 66 (Jul, 2014)                 </option>
 	<option value=hs_refseq>RefSeq human RNA release 60 (Jul, 2013)                    </option>
+	<option value=mm_refseq>RefSeq mouse RNA release 60 (Jul, 2013)                    </option>
 	<option value=prok     >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
 	<option value=ddbj     >DDBJ release 92.0 (Feb, 2013)                              </option>
 </select>
@@ -185,7 +186,7 @@ set_k() ;
 	<ul>
 		<li><span style='color:#ff6600'>db</span> &rarr;
 			hg19, mm10, rn5, calJac3, susScr3, galGal4, xenTro3, danRer7, ci2, dm3, ce10, TAIR10,<br>
-			rice, sorBic, bmor1, sacCer3, refseq, hs_refseq, prok, ddbj。省略時は hg19
+			rice, sorBic, bmor1, sacCer3, refseq, hs_refseq, mm_refseq, prok, ddbj。省略時は hg19
 		<li><span style='color:#0000ff'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
 		<li><span style='color:#008000'>sequence</span> &rarr;
@@ -280,6 +281,9 @@ set_k() ;
 	<li>RefSeq human RNA release 60 (Jul, 2013)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
+	<li>RefSeq mouse RNA release 60 (Jul, 2013)<br>
+		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
+		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
 	<li>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)<br>
 		(unpublished)
 	<li>DDBJ release 92.0 (Feb, 2013)<br>
@@ -338,7 +342,7 @@ set_k() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jul 17, 2014 by
+<p class=g>Last modified on Aug 19, 2014 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
