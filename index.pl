@@ -39,29 +39,39 @@ my $max_k            = 25 ;       # 許容するミスマッチ/ギャップ数�
 my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
 my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXTまたはJSONの場合
 
-my %db_fullname = (               # データベースの正式名
-	'hg19'      => 'Human genome, GRCh37/hg19 (Feb, 2009)',
-	'mm10'      => 'Mouse genome, GRCm38/mm10 (Dec, 2011)',
-	'rn5'       => 'Rat genome, RGSC 5.0/rn5 (Mar, 2012)',
-	'calJac3'   => 'Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)',
-	'susScr3'   => 'Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)',
-	'galGal4'   => 'Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)',
-	'xenTro3'   => 'Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)',
-	'danRer7'   => 'Zebrafish genome, Zv9/danRer7 (Jul, 2010)',
-	'ci2'       => 'Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)',
-	'dm3'       => 'Drosophila genome, BDGP R5/dm3 (Apr, 2006)',
-	'ce10'      => 'C. elegans genome, WS220/ce10 (Oct, 2010)',
-	'TAIR10'    => 'Arabidopsis thaliana genome, TAIR10 (Nov, 2010)',
-	'rice'      => 'Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)',
-	'sorBic'    => 'Sorghum genome, Sorghum bicolor v2.1 (May, 2013)',
-	'bmor1'     => 'Silkworm genome, Bmor1 (Apr, 2008)',
-	'sacCer3'   => 'S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)',
-	'refseq'    => 'RefSeq complete RNA release 66 (Jul, 2014)',
-	'hs_refseq' => 'RefSeq human RNA release 60 (Jul, 2013)',
-	'mm_refseq' => 'RefSeq mouse RNA release 60 (Jul, 2013)',
-	'prok'      => 'Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)',
-	'ddbj'      => 'DDBJ release 92.0 (Feb, 2013)',
-) ;
+my $dbconfig =                    # データベースの正式名およびポート番号リスト
+<<'--EOS--' ;
+hg19	42233	Human genome, GRCh37/hg19 (Feb, 2009)
+mm10	42253	Mouse genome, GRCm38/mm10 (Dec, 2011)
+rn5	42263	Rat genome, RGSC 5.0/rn5 (Mar, 2012)
+calJac3	42423	Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)
+susScr3	42413	Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)
+galGal4	42333	Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)
+xenTro3	42343	Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)
+danRer7	42353	Zebrafish genome, Zv9/danRer7 (Jul, 2010)
+ci2	42363	Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)
+dm3	42273	Drosophila genome, BDGP R5/dm3 (Apr, 2006)
+ce10	42283	C. elegans genome, WS220/ce10 (Oct, 2010)
+TAIR10	42373	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)
+rice	42293	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)
+sorBic	42403	Sorghum genome, Sorghum bicolor v2.1 (May, 2013)
+bmor1	42303	Silkworm genome, Bmor1 (Apr, 2008)
+sacCer3	42383	S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)
+refseq	42243	RefSeq complete RNA release 66 (Jul, 2014)
+hs_refseq	42393	RefSeq human RNA release 60 (Jul, 2013)
+mm_refseq	42433	RefSeq mouse RNA release 60 (Jul, 2013)
+prok	42323	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)
+ddbj	42313	DDBJ release 92.0 (Feb, 2013)
+--EOS--
+
+my %port ;
+my %db_fullname ;
+foreach (split /\n/, $dbconfig){
+	chomp ;
+	my ($db, $port, $fullname) = split /\t/ ;
+	$port{$db}        = $port ;
+	$db_fullname{$db} = $fullname ;
+}
 #- ▲ モジュール読み込みと変数の初期化
 
 #- ▼ リクエストからパラメータを取得
@@ -202,28 +212,8 @@ my $queryseq = flatsequence($query_string) ;  # 塩基構成文字以外を除�
 #-- ▽ 生物種 $db により切り替えるパラメータ
 my $db_fullname = $db_fullname{$db} //    # データベースの正式名
                   $db_fullname{'hg19'} ;  # default: Human genome (hg19)
-my $port =                                # 曖昧検索サーバのポート
-	($db eq 'mm10'     ) ? 42253 :
-	($db eq 'rn5'      ) ? 42263 :
-	($db eq 'calJac3'  ) ? 42423 :
-	($db eq 'susScr3'  ) ? 42413 :
-	($db eq 'galGal4'  ) ? 42333 :
-	($db eq 'xenTro3'  ) ? 42343 :
-	($db eq 'danRer7'  ) ? 42353 :
-	($db eq 'ci2'      ) ? 42363 :
-	($db eq 'dm3'      ) ? 42273 :
-	($db eq 'ce10'     ) ? 42283 :
-	($db eq 'TAIR10'   ) ? 42373 :
-	($db eq 'rice'     ) ? 42293 :
-	($db eq 'sorBic'   ) ? 42403 :
-	($db eq 'bmor1'    ) ? 42303 :
-	($db eq 'sacCer3'  ) ? 42383 :
-	($db eq 'refseq'   ) ? 42243 :
-	($db eq 'hs_refseq') ? 42393 :
-	($db eq 'mm_refseq') ? 42433 :
-	($db eq 'prok'     ) ? 42323 :
-	($db eq 'ddbj'     ) ? 42313 :
-	                       42233 ;        # default: Human genome (hg19)
+my $port        = $port{$db} //           # 曖昧検索サーバのポート
+                  $port{'hg19'} ;         # default: Human genome (hg19)
 #-- △ 生物種 $db により切り替えるパラメータ
 
 push @timer, [Time::HiRes::time(), 'search_start;'] ;                #===== 実行時間計測 =====
