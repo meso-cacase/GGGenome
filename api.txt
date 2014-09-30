@@ -30,7 +30,7 @@ http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
     Maximum number of mismatches/gaps.
     Default: 0
   SEQUENCE:
-    Nucleotide sequence, case insensitive.
+    Nucleotide sequence, case insensitive. IUB code letters can be used.
   FORMAT (optional):
     'html' - HTML
     'txt'  - Tab-delimited text

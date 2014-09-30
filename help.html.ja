@@ -153,7 +153,7 @@ set_k() ;
 	<li>塩基配列を高速に検索するサイトです。
 	<li>大文字・小文字は区別しません。
 	<li>U は T とまったく同じです。
-	<li>ATGCU 以外の塩基 (R,Y等) は N とみなします。
+	<li>N, R, Y等のあいまいな塩基を含む配列も検索できます。 <font color=red>New!</font>
 	<li>それ以外の文字は除去して検索されます。
 	<li>＋鎖および－鎖それぞれ50件まで結果を表示します。
 	<li>TXT, JSON形式ではそれぞれ10000件まで取得できます。
@@ -305,6 +305,7 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2014-10-01 N, R, Yなどのあいまいな塩基を含む配列の検索に対応。
 	<li>2014-07-17 マーモセットのゲノムを追加。
 	<li>2014-07-17 RefSeq rel. 66 (Jul, 2014) に更新。
 	<li>2014-06-02 ブタ、ソルガムのゲノムを追加。
@@ -342,7 +343,7 @@ set_k() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Aug 19, 2014 by
+<p class=g>Last modified on Oct 1, 2014 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
