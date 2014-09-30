@@ -38,6 +38,7 @@ my $min_query_length = 6 ;        # クエリの最低塩基長
 my $max_k            = 25 ;       # 許容するミスマッチ/ギャップ数の上限、％
 my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
 my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXTまたはJSONの場合
+my $timeout          = 20 ;       # タイムアウト時間、秒
 
 my $dbconfig =                    # データベースの正式名およびポート番号リスト
 <<'--EOS--' ;
@@ -209,6 +210,12 @@ my $queryseq = flatsequence($query_string) ;  # 塩基構成文字以外を除�
 #- ▲ クエリの内容をチェック
 
 #- ▼ 塩基配列の検索と結果出力
+#- ▽ タイムアウト処理を行う部分
+eval {
+	local $SIG{ALRM} = sub { die } ;
+	alarm $timeout ;
+
+
 #-- ▽ 生物種 $db により切り替えるパラメータ
 my $db_fullname = $db_fullname{$db} //    # データベースの正式名
                   $db_fullname{'hg19'} ;  # default: Human genome (hg19)
@@ -450,6 +457,13 @@ if ($format eq 'txt'){
 	                  print_html_en($template_search->output) ;  # default: English HTML
 }
 #-- △ HTML形式
+
+	alarm 0 ;
+} ;
+#- △ タイムアウト処理を行う部分
+
+# タイムアウトの有無をチェック
+$@ and printresult("ERROR : searcher timed out") ;
 #- ▲ 塩基配列の検索と結果出力
 
 exit ;
