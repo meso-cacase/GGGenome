@@ -3,7 +3,7 @@ GGGenome《ゲゲゲノム》
 
 ゲノム等の塩基配列を高速に検索するウェブサービスです。  
 数塩基のミスマッチ、挿入、欠失を許容した配列検索が可能です。  
-検索結果はHTMLのほか、タブ区切りテキストやJSONでも取得できます。
+検索結果はHTMLのほか、タブ区切りテキスト、CSV、BED、GFF、JSONの各形式でも取得できます。
 
 + http://GGGenome.dbcls.jp/  
   本レポジトリにあるCGIが実際に稼働しています。
@@ -87,8 +87,11 @@ GGGenome《ゲゲゲノム》
 + *format* : 検索結果のフォーマット  
   'html' - HTML (省略時のデフォルト)  
   'txt'  - タブ区切りテキスト  
+  'csv'  - CSV (comma-separated values) 形式  
+  'bed'  - BED (browser extensible data) 形式  
+  'gff'  - GFF (general feature format) 形式  
   'json' - JSON
-+ *download* : 検索結果をファイルとしてダウンロード (txt, jsonのみ)
++ *download* : 検索結果をファイルとしてダウンロード (txt, csv, bed, gff, jsonのみ)
 
 **例1:** http://GGGenome.dbcls.jp/ce10/1/TTCATTGACAACATT
 

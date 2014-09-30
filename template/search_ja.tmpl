@@ -16,7 +16,7 @@
 
 <h4>Data Export:</h4>
 
-<p>下記より最大<TMPL_VAR NAME=MAX_HIT_API>件まで検索結果を取得できます。</p>
+<p>下記のフォーマットで最大<TMPL_VAR NAME=MAX_HIT_API>件まで検索結果を取得できます。</p>
 
 <div>
 <ul>
@@ -24,6 +24,16 @@
 		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.txt'>表示</a> |
 		<a href='<TMPL_VAR NAME=LINKBASE_URI>.txt.download'>ダウンロード</a><br>
 		エクセル等の表計算ソフトに直接コピペできます。
+	<li>CSV形式 &rarr;
+		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.csv'>表示</a> |
+		<a href='<TMPL_VAR NAME=LINKBASE_URI>.csv.download'>ダウンロード</a><br>
+		エクセル等の表計算ソフトにて開くことができます。
+	<li>BED形式 &rarr;
+		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.bed'>リンク</a> |
+		<a href='<TMPL_VAR NAME=LINKBASE_URI>.bed.download'>ダウンロード</a>
+	<li>GFF形式 &rarr;
+		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.gff'>リンク</a> |
+		<a href='<TMPL_VAR NAME=LINKBASE_URI>.gff.download'>ダウンロード</a>
 	<li>JSON形式 &rarr;
 		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.json'>リンク</a> |
 		<a href='<TMPL_VAR NAME=LINKBASE_URI>.json.download'>ダウンロード</a>

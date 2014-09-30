@@ -17,7 +17,7 @@ Matches are <em>highlighted with blue background.
 
 <h4>Data Export:</h4>
 
-<p>Maximum <TMPL_VAR NAME=MAX_HIT_API> results can be retrieved as Tab-delimited text or JSON format.</p>
+<p>Maximum <TMPL_VAR NAME=MAX_HIT_API> results can be retrieved as various formats shown below:</p>
 
 <div>
 <ul>
@@ -26,6 +26,17 @@ Matches are <em>highlighted with blue background.
 		<a href='<TMPL_VAR NAME=LINKBASE_URI>.txt.download'>Download</a><br>
 		You can copy-paste the result into spreadsheet softwares
 		(<i>e.g.</i> Excel) or text editors.
+	<li>CSV format:
+		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.csv'>Open in new window</a> |
+		<a href='<TMPL_VAR NAME=LINKBASE_URI>.csv.download'>Download</a><br>
+		You can open CSV files using spreadsheet softwares
+		(<i>e.g.</i> Excel) or text editors.
+	<li>BED format:
+		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.bed'>Link</a> |
+		<a href='<TMPL_VAR NAME=LINKBASE_URI>.bed.download'>Download</a>
+	<li>GFF format:
+		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.gff'>Link</a> |
+		<a href='<TMPL_VAR NAME=LINKBASE_URI>.gff.download'>Download</a>
 	<li>JSON format:
 		<a target='_blank' href='<TMPL_VAR NAME=LINKBASE_URI>.json'>Link</a> |
 		<a href='<TMPL_VAR NAME=LINKBASE_URI>.json.download'>Download</a>

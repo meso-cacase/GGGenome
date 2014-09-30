@@ -156,7 +156,7 @@ set_k() ;
 	<li>N, R, Y等のあいまいな塩基を含む配列も検索できます。 <font color=red>New!</font>
 	<li>それ以外の文字は除去して検索されます。
 	<li>＋鎖および－鎖それぞれ50件まで結果を表示します。
-	<li>TXT, JSON形式ではそれぞれ10000件まで取得できます。
+	<li>TXT, CSV, BED, GFF, JSON形式ではそれぞれ100000件まで取得できます。 <font color=red>New!</font>
 </ul>
 <ul>
 	<li><a target='_blank' href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
@@ -192,7 +192,7 @@ set_k() ;
 		<li><span style='color:#008000'>sequence</span> &rarr;
 			塩基配列。大文字・小文字は区別しない
 		<li><span style='color:#FF0080'>format</span> &rarr;
-			html, txt, json。省略時は html
+			html, txt, csv, bed, gff, json。省略時は html
 		<li><span style='color:brown'>download</span> &rarr;
 			URLの最後に付加すると検索結果をファイルとしてダウンロードできる
 	</ul>
@@ -305,6 +305,7 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2014-10-01 検索結果はHTML, TXT, JSONに加えCSV, BED, GFF形式の出力にも新たに対応。
 	<li>2014-10-01 N, R, Yなどのあいまいな塩基を含む配列の検索に対応。
 	<li>2014-07-17 マーモセットのゲノムを追加。
 	<li>2014-07-17 RefSeq rel. 66 (Jul, 2014) に更新。

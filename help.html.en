@@ -156,7 +156,7 @@ Search tips:
 	<li>Ambiguous nucleotide characters (N, R, Y ...) can be used. <font color=red>New!</font>
 	<li>All other characters are ignored.
 	<li>GGGenome shows first 50 results for each strand of the query sequence.
-	<li>Maximum 10000 results can be retrieved as TXT or JSON format.
+	<li>Maximum 100000 results can be retrieved as TXT, CSV, BED, GFF or JSON format. <font color=red>New!</font>
 </ul>
 <ul>
 	<li><a target='_blank' href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
@@ -192,7 +192,7 @@ URIs:
 		<li><span style='color:#008000'>sequence</span>:
 			Nucleotide sequence, case insensitive.
 		<li><span style='color:#FF0080'>format</span>:
-			html, txt, json. (default: html)
+			html, txt, csv, bed, gff, json. (default: html)
 		<li><span style='color:brown'>download</span>:
 			Download result as a file. (optional)
 	</ul>
@@ -305,6 +305,7 @@ Reference:
 <div>
 What's new:
 <ul>
+	<li>2014-10-01 CSV, BED, GFF outputs are newly supported.
 	<li>2014-10-01 Sequence containing IUB code letters (N, R, Y, ...) can be queried.
 	<li>2014-07-17 Marmoset genome is available.
 	<li>2014-07-17 Database updated to RefSeq rel. 66 (Jul, 2014).

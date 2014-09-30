@@ -34,6 +34,9 @@ http://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
   FORMAT (optional):
     'html' - HTML
     'txt'  - Tab-delimited text
+    'csv'  - Comma-separated values (CSV) format
+    'bed'  - Browser extensible data (BED) format
+    'gff'  - General feature format (GFF)
     'json' - JSON object
     Default: html
   download (optional):

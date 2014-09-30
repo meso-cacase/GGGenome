@@ -3,7 +3,7 @@
 # GGGenome (ゲゲゲノム)： 塩基配列を高速に検索するサービス
 # http://GGGenome.dbcls.jp/
 #
-# 曖昧検索サーバに問い合わせを行い、結果を HTML, TXT, JSON 形式で出力する
+# 曖昧検索サーバに問い合わせを行い、結果を HTML, TXT, JSON 等の形式で出力する
 #
 # 必要なモジュール：
 # HTML::Template
@@ -37,7 +37,7 @@ my $timestamp = timestamp() ;     # CGIを実行した時刻
 my $min_query_length = 6 ;        # クエリの最低塩基長
 my $max_k            = 25 ;       # 許容するミスマッチ/ギャップ数の上限、％
 my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
-my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXTまたはJSONの場合
+my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXT,CSV,BED,GFF,JSONの場合
 my $timeout          = 20 ;       # タイムアウト時間、秒
 
 my $dbconfig =                    # データベースの正式名およびポート番号リスト
@@ -83,7 +83,7 @@ my $lang         = '' ;  # HTMLの場合の日本語/英語: ja, en
 my $db           = '' ;  # 生物種 (データベース): hg19, mm10, ...
 my $k            = '' ;  # 許容するミスマッチ/ギャップの数: 0, 1, 2, ...
 my $query_string = '' ;  # 塩基配列
-my $format       = '' ;  # 出力フォーマット: html, txt, json
+my $format       = '' ;  # 出力フォーマット: html, txt, csv, bed, gff, json
 my $download     = '' ;  # ファイルとしてダウンロードするか: (boolean)
 #-- △ 使用するパラメータ一覧
 
@@ -110,7 +110,7 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 #--- △ スラッシュ間 (/param/) のパラメーターを処理
 
 #--- ▽ パスの最後の要素 (query.format) を処理
-if ($query_string =~ s/(?:\.(html|txt|json)|\.(download))+$//i){
+if ($query_string =~ s/(?:\.(html|txt|csv|bed|gff|json)|\.(download))+$//i){
 	$1 and $format   = lc $1 ;
 	$2 and $download = 'true' ;
 }
@@ -151,17 +151,17 @@ $k =                                  # 許容するミスマッチ/ギャップ
 	'' ;                              # 3) URI未指定 → 空欄
 
 $format =                             # 出力フォーマット
-	(defined $query{'format'} and $query{'format'} =~ /^(html|txt|json)?$/i) ?
+	(defined $query{'format'} and $query{'format'} =~ /^(html|txt|csv|bed|gff|json)?$/i) ?
 	lc($query{'format'}) :            # 1) QUERY_STRINGから
 	$format //                        # 2) QUERY_STRING未指定 → URIから
 	'' ;                              # 3) URI未指定 → 空欄
 
 $download =                           # ファイルとしてダウンロードするか
-	($format =~ /^(txt|json)$/) ?     # ダウンロードはtxt,jsonの場合に限る
+	($format =~ /^(txt|csv|bed|gff|json)$/) ?  # ダウンロードはtxt,csv,bed,gff,jsonの場合に限る
 	$query{'download'} //             # 1) QUERY_STRINGから
 	$download //                      # 2) QUERY_STRING未指定 → URIから
 	'' :                              # 3) URI未指定 → 空欄
-	'' ;                              # txt,json以外 → 空欄
+	'' ;                              # txt,csv,bed,gff,json以外 → 空欄
 #-- △ QUERY_STRINGからパラメータを取得
 #- ▲ リクエストからパラメータを取得
 
@@ -284,6 +284,122 @@ if ($format eq 'txt'){
 	print_txt(join "\n", (@summary, @hit_list)) ;
 #-- △ TXT(タブ区切りテキスト)形式
 
+#-- ▽ CSV形式
+} elsif ($format eq 'csv'){
+	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
+	push @summary, "# [ GGGenome | $timestamp ]" ;
+	push @summary, "# database,\"$db_fullname\"" ;
+
+	#--- ▽ (+)鎖の検索実行と結果出力
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+		printresult('ERROR : searcher error') ;
+
+	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+
+	foreach (@{$hits->{hits}}){
+		push @hit_list, show_hit_csv($_, '+') ;
+	}
+
+	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
+	$hit_num    = $hits->{total_hit_num}           // '' ;
+	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+
+	push @summary, "# query,$queryseq" ;
+	push @summary, "# count,$hit_num" ;
+	#--- △ (+)鎖の検索実行と結果出力
+
+	#--- ▽ (-)鎖の検索実行と結果出力
+	$queryseq = comp($queryseq) ;
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+		printresult('ERROR : searcher error') ;
+
+	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+
+	foreach (@{$hits->{hits}}){
+		push @hit_list, show_hit_csv($_, '-') ;
+	}
+
+	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
+	$hit_num    = $hits->{total_hit_num}           // '' ;
+	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+
+	push @summary, "# query,$queryseq" ;
+	push @summary, "# count,$hit_num" ;
+	#--- △ (-)鎖の検索実行と結果出力
+
+	push @summary, '# name,strand,start,end,snippet,snippet_pos,snippet_end' ;
+	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
+	print_txt(join "\n", (@summary, @hit_list)) ;
+#-- △ CSV形式
+
+#-- ▽ BED形式
+} elsif ($format eq 'bed'){
+	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
+	push @summary, "track name=GGGenome description=\"GGGenome matches\"" ;
+
+	#--- ▽ (+)鎖の検索実行と結果出力
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+		printresult('ERROR : searcher error') ;
+
+	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+
+	foreach (@{$hits->{hits}}){
+		push @hit_list, show_hit_bed($_, '+') ;
+	}
+	#--- △ (+)鎖の検索実行と結果出力
+
+	#--- ▽ (-)鎖の検索実行と結果出力
+	$queryseq = comp($queryseq) ;
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+		printresult('ERROR : searcher error') ;
+
+	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+
+	foreach (@{$hits->{hits}}){
+		push @hit_list, show_hit_bed($_, '-') ;
+	}
+	#--- △ (-)鎖の検索実行と結果出力
+
+	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
+	print_txt(join "\n", (@summary, @hit_list)) ;
+#-- △ BED形式
+
+#-- ▽ GFF形式
+} elsif ($format eq 'gff'){
+	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
+	push @summary, "##gff-version 3" ;
+	push @summary, "##source-version GGGenome v1" ;
+	push @summary, "track name=GGGenome description=\"GGGenome matches\"" ;
+
+	#--- ▽ (+)鎖の検索実行と結果出力
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+		printresult('ERROR : searcher error') ;
+
+	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+
+	foreach (@{$hits->{hits}}){
+		push @hit_list, show_hit_gff($_, '+') ;
+	}
+	#--- △ (+)鎖の検索実行と結果出力
+
+	#--- ▽ (-)鎖の検索実行と結果出力
+	$queryseq = comp($queryseq) ;
+	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $port, $k, $limit) or
+		printresult('ERROR : searcher error') ;
+
+	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+
+	foreach (@{$hits->{hits}}){
+		push @hit_list, show_hit_gff($_, '-') ;
+	}
+	#--- △ (-)鎖の検索実行と結果出力
+
+	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
+	print_txt(join "\n", (@summary, @hit_list)) ;
+#-- △ GFF形式
+
 #-- ▽ JSON形式
 } elsif ($format eq 'json'){
 	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
@@ -401,13 +517,13 @@ if ($format eq 'txt'){
 	@hit_list or
 		push @hit_list, '<div class=gene><p>No items found.</p></div>' ;  # ヒットがゼロ件
 
-	#--- ▽ TXT/JSON出力のbase URIを生成
+	#--- ▽ TXT/CSV/BED/GFF/JSON出力のbase URIを生成
 	my $linkbase_uri = '/' ;
 	$linkbase_uri .= ($request_uri =~ m{^/test/}) ? 'test/' : '' ;  # テストページ /test/ 対応
 	$linkbase_uri .= $db ? "$db/" : '' ;
 	$linkbase_uri .= $k  ? "$k/"  : '' ;  # 値が 0 の場合は /0/ を省略
 	$linkbase_uri .= $query_string ;
-	#--- △ TXT/JSON出力のbase URIを生成
+	#--- △ TXT/CSV/BED/GFF/JSON出力のbase URIを生成
 
 	push @timer, [Time::HiRes::time(), 'cgi_end;'] ;                 #===== 実行時間計測 =====
 
@@ -562,6 +678,96 @@ return join "\t", (
 ) ;
 } ;
 # ====================
+sub show_hit_csv {  # ヒットした遺伝子をCSV形式で出力
+my $gene   = $_[0] or return '' ;
+my $strand = $_[1] // '' ;
+
+my $name        = $gene->{docname}     // '' ;
+my $length      = $gene->{length}      // '' ;
+my $position    = $gene->{pos}         // '' ;
+my $snippet     = $gene->{snippet}     // '' ;
+my $snippet_pos = $gene->{snippet_pos} // '' ;
+
+my $position_end = ($position and $length) ?
+                   $position + $length - 1 :
+                   '' ;
+my $snippet_end  = ($snippet_pos and $snippet) ?
+                   $snippet_pos + length($snippet) - 1 :
+                   '' ;
+
+$name =~ s/^>// ;
+
+return join ',', (
+	"\"$name\"",
+	$strand,
+	$position,
+	$position_end,
+	$snippet,
+	$snippet_pos,
+	$snippet_end
+) ;
+} ;
+# ====================
+sub show_hit_bed {  # ヒットした遺伝子をBED形式で出力
+my $gene   = $_[0] or return '' ;
+my $strand = $_[1] // '' ;
+
+my $name        = $gene->{docname}     // '' ;
+my $length      = $gene->{length}      // '' ;
+my $position    = $gene->{pos}         // '' ;
+
+my $position_end = ($position and $length) ?
+                   $position + $length - 1 :
+                   '' ;
+
+$name =~ s/^>// ;
+$position -- ;      # BEDの座標は0-basedのため変換
+$position_end -- ;  # BEDの座標は0-basedのため変換
+
+return join "\t", (
+	$name,
+	$position,
+	$position_end,
+	'.',
+	0,
+	$strand,
+) ;
+} ;
+# ====================
+sub show_hit_gff {  # ヒットした遺伝子をGFF形式で出力
+my $gene   = $_[0] or return '' ;
+my $strand = $_[1] // '' ;
+
+my $name        = $gene->{docname}     // '' ;
+my $length      = $gene->{length}      // '' ;
+my $position    = $gene->{pos}         // '' ;
+my $snippet     = $gene->{snippet}     // '' ;
+my $snippet_pos = $gene->{snippet_pos} // '' ;
+
+my $position_end = ($position and $length) ?
+                   $position + $length - 1 :
+                   '' ;
+my $snippet_end  = ($snippet_pos and $snippet) ?
+                   $snippet_pos + length($snippet) - 1 :
+                   '' ;
+
+$name =~ s/^>// ;
+
+return join "\t", (
+	$name,
+	'GGGenome',
+	'match',
+	$position,
+	$position_end,
+	'.',
+	$strand,
+	'.',
+	"snippet=$snippet;"         .
+	"snippet_pos=$snippet_pos;" .
+	"snippet_end=$snippet_end"
+) ;
+} ;
+# ====================
 sub show_hit_json {  # ヒットした遺伝子をJSONで出力
 my $gene   = $_[0] or return '' ;
 my $strand = $_[1] // '' ;
@@ -704,7 +910,7 @@ return $str ;
 } ;
 # ====================
 sub printresult {  # $format (global) にあわせて結果を出力
-($format eq 'txt' ) ? print_txt($_[0])     :
+($format =~ /^(txt|csv|bed|gff)$/) ? print_txt($_[0]) :
 ($format eq 'json') ? print_json($_[0])    :
 ($lang   eq 'ja'  ) ? print_html_ja($_[0]) :  # default format: html
                       print_html_en($_[0]) ;  # default lang  : en
@@ -715,6 +921,7 @@ sub print_txt {  # TXTを出力
 
 #- ▼ メモ
 # ・検索結果をタブ区切りテキストで出力
+# ・CSV, BED, GFFの場合もこれに準ずる
 # ・引数が ERROR で始まる場合はエラーを出力
 # ・引数がない場合 → ERROR : query is empty
 #- ▲ メモ
@@ -735,8 +942,17 @@ $txt =~ s/^(ERROR.*)$/### $1 ###/s ;
 
 #- ▼ TXT出力
 print "Content-type: text/plain; charset=utf-8\n" ;
-print "Content-Disposition: attachment; filename=gggenome_result.txt\n"
-	if $download ;  # ファイルとしてダウンロードする場合
+#- ▽ ファイルとしてダウンロードする場合
+($download and $format eq 'txt') ?
+	print "Content-Disposition: attachment; filename=gggenome_result.txt\n" :
+($download and $format eq 'csv') ?
+	print "Content-Disposition: attachment; filename=gggenome_result.csv\n" :
+($download and $format eq 'bed') ?
+	print "Content-Disposition: attachment; filename=gggenome_result.bed\n" :
+($download and $format eq 'gff') ?
+	print "Content-Disposition: attachment; filename=gggenome_result.gff\n" :
+() ;
+#- △ ファイルとしてダウンロードする場合
 print "\n" ;
 print "$txt\n" ;
 #- ▲ TXT出力
