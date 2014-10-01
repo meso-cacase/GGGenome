@@ -215,7 +215,6 @@ eval {
 	local $SIG{ALRM} = sub { die } ;
 	alarm $timeout ;
 
-
 #-- ▽ 生物種 $db により切り替えるパラメータ
 my $db_fullname = $db_fullname{$db} //    # データベースの正式名
                   $db_fullname{'hg19'} ;  # default: Human genome (hg19)
