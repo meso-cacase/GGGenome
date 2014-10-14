@@ -87,7 +87,7 @@ my $q     = $_[0] or return () ;
 my $port  = $_[1] or return () ;
 my $k     = $_[2] // 0  ;
 my $limit = $_[3] // '' ;
-my $host  = '172.17.1.21' ;  # ssd.dbcls.jp (曖昧検索サーバ)
+my $host  = '172.18.8.70' ;  # ssd.dbcls.jp (曖昧検索サーバ)
 my $uri   = "http://$host:$port/match?q=$q&k=$k&offset=0&limit=$limit" ;
 my $json  = get($uri) or return () ;
 return (decode_json($json) // (), $uri) ;
