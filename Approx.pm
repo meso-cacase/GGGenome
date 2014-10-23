@@ -109,7 +109,7 @@ foreach (@hit){
 
 # ヒットした配列の並べ替え
 @{$hit_all->{hits}} =
-	sort { cmp_chrname($a->{docname}, $b->{docname}) || $b->{pos} <=> $a->{pos} }
+	sort { cmp_chrname($a->{docname}, $b->{docname}) || $a->{pos} <=> $b->{pos} }
 	     @{$hit_all->{hits}} ;
 
 # 未実装:ヒットした配列の重複を削除
