@@ -13,7 +13,7 @@ function set_db(){
 	var db ;
 	if (location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)[1] ;
-		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|mm_refseq|prok|ddbj/)){
+		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|Xenla7|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|pombe|refseq|hs_refseq|mm_refseq|prok|ddbj/)){
 			document.gggenome.db.value = db ;
 		}
 	}
@@ -97,6 +97,7 @@ function set_k(){
 	<option value=susScr3  >Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)           </option>
 	<option value=galGal4  >Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</option>
 	<option value=xenTro3  >Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)     </option>
+	<option value=Xenla7   >Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)          </option>
 	<option value=danRer7  >Zebrafish genome, Zv9/danRer7 (Jul, 2010)                  </option>
 	<option value=ci2      >Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)         </option>
 	<option value=dm3      >Drosophila genome, BDGP R5/dm3 (Apr, 2006)                 </option>
@@ -106,6 +107,7 @@ function set_k(){
 	<option value=sorBic   >Sorghum genome, Sorghum bicolor v2.1 (May, 2013)           </option>
 	<option value=bmor1    >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
 	<option value=sacCer3  >S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
+	<option value=pombe    >S. pombe (972h-) genome, ASM294v2 (Nov, 2007)              </option>
 	<option disabled>----------</option>
 	<option value=refseq   >RefSeq complete RNA release 66 (Jul, 2014)                 </option>
 	<option value=hs_refseq>RefSeq human RNA release 60 (Jul, 2013)                    </option>
@@ -185,8 +187,8 @@ set_k() ;
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#ff6600'>db</span> &rarr;
-			hg19, mm10, rn5, calJac3, susScr3, galGal4, xenTro3, danRer7, ci2, dm3, ce10, TAIR10,<br>
-			rice, sorBic, bmor1, sacCer3, refseq, hs_refseq, mm_refseq, prok, ddbj。省略時は hg19
+			hg19, mm10, rn5, calJac3, susScr3, galGal4, xenTro3, Xenla7, danRer7, ci2, dm3, ce10, TAIR10,<br>
+			rice, sorBic, bmor1, sacCer3, pombe, refseq, hs_refseq, mm_refseq, prok, ddbj。省略時は hg19
 		<li><span style='color:#0000ff'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
 		<li><span style='color:#008000'>sequence</span> &rarr;
@@ -246,6 +248,9 @@ set_k() ;
 	<li>Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/xenTro3.fa.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/xenTro3.fa.gz</a>
+	<li>Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)<br>
+		<a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla7.1/Xenla_7.1_JGI_scaffolds_on_Xenbase_GBrowse.tgz'>
+		ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla7.1/Xenla_7.1_JGI_scaffolds_on_Xenbase_GBrowse.tgz</a>
 	<li>Zebrafish genome, Zv9/danRer7 (Jul, 2010)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/danRer7.fa.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/danRer7.fa.gz</a>
@@ -275,6 +280,9 @@ set_k() ;
 	<li>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)<br>
 		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz'>
 		ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz</a>
+	<li>S. pombe (972h-) genome, ASM294v2 (Nov, 2007)<br>
+		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz'>
+		ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz</a>
 	<li>RefSeq complete RNA release 66 (Jul, 2014)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
@@ -305,6 +313,7 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2014-10-28 アフリカツメガエル、分裂酵母のゲノムを追加。
 	<li>2014-10-01 検索結果はHTML, TXT, JSONに加えCSV, BED, GFF形式の出力にも新たに対応。
 	<li>2014-10-01 N, R, Yなどのあいまいな塩基を含む配列の検索に対応。
 	<li>2014-07-17 マーモセットのゲノムを追加。
@@ -344,7 +353,7 @@ set_k() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Oct 1, 2014 by
+<p class=g>Last modified on Oct 28, 2014 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a

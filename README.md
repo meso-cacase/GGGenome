@@ -52,8 +52,10 @@ GGGenome《ゲゲゲノム》
                 (http://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/)  
   'galGal4'   - ニワトリゲノム [ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)]
                 (http://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/)  
-  'xenTro3'   - ツメガエルゲノム [JGI 4.2/xenTro3 (Nov, 2009)]
+  'xenTro3'   - ネッタイツメガエルゲノム [JGI 4.2/xenTro3 (Nov, 2009)]
                 (http://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/)  
+  'Xenla7'    - アフリカツメガエルゲノム [JGI 7.1/Xenla7 (Dec, 2013)]
+                (ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla7.1/Xenla_7.1_JGI_scaffolds_on_Xenbase_GBrowse.tgz)  
   'danRer7'   - ゼブラフィッシュゲノム [Zv9/danRer7 (Jul, 2010)]
                 (http://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/)  
   'ci2'       - ホヤゲノム [JGI 2.1/ci2 (Mar, 2005)]
@@ -72,6 +74,8 @@ GGGenome《ゲゲゲノム》
                 (ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/)  
   'sacCer3'   - 出芽酵母ゲノム [sacCer3 (Apr, 2011)]
                 (http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)  
+  'pombe'     - 分裂酵母ゲノム [ASM294v2 (Nov, 2007)]
+                (ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz)  
   'refseq'    - [RefSeq complete RNA release 66 (Jul, 2014)]
                 (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'hs_refseq' - [RefSeq human RNA release 60 (Jul, 2013)]

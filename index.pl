@@ -49,6 +49,7 @@ calJac3	42423	Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)
 susScr3	42413	Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)
 galGal4	42333	Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)
 xenTro3	42343	Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)
+Xenla7	42443	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)
 danRer7	42353	Zebrafish genome, Zv9/danRer7 (Jul, 2010)
 ci2	42363	Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)
 dm3	42273	Drosophila genome, BDGP R5/dm3 (Apr, 2006)
@@ -58,6 +59,7 @@ rice	42293	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)
 sorBic	42403	Sorghum genome, Sorghum bicolor v2.1 (May, 2013)
 bmor1	42303	Silkworm genome, Bmor1 (Apr, 2008)
 sacCer3	42383	S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)
+pombe	42453	S. pombe (972h-) genome, ASM294v2 (Nov, 2007)
 refseq	42243	RefSeq complete RNA release 66 (Jul, 2014)
 hs_refseq	42393	RefSeq human RNA release 60 (Jul, 2013)
 mm_refseq	42433	RefSeq mouse RNA release 60 (Jul, 2013)
@@ -98,8 +100,8 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	my ($param, $slash) = ($1, $2) ;
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
-	($param =~ /^(hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|
-	              TAIR10|rice|sorBic|bmor1|sacCer3|refseq|hs_refseq|mm_refseq|prok|ddbj)$/xi) ?
+	($param =~ /^(hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|Xenla7|danRer7|ci2|dm3|ce10|
+	              TAIR10|rice|sorBic|bmor1|sacCer3|pombe|refseq|hs_refseq|mm_refseq|prok|ddbj)$/xi) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
@@ -139,6 +141,7 @@ $db =~ s/calJac3/calJac3/i ;          # 大文字小文字を正規化
 $db =~ s/susScr3/susScr3/i ;          # 大文字小文字を正規化
 $db =~ s/galGal4/galGal4/i ;          # 大文字小文字を正規化
 $db =~ s/xenTro3/xenTro3/i ;          # 大文字小文字を正規化
+$db =~ s/Xenla7/Xenla7/i ;            # 大文字小文字を正規化
 $db =~ s/danRer7/danRer7/i ;          # 大文字小文字を正規化
 $db =~ s/TAIR10/TAIR10/i ;            # 大文字小文字を正規化
 $db =~ s/sorBic/sorBic/i ;            # 大文字小文字を正規化
@@ -865,6 +868,10 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
+($db eq 'Xenla7') ?
+	return "<a class=a target='_blank' href='" .
+	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xl7_1/?" .
+	       "name=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
 ($db eq 'TAIR10' and $name =~ s/\s*CHROMOSOME dumped from.*// and
 	eval '$name =~ s/^chloroplast$/ChrC/ ; $name =~ s/^mitochondria$/ChrM/ ; 1') ?
 	# GBrowseにリンクするため chloroplast → ChrC, mitochondria → ChrM に置換
@@ -881,6 +888,10 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "http://www.phytozome.net/cgi-bin/gbrowse/sorghum_er/?" .
 	       "version=100;name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
+($db eq 'pombe') ?
+	return "<a class=a target='_blank' href='" .
+	       "http://genomebrowser.pombase.org/Schizosaccharomyces_pombe/Location/View?" .
+	       "r=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
 ($db =~ /^(hs_|mm_)?refseq$/ and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
@@ -1018,6 +1029,7 @@ my $select =
 	<option value=susScr3  >$db_fullname{'susScr3'  }</option>
 	<option value=galGal4  >$db_fullname{'galGal4'  }</option>
 	<option value=xenTro3  >$db_fullname{'xenTro3'  }</option>
+	<option value=Xenla7   >$db_fullname{'Xenla7'   }</option>
 	<option value=danRer7  >$db_fullname{'danRer7'  }</option>
 	<option value=ci2      >$db_fullname{'ci2'      }</option>
 	<option value=dm3      >$db_fullname{'dm3'      }</option>
@@ -1027,6 +1039,7 @@ my $select =
 	<option value=sorBic   >$db_fullname{'sorBic'   }</option>
 	<option value=bmor1    >$db_fullname{'bmor1'    }</option>
 	<option value=sacCer3  >$db_fullname{'sacCer3'  }</option>
+	<option value=pombe    >$db_fullname{'pombe'    }</option>
 	<option disabled>----------</option>
 	<option value=refseq   >$db_fullname{'refseq'   }</option>
 	<option value=hs_refseq>$db_fullname{'hs_refseq'}</option>
@@ -1095,6 +1108,7 @@ my $select =
 	<option value=susScr3  >$db_fullname{'susScr3'  }</option>
 	<option value=galGal4  >$db_fullname{'galGal4'  }</option>
 	<option value=xenTro3  >$db_fullname{'xenTro3'  }</option>
+	<option value=Xenla7   >$db_fullname{'Xenla7'   }</option>
 	<option value=danRer7  >$db_fullname{'danRer7'  }</option>
 	<option value=ci2      >$db_fullname{'ci2'      }</option>
 	<option value=dm3      >$db_fullname{'dm3'      }</option>
@@ -1104,6 +1118,7 @@ my $select =
 	<option value=sorBic   >$db_fullname{'sorBic'   }</option>
 	<option value=bmor1    >$db_fullname{'bmor1'    }</option>
 	<option value=sacCer3  >$db_fullname{'sacCer3'  }</option>
+	<option value=pombe    >$db_fullname{'pombe'    }</option>
 	<option disabled>----------</option>
 	<option value=refseq   >$db_fullname{'refseq'   }</option>
 	<option value=hs_refseq>$db_fullname{'hs_refseq'}</option>
