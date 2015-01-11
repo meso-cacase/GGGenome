@@ -109,7 +109,7 @@ function set_k(){
 	<option value=sacCer3  >S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
 	<option value=pombe    >S. pombe (972h-) genome, ASM294v2 (Nov, 2007)              </option>
 	<option disabled>----------</option>
-	<option value=refseq   >RefSeq complete RNA release 68 (Nov, 2014)                 </option>
+	<option value=refseq   >RefSeq complete RNA release 69 (Jan, 2015)                 </option>
 	<option value=hs_refseq>RefSeq human RNA release 60 (Jul, 2013)                    </option>
 	<option value=mm_refseq>RefSeq mouse RNA release 60 (Jul, 2013)                    </option>
 	<option value=prok     >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
@@ -283,7 +283,7 @@ set_k() ;
 	<li>S. pombe (972h-) genome, ASM294v2 (Nov, 2007)<br>
 		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz'>
 		ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz</a>
-	<li>RefSeq complete RNA release 68 (Nov, 2014)<br>
+	<li>RefSeq complete RNA release 69 (Jan, 2015)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
 	<li>RefSeq human RNA release 60 (Jul, 2013)<br>
@@ -313,6 +313,7 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2015-01-13 RefSeq rel. 69 (Jan, 2015) に更新。
 	<li>2014-11-23 RefSeq rel. 68 (Nov, 2014) に更新。
 	<li>2014-10-28 アフリカツメガエル、分裂酵母のゲノムを追加。
 	<li>2014-10-01 検索結果はHTML, TXT, JSONに加えCSV, BED, GFF形式の出力にも新たに対応。
@@ -354,7 +355,7 @@ set_k() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 23, 2014 by
+<p class=g>Last modified on Jan 13, 2015 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
