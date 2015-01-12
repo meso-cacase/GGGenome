@@ -179,7 +179,7 @@ set_k() ;
 <div>
 検索結果へのリンク：
 <ul>
-	<li>http://GGGenome.dbcls.jp/<!--
+	<li>http[s]://GGGenome.dbcls.jp/<!--
 		--><span style='color:#ff6600'>db</span>/<!--
 		--><span style='color:#0000ff'>k</span>/<!--
 		--><span style='color:#008000'>sequence</span><!--
@@ -313,6 +313,8 @@ set_k() ;
 <div>
 新着情報：
 <ul>
+	<li>2015-01-13 HTTPSによる暗号化通信に対応 - <a class=k
+	               href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
 	<li>2015-01-13 RefSeq rel. 69 (Jan, 2015) に更新。
 	<li>2014-11-23 RefSeq rel. 68 (Nov, 2014) に更新。
 	<li>2014-10-28 アフリカツメガエル、分裂酵母のゲノムを追加。
