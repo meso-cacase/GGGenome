@@ -20,9 +20,10 @@ sub approx_q {
 # 縮重塩基は展開して個別に検索し、結果をマージする
 
 my $q     = $_[0] or return () ;
-my $port  = $_[1] or return () ;
-my $k     = $_[2] // 0  ;
-my $limit = $_[3] // '' ;
+my $host  = $_[1] or return () ;
+my $port  = $_[2] or return () ;
+my $k     = $_[3] // 0  ;
+my $limit = $_[4] // '' ;
 
 # 縮重塩基の展開
 my @q = iub_expand($q) ;
@@ -31,7 +32,7 @@ my @q = iub_expand($q) ;
 my @hit_all ;
 my @uri_all ;
 foreach (@q){
-	my ($hit, $uri) = approx_core($_, $port, $k, $limit) ;
+	my ($hit, $uri) = approx_core($_, $host, $port, $k, $limit) ;
 	push @hit_all, $hit ;
 	push @uri_all, $uri ;
 }
@@ -84,10 +85,10 @@ return @out ;
 # ====================
 sub approx_core {  # 曖昧検索サーバに問い合わせを行う
 my $q     = $_[0] or return () ;
-my $port  = $_[1] or return () ;
-my $k     = $_[2] // 0  ;
-my $limit = $_[3] // '' ;
-my $host  = '172.18.8.70' ;  # ssd.dbcls.jp (曖昧検索サーバ)
+my $host  = $_[1] or return () ;
+my $port  = $_[2] or return () ;
+my $k     = $_[3] // 0  ;
+my $limit = $_[4] // '' ;
 my $uri   = "http://$host:$port/match?q=$q&k=$k&offset=0&limit=$limit" ;
 my $json  = get($uri) or return () ;
 return (decode_json($json) // (), $uri) ;
