@@ -1050,6 +1050,28 @@ $title  = '超絶高速ゲノム配列検索GGGenome' and
 $robots = '' ;
 #- ▲ トップページ：引数がない場合
 
+#- ▼ メンテナンス画面の作成
+my $chatafile = 'template/maintenance_ja.txt' ;
+
+my $message = '' ;
+if (-f $chatafile and -r $chatafile){
+	open FILE, $chatafile ;
+	$message = join '', <FILE> ;
+	close FILE ;
+}
+
+my $chata = ($message =~ /\A\s*\z/) ? '' :  # 空白文字のみの場合
+<<"--EOS--" ;
+<div><font color=red>
+$message
+</font></div>
+
+<img src='chata_ja.png' alt='ニャーン' border=0>
+
+<hr> <!-- __________________________________________________ -->
+--EOS--
+#- ▲ メンテナンス画面の作成
+
 #- ▼ HTML出力
 my $template_index = HTML::Template->new(filename => 'template/index_ja.tmpl') ;
 
@@ -1059,6 +1081,7 @@ $template_index->param(
 	QUERY  => $query_string,
 	SELECT => $select,
 	K      => $k,
+	CHATA  => $chata,
 	HTML   => $html
 ) ;
 
@@ -1129,6 +1152,28 @@ $title  = 'GGGenome | ultrafast DNA search' and
 $robots = '' ;
 #- ▲ トップページ：引数がない場合
 
+#- ▼ メンテナンス画面の作成
+my $chatafile = 'template/maintenance_en.txt' ;
+
+my $message = '' ;
+if (-f $chatafile and -r $chatafile){
+	open FILE, $chatafile ;
+	$message = join '', <FILE> ;
+	close FILE ;
+}
+
+my $chata = ($message =~ /\A\s*\z/) ? '' :  # 空白文字のみの場合
+<<"--EOS--" ;
+<div><font color=red>
+$message
+</font></div>
+
+<img src='chata_en.png' alt='nyaan' border=0>
+
+<hr> --> __________________________________________________ -->
+--EOS--
+#- ▲ メンテナンス画面の作成
+
 #- ▼ HTML出力
 my $template_index = HTML::Template->new(filename => 'template/index_en.tmpl') ;
 
@@ -1138,6 +1183,7 @@ $template_index->param(
 	QUERY  => $query_string,
 	SELECT => $select,
 	K      => $k,
+	CHATA  => $chata,
 	HTML   => $html
 ) ;
 
