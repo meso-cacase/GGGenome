@@ -120,15 +120,7 @@ $db = lc(                             # 生物種 (データベース)
 	$query{'db'} //                   # 1) QUERY_STRINGから
 	$db          //                   # 2) QUERY_STRING未指定 → URIから
 	'') ;                             # 3) URI未指定 → 空欄
-$db =~ s/calJac3/calJac3/i ;          # 大文字小文字を正規化
-$db =~ s/susScr3/susScr3/i ;          # 大文字小文字を正規化
-$db =~ s/galGal4/galGal4/i ;          # 大文字小文字を正規化
-$db =~ s/xenTro3/xenTro3/i ;          # 大文字小文字を正規化
-$db =~ s/Xenla7/Xenla7/i ;            # 大文字小文字を正規化
-$db =~ s/danRer7/danRer7/i ;          # 大文字小文字を正規化
-$db =~ s/TAIR10/TAIR10/i ;            # 大文字小文字を正規化
-$db =~ s/sorBic/sorBic/i ;            # 大文字小文字を正規化
-$db =~ s/sacCer3/sacCer3/i ;          # 大文字小文字を正規化
+grep {$db =~ s/^$_$/$_/i} keys(%db_fullname) ;  # DBの大文字小文字を正規化
 
 $k =                                  # 許容するミスマッチ/ギャップの数
 	(defined $query{'k'} and $query{'k'} =~ /^\d+$/) ?
