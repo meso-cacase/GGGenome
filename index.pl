@@ -23,7 +23,7 @@
 # 2013-08-16 Yuki Naito (@meso_cacase) 曖昧検索サーバへの問い合わせをモジュール化
 
 #- ▼ モジュール読み込みと変数の初期化
-use warnings ;
+use warnings ; no warnings qw(once) ;
 use strict ;
 use Time::HiRes ;
 
@@ -33,7 +33,7 @@ eval 'use HTML::Template ; 1' or  # HTMLをテンプレート化
 eval 'use Approx ; 1' or          # 曖昧検索サーバに問い合わせを行うためのモジュール
 	printresult('ERROR : cannot load Approx') ;
 
-eval 'use DBlist ; 1' or          # 曖昧検索データベースの正式名およびホスト名/ポート番号の一覧
+eval 'use DBlist ; 1' or          # データベースの正式名およびホスト名/ポート番号の一覧
 	printresult('ERROR : cannot load DBlist') ;
 
 my @timer ;                       # 実行時間計測用
@@ -44,17 +44,19 @@ my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの�
 my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXT,CSV,BED,GFF,JSONの場合
 my $timeout          = 20 ;       # タイムアウト時間、秒
 
-my $dbconf = $DBlist::dbconf ;    # データベースの正式名およびホスト名/ポート番号のリスト
+my $dbconf = $DBlist::dbconfig ;  # データベースの正式名およびホスト名/ポート番号のリスト
 
 my %host ;
 my %port ;
+my %source ;
 my %db_fullname ;
 foreach (split /\n/, $dbconf){
 	chomp ;
 	map {$_ =~ s/\s*$//g}         # 後方のスペースを除去
-		my ($db, $host, $port, $fullname) = split /\t/ ;
+		my ($db, $host, $port, $source, $fullname) = split /\t/ ;
 	$host{$db}        = $host ;
 	$port{$db}        = $port ;
+	$source{$db}      = $source ;
 	$db_fullname{$db} = $fullname ;
 }
 #- ▲ モジュール読み込みと変数の初期化
@@ -82,8 +84,7 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 	my ($param, $slash) = ($1, $2) ;
 	($param =~ /^(ja|en)$/i) ?
 		$lang = lc $1 :
-	($param =~ /^(hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|Xenla7|danRer7|ci2|dm3|ce10|
-	              TAIR10|rice|sorBic|bmor1|sacCer3|pombe|refseq|hs_refseq|mm_refseq|prok|ddbj)$/xi) ?
+	(grep {/^$param$/i} keys(%db_fullname)) ?
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
@@ -848,10 +849,10 @@ my $pos     = $_[1] // '' ;
 my $pos_end = $_[2] // '' ;
 my $db      = $_[3] // '' ;
 
-($db =~ /^(hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|danRer7|ci2|dm3|ce10|sacCer3)$/) ?
+(grep {$source{$db} eq 'UCSC'} keys(%source)) ?
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
-	       "db=$1&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
+	       "db=$db&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'Xenla7') ?
 	return "<a class=a target='_blank' href='" .
 	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xl7_1/?" .
@@ -1031,6 +1032,9 @@ my $select =
 	<option value=prok     >$db_fullname{'prok'     }</option>
 	<option value=ddbj     >$db_fullname{'ddbj'     }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
+	$db_fullname{$db} and $select =                       # 種を追加
+		"	<option value=$db selected>$db_fullname{$db}</option>\n" .
+		"	<option disabled>----------</option>\n" . $select or
 	$select =~ s/(?<=option value=hg19)/ selected/ ;      # default: Human genome (hg19)
 #-- △ プルダウンメニュー
 #- ▲ 検索結果ページを出力：default
@@ -1133,6 +1137,9 @@ my $select =
 	<option value=prok     >$db_fullname{'prok'     }</option>
 	<option value=ddbj     >$db_fullname{'ddbj'     }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
+	$db_fullname{$db} and $select =                       # 種を追加
+		"	<option value=$db selected>$db_fullname{$db}</option>\n" .
+		"	<option disabled>----------</option>\n" . $select or
 	$select =~ s/(?<=option value=hg19)/ selected/ ;      # default: Human genome (hg19)
 #-- △ プルダウンメニュー
 #- ▲ 検索結果ページを出力：default
