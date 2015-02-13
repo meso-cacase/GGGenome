@@ -291,6 +291,9 @@ set_k() ;
 <div>
 文献：
 <ul>
+	<li>内藤雄樹 (2014)「GGGenome：高速な塩基配列の検索ツール」<br>
+		<a target='_blank' class=k href='https://www.yodosha.co.jp/jikkenigaku/book/9784758103435/'><!--
+		-->実験医学増刊：今日から使える！データベース・ウェブツール</a>, p.102-103, 羊土社.
 	<li>ソースコード：GitHub -
 		<a target='_blank' href='https://github.com/meso-cacase/GGGenome'><!--
 		-->meso-cacase/GGGenome</a>
