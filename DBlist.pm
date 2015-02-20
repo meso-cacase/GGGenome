@@ -133,6 +133,7 @@ caeRem3  	172.18.8.78	40923	UCSC	C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2
 priPac1  	172.18.8.78	40933	UCSC	P. pacificus genome, WUGSC 5.0/priPac1 (Feb, 2007)
 aplCal1  	172.18.8.78	40953	UCSC	Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)
 eboVir3  	172.18.8.78	40963	UCSC	Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)
+hg18     	172.18.8.78	40973	UCSC	Human genome, NCBI36/hg18 (Mar, 2006)
 hg19_pre_mRNA        	172.18.8.77	50013		Human pre mRNA, Bits DB (Dec, 2014)
 mm10_pre_mRNA        	172.18.8.77	50023		Mouse pre mRNA, Bits DB (Dec, 2014)
 hg19_pre_mRNA_v2     	172.18.8.77	50033		Human pre mRNA, Bits DB v2 (Feb, 2015)
