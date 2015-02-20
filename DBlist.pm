@@ -137,6 +137,10 @@ hg19_pre_mRNA        	172.18.8.77	50013		Human pre mRNA, Bits DB (Dec, 2014)
 mm10_pre_mRNA        	172.18.8.77	50023		Mouse pre mRNA, Bits DB (Dec, 2014)
 hg19_pre_mRNA_v2     	172.18.8.77	50033		Human pre mRNA, Bits DB v2 (Feb, 2015)
 mm10_pre_mRNA_v2     	172.18.8.77	50043		Mouse pre mRNA, Bits DB v2 (Feb, 2015)
+Ppatens_251_v3       	172.18.8.77	42013	Phytozome	Physcomitrella patens genome v3.0 (Oct, 2007)
+Smoellendorffii_91_v1	172.18.8.77	42023	Phytozome	Selaginella moellendorffii genome v1.0 (Dec, 2007)
+Creinhardtii_281_v5_5	172.18.8.77	42033	Phytozome	Chlamydomonas reinhardtii genome v5.5 (May, 2014)
+Olucimarinus_231_v2  	172.18.8.77	42043	Phytozome	Ostreococcus lucimarinus genome v2.0 (Jan, 2011)
 --EOS--
 
 return 1 ;

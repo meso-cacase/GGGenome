@@ -845,6 +845,16 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$db&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
+(grep {$source{$db} eq 'Phytozome'} keys(%source)) ?
+	return "<a class=a target='_blank' href='" .
+	       "http://phytozome.jgi.doe.gov/jbrowse/?" .
+	       "data=genomes%2F@{[(split /_/, $db)[0]]}&loc=$name%3A$pos..$pos_end&" .
+	       "tracks=Transcripts%2C"  .
+	       "Alt_Transcripts%2C"     .
+	       "PASA_assembly%2C"       .
+	       "Blastx_protein%2C"      .
+	       "Blatx_Plant_protein%2C" .
+	       "GeneExpression_GeneAtlas0_1'>$name:$pos-$pos_end</a>" :
 ($db eq 'Xenla7') ?
 	return "<a class=a target='_blank' href='" .
 	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xl7_1/?" .
