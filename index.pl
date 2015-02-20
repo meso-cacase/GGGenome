@@ -871,7 +871,7 @@ my $db      = $_[3] // '' ;
 	       "r=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
 ($db =~ /^(hs_|mm_)?refseq$/ and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
-	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
+	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
 ($db =~ /^(hg19|mm10)_pre_mRNA$/ and $name =~ /^(.*?)\|(.*?)\|(.*?)\|(.*?):(.*?):(.*?):(.*?)\|/) ?
 	return "$4:@{[$6+1]}-$7($5), pre-mRNA of " .
@@ -887,12 +887,12 @@ my $db      = $_[3] // '' ;
 	       "position: $pos-$pos_end" :
 ($db eq 'prok' and $name =~ /^(.*?)\s*\{((?:.*)refseq:"(.*?)"(?:.*))\}$/) ?
 	return "<a class=a target='_blank' href=" .
-	       "http://www.ncbi.nlm.nih.gov/nuccore/$3>$1</a><br>\n" .
+	       "http://www.ncbi.nlm.nih.gov/nuccore/$3>$1</a><br>\n\t" .
 	       "<span class=g>$2</span><br>" .
 	       "<font color='#0E774A'>$3</font>:$pos-$pos_end" :
 ($db eq 'ddbj' and $name =~ /^.*?\|(\S+)\s+(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
-	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n" .
+	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
 # それ以外の場合 (bmor1)
 	return "$name<br>$pos-$pos_end\n" ;
