@@ -912,8 +912,9 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
-# それ以外の場合 (bmor1)
-	return "$name<br>$pos-$pos_end\n" ;
+# それ以外の場合 (bmor1, ASM15162v1)
+	return "$name<br>\n\t" .
+	       "position: $pos-$pos_end\n" ;
 } ;
 # ====================
 sub escape_char {  # < > & ' " の5文字を実態参照に変換

@@ -144,6 +144,7 @@ Creinhardtii_281_v5_5	172.18.8.77	42033	Phytozome	Chlamydomonas reinhardtii geno
 Olucimarinus_231_v2  	172.18.8.77	42043	Phytozome	Ostreococcus lucimarinus genome v2.0 (Jan, 2011)
 Xentr7               	172.18.8.77	43013		Xenopus tropicalis genome, XenBase/JGI 7.1
 Xentr8               	172.18.8.77	43023		Xenopus tropicalis genome, XenBase/JGI 8.0
+ASM15162v1           	172.18.8.77	43033		Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)
 --EOS--
 
 return 1 ;
