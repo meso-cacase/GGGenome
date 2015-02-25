@@ -903,6 +903,10 @@ my $db      = $_[3] // '' ;
 	       "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/gene/?term=$1>$1</a>)<br>\n\t" .
 	       "position: $pos-$pos_end" :
+($db =~ /^16SrRNA$/ and $name =~ /^(.*?)\|(.*?)\|(.*?)$/) ?
+	return "<a class=a target='_blank' href=" .
+	       "http://www.ncbi.nlm.nih.gov/nuccore/@{[join('.', split(/_/, $1))]}>$2, $3</a><br>\n\t" .
+	       "<font color='#0E774A'>@{[join('.', split(/_/, $1))]}</font>:$pos-$pos_end" :
 ($db eq 'prok' and $name =~ /^(.*?)\s*\{((?:.*)refseq:"(.*?)"(?:.*))\}$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$3>$1</a><br>\n\t" .
