@@ -142,6 +142,8 @@ Ppatens_251_v3       	172.18.8.77	42013	Phytozome	Physcomitrella patens genome v
 Smoellendorffii_91_v1	172.18.8.77	42023	Phytozome	Selaginella moellendorffii genome v1.0 (Dec, 2007)
 Creinhardtii_281_v5_5	172.18.8.77	42033	Phytozome	Chlamydomonas reinhardtii genome v5.5 (May, 2014)
 Olucimarinus_231_v2  	172.18.8.77	42043	Phytozome	Ostreococcus lucimarinus genome v2.0 (Jan, 2011)
+Xentr7               	172.18.8.77	43013		Xenopus tropicalis genome, XenBase/JGI 7.1
+Xentr8               	172.18.8.77	43023		Xenopus tropicalis genome, XenBase/JGI 8.0
 --EOS--
 
 return 1 ;
