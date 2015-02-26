@@ -1,4 +1,0 @@
-NOTICE:
-<ul>
-	<li>Currently under server maintenance. (2015-02-26)
-</ul>
