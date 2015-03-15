@@ -68,6 +68,7 @@ push @timer, [Time::HiRes::time(), 'start;'] ;                       #===== 実�
 my $lang         = '' ;  # HTMLの場合の日本語/英語: ja, en
 my $db           = '' ;  # 生物種 (データベース): hg19, mm10, ...
 my $k            = '' ;  # 許容するミスマッチ/ギャップの数: 0, 1, 2, ...
+my $strand       = '' ;  # 検索する方向: +, -
 my $query_string = '' ;  # 塩基配列
 my $format       = '' ;  # 出力フォーマット: html, txt, csv, bed, gff, json
 my $download     = '' ;  # ファイルとしてダウンロードするか: (boolean)
@@ -88,6 +89,8 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
+	($param =~ /^(\+|\-|plus|minus)$/i) ?
+		$strand = $1 :
 	(not $slash) ?  # 上記に当てはまらず最後の要素: $query_string へ
 		$query_string = $param :
 	() ;  # 解釈できないものは無視
@@ -128,6 +131,14 @@ $k =                                  # 許容するミスマッチ/ギャップ
 	$k //                             # 2) QUERY_STRING未指定 → URIから
 	'' ;                              # 3) URI未指定 → 空欄
 
+$strand =                             # 検索する方向
+	(defined $query{'strand'} and $query{'strand'} =~ /^\d+$/) ?
+	$query{'strand'} :                # 1) QUERY_STRINGから
+	$strand //                        # 2) QUERY_STRING未指定 → URIから
+	'' ;                              # 3) URI未指定 → 空欄
+$strand =~ s/^plus$/+/i ;             # plus  -> +
+$strand =~ s/^minus$/-/i ;            # minus -> -
+
 $format =                             # 出力フォーマット
 	(defined $query{'format'} and $query{'format'} =~ /^(html|txt|csv|bed|gff|json)?$/i) ?
 	lc($query{'format'}) :            # 1) QUERY_STRINGから
@@ -149,6 +160,7 @@ $redirect_uri .= ($request_uri =~ m{^/test/}) ? 'test/' : '' ;  # テストペ�
 $redirect_uri .= $lang ? "$lang/" : '' ;
 $redirect_uri .= $db   ? "$db/"   : '' ;
 $redirect_uri .= $k    ? "$k/"    : '' ;  # 値が 0 の場合は /0/ を省略
+$redirect_uri .= $strand   ? "$strand/"  : '' ;
 $redirect_uri .= $query_string ;
 $redirect_uri .= $format   ? ".$format"  : '' ;
 $redirect_uri .= $download ? '.download' : '' ;
@@ -167,6 +179,7 @@ $lang     ||= ($0 =~ /ja$/) ? 'ja' :  # lang が未定義で実行ファイル�
                               'en' ;  # default: en
 $db       ||= 'hg19' ;
 $k        ||= 0 ;
+$strand   ||= '' ;
 $format   ||= 'html' ;
 $download ||= '' ;
 #- ▲ defaultパラメータ設定
@@ -220,6 +233,7 @@ if ($format eq 'txt'){
 	push @summary, "# database:	$db_fullname" ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
+	unless ($strand eq '-'){
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
@@ -236,9 +250,11 @@ if ($format eq 'txt'){
 
 	push @summary, "# query:	$queryseq" ;
 	push @summary, "# count:	$hit_num" ;
+	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
+	unless ($strand eq '+'){
 	$queryseq = comp($queryseq) ;
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
@@ -256,6 +272,7 @@ if ($format eq 'txt'){
 
 	push @summary, "# query:	$queryseq" ;
 	push @summary, "# count:	$hit_num" ;
+	}
 	#--- △ (-)鎖の検索実行と結果出力
 
 	push @summary, '# name	strand	start	end	snippet	snippet_pos	snippet_end' ;
@@ -270,6 +287,7 @@ if ($format eq 'txt'){
 	push @summary, "# database,\"$db_fullname\"" ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
+	unless ($strand eq '-'){
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
@@ -286,9 +304,11 @@ if ($format eq 'txt'){
 
 	push @summary, "# query,$queryseq" ;
 	push @summary, "# count,$hit_num" ;
+	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
+	unless ($strand eq '+'){
 	$queryseq = comp($queryseq) ;
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
@@ -306,6 +326,7 @@ if ($format eq 'txt'){
 
 	push @summary, "# query,$queryseq" ;
 	push @summary, "# count,$hit_num" ;
+	}
 	#--- △ (-)鎖の検索実行と結果出力
 
 	push @summary, '# name,strand,start,end,snippet,snippet_pos,snippet_end' ;
@@ -319,6 +340,7 @@ if ($format eq 'txt'){
 	push @summary, "track name=GGGenome description=\"GGGenome matches\"" ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
+	unless ($strand eq '-'){
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
@@ -327,9 +349,11 @@ if ($format eq 'txt'){
 	foreach (@{$hits->{hits}}){
 		push @hit_list, show_hit_bed($_, '+') ;
 	}
+	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
+	unless ($strand eq '+'){
 	$queryseq = comp($queryseq) ;
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
@@ -338,6 +362,7 @@ if ($format eq 'txt'){
 
 	foreach (@{$hits->{hits}}){
 		push @hit_list, show_hit_bed($_, '-') ;
+	}
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
@@ -353,6 +378,7 @@ if ($format eq 'txt'){
 	push @summary, "track name=GGGenome description=\"GGGenome matches\"" ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
+	unless ($strand eq '-'){
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
@@ -361,9 +387,11 @@ if ($format eq 'txt'){
 	foreach (@{$hits->{hits}}){
 		push @hit_list, show_hit_gff($_, '+') ;
 	}
+	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
+	unless ($strand eq '+'){
 	$queryseq = comp($queryseq) ;
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
@@ -372,6 +400,7 @@ if ($format eq 'txt'){
 
 	foreach (@{$hits->{hits}}){
 		push @hit_list, show_hit_gff($_, '-') ;
+	}
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
@@ -384,6 +413,7 @@ if ($format eq 'txt'){
 	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
 
 	#--- ▽ (+)鎖の検索実行と結果出力
+	unless ($strand eq '-'){
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
@@ -402,9 +432,11 @@ if ($format eq 'txt'){
 		count => $hit_num,
 		count_is_approx => $hit_approx
 	} ;
+	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
+	unless ($strand eq '+'){
 	$queryseq = comp($queryseq) ;
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
@@ -424,6 +456,7 @@ if ($format eq 'txt'){
 		count => $hit_num,
 		count_is_approx => $hit_approx
 	} ;
+	}
 	#--- △ (-)鎖の検索実行と結果出力
 
 	my $json_result = JSON::XS->new->canonical->utf8->encode({
@@ -443,6 +476,7 @@ if ($format eq 'txt'){
 		printresult('ERROR : cannot load Align2seq') ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
+	unless ($strand eq '-'){
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
 
@@ -462,9 +496,11 @@ if ($format eq 'txt'){
 	push @summary,
 		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
 		"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
+	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
+	unless ($strand eq '+'){
 	$queryseq = comp($queryseq) ;
 	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
 		printresult('ERROR : searcher error') ;
@@ -485,6 +521,7 @@ if ($format eq 'txt'){
 	push @summary,
 		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
 		"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
+	}
 	#--- △ (-)鎖の検索実行と結果出力
 
 	#--- ▽ 両鎖の合計数を出力
@@ -501,6 +538,7 @@ if ($format eq 'txt'){
 	$linkbase_uri .= ($request_uri =~ m{^/test/}) ? 'test/' : '' ;  # テストページ /test/ 対応
 	$linkbase_uri .= $db ? "$db/" : '' ;
 	$linkbase_uri .= $k  ? "$k/"  : '' ;  # 値が 0 の場合は /0/ を省略
+	$linkbase_uri .= $strand ? "$strand/" : '' ;
 	$linkbase_uri .= $query_string ;
 	#--- △ TXT/CSV/BED/GFF/JSON出力のbase URIを生成
 
