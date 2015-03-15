@@ -234,44 +234,44 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_txt($_, '+') ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_txt($_, '+') ;
+		}
 
-	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
-	$hit_num    = $hits->{total_hit_num}           // '' ;
-	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
+		$hit_num    = $hits->{total_hit_num}           // '' ;
+		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
 
-	push @summary, "# query:	$queryseq" ;
-	push @summary, "# count:	$hit_num" ;
+		push @summary, "# query:	$queryseq" ;
+		push @summary, "# count:	$hit_num" ;
 	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
-	$queryseq = comp($queryseq) ;
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		$queryseq = comp($queryseq) ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_txt($_, '-') ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_txt($_, '-') ;
+		}
 
-	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
-	$hit_num    = $hits->{total_hit_num}           // '' ;
-	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
+		$hit_num    = $hits->{total_hit_num}           // '' ;
+		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
 
-	push @summary, "# query:	$queryseq" ;
-	push @summary, "# count:	$hit_num" ;
+		push @summary, "# query:	$queryseq" ;
+		push @summary, "# count:	$hit_num" ;
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
@@ -288,44 +288,44 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_csv($_, '+') ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_csv($_, '+') ;
+		}
 
-	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
-	$hit_num    = $hits->{total_hit_num}           // '' ;
-	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
+		$hit_num    = $hits->{total_hit_num}           // '' ;
+		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
 
-	push @summary, "# query,$queryseq" ;
-	push @summary, "# count,$hit_num" ;
+		push @summary, "# query,$queryseq" ;
+		push @summary, "# count,$hit_num" ;
 	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
-	$queryseq = comp($queryseq) ;
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		$queryseq = comp($queryseq) ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_csv($_, '-') ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_csv($_, '-') ;
+		}
 
-	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
-	$hit_num    = $hits->{total_hit_num}           // '' ;
-	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
+		$hit_num    = $hits->{total_hit_num}           // '' ;
+		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
 
-	push @summary, "# query,$queryseq" ;
-	push @summary, "# count,$hit_num" ;
+		push @summary, "# query,$queryseq" ;
+		push @summary, "# count,$hit_num" ;
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
@@ -341,28 +341,28 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_bed($_, '+') ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_bed($_, '+') ;
+		}
 	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
-	$queryseq = comp($queryseq) ;
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		$queryseq = comp($queryseq) ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_bed($_, '-') ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_bed($_, '-') ;
+		}
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
@@ -379,28 +379,28 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_gff($_, '+') ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_gff($_, '+') ;
+		}
 	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
-	$queryseq = comp($queryseq) ;
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		$queryseq = comp($queryseq) ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_gff($_, '-') ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_gff($_, '-') ;
+		}
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
@@ -414,48 +414,48 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, @{ show_hit_json($_, '+') } ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, @{ show_hit_json($_, '+') } ;
+		}
 
-	# ヒット数、ヒット数が概算かどうかを出力
-	$hit_num    = $hits->{total_hit_num}           // '' ;
-	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+		# ヒット数、ヒット数が概算かどうかを出力
+		$hit_num    = $hits->{total_hit_num}           // '' ;
+		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
 
-	push @summary, {
-		query => $queryseq,
-		count => $hit_num,
-		count_is_approx => $hit_approx
-	} ;
+		push @summary, {
+			query => $queryseq,
+			count => $hit_num,
+			count_is_approx => $hit_approx
+		} ;
 	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
-	$queryseq = comp($queryseq) ;
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		$queryseq = comp($queryseq) ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, @{ show_hit_json($_, '-') } ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, @{ show_hit_json($_, '-') } ;
+		}
 
-	# ヒット数、ヒット数が概算かどうかを出力
-	$hit_num    = $hits->{total_hit_num}           // '' ;
-	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+		# ヒット数、ヒット数が概算かどうかを出力
+		$hit_num    = $hits->{total_hit_num}           // '' ;
+		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
 
-	push @summary, {
-		query => $queryseq,
-		count => $hit_num,
-		count_is_approx => $hit_approx
-	} ;
+		push @summary, {
+			query => $queryseq,
+			count => $hit_num,
+			count_is_approx => $hit_approx
+		} ;
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
@@ -477,50 +477,50 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_html($_) ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_html($_) ;
+		}
 
-	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
-	$hit_num    = $hits->{total_hit_num}           // '' ;
-	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-	$ds_hit_num += $hit_num ;
-	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
-	$hit_approx and $ds_approx = 1 ;
+		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
+		$hit_num    = $hits->{total_hit_num}           // '' ;
+		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+		$ds_hit_num += $hit_num ;
+		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+		$hit_approx and $ds_approx = 1 ;
 
-	push @summary,
-		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
-		"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
+		push @summary,
+			"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
+			"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
 	}
 	#--- △ (+)鎖の検索実行と結果出力
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
-	$queryseq = comp($queryseq) ;
-	($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
-		printresult('ERROR : searcher error') ;
+		$queryseq = comp($queryseq) ;
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+			printresult('ERROR : searcher error') ;
 
-	push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
+		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
 
-	foreach (@{$hits->{hits}}){
-		push @hit_list, show_hit_html($_) ;
-	}
+		foreach (@{$hits->{hits}}){
+			push @hit_list, show_hit_html($_) ;
+		}
 
-	# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
-	$hit_num    = $hits->{total_hit_num}           // '' ;
-	$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-	$ds_hit_num += $hit_num ;
-	$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
-	$hit_approx and $ds_approx = 1 ;
+		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
+		$hit_num    = $hits->{total_hit_num}           // '' ;
+		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
+		$ds_hit_num += $hit_num ;
+		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+		$hit_approx and $ds_approx = 1 ;
 
-	push @summary,
-		"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
-		"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
+		push @summary,
+			"	<li><a href='./?query=$queryseq&amp;db=$db&amp;k=$k'>" . "\n" .
+			"		<span class=mono>$queryseq</span> ($hit_num)</a>" ;
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
