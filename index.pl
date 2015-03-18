@@ -132,7 +132,7 @@ $k =                                  # 許容するミスマッチ/ギャップ
 	'' ;                              # 3) URI未指定 → 空欄
 
 $strand =                             # 検索する方向
-	(defined $query{'strand'} and $query{'strand'} =~ /^\d+$/) ?
+	(defined $query{'strand'} and $query{'strand'} =~ /^(\+|\-|plus|minus)?$/i) ?
 	$query{'strand'} :                # 1) QUERY_STRINGから
 	$strand //                        # 2) QUERY_STRING未指定 → URIから
 	'' ;                              # 3) URI未指定 → 空欄
