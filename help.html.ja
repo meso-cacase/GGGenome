@@ -11,8 +11,8 @@
 <!--
 function set_db(){
 	var db ;
-	if (location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)){
-		db = location.pathname.match(/\/(\w+)\/(\d+\/)?help.html$/)[1] ;
+	if (location.pathname.match(/\/(\w+)\/(\d+\/)?((\+|\-)\/)?help.html$/)){
+		db = location.pathname.match(/\/(\w+)\/(\d+\/)?((\+|\-)\/)?help.html$/)[1] ;
 		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|Xenla7|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|pombe|refseq|hs_refseq|mm_refseq|prok|ddbj/)){
 			document.gggenome.db.value = db ;
 		}
@@ -20,9 +20,20 @@ function set_db(){
 }
 function set_k(){
 	var k ;
-	if (location.pathname.match(/\/(\d+)\/help.html$/)){
-		k = location.pathname.match(/\/(\d+)\/help.html$/)[1] ;
+	if (location.pathname.match(/\/(\d+)\/((\+|\-)\/)?help.html$/)){
+		k = location.pathname.match(/\/(\d+)\/((\+|\-)\/)?help.html$/)[1] ;
 		document.gggenome.k.value = k ;
+	}
+}
+function set_strand(){
+	var strand ;
+	if (location.pathname.match(/\/(\+|\-)\/help.html$/)){
+		strand = location.pathname.match(/\/(\+|\-)\/help.html$/)[1] ;
+		if (strand == '+'){
+			document.gggenome.strand[1].checked = true ;
+		} else if (strand == '-'){
+			document.gggenome.strand[2].checked = true ;
+		}
 	}
 }
 //-->
@@ -118,6 +129,10 @@ function set_k(){
 <br>
 許容するミスマッチ/ギャップの数：<input type=text name=k size=3 value=0>
 (検索する塩基配列の長さの25%まで)
+<br>
+<input type=radio name=strand value='' checked>双方向を検索
+<input type=radio name=strand value='plus'>＋方向のみ検索
+<input type=radio name=strand value='minus'>−方向のみ検索
 </p>
 </form>
 
@@ -125,6 +140,7 @@ function set_k(){
 <!--
 set_db() ;
 set_k() ;
+set_strand() ;
 //-->
 </script>
 

@@ -89,7 +89,7 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 		$db = lc $1 :
 	($param =~ /^(\d+)$/) ?
 		$k = $1 :
-	($param =~ /^(\+|\-|plus|minus)$/i) ?
+	($param =~ /^(\+|\-|plus|minus|both)$/i) ?
 		$strand = $1 :
 	(not $slash) ?  # 上記に当てはまらず最後の要素: $query_string へ
 		$query_string = $param :
@@ -132,12 +132,13 @@ $k =                                  # 許容するミスマッチ/ギャップ
 	'' ;                              # 3) URI未指定 → 空欄
 
 $strand =                             # 検索する方向
-	(defined $query{'strand'} and $query{'strand'} =~ /^(\+|\-|plus|minus)?$/i) ?
+	(defined $query{'strand'} and $query{'strand'} =~ /^(\+|\-|plus|minus|both)?$/i) ?
 	$query{'strand'} :                # 1) QUERY_STRINGから
 	$strand //                        # 2) QUERY_STRING未指定 → URIから
 	'' ;                              # 3) URI未指定 → 空欄
 $strand =~ s/^plus$/+/i ;             # plus  -> +
 $strand =~ s/^minus$/-/i ;            # minus -> -
+$strand =~ s/^both$//i ;              # both  -> 空欄
 
 $format =                             # 出力フォーマット
 	(defined $query{'format'} and $query{'format'} =~ /^(html|txt|csv|bed|gff|json)?$/i) ?
@@ -1102,6 +1103,16 @@ $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
 		"	<option disabled>----------</option>\n" . $select or
 	$select =~ s/(?<=option value=hg19)/ selected/ ;      # default: Human genome (hg19)
 #-- △ プルダウンメニュー
+
+#-- ▽ strand選択ボタン
+my $strand_selection =
+"<input type=radio name=strand value=both>双方向を検索
+<input type=radio name=strand value=plus>＋方向のみ検索
+<input type=radio name=strand value=minus>−方向のみ検索" ;
+($strand and $strand eq '+') ? $strand_selection =~ s/plus/plus checked/   :
+($strand and $strand eq '-') ? $strand_selection =~ s/minus/minus checked/ :
+                               $strand_selection =~ s/both/both checked/   ;
+#-- △ strand選択ボタン
 #- ▲ 検索結果ページを出力：default
 
 #- ▼ エラーページを出力：引数が ERROR で始まる場合
@@ -1150,6 +1161,7 @@ $template_index->param(
 	QUERY  => $query_string,
 	SELECT => $select,
 	K      => $k,
+	STRAND => $strand_selection,
 	CHATA  => $chata,
 	HTML   => $html
 ) ;
@@ -1207,6 +1219,16 @@ $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
 		"	<option disabled>----------</option>\n" . $select or
 	$select =~ s/(?<=option value=hg19)/ selected/ ;      # default: Human genome (hg19)
 #-- △ プルダウンメニュー
+
+#-- ▽ strand選択ボタン
+my $strand_selection =
+"<input type=radio name=strand value=both>双方向を検索
+<input type=radio name=strand value=plus>＋方向のみ検索
+<input type=radio name=strand value=minus>−方向のみ検索" ;
+($strand and $strand eq '+') ? $strand_selection =~ s/plus/plus checked/   :
+($strand and $strand eq '-') ? $strand_selection =~ s/minus/minus checked/ :
+                               $strand_selection =~ s/both/both checked/   ;
+#-- △ strand選択ボタン
 #- ▲ 検索結果ページを出力：default
 
 #- ▼ エラーページを出力：引数が ERROR で始まる場合
@@ -1255,6 +1277,7 @@ $template_index->param(
 	QUERY  => $query_string,
 	SELECT => $select,
 	K      => $k,
+	STRAND => $strand_selection,
 	CHATA  => $chata,
 	HTML   => $html
 ) ;
