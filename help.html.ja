@@ -184,17 +184,20 @@ set_strand() ;
 検索結果へのリンク：
 <ul>
 	<li>http[s]://GGGenome.dbcls.jp/<!--
-		--><span style='color:#ff6600'>db</span>/<!--
-		--><span style='color:#0000ff'>k</span>/<!--
+		--><span style='color:#FF6600'>db</span>/<!--
+		--><span style='color:#0000FF'>k</span>/<!--
+		-->[<span style='color:#9933FF'>strand</span>]/<!--
 		--><span style='color:#008000'>sequence</span><!--
 		-->[.<span style='color:#FF0080'>format</span>]<!--
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
-		<li><span style='color:#ff6600'>db</span> &rarr;
+		<li><span style='color:#FF6600'>db</span> &rarr;
 			hg19, mm10, rn5, calJac3, susScr3, galGal4, xenTro3, Xenla7, danRer7, ci2, dm3, ce10, TAIR10,<br>
 			rice, sorBic, bmor1, sacCer3, pombe, refseq, hs_refseq, mm_refseq, prok, ddbj。省略時は hg19
-		<li><span style='color:#0000ff'>k</span> &rarr;
+		<li><span style='color:#0000FF'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
+		<li><span style='color:#9933FF'>strand</span> &rarr;
+			'+' ('plus') または '-' ('minus') で特定の方向のみ検索。省略時は両方向を検索
 		<li><span style='color:#008000'>sequence</span> &rarr;
 			塩基配列。大文字・小文字は区別しない
 		<li><span style='color:#FF0080'>format</span> &rarr;
@@ -207,21 +210,23 @@ set_strand() ;
 		--><span style='color:#008000'>TTCATTGACAACATT</span><!--
 		--></a>
 	<ul>
-		<li>ヒトゲノム <span style='color:#ff6600'>hg19</span> (省略可) で
+		<li>ヒトゲノム <span style='color:#FF6600'>hg19</span> (省略可) で
 		<li>ミスマッチ/ギャップを許容せず (省略可)
 		<li><span style='color:#008000'>TTCATTGACAACATT</span> を検索し
 		<li><span style='color:#FF0080'>html</span> 形式 (省略可) で結果を返す
 	</ul>
-	<li>例2：<a href='http://GGGenome.dbcls.jp/mm10/2/TTCATTGACAACATTGCGT.txt'><!--
+	<li>例2：<a href='http://GGGenome.dbcls.jp/mm10/2/+/TTCATTGACAACATTGCGT.txt'><!--
 		-->http://GGGenome.dbcls.jp/<!--
-		--><span style='color:#ff6600'>mm10</span>/<!--
-		--><span style='color:#0000ff'>2</span>/<!--
+		--><span style='color:#FF6600'>mm10</span>/<!--
+		--><span style='color:#0000FF'>2</span>/<!--
+		--><span style='color:#9933FF'>+</span>/<!--
 		--><span style='color:#008000'>TTCATTGACAACATTGCGT</span><!--
 		-->.<span style='color:#FF0080'>txt</span><!--
 		--></a>
 	<ul>
-		<li>マウスゲノム <span style='color:#ff6600'>mm10</span> で
-		<li><span style='color:#0000ff'>2</span> ミスマッチ/ギャップまで許容して
+		<li>マウスゲノム <span style='color:#FF6600'>mm10</span> で
+		<li><span style='color:#0000FF'>2</span> ミスマッチ/ギャップまで許容して
+		<li><span style='color:#9933FF'>+</span> 方向に限定して
 		<li><span style='color:#008000'>TTCATTGACAACATTGCGT</span> を検索し
 		<li><span style='color:#FF0080'>txt</span> 形式 (タブ区切りテキスト) で結果を返す
 	</ul>
@@ -320,6 +325,7 @@ set_strand() ;
 <div>
 新着情報：
 <ul>
+	<li>2015-03-18 検索の方向を限定するオブションを追加。
 	<li>2015-01-13 HTTPSによる暗号化通信に対応 - <a class=k
 	               href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
 	<li>2015-01-13 RefSeq rel. 69 (Jan, 2015) に更新。
@@ -364,7 +370,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jan 13, 2015 by
+<p class=g>Last modified on Mar 18, 2015 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a

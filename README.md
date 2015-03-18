@@ -87,6 +87,10 @@ GGGenome《ゲゲゲノム》
                 (ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/)  
 + *k* : 許容するミスマッチ/ギャップの数  
   省略時のデフォルト: 0
++ *strand* : 特定の方向のみ検索
+  '+' または 'plus'  - プラス方向のみ検索
+  '-' または 'minus' - マイナス方向のみ検索
+  省略時は両方向を検索
 + *sequence* : 塩基配列 (省略不可)
 + *format* : 検索結果のフォーマット  
   'html' - HTML (省略時のデフォルト)  
@@ -104,10 +108,11 @@ GGGenome《ゲゲゲノム》
 + TTCATTGACAACATT を検索し
 + html (省略時のデフォルト) で結果を返す
 
-**例2:** http://GGGenome.dbcls.jp/refseq/TTCATTGACAACATT.txt
+**例2:** http://GGGenome.dbcls.jp/refseq/+/TTCATTGACAACATT.txt
 
 + RefSeq complete RNA (refseq) に対して
 + ミスマッチ/ギャップを許容せず (省略時のデフォルト)
++ 検索方向をプラス方向に限定し
 + TTCATTGACAACATT を検索し
 + タブ区切りテキスト (txt) で結果を返す
 

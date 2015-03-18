@@ -2,7 +2,7 @@ GGGenome REST API
 
 Query format:
 
-http[s]://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
+http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/SEQUENCE[.FORMAT][.download]
   DB (optional):
     'hg19'      - Human genome, GRCh37/hg19 (Feb, 2009) or
     'mm10'      - Mouse genome, GRCm38/mm10 (Dec, 2011) or
@@ -31,6 +31,9 @@ http[s]://GGGenome.dbcls.jp/DB/K/SEQUENCE[.FORMAT][.download]
   K (optional):
     Maximum number of mismatches/gaps.
     Default: 0
+  STRAND (optional):
+    '+' or 'plus'  - search plus strand only
+    '-' or 'minus' - search minus strand only
   SEQUENCE:
     Nucleotide sequence, case insensitive. IUB code letters can be used.
   FORMAT (optional):
@@ -51,7 +54,8 @@ http://GGGenome.dbcls.jp/TTCATTGACAACATT
   Search only perfect match sequences. (default)
   Output in HTML format. (default)
 
-http://GGGenome.dbcls.jp/mm10/2/TTCATTGACAACATTGCGT.txt
+http://GGGenome.dbcls.jp/mm10/2/+/TTCATTGACAACATTGCGT.txt
   Search 'TTCATTGACAACATTGCGT' in mouse genome mm10.
   Search sequences within two mismatches and gaps.
+  Search for + strand only.
   Output in tab-delimited text format.
