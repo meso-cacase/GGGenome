@@ -42,7 +42,9 @@ my $min_query_length = 6 ;        # クエリの最低塩基長
 my $max_k            = 25 ;       # 許容するミスマッチ/ギャップ数の上限、％
 my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
 my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXT,CSV,BED,GFF,JSONの場合
+my $max_hit_debug    = 10000000 ; # 検索を打ち切るヒット数、デバッグモード
 my $timeout          = 20 ;       # タイムアウト時間、秒
+my $timeout_debug    = 1800 ;     # タイムアウト時間、秒、デバッグモード
 
 my $dbconf = $DBlist::dbconfig ;  # データベースの正式名およびホスト名/ポート番号のリスト
 
@@ -72,6 +74,7 @@ my $strand       = '' ;  # 検索する方向: +, -
 my $query_string = '' ;  # 塩基配列
 my $format       = '' ;  # 出力フォーマット: html, txt, csv, bed, gff, json
 my $download     = '' ;  # ファイルとしてダウンロードするか: (boolean)
+my $debug        = '' ;  # デバッグモード
 #-- △ 使用するパラメータ一覧
 
 #-- ▽ URIからパラメータを取得
@@ -91,6 +94,8 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 		$k = $1 :
 	($param =~ /^(\+|\-|plus|minus|both)$/i) ?
 		$strand = $1 :
+	($param =~ /^(debug)$/i) ?
+		$debug = 'true' :
 	(not $slash) ?  # 上記に当てはまらず最後の要素: $query_string へ
 		$query_string = $param :
 	() ;  # 解釈できないものは無視
@@ -152,12 +157,18 @@ $download =                           # ファイルとしてダウンロード�
 	$download //                      # 2) QUERY_STRING未指定 → URIから
 	'' :                              # 3) URI未指定 → 空欄
 	'' ;                              # txt,csv,bed,gff,json以外 → 空欄
+
+$debug =                              # デバッグモード
+	$query{'debug'} //                # 1) QUERY_STRINGから
+	$debug          //                # 2) QUERY_STRING未指定 → URIから
+	'' ;                              # 3) URI未指定 → 空欄
 #-- △ QUERY_STRINGからパラメータを取得
 #- ▲ リクエストからパラメータを取得
 
 #- ▼ パラメータからURIを生成してリダイレクト
 my $redirect_uri = '/' ;
 $redirect_uri .= ($request_uri =~ m{^/test/}) ? 'test/' : '' ;  # テストページ /test/ 対応
+$redirect_uri .= $debug ? "debug/" : '' ;
 $redirect_uri .= $lang ? "$lang/" : '' ;
 $redirect_uri .= $db   ? "$db/"   : '' ;
 $redirect_uri .= $k    ? "$k/"    : '' ;  # 値が 0 の場合は /0/ を省略
@@ -183,6 +194,7 @@ $k        ||= 0 ;
 $strand   ||= '' ;
 $format   ||= 'html' ;
 $download ||= '' ;
+$debug    ||= '' ;
 #- ▲ defaultパラメータ設定
 
 #- ▼ クエリの内容をチェック
@@ -205,7 +217,7 @@ my $queryseq = flatsequence($query_string) ;  # 塩基構成文字以外を除�
 #- ▽ タイムアウト処理を行う部分
 eval {
 	local $SIG{ALRM} = sub { die } ;
-	alarm $timeout ;
+	alarm ($debug ? $timeout_debug : $timeout) ;
 
 #-- ▽ 生物種 $db により切り替えるパラメータ
 my $db_fullname = $db_fullname{$db} //    # データベースの正式名
@@ -229,7 +241,7 @@ my @hit_list ;    # 検索結果のリスト
 
 #-- ▽ TXT(タブ区切りテキスト)形式
 if ($format eq 'txt'){
-	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
+	my $limit = ($debug ? $max_hit_debug : $max_hit_api) ;  # 検索を打ち切るヒット数
 	push @summary, "# [ GGGenome | $timestamp ]" ;
 	push @summary, "# database:	$db_fullname" ;
 
@@ -283,7 +295,7 @@ if ($format eq 'txt'){
 
 #-- ▽ CSV形式
 } elsif ($format eq 'csv'){
-	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
+	my $limit = ($debug ? $max_hit_debug : $max_hit_api) ;  # 検索を打ち切るヒット数
 	push @summary, "# [ GGGenome | $timestamp ]" ;
 	push @summary, "# database,\"$db_fullname\"" ;
 
@@ -337,7 +349,7 @@ if ($format eq 'txt'){
 
 #-- ▽ BED形式
 } elsif ($format eq 'bed'){
-	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
+	my $limit = ($debug ? $max_hit_debug : $max_hit_api) ;  # 検索を打ち切るヒット数
 	push @summary, "track name=GGGenome description=\"GGGenome matches\"" ;
 
 	#--- ▽ (+)鎖の検索実行と結果出力
@@ -373,7 +385,7 @@ if ($format eq 'txt'){
 
 #-- ▽ GFF形式
 } elsif ($format eq 'gff'){
-	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
+	my $limit = ($debug ? $max_hit_debug : $max_hit_api) ;  # 検索を打ち切るヒット数
 	push @summary, "##gff-version 3" ;
 	push @summary, "##source-version GGGenome v1" ;
 	push @summary, "track name=GGGenome description=\"GGGenome matches\"" ;
@@ -411,7 +423,7 @@ if ($format eq 'txt'){
 
 #-- ▽ JSON形式
 } elsif ($format eq 'json'){
-	my $limit = $max_hit_api ;  # 検索を打ち切るヒット数
+	my $limit = ($debug ? $max_hit_debug : $max_hit_api) ;  # 検索を打ち切るヒット数
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
@@ -472,7 +484,7 @@ if ($format eq 'txt'){
 
 #-- ▽ HTML形式
 } else {  # default: html
-	my $limit = $max_hit_html ;  # 検索を打ち切るヒット数
+	my $limit = ($debug ? $max_hit_debug : $max_hit_html) ;  # 検索を打ち切るヒット数
 	eval 'require Align2seq ; 1' or  # ミスマッチ/ギャップのある配列のハイライトに使用
 		printresult('ERROR : cannot load Align2seq') ;
 
@@ -537,6 +549,7 @@ if ($format eq 'txt'){
 	#--- ▽ TXT/CSV/BED/GFF/JSON出力のbase URIを生成
 	my $linkbase_uri = '/' ;
 	$linkbase_uri .= ($request_uri =~ m{^/test/}) ? 'test/' : '' ;  # テストページ /test/ 対応
+	$linkbase_uri .= $debug ? "debug/" : '' ;
 	$linkbase_uri .= $db ? "$db/" : '' ;
 	$linkbase_uri .= $k  ? "$k/"  : '' ;  # 値が 0 の場合は /0/ を省略
 	$linkbase_uri .= $strand ? "$strand/" : '' ;
@@ -572,9 +585,9 @@ if ($format eq 'txt'){
 		TIMESTAMP    => $timestamp,
 		DB_FULLNAME  => $db_fullname,
 		SUMMARY      => "@summary",
-		MAX_HIT_HTML => $max_hit_html,
+		MAX_HIT_HTML => ($debug ? $max_hit_debug : $max_hit_html),
 		HIT_LIST     => "@hit_list",
-		MAX_HIT_API  => $max_hit_api,
+		MAX_HIT_API  => ($debug ? $max_hit_debug : $max_hit_api),
 		LINKBASE_URI => $linkbase_uri,
 		HTTP_HOST    => $ENV{'HTTP_HOST'},
 		REDIRECT_URI => $redirect_uri,
@@ -585,6 +598,7 @@ if ($format eq 'txt'){
 		QUERY        => $query_string,
 		FORMAT       => $format,
 		DOWNLOAD     => $download,
+		DEBUG        => $debug,
 		TIMELOG      => "@timelog"
 	) ;
 
