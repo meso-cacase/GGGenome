@@ -581,6 +581,7 @@ if ($format eq 'txt'){
 		LANG         => $lang,
 		DB           => $db,
 		K            => $k,
+		STRAND       => $strand,
 		QUERY        => $query_string,
 		FORMAT       => $format,
 		DOWNLOAD     => $download,
