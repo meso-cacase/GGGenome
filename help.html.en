@@ -130,9 +130,10 @@ function set_strand(){
 Max number of mismatches/gaps: <input type=text name=k size=3 value=0>
 (no more than 25% of the query length)
 <br>
-<input type=radio name=strand value='' checked>Search both strand
-<input type=radio name=strand value='plus'>Search plus (+) strand
-<input type=radio name=strand value='minus'>Search minus (-) strand
+Search for:
+<input type=radio name=strand value=both checked>both strand
+<input type=radio name=strand value=plus>plus strand
+<input type=radio name=strand value=minus>minus strand
 </p>
 </form>
 

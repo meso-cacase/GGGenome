@@ -1237,9 +1237,10 @@ $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
 
 #-- ▽ strand選択ボタン
 my $strand_selection =
-"<input type=radio name=strand value=both>双方向を検索
-<input type=radio name=strand value=plus>＋方向のみ検索
-<input type=radio name=strand value=minus>−方向のみ検索" ;
+"Search for:
+<input type=radio name=strand value=both>both strand
+<input type=radio name=strand value=plus>plus strand
+<input type=radio name=strand value=minus>minus strand" ;
 ($strand and $strand eq '+') ? $strand_selection =~ s/plus/plus checked/   :
 ($strand and $strand eq '-') ? $strand_selection =~ s/minus/minus checked/ :
                                $strand_selection =~ s/both/both checked/   ;
