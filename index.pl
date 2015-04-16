@@ -181,7 +181,8 @@ if ($ENV{'HTTP_HOST'} and              # HTTP経由のリクエストで、か�
 	($request_uri ne $redirect_uri or  # 現在のURIと異なる場合にリダイレクト
 	 $ENV{'QUERY_STRING'})
 ){
-	redirect_page("http://$ENV{'HTTP_HOST'}$redirect_uri") ;
+	$ENV{'HTTPS'} ? redirect_page("https://$ENV{'HTTP_HOST'}$redirect_uri") :  # HTTPS経由
+	                redirect_page("http://$ENV{'HTTP_HOST'}$redirect_uri")  ;  # HTTP経由
 }
 #- ▲ パラメータからURIを生成してリダイレクト
 
