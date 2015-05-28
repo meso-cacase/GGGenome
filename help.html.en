@@ -120,7 +120,7 @@ function set_strand(){
 	<option value=sacCer3  >S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
 	<option value=pombe    >S. pombe (972h-) genome, ASM294v2 (Nov, 2007)              </option>
 	<option disabled>----------</option>
-	<option value=refseq   >RefSeq complete RNA release 69 (Jan, 2015)                 </option>
+	<option value=refseq   >RefSeq complete RNA release 70 (May, 2015)                 </option>
 	<option value=hs_refseq>RefSeq human RNA release 60 (Jul, 2013)                    </option>
 	<option value=mm_refseq>RefSeq mouse RNA release 60 (Jul, 2013)                    </option>
 	<option value=prok     >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
@@ -293,7 +293,7 @@ Data source:
 	<li>S. pombe (972h-) genome, ASM294v2 (Nov, 2007)<br>
 		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz'>
 		ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz</a>
-	<li>RefSeq complete RNA release 69 (Jan, 2015)<br>
+	<li>RefSeq complete RNA release 70 (May, 2015)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
 	<li>RefSeq human RNA release 60 (Jul, 2013)<br>
@@ -323,6 +323,7 @@ Reference:
 <div>
 What's new:
 <ul>
+	<li>2015-05-28 Database updated to RefSeq rel. 70 (May, 2015).
 	<li>2015-03-18 Parameter for searching specific strand is supported.
 	<li>2015-01-13 HTTPS encrypted connection supported - <a class=k
 	               href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
@@ -369,7 +370,7 @@ What's new:
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Mar 18, 2015 by
+<p class=g>Last modified on May 28, 2015 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

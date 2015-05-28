@@ -7,6 +7,7 @@ package DBlist ;
 #
 # ホスト一覧：
 # 172.18.8.70	ssd.dbcls.jp
+# 172.18.8.76	s06.dbcls.jp
 # 172.18.8.77	s07.dbcls.jp
 # 172.18.8.78	s08.dbcls.jp
 #
@@ -44,7 +45,6 @@ sorBic   	172.18.8.70	42403	    	Sorghum genome, Sorghum bicolor v2.1 (May, 2013
 bmor1    	172.18.8.70	42303	    	Silkworm genome, Bmor1 (Apr, 2008)
 sacCer3  	172.18.8.70	42383	UCSC	S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)
 pombe    	172.18.8.70	42453	    	S. pombe (972h-) genome, ASM294v2 (Nov, 2007)
-refseq   	172.18.8.70	42243	    	RefSeq complete RNA release 69 (Jan, 2015)
 hs_refseq	172.18.8.70	42393	    	RefSeq human RNA release 60 (Jul, 2013)
 mm_refseq	172.18.8.70	42433	    	RefSeq mouse RNA release 60 (Jul, 2013)
 prok     	172.18.8.70	42323	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)
@@ -146,6 +146,8 @@ Xentr7               	172.18.8.77	43013		Xenopus tropicalis genome, XenBase/JGI 
 Xentr8               	172.18.8.77	43023		Xenopus tropicalis genome, XenBase/JGI 8.0
 ASM15162v1           	172.18.8.77	43033		Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)
 16SrRNA              	172.18.8.77	50053		DDBJ 16S rRNA of prokaryotes (Dec, 2014)
+refseq70             	172.18.8.76	60003		RefSeq complete RNA release 70 (May, 2015)
+refseq               	172.18.8.76	60003		RefSeq complete RNA release 70 (May, 2015)
 --EOS--
 
 return 1 ;
