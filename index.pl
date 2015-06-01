@@ -40,6 +40,7 @@ my @timer ;                       # 実行時間計測用
 my $timestamp = timestamp() ;     # CGIを実行した時刻
 my $min_query_length = 6 ;        # クエリの最低塩基長
 my $max_k            = 25 ;       # 許容するミスマッチ/ギャップ数の上限、％
+my $max_k_debug      = 50 ;       # 許容するミスマッチ/ギャップ数の上限、％、デバッグモード
 my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
 my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXT,CSV,BED,GFF,JSONの場合
 my $max_hit_debug    = 10000000 ; # 検索を打ち切るヒット数、デバッグモード
@@ -210,6 +211,7 @@ my $queryseq = flatsequence($query_string) ;  # 塩基構成文字以外を除�
 	printresult("ERROR : query sequence should be $min_query_length nt or more") ;
 
 # k(許容するミスマッチ/ギャップの数)の上限をチェック
+$debug and $max_k = $max_k_debug ;  # デバッグモード
 (length($queryseq) * $max_k / 100 >= $k) or
 	printresult("ERROR : number of mismatches/gaps should be ${max_k}% or less") ;
 #- ▲ クエリの内容をチェック
