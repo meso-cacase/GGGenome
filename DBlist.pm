@@ -145,6 +145,8 @@ Olucimarinus_231_v2  	172.18.8.77	42043	Phytozome	Ostreococcus lucimarinus genom
 Xentr7               	172.18.8.77	43013		Xenopus tropicalis genome, XenBase/JGI 7.1
 Xentr8               	172.18.8.77	43023		Xenopus tropicalis genome, XenBase/JGI 8.0
 ASM15162v1           	172.18.8.77	43033		Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)
+macaque_CE_1         	172.18.8.77	43043		Crab-eating macaque genome, CE_1.0 (Jul, 2011)
+macaque_CE_1_cds     	172.18.8.77	43053		Crab-eating macaque CDS, CE_1.0 (Jul, 2011)
 16SrRNA              	172.18.8.77	50053		DDBJ 16S rRNA of prokaryotes (Dec, 2014)
 refseq70             	172.18.8.76	60003		RefSeq complete RNA release 70 (May, 2015)
 refseq               	172.18.8.76	60003		RefSeq complete RNA release 70 (May, 2015)
