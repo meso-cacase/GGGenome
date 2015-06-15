@@ -1110,9 +1110,9 @@ my $select =
 	<option value=sacCer3  >$db_fullname{'sacCer3'  }</option>
 	<option value=pombe    >$db_fullname{'pombe'    }</option>
 	<option disabled>----------</option>
-	<option value=refseq   >$db_fullname{'refseq'   }</option>
-	<option value=hs_refseq>$db_fullname{'hs_refseq'}</option>
-	<option value=mm_refseq>$db_fullname{'mm_refseq'}</option>
+	<option value=refseq70   >$db_fullname{'refseq70'   }</option>
+	<option value=hs_refseq70>$db_fullname{'hs_refseq70'}</option>
+	<option value=mm_refseq70>$db_fullname{'mm_refseq70'}</option>
 	<option value=prok     >$db_fullname{'prok'     }</option>
 	<option value=ddbj     >$db_fullname{'ddbj'     }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
@@ -1226,9 +1226,9 @@ my $select =
 	<option value=sacCer3  >$db_fullname{'sacCer3'  }</option>
 	<option value=pombe    >$db_fullname{'pombe'    }</option>
 	<option disabled>----------</option>
-	<option value=refseq   >$db_fullname{'refseq'   }</option>
-	<option value=hs_refseq>$db_fullname{'hs_refseq'}</option>
-	<option value=mm_refseq>$db_fullname{'mm_refseq'}</option>
+	<option value=refseq70   >$db_fullname{'refseq70'   }</option>
+	<option value=hs_refseq70>$db_fullname{'hs_refseq70'}</option>
+	<option value=mm_refseq70>$db_fullname{'mm_refseq70'}</option>
 	<option value=prok     >$db_fullname{'prok'     }</option>
 	<option value=ddbj     >$db_fullname{'ddbj'     }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択

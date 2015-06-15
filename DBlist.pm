@@ -150,6 +150,18 @@ macaque_CE_1_cds     	172.18.8.77	43053		Crab-eating macaque CDS, CE_1.0 (Jul, 2
 16SrRNA              	172.18.8.77	50053		DDBJ 16S rRNA of prokaryotes (Dec, 2014)
 refseq70             	172.18.8.76	60003		RefSeq complete RNA release 70 (May, 2015)
 refseq               	172.18.8.76	60003		RefSeq complete RNA release 70 (May, 2015)
+hs_refseq70                 	172.18.8.77	50063		RefSeq human RNA release 70 (May, 2015)
+hs_refseq70_debug           	172.18.8.75	50063		RefSeq human RNA release 70 (May, 2015) **debug**
+mm_refseq70                 	172.18.8.77	50073		RefSeq mouse RNA release 70 (May, 2015)
+mm_refseq70_debug           	172.18.8.75	50073		RefSeq mouse RNA release 70 (May, 2015) **debug**
+hs_pre_mRNA_201505          	172.18.8.77	50083		Human pre mRNA, refseq70-hg19 (May, 2015)
+hs_pre_mRNA_201505_debug    	172.18.8.75	50083		Human pre mRNA, refseq70-hg19 (May, 2015) **debug**
+mm_pre_mRNA_201505          	172.18.8.77	50093		Mouse pre mRNA, refseq70-mm10 (May, 2015)
+mm_pre_mRNA_201505_debug    	172.18.8.75	50093		Mouse pre mRNA, refseq70-mm10 (May, 2015) **debug**
+hs_pre_mRNA_nr_201505       	172.18.8.77	50103		Human non-redundant pre mRNA, refseq70-hg19 (May, 2015)
+hs_pre_mRNA_nr_201505_debug 	172.18.8.75	50103		Human non-redundant pre mRNA, refseq70-hg19 (May, 2015) **debug**
+mm_pre_mRNA_nr_201505       	172.18.8.77	50113		Mouse non-redundant pre mRNA, refseq70-mm10 (May, 2015)
+mm_pre_mRNA_nr_201505_debug 	172.18.8.75	50113		Mouse non-redundant pre mRNA, refseq70-mm10 (May, 2015) **debug**
 --EOS--
 
 return 1 ;

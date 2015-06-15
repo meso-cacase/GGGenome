@@ -13,7 +13,7 @@ function set_db(){
 	var db ;
 	if (location.pathname.match(/\/(\w+)\/(\d+\/)?((\+|\-)\/)?help.html$/)){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?((\+|\-)\/)?help.html$/)[1] ;
-		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|Xenla7|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|pombe|refseq|hs_refseq|mm_refseq|prok|ddbj/)){
+		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|Xenla7|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|pombe|refseq70|hs_refseq70|mm_refseq70|prok|ddbj/)){
 			document.gggenome.db.value = db ;
 		}
 	}
@@ -120,9 +120,9 @@ function set_strand(){
 	<option value=sacCer3  >S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
 	<option value=pombe    >S. pombe (972h-) genome, ASM294v2 (Nov, 2007)              </option>
 	<option disabled>----------</option>
-	<option value=refseq   >RefSeq complete RNA release 70 (May, 2015)                 </option>
-	<option value=hs_refseq>RefSeq human RNA release 60 (Jul, 2013)                    </option>
-	<option value=mm_refseq>RefSeq mouse RNA release 60 (Jul, 2013)                    </option>
+	<option value=refseq70   >RefSeq complete RNA release 70 (May, 2015)               </option>
+	<option value=hs_refseq70>RefSeq human RNA release 70 (May, 2015)                  </option>
+	<option value=mm_refseq70>RefSeq mouse RNA release 70 (May, 2015)                  </option>
 	<option value=prok     >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
 	<option value=ddbj     >DDBJ release 92.0 (Feb, 2013)                              </option>
 </select>
@@ -193,7 +193,7 @@ set_strand() ;
 	<ul>
 		<li><span style='color:#FF6600'>db</span> &rarr;
 			hg19, mm10, rn5, calJac3, susScr3, galGal4, xenTro3, Xenla7, danRer7, ci2, dm3, ce10, TAIR10,<br>
-			rice, sorBic, bmor1, sacCer3, pombe, refseq, hs_refseq, mm_refseq, prok, ddbj。省略時は hg19
+			rice, sorBic, bmor1, sacCer3, pombe, refseq70, hs_refseq70, mm_refseq70, prok, ddbj。省略時は hg19
 		<li><span style='color:#0000FF'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
 		<li><span style='color:#9933FF'>strand</span> &rarr;
@@ -295,10 +295,10 @@ set_strand() ;
 	<li>RefSeq complete RNA release 70 (May, 2015)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>RefSeq human RNA release 60 (Jul, 2013)<br>
+	<li>RefSeq human RNA release 70 (May, 2015)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>RefSeq mouse RNA release 60 (Jul, 2013)<br>
+	<li>RefSeq mouse RNA release 70 (May, 2015)<br>
 		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
 		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
 	<li>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)<br>
@@ -371,7 +371,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on May 28, 2015 by
+<p class=g>Last modified on Jun 16, 2015 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a

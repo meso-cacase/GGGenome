@@ -76,12 +76,12 @@ GGGenome《ゲゲゲノム》
                 (http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)  
   'pombe'     - 分裂酵母ゲノム [ASM294v2 (Nov, 2007)]
                 (ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz)  
-  'refseq'    - [RefSeq complete RNA release 70 (May, 2015)]
-                (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
-  'hs_refseq' - [RefSeq human RNA release 60 (Jul, 2013)]
-                (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
-  'mm_refseq' - [RefSeq mouse RNA release 60 (Jul, 2013)]
-                (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
+  'refseq70'    - [RefSeq complete RNA release 70 (May, 2015)]
+                  (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
+  'hs_refseq70' - [RefSeq human RNA release 70 (May, 2015)]
+                  (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
+  'mm_refseq70' - [RefSeq mouse RNA release 70 (May, 2015)]
+                  (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'prok'      - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)  
   'ddbj'      - GenBank/EMBL/DDBJ塩基配列 [DDBJ release 92.0 (Feb, 2013)]
                 (ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/)  
@@ -110,7 +110,7 @@ GGGenome《ゲゲゲノム》
 
 **例2:** http://GGGenome.dbcls.jp/refseq/+/TTCATTGACAACATT.txt
 
-+ RefSeq complete RNA (refseq) に対して
++ RefSeq complete RNA (refseq) の最新版に対して
 + ミスマッチ/ギャップを許容せず (省略時のデフォルト)
 + 検索方向をプラス方向に限定し
 + TTCATTGACAACATT を検索し
