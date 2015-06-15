@@ -1091,30 +1091,30 @@ my $robots = "<meta name=robots content=none>\n" ;  # トップページ以外�
 
 #-- ▽ プルダウンメニュー
 my $select =
-"	<option value=hg19     >$db_fullname{'hg19'     }</option>
-	<option value=mm10     >$db_fullname{'mm10'     }</option>
-	<option value=rn5      >$db_fullname{'rn5'      }</option>
-	<option value=calJac3  >$db_fullname{'calJac3'  }</option>
-	<option value=susScr3  >$db_fullname{'susScr3'  }</option>
-	<option value=galGal4  >$db_fullname{'galGal4'  }</option>
-	<option value=xenTro3  >$db_fullname{'xenTro3'  }</option>
-	<option value=Xenla7   >$db_fullname{'Xenla7'   }</option>
-	<option value=danRer7  >$db_fullname{'danRer7'  }</option>
-	<option value=ci2      >$db_fullname{'ci2'      }</option>
-	<option value=dm3      >$db_fullname{'dm3'      }</option>
-	<option value=ce10     >$db_fullname{'ce10'     }</option>
-	<option value=TAIR10   >$db_fullname{'TAIR10'   }</option>
-	<option value=rice     >$db_fullname{'rice'     }</option>
-	<option value=sorBic   >$db_fullname{'sorBic'   }</option>
-	<option value=bmor1    >$db_fullname{'bmor1'    }</option>
-	<option value=sacCer3  >$db_fullname{'sacCer3'  }</option>
-	<option value=pombe    >$db_fullname{'pombe'    }</option>
+"	<option value=hg19       >$db_fullname{'hg19'       }</option>
+	<option value=mm10       >$db_fullname{'mm10'       }</option>
+	<option value=rn5        >$db_fullname{'rn5'        }</option>
+	<option value=calJac3    >$db_fullname{'calJac3'    }</option>
+	<option value=susScr3    >$db_fullname{'susScr3'    }</option>
+	<option value=galGal4    >$db_fullname{'galGal4'    }</option>
+	<option value=xenTro3    >$db_fullname{'xenTro3'    }</option>
+	<option value=Xenla7     >$db_fullname{'Xenla7'     }</option>
+	<option value=danRer7    >$db_fullname{'danRer7'    }</option>
+	<option value=ci2        >$db_fullname{'ci2'        }</option>
+	<option value=dm3        >$db_fullname{'dm3'        }</option>
+	<option value=ce10       >$db_fullname{'ce10'       }</option>
+	<option value=TAIR10     >$db_fullname{'TAIR10'     }</option>
+	<option value=rice       >$db_fullname{'rice'       }</option>
+	<option value=sorBic     >$db_fullname{'sorBic'     }</option>
+	<option value=bmor1      >$db_fullname{'bmor1'      }</option>
+	<option value=sacCer3    >$db_fullname{'sacCer3'    }</option>
+	<option value=pombe      >$db_fullname{'pombe'      }</option>
 	<option disabled>----------</option>
 	<option value=refseq70   >$db_fullname{'refseq70'   }</option>
 	<option value=hs_refseq70>$db_fullname{'hs_refseq70'}</option>
 	<option value=mm_refseq70>$db_fullname{'mm_refseq70'}</option>
-	<option value=prok     >$db_fullname{'prok'     }</option>
-	<option value=ddbj     >$db_fullname{'ddbj'     }</option>" ;
+	<option value=prok       >$db_fullname{'prok'       }</option>
+	<option value=ddbj       >$db_fullname{'ddbj'       }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
 	$db_fullname{$db} and $select =                       # 種を追加
 		"	<option value=$db selected>$db_fullname{$db}</option>\n" .
@@ -1207,30 +1207,30 @@ my $robots = "<meta name=robots content=none>\n" ;  # トップページ以外�
 
 #-- ▽ プルダウンメニュー
 my $select =
-"	<option value=hg19     >$db_fullname{'hg19'     }</option>
-	<option value=mm10     >$db_fullname{'mm10'     }</option>
-	<option value=rn5      >$db_fullname{'rn5'      }</option>
-	<option value=calJac3  >$db_fullname{'calJac3'  }</option>
-	<option value=susScr3  >$db_fullname{'susScr3'  }</option>
-	<option value=galGal4  >$db_fullname{'galGal4'  }</option>
-	<option value=xenTro3  >$db_fullname{'xenTro3'  }</option>
-	<option value=Xenla7   >$db_fullname{'Xenla7'   }</option>
-	<option value=danRer7  >$db_fullname{'danRer7'  }</option>
-	<option value=ci2      >$db_fullname{'ci2'      }</option>
-	<option value=dm3      >$db_fullname{'dm3'      }</option>
-	<option value=ce10     >$db_fullname{'ce10'     }</option>
-	<option value=TAIR10   >$db_fullname{'TAIR10'   }</option>
-	<option value=rice     >$db_fullname{'rice'     }</option>
-	<option value=sorBic   >$db_fullname{'sorBic'   }</option>
-	<option value=bmor1    >$db_fullname{'bmor1'    }</option>
-	<option value=sacCer3  >$db_fullname{'sacCer3'  }</option>
-	<option value=pombe    >$db_fullname{'pombe'    }</option>
+"	<option value=hg19       >$db_fullname{'hg19'       }</option>
+	<option value=mm10       >$db_fullname{'mm10'       }</option>
+	<option value=rn5        >$db_fullname{'rn5'        }</option>
+	<option value=calJac3    >$db_fullname{'calJac3'    }</option>
+	<option value=susScr3    >$db_fullname{'susScr3'    }</option>
+	<option value=galGal4    >$db_fullname{'galGal4'    }</option>
+	<option value=xenTro3    >$db_fullname{'xenTro3'    }</option>
+	<option value=Xenla7     >$db_fullname{'Xenla7'     }</option>
+	<option value=danRer7    >$db_fullname{'danRer7'    }</option>
+	<option value=ci2        >$db_fullname{'ci2'        }</option>
+	<option value=dm3        >$db_fullname{'dm3'        }</option>
+	<option value=ce10       >$db_fullname{'ce10'       }</option>
+	<option value=TAIR10     >$db_fullname{'TAIR10'     }</option>
+	<option value=rice       >$db_fullname{'rice'       }</option>
+	<option value=sorBic     >$db_fullname{'sorBic'     }</option>
+	<option value=bmor1      >$db_fullname{'bmor1'      }</option>
+	<option value=sacCer3    >$db_fullname{'sacCer3'    }</option>
+	<option value=pombe      >$db_fullname{'pombe'      }</option>
 	<option disabled>----------</option>
 	<option value=refseq70   >$db_fullname{'refseq70'   }</option>
 	<option value=hs_refseq70>$db_fullname{'hs_refseq70'}</option>
 	<option value=mm_refseq70>$db_fullname{'mm_refseq70'}</option>
-	<option value=prok     >$db_fullname{'prok'     }</option>
-	<option value=ddbj     >$db_fullname{'ddbj'     }</option>" ;
+	<option value=prok       >$db_fullname{'prok'       }</option>
+	<option value=ddbj       >$db_fullname{'ddbj'       }</option>" ;
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
 	$db_fullname{$db} and $select =                       # 種を追加
 		"	<option value=$db selected>$db_fullname{$db}</option>\n" .
