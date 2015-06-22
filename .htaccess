@@ -1,6 +1,7 @@
 # GGGenome (ゲゲゲノム)： 塩基配列を高速に検索するサービス
 # http://GGGenome.dbcls.jp/
 # http://GGGenome.dbcls.jp/test/ (テスト用)
+# http://GGGenome.dbcls.jp/bitst/ (テスト用)
 
 AddLanguage en .en
 AddLanguage ja .ja
@@ -25,7 +26,7 @@ RewriteRule  ^dev/  -  [L]
 RewriteRule  ^GGGlogo_(en|ja)\.png$  -  [L]
 
 # パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
-RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
 RewriteRule  (?:^|/)(GGGlogo_(en|ja)\.png)$  /%1$1  [R,L]
 #- ▲ GGGlogo_en.png, GGGlogo_ja.pngの表示
 
@@ -34,7 +35,7 @@ RewriteRule  (?:^|/)(GGGlogo_(en|ja)\.png)$  /%1$1  [R,L]
 RewriteRule  ^chata_(en|ja)\.png$  -  [L]
 
 # パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
-RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
 RewriteRule  (?:^|/)(chata_(en|ja)\.png)$  /%1$1  [R,L]
 #- ▲ chata_en.png, chata_ja.pngの表示
 
@@ -43,7 +44,7 @@ RewriteRule  (?:^|/)(chata_(en|ja)\.png)$  /%1$1  [R,L]
 RewriteRule  ^togotv_(en|ja)\.png$  -  [L]
 
 # パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
-RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
 RewriteRule  (?:^|/)(togotv_(en|ja)\.png)$  /%1$1  [R,L]
 #- ▲ togotv_en.png, togotv_ja.pngの表示
 
@@ -52,7 +53,7 @@ RewriteRule  (?:^|/)(togotv_(en|ja)\.png)$  /%1$1  [R,L]
 RewriteRule  ^api\.txt$  -  [L]
 
 # クエリが空欄またはパスに/db/k/等が含まれる場合にURIを修正してリダイレクト
-RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
 RewriteRule  (?:^|/)(api)?\.txt$  /%1api.txt  [R,L]
 #- ▲ api.txtの表示
 
@@ -68,6 +69,6 @@ RewriteRule  ^(?:debug/)?(?:\w+/)?(?:\d+/)?(?:(?:\+|\-)/)?help\.html(\.en|\.ja)?
 RewriteRule  ^index\.cgi  -  [L]
 
 # それ以外の場合はURIを index.cgi に修正
-RewriteCond  %{REQUEST_URI}  ^/(test/)?
+RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
 RewriteRule  .*  /%1index.cgi  [L]
 #- ▲ それ以外のリクエストを全てindex.cgiに送る
