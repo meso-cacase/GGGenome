@@ -969,7 +969,7 @@ my $db      = $_[3] // '' ;
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$3>$1</a><br>\n\t" .
 	       "<span class=g>$2</span><br>" .
 	       "<font color='#0E774A'>$3</font>:$pos-$pos_end" :
-($db eq 'ddbj' and $name =~ /^.*?\|(\S+)\s+(.*)$/) ?
+($db =~ /^ddbj/ and $name =~ /^.*?\|(\S+)\s+(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
