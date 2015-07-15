@@ -1110,7 +1110,7 @@ my $select =
 	<option value=sacCer3    >$db_fullname{'sacCer3'    }</option>
 	<option value=pombe      >$db_fullname{'pombe'      }</option>
 	<option disabled>----------</option>
-	<option value=refseq70   >$db_fullname{'refseq70'   }</option>
+	<option value=refseq71   >$db_fullname{'refseq71'   }</option>
 	<option value=hs_refseq70>$db_fullname{'hs_refseq70'}</option>
 	<option value=mm_refseq70>$db_fullname{'mm_refseq70'}</option>
 	<option value=prok       >$db_fullname{'prok'       }</option>
@@ -1226,7 +1226,7 @@ my $select =
 	<option value=sacCer3    >$db_fullname{'sacCer3'    }</option>
 	<option value=pombe      >$db_fullname{'pombe'      }</option>
 	<option disabled>----------</option>
-	<option value=refseq70   >$db_fullname{'refseq70'   }</option>
+	<option value=refseq71   >$db_fullname{'refseq71'   }</option>
 	<option value=hs_refseq70>$db_fullname{'hs_refseq70'}</option>
 	<option value=mm_refseq70>$db_fullname{'mm_refseq70'}</option>
 	<option value=prok       >$db_fullname{'prok'       }</option>

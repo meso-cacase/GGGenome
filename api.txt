@@ -22,7 +22,7 @@ http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/SEQUENCE[.FORMAT][.download]
     'bmor1'       - Silkworm genome, Bmor1 (Apr, 2008) or
     'sacCer3'     - S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011) or
     'pombe'       - S. pombe (972h-) genome, ASM294v2 (Nov, 2007) or
-    'refseq70'    - RefSeq complete RNA release 70 (May, 2015) or
+    'refseq71'    - RefSeq complete RNA release 71 (Jul, 2015) or
     'hs_refseq70' - RefSeq human RNA release 70 (May, 2015) or
     'mm_refseq70' - RefSeq mouse RNA release 70 (May, 2015) or
     'prok'        - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013) or
