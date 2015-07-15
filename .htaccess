@@ -21,32 +21,14 @@ RewriteEngine On
 # メンテナンス領域へのアクセスはリライトしない
 RewriteRule  ^dev/  -  [L]
 
-#- ▼ GGGlogo_en.png, GGGlogo_ja.pngの表示
+#- ▼ ロゴ等の画像ファイルの表示
 # mod_rewriteの適用を終了する条件
-RewriteRule  ^GGGlogo_(en|ja)\.png$  -  [L]
+RewriteRule  ^[^/]*\.png$  -  [L]
 
 # パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
 RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
-RewriteRule  (?:^|/)(GGGlogo_(en|ja)\.png)$  /%1$1  [R,L]
-#- ▲ GGGlogo_en.png, GGGlogo_ja.pngの表示
-
-#- ▼ chata_en.png, chata_ja.pngの表示
-# mod_rewriteの適用を終了する条件
-RewriteRule  ^chata_(en|ja)\.png$  -  [L]
-
-# パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
-RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
-RewriteRule  (?:^|/)(chata_(en|ja)\.png)$  /%1$1  [R,L]
-#- ▲ chata_en.png, chata_ja.pngの表示
-
-#- ▼ togotv_en.png, togotv_ja.pngの表示
-# mod_rewriteの適用を終了する条件
-RewriteRule  ^togotv_(en|ja)\.png$  -  [L]
-
-# パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
-RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
-RewriteRule  (?:^|/)(togotv_(en|ja)\.png)$  /%1$1  [R,L]
-#- ▲ togotv_en.png, togotv_ja.pngの表示
+RewriteRule  (?:^|/)([^/]*\.png)$  /%1$1  [R,L]
+#- ▲ ロゴ等の画像ファイルの表示
 
 #- ▼ api.txtの表示
 # mod_rewriteの適用を終了する条件

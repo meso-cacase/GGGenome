@@ -168,6 +168,16 @@ set_strand() ;
 	<li><a target='_blank' href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
 		-->Googleスプレッドシート上で配列検索</a> ができます。
 </ul>
+<ul>
+	<li>遺伝子や転写産物のキーワード検索は
+		<a target='_blank' href='http://GGRNA.dbcls.jp/'>
+			<img height=20 src='GGRNAlogo_small.png' alt='GGRNA'></a>《ぐぐるな》をお使いください。
+		<ul>
+			<li>例）ヒトの「nanog」を検索：
+				<a target='_blank' href='http://GGRNA.dbcls.jp/hs/nanog' class=k><!--
+				-->http://GGRNA.dbcls.jp/hs/nanog</a>
+		</ul>
+</ul>
 </div>
 
 <div>
@@ -371,7 +381,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jun 16, 2015 by
+<p class=g>Last modified on Jul 15, 2015 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
