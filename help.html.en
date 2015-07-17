@@ -7,6 +7,48 @@
 <meta http-equiv='Content-Style-Type' content='text/css'>
 <meta name=author content='Yuki Naito'>
 <title>GGGenome | ultrafast DNA search</title>
+<!-- DataTables CSS -->
+<link rel='stylesheet' type='text/css'
+	href='//cdn.datatables.net/1.10.7/css/jquery.dataTables.css'>
+<!-- jQuery -->
+<script type='text/javascript' charset='utf8'
+	src='//code.jquery.com/jquery-1.10.2.min.js'>
+</script>
+<!-- DataTables -->
+<script type='text/javascript' charset='utf8'
+	src='//cdn.datatables.net/1.10.7/js/jquery.dataTables.js'>
+</script>
+<!-- DataTables initialization -->
+<script type='text/javascript'>
+<!--
+$(document).ready(function(){
+	$('#genomelist').dataTable({
+		'iDisplayLength'  : 25,      // Number of rows per page
+		'aLengthMenu'     : [[25, 50, 100, -1], [25, 50, 100, 'All']],  // Menu items
+		'sPaginationType' : 'full_numbers',  // Page control method
+		'order'           : [], // No initial order
+	}) ;
+}) ;
+$(document).ready(function(){
+	$('#otherlist').dataTable({
+		'order'           : [], // No initial order
+		'paging'          : false,
+	}) ;
+}) ;
+//-->
+</script>
+<!-- DataTables CSS -->
+<style type='text/css'>
+<!--
+	table { font-size:8pt; white-space:nowrap }
+	.dataTables_wrapper { display:inline-table }
+	table#genomelist thead th { padding:2px 16px 2px 2px }
+	table#genomelist tbody td { padding:2px }
+	table#otherlist  thead th { padding:4px 16px 4px 4px }
+	table#otherlist  tbody td { padding:4px }
+-->
+</style>
+
 <script type='text/javascript'>
 <!--
 function set_db(){
@@ -145,8 +187,9 @@ set_strand() ;
 //-->
 </script>
 
+<h5>Search example</h5>
+
 <div>
-Search example:
 <ul>
 	<li><font color=purple>[</font>
 		<a href='TTCATTGACAACATT'>TTCATTGACAACATT</a>
@@ -154,16 +197,17 @@ Search example:
 </ul>
 </div>
 
+<h5>Search tips</h5>
+
 <div>
-Search tips:
 <ul>
 	<li>GGGenome is an ultrafast search engine for nucleotide sequences.
 	<li>Searches are always case insensitive.
 	<li>U and T will be treated identically.
-	<li>Ambiguous nucleotide characters (N, R, Y ...) can be used. <font color=red>New!</font>
+	<li>Ambiguous nucleotide characters (N, R, Y ...) can be used.
 	<li>All other characters are ignored.
 	<li>GGGenome shows first 50 results for each strand of the query sequence.
-	<li>Maximum 100000 results can be retrieved as TXT, CSV, BED, GFF or JSON format. <font color=red>New!</font>
+	<li>Maximum 100000 results can be retrieved as TXT, CSV, BED, GFF or JSON format.
 </ul>
 <ul>
 	<li><a target='_blank' href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
@@ -181,18 +225,21 @@ Search tips:
 </ul>
 </div>
 
+<h5>Tutorial video introducing GGGenome</h5>
+
 <div>
-Tutorial video introducing GGGenome (<a target='_blank' class=k href='http://togotv.dbcls.jp/en/'>TogoTV</a>):
 <ul>
 	<a target='_blank' href='http://togotv.dbcls.jp/20150514.html'>
 	<img src='togotv_en.png' alt='GGGenome: a fast and simple DNA sequence search engine'
 		height=270 width=480 border=0></a>
-	<p class=g>Acknowledgement: We thank Dr. Noriko Furuya for making the tutorial video.</p>
+	<p class=g>Acknowledgement: We thank Dr. Noriko Furuya for making the tutorial video on
+		<a target='_blank' class=k href='http://togotv.dbcls.jp/en/'>TogoTV</a>.</p>
 </ul>
 </div>
 
+<h5>URIs</h5>
+
 <div>
-URIs:
 <ul>
 	<li>http[s]://GGGenome.dbcls.jp/<!--
 		--><span style='color:#FF6600'>db</span>/<!--
@@ -244,84 +291,1193 @@ URIs:
 </ul>
 </div>
 
-<div>
-Data source:
-<ul>
-	<li>Human genome, GRCh37/hg19 (Feb, 2009)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz</a>
-	<li>Mouse genome, GRCm38/mm10 (Dec, 2011)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz</a>
-	<li>Rat genome, RGSC 5.0/rn5 (Mar, 2012)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/chromFa.tar.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/rn5/bigZips/chromFa.tar.gz</a>
-	<li>Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/calJac3/bigZips/calJac3.fa.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/calJac3/bigZips/calJac3.fa.gz</a>
-	<li>Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/susScr3.fa.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/susScr3.fa.gz</a>
-	<li>Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/galGal4.fa.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/galGal4/bigZips/galGal4.fa.gz</a>
-	<li>Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/xenTro3.fa.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/xenTro3/bigZips/xenTro3.fa.gz</a>
-	<li>Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)<br>
-		<a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla7.1/Xenla_7.1_JGI_scaffolds_on_Xenbase_GBrowse.tgz'>
-		ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla7.1/Xenla_7.1_JGI_scaffolds_on_Xenbase_GBrowse.tgz</a>
-	<li>Zebrafish genome, Zv9/danRer7 (Jul, 2010)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/danRer7.fa.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/danRer7/bigZips/danRer7.fa.gz</a>
-	<li>Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/ci2/bigZips/ScaffoldFa.zip'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/ci2/bigZips/ScaffoldFa.zip</a>
-	<li>Drosophila genome, BDGP R5/dm3 (Apr, 2006)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/chromFa.tar.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/chromFa.tar.gz</a>
-	<li>C. elegans genome, WS220/ce10 (Oct, 2010)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/chromFa.tar.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/chromFa.tar.gz</a>
-	<li>Arabidopsis thaliana genome, TAIR10 (Nov, 2010)<br>
-		<a target='_blank' href='ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/'>
-		ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes</a>/*.fas
-	<li>Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)<br>
-		Genome assemblies (12 chromosomes) + Unanchored sequences from<br>
-		<a target='_blank' href='http://rapdb.dna.affrc.go.jp/download/irgsp1.html'>
-		http://rapdb.dna.affrc.go.jp/download/irgsp1.html</a>
-	<li>Sorghum genome, Sorghum bicolor v2.1 (May, 2013)<br>
-		<a target='_blank' href='ftp://ftp.jgi-psf.org/pub/compgen/phytozome/v9.0/early_release/Sbicolor_v2.1/assembly/Sbicolor_v2.1_255.fa.gz'>
-		ftp://ftp.jgi-psf.org/pub/compgen/phytozome/v9.0/early_release/Sbicolor_v2.1/assembly/Sbicolor_v2.1_255.fa.gz</a>
-	<li>Silkworm genome, Bmor1 (Apr, 2008)<br>
-		Bombyx_mori.Bmor1.17.dna.toplevel.fa.gz from<br>
-		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/'>
-		ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/</a>
-	<li>S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)<br>
-		<a target='_blank' href='ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz'>
-		ftp://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/chromFa.tar.gz</a>
-	<li>S. pombe (972h-) genome, ASM294v2 (Nov, 2007)<br>
-		<a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz'>
-		ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz</a>
-	<li>RefSeq complete RNA release 70 (May, 2015)<br>
-		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
-		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>RefSeq human RNA release 70 (May, 2015)<br>
-		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
-		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>RefSeq mouse RNA release 70 (May, 2015)<br>
-		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
-		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)<br>
-		(unpublished)
-	<li>DDBJ release 92.0 (Feb, 2013)<br>
-		<a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/'>
-		ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj</a>/*.seq.gz
-</ul>
-</div>
+<h5>List of databases (Genome)</h5>
 
 <div>
-Reference:
+<table cellspacing=0 cellpadding=2 id=genomelist class=display>
+<thead>
+<tr>
+	<th>Database
+	<th>Source
+	<th>Group
+	<th>Species
+	<th>Latin name
+	<th>Assembly information
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href='/hg38/'>hg38</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg38'><!--
+		-->GRCh38/hg38 (Dec, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/hg19/'>hg19</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg19'><!--
+		-->GRCh37/hg19 (Feb, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/hg18/'>hg18</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg18'><!--
+		-->NCBI36/hg18 (Mar, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/mm10/'>mm10</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm10'><!--
+		-->GRCm38/mm10 (Dec, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/mm9/'>mm9</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm9'><!--
+		-->NCBI37/mm9 (Jul, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/rn6/'>rn6</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rn6'><!--
+		-->RGSC 6.0/rn6 (Jul, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/rn5/'>rn5</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rn5'><!--
+		-->RGSC 5.0/rn5 (Mar, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/vicPac2/'>vicPac2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Alpaca
+	<td>Vicugna pacos
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=vicPac2'><!--
+		-->Vicugna_pacos-2.0.1/vicPac2 (Mar, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/dasNov3/'>dasNov3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Armadillo
+	<td>Dasypus novemcinctus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dasNov3'><!--
+		-->Baylor/dasNov3 (Dec, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/papAnu2/'>papAnu2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Baboon
+	<td>Papio anubis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=papAnu2'><!--
+		-->Baylor Panu_2.0/papAnu2 (Mar, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/otoGar3/'>otoGar3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Bushbaby
+	<td>Otolemur garnettii
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=otoGar3'><!--
+		-->Broad/otoGar3 (Mar, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/felCat5/'>felCat5</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Cat
+	<td>Felis catus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=felCat5'><!--
+		-->ICGSC Felis_catus 6.2/felCat5 (Sep, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/panTro4/'>panTro4</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Chimp
+	<td>Pan troglodytes
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=panTro4'><!--
+		-->CSAC 2.1.4/panTro4 (Feb, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/criGri1/'>criGri1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Chinese hamster
+	<td>Cricetulus griseus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=criGri1'><!--
+		-->C_griseus_v1.0/criGri1 (Jul, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/bosTau8/'>bosTau8</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Cow
+	<td>Bos taurus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=bosTau8'><!--
+		-->Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/canFam3/'>canFam3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Dog
+	<td>Canis lupus familiaris
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=canFam3'><!--
+		-->Broad CanFam3.1/canFam3 (Sep, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/turTru2/'>turTru2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Dolphin
+	<td>Tursiops truncatus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=turTru2'><!--
+		-->Baylor Ttru_1.4/turTru2 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/loxAfr3/'>loxAfr3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Elephant
+	<td>Loxodonta africana
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=loxAfr3'><!--
+		-->Broad/loxAfr3 (Jul, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/musFur1/'>musFur1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Ferret
+	<td>Mustela putorius furo
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=musFur1'><!--
+		-->MusPutFur1.0/musFur1 (Apr, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/nomLeu3/'>nomLeu3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Gibbon
+	<td>Nomascus leucogenys
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=nomLeu3'><!--
+		-->GGSC Nleu3.0/nomLeu3 (Oct, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/gorGor3/'>gorGor3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Gorilla
+	<td>Gorilla gorilla gorilla
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gorGor3'><!--
+		-->gorGor3.1/gorGor3 (May, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/cavPor3/'>cavPor3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Guinea pig
+	<td>Cavia porcellus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cavPor3'><!--
+		-->Broad/cavPor3 (Feb, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/eriEur2/'>eriEur2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Hedgehog
+	<td>Erinaceus europaeus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=eriEur2'><!--
+		-->EriEur2.0/eriEur2 (May, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/equCab2/'>equCab2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Horse
+	<td>Equus caballus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=equCab2'><!--
+		-->Broad/equCab2 (Sep, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/dipOrd1/'>dipOrd1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Kangaroo rat
+	<td>Dipodomys ordii
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dipOrd1'><!--
+		-->Broad/dipOrd1 (Jul, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/triMan1/'>triMan1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Manatee
+	<td>Trichechus manatus latirostris
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=triMan1'><!--
+		-->Broad v1.0/triMan1 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/calJac3/'>calJac3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Marmoset
+	<td>Callithrix jacchus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=calJac3'><!--
+		-->WUGSC 3.2/calJac3 (Mar, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/pteVam1/'>pteVam1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Megabat
+	<td>Pteropus vampyrus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=pteVam1'><!--
+		-->Broad/pteVam1 (Jul, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/myoLuc2/'>myoLuc2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Microbat
+	<td>Myotis lucifugus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=myoLuc2'><!--
+		-->Broad Institute Myoluc2.0/myoLuc2 (Jul, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/balAcu1/'>balAcu1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Minke whale
+	<td>Balaenoptera acutorostrata scammoni
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=balAcu1'><!--
+		-->BalAcu1.0/balAcu1 (Oct, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/micMur1/'>micMur1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Mouse lemur
+	<td>Microcebus murinus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=micMur1'><!--
+		-->Broad/micMur1 (Jul, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/hetGla2/'>hetGla2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Naked mole-rat
+	<td>Heterocephalus glaber
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hetGla2'><!--
+		-->Broad HetGla_female_1.0/hetGla2 (Jan, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/monDom5/'>monDom5</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Opossum
+	<td>Monodelphis domestica
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=monDom5'><!--
+		-->Broad/monDom5 (Oct, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/ponAbe2/'>ponAbe2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Orangutan
+	<td>Pongo pygmaeus abelii
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ponAbe2'><!--
+		-->WUGSC 2.0.2/ponAbe2 (Jul, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/ailMel1/'>ailMel1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Panda
+	<td>Ailuropoda melanoleuca
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ailMel1'><!--
+		-->BGI-Shenzhen 1.0/ailMel1 (Dec, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/susScr3/'>susScr3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Pig
+	<td>Sus scrofa
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=susScr3'><!--
+		-->SGSC Sscrofa10.2/susScr3 (Aug, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/ochPri3/'>ochPri3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Pika
+	<td>Ochotona princeps
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ochPri3'><!--
+		-->OchPri3.0/ochPri3 (May, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/ornAna1/'>ornAna1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Platypus
+	<td>Ornithorhynchus anatinus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ornAna1'><!--
+		-->WUGSC 5.0.1/ornAna1 (Mar, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/oryCun2/'>oryCun2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Rabbit
+	<td>Oryctolagus cuniculus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oryCun2'><!--
+		-->Broad/oryCun2 (Apr, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/rheMac3/'>rheMac3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Rhesus
+	<td>Macaca mulatta
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rheMac3'><!--
+		-->BGI CR_1.0/rheMac3 (Oct, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/proCap1/'>proCap1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Rock hyrax
+	<td>Procavia capensis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=proCap1'><!--
+		-->Broad/proCap1 (Jul, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/oviAri3/'>oviAri3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Sheep
+	<td>Ovis aries
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oviAri3'><!--
+		-->ISGC Oar_v3.1/oviAri3 (Aug, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/sorAra2/'>sorAra2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Shrew
+	<td>Sorex araneus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=sorAra2'><!--
+		-->Broad/sorAra2 (Aug, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/choHof1/'>choHof1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Sloth
+	<td>Choloepus hoffmanni
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=choHof1'><!--
+		-->Broad/choHof1 (Jul, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/speTri2/'>speTri2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Squirrel
+	<td>Spermophilus tridecemlineatus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=speTri2'><!--
+		-->Broad/speTri2 (Nov, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/saiBol1/'>saiBol1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Squirrel monkey
+	<td>Saimiri boliviensis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=saiBol1'><!--
+		-->Broad/saiBol1 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/tarSyr1/'>tarSyr1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Tarsier
+	<td>Tarsius syrichta
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=tarSyr1'><!--
+		-->Broad/tarSyr1 (Aug, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/sarHar1/'>sarHar1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Tasmanian devil
+	<td>Sarcophilus harrisii
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=sarHar1'><!--
+		-->WTSI Devil_ref v7.0/sarHar1 (Feb, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/echTel2/'>echTel2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Tenrec
+	<td>Echinops telfairi
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=echTel2'><!--
+		-->Broad/echTel2 (Nov, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/tupBel1/'>tupBel1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Tree shrew
+	<td>Tupaia belangeri
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=tupBel1'><!--
+		-->Broad/tupBel1 (Dec, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/macEug2/'>macEug2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Wallaby
+	<td>Macropus eugenii
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=macEug2'><!--
+		-->TWGS Meug_1.1/macEug2 (Sep, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/cerSim1/'>cerSim1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>White rhinoceros
+	<td>Ceratotherium simum
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cerSim1'><!--
+		-->CerSimSim1.0/cerSim1 (May, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/allMis1/'>allMis1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>American alligator
+	<td>Alligator mississippiensis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=allMis1'><!--
+		-->allMis0.2/allMis1 (Aug, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/gadMor1/'>gadMor1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Atlantic cod
+	<td>Gadus morhua
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gadMor1'><!--
+		-->Genofisk GadMor_May2010/gadMor1 (May, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/melUnd1/'>melUnd1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Budgerigar
+	<td>Melopsittacus undulatus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=melUnd1'><!--
+		-->WUSTL v6.3/melUnd1 (Sep, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/galGal4/'>galGal4</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Chicken
+	<td>Gallus gallus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=galGal4'><!--
+		-->ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/latCha1/'>latCha1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Coelacanth
+	<td>Latimeria chalumnae
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=latCha1'><!--
+		-->Broad/latCha1 (Aug, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/calMil1/'>calMil1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Elephant shark
+	<td>Callorhinchus milii
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=calMil1'><!--
+		-->Callorhinchus_milii-6.1.3/calMil1 (Dec, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/fr3/'>fr3</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Fugu
+	<td>Takifugu rubripes
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=fr3'><!--
+		-->FUGU5/fr3 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/petMar2/'>petMar2</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Lamprey
+	<td>Petromyzon marinus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=petMar2'><!--
+		-->WUGSC 7.0/petMar2 (Sep, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/anoCar2/'>anoCar2</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Lizard
+	<td>Anolis carolinensis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=anoCar2'><!--
+		-->Broad AnoCar2.0/anoCar2 (May, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/oryLat2/'>oryLat2</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Medaka
+	<td>Oryzias latipes
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oryLat2'><!--
+		-->NIG/UT MEDAKA1/oryLat2 (Oct, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/geoFor1/'>geoFor1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Medium ground finch
+	<td>Geospiza fortis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=geoFor1'><!--
+		-->GeoFor_1.0/geoFor1 (Apr, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/oreNil2/'>oreNil2</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Nile tilapia
+	<td>Oreochromis niloticus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oreNil2'><!--
+		-->Broad oreNil1.1/oreNil2 (Jan, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/chrPic1/'>chrPic1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Painted turtle
+	<td>Chrysemys picta bellii
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=chrPic1'><!--
+		-->v3.0.1/chrPic1 (Dec, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/gasAcu1/'>gasAcu1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Stickleback
+	<td>Gasterosteus aculeatus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gasAcu1'><!--
+		-->Broad/gasAcu1 (Feb, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/tetNig2/'>tetNig2</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Tetraodon
+	<td>Tetraodon nigroviridis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=tetNig2'><!--
+		-->Genoscope 8.0/tetNig2 (Mar, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/melGal1/'>melGal1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Turkey
+	<td>Meleagris gallopavo
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=melGal1'><!--
+		-->TGC Turkey_2.01/melGal1 (Dec, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/xenTro3/'>xenTro3</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>X. tropicalis
+	<td>Xenopus tropicalis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=xenTro3'><!--
+		-->JGI 4.2/xenTro3 (Nov, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/taeGut2/'>taeGut2</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Zebra finch
+	<td>Taeniopygia guttata
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut2'><!--
+		-->WashU taeGut324/taeGut2 (Feb, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/danRer7/'>danRer7</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Zebrafish
+	<td>Danio rerio
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer7'><!--
+		-->Zv9/danRer7 (Jul, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/ci2/'>ci2</a>
+	<td>UCSC
+	<td>Deuterostome
+	<td>C. intestinalis
+	<td>Ciona intestinalis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ci2'><!--
+		-->JGI 2.1/ci2 (Mar, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/braFlo1/'>braFlo1</a>
+	<td>UCSC
+	<td>Deuterostome
+	<td>Lancelet
+	<td>Branchiostoma floridae
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=braFlo1'><!--
+		-->JGI 1.0/braFlo1 (Mar, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/strPur2/'>strPur2</a>
+	<td>UCSC
+	<td>Deuterostome
+	<td>S. purpuratus
+	<td>Strongylocentrotus purpuratus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=strPur2'><!--
+		-->Baylor 2.1/strPur2 (Sep, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/anoGam1/'>anoGam1</a>
+	<td>UCSC
+	<td>Insect
+	<td>A. gambiae
+	<td>Anopheles gambiae
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=anoGam1'><!--
+		-->IAGEC MOZ2/anoGam1 (Feb, 2003)</a>
+</tr>
+<tr>
+	<td><a href='/apiMel2/'>apiMel2</a>
+	<td>UCSC
+	<td>Insect
+	<td>A. mellifera
+	<td>Apis mellifera
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=apiMel2'><!--
+		-->Baylor 2.0/apiMel2 (Jan, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/droAna2/'>droAna2</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. ananassae
+	<td>Drosophila ananassae
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droAna2'><!--
+		-->Agencourt prelim/droAna2 (Aug, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/droEre1/'>droEre1</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. erecta
+	<td>Drosophila erecta
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droEre1'><!--
+		-->Agencourt prelim/droEre1 (Aug, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/droGri1/'>droGri1</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. grimshawi
+	<td>Drosophila grimshawi
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droGri1'><!--
+		-->Agencourt prelim/droGri1 (Aug, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/dm6/'>dm6</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. melanogaster
+	<td>Drosophila melanogaster
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dm6'><!--
+		-->BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/dm3/'>dm3</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. melanogaster
+	<td>Drosophila melanogaster
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dm3'><!--
+		-->BDGP R5/dm3 (Apr, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/droMoj2/'>droMoj2</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. mojavensis
+	<td>Drosophila mojavensis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droMoj2'><!--
+		-->Agencourt prelim/droMoj2 (Aug, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/droPer1/'>droPer1</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. persimilis
+	<td>Drosophila persimilis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droPer1'><!--
+		-->Broad/droPer1 (Oct, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/dp3/'>dp3</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. pseudoobscura
+	<td>Drosophila pseudoobscura
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dp3'><!--
+		-->FlyBase 1.03/dp3 (Nov, 2004)</a>
+</tr>
+<tr>
+	<td><a href='/droSec1/'>droSec1</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. sechellia
+	<td>Drosophila sechellia
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droSec1'><!--
+		-->Broad/droSec1 (Oct, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/droSim1/'>droSim1</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. simulans
+	<td>Drosophila simulans
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droSim1'><!--
+		-->WUGSC mosaic 1.0/droSim1 (Apr, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/droVir2/'>droVir2</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. virilis
+	<td>Drosophila virilis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droVir2'><!--
+		-->Agencourt prelim/droVir2 (Aug, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/droYak2/'>droYak2</a>
+	<td>UCSC
+	<td>Insect
+	<td>D. yakuba
+	<td>Drosophila yakuba
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droYak2'><!--
+		-->WUGSC 7.1/droYak2 (Nov, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/caePb2/'>caePb2</a>
+	<td>UCSC
+	<td>Nematode
+	<td>C. brenneri
+	<td>Caenorhabditis brenneri
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caePb2'><!--
+		-->WUGSC 6.0.1/caePb2 (Feb, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/cb3/'>cb3</a>
+	<td>UCSC
+	<td>Nematode
+	<td>C. briggsae
+	<td>Caenorhabditis briggsae
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cb3'><!--
+		-->WUGSC 1.0/cb3 (Jan, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/ce10/'>ce10</a>
+	<td>UCSC
+	<td>Nematode
+	<td>C. elegans
+	<td>Caenorhabditis elegans
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ce10'><!--
+		-->WS220/ce10 (Oct, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/caeJap1/'>caeJap1</a>
+	<td>UCSC
+	<td>Nematode
+	<td>C. japonica
+	<td>Caenorhabditis japonica
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caeJap1'><!--
+		-->WUGSC 3.0.2/caeJap1 (Mar, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/caeRem3/'>caeRem3</a>
+	<td>UCSC
+	<td>Nematode
+	<td>C. remanei
+	<td>Caenorhabditis remanei
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caeRem3'><!--
+		-->WUGSC 15.0.1/caeRem3 (May, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/priPac1/'>priPac1</a>
+	<td>UCSC
+	<td>Nematode
+	<td>P. pacificus
+	<td>Pristionchus pacificus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=priPac1'><!--
+		-->WUGSC 5.0/priPac1 (Feb, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/sacCer3/'>sacCer3</a>
+	<td>UCSC
+	<td>Other
+	<td>S. cerevisiae
+	<td>Saccharomyces cerevisiae
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=sacCer3'><!--
+		-->SacCer_Apr2011/sacCer3 (Apr, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/aplCal1/'>aplCal1</a>
+	<td>UCSC
+	<td>Other
+	<td>Sea hare
+	<td>Aplysia californica
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=aplCal1'><!--
+		-->Broad 2.0/aplCal1 (Sep, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/eboVir3/'>eboVir3</a>
+	<td>UCSC
+	<td>Viruses
+	<td>Ebola virus
+	<td>Filoviridae ebolavirus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=eboVir3'><!--
+		-->Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/Ppatens_251_v3/'>Ppatens_251_v3</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Moss
+	<td>Physcomitrella patens
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Ppatens'><!--
+		-->v3.0 (Oct, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/Smoellendorffii_91_v1/'>Smoellendorffii_91_v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Spikemoss
+	<td>Selaginella moellendorffii
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Smoellendorffii'><!--
+		-->v1.0 (Dec, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/Creinhardtii_281_v5_5/'>Creinhardtii_281_v5_5</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Green algae
+	<td>Chlamydomonas reinhardtii
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Creinhardtii'><!--
+		-->v5.5 (May, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/Olucimarinus_231_v2/'>Olucimarinus_231_v2</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Ostreococcus
+	<td>Ostreococcus lucimarinus
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Olucimarinus'><!--
+		-->v2.0 (Jan, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Xenla7/'>Xenla7</a>
+	<td>Xenbase
+	<td>Vertebrate
+	<td>X. laevis
+	<td>Xenopus laevis
+	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla7.1/'><!--
+		-->JGI 7.1/Xenla7 (Dec, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/Xentr7/'>Xentr7</a>
+	<td>Xenbase
+	<td>Vertebrate
+	<td>X. tropicalis
+	<td>Xenopus tropicalis
+	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr7.1/'><!--
+		-->XenBase/JGI 7.1</a>
+</tr>
+<tr>
+	<td><a href='/Xentr8/'>Xentr8</a>
+	<td>Xenbase
+	<td>Vertebrate
+	<td>X. tropicalis
+	<td>Xenopus tropicalis
+	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr8.0/'><!--
+		-->XenBase/JGI 8.0</a>
+</tr>
+<tr>
+	<td><a href='/TAIR10/'>TAIR10</a>
+	<td>
+	<td>Plant
+	<td>Thale cress
+	<td>Arabidopsis thaliana
+	<td><a target='_blank' href='ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/'><!--
+		-->TAIR10 (Nov, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/rice/'>rice</a>
+	<td>
+	<td>Plant
+	<td>Rice
+	<td>Oryza sativa
+	<td><a target='_blank' href='http://rapdb.dna.affrc.go.jp/download/irgsp1.html'><!--
+		-->Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/sorBic/'>sorBic</a>
+	<td>
+	<td>Plant
+	<td>Sorghum
+	<td>Sorghum bicolor
+	<td><a target='_blank' href='ftp://ftp.jgi-psf.org/pub/compgen/phytozome/v9.0/early_release/Sbicolor_v2.1/assembly/'><!--
+		-->v2.1 (May, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/bmor1/'>bmor1</a>
+	<td>Ensembl
+	<td>Insect
+	<td>Silkworm
+	<td>Bombyx mori
+	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/'><!--
+		-->Bmor1 (Apr, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/ASM15162v1/'>ASM15162v1</a>
+	<td>Ensembl
+	<td>Insect
+	<td>Silkworm
+	<td>Bombyx mori
+	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/release-25/metazoa/fasta/bombyx_mori/dna'><!--
+		-->ASM15162v1/GCA_000151625.1 (Feb, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/pombe/'>pombe</a>
+	<td>Ensembl
+	<td>Fungi
+	<td>Fission yeast (972h-)
+	<td>Schizosaccharomyces pombe
+	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/'><!--
+		-->ASM294v2 (Nov, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/macaque_CE_1/'>macaque_CE_1</a>
+	<td>
+	<td>Mammal
+	<td>Crab-eating macaque
+	<td>Macaca fascicularis
+	<td><a target='_blank' href='http://macaque.genomics.org.cn/page/species/download.jsp'><!--
+		-->CE_1.0 (Jul, 2011)</a>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h5>List of databases (Others)</h5>
+
+<div>
+<table cellspacing=0 cellpadding=2 id=otherlist class=display>
+<thead>
+<tr>
+	<th>Database
+	<th>Source
+	<th>Definition
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href='/refseq/'>refseq
+	<td>RefSeq
+	<td>refseq70 (alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq70/'>refseq70
+	<td>RefSeq
+	<td>RefSeq complete RNA release 70 (May, 2015)
+</tr>
+<tr>
+	<td><a href='/hs_refseq/'>hs_refseq
+	<td>RefSeq
+	<td>RefSeq human RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/hs_refseq70/'>hs_refseq70
+	<td>RefSeq
+	<td>RefSeq human RNA release 70 (May, 2015)
+</tr>
+<tr>
+	<td><a href='/mm_refseq/'>mm_refseq
+	<td>RefSeq
+	<td>RefSeq mouse RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/mm_refseq70/'>mm_refseq70
+	<td>RefSeq
+	<td>RefSeq mouse RNA release 70 (May, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101hum/'>ddbj101hum
+	<td>DDBJ
+	<td>DDBJ release 101.0, HUM division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101pri/'>ddbj101pri
+	<td>DDBJ
+	<td>DDBJ release 101.0, PRI division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101rod/'>ddbj101rod
+	<td>DDBJ
+	<td>DDBJ release 101.0, ROD division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101mam/'>ddbj101mam
+	<td>DDBJ
+	<td>DDBJ release 101.0, MAM division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101vrt/'>ddbj101vrt
+	<td>DDBJ
+	<td>DDBJ release 101.0, VRT division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101inv/'>ddbj101inv
+	<td>DDBJ
+	<td>DDBJ release 101.0, INV division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101pln/'>ddbj101pln
+	<td>DDBJ
+	<td>DDBJ release 101.0, PLN division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101bct/'>ddbj101bct
+	<td>DDBJ
+	<td>DDBJ release 101.0, BCT division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101vrl/'>ddbj101vrl
+	<td>DDBJ
+	<td>DDBJ release 101.0, VRL division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101phg/'>ddbj101phg
+	<td>DDBJ
+	<td>DDBJ release 101.0, PHG division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101pat/'>ddbj101pat
+	<td>DDBJ
+	<td>DDBJ release 101.0, PAT division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101env/'>ddbj101env
+	<td>DDBJ
+	<td>DDBJ release 101.0, ENV division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101syn/'>ddbj101syn
+	<td>DDBJ
+	<td>DDBJ release 101.0, SYN division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101est/'>ddbj101est
+	<td>DDBJ
+	<td>DDBJ release 101.0, EST division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101tsa/'>ddbj101tsa
+	<td>DDBJ
+	<td>DDBJ release 101.0, TSA division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101gss/'>ddbj101gss
+	<td>DDBJ
+	<td>DDBJ release 101.0, GSS division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101htc/'>ddbj101htc
+	<td>DDBJ
+	<td>DDBJ release 101.0, HTC division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101htg/'>ddbj101htg
+	<td>DDBJ
+	<td>DDBJ release 101.0, HTG division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101sts/'>ddbj101sts
+	<td>DDBJ
+	<td>DDBJ release 101.0, STS division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101una/'>ddbj101una
+	<td>DDBJ
+	<td>DDBJ release 101.0, UNA division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj/'>ddbj
+	<td>DDBJ
+	<td>DDBJ release 92.0 (Feb, 2013)
+</tr>
+<tr>
+	<td><a href='/prok/'>prok
+	<td>
+	<td>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)
+</tr>
+<tr>
+	<td><a href='/16SrRNA/'>16SrRNA
+	<td>
+	<td>DDBJ 16S rRNA of prokaryotes (Dec, 2014)
+</tr>
+<tr>
+	<td><a href='/macaque_CE_1_cds/'>macaque_CE_1_cds
+	<td>
+	<td>Crab-eating macaque CDS, CE_1.0 (Jul, 2011)
+</tr>
+</tbody>
+</table>
+</div>
+
+<h5>Reference</h5>
+
+<div>
 <ul>
 	<li>Source code: GitHub -
 		<a target='_blank' href='https://github.com/meso-cacase/GGGenome'><!--
@@ -330,8 +1486,10 @@ Reference:
 </div>
 
 <a name=news></a>
+
+<h5>What's new</h5>
+
 <div>
-What's new:
 <ul>
 	<li>2015-07-16 Suspended RefSeq rel. 71 due to a data error.
 	<li>2015-07-15 Database updated to RefSeq rel. 71 (Jul, 2015).
@@ -382,7 +1540,7 @@ What's new:
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jul 16, 2015 by
+<p class=g>Last modified on Jul 17, 2015 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
