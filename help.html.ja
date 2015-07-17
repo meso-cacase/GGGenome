@@ -29,15 +29,23 @@ $(document).ready(function(){
 		'order'           : [], // No initial order
 	}) ;
 }) ;
+$(document).ready(function(){
+	$('#otherlist').dataTable({
+		'order'           : [], // No initial order
+		'paging'          : false,
+	}) ;
+}) ;
 //-->
 </script>
 <!-- DataTables CSS -->
 <style type='text/css'>
 <!--
-	table.dataTable { font-size:8pt; white-space:nowrap }
-	table.dataTable thead th { padding:2px 16px 2px 2px }
-	table.dataTable tbody td { padding:2px }
+	table { font-size:8pt; white-space:nowrap }
 	.dataTables_wrapper { display:inline-table }
+	table#genomelist thead th { padding:2px 16px 2px 2px }
+	table#genomelist tbody td { padding:2px }
+	table#otherlist  thead th { padding:4px 16px 4px 4px }
+	table#otherlist  tbody td { padding:4px }
 -->
 </style>
 
@@ -1407,29 +1415,175 @@ set_strand() ;
 	<td>Macaca fascicularis
 	<td><a target='_blank' href='http://macaque.genomics.org.cn/page/species/download.jsp'><!--
 		-->CE_1.0 (Jul, 2011)</a>
-</tr></tbody>
+</tr>
+</tbody>
 </table>
 </div>
 
 <h5>検索可能なデータベース一覧(ゲノム以外)</h5>
 
 <div>
-<ul>
-	<li>RefSeq complete RNA release 70 (May, 2015)<br>
-		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
-		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>RefSeq human RNA release 70 (May, 2015)<br>
-		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
-		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>RefSeq mouse RNA release 70 (May, 2015)<br>
-		<a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/'>
-		ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete</a>/complete.*.rna.gbff.gz
-	<li>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)<br>
-		(unpublished)
-	<li>DDBJ release 92.0 (Feb, 2013)<br>
-		<a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj/'>
-		ftp://ftp.ddbj.nig.ac.jp/ddbj_database/ddbj</a>/*.seq.gz
-</ul>
+<table cellspacing=0 cellpadding=2 id=otherlist class=display>
+<thead>
+<tr>
+	<th>Database
+	<th>Source
+	<th>Definition
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td><a href='/refseq/'>refseq
+	<td>RefSeq
+	<td>refseq70 (alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq70/'>refseq70
+	<td>RefSeq
+	<td>RefSeq complete RNA release 70 (May, 2015)
+</tr>
+<tr>
+	<td><a href='/hs_refseq/'>hs_refseq
+	<td>RefSeq
+	<td>RefSeq human RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/hs_refseq70/'>hs_refseq70
+	<td>RefSeq
+	<td>RefSeq human RNA release 70 (May, 2015)
+</tr>
+<tr>
+	<td><a href='/mm_refseq/'>mm_refseq
+	<td>RefSeq
+	<td>RefSeq mouse RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/mm_refseq70/'>mm_refseq70
+	<td>RefSeq
+	<td>RefSeq mouse RNA release 70 (May, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101hum/'>ddbj101hum
+	<td>DDBJ
+	<td>DDBJ release 101.0, HUM division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101pri/'>ddbj101pri
+	<td>DDBJ
+	<td>DDBJ release 101.0, PRI division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101rod/'>ddbj101rod
+	<td>DDBJ
+	<td>DDBJ release 101.0, ROD division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101mam/'>ddbj101mam
+	<td>DDBJ
+	<td>DDBJ release 101.0, MAM division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101vrt/'>ddbj101vrt
+	<td>DDBJ
+	<td>DDBJ release 101.0, VRT division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101inv/'>ddbj101inv
+	<td>DDBJ
+	<td>DDBJ release 101.0, INV division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101pln/'>ddbj101pln
+	<td>DDBJ
+	<td>DDBJ release 101.0, PLN division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101bct/'>ddbj101bct
+	<td>DDBJ
+	<td>DDBJ release 101.0, BCT division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101vrl/'>ddbj101vrl
+	<td>DDBJ
+	<td>DDBJ release 101.0, VRL division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101phg/'>ddbj101phg
+	<td>DDBJ
+	<td>DDBJ release 101.0, PHG division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101pat/'>ddbj101pat
+	<td>DDBJ
+	<td>DDBJ release 101.0, PAT division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101env/'>ddbj101env
+	<td>DDBJ
+	<td>DDBJ release 101.0, ENV division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101syn/'>ddbj101syn
+	<td>DDBJ
+	<td>DDBJ release 101.0, SYN division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101est/'>ddbj101est
+	<td>DDBJ
+	<td>DDBJ release 101.0, EST division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101tsa/'>ddbj101tsa
+	<td>DDBJ
+	<td>DDBJ release 101.0, TSA division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101gss/'>ddbj101gss
+	<td>DDBJ
+	<td>DDBJ release 101.0, GSS division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101htc/'>ddbj101htc
+	<td>DDBJ
+	<td>DDBJ release 101.0, HTC division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101htg/'>ddbj101htg
+	<td>DDBJ
+	<td>DDBJ release 101.0, HTG division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101sts/'>ddbj101sts
+	<td>DDBJ
+	<td>DDBJ release 101.0, STS division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj101una/'>ddbj101una
+	<td>DDBJ
+	<td>DDBJ release 101.0, UNA division (Jun, 2015)
+</tr>
+<tr>
+	<td><a href='/ddbj/'>ddbj
+	<td>DDBJ
+	<td>DDBJ release 92.0 (Feb, 2013)
+</tr>
+<tr>
+	<td><a href='/prok/'>prok
+	<td>
+	<td>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)
+</tr>
+<tr>
+	<td><a href='/16SrRNA/'>16SrRNA
+	<td>
+	<td>DDBJ 16S rRNA of prokaryotes (Dec, 2014)
+</tr>
+<tr>
+	<td><a href='/macaque_CE_1_cds/'>macaque_CE_1_cds
+	<td>
+	<td>Crab-eating macaque CDS, CE_1.0 (Jul, 2011)
+</tr>
+</tbody>
+</table>
 </div>
 
 <h5>文献</h5>
