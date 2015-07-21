@@ -44,8 +44,8 @@ $(document).ready(function(){
 	.dataTables_wrapper { display:inline-table }
 	table#genomelist thead th { padding:2px 16px 2px 2px }
 	table#genomelist tbody td { padding:2px }
-	table#otherlist  thead th { padding:4px 16px 4px 4px }
-	table#otherlist  tbody td { padding:4px }
+	table#otherlist  thead th { padding:3px 16px 3px 3px }
+	table#otherlist  tbody td { padding:3px }
 -->
 </style>
 
