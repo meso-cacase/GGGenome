@@ -21,6 +21,15 @@ RewriteEngine On
 # メンテナンス領域へのアクセスはリライトしない
 RewriteRule  ^dev/  -  [L]
 
+#- ▼ static/ 内のファイルを参照
+# mod_rewriteの適用を終了する条件
+RewriteRule  ^static/  -  [L]
+
+# パスに/db/k/等が含まれる場合にURIを修正してリダイレクト
+RewriteCond  %{REQUEST_URI}  ^/((test|bitst)/)?
+RewriteRule  (?:^|/)(static/.*)$  /%1$1  [R,L]
+#- ▲ static/ 内のファイルを参照
+
 #- ▼ ロゴ等の画像ファイルの表示
 # mod_rewriteの適用を終了する条件
 RewriteRule  ^[^/]*\.png$  -  [L]

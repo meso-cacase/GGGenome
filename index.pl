@@ -178,9 +178,12 @@ $redirect_uri .= $query_string ;
 $redirect_uri .= $format   ? ".$format"  : '' ;
 $redirect_uri .= $download ? '.download' : '' ;
 
-if ($ENV{'HTTP_HOST'} and              # HTTP経由のリクエストで、かつ
-	($request_uri ne $redirect_uri or  # 現在のURIと異なる場合にリダイレクト
-	 $ENV{'QUERY_STRING'})
+my $QUERY_STRING = $ENV{'QUERY_STRING'} // '' ; #ADD tyamamot
+$QUERY_STRING =~ s/offset=[0-9]*//g ;           #ADD tyamamot
+$QUERY_STRING =~ s/(&){2,}/$1/g ;               #ADD tyamamot
+if ($ENV{'HTTP_HOST'} and                       # HTTP経由のリクエストで、かつ
+	($request_uri ne $redirect_uri or           # 現在のURIと異なる場合にリダイレクト
+	 $QUERY_STRING)                             #CHANGE tyamamot
 ){
 	$ENV{'HTTPS'} ? redirect_page("https://$ENV{'HTTP_HOST'}$redirect_uri") :  # HTTPS経由
 	                redirect_page("http://$ENV{'HTTP_HOST'}$redirect_uri")  ;  # HTTP経由
@@ -491,9 +494,13 @@ if ($format eq 'txt'){
 	eval 'require Align2seq ; 1' or  # ミスマッチ/ギャップのある配列のハイライトに使用
 		printresult('ERROR : cannot load Align2seq') ;
 
+	my $offset  = $query{'offset'} // 0 ;               #ADD tyamamot offsetの追加
+	my $timeout = $debug ? $timeout_debug : $timeout ;  #ADD tyamamot timeoutの追加
+	$ds_hit_num = 0;                                    #ADD tyamamot ds_hit_numの初期化
+
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit, $offset, $timeout) or #CHANGE tyamamot
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -517,8 +524,18 @@ if ($format eq 'txt'){
 
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
+
+		#ADD start tyamamot
+		if(scalar @hit_list){
+			$limit -= (scalar @hit_list);
+			$limit = 0 if($limit<0);
+		}
+		$offset -= ($ds_hit_num || 0);
+		$offset = 0 if($offset<0);
+		#ADD end tyamamot
+
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit, $offset, $timeout) or #CHANGE tyamamot
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -541,9 +558,19 @@ if ($format eq 'txt'){
 	#--- △ (-)鎖の検索実行と結果出力
 
 	#--- ▽ 両鎖の合計数を出力
+	my $total = $ds_hit_num ;  #ADD tyamamot totalの追加
 	$ds_approx and $ds_hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+
+	$limit   = ($debug ? $max_hit_debug : $max_hit_html) ;  #ADD tyamamot 検索を打ち切るヒット数を改めてセット
+	$offset  = $query{'offset'} // 0 ;                      #ADD tyamamot offsetの追加
+	$hit_num = (scalar @hit_list) ;                         #ADD tyamamot 表示する件数
+
 	push @summary,
-		"	<li><font color=maroon><b>TOTAL ($ds_hit_num)</b></font>" ;
+		"	<li><font color=maroon><b>TOTAL ($ds_hit_num)</b></font>" .
+		"<input type=hidden name='total' value='$total' />"   .   #ADD tyamamot <input type=hidden>タグの追記
+		"<input type=hidden name='count' value='$hit_num' />" .   #ADD tyamamot <input type=hidden>タグの追記
+		"<input type=hidden name='limit' value='$limit' />"   .   #ADD tyamamot <input type=hidden>タグの追記
+		"<input type=hidden name='offset' value='$offset' />" ;   #ADD tyamamot <input type=hidden>タグの追記
 	#--- △ 両鎖の合計数を出力
 
 	@hit_list or
@@ -869,6 +896,7 @@ my $snippet_html =
 
 $name =~ s/^>// ;
 
+#ADD tyamamot <input type=hidden>タグの追記
 return
 "<div class=gene><!-- ==================== -->
 	<div class=t>
@@ -877,6 +905,15 @@ return
 	<div class='b mono'>
 	$snippet_html
 	</div>
+	<input type=hidden name='gene.name' value='$name' />
+	<input type=hidden name='gene.length' value='$length' />
+	<input type=hidden name='gene.position' value='$position' />
+	<input type=hidden name='gene.position_end' value='$position_end' />
+	<input type=hidden name='gene.snippet' value='$snippet' />
+	<input type=hidden name='gene.snippet_pos' value='$snippet_pos' />
+	<input type=hidden name='gene.snippet_5prime' value='$snippet_5prime' />
+	<input type=hidden name='gene.snippet_3prime' value='$snippet_3prime' />
+	<input type=hidden name='gene.sbjct' value='$sbjct' />
 </div>" ;
 } ;
 # ====================
