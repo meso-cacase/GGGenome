@@ -206,8 +206,8 @@ set_strand() ;
 	<li>U and T will be treated identically.
 	<li>Ambiguous nucleotide characters (N, R, Y ...) can be used.
 	<li>All other characters are ignored.
-	<li>GGGenome shows first 50 results for each strand of the query sequence.
-	<li>Maximum 100000 results can be retrieved as TXT, CSV, BED, GFF or JSON format.
+	<li>GGGenome shows 50 hits per page.
+	<li>Maximum 100000 hits can be retrieved as TXT, CSV, BED, GFF or JSON format.
 </ul>
 <ul>
 	<li><a target='_blank' href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--

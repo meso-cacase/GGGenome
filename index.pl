@@ -615,7 +615,6 @@ if ($format eq 'txt'){
 		TIMESTAMP    => $timestamp,
 		DB_FULLNAME  => $db_fullname,
 		SUMMARY      => "@summary",
-		MAX_HIT_HTML => ($debug ? $max_hit_debug : $max_hit_html),
 		HIT_LIST     => "@hit_list",
 		MAX_HIT_API  => ($debug ? $max_hit_debug : $max_hit_api),
 		LINKBASE_URI => $linkbase_uri,
@@ -1163,7 +1162,7 @@ $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
 my $strand_selection =
 "<input type=radio name=strand value=both>双方向を検索
 <input type=radio name=strand value=plus>＋方向のみ検索
-<input type=radio name=strand value=minus>−方向のみ検索" ;
+<input type=radio name=strand value=minus>－方向のみ検索" ;
 ($strand and $strand eq '+') ? $strand_selection =~ s/plus/plus checked/   :
 ($strand and $strand eq '-') ? $strand_selection =~ s/minus/minus checked/ :
                                $strand_selection =~ s/both/both checked/   ;
