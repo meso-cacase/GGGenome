@@ -5,6 +5,10 @@
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
 <meta http-equiv='Content-Script-Type' content='text/javascript'>
 <meta http-equiv='Content-Style-Type' content='text/css'>
+<link rel='stylesheet' href='//cdn.sencha.com/ext/gpl/4.2.1/resources/css/ext-all-gray.css' type='text/css' media='all' charset='UTF-8'>
+<link rel='stylesheet' href='static/css/style.css' type='text/css' media='all' charset='UTF-8'>
+<script type='text/javascript' src='//cdn.sencha.com/ext/gpl/4.2.1/ext-all.js' charset='utf-8'></script>
+<script type='text/javascript' src='//cdn.sencha.com/ext/gpl/4.2.1/locale/ext-lang-en.js' charset='utf-8'></script>
 <meta name=author content='Yuki Naito'>
 <title>GGGenome | ultrafast DNA search</title>
 <!-- DataTables CSS -->
@@ -55,8 +59,9 @@ function set_db(){
 	var db ;
 	if (location.pathname.match(/\/(\w+)\/(\d+\/)?((\+|\-)\/)?help.html$/)){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?((\+|\-)\/)?help.html$/)[1] ;
-		if (db.match(/hg19|mm10|rn5|calJac3|susScr3|galGal4|xenTro3|Xenla7|danRer7|ci2|dm3|ce10|TAIR10|rice|sorBic|bmor1|sacCer3|pombe|refseq71|hs_refseq70|mm_refseq70|prok|ddbj/)){
-			document.gggenome.db.value = db ;
+		document.gggenome.db.value = db ;
+		if (document.gggenome.db.selectedIndex < 0){
+			document.gggenome.db.value = 'hg19' ;
 		}
 	}
 }
@@ -143,30 +148,153 @@ function set_strand(){
 <input type=text name=query size=70 value=''>
 <input type=submit value='Search'>
 <select id=db name=db>
-	<option value=hg19 selected>Human genome, GRCh37/hg19 (Feb, 2009)                    </option>
-	<option value=mm10       >Mouse genome, GRCm38/mm10 (Dec, 2011)                      </option>
-	<option value=rn5        >Rat genome, RGSC 5.0/rn5 (Mar, 2012)                       </option>
-	<option value=calJac3    >Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)             </option>
-	<option value=susScr3    >Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)           </option>
-	<option value=galGal4    >Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</option>
-	<option value=xenTro3    >Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)     </option>
-	<option value=Xenla7     >Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)          </option>
-	<option value=danRer7    >Zebrafish genome, Zv9/danRer7 (Jul, 2010)                  </option>
-	<option value=ci2        >Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)         </option>
-	<option value=dm3        >Drosophila genome, BDGP R5/dm3 (Apr, 2006)                 </option>
-	<option value=ce10       >C. elegans genome, WS220/ce10 (Oct, 2010)                  </option>
-	<option value=TAIR10     >Arabidopsis thaliana genome, TAIR10 (Nov, 2010)            </option>
-	<option value=rice       >Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) </option>
-	<option value=sorBic     >Sorghum genome, Sorghum bicolor v2.1 (May, 2013)           </option>
-	<option value=bmor1      >Silkworm genome, Bmor1 (Apr, 2008)                         </option>
-	<option value=sacCer3    >S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011)          </option>
-	<option value=pombe      >S. pombe (972h-) genome, ASM294v2 (Nov, 2007)              </option>
-	<option disabled>----------</option>
-	<option value=refseq71   >RefSeq complete RNA release 71 (Jul, 2015)                 </option>
-	<option value=hs_refseq70>RefSeq human RNA release 70 (May, 2015)                    </option>
-	<option value=mm_refseq70>RefSeq mouse RNA release 70 (May, 2015)                    </option>
-	<option value=prok       >Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)          </option>
-	<option value=ddbj       >DDBJ release 92.0 (Feb, 2013)                              </option>
+	<option value=hg38    synonym='Homo sapiens'>Human genome, GRCh38/hg38 (Dec, 2013)</option>
+	<option value=hg19 selected    synonym='Homo sapiens'>Human genome, GRCh37/hg19 (Feb, 2009)</option>
+	<option value=hg18    synonym='Homo sapiens'>Human genome, NCBI36/hg18 (Mar, 2006)</option>
+	<option value=mm10    synonym='Mus musculus'>Mouse genome, GRCm38/mm10 (Dec, 2011)</option>
+	<option value=mm9     synonym='Mus musculus'>Mouse genome, NCBI37/mm9 (Jul, 2007)</option>
+	<option value=rn6     synonym='Rattus norvegicus'>Rat genome, RGSC 6.0/rn6 (Jul, 2014)</option>
+	<option value=rn5     synonym='Rattus norvegicus'>Rat genome, RGSC 5.0/rn5 (Mar, 2012)</option>
+	<option value=vicPac2 synonym='Vicugna pacos'>Alpaca genome, Vicugna_pacos-2.0.1/vicPac2 (Mar, 2013)</option>
+	<option value=dasNov3 synonym='Dasypus novemcinctus'>Armadillo genome, Baylor/dasNov3 (Dec, 2011)</option>
+	<option value=papAnu2 synonym='Papio anubis'>Baboon genome, Baylor Panu_2.0/papAnu2 (Mar, 2012)</option>
+	<option value=otoGar3 synonym='Otolemur garnettii'>Bushbaby genome, Broad/otoGar3 (Mar, 2011)</option>
+	<option value=felCat5 synonym='Felis catus'>Cat genome, ICGSC Felis_catus 6.2/felCat5 (Sep, 2011)</option>
+	<option value=panTro4 synonym='Pan troglodytes'>Chimp genome, CSAC 2.1.4/panTro4 (Feb, 2011)</option>
+	<option value=criGri1 synonym='Cricetulus griseus'>Chinese hamster genome, C_griseus_v1.0/criGri1 (Jul, 2013)</option>
+	<option value=bosTau8 synonym='Bos taurus'>Cow genome, Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)</option>
+	<option value=canFam3 synonym='Canis lupus familiaris'>Dog genome, Broad CanFam3.1/canFam3 (Sep, 2011)</option>
+	<option value=turTru2 synonym='Tursiops truncatus'>Dolphin genome, Baylor Ttru_1.4/turTru2 (Oct, 2011)</option>
+	<option value=loxAfr3 synonym='Loxodonta africana'>Elephant genome, Broad/loxAfr3 (Jul, 2009)</option>
+	<option value=musFur1 synonym='Mustela putorius furo'>Ferret genome, MusPutFur1.0/musFur1 (Apr, 2011)</option>
+	<option value=nomLeu3 synonym='Nomascus leucogenys'>Gibbon genome, GGSC Nleu3.0/nomLeu3 (Oct, 2012)</option>
+	<option value=gorGor3 synonym='Gorilla gorilla gorilla'>Gorilla genome, gorGor3.1/gorGor3 (May, 2011)</option>
+	<option value=cavPor3 synonym='Cavia porcellus'>Guinea pig genome, Broad/cavPor3 (Feb, 2008)</option>
+	<option value=eriEur2 synonym='Erinaceus europaeus'>Hedgehog genome, EriEur2.0/eriEur2 (May, 2012)</option>
+	<option value=equCab2 synonym='Equus caballus'>Horse genome, Broad/equCab2 (Sep, 2007)</option>
+	<option value=dipOrd1 synonym='Dipodomys ordii'>Kangaroo rat genome, Broad/dipOrd1 (Jul, 2008)</option>
+	<option value=triMan1 synonym='Trichechus manatus latirostris'>Manatee genome, Broad v1.0/triMan1 (Oct, 2011)</option>
+	<option value=calJac3 synonym='Callithrix jacchus'>Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)</option>
+	<option value=pteVam1 synonym='Pteropus vampyrus'>Megabat genome, Broad/pteVam1 (Jul, 2008)</option>
+	<option value=myoLuc2 synonym='Myotis lucifugus'>Microbat genome, Broad Institute Myoluc2.0/myoLuc2 (Jul, 2010)</option>
+	<option value=balAcu1 synonym='Balaenoptera acutorostrata scammoni'>Minke whale genome, BalAcu1.0/balAcu1 (Oct, 2013)</option>
+	<option value=micMur1 synonym='Microcebus murinus'>Mouse lemur genome, Broad/micMur1 (Jul, 2007)</option>
+	<option value=hetGla2 synonym='Heterocephalus glaber'>Naked mole-rat genome, Broad HetGla_female_1.0/hetGla2 (Jan, 2012)</option>
+	<option value=monDom5 synonym='Monodelphis domestica'>Opossum genome, Broad/monDom5 (Oct, 2006)</option>
+	<option value=ponAbe2 synonym='Pongo pygmaeus abelii'>Orangutan genome, WUGSC 2.0.2/ponAbe2 (Jul, 2007)</option>
+	<option value=ailMel1 synonym='Ailuropoda melanoleuca'>Panda genome, BGI-Shenzhen 1.0/ailMel1 (Dec, 2009)</option>
+	<option value=susScr3 synonym='Sus scrofa'>Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)</option>
+	<option value=ochPri3 synonym='Ochotona princeps'>Pika genome, OchPri3.0/ochPri3 (May, 2012)</option>
+	<option value=ornAna1 synonym='Ornithorhynchus anatinus'>Platypus genome, WUGSC 5.0.1/ornAna1 (Mar, 2007)</option>
+	<option value=oryCun2 synonym='Oryctolagus cuniculus'>Rabbit genome, Broad/oryCun2 (Apr, 2009)</option>
+	<option value=rheMac3 synonym='Macaca mulatta'>Rhesus genome, BGI CR_1.0/rheMac3 (Oct, 2010)</option>
+	<option value=proCap1 synonym='Procavia capensis'>Rock hyrax genome, Broad/proCap1 (Jul, 2008)</option>
+	<option value=oviAri3 synonym='Ovis aries'>Sheep genome, ISGC Oar_v3.1/oviAri3 (Aug, 2012)</option>
+	<option value=sorAra2 synonym='Sorex araneus'>Shrew genome, Broad/sorAra2 (Aug, 2008)</option>
+	<option value=choHof1 synonym='Choloepus hoffmanni'>Sloth genome, Broad/choHof1 (Jul, 2008)</option>
+	<option value=speTri2 synonym='Spermophilus tridecemlineatus'>Squirrel genome, Broad/speTri2 (Nov, 2011)</option>
+	<option value=saiBol1 synonym='Saimiri boliviensis'>Squirrel monkey genome, Broad/saiBol1 (Oct, 2011)</option>
+	<option value=tarSyr1 synonym='Tarsius syrichta'>Tarsier genome, Broad/tarSyr1 (Aug, 2008)</option>
+	<option value=sarHar1 synonym='Sarcophilus harrisii'>Tasmanian devil genome, WTSI Devil_ref v7.0/sarHar1 (Feb, 2011)</option>
+	<option value=echTel2 synonym='Echinops telfairi'>Tenrec genome, Broad/echTel2 (Nov, 2012)</option>
+	<option value=tupBel1 synonym='Tupaia belangeri'>Tree shrew genome, Broad/tupBel1 (Dec, 2006)</option>
+	<option value=macEug2 synonym='Macropus eugenii'>Wallaby genome, TWGS Meug_1.1/macEug2 (Sep, 2009)</option>
+	<option value=cerSim1 synonym='Ceratotherium simum'>White rhinoceros genome, CerSimSim1.0/cerSim1 (May, 2012)</option>
+	<option value=allMis1 synonym='Alligator mississippiensis'>American alligator genome, allMis0.2/allMis1 (Aug, 2012)</option>
+	<option value=gadMor1 synonym='Gadus morhua'>Atlantic cod genome, Genofisk GadMor_May2010/gadMor1 (May, 2010)</option>
+	<option value=melUnd1 synonym='Melopsittacus undulatus'>Budgerigar genome, WUSTL v6.3/melUnd1 (Sep, 2011)</option>
+	<option value=galGal4 synonym='Gallus gallus'>Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</option>
+	<option value=latCha1 synonym='Latimeria chalumnae'>Coelacanth genome, Broad/latCha1 (Aug, 2011)</option>
+	<option value=calMil1 synonym='Callorhinchus milii'>Elephant shark genome, Callorhinchus_milii-6.1.3/calMil1 (Dec, 2013)</option>
+	<option value=fr3     synonym='Takifugu rubripes'>Fugu genome, FUGU5/fr3 (Oct, 2011)</option>
+	<option value=petMar2 synonym='Petromyzon marinus'>Lamprey genome, WUGSC 7.0/petMar2 (Sep, 2010)</option>
+	<option value=anoCar2 synonym='Anolis carolinensis'>Lizard genome, Broad AnoCar2.0/anoCar2 (May, 2010)</option>
+	<option value=oryLat2 synonym='Oryzias latipes'>Medaka genome, NIG/UT MEDAKA1/oryLat2 (Oct, 2005)</option>
+	<option value=geoFor1 synonym='Geospiza fortis'>Medium ground finch genome, GeoFor_1.0/geoFor1 (Apr, 2012)</option>
+	<option value=oreNil2 synonym='Oreochromis niloticus'>Nile tilapia genome, Broad oreNil1.1/oreNil2 (Jan, 2011)</option>
+	<option value=chrPic1 synonym='Chrysemys picta bellii'>Painted turtle genome, v3.0.1/chrPic1 (Dec, 2011)</option>
+	<option value=gasAcu1 synonym='Gasterosteus aculeatus'>Stickleback genome, Broad/gasAcu1 (Feb, 2006)</option>
+	<option value=tetNig2 synonym='Tetraodon nigroviridis'>Tetraodon genome, Genoscope 8.0/tetNig2 (Mar, 2007)</option>
+	<option value=melGal1 synonym='Meleagris gallopavo'>Turkey genome, TGC Turkey_2.01/melGal1 (Dec, 2009)</option>
+	<option value=Xenla7  synonym='Xenopus laevis'>Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)</option>
+	<option value=Xentr8  synonym='Xenopus tropicalis'>Xenopus tropicalis genome, XenBase/JGI 8.0</option>
+	<option value=Xentr7  synonym='Xenopus tropicalis'>Xenopus tropicalis genome, XenBase/JGI 7.1</option>
+	<option value=xenTro3 synonym='Xenopus tropicalis'>Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)</option>
+	<option value=taeGut2 synonym='Taeniopygia guttata'>Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)</option>
+	<option value=danRer7 synonym='Danio rerio'>Zebrafish genome, Zv9/danRer7 (Jul, 2010)</option>
+	<option value=ci2     synonym='Ciona intestinalis'>Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)</option>
+	<option value=braFlo1 synonym='Branchiostoma floridae'>Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)</option>
+	<option value=strPur2 synonym='Strongylocentrotus purpuratus'>S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)</option>
+	<option value=anoGam1 synonym='Anopheles gambiae'>A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)</option>
+	<option value=apiMel2 synonym='Apis mellifera'>A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)</option>
+	<option value=droAna2 synonym='Drosophila ananassae'>D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)</option>
+	<option value=droEre1 synonym='Drosophila erecta'>D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)</option>
+	<option value=droGri1 synonym='Drosophila grimshawi'>D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)</option>
+	<option value=dm6     synonym='Drosophila melanogaster'>D. melanogaster genome, BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)</option>
+	<option value=dm3     synonym='Drosophila melanogaster'>Drosophila melanogaster genome, BDGP R5/dm3 (Apr, 2006)</option>
+	<option value=droMoj2 synonym='Drosophila mojavensis'>D. mojavensis genome, Agencourt prelim/droMoj2 (Aug, 2005)</option>
+	<option value=droPer1 synonym='Drosophila persimilis'>D. persimilis genome, Broad/droPer1 (Oct, 2005)</option>
+	<option value=dp3     synonym='Drosophila pseudoobscura'>D. pseudoobscura genome, FlyBase 1.03/dp3 (Nov, 2004)</option>
+	<option value=droSec1 synonym='Drosophila sechellia'>D. sechellia genome, Broad/droSec1 (Oct, 2005)</option>
+	<option value=droSim1 synonym='Drosophila simulans'>D. simulans genome, WUGSC mosaic 1.0/droSim1 (Apr, 2005)</option>
+	<option value=droVir2 synonym='Drosophila virilis'>D. virilis genome, Agencourt prelim/droVir2 (Aug, 2005)</option>
+	<option value=droYak2 synonym='Drosophila yakuba'>D. yakuba genome, WUGSC 7.1/droYak2 (Nov, 2005)</option>
+	<option value=caePb2  synonym='Caenorhabditis brenneri'>C. brenneri genome, WUGSC 6.0.1/caePb2 (Feb, 2008)</option>
+	<option value=cb3     synonym='Caenorhabditis briggsae'>C. briggsae genome, WUGSC 1.0/cb3 (Jan, 2007)</option>
+	<option value=ce10    synonym='Caenorhabditis elegans'>C. elegans genome, WS220/ce10 (Oct, 2010)</option>
+	<option value=caeJap1 synonym='Caenorhabditis japonica'>C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)</option>
+	<option value=caeRem3 synonym='Caenorhabditis remanei'>C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)</option>
+	<option value=priPac1 synonym='Pristionchus pacificus'>P. pacificus genome, WUGSC 5.0/priPac1 (Feb, 2007)</option>
+	<option value=sacCer3 synonym='Saccharomyces cerevisiae'>S. cerevisiae (S288C) genome, SacCer_Apr2011/sacCer3 (Apr, 2011)</option>
+	<option value=aplCal1 synonym='Aplysia californica'>Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)</option>
+
+	<option value=macaque_CE_1 synonym='Macaca fascicularis'>Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
+	<option value=bmor1   synonym='Bombyx mori'>Silkworm genome, Bmor1 (Apr, 2008)</option>
+	<option value=ASM15162v1 synonym='Bombyx mori'>Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)</option>
+	<option value=pombe   synonym='Schizosaccharomyces pombe'>S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
+
+	<option value=TAIR10  synonym='Arabidopsis thaliana'>Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
+	<option value=rice    synonym='Oryza sativa'>Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
+	<option value=sorBic  synonym='Sorghum bicolor'>Sorghum genome, Sorghum bicolor v2.1 (May, 2013)</option>
+	<option value=Ppatens_251_v3        synonym='Physcomitrella patens'>Physcomitrella patens genome v3.0 (Oct, 2007)</option>
+	<option value=Smoellendorffii_91_v1 synonym='Selaginella moellendorffii'>Selaginella moellendorffii genome v1.0 (Dec, 2007)</option>
+	<option value=Creinhardtii_281_v5_5 synonym='Chlamydomonas reinhardtii'>Chlamydomonas reinhardtii genome v5.5 (May, 2014)</option>
+	<option value=Olucimarinus_231_v2   synonym='Ostreococcus lucimarinus'>Ostreococcus lucimarinus genome v2.0 (Jan, 2011)</option>
+
+	<option value=eboVir3 synonym='Filoviridae ebolavirus'>Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
+
+	<option disabled>--------------------</option>
+
+	<option value=refseq      synonym=''>RefSeq complete RNA release 71 (Jul, 2015)</option>
+	<option value=hs_refseq70 synonym='Homo sapiens'>RefSeq human RNA release 70 (May, 2015)</option>
+	<option value=mm_refseq70 synonym='Mus musculus'>RefSeq mouse RNA release 70 (May, 2015)</option>
+	<option value=prok        synonym=''>Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
+	<option value=16SrRNA     synonym=''>DDBJ 16S rRNA of prokaryotes (Dec, 2014)</option>
+	<option value=macaque_CE_1_cds synonym='Macaca fascicularis'>Crab-eating macaque CDS, CE_1.0 (Jul, 2011)</option>
+
+	<option disabled>--------------------</option>
+
+	<option value=ddbj101hum synonym='ddbjhum'>DDBJ release 101.0, HUM division (Jun, 2015)</option>
+	<option value=ddbj101pri synonym='ddbjpri'>DDBJ release 101.0, PRI division (Jun, 2015)</option>
+	<option value=ddbj101rod synonym='ddbjrod'>DDBJ release 101.0, ROD division (Jun, 2015)</option>
+	<option value=ddbj101mam synonym='ddbjmam'>DDBJ release 101.0, MAM division (Jun, 2015)</option>
+	<option value=ddbj101vrt synonym='ddbjvrt'>DDBJ release 101.0, VRT division (Jun, 2015)</option>
+	<option value=ddbj101inv synonym='ddbjinv'>DDBJ release 101.0, INV division (Jun, 2015)</option>
+	<option value=ddbj101pln synonym='ddbjpln'>DDBJ release 101.0, PLN division (Jun, 2015)</option>
+	<option value=ddbj101bct synonym='ddbjbct'>DDBJ release 101.0, BCT division (Jun, 2015)</option>
+	<option value=ddbj101vrl synonym='ddbjvrl'>DDBJ release 101.0, VRL division (Jun, 2015)</option>
+	<option value=ddbj101phg synonym='ddbjphg'>DDBJ release 101.0, PHG division (Jun, 2015)</option>
+	<option value=ddbj101pat synonym='ddbjpat'>DDBJ release 101.0, PAT division (Jun, 2015)</option>
+	<option value=ddbj101env synonym='ddbjenv'>DDBJ release 101.0, ENV division (Jun, 2015)</option>
+	<option value=ddbj101syn synonym='ddbjsyn'>DDBJ release 101.0, SYN division (Jun, 2015)</option>
+	<option value=ddbj101est synonym='ddbjest'>DDBJ release 101.0, EST division (Jun, 2015)</option>
+	<option value=ddbj101tsa synonym='ddbjtsa'>DDBJ release 101.0, TSA division (Jun, 2015)</option>
+	<option value=ddbj101gss synonym='ddbjgss'>DDBJ release 101.0, GSS division (Jun, 2015)</option>
+	<option value=ddbj101htc synonym='ddbjhtc'>DDBJ release 101.0, HTC division (Jun, 2015)</option>
+	<option value=ddbj101htg synonym='ddbjhtg'>DDBJ release 101.0, HTG division (Jun, 2015)</option>
+	<option value=ddbj101sts synonym='ddbjsts'>DDBJ release 101.0, STS division (Jun, 2015)</option>
+	<option value=ddbj101una synonym='ddbjuna'>DDBJ release 101.0, UNA division (Jun, 2015)</option>
+	<option value=ddbj       synonym=''>DDBJ release 92.0 (Feb, 2013)</option>
 </select>
 <br>
 Max number of mismatches/gaps: <input type=text name=k size=3 value=0>
@@ -1552,6 +1680,8 @@ set_strand() ;
 This page is licensed under a
 <a target='_blank' class=a href='http://creativecommons.org/licenses/by/2.1/jp/deed.en'>
 Creative Commons Attribution 2.1 Japan License</a>.</p>
+
+<script type='text/javascript' src='static/js/app.js' charset='utf-8'></script>
 
 </body>
 </html>
