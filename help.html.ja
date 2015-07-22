@@ -302,7 +302,7 @@ function set_strand(){
 <br>
 <input type=radio name=strand value='' checked>双方向を検索
 <input type=radio name=strand value='plus'>＋方向のみ検索
-<input type=radio name=strand value='minus'>−方向のみ検索
+<input type=radio name=strand value='minus'>－方向のみ検索
 </p>
 </form>
 
@@ -314,7 +314,7 @@ set_strand() ;
 //-->
 </script>
 
-<h5>検索例</h5>
+<h4>検索例</h4>
 
 <div>
 <ul>
@@ -324,7 +324,7 @@ set_strand() ;
 </ul>
 </div>
 
-<h5>ひとこと</h5>
+<h4>ひとこと</h4>
 
 <div>
 <ul>
@@ -352,7 +352,7 @@ set_strand() ;
 </ul>
 </div>
 
-<h5>動画による解説</h5>
+<h4>動画による解説</h4>
 
 <div>
 <ul>
@@ -364,7 +364,7 @@ set_strand() ;
 </ul>
 </div>
 
-<h5>検索結果へのリンク</h5>
+<h4>検索結果へのリンク</h4>
 
 <div>
 <ul>
@@ -377,8 +377,8 @@ set_strand() ;
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#FF6600'>db</span> &rarr;
-			hg19, mm10, rn5, calJac3, susScr3, galGal4, xenTro3, Xenla7, danRer7, ci2, dm3, ce10, TAIR10,<br>
-			rice, sorBic, bmor1, sacCer3, pombe, refseq71, hs_refseq70, mm_refseq70, prok, ddbj。省略時は hg19
+			hg19, mm10, dm3, ce10, TAIR10, pombe, refseq, etc. 省略時は hg19<br>
+			検索可能なデータベースは <a href='help.html#genomelist'>下記の一覧</a> を参照。
 		<li><span style='color:#0000FF'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
 		<li><span style='color:#9933FF'>strand</span> &rarr;
@@ -418,7 +418,9 @@ set_strand() ;
 </ul>
 </div>
 
-<h5>検索可能なデータベース一覧(ゲノム)</h5>
+<a name=genomelist></a>
+
+<h4>検索可能なデータベース一覧(ゲノム)</h4>
 
 <div>
 <table cellspacing=0 cellpadding=2 id=genomelist class=display>
@@ -1548,7 +1550,7 @@ set_strand() ;
 </table>
 </div>
 
-<h5>検索可能なデータベース一覧(ゲノム以外)</h5>
+<h4>検索可能なデータベース一覧(ゲノム以外)</h4>
 
 <div>
 <table cellspacing=0 cellpadding=2 id=otherlist class=display>
@@ -1719,7 +1721,7 @@ set_strand() ;
 </table>
 </div>
 
-<h5>文献</h5>
+<h4>文献</h4>
 
 <div>
 <ul>
@@ -1734,17 +1736,19 @@ set_strand() ;
 
 <a name=news></a>
 
-<h5>新着情報</h5>
+<h4>新着情報</h4>
 
 <div>
 <ul>
+	<li>2015-07-22 100種以上のゲノムを追加 -
+		<a href='help.html#genomelist'>検索可能なデータベース一覧</a>
 	<li>2015-07-22 RefSeq rel. 71 (Jul, 2015) を再公開。
 	<li>2015-07-16 データ不備のためRefSeq rel. 71の公開を一時的に停止。
 	<li>2015-07-15 RefSeq rel. 71 (Jul, 2015) に更新。
 	<li>2015-05-28 RefSeq rel. 70 (May, 2015) に更新。
 	<li>2015-03-18 検索の方向を限定するオブションを追加。
-	<li>2015-01-13 HTTPSによる暗号化通信に対応 - <a class=k
-	               href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
+	<li>2015-01-13 HTTPSによる暗号化通信に対応 -
+		<a href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
 	<li>2015-01-13 RefSeq rel. 69 (Jan, 2015) に更新。
 	<li>2014-11-23 RefSeq rel. 68 (Nov, 2014) に更新。
 	<li>2014-10-28 アフリカツメガエル、分裂酵母のゲノムを追加。
@@ -1761,7 +1765,7 @@ set_strand() ;
 	<li>2013-11-17 RefSeq rel. 62 (Nov, 2013) に更新。
 	<li>2013-10-02 TogoGenome from RefSeq 60 (Jul, 2013) に更新。
 	<li>2013-09-20 RefSeq rel. 61 (Sep, 2013) に更新。
-	<li>2013-08-19 活用事例：<a class=a target='_blank'
+	<li>2013-08-19 活用事例：<a target='_blank'
 		href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
 		-->Googleスプレッドシート上で配列検索</a> ができます。
 	<li>2013-07-28 RefSeq rel. 60 (Jul, 2013) に更新。
@@ -1771,10 +1775,10 @@ set_strand() ;
 	<li>2013-03-28 RefSeq rel. 58 (Mar, 2013) に更新。
 	<li>2013-02-26 検索結果のダウンロードに対応。
 	<li>2013-02-12 カイコゲノムを追加。
-	<li>2013-02-08 <a class=a href='en/'>英語版</a> を公開。
+	<li>2013-02-08 <a href='en/'>英語版</a> を公開。
 	<li>2013-02-08 イネゲノムを追加。
 	<li>2013-02-06 ソースを公開 -
-		<a class=a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>
 	<li>2013-01-16 RefSeq rel. 57 (Jan, 2013) に更新。
 	<li>2012-12-21 GGGenome REST APIを公開。
 	<li>2012-12-21 ラット、ショウジョウバエ、線虫のゲノムを追加。

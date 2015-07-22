@@ -4,29 +4,14 @@ Query format:
 
 http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/SEQUENCE[.FORMAT][.download]
   DB (optional):
-    'hg19'        - Human genome, GRCh37/hg19 (Feb, 2009) or
-    'mm10'        - Mouse genome, GRCm38/mm10 (Dec, 2011) or
-    'rn5'         - Rat genome, RGSC 5.0/rn5 (Mar, 2012) or
-    'calJac3'     - Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009) or
-    'susScr3'     - Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011) or
-    'galGal4'     - Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011) or
-    'xenTro3'     - Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009) or
-    'Xenla7'      - Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013) or
-    'danRer7'     - Zebrafish genome, Zv9/danRer7 (Jul, 2010) or
-    'ci2'         - Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005) or
-    'dm3'         - Drosophila genome, BDGP R5/dm3 (Apr, 2006) or
-    'ce10'        - C. elegans genome, WS220/ce10 (Oct, 2010) or
-    'TAIR10'      - Arabidopsis thaliana genome, TAIR10 (Nov, 2010) or
-    'rice'        - Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011) or
-    'sorBic'      - Sorghum genome, Sorghum bicolor v2.1 (May, 2013) or
-    'bmor1'       - Silkworm genome, Bmor1 (Apr, 2008) or
-    'sacCer3'     - S. cerevisiae (S288C) genome, sacCer3 (Apr, 2011) or
-    'pombe'       - S. pombe (972h-) genome, ASM294v2 (Nov, 2007) or
-    'refseq71'    - RefSeq complete RNA release 71 (Jul, 2015) or
-    'hs_refseq70' - RefSeq human RNA release 70 (May, 2015) or
-    'mm_refseq70' - RefSeq mouse RNA release 70 (May, 2015) or
-    'prok'        - Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013) or
-    'ddbj'        - DDBJ release 92.0 (Feb, 2013)
+    'hg19'   - Human genome, GRCh37/hg19 (Feb, 2009)
+    'mm10'   - Mouse genome, GRCm38/mm10 (Dec, 2011)
+    'dm3'    - Drosophila genome, BDGP R5/dm3 (Apr, 2006)
+    'ce10'   - C. elegans genome, WS220/ce10 (Oct, 2010)
+    'TAIR10' - Arabidopsis thaliana genome, TAIR10 (Nov, 2010)
+    'pombe'  - S. pombe (972h-) genome, ASM294v2 (Nov, 2007)
+    'refseq' - RefSeq complete RNA, latest release
+    *** List of available databases: http://GGGenome.dbcls.jp/help.html ***
     Default: hg19
   K (optional):
     Maximum number of mismatches/gaps.

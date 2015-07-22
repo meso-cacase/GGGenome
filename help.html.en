@@ -315,7 +315,7 @@ set_strand() ;
 //-->
 </script>
 
-<h5>Search example</h5>
+<h4>Search example</h4>
 
 <div>
 <ul>
@@ -325,7 +325,7 @@ set_strand() ;
 </ul>
 </div>
 
-<h5>Search tips</h5>
+<h4>Search tips</h4>
 
 <div>
 <ul>
@@ -353,7 +353,7 @@ set_strand() ;
 </ul>
 </div>
 
-<h5>Tutorial video introducing GGGenome</h5>
+<h4>Tutorial video introducing GGGenome</h4>
 
 <div>
 <ul>
@@ -365,7 +365,7 @@ set_strand() ;
 </ul>
 </div>
 
-<h5>URIs</h5>
+<h4>URIs</h4>
 
 <div>
 <ul>
@@ -378,8 +378,8 @@ set_strand() ;
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#FF6600'>db</span>:
-			hg19, mm10, rn5, calJac3, susScr3, galGal4, xenTro3, Xenla7, danRer7, ci2, dm3, ce10, TAIR10,<br>
-			rice, sorBic, bmor1, sacCer3, pombe, refseq71, hs_refseq70, mm_refseq70, prok, ddbj. (default: hg19)
+			hg19, mm10, dm3, ce10, TAIR10, pombe, refseq, etc. (default: hg19)<br>
+			<a href='help.html#genomelist'>Full list of databases is available below.</a>
 		<li><span style='color:#0000FF'>k</span>:
 			Maximum number of mismatches/gaps. (default: 0)
 		<li><span style='color:#9933FF'>strand</span>:
@@ -419,7 +419,9 @@ set_strand() ;
 </ul>
 </div>
 
-<h5>List of databases (Genome)</h5>
+<a name=genomelist></a>
+
+<h4>List of databases (Genome)</h4>
 
 <div>
 <table cellspacing=0 cellpadding=2 id=genomelist class=display>
@@ -1437,7 +1439,7 @@ set_strand() ;
 </table>
 </div>
 
-<h5>List of databases (Others)</h5>
+<h4>List of databases (Others)</h4>
 
 <div>
 <table cellspacing=0 cellpadding=2 id=otherlist class=display>
@@ -1608,7 +1610,7 @@ set_strand() ;
 </table>
 </div>
 
-<h5>Reference</h5>
+<h4>Reference</h4>
 
 <div>
 <ul>
@@ -1620,17 +1622,19 @@ set_strand() ;
 
 <a name=news></a>
 
-<h5>What's new</h5>
+<h4>What's new</h4>
 
 <div>
 <ul>
+	<li>2015-07-22 100+ genome databases are added -
+		<a href='help.html#genomelist'>List of databases</a>
 	<li>2015-07-22 Re-installed RefSeq rel. 71 (Jul, 2015).
 	<li>2015-07-16 Suspended RefSeq rel. 71 due to a data error.
 	<li>2015-07-15 Database updated to RefSeq rel. 71 (Jul, 2015).
 	<li>2015-05-28 Database updated to RefSeq rel. 70 (May, 2015).
 	<li>2015-03-18 Parameter for searching specific strand is supported.
-	<li>2015-01-13 HTTPS encrypted connection supported - <a class=k
-	               href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
+	<li>2015-01-13 HTTPS encrypted connection supported -
+		<a href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
 	<li>2015-01-13 Database updated to RefSeq rel. 69 (Jan, 2015).
 	<li>2014-11-23 Database updated to RefSeq rel. 68 (Nov, 2014).
 	<li>2014-10-28 <i>X. laevis</i> and <i>S. pombe</i> genomes are available.
@@ -1647,7 +1651,7 @@ set_strand() ;
 	<li>2013-11-17 Database updated to RefSeq rel. 62 (Nov, 2013).
 	<li>2013-10-02 Database updated to TogoGenome from RefSeq 60 (Jul, 2013).
 	<li>2013-09-20 Database updated to RefSeq rel. 61 (Sep, 2013).
-	<li>2013-08-19 Tips: <a class=a target='_blank'
+	<li>2013-08-19 Tips: <a target='_blank'
 		href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
 		-->GGGenome search using Google Spreadsheet</a>.
 	<li>2013-07-28 Database updated to RefSeq rel. 60 (Jul, 2013).
@@ -1661,7 +1665,7 @@ set_strand() ;
 	<li>2013-02-08 English page has launched.
 	<li>2013-02-08 Rice genome is available.
 	<li>2013-02-06 Source code available via
-		<a class=a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>.
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>.
 	<li>2013-01-16 Database updated to RefSeq rel. 57 (Jan, 2013).
 	<li>2012-12-21 GGGenome REST API is available.
 	<li>2012-12-21 Rat, <i>Drosophila</i> and <i>C. elegans</i> genomes are available.
