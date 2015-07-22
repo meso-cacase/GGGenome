@@ -76,7 +76,7 @@ GGGenome《ゲゲゲノム》
                   (http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)  
   'pombe'       - 分裂酵母ゲノム [ASM294v2 (Nov, 2007)]
                   (ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz)  
-  'refseq70'    - [RefSeq complete RNA release 70 (May, 2015)]
+  'refseq71'    - [RefSeq complete RNA release 71 (Jul, 2015)]
                   (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
   'hs_refseq70' - [RefSeq human RNA release 70 (May, 2015)]
                   (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
