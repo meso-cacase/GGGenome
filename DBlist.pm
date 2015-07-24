@@ -121,27 +121,27 @@ rice     	172.18.8.70	42293	    	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 
 sorBic   	172.18.8.70	42403	    	Sorghum genome, Sorghum bicolor v2.1 (May, 2013)	Sorghum bicolor
 bmor1    	172.18.8.70	42303	Ensembl	Silkworm genome, Bmor1 (Apr, 2008)	Bombyx mori
 pombe    	172.18.8.70	42453	Ensembl	S. pombe (972h-) genome, ASM294v2 (Nov, 2007)	Schizosaccharomyces pombe
-hs_refseq	172.18.8.70	42393	RefSeq	RefSeq human RNA release 60 (Jul, 2013)	Homo sapiens
-mm_refseq	172.18.8.70	42433	RefSeq	RefSeq mouse RNA release 60 (Jul, 2013)	Mus musculus
 prok     	172.18.8.70	42323	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)	
 ddbj     	172.18.8.70	42313	DDBJ	DDBJ release 92.0 (Feb, 2013)	
-Ppatens_251_v3       	172.18.8.77	42013	Phytozome	Physcomitrella patens genome v3.0 (Oct, 2007)	Physcomitrella patens
-Smoellendorffii_91_v1	172.18.8.77	42023	Phytozome	Selaginella moellendorffii genome v1.0 (Dec, 2007)	Selaginella moellendorffii
-Creinhardtii_281_v5_5	172.18.8.77	42033	Phytozome	Chlamydomonas reinhardtii genome v5.5 (May, 2014)	Chlamydomonas reinhardtii
-Olucimarinus_231_v2  	172.18.8.77	42043	Phytozome	Ostreococcus lucimarinus genome v2.0 (Jan, 2011)	Ostreococcus lucimarinus
 Xentr7               	172.18.8.77	43013	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 7.1	Xenopus tropicalis
 Xentr8               	172.18.8.77	43023	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 8.0	Xenopus tropicalis
 ASM15162v1           	172.18.8.77	43033	Ensembl  	Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)	Bombyx mori
 macaque_CE_1         	172.18.8.77	43043	         	Crab-eating macaque genome, CE_1.0 (Jul, 2011)	Macaca fascicularis
 macaque_CE_1_cds     	172.18.8.77	43053	         	Crab-eating macaque CDS, CE_1.0 (Jul, 2011)	Macaca fascicularis
-hg19_pre_mRNA        	172.18.8.77	50013	         	Human pre mRNA, Bits DB (Dec, 2014)	Homo sapiens
-mm10_pre_mRNA        	172.18.8.77	50023	         	Mouse pre mRNA, Bits DB (Dec, 2014)	Mus musculus
-hg19_pre_mRNA_v2     	172.18.8.77	50033	         	Human pre mRNA, Bits DB v2 (Feb, 2015)	Homo sapiens
-mm10_pre_mRNA_v2     	172.18.8.77	50043	         	Mouse pre mRNA, Bits DB v2 (Feb, 2015)	Mus musculus
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
-refseq70             	172.18.8.76	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
-refseq71             	172.18.8.76	60013	RefSeq   	RefSeq complete RNA release 71 (Jul, 2015)	
-refseq               	172.18.8.76	60013	RefSeq   	RefSeq complete RNA release 71 (Jul, 2015)	
+Ppatens_251_v3       	172.18.8.74	42013	Phytozome	Physcomitrella patens genome v3.0 (Oct, 2007)	Physcomitrella patens
+Smoellendorffii_91_v1	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome v1.0 (Dec, 2007)	Selaginella moellendorffii
+Creinhardtii_281_v5_5	172.18.8.74	42033	Phytozome	Chlamydomonas reinhardtii genome v5.5 (May, 2014)	Chlamydomonas reinhardtii
+Olucimarinus_231_v2  	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus genome v2.0 (Jan, 2011)	Ostreococcus lucimarinus
+refseq70             	172.18.8.74	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
+refseq71             	172.18.8.74	60013	RefSeq   	RefSeq complete RNA release 71 (Jul, 2015)	
+refseq               	172.18.8.74	60013	RefSeq   	RefSeq complete RNA release 71 (Jul, 2015)	
+hs_refseq            	172.18.8.75	42393	RefSeq   	RefSeq human RNA release 60 (Jul, 2013)	Homo sapiens
+mm_refseq            	172.18.8.75	42433	RefSeq   	RefSeq mouse RNA release 60 (Jul, 2013)	Mus musculus
+hg19_pre_mRNA        	172.18.8.75	50013	         	Human pre mRNA, Bits DB (Dec, 2014)	Homo sapiens
+mm10_pre_mRNA        	172.18.8.75	50023	         	Mouse pre mRNA, Bits DB (Dec, 2014)	Mus musculus
+hg19_pre_mRNA_v2     	172.18.8.75	50033	         	Human pre mRNA, Bits DB v2 (Feb, 2015)	Homo sapiens
+mm10_pre_mRNA_v2     	172.18.8.75	50043	         	Mouse pre mRNA, Bits DB v2 (Feb, 2015)	Mus musculus
 hs_refseq70          	172.18.8.75	50063	RefSeq   	RefSeq human RNA release 70 (May, 2015)	Homo sapiens
 mm_refseq70          	172.18.8.75	50073	RefSeq   	RefSeq mouse RNA release 70 (May, 2015)	Mus musculus
 hs_pre_mRNA_201505   	172.18.8.75	50083	         	Human pre mRNA, refseq70-hg19 (May, 2015)	Homo sapiens
