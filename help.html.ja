@@ -5,12 +5,17 @@
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
 <meta http-equiv='Content-Script-Type' content='text/javascript'>
 <meta http-equiv='Content-Style-Type' content='text/css'>
-<link rel='stylesheet' href='//cdn.sencha.com/ext/gpl/4.2.1/resources/css/ext-all-gray.css' type='text/css' media='all' charset='UTF-8'>
+<link rel='stylesheet' href='//cdn.sencha.com/ext/gpl/4.2.1/resources/css/ext-all-neptune.css' type='text/css' media='all' charset='UTF-8'>
 <link rel='stylesheet' href='static/css/style.css' type='text/css' media='all' charset='UTF-8'>
 <script type='text/javascript' src='//cdn.sencha.com/ext/gpl/4.2.1/ext-all.js' charset='utf-8'></script>
 <script type='text/javascript' src='//cdn.sencha.com/ext/gpl/4.2.1/locale/ext-lang-ja.js' charset='utf-8'></script>
 <meta name=author content='Yuki Naito'>
 <title>超絶高速ゲノム配列検索GGGenome</title>
+<!-- javascriptによる再描画前の画面が一瞬表示されるのを防止 -->
+<style type='text/css'>body { visibility: hidden }</style>
+<noscript>
+<style type='text/css'>body { visibility: visible }</style>
+</noscript>
 <!-- DataTables CSS -->
 <link rel='stylesheet' type='text/css'
 	href='//cdn.datatables.net/1.10.7/css/jquery.dataTables.css'>
@@ -134,7 +139,7 @@ function set_strand(){
 </style>
 </head>
 
-<body>
+<body style='background:white'>
 
 <a href='.'><img src='GGGlogo_ja.png' alt='GGGenome' height=71 width=257 border=0></a>
 
@@ -1805,7 +1810,15 @@ This page is licensed under a
 <a target='_blank' class=a href='http://creativecommons.org/licenses/by/2.1/jp/'>
 Creative Commons Attribution 2.1 Japan License</a>.</p>
 
+<!-- ページャおよび生物種選択メニュー -->
 <script type='text/javascript' src='static/js/app.js' charset='utf-8'></script>
+<!-- javascriptによる再描画前の画面が一瞬表示されるのを防止 -->
+<script type='text/javascript'>
+<!--
+var body = document.getElementsByTagName('body').item(0);
+body.style.visibility = 'visible';
+//-->
+</script>
 
 </body>
 </html>
