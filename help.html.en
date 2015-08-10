@@ -234,25 +234,25 @@ function set_strand(){
 	<option value='strPur2' synonym='Strongylocentrotus purpuratus'>S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)</option>
 	<option value='anoGam1' synonym='Anopheles gambiae'>A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)</option>
 	<option value='apiMel2' synonym='Apis mellifera'>A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)</option>
-	<option value='droAna2' synonym='Drosophila ananassae'>D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)</option>
-	<option value='droEre1' synonym='Drosophila erecta'>D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)</option>
-	<option value='droGri1' synonym='Drosophila grimshawi'>D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)</option>
-	<option value='dm6'     synonym='Drosophila melanogaster'>D. melanogaster genome, BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)</option>
-	<option value='dm3'     synonym='Drosophila melanogaster'>Drosophila melanogaster genome, BDGP R5/dm3 (Apr, 2006)</option>
-	<option value='droMoj2' synonym='Drosophila mojavensis'>D. mojavensis genome, Agencourt prelim/droMoj2 (Aug, 2005)</option>
-	<option value='droPer1' synonym='Drosophila persimilis'>D. persimilis genome, Broad/droPer1 (Oct, 2005)</option>
-	<option value='dp3'     synonym='Drosophila pseudoobscura'>D. pseudoobscura genome, FlyBase 1.03/dp3 (Nov, 2004)</option>
-	<option value='droSec1' synonym='Drosophila sechellia'>D. sechellia genome, Broad/droSec1 (Oct, 2005)</option>
-	<option value='droSim1' synonym='Drosophila simulans'>D. simulans genome, WUGSC mosaic 1.0/droSim1 (Apr, 2005)</option>
-	<option value='droVir2' synonym='Drosophila virilis'>D. virilis genome, Agencourt prelim/droVir2 (Aug, 2005)</option>
-	<option value='droYak2' synonym='Drosophila yakuba'>D. yakuba genome, WUGSC 7.1/droYak2 (Nov, 2005)</option>
-	<option value='caePb2'  synonym='Caenorhabditis brenneri'>C. brenneri genome, WUGSC 6.0.1/caePb2 (Feb, 2008)</option>
-	<option value='cb3'     synonym='Caenorhabditis briggsae'>C. briggsae genome, WUGSC 1.0/cb3 (Jan, 2007)</option>
-	<option value='ce10'    synonym='Caenorhabditis elegans'>C. elegans genome, WS220/ce10 (Oct, 2010)</option>
-	<option value='caeJap1' synonym='Caenorhabditis japonica'>C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)</option>
-	<option value='caeRem3' synonym='Caenorhabditis remanei'>C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)</option>
+	<option value='droAna2' synonym='Drosophila ananassae;fly'>D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)</option>
+	<option value='droEre1' synonym='Drosophila erecta;fly'>D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)</option>
+	<option value='droGri1' synonym='Drosophila grimshawi;fly'>D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)</option>
+	<option value='dm6'     synonym='Drosophila melanogaster;fly'>D. melanogaster genome, BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)</option>
+	<option value='dm3'     synonym='Drosophila melanogaster;fly'>Drosophila melanogaster genome, BDGP R5/dm3 (Apr, 2006)</option>
+	<option value='droMoj2' synonym='Drosophila mojavensis;fly'>D. mojavensis genome, Agencourt prelim/droMoj2 (Aug, 2005)</option>
+	<option value='droPer1' synonym='Drosophila persimilis;fly'>D. persimilis genome, Broad/droPer1 (Oct, 2005)</option>
+	<option value='dp3'     synonym='Drosophila pseudoobscura;fly'>D. pseudoobscura genome, FlyBase 1.03/dp3 (Nov, 2004)</option>
+	<option value='droSec1' synonym='Drosophila sechellia;fly'>D. sechellia genome, Broad/droSec1 (Oct, 2005)</option>
+	<option value='droSim1' synonym='Drosophila simulans;fly'>D. simulans genome, WUGSC mosaic 1.0/droSim1 (Apr, 2005)</option>
+	<option value='droVir2' synonym='Drosophila virilis;fly'>D. virilis genome, Agencourt prelim/droVir2 (Aug, 2005)</option>
+	<option value='droYak2' synonym='Drosophila yakuba;fly'>D. yakuba genome, WUGSC 7.1/droYak2 (Nov, 2005)</option>
+	<option value='caePb2'  synonym='Caenorhabditis brenneri;worm'>C. brenneri genome, WUGSC 6.0.1/caePb2 (Feb, 2008)</option>
+	<option value='cb3'     synonym='Caenorhabditis briggsae;worm'>C. briggsae genome, WUGSC 1.0/cb3 (Jan, 2007)</option>
+	<option value='ce10'    synonym='Caenorhabditis elegans;worm'>C. elegans genome, WS220/ce10 (Oct, 2010)</option>
+	<option value='caeJap1' synonym='Caenorhabditis japonica;worm'>C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)</option>
+	<option value='caeRem3' synonym='Caenorhabditis remanei;worm'>C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)</option>
 	<option value='priPac1' synonym='Pristionchus pacificus'>P. pacificus genome, WUGSC 5.0/priPac1 (Feb, 2007)</option>
-	<option value='sacCer3' synonym='Saccharomyces cerevisiae'>S. cerevisiae (S288C) genome, SacCer_Apr2011/sacCer3 (Apr, 2011)</option>
+	<option value='sacCer3' synonym='Saccharomyces cerevisiae;budding yeast'>S. cerevisiae (S288C) genome, SacCer_Apr2011/sacCer3 (Apr, 2011)</option>
 	<option value='aplCal1' synonym='Aplysia californica'>Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)</option>
 
 	<option value='macaque_CE_1' synonym='Macaca fascicularis'>Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
@@ -1131,7 +1131,7 @@ set_strand() ;
 	<td><a href='/droAna2/'>droAna2</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. ananassae
+	<td>D. ananassae (fly)
 	<td>Drosophila ananassae
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droAna2'><!--
 		-->Agencourt prelim/droAna2 (Aug, 2005)</a>
@@ -1140,7 +1140,7 @@ set_strand() ;
 	<td><a href='/droEre1/'>droEre1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. erecta
+	<td>D. erecta (fly)
 	<td>Drosophila erecta
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droEre1'><!--
 		-->Agencourt prelim/droEre1 (Aug, 2005)</a>
@@ -1149,7 +1149,7 @@ set_strand() ;
 	<td><a href='/droGri1/'>droGri1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. grimshawi
+	<td>D. grimshawi (fly)
 	<td>Drosophila grimshawi
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droGri1'><!--
 		-->Agencourt prelim/droGri1 (Aug, 2005)</a>
@@ -1158,7 +1158,7 @@ set_strand() ;
 	<td><a href='/dm6/'>dm6</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. melanogaster
+	<td>D. melanogaster (fly)
 	<td>Drosophila melanogaster
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dm6'><!--
 		-->BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)</a>
@@ -1167,7 +1167,7 @@ set_strand() ;
 	<td><a href='/dm3/'>dm3</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. melanogaster
+	<td>D. melanogaster (fly)
 	<td>Drosophila melanogaster
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dm3'><!--
 		-->BDGP R5/dm3 (Apr, 2006)</a>
@@ -1176,7 +1176,7 @@ set_strand() ;
 	<td><a href='/droMoj2/'>droMoj2</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. mojavensis
+	<td>D. mojavensis (fly)
 	<td>Drosophila mojavensis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droMoj2'><!--
 		-->Agencourt prelim/droMoj2 (Aug, 2005)</a>
@@ -1185,7 +1185,7 @@ set_strand() ;
 	<td><a href='/droPer1/'>droPer1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. persimilis
+	<td>D. persimilis (fly)
 	<td>Drosophila persimilis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droPer1'><!--
 		-->Broad/droPer1 (Oct, 2005)</a>
@@ -1194,7 +1194,7 @@ set_strand() ;
 	<td><a href='/dp3/'>dp3</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. pseudoobscura
+	<td>D. pseudoobscura (fly)
 	<td>Drosophila pseudoobscura
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dp3'><!--
 		-->FlyBase 1.03/dp3 (Nov, 2004)</a>
@@ -1203,7 +1203,7 @@ set_strand() ;
 	<td><a href='/droSec1/'>droSec1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. sechellia
+	<td>D. sechellia (fly)
 	<td>Drosophila sechellia
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droSec1'><!--
 		-->Broad/droSec1 (Oct, 2005)</a>
@@ -1212,7 +1212,7 @@ set_strand() ;
 	<td><a href='/droSim1/'>droSim1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. simulans
+	<td>D. simulans (fly)
 	<td>Drosophila simulans
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droSim1'><!--
 		-->WUGSC mosaic 1.0/droSim1 (Apr, 2005)</a>
@@ -1221,7 +1221,7 @@ set_strand() ;
 	<td><a href='/droVir2/'>droVir2</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. virilis
+	<td>D. virilis (fly)
 	<td>Drosophila virilis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droVir2'><!--
 		-->Agencourt prelim/droVir2 (Aug, 2005)</a>
@@ -1230,7 +1230,7 @@ set_strand() ;
 	<td><a href='/droYak2/'>droYak2</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. yakuba
+	<td>D. yakuba (fly)
 	<td>Drosophila yakuba
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droYak2'><!--
 		-->WUGSC 7.1/droYak2 (Nov, 2005)</a>
@@ -1239,7 +1239,7 @@ set_strand() ;
 	<td><a href='/caePb2/'>caePb2</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. brenneri
+	<td>C. brenneri (worm)
 	<td>Caenorhabditis brenneri
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caePb2'><!--
 		-->WUGSC 6.0.1/caePb2 (Feb, 2008)</a>
@@ -1248,7 +1248,7 @@ set_strand() ;
 	<td><a href='/cb3/'>cb3</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. briggsae
+	<td>C. briggsae (worm)
 	<td>Caenorhabditis briggsae
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cb3'><!--
 		-->WUGSC 1.0/cb3 (Jan, 2007)</a>
@@ -1257,7 +1257,7 @@ set_strand() ;
 	<td><a href='/ce10/'>ce10</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. elegans
+	<td>C. elegans (worm)
 	<td>Caenorhabditis elegans
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ce10'><!--
 		-->WS220/ce10 (Oct, 2010)</a>
@@ -1266,7 +1266,7 @@ set_strand() ;
 	<td><a href='/caeJap1/'>caeJap1</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. japonica
+	<td>C. japonica (worm)
 	<td>Caenorhabditis japonica
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caeJap1'><!--
 		-->WUGSC 3.0.2/caeJap1 (Mar, 2008)</a>
@@ -1275,7 +1275,7 @@ set_strand() ;
 	<td><a href='/caeRem3/'>caeRem3</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. remanei
+	<td>C. remanei (worm)
 	<td>Caenorhabditis remanei
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caeRem3'><!--
 		-->WUGSC 15.0.1/caeRem3 (May, 2007)</a>
@@ -1293,7 +1293,7 @@ set_strand() ;
 	<td><a href='/sacCer3/'>sacCer3</a>
 	<td>UCSC
 	<td>Other
-	<td>S. cerevisiae
+	<td>Budding yeast
 	<td>Saccharomyces cerevisiae
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=sacCer3'><!--
 		-->SacCer_Apr2011/sacCer3 (Apr, 2011)</a>

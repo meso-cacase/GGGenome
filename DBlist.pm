@@ -111,7 +111,7 @@ ce10     	172.18.8.76	40903	UCSC	C. elegans genome, WS220/ce10 (Oct, 2010)	Caeno
 caeJap1  	172.18.8.76	40913	UCSC	C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)	Caenorhabditis japonica;worm
 caeRem3  	172.18.8.76	40923	UCSC	C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)	Caenorhabditis remanei;worm
 priPac1  	172.18.8.76	40933	UCSC	P. pacificus genome, WUGSC 5.0/priPac1 (Feb, 2007)	Pristionchus pacificus
-sacCer3  	172.18.8.76	40943	UCSC	S. cerevisiae (S288C) genome, SacCer_Apr2011/sacCer3 (Apr, 2011)	Saccharomyces cerevisiae
+sacCer3  	172.18.8.76	40943	UCSC	S. cerevisiae (S288C) genome, SacCer_Apr2011/sacCer3 (Apr, 2011)	Saccharomyces cerevisiae;budding yeast
 aplCal1  	172.18.8.76	40953	UCSC	Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)	Aplysia californica
 eboVir3  	172.18.8.76	40963	UCSC	Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)	Filoviridae ebolavirus
 hg18     	172.18.8.76	40973	UCSC	Human genome, NCBI36/hg18 (Mar, 2006)	Homo sapiens
