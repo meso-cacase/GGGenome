@@ -148,6 +148,10 @@ hs_pre_mRNA_201505   	172.18.8.75	50083	         	Human pre mRNA, refseq70-hg19 
 mm_pre_mRNA_201505   	172.18.8.75	50093	         	Mouse pre mRNA, refseq70-mm10 (May, 2015)	Mus musculus
 hs_pre_mRNA_nr_201505	172.18.8.75	50103	         	Human non-redundant pre mRNA, refseq70-hg19 (May, 2015)	Homo sapiens
 mm_pre_mRNA_nr_201505	172.18.8.75	50113	         	Mouse non-redundant pre mRNA, refseq70-mm10 (May, 2015)	Mus musculus
+hsnm_refseq70        	172.18.8.75	50123	RefSeq   	RefSeq human RNA (NM/NR) release 70 (May, 2015)	Homo sapiens
+hsxm_refseq70        	172.18.8.75	50133	RefSeq   	RefSeq human RNA (XM/XR) release 70 (May, 2015)	Homo sapiens
+mmnm_refseq70        	172.18.8.75	50143	RefSeq   	RefSeq mouse RNA (NM/NR) release 70 (May, 2015)	Mus musculus
+mmxm_refseq70        	172.18.8.75	50153	RefSeq   	RefSeq mouse RNA (XM/XR) release 70 (May, 2015)	Mus musculus
 ddbj101hum           	172.18.8.71	61023	DDBJ     	DDBJ release 101.0, HUM division (Jun, 2015)	ddbjhum
 ddbj101pri           	172.18.8.71	61033	DDBJ     	DDBJ release 101.0, PRI division (Jun, 2015)	ddbjpri
 ddbj101rod           	172.18.8.71	61043	DDBJ     	DDBJ release 101.0, ROD division (Jun, 2015)	ddbjrod
