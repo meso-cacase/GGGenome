@@ -950,6 +950,14 @@ my $db      = $_[3] // '' ;
 	       "Blastx_protein%2C"      .
 	       "Blatx_Plant_protein%2C" .
 	       "GeneExpression_GeneAtlas0_1'>$name:$pos-$pos_end</a>" :
+($db eq 'ASM15162v1' and $name =~ s/\s.*//) ?
+	return "<a class=a target='_blank' href='" .
+	       "http://metazoa.ensembl.org/Bombyx_mori/Location/View?" .
+	       "r=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
+($db eq 'Tcas3' and $name =~ s/\s.*//) ?
+	return "<a class=a target='_blank' href='" .
+	       "http://metazoa.ensembl.org/Tribolium_castaneum/Location/View?" .
+	       "r=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'Xenla7') ?
 	return "<a class=a target='_blank' href='" .
 	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xl7_1/?" .
@@ -1011,7 +1019,7 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
-# それ以外の場合 (bmor1, ASM15162v1)
+# それ以外の場合
 	return "$name<br>\n\t" .
 	       "position: $pos-$pos_end\n" ;
 } ;
