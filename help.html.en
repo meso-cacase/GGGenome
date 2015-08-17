@@ -259,7 +259,7 @@ function set_strand(){
 	<option value='bmor1'   synonym='Bombyx mori'>Silkworm genome, Bmor1 (Apr, 2008)</option>
 	<option value='ASM15162v1' synonym='Bombyx mori'>Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)</option>
 	<option value='Tcas3'   synonym='Tribolium castaneum;red flour beetle'>Tribolium castaneum genome, Tcas3 (Feb, 2010)</option>
-	<option value='pombe'   synonym='Schizosaccharomyces pombe'>S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
+	<option value='pombe'   synonym='Schizosaccharomyces pombe;fission yeast'>S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 
 	<option value='TAIR10'  synonym='Arabidopsis thaliana'>Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
 	<option value='rice'    synonym='Oryza sativa'>Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
