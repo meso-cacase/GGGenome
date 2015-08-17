@@ -1233,6 +1233,7 @@ my $select = <<"--EOS--" ;
 	<option value=\'macaque_CE_1\' synonym=\'$db_synonym{'macaque_CE_1'}\'>$db_fullname{'macaque_CE_1'}</option>
 	<option value=\'bmor1\'   synonym=\'$db_synonym{'bmor1'  }\'>$db_fullname{'bmor1'  }</option>
 	<option value=\'ASM15162v1\' synonym=\'$db_synonym{'ASM15162v1'}\'>$db_fullname{'ASM15162v1'}</option>
+	<option value=\'Tcas3\'   synonym=\'$db_synonym{'Tcas3'  }\'>$db_fullname{'Tcas3'  }</option>
 	<option value=\'pombe\'   synonym=\'$db_synonym{'pombe'  }\'>$db_fullname{'pombe'  }</option>
 
 	<option value=\'TAIR10\'  synonym=\'$db_synonym{'TAIR10' }\'>$db_fullname{'TAIR10' }</option>
@@ -1475,6 +1476,7 @@ my $select = <<"--EOS--" ;
 	<option value=\'macaque_CE_1\' synonym=\'$db_synonym{'macaque_CE_1'}\'>$db_fullname{'macaque_CE_1'}</option>
 	<option value=\'bmor1\'   synonym=\'$db_synonym{'bmor1'  }\'>$db_fullname{'bmor1'  }</option>
 	<option value=\'ASM15162v1\' synonym=\'$db_synonym{'ASM15162v1'}\'>$db_fullname{'ASM15162v1'}</option>
+	<option value=\'Tcas3\'   synonym=\'$db_synonym{'Tcas3'  }\'>$db_fullname{'Tcas3'  }</option>
 	<option value=\'pombe\'   synonym=\'$db_synonym{'pombe'  }\'>$db_fullname{'pombe'  }</option>
 
 	<option value=\'TAIR10\'  synonym=\'$db_synonym{'TAIR10' }\'>$db_fullname{'TAIR10' }</option>

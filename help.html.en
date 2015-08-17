@@ -258,6 +258,7 @@ function set_strand(){
 	<option value='macaque_CE_1' synonym='Macaca fascicularis'>Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
 	<option value='bmor1'   synonym='Bombyx mori'>Silkworm genome, Bmor1 (Apr, 2008)</option>
 	<option value='ASM15162v1' synonym='Bombyx mori'>Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)</option>
+	<option value='Tcas3'   synonym='Tribolium castaneum;red flour beetle'>Tribolium castaneum genome, Tcas3 (Feb, 2010)</option>
 	<option value='pombe'   synonym='Schizosaccharomyces pombe'>S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 
 	<option value='TAIR10'  synonym='Arabidopsis thaliana'>Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
@@ -1414,6 +1415,15 @@ set_strand() ;
 	<td>Bombyx mori
 	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/'><!--
 		-->Bmor1 (Apr, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/Tcas3/'>Tcas3</a>
+	<td>Ensembl
+	<td>Insect
+	<td>Red flour beetle
+	<td>Tribolium castaneum
+	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-28/fasta/tribolium_castaneum/dna/'><!--
+		-->Tcas3 (Feb, 2010)</a>
 </tr>
 <tr>
 	<td><a href='/ASM15162v1/'>ASM15162v1</a>
