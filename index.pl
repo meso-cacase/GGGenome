@@ -990,7 +990,7 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "http://genomebrowser.pombase.org/Schizosaccharomyces_pombe/Location/View?" .
 	       "r=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
-($db =~ /^(hs_|mm_)?refseq\d*$/ and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
+($db =~ /refseq/ and $name =~ /^gi\|\d+\|ref\|(.*?)\|(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
