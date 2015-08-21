@@ -153,6 +153,9 @@ hsnm_refseq70        	172.18.8.75	50123	RefSeq   	RefSeq human RNA (NM/NR) relea
 hsxm_refseq70        	172.18.8.75	50133	RefSeq   	RefSeq human RNA (XM/XR) release 70 (May, 2015)	Homo sapiens
 mmnm_refseq70        	172.18.8.75	50143	RefSeq   	RefSeq mouse RNA (NM/NR) release 70 (May, 2015)	Mus musculus
 mmxm_refseq70        	172.18.8.75	50153	RefSeq   	RefSeq mouse RNA (XM/XR) release 70 (May, 2015)	Mus musculus
+rn_refseq70          	172.18.8.75	50163	RefSeq   	RefSeq rat RNA release 70 (May, 2015)	Rattus norvegicus
+rnnm_refseq70        	172.18.8.75	50173	RefSeq   	RefSeq rat RNA (NM/NR) release 70 (May, 2015)	Rattus norvegicus
+rnxm_refseq70        	172.18.8.75	50183	RefSeq   	RefSeq rat RNA (XM/XR) release 70 (May, 2015)	Rattus norvegicus
 ddbj101hum           	172.18.8.71	61023	DDBJ     	DDBJ release 101.0, HUM division (Jun, 2015)	ddbjhum
 ddbj101pri           	172.18.8.71	61033	DDBJ     	DDBJ release 101.0, PRI division (Jun, 2015)	ddbjpri
 ddbj101rod           	172.18.8.71	61043	DDBJ     	DDBJ release 101.0, ROD division (Jun, 2015)	ddbjrod
