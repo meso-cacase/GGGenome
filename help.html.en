@@ -145,9 +145,10 @@ function set_strand(){
 
 <a href='.'><img src='GGGlogo_en.png' alt='GGGenome' height=71 width=257 border=0></a>
 
-<small style='vertical-align:top'>
-<a style='vertical-align:top' href='.'           >Home</a> |
-<a style='vertical-align:top' href='ja/help.html'>Japanese</a>
+<small style='vertical-align:55px'>
+<a href='.'           >Home</a>
+<font color=silver>|</font>
+<a href='ja/help.html'>Japanese</a>
 </small>
 
 <form name=gggenome method=GET action='./'>
