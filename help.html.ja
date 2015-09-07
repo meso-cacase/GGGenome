@@ -189,7 +189,7 @@ function set_strand(){
 	<option value='micMur1' synonym="Microcebus murinus">Mouse lemur genome, Broad/micMur1 (Jul, 2007)</option>
 	<option value='hetGla2' synonym="Heterocephalus glaber">Naked mole-rat genome, Broad HetGla_female_1.0/hetGla2 (Jan, 2012)</option>
 	<option value='monDom5' synonym="Monodelphis domestica">Opossum genome, Broad/monDom5 (Oct, 2006)</option>
-	<option value='ponAbe2' synonym="Pongo pygmaeus abelii">Orangutan genome, WUGSC 2.0.2/ponAbe2 (Jul, 2007)</option>
+	<option value='ponAbe2' synonym="Pongo abelii">Orangutan genome, WUGSC 2.0.2/ponAbe2 (Jul, 2007)</option>
 	<option value='ailMel1' synonym="Ailuropoda melanoleuca">Panda genome, BGI-Shenzhen 1.0/ailMel1 (Dec, 2009)</option>
 	<option value='susScr3' synonym="Sus scrofa">Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)</option>
 	<option value='ochPri3' synonym="Ochotona princeps">Pika genome, OchPri3.0/ochPri3 (May, 2012)</option>
@@ -227,32 +227,32 @@ function set_strand(){
 	<option value='Xenla7'  synonym="Xenopus laevis">Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)</option>
 	<option value='Xentr8'  synonym="Xenopus tropicalis">Xenopus tropicalis genome, XenBase/JGI 8.0</option>
 	<option value='Xentr7'  synonym="Xenopus tropicalis">Xenopus tropicalis genome, XenBase/JGI 7.1</option>
-	<option value='xenTro3' synonym="Xenopus tropicalis">Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)</option>
+	<option value='xenTro3' synonym="Xenopus tropicalis;Western clawed frog">Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)</option>
 	<option value='taeGut2' synonym="Taeniopygia guttata">Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)</option>
 	<option value='danRer7' synonym="Danio rerio">Zebrafish genome, Zv9/danRer7 (Jul, 2010)</option>
-	<option value='ci2'     synonym="Ciona intestinalis">Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)</option>
+	<option value='ci2'     synonym="Ciona intestinalis;Transparent sea squirt">Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)</option>
 	<option value='braFlo1' synonym="Branchiostoma floridae">Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)</option>
 	<option value='strPur2' synonym="Strongylocentrotus purpuratus">S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)</option>
 	<option value='anoGam1' synonym="Anopheles gambiae">A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)</option>
 	<option value='apiMel2' synonym="Apis mellifera">A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)</option>
-	<option value='droAna2' synonym="Drosophila ananassae;fly">D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)</option>
-	<option value='droEre1' synonym="Drosophila erecta;fly">D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)</option>
-	<option value='droGri1' synonym="Drosophila grimshawi;fly">D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)</option>
-	<option value='dm6'     synonym="Drosophila melanogaster;fly">D. melanogaster genome, BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)</option>
-	<option value='dm3'     synonym="Drosophila melanogaster;fly">Drosophila melanogaster genome, BDGP R5/dm3 (Apr, 2006)</option>
-	<option value='droMoj2' synonym="Drosophila mojavensis;fly">D. mojavensis genome, Agencourt prelim/droMoj2 (Aug, 2005)</option>
-	<option value='droPer1' synonym="Drosophila persimilis;fly">D. persimilis genome, Broad/droPer1 (Oct, 2005)</option>
-	<option value='dp3'     synonym="Drosophila pseudoobscura;fly">D. pseudoobscura genome, FlyBase 1.03/dp3 (Nov, 2004)</option>
-	<option value='droSec1' synonym="Drosophila sechellia;fly">D. sechellia genome, Broad/droSec1 (Oct, 2005)</option>
-	<option value='droSim1' synonym="Drosophila simulans;fly">D. simulans genome, WUGSC mosaic 1.0/droSim1 (Apr, 2005)</option>
-	<option value='droVir2' synonym="Drosophila virilis;fly">D. virilis genome, Agencourt prelim/droVir2 (Aug, 2005)</option>
-	<option value='droYak2' synonym="Drosophila yakuba;fly">D. yakuba genome, WUGSC 7.1/droYak2 (Nov, 2005)</option>
-	<option value='caePb2'  synonym="Caenorhabditis brenneri;worm">C. brenneri genome, WUGSC 6.0.1/caePb2 (Feb, 2008)</option>
-	<option value='cb3'     synonym="Caenorhabditis briggsae;worm">C. briggsae genome, WUGSC 1.0/cb3 (Jan, 2007)</option>
-	<option value='ce10'    synonym="Caenorhabditis elegans;worm">C. elegans genome, WS220/ce10 (Oct, 2010)</option>
-	<option value='caeJap1' synonym="Caenorhabditis japonica;worm">C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)</option>
-	<option value='caeRem3' synonym="Caenorhabditis remanei;worm">C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)</option>
-	<option value='priPac1' synonym="Pristionchus pacificus">P. pacificus genome, WUGSC 5.0/priPac1 (Feb, 2007)</option>
+	<option value='droAna2' synonym="Drosophila ananassae;fruit fly">D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)</option>
+	<option value='droEre1' synonym="Drosophila erecta;fruit fly">D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)</option>
+	<option value='droGri1' synonym="Drosophila grimshawi;fruit fly">D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)</option>
+	<option value='dm6'     synonym="Drosophila melanogaster;fruit fly">D. melanogaster genome, BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)</option>
+	<option value='dm3'     synonym="Drosophila melanogaster;fruit fly">Drosophila melanogaster genome, BDGP R5/dm3 (Apr, 2006)</option>
+	<option value='droMoj2' synonym="Drosophila mojavensis;fruit fly">D. mojavensis genome, Agencourt prelim/droMoj2 (Aug, 2005)</option>
+	<option value='droPer1' synonym="Drosophila persimilis;fruit fly">D. persimilis genome, Broad/droPer1 (Oct, 2005)</option>
+	<option value='dp3'     synonym="Drosophila pseudoobscura;fruit fly">D. pseudoobscura genome, FlyBase 1.03/dp3 (Nov, 2004)</option>
+	<option value='droSec1' synonym="Drosophila sechellia;fruit fly">D. sechellia genome, Broad/droSec1 (Oct, 2005)</option>
+	<option value='droSim1' synonym="Drosophila simulans;fruit fly">D. simulans genome, WUGSC mosaic 1.0/droSim1 (Apr, 2005)</option>
+	<option value='droVir2' synonym="Drosophila virilis;fruit fly">D. virilis genome, Agencourt prelim/droVir2 (Aug, 2005)</option>
+	<option value='droYak2' synonym="Drosophila yakuba;fruit fly">D. yakuba genome, WUGSC 7.1/droYak2 (Nov, 2005)</option>
+	<option value='caePb2'  synonym="Caenorhabditis brenneri;nematode worm">C. brenneri genome, WUGSC 6.0.1/caePb2 (Feb, 2008)</option>
+	<option value='cb3'     synonym="Caenorhabditis briggsae;nematode worm">C. briggsae genome, WUGSC 1.0/cb3 (Jan, 2007)</option>
+	<option value='ce10'    synonym="Caenorhabditis elegans;nematode worm">C. elegans genome, WS220/ce10 (Oct, 2010)</option>
+	<option value='caeJap1' synonym="Caenorhabditis japonica;nematode worm">C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)</option>
+	<option value='caeRem3' synonym="Caenorhabditis remanei;nematode worm">C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)</option>
+	<option value='priPac1' synonym="Pristionchus pacificus;parasitic nematode">P. pacificus genome, WUGSC 5.0/priPac1 (Feb, 2007)</option>
 	<option value='sacCer3' synonym="Saccharomyces cerevisiae;budding yeast">S. cerevisiae (S288C) genome, SacCer_Apr2011/sacCer3 (Apr, 2011)</option>
 	<option value='aplCal1' synonym="Aplysia californica">Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)</option>
 
@@ -352,10 +352,10 @@ function set_strand(){
 	<option value='TAIR10'  synonym="Arabidopsis thaliana">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
 	<option value='rice'    synonym="Oryza sativa">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
 	<option value='sorBic'  synonym="Sorghum bicolor">Sorghum genome, Sorghum bicolor v2.1 (May, 2013)</option>
-	<option value='Ppatens_251_v3'        synonym="Physcomitrella patens">Physcomitrella patens genome v3.0 (Oct, 2007)</option>
-	<option value='Smoellendorffii_91_v1' synonym="Selaginella moellendorffii">Selaginella moellendorffii genome v1.0 (Dec, 2007)</option>
-	<option value='Creinhardtii_281_v5_5' synonym="Chlamydomonas reinhardtii">Chlamydomonas reinhardtii genome v5.5 (May, 2014)</option>
-	<option value='Olucimarinus_231_v2'   synonym="Ostreococcus lucimarinus">Ostreococcus lucimarinus genome v2.0 (Jan, 2011)</option>
+	<option value='Ppatens_251_v3'        synonym="Physcomitrella patens">Physcomitrella patens genome, v3.0 (Oct, 2007)</option>
+	<option value='Smoellendorffii_91_v1' synonym="Selaginella moellendorffii">Selaginella moellendorffii genome, v1.0 (Dec, 2007)</option>
+	<option value='Creinhardtii_281_v5_5' synonym="Chlamydomonas reinhardtii">Chlamydomonas reinhardtii genome, v5.5 (May, 2014)</option>
+	<option value='Olucimarinus_231_v2'   synonym="Ostreococcus lucimarinus">Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)</option>
 
 	<option value='eboVir3' synonym="Filoviridae ebolavirus">Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
 
@@ -664,7 +664,7 @@ set_strand() ;
 	<td><a href='/panTro4/'>panTro4</a>
 	<td>UCSC
 	<td>Mammal
-	<td>Chimp
+	<td>Chimpanzee
 	<td>チンパンジー
 	<td>Pan troglodytes
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=panTro4'><!--
@@ -696,7 +696,7 @@ set_strand() ;
 	<td>Mammal
 	<td>Dog
 	<td>イヌ
-	<td>Canis lupus familiaris
+	<td>Canis familiaris
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=canFam3'><!--
 		-->Broad CanFam3.1/canFam3 (Sep, 2011)</a>
 </tr>
@@ -854,7 +854,7 @@ set_strand() ;
 	<td><a href='/hetGla2/'>hetGla2</a>
 	<td>UCSC
 	<td>Mammal
-	<td>Naked mole-rat
+	<td>Naked mole rat
 	<td>ハダカデバネズミ
 	<td>Heterocephalus glaber
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hetGla2'><!--
@@ -876,7 +876,7 @@ set_strand() ;
 	<td>Mammal
 	<td>Orangutan
 	<td>オランウータン
-	<td>Pongo pygmaeus abelii
+	<td>Pongo abelii
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ponAbe2'><!--
 		-->WUGSC 2.0.2/ponAbe2 (Jul, 2007)</a>
 </tr>
@@ -895,7 +895,7 @@ set_strand() ;
 	<td>UCSC
 	<td>Mammal
 	<td>Pig
-	<td>ブタ
+	<td>ブタ, イノシシ
 	<td>Sus scrofa
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=susScr3'><!--
 		-->SGSC Sscrofa10.2/susScr3 (Aug, 2011)</a>
@@ -934,7 +934,7 @@ set_strand() ;
 	<td><a href='/rheMac3/'>rheMac3</a>
 	<td>UCSC
 	<td>Mammal
-	<td>Rhesus
+	<td>Rhesus macaque
 	<td>アカゲザル
 	<td>Macaca mulatta
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rheMac3'><!--
@@ -944,7 +944,7 @@ set_strand() ;
 	<td><a href='/proCap1/'>proCap1</a>
 	<td>UCSC
 	<td>Mammal
-	<td>Rock hyrax
+	<td>Cape hyrax
 	<td>ケープハイラックス
 	<td>Procavia capensis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=proCap1'><!--
@@ -1224,7 +1224,7 @@ set_strand() ;
 	<td><a href='/xenTro3/'>xenTro3</a>
 	<td>UCSC
 	<td>Vertebrate
-	<td>X. tropicalis
+	<td>Western clawed frog
 	<td>ネッタイツメガエル
 	<td>Xenopus tropicalis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=xenTro3'><!--
@@ -1254,7 +1254,7 @@ set_strand() ;
 	<td><a href='/ci2/'>ci2</a>
 	<td>UCSC
 	<td>Deuterostome
-	<td>C. intestinalis
+	<td>Transparent sea squirt
 	<td>カタユウレイボヤ
 	<td>Ciona intestinalis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ci2'><!--
@@ -1274,7 +1274,7 @@ set_strand() ;
 	<td><a href='/strPur2/'>strPur2</a>
 	<td>UCSC
 	<td>Deuterostome
-	<td>S. purpuratus
+	<td>Purple sea urchin
 	<td>ムラサキウニ
 	<td>Strongylocentrotus purpuratus
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=strPur2'><!--
@@ -1284,7 +1284,7 @@ set_strand() ;
 	<td><a href='/anoGam1/'>anoGam1</a>
 	<td>UCSC
 	<td>Insect
-	<td>A. gambiae
+	<td>African malaria mosquito
 	<td>ハマダラカ
 	<td>Anopheles gambiae
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=anoGam1'><!--
@@ -1294,7 +1294,7 @@ set_strand() ;
 	<td><a href='/apiMel2/'>apiMel2</a>
 	<td>UCSC
 	<td>Insect
-	<td>A. mellifera
+	<td>Honeybee
 	<td>ミツバチ
 	<td>Apis mellifera
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=apiMel2'><!--
@@ -1304,7 +1304,7 @@ set_strand() ;
 	<td><a href='/droAna2/'>droAna2</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. ananassae (fly)
+	<td>D. ananassae (Fruit fly)
 	<td>アナナスショウジョウバエ
 	<td>Drosophila ananassae
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droAna2'><!--
@@ -1314,7 +1314,7 @@ set_strand() ;
 	<td><a href='/droEre1/'>droEre1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. erecta (fly)
+	<td>D. erecta (Fruit fly)
 	<td>キリシマキノコショウジョウバエ
 	<td>Drosophila erecta
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droEre1'><!--
@@ -1324,7 +1324,7 @@ set_strand() ;
 	<td><a href='/droGri1/'>droGri1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. grimshawi (fly)
+	<td>D. grimshawi (Fruit fly)
 	<td>ショウジョウバエ属
 	<td>Drosophila grimshawi
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droGri1'><!--
@@ -1334,7 +1334,7 @@ set_strand() ;
 	<td><a href='/dm6/'>dm6</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. melanogaster (fly)
+	<td>D. melanogaster (Fruit fly)
 	<td>キイロショウジョウバエ
 	<td>Drosophila melanogaster
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dm6'><!--
@@ -1344,7 +1344,7 @@ set_strand() ;
 	<td><a href='/dm3/'>dm3</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. melanogaster (fly)
+	<td>D. melanogaster (Fruit fly)
 	<td>キイロショウジョウバエ
 	<td>Drosophila melanogaster
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dm3'><!--
@@ -1354,7 +1354,7 @@ set_strand() ;
 	<td><a href='/droMoj2/'>droMoj2</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. mojavensis (fly)
+	<td>D. mojavensis (Fruit fly)
 	<td>ショウジョウバエ属
 	<td>Drosophila mojavensis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droMoj2'><!--
@@ -1364,7 +1364,7 @@ set_strand() ;
 	<td><a href='/droPer1/'>droPer1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. persimilis (fly)
+	<td>D. persimilis (Fruit fly)
 	<td>ショウジョウバエ属
 	<td>Drosophila persimilis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droPer1'><!--
@@ -1374,7 +1374,7 @@ set_strand() ;
 	<td><a href='/dp3/'>dp3</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. pseudoobscura (fly)
+	<td>D. pseudoobscura (Fruit fly)
 	<td>ニセウスグロショウジョウバエ
 	<td>Drosophila pseudoobscura
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dp3'><!--
@@ -1384,7 +1384,7 @@ set_strand() ;
 	<td><a href='/droSec1/'>droSec1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. sechellia (fly)
+	<td>D. sechellia (Fruit fly)
 	<td>セイシェルショウジョウバエ
 	<td>Drosophila sechellia
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droSec1'><!--
@@ -1394,7 +1394,7 @@ set_strand() ;
 	<td><a href='/droSim1/'>droSim1</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. simulans (fly)
+	<td>D. simulans (Fruit fly)
 	<td>オナジショウジョウバエ
 	<td>Drosophila simulans
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droSim1'><!--
@@ -1404,7 +1404,7 @@ set_strand() ;
 	<td><a href='/droVir2/'>droVir2</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. virilis (fly)
+	<td>D. virilis (Fruit fly)
 	<td>クロショウジョウバエ
 	<td>Drosophila virilis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droVir2'><!--
@@ -1414,7 +1414,7 @@ set_strand() ;
 	<td><a href='/droYak2/'>droYak2</a>
 	<td>UCSC
 	<td>Insect
-	<td>D. yakuba (fly)
+	<td>D. yakuba (Fruit fly)
 	<td>ヤクバショウジョウバエ
 	<td>Drosophila yakuba
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droYak2'><!--
@@ -1424,7 +1424,7 @@ set_strand() ;
 	<td><a href='/caePb2/'>caePb2</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. brenneri (worm)
+	<td>C. brenneri (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis brenneri
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caePb2'><!--
@@ -1434,7 +1434,7 @@ set_strand() ;
 	<td><a href='/cb3/'>cb3</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. briggsae (worm)
+	<td>C. briggsae (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis briggsae
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cb3'><!--
@@ -1444,7 +1444,7 @@ set_strand() ;
 	<td><a href='/ce10/'>ce10</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. elegans (worm)
+	<td>C. elegans (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis elegans
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ce10'><!--
@@ -1454,7 +1454,7 @@ set_strand() ;
 	<td><a href='/caeJap1/'>caeJap1</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. japonica (worm)
+	<td>C. japonica (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis japonica
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caeJap1'><!--
@@ -1464,7 +1464,7 @@ set_strand() ;
 	<td><a href='/caeRem3/'>caeRem3</a>
 	<td>UCSC
 	<td>Nematode
-	<td>C. remanei (worm)
+	<td>C. remanei (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis remanei
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caeRem3'><!--
@@ -1474,7 +1474,7 @@ set_strand() ;
 	<td><a href='/priPac1/'>priPac1</a>
 	<td>UCSC
 	<td>Nematode
-	<td>P. pacificus
+	<td>P. pacificus (Parasitic nematode)
 	<td>線虫
 	<td>Pristionchus pacificus
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=priPac1'><!--
@@ -2424,7 +2424,7 @@ set_strand() ;
 	<td><a href='/Olucimarinus_231_v2/'>Olucimarinus_231_v2</a>
 	<td>Phytozome
 	<td>Plant
-	<td>Ostreococcus
+	<td>O. lucimarinus
 	<td>オストレオコッカス
 	<td>Ostreococcus lucimarinus
 	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Olucimarinus'><!--
@@ -2434,7 +2434,7 @@ set_strand() ;
 	<td><a href='/Xenla7/'>Xenla7</a>
 	<td>Xenbase
 	<td>Vertebrate
-	<td>X. laevis
+	<td>African clawed frog
 	<td>アフリカツメガエル
 	<td>Xenopus laevis
 	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla7.1/'><!--
@@ -2444,7 +2444,7 @@ set_strand() ;
 	<td><a href='/Xentr7/'>Xentr7</a>
 	<td>Xenbase
 	<td>Vertebrate
-	<td>X. tropicalis
+	<td>Western clawed frog
 	<td>ネッタイツメガエル
 	<td>Xenopus tropicalis
 	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr7.1/'><!--
@@ -2454,7 +2454,7 @@ set_strand() ;
 	<td><a href='/Xentr8/'>Xentr8</a>
 	<td>Xenbase
 	<td>Vertebrate
-	<td>X. tropicalis
+	<td>Western clawed frog
 	<td>ネッタイツメガエル
 	<td>Xenopus tropicalis
 	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr8.0/'><!--

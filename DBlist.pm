@@ -52,7 +52,7 @@ balAcu1  	172.18.8.77	40273	UCSC	Minke whale genome, BalAcu1.0/balAcu1 (Oct, 201
 micMur1  	172.18.8.77	40283	UCSC	Mouse lemur genome, Broad/micMur1 (Jul, 2007)	Microcebus murinus
 hetGla2  	172.18.8.77	40293	UCSC	Naked mole-rat genome, Broad HetGla_female_1.0/hetGla2 (Jan, 2012)	Heterocephalus glaber
 monDom5  	172.18.8.77	40303	UCSC	Opossum genome, Broad/monDom5 (Oct, 2006)	Monodelphis domestica
-ponAbe2  	172.18.8.77	40313	UCSC	Orangutan genome, WUGSC 2.0.2/ponAbe2 (Jul, 2007)	Pongo pygmaeus abelii
+ponAbe2  	172.18.8.77	40313	UCSC	Orangutan genome, WUGSC 2.0.2/ponAbe2 (Jul, 2007)	Pongo abelii
 ailMel1  	172.18.8.77	40323	UCSC	Panda genome, BGI-Shenzhen 1.0/ailMel1 (Dec, 2009)	Ailuropoda melanoleuca
 susScr3  	172.18.8.77	40333	UCSC	Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)	Sus scrofa
 ochPri3  	172.18.8.77	40343	UCSC	Pika genome, OchPri3.0/ochPri3 (May, 2012)	Ochotona princeps
@@ -89,32 +89,32 @@ chrPic1  	172.18.8.76	40643	UCSC	Painted turtle genome, v3.0.1/chrPic1 (Dec, 201
 gasAcu1  	172.18.8.76	40653	UCSC	Stickleback genome, Broad/gasAcu1 (Feb, 2006)	Gasterosteus aculeatus
 tetNig2  	172.18.8.76	40663	UCSC	Tetraodon genome, Genoscope 8.0/tetNig2 (Mar, 2007)	Tetraodon nigroviridis
 melGal1  	172.18.8.76	40673	UCSC	Turkey genome, TGC Turkey_2.01/melGal1 (Dec, 2009)	Meleagris gallopavo
-xenTro3  	172.18.8.76	40683	UCSC	Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)	Xenopus tropicalis
+xenTro3  	172.18.8.76	40683	UCSC	Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)	Xenopus tropicalis;Western clawed frog
 taeGut2  	172.18.8.76	40693	UCSC	Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)	Taeniopygia guttata
 danRer7  	172.18.8.76	40703	UCSC	Zebrafish genome, Zv9/danRer7 (Jul, 2010)	Danio rerio
-ci2      	172.18.8.76	40713	UCSC	Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)	Ciona intestinalis
+ci2      	172.18.8.76	40713	UCSC	Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)	Ciona intestinalis;Transparent sea squirt
 braFlo1  	172.18.8.76	40723	UCSC	Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)	Branchiostoma floridae
 strPur2  	172.18.8.76	40733	UCSC	S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)	Strongylocentrotus purpuratus
 anoGam1  	172.18.8.76	40743	UCSC	A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)	Anopheles gambiae
 apiMel2  	172.18.8.76	40753	UCSC	A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)	Apis mellifera
-droAna2  	172.18.8.76	40763	UCSC	D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)	Drosophila ananassae;fly
-droEre1  	172.18.8.76	40773	UCSC	D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)	Drosophila erecta;fly
-droGri1  	172.18.8.76	40783	UCSC	D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)	Drosophila grimshawi;fly
-dm6      	172.18.8.76	40793	UCSC	D. melanogaster genome, BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)	Drosophila melanogaster;fly
-dm3      	172.18.8.76	40803	UCSC	Drosophila melanogaster genome, BDGP R5/dm3 (Apr, 2006)	Drosophila melanogaster;fly
-droMoj2  	172.18.8.76	40813	UCSC	D. mojavensis genome, Agencourt prelim/droMoj2 (Aug, 2005)	Drosophila mojavensis;fly
-droPer1  	172.18.8.76	40823	UCSC	D. persimilis genome, Broad/droPer1 (Oct, 2005)	Drosophila persimilis;fly
-dp3      	172.18.8.76	40833	UCSC	D. pseudoobscura genome, FlyBase 1.03/dp3 (Nov, 2004)	Drosophila pseudoobscura;fly
-droSec1  	172.18.8.76	40843	UCSC	D. sechellia genome, Broad/droSec1 (Oct, 2005)	Drosophila sechellia;fly
-droSim1  	172.18.8.76	40853	UCSC	D. simulans genome, WUGSC mosaic 1.0/droSim1 (Apr, 2005)	Drosophila simulans;fly
-droVir2  	172.18.8.76	40863	UCSC	D. virilis genome, Agencourt prelim/droVir2 (Aug, 2005)	Drosophila virilis;fly
-droYak2  	172.18.8.76	40873	UCSC	D. yakuba genome, WUGSC 7.1/droYak2 (Nov, 2005)	Drosophila yakuba;fly
-caePb2   	172.18.8.76	40883	UCSC	C. brenneri genome, WUGSC 6.0.1/caePb2 (Feb, 2008)	Caenorhabditis brenneri;worm
-cb3      	172.18.8.76	40893	UCSC	C. briggsae genome, WUGSC 1.0/cb3 (Jan, 2007)	Caenorhabditis briggsae;worm
-ce10     	172.18.8.76	40903	UCSC	C. elegans genome, WS220/ce10 (Oct, 2010)	Caenorhabditis elegans;worm
-caeJap1  	172.18.8.76	40913	UCSC	C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)	Caenorhabditis japonica;worm
-caeRem3  	172.18.8.76	40923	UCSC	C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)	Caenorhabditis remanei;worm
-priPac1  	172.18.8.76	40933	UCSC	P. pacificus genome, WUGSC 5.0/priPac1 (Feb, 2007)	Pristionchus pacificus
+droAna2  	172.18.8.76	40763	UCSC	D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)	Drosophila ananassae;fruit fly
+droEre1  	172.18.8.76	40773	UCSC	D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)	Drosophila erecta;fruit fly
+droGri1  	172.18.8.76	40783	UCSC	D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)	Drosophila grimshawi;fruit fly
+dm6      	172.18.8.76	40793	UCSC	D. melanogaster genome, BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)	Drosophila melanogaster;fruit fly
+dm3      	172.18.8.76	40803	UCSC	Drosophila melanogaster genome, BDGP R5/dm3 (Apr, 2006)	Drosophila melanogaster;fruit fly
+droMoj2  	172.18.8.76	40813	UCSC	D. mojavensis genome, Agencourt prelim/droMoj2 (Aug, 2005)	Drosophila mojavensis;fruit fly
+droPer1  	172.18.8.76	40823	UCSC	D. persimilis genome, Broad/droPer1 (Oct, 2005)	Drosophila persimilis;fruit fly
+dp3      	172.18.8.76	40833	UCSC	D. pseudoobscura genome, FlyBase 1.03/dp3 (Nov, 2004)	Drosophila pseudoobscura;fruit fly
+droSec1  	172.18.8.76	40843	UCSC	D. sechellia genome, Broad/droSec1 (Oct, 2005)	Drosophila sechellia;fruit fly
+droSim1  	172.18.8.76	40853	UCSC	D. simulans genome, WUGSC mosaic 1.0/droSim1 (Apr, 2005)	Drosophila simulans;fruit fly
+droVir2  	172.18.8.76	40863	UCSC	D. virilis genome, Agencourt prelim/droVir2 (Aug, 2005)	Drosophila virilis;fruit fly
+droYak2  	172.18.8.76	40873	UCSC	D. yakuba genome, WUGSC 7.1/droYak2 (Nov, 2005)	Drosophila yakuba;fruit fly
+caePb2   	172.18.8.76	40883	UCSC	C. brenneri genome, WUGSC 6.0.1/caePb2 (Feb, 2008)	Caenorhabditis brenneri;nematode worm
+cb3      	172.18.8.76	40893	UCSC	C. briggsae genome, WUGSC 1.0/cb3 (Jan, 2007)	Caenorhabditis briggsae;nematode worm
+ce10     	172.18.8.76	40903	UCSC	C. elegans genome, WS220/ce10 (Oct, 2010)	Caenorhabditis elegans;nematode worm
+caeJap1  	172.18.8.76	40913	UCSC	C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)	Caenorhabditis japonica;nematode worm
+caeRem3  	172.18.8.76	40923	UCSC	C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)	Caenorhabditis remanei;nematode worm
+priPac1  	172.18.8.76	40933	UCSC	P. pacificus genome, WUGSC 5.0/priPac1 (Feb, 2007)	Pristionchus pacificus;parasitic nematode
 sacCer3  	172.18.8.76	40943	UCSC	S. cerevisiae (S288C) genome, SacCer_Apr2011/sacCer3 (Apr, 2011)	Saccharomyces cerevisiae;budding yeast
 aplCal1  	172.18.8.76	40953	UCSC	Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)	Aplysia californica
 eboVir3  	172.18.8.76	40963	UCSC	Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)	Filoviridae ebolavirus
@@ -220,10 +220,10 @@ Xentr8               	172.18.8.77	43023	Xenbase  	Xenopus tropicalis genome, Xen
 macaque_CE_1         	172.18.8.77	43043	         	Crab-eating macaque genome, CE_1.0 (Jul, 2011)	Macaca fascicularis
 macaque_CE_1_cds     	172.18.8.77	43053	         	Crab-eating macaque CDS, CE_1.0 (Jul, 2011)	Macaca fascicularis
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
-Ppatens_251_v3       	172.18.8.74	42013	Phytozome	Physcomitrella patens genome v3.0 (Oct, 2007)	Physcomitrella patens
-Smoellendorffii_91_v1	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome v1.0 (Dec, 2007)	Selaginella moellendorffii
-Creinhardtii_281_v5_5	172.18.8.74	42033	Phytozome	Chlamydomonas reinhardtii genome v5.5 (May, 2014)	Chlamydomonas reinhardtii
-Olucimarinus_231_v2  	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus genome v2.0 (Jan, 2011)	Ostreococcus lucimarinus
+Ppatens_251_v3       	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens
+Smoellendorffii_91_v1	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii
+Creinhardtii_281_v5_5	172.18.8.74	42033	Phytozome	Chlamydomonas reinhardtii genome, v5.5 (May, 2014)	Chlamydomonas reinhardtii
+Olucimarinus_231_v2  	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)	Ostreococcus lucimarinus
 refseq70             	172.18.8.74	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
 refseq71             	172.18.8.74	60013	RefSeq   	RefSeq complete RNA release 71 (Jul, 2015)	
 refseq72             	172.18.8.74	60023	RefSeq   	RefSeq complete RNA release 72 (Sep, 2015)	
