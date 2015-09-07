@@ -15,6 +15,10 @@ package DBlist ;
 # 172.18.8.76	s06.dbcls.jp
 # 172.18.8.77	s07.dbcls.jp
 # 172.18.8.78	s08.dbcls.jp
+#
+# 削除予定：
+# ASM15162v1           	172.18.8.77	43033	Ensembl  	Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)	Bombyx mori
+# Tcas3                	172.18.8.77	43063	Ensembl  	Tribolium castaneum genome, Tcas3 (Feb, 2010)	Tribolium castaneum;red flour beetle
 
 $dbconfig =
 <<'--EOS--' ;
@@ -115,6 +119,94 @@ sacCer3  	172.18.8.76	40943	UCSC	S. cerevisiae (S288C) genome, SacCer_Apr2011/sa
 aplCal1  	172.18.8.76	40953	UCSC	Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)	Aplysia californica
 eboVir3  	172.18.8.76	40963	UCSC	Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)	Filoviridae ebolavirus
 hg18     	172.18.8.76	40973	UCSC	Human genome, NCBI36/hg18 (Mar, 2006)	Homo sapiens
+OryAfe1.0   	172.18.8.76	43073	Ensembl	Aardvark genome, OryAfe1.0 (May, 2012)	Orycteropus afer
+PoeFor_5.1.2	172.18.8.76	43083	Ensembl	Amazon molly genome, Poecilia_formosa-5.1.2 (Oct, 2013)	Poecilia formosa
+CSAV2.0     	172.18.8.76	43093	Ensembl	Ciona savignyi genome, CSAV 2.0 (Oct, 2005)	Ciona savignyi;pacific transparent sea squirt
+AstMex102   	172.18.8.76	43103	Ensembl	Cave fish genome, AstMex102 (Apr, 2013)	Astyanax mexicanus
+PelSin_1.0  	172.18.8.76	43113	Ensembl	Chinese softshell turtle genome, PelSin_1.0 (Oct, 2011)	Pelodiscus sinensis
+MacFas5.0   	172.18.8.76	43123	Ensembl	Crab-eating macaque genome, MacFas5.0 (Jun, 2013)	Macaca fascicularis
+BGI_duck_1.0	172.18.8.76	43133	Ensembl	Duck genome, BGI_duck_1.0 (Apr, 2013)	Anas platyrhynchos
+FicAlb_1.4  	172.18.8.76	43143	Ensembl	Flycatcher genome, FicAlb_1.4 (Jan, 2012)	Ficedula albicollis
+Pham        	172.18.8.76	43153	Ensembl	Hamadryas baboon genome, Pham (Nov, 2008)	Papio hamadryas
+Xipmac4.4.2 	172.18.8.76	43163	Ensembl	Platyfish genome, Xipmac4.4.2 (Jan, 2012)	Xiphophorus maculatus
+MicOch1.0   	172.18.8.76	43173	Ensembl	Prairie vole genome, MicOch1.0 (Nov, 2012)	Microtus ochrogaster
+PhyMac_2.0.2	172.18.8.76	43183	Ensembl	Sperm whale genome, PhyMac_2.0.2 (Sep, 2013)	Physeter macrocephalus
+LepOcu1     	172.18.8.76	43193	Ensembl	Spotted gar genome, LepOcu1 (Dec, 2011)	Lepisosteus oculatus
+ChlSab1.1   	172.18.8.76	43203	Ensembl	Green monkey genome, ChlSab1.1 (Mar, 2014)	Chlorocebus sabaeus
+Acyr_2.0    	172.18.8.76	43213	EnsemblMetazoa	Acyrthosiphon pisum genome, Acyr_2.0 (Jun, 2010)	Acyrthosiphon pisum;pea aphid
+AaegL3      	172.18.8.76	43223	EnsemblMetazoa	Aedes aegypti genome, AaegL3 (Dec, 2013)	Aedes aegypti;yellowfever mosquito
+Aqu1        	172.18.8.76	43233	EnsemblMetazoa	Amphimedon queenslandica genome, Aqu1 (Oct, 2010)	Amphimedon queenslandica;sponge
+AdarC3      	172.18.8.76	43243	EnsemblMetazoa	Anopheles darlingi genome, AdarC3 (Jan, 2014)	Anopheles darlingi;mosquito
+Attacep1.0  	172.18.8.76	43253	EnsemblMetazoa	Atta cephalotes genome, Attacep1.0 (Jul, 2012)	Atta cephalotes;leafcutter ant
+ASM15162v1  	172.18.8.76	43263	EnsemblMetazoa	Silkworm genome, ASM15162v1 (Feb, 2013)	Bombyx mori
+B_malayi_3.0	172.18.8.76	43273	EnsemblMetazoa	Brugia malayi genome, B_malayi-3.0 (Dec, 2012)	Brugia malayi;filarial nematode worm
+Capte_v1.0  	172.18.8.76	43283	EnsemblMetazoa	Capitella teleta genome, Capitella teleta v1.0 (Dec, 2012)	Capitella teleta;polychaete worm
+oyster_v9   	172.18.8.76	43293	EnsemblMetazoa	Crassostrea gigas genome, oyster_v9 (Sep, 2012)	Crassostrea gigas;pacific oyster
+CpipJ2      	172.18.8.76	43303	EnsemblMetazoa	Culex quinquefasciatus genome, CpipJ2 (Jan, 2007)	Culex quinquefasciatus;southern house mosquito
+DanPle_1.0  	172.18.8.76	43313	EnsemblMetazoa	Danaus plexippus genome, DanPle_1.0 (Nov, 2011)	Danaus plexippus;monarch butterfly
+Dappu_V1.0  	172.18.8.76	43323	EnsemblMetazoa	Daphnia pulex genome, V1.0 (Feb, 2011)	Daphnia pulex;water flea
+DendPond_1.0	172.18.8.76	43333	EnsemblMetazoa	Dendroctonus ponderosae genome, DendPond_male_1.0 (Apr, 2013)	Dendroctonus ponderosae;mountain pine beetle
+dwil_caf1   	172.18.8.76	43343	EnsemblMetazoa	Drosophila willistoni genome, dwil_caf1 (Jul, 2008)	Drosophila willistoni;fruit fly
+Hmel1       	172.18.8.76	43353	EnsemblMetazoa	Heliconius melpomene genome, Hmel1 (Feb, 2012)	Heliconius melpomene;postman butterfly
+Helro1      	172.18.8.76	43363	EnsemblMetazoa	Helobdella robusta genome, Helro1 (Dec, 2012)	Helobdella robusta;californian leech
+IscaW1      	172.18.8.76	43373	EnsemblMetazoa	Ixodes scapularis genome, IscaW1 (Aug, 2007)	Ixodes scapularis;black-legged tick
+Loa_loa_V3  	172.18.8.76	43383	EnsemblMetazoa	Loa loa genome, Loa_loa_V3 (Jan, 2010)	Loa loa;eye worm
+Lotgi1      	172.18.8.76	43393	EnsemblMetazoa	Lottia gigantea genome, Lotgi1 (Jan, 2013)	Lottia gigantea;giant owl limpet
+Msca1       	172.18.8.76	43403	EnsemblMetazoa	Megaselia scalaris genome, Msca1 (Feb, 2013)	Megaselia scalaris;humpbacked fly
+MelCinx1.0  	172.18.8.76	43413	EnsemblMetazoa	Melitaea cinxia genome, MelCinx1.0 (Jul, 2014)	Melitaea cinxia;glanville fritillary
+MneLei      	172.18.8.76	43423	EnsemblMetazoa	Mnemiopsis leidyi genome, MneLei_Aug2011 (Sep, 2011)	Mnemiopsis leidyi;sea walnut
+Nvit_2.1    	172.18.8.76	43433	EnsemblMetazoa	Nasonia vitripennis genome, Nvit_2.1 (Nov, 2012)	Nasonia vitripennis;parasitic wasp
+ASM20922v1  	172.18.8.76	43443	EnsemblMetazoa	Nematostella vectensis genome, ASM20922v1 (Sep, 2007)	Nematostella vectensis;starlet sea anemone
+Cameroon_v3 	172.18.8.76	43453	EnsemblMetazoa	Onchocerca volvulus genome, Cameroon_v3 (Nov, 2013)	Onchocerca volvulus;parasitic nematode
+PhumU2      	172.18.8.76	43463	EnsemblMetazoa	Pediculus humanus genome, PhumU2 (Nov, 2008)	Pediculus humanus;body louse
+RproC1      	172.18.8.76	43473	EnsemblMetazoa	Rhodnius prolixus genome, RproC1 (Dec, 2010)	Rhodnius prolixus;triatomid bug
+ASM23792v2  	172.18.8.76	43483	EnsemblMetazoa	Schistosoma mansoni genome, ASM23792v2 (Apr, 2012)	Schistosoma mansoni;blood fluke
+Si_gnG      	172.18.8.76	43493	EnsemblMetazoa	Solenopsis invicta genome, Si_gnG (Feb, 2011)	Solenopsis invicta;red imported fire ant
+Smar1       	172.18.8.76	43503	EnsemblMetazoa	Strigamia maritima genome, Smar1 (Feb, 2013)	Strigamia maritima;european centipede
+ASM23943v1  	172.18.8.76	43513	EnsemblMetazoa	Tetranychus urticae genome, ASM23943v1 (Nov, 2011)	Tetranychus urticae;two-spotted spider mite
+Tcas3       	172.18.8.76	43523	EnsemblMetazoa	Tribolium castaneum genome, Tcas3 (Feb, 2010)	Tribolium castaneum;red flour beetle
+Tspiralis1  	172.18.8.76	43533	EnsemblMetazoa	Trichinella spiralis genome, Tspiralis1 (Mar, 2011)	Trichinella spiralis;trichina worm
+ASM15027v1  	172.18.8.76	43543	EnsemblMetazoa	Trichoplax adhaerens genome, ASM15027v1 (Aug, 2006)	Trichoplax adhaerens
+ZooNev1.0   	172.18.8.76	43553	EnsemblMetazoa	Zootermopsis nevadensis genome, ZooNev1.0 (Jun, 2014)	Zootermopsis nevadensis;dampwood termite
+ASM34733v1  	172.18.8.75	45013	EnsemblPlants	Aegilops tauschii genome, ASM34733v1 (Dec, 2013)	Aegilops tauschii;tausch's goatgrass
+AMTR1.0     	172.18.8.75	45023	EnsemblPlants	Amborella trichopoda genome, AMTR1.0 (Jan, 2014)	Amborella trichopoda
+Araly_v.1.0 	172.18.8.75	45033	EnsemblPlants	Arabidopsis lyrata genome, v.1.0 (Dec, 2008)	Arabidopsis lyrata;lyre-leaved rock-cress
+TAIR10_en   	172.18.8.75	45043	EnsemblPlants	Arabidopsis thaliana genome, TAIR10 (Sep, 2010)	Arabidopsis thaliana;thale cress
+Bradi_v1.0  	172.18.8.75	45053	EnsemblPlants	Brachypodium distachyon genome, v1.0 (Jan, 2009)	Brachypodium distachyon;purple false brome
+Braol_v2.1  	172.18.8.75	45063	EnsemblPlants	Brassica oleracea genome, v2.1	Brassica oleracea;wild cabbage
+IVFCAASv1   	172.18.8.75	45073	EnsemblPlants	Brassica rapa genome, IVFCAASv1 (Aug, 2009)	Brassica rapa;chinese cabbage
+Chlre_v3.1  	172.18.8.75	45083	EnsemblPlants	Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)	Chlamydomonas reinhardtii;green algae
+ASM9120v1   	172.18.8.75	45093	EnsemblPlants	Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)	Cyanidioschyzon merolae;red alga
+Soybn_V1.0  	172.18.8.75	45103	EnsemblPlants	Glycine max genome, V1.0 (Jan, 2010)	Glycine max;soybean
+Horvu_v1    	172.18.8.75	45113	EnsemblPlants	Hordeum vulgare genome, 082214v1 (Mar, 2012)	Hordeum vulgare;barley
+Lperr_V1.4  	172.18.8.75	45123	EnsemblPlants	Leersia perrieri genome, Lperr_V1.4 (Mar, 2014)	Leersia perrieri
+MedtrA17_4.0	172.18.8.75	45133	EnsemblPlants	Medicago truncatula str. A17 genome, MedtrA17_4.0 (Jun, 2014)	Medicago truncatula str. A17;barrel medic
+MA1         	172.18.8.75	45143	EnsemblPlants	Musa acuminata genome, MA1 (Aug, 2012)	Musa acuminata;banana
+Obart_v1.0  	172.18.8.75	45153	EnsemblPlants	Oryza barthii genome, Obart_v1.0 (Apr, 2014)	Oryza barthii;african wild rice
+Orybr_v1.4b 	172.18.8.75	45163	EnsemblPlants	Oryza brachyantha genome, Oryza_brachyantha.v1.4b (May, 2011)	Oryza brachyantha;african wild rice
+AGI1.1      	172.18.8.75	45173	EnsemblPlants	Oryza glaberrima genome, AGI1.1 (May, 2011)	Oryza glaberrima;african wild rice
+Orygl       	172.18.8.75	45183	EnsemblPlants	Oryza glumaepatula genome, ALNU02000000 (Aug, 2013)	Oryza glumaepatula;brazilian wild rice
+Orylo_v0117 	172.18.8.75	45193	EnsemblPlants	Oryza longistaminata genome, v0117-2013Aug (Aug, 2013)	Oryza longistaminata;longstamen rice
+Oryme_v1.3  	172.18.8.75	45203	EnsemblPlants	Oryza meridionalis genome, Oryza_meridionalis_v1.3 (Oct, 2014)	Oryza meridionalis;australian wild rice
+Oryni       	172.18.8.75	45213	EnsemblPlants	Oryza nivara genome, AWHD00000000 (Aug, 2013)	Oryza nivara;indian wild rice
+Orypu       	172.18.8.75	45223	EnsemblPlants	Oryza punctata genome, AVCL00000000 (Aug, 2013)	Oryza punctata;red rice
+PRJEB4137   	172.18.8.75	45233	EnsemblPlants	Oryza rufipogon genome, PRJEB4137 (Aug, 2013)	Oryza rufipogon;brownbeard rice
+ASM465v1    	172.18.8.75	45243	EnsemblPlants	Oryza sativa Indica genome, ASM465v1 (Jan, 2005)	Oryza sativa Indica;rice
+IRGSP1.0    	172.18.8.75	45253	EnsemblPlants	Oryza sativa Japonica genome, IRGSP-1.0	Oryza sativa Japonica;rice
+ASM9206v1   	172.18.8.75	45263	EnsemblPlants	Ostreococcus lucimarinus genome, ASM9206v1 (Jan, 2011)	Ostreococcus lucimarinus
+ASM242v1    	172.18.8.75	45273	EnsemblPlants	Physcomitrella patens genome, ASM242v1 (Jul, 2006)	Physcomitrella patens;moss
+Poptr_JGI2.0	172.18.8.75	45283	EnsemblPlants	Populus trichocarpa genome, JGI2.0 (Jan, 2010)	Populus trichocarpa;western balsam poplar
+Prupe1_0    	172.18.8.75	45293	EnsemblPlants	Prunus persica genome, Prupe1_0 (Mar, 2013)	Prunus persica;peach
+Selml_v1.0  	172.18.8.75	45303	EnsemblPlants	Selaginella moellendorffii genome, v1.0 (May, 2011)	Selaginella moellendorffii;spikemoss
+Setit_JGIv2.0	172.18.8.75	45313	EnsemblPlants	Setaria italica genome, JGIv2.0 (Jan, 2012)	Setaria italica;foxtail millet
+SL2.50      	172.18.8.75	45323	EnsemblPlants	Solanum lycopersicum str. Heinz 1706 genome, SL2.50 (Oct, 2014)	Solanum lycopersicum str. Heinz 1706;tomato
+SolTub_3.0  	172.18.8.75	45333	EnsemblPlants	Solanum tuberosum genome, SolTub_3.0 (May, 2011)	Solanum tuberosum;potato
+Sorbi1      	172.18.8.75	45343	EnsemblPlants	Sorghum bicolor genome, Sorbi1 (Dec, 2007)	Sorghum bicolor;sorghum
+Thecc_20110822	172.18.8.75	45353	EnsemblPlants	Theobroma cacao genome, Theobroma_cacao_20110822 (May, 2014)	Theobroma cacao;cacao
+IWGSC1.0    	172.18.8.75	45363	EnsemblPlants	Triticum aestivum genome, IWGSC1.0+popseq (Nov, 2014)	Triticum aestivum;wheat
+ASM34745v1  	172.18.8.75	45373	EnsemblPlants	Triticum urartu genome, ASM34745v1 (Apr, 2013)	Triticum urartu;red wild einkorn
+IGGP_12x    	172.18.8.75	45383	EnsemblPlants	Vitis vinifera genome, IGGP_12x (Jun, 2011)	Vitis vinifera;grape
+AGPv3       	172.18.8.75	45393	EnsemblPlants	Zea mays genome, AGPv3 (Apr, 2013)	Zea mays;maize, Corn
 Xenla7   	172.18.8.70	42443	Xenbase	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)	Xenopus laevis
 TAIR10   	172.18.8.70	42373	    	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)	Arabidopsis thaliana
 rice     	172.18.8.70	42293	    	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)	Oryza sativa
@@ -125,10 +217,8 @@ prok     	172.18.8.70	42323	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 201
 ddbj     	172.18.8.70	42313	DDBJ	DDBJ release 92.0 (Feb, 2013)	
 Xentr7               	172.18.8.77	43013	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 7.1	Xenopus tropicalis
 Xentr8               	172.18.8.77	43023	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 8.0	Xenopus tropicalis
-ASM15162v1           	172.18.8.77	43033	Ensembl  	Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)	Bombyx mori
 macaque_CE_1         	172.18.8.77	43043	         	Crab-eating macaque genome, CE_1.0 (Jul, 2011)	Macaca fascicularis
 macaque_CE_1_cds     	172.18.8.77	43053	         	Crab-eating macaque CDS, CE_1.0 (Jul, 2011)	Macaca fascicularis
-Tcas3                	172.18.8.77	43063	Ensembl  	Tribolium castaneum genome, Tcas3 (Feb, 2010)	Tribolium castaneum;red flour beetle
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3       	172.18.8.74	42013	Phytozome	Physcomitrella patens genome v3.0 (Oct, 2007)	Physcomitrella patens
 Smoellendorffii_91_v1	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome v1.0 (Dec, 2007)	Selaginella moellendorffii

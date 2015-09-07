@@ -256,10 +256,97 @@ function set_strand(){
 	<option value='sacCer3' synonym="Saccharomyces cerevisiae;budding yeast">S. cerevisiae (S288C) genome, SacCer_Apr2011/sacCer3 (Apr, 2011)</option>
 	<option value='aplCal1' synonym="Aplysia californica">Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)</option>
 
+	<option value='OryAfe1.0'      synonym="Orycteropus afer">Aardvark genome, OryAfe1.0 (May, 2012)</option>
+	<option value='PoeFor_5.1.2'   synonym="Poecilia formosa">Amazon molly genome, Poecilia_formosa-5.1.2 (Oct, 2013)</option>
+	<option value='CSAV2.0'        synonym="Ciona savignyi;pacific transparent sea squirt">Ciona savignyi genome, CSAV 2.0 (Oct, 2005)</option>
+	<option value='AstMex102'      synonym="Astyanax mexicanus">Cave fish genome, AstMex102 (Apr, 2013)</option>
+	<option value='PelSin_1.0'     synonym="Pelodiscus sinensis">Chinese softshell turtle genome, PelSin_1.0 (Oct, 2011)</option>
+	<option value='MacFas5.0'      synonym="Macaca fascicularis">Crab-eating macaque genome, MacFas5.0 (Jun, 2013)</option>
+	<option value='BGI_duck_1.0'   synonym="Anas platyrhynchos">Duck genome, BGI_duck_1.0 (Apr, 2013)</option>
+	<option value='FicAlb_1.4'     synonym="Ficedula albicollis">Flycatcher genome, FicAlb_1.4 (Jan, 2012)</option>
+	<option value='Pham'           synonym="Papio hamadryas">Hamadryas baboon genome, Pham (Nov, 2008)</option>
+	<option value='Xipmac4.4.2'    synonym="Xiphophorus maculatus">Platyfish genome, Xipmac4.4.2 (Jan, 2012)</option>
+	<option value='MicOch1.0'      synonym="Microtus ochrogaster">Prairie vole genome, MicOch1.0 (Nov, 2012)</option>
+	<option value='PhyMac_2.0.2'   synonym="Physeter macrocephalus">Sperm whale genome, PhyMac_2.0.2 (Sep, 2013)</option>
+	<option value='LepOcu1'        synonym="Lepisosteus oculatus">Spotted gar genome, LepOcu1 (Dec, 2011)</option>
+	<option value='ChlSab1.1'      synonym="Chlorocebus sabaeus">Green monkey genome, ChlSab1.1 (Mar, 2014)</option>
+	<option value='Acyr_2.0'       synonym="Acyrthosiphon pisum;pea aphid">Acyrthosiphon pisum genome, Acyr_2.0 (Jun, 2010)</option>
+	<option value='AaegL3'         synonym="Aedes aegypti;yellowfever mosquito">Aedes aegypti genome, AaegL3 (Dec, 2013)</option>
+	<option value='Aqu1'           synonym="Amphimedon queenslandica;sponge">Amphimedon queenslandica genome, Aqu1 (Oct, 2010)</option>
+	<option value='AdarC3'         synonym="Anopheles darlingi;mosquito">Anopheles darlingi genome, AdarC3 (Jan, 2014)</option>
+	<option value='Attacep1.0'     synonym="Atta cephalotes;leafcutter ant">Atta cephalotes genome, Attacep1.0 (Jul, 2012)</option>
+	<option value='ASM15162v1'     synonym="Bombyx mori">Silkworm genome, ASM15162v1 (Feb, 2013)</option>
+	<option value='B_malayi_3.0'   synonym="Brugia malayi;filarial nematode worm">Brugia malayi genome, B_malayi-3.0 (Dec, 2012)</option>
+	<option value='Capte_v1.0'     synonym="Capitella teleta;polychaete worm">Capitella teleta genome, Capitella teleta v1.0 (Dec, 2012)</option>
+	<option value='oyster_v9'      synonym="Crassostrea gigas;pacific oyster">Crassostrea gigas genome, oyster_v9 (Sep, 2012)</option>
+	<option value='CpipJ2'         synonym="Culex quinquefasciatus;southern house mosquito">Culex quinquefasciatus genome, CpipJ2 (Jan, 2007)</option>
+	<option value='DanPle_1.0'     synonym="Danaus plexippus;monarch butterfly">Danaus plexippus genome, DanPle_1.0 (Nov, 2011)</option>
+	<option value='Dappu_V1.0'     synonym="Daphnia pulex;water flea">Daphnia pulex genome, V1.0 (Feb, 2011)</option>
+	<option value='DendPond_1.0'   synonym="Dendroctonus ponderosae;mountain pine beetle">Dendroctonus ponderosae genome, DendPond_male_1.0 (Apr, 2013)</option>
+	<option value='dwil_caf1'      synonym="Drosophila willistoni;fruit fly">Drosophila willistoni genome, dwil_caf1 (Jul, 2008)</option>
+	<option value='Hmel1'          synonym="Heliconius melpomene;postman butterfly">Heliconius melpomene genome, Hmel1 (Feb, 2012)</option>
+	<option value='Helro1'         synonym="Helobdella robusta;californian leech">Helobdella robusta genome, Helro1 (Dec, 2012)</option>
+	<option value='IscaW1'         synonym="Ixodes scapularis;black-legged tick">Ixodes scapularis genome, IscaW1 (Aug, 2007)</option>
+	<option value='Loa_loa_V3'     synonym="Loa loa;eye worm">Loa loa genome, Loa_loa_V3 (Jan, 2010)</option>
+	<option value='Lotgi1'         synonym="Lottia gigantea;giant owl limpet">Lottia gigantea genome, Lotgi1 (Jan, 2013)</option>
+	<option value='Msca1'          synonym="Megaselia scalaris;humpbacked fly">Megaselia scalaris genome, Msca1 (Feb, 2013)</option>
+	<option value='MelCinx1.0'     synonym="Melitaea cinxia;glanville fritillary">Melitaea cinxia genome, MelCinx1.0 (Jul, 2014)</option>
+	<option value='MneLei'         synonym="Mnemiopsis leidyi;sea walnut">Mnemiopsis leidyi genome, MneLei_Aug2011 (Sep, 2011)</option>
+	<option value='Nvit_2.1'       synonym="Nasonia vitripennis;parasitic wasp">Nasonia vitripennis genome, Nvit_2.1 (Nov, 2012)</option>
+	<option value='ASM20922v1'     synonym="Nematostella vectensis;starlet sea anemone">Nematostella vectensis genome, ASM20922v1 (Sep, 2007)</option>
+	<option value='Cameroon_v3'    synonym="Onchocerca volvulus;parasitic nematode">Onchocerca volvulus genome, Cameroon_v3 (Nov, 2013)</option>
+	<option value='PhumU2'         synonym="Pediculus humanus;body louse">Pediculus humanus genome, PhumU2 (Nov, 2008)</option>
+	<option value='RproC1'         synonym="Rhodnius prolixus;triatomid bug">Rhodnius prolixus genome, RproC1 (Dec, 2010)</option>
+	<option value='ASM23792v2'     synonym="Schistosoma mansoni;blood fluke">Schistosoma mansoni genome, ASM23792v2 (Apr, 2012)</option>
+	<option value='Si_gnG'         synonym="Solenopsis invicta;red imported fire ant">Solenopsis invicta genome, Si_gnG (Feb, 2011)</option>
+	<option value='Smar1'          synonym="Strigamia maritima;european centipede">Strigamia maritima genome, Smar1 (Feb, 2013)</option>
+	<option value='ASM23943v1'     synonym="Tetranychus urticae;two-spotted spider mite">Tetranychus urticae genome, ASM23943v1 (Nov, 2011)</option>
+	<option value='Tcas3'          synonym="Tribolium castaneum;red flour beetle">Tribolium castaneum genome, Tcas3 (Feb, 2010)</option>
+	<option value='Tspiralis1'     synonym="Trichinella spiralis;trichina worm">Trichinella spiralis genome, Tspiralis1 (Mar, 2011)</option>
+	<option value='ASM15027v1'     synonym="Trichoplax adhaerens">Trichoplax adhaerens genome, ASM15027v1 (Aug, 2006)</option>
+	<option value='ZooNev1.0'      synonym="Zootermopsis nevadensis;dampwood termite">Zootermopsis nevadensis genome, ZooNev1.0 (Jun, 2014)</option>
+	<option value='ASM34733v1'     synonym="Aegilops tauschii;tausch's goatgrass">Aegilops tauschii genome, ASM34733v1 (Dec, 2013)</option>
+	<option value='AMTR1.0'        synonym="Amborella trichopoda">Amborella trichopoda genome, AMTR1.0 (Jan, 2014)</option>
+	<option value='Araly_v.1.0'    synonym="Arabidopsis lyrata;lyre-leaved rock-cress">Arabidopsis lyrata genome, v.1.0 (Dec, 2008)</option>
+	<option value='TAIR10'         synonym="Arabidopsis thaliana">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
+	<option value='Bradi_v1.0'     synonym="Brachypodium distachyon;purple false brome">Brachypodium distachyon genome, v1.0 (Jan, 2009)</option>
+	<option value='Braol_v2.1'     synonym="Brassica oleracea;wild cabbage">Brassica oleracea genome, v2.1</option>
+	<option value='IVFCAASv1'      synonym="Brassica rapa;chinese cabbage">Brassica rapa genome, IVFCAASv1 (Aug, 2009)</option>
+	<option value='Chlre_v3.1'     synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)</option>
+	<option value='ASM9120v1'      synonym="Cyanidioschyzon merolae;red alga">Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)</option>
+	<option value='Soybn_V1.0'     synonym="Glycine max;soybean">Glycine max genome, V1.0 (Jan, 2010)</option>
+	<option value='Horvu_v1'       synonym="Hordeum vulgare;barley">Hordeum vulgare genome, 082214v1 (Mar, 2012)</option>
+	<option value='Lperr_V1.4'     synonym="Leersia perrieri">Leersia perrieri genome, Lperr_V1.4 (Mar, 2014)</option>
+	<option value='MedtrA17_4.0'   synonym="Medicago truncatula str. A17;barrel medic">Medicago truncatula str. A17 genome, MedtrA17_4.0 (Jun, 2014)</option>
+	<option value='MA1'            synonym="Musa acuminata;banana">Musa acuminata genome, MA1 (Aug, 2012)</option>
+	<option value='Obart_v1.0'     synonym="Oryza barthii;african wild rice">Oryza barthii genome, Obart_v1.0 (Apr, 2014)</option>
+	<option value='Orybr_v1.4b'    synonym="Oryza brachyantha;african wild rice">Oryza brachyantha genome, Oryza_brachyantha.v1.4b (May, 2011)</option>
+	<option value='AGI1.1'         synonym="Oryza glaberrima;african wild rice">Oryza glaberrima genome, AGI1.1 (May, 2011)</option>
+	<option value='Orygl'          synonym="Oryza glumaepatula;brazilian wild rice">Oryza glumaepatula genome, ALNU02000000 (Aug, 2013)</option>
+	<option value='Orylo_v0117'    synonym="Oryza longistaminata;longstamen rice">Oryza longistaminata genome, v0117-2013Aug (Aug, 2013)</option>
+	<option value='Oryme_v1.3'     synonym="Oryza meridionalis;australian wild rice">Oryza meridionalis genome, Oryza_meridionalis_v1.3 (Oct, 2014)</option>
+	<option value='Oryni'          synonym="Oryza nivara;indian wild rice">Oryza nivara genome, AWHD00000000 (Aug, 2013)</option>
+	<option value='Orypu'          synonym="Oryza punctata;red rice">Oryza punctata genome, AVCL00000000 (Aug, 2013)</option>
+	<option value='PRJEB4137'      synonym="Oryza rufipogon;brownbeard rice">Oryza rufipogon genome, PRJEB4137 (Aug, 2013)</option>
+	<option value='ASM465v1'       synonym="Oryza sativa Indica;rice">Oryza sativa Indica genome, ASM465v1 (Jan, 2005)</option>
+	<option value='IRGSP1.0'       synonym="Oryza sativa Japonica;rice">Oryza sativa Japonica genome, IRGSP-1.0</option>
+	<option value='ASM9206v1'      synonym="Ostreococcus lucimarinus">Ostreococcus lucimarinus genome, ASM9206v1 (Jan, 2011)</option>
+	<option value='ASM242v1'       synonym="Physcomitrella patens;moss">Physcomitrella patens genome, ASM242v1 (Jul, 2006)</option>
+	<option value='Poptr_JGI2.0'   synonym="Populus trichocarpa;western balsam poplar">Populus trichocarpa genome, JGI2.0 (Jan, 2010)</option>
+	<option value='Prupe1_0'       synonym="Prunus persica;peach">Prunus persica genome, Prupe1_0 (Mar, 2013)</option>
+	<option value='Selml_v1.0'     synonym="Selaginella moellendorffii;spikemoss">Selaginella moellendorffii genome, v1.0 (May, 2011)</option>
+	<option value='Setit_JGIv2.0'  synonym="Setaria italica;foxtail millet">Setaria italica genome, JGIv2.0 (Jan, 2012)</option>
+	<option value='SL2.50'         synonym="Solanum lycopersicum str. Heinz 1706;tomato">Solanum lycopersicum str. Heinz 1706 genome, SL2.50 (Oct, 2014)</option>
+	<option value='SolTub_3.0'     synonym="Solanum tuberosum;potato">Solanum tuberosum genome, SolTub_3.0 (May, 2011)</option>
+	<option value='Sorbi1'         synonym="Sorghum bicolor;sorghum">Sorghum bicolor genome, Sorbi1 (Dec, 2007)</option>
+	<option value='Thecc_20110822' synonym="Theobroma cacao;cacao">Theobroma cacao genome, Theobroma_cacao_20110822 (May, 2014)</option>
+	<option value='IWGSC1.0'       synonym="Triticum aestivum;wheat">Triticum aestivum genome, IWGSC1.0+popseq (Nov, 2014)</option>
+	<option value='ASM34745v1'     synonym="Triticum urartu;red wild einkorn">Triticum urartu genome, ASM34745v1 (Apr, 2013)</option>
+	<option value='IGGP_12x'       synonym="Vitis vinifera;grape">Vitis vinifera genome, IGGP_12x (Jun, 2011)</option>
+	<option value='AGPv3'          synonym="Zea mays;maize, Corn">Zea mays genome, AGPv3 (Apr, 2013)</option>
+
 	<option value='macaque_CE_1' synonym="Macaca fascicularis">Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
 	<option value='bmor1'   synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
-	<option value='ASM15162v1' synonym="Bombyx mori">Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)</option>
-	<option value='Tcas3'   synonym="Tribolium castaneum;red flour beetle">Tribolium castaneum genome, Tcas3 (Feb, 2010)</option>
 	<option value='pombe'   synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 
 	<option value='TAIR10'  synonym="Arabidopsis thaliana">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
@@ -1424,6 +1511,886 @@ set_strand() ;
 		-->Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</a>
 </tr>
 <tr>
+	<td><a href='/OryAfe1.0/'>OryAfe1.0</a>
+	<td>Ensembl
+	<td>Mammal
+	<td>Aardvark
+	<td>ツチブタ
+	<td>Orycteropus afer
+	<td><a target='_blank' href='http://pre.ensembl.org/Orycteropus_afer_afer/'><!--
+		-->OryAfe1.0 (May, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/PoeFor_5.1.2/'>PoeFor_5.1.2</a>
+	<td>Ensembl
+	<td>Vertebrate
+	<td>Amazon molly
+	<td>アマゾンモーリー
+	<td>Poecilia formosa
+	<td><a target='_blank' href='http://www.ensembl.org/Poecilia_formosa/'><!--
+		-->Poecilia_formosa-5.1.2 (Oct, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/CSAV2.0/'>CSAV2.0</a>
+	<td>Ensembl
+	<td>Deuterostome
+	<td>Pacific transparent sea squirt
+	<td>ユウレイボヤ
+	<td>Ciona savignyi
+	<td><a target='_blank' href='http://www.ensembl.org/Ciona_savignyi/'><!--
+		-->CSAV 2.0 (Oct, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/AstMex102/'>AstMex102</a>
+	<td>Ensembl
+	<td>Vertebrate
+	<td>Blind cave fish
+	<td>ブラインドケープテトラ
+	<td>Astyanax mexicanus
+	<td><a target='_blank' href='http://www.ensembl.org/Astyanax_mexicanus/'><!--
+		-->AstMex102 (Apr, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/PelSin_1.0/'>PelSin_1.0</a>
+	<td>Ensembl
+	<td>Vertebrate
+	<td>Chinese softshell turtle
+	<td>スッポン
+	<td>Pelodiscus sinensis
+	<td><a target='_blank' href='http://www.ensembl.org/Pelodiscus_sinensis/'><!--
+		-->PelSin_1.0 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/MacFas5.0/'>MacFas5.0</a>
+	<td>Ensembl
+	<td>Mammal
+	<td>Crab-eating macaque
+	<td>カニクイザル
+	<td>Macaca fascicularis
+	<td><a target='_blank' href='http://pre.ensembl.org/Macaca_fascicularis/'><!--
+		-->MacFas5.0 (Jun, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/BGI_duck_1.0/'>BGI_duck_1.0</a>
+	<td>Ensembl
+	<td>Vertebrate
+	<td>Duck
+	<td>マガモ
+	<td>Anas platyrhynchos
+	<td><a target='_blank' href='http://www.ensembl.org/Anas_platyrhynchos/'><!--
+		-->BGI_duck_1.0 (Apr, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/FicAlb_1.4/'>FicAlb_1.4</a>
+	<td>Ensembl
+	<td>Vertebrate
+	<td>Flycatcher
+	<td>シロエリヒタキ
+	<td>Ficedula albicollis
+	<td><a target='_blank' href='http://www.ensembl.org/Ficedula_albicollis/'><!--
+		-->FicAlb_1.4 (Jan, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/Pham/'>Pham</a>
+	<td>Ensembl
+	<td>Mammal
+	<td>Hamadryas baboon
+	<td>マントヒヒ
+	<td>Papio hamadryas
+	<td><a target='_blank' href='http://pre.ensembl.org/Papio_hamadryas/'><!--
+		-->Pham (Nov, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/Xipmac4.4.2/'>Xipmac4.4.2</a>
+	<td>Ensembl
+	<td>Vertebrate
+	<td>Platyfish
+	<td>サザンプラティフィッシュ
+	<td>Xiphophorus maculatus
+	<td><a target='_blank' href='http://www.ensembl.org/Xiphophorus_maculatus/'><!--
+		-->Xipmac4.4.2 (Jan, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/MicOch1.0/'>MicOch1.0</a>
+	<td>Ensembl
+	<td>Mammal
+	<td>Prairie vole
+	<td>ハタネズミ
+	<td>Microtus ochrogaster
+	<td><a target='_blank' href='http://pre.ensembl.org/Microtus_ochrogaster/'><!--
+		-->MicOch1.0 (Nov, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/PhyMac_2.0.2/'>PhyMac_2.0.2</a>
+	<td>Ensembl
+	<td>Mammal
+	<td>Sperm whale
+	<td>マッコウクジラ
+	<td>Physeter macrocephalus
+	<td><a target='_blank' href='http://pre.ensembl.org/Physter_macrocephalus/'><!--
+		-->PhyMac_2.0.2 (Sep, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/LepOcu1/'>LepOcu1</a>
+	<td>Ensembl
+	<td>Vertebrate
+	<td>Spotted gar
+	<td>スポッテッドガー
+	<td>Lepisosteus oculatus
+	<td><a target='_blank' href='http://www.ensembl.org/Lepisosteus_oculatus/'><!--
+		-->LepOcu1 (Dec, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/ChlSab1.1/'>ChlSab1.1</a>
+	<td>Ensembl
+	<td>Mammal
+	<td>Green monkey
+	<td>ミドリザル
+	<td>Chlorocebus sabaeus
+	<td><a target='_blank' href='http://www.ensembl.org/Chlorocebus_sabaeus/'><!--
+		-->ChlSab1.1 (Mar, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/Acyr_2.0/'>Acyr_2.0</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Pea aphid
+	<td>エンドウヒゲナガアブラムシ
+	<td>Acyrthosiphon pisum
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Acyrthosiphon_pisum/'><!--
+		-->Acyr_2.0 (Jun, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/AaegL3/'>AaegL3</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Yellowfever mosquito
+	<td>ネッタイシマカ
+	<td>Aedes aegypti
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Aedes_aegypti/'><!--
+		-->AaegL3 (Dec, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/Aqu1/'>Aqu1</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Sponge
+	<td>カイメン
+	<td>Amphimedon queenslandica
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Amphimedon_queenslandica/'><!--
+		-->Aqu1 (Oct, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/AdarC3/'>AdarC3</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Mosquito
+	<td>ハマダラカ
+	<td>Anopheles darlingi
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Anopheles_darlingi/'><!--
+		-->AdarC3 (Jan, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/Attacep1.0/'>Attacep1.0</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Leafcutter ant
+	<td>ハキリアリ
+	<td>Atta cephalotes
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Atta_cephalotes/'><!--
+		-->Attacep1.0 (Jul, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/ASM15162v1/'>ASM15162v1</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Silkworm
+	<td>カイコガ
+	<td>Bombyx mori
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Bombyx_mori/'><!--
+		-->ASM15162v1 (Feb, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/B_malayi_3.0/'>B_malayi_3.0</a>
+	<td>EnsemblMetazoa
+	<td>Nematode
+	<td>Filarial nematode worm
+	<td>マレー糸状虫
+	<td>Brugia malayi
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Brugia_malayi/'><!--
+		-->B_malayi-3.0 (Dec, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/Capte_v1.0/'>Capte_v1.0</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Polychaete worm
+	<td>イトゴカイ
+	<td>Capitella teleta
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Capitella_teleta/'><!--
+		-->Capitella teleta v1.0 (Dec, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/oyster_v9/'>oyster_v9</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Pacific oyster
+	<td>マガキ
+	<td>Crassostrea gigas
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Crassostrea_gigas/'><!--
+		-->oyster_v9 (Sep, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/CpipJ2/'>CpipJ2</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Southern house mosquito
+	<td>ネッタイイエカ
+	<td>Culex quinquefasciatus
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Culex_quinquefasciatus/'><!--
+		-->CpipJ2 (Jan, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/DanPle_1.0/'>DanPle_1.0</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Monarch butterfly
+	<td>オオカバマダラ
+	<td>Danaus plexippus
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Danaus_plexippus/'><!--
+		-->DanPle_1.0 (Nov, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Dappu_V1.0/'>Dappu_V1.0</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Water flea
+	<td>ミジンコ
+	<td>Daphnia pulex
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Daphnia_pulex/'><!--
+		-->V1.0 (Feb, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/DendPond_1.0/'>DendPond_1.0</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Mountain pine beetle
+	<td>キクイムシ
+	<td>Dendroctonus ponderosae
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Dendroctonus_ponderosae/'><!--
+		-->DendPond_male_1.0 (Apr, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/dwil_caf1/'>dwil_caf1</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>D. willistoni (Fruit fly)
+	<td>ショウジョウバエ属
+	<td>Drosophila willistoni
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Drosophila_willistoni/'><!--
+		-->dwil_caf1 (Jul, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/Hmel1/'>Hmel1</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Postman butterfly
+	<td>ドクチョウ
+	<td>Heliconius melpomene
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Heliconius_melpomene/'><!--
+		-->Hmel1 (Feb, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/Helro1/'>Helro1</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Californian leech
+	<td>ヒル
+	<td>Helobdella robusta
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Helobdella_robusta/'><!--
+		-->Helro1 (Dec, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/IscaW1/'>IscaW1</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Black-legged tick
+	<td>クロアシマダニ
+	<td>Ixodes scapularis
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Ixodes_scapularis/'><!--
+		-->IscaW1 (Aug, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/Loa_loa_V3/'>Loa_loa_V3</a>
+	<td>EnsemblMetazoa
+	<td>Nematode
+	<td>Eye worm
+	<td>ロア糸状虫
+	<td>Loa loa
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Loa_loa/'><!--
+		-->Loa_loa_V3 (Jan, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/Lotgi1/'>Lotgi1</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Giant owl limpet
+	<td>カサガイ
+	<td>Lottia gigantea
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Lottia_gigantea/'><!--
+		-->Lotgi1 (Jan, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/Msca1/'>Msca1</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Humpbacked fly
+	<td>クサビノミバエ
+	<td>Megaselia scalaris
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Megaselia_scalaris/'><!--
+		-->Msca1 (Feb, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/MelCinx1.0/'>MelCinx1.0</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Glanville fritillary
+	<td>グランヴィルヒョウモンモドキ
+	<td>Melitaea cinxia
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Melitaea_cinxia/'><!--
+		-->MelCinx1.0 (Jul, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/MneLei/'>MneLei</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Sea walnut
+	<td>ムネミオプシス・レイディ
+	<td>Mnemiopsis leidyi
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Mnemiopsis_leidyi/'><!--
+		-->MneLei_Aug2011 (Sep, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Nvit_2.1/'>Nvit_2.1</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Parasitic wasp
+	<td>キョウソヤドリコバチ
+	<td>Nasonia vitripennis
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Nasonia_vitripennis/'><!--
+		-->Nvit_2.1 (Nov, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/ASM20922v1/'>ASM20922v1</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Starlet sea anemone
+	<td>ムシモドキギンチャク科
+	<td>Nematostella vectensis
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Nematostella_vectensis/'><!--
+		-->ASM20922v1 (Sep, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/Cameroon_v3/'>Cameroon_v3</a>
+	<td>EnsemblMetazoa
+	<td>Nematode
+	<td>O. volvulus (Parasitic nematode)
+	<td>回旋糸状虫
+	<td>Onchocerca volvulus
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Onchocerca_volvulus/'><!--
+		-->Cameroon_v3 (Nov, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/PhumU2/'>PhumU2</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Body louse
+	<td>ヒトジラミ
+	<td>Pediculus humanus
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Pediculus_humanus/'><!--
+		-->PhumU2 (Nov, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/RproC1/'>RproC1</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Triatomid bug
+	<td>サシガメ
+	<td>Rhodnius prolixus
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Rhodnius_prolixus/'><!--
+		-->RproC1 (Dec, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/ASM23792v2/'>ASM23792v2</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Blood fluke
+	<td>マンソン住血吸虫
+	<td>Schistosoma mansoni
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Schistosoma_mansoni/'><!--
+		-->ASM23792v2 (Apr, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/Si_gnG/'>Si_gnG</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Red imported fire ant
+	<td>アカヒアリ
+	<td>Solenopsis invicta
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Solenopsis_invicta/'><!--
+		-->Si_gnG (Feb, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Smar1/'>Smar1</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>European centipede
+	<td>ムカデ
+	<td>Strigamia maritima
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Strigamia_maritima/'><!--
+		-->Smar1 (Feb, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/ASM23943v1/'>ASM23943v1</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>Two-spotted spider mite
+	<td>ナミハダニ
+	<td>Tetranychus urticae
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Tetranychus_urticae/'><!--
+		-->ASM23943v1 (Nov, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Tcas3/'>Tcas3</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Red flour beetle
+	<td>コクヌストモドキ
+	<td>Tribolium castaneum
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Tribolium_castaneum/'><!--
+		-->Tcas3 (Feb, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/Tspiralis1/'>Tspiralis1</a>
+	<td>EnsemblMetazoa
+	<td>Nematode
+	<td>Trichina worm
+	<td>旋毛虫
+	<td>Trichinella spiralis
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Trichinella_spiralis/'><!--
+		-->Tspiralis1 (Mar, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/ASM15027v1/'>ASM15027v1</a>
+	<td>EnsemblMetazoa
+	<td>Metazoa
+	<td>T. adhaerens
+	<td>センモウヒラムシ
+	<td>Trichoplax adhaerens
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Trichoplax_adhaerens/'><!--
+		-->ASM15027v1 (Aug, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/ZooNev1.0/'>ZooNev1.0</a>
+	<td>EnsemblMetazoa
+	<td>Insect
+	<td>Dampwood termite
+	<td>ネバダオオシロアリ
+	<td>Zootermopsis nevadensis
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Zootermopsis_nevadensis/'><!--
+		-->ZooNev1.0 (Jun, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/ASM34733v1/'>ASM34733v1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Tausch's goatgrass
+	<td>タルホコムギ
+	<td>Aegilops tauschii
+	<td><a target='_blank' href='http://plants.ensembl.org/Aegilops_tauschii/'><!--
+		-->ASM34733v1 (Dec, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/AMTR1.0/'>AMTR1.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>A. trichopoda
+	<td>アムボレラ・トリコポダ
+	<td>Amborella trichopoda
+	<td><a target='_blank' href='http://plants.ensembl.org/Amborella_trichopoda/'><!--
+		-->AMTR1.0 (Jan, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/Araly_v.1.0/'>Araly_v.1.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Lyre-leaved rock-cress
+	<td>シロイヌナズナ属
+	<td>Arabidopsis lyrata
+	<td><a target='_blank' href='http://plants.ensembl.org/Arabidopsis_lyrata/'><!--
+		-->v.1.0 (Dec, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/TAIR10_en/'>TAIR10_en</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Thale cress
+	<td>シロイヌナズナ
+	<td>Arabidopsis thaliana
+	<td><a target='_blank' href='http://plants.ensembl.org/Arabidopsis_thaliana/'><!--
+		-->TAIR10 (Sep, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/Bradi_v1.0/'>Bradi_v1.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Purple false brome
+	<td>セイヨウヤマカモジ, ミナトカモジグサ
+	<td>Brachypodium distachyon
+	<td><a target='_blank' href='http://plants.ensembl.org/Brachypodium_distachyon/'><!--
+		-->v1.0 (Jan, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/Braol_v2.1/'>Braol_v2.1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Wild cabbage
+	<td>ヤセイカンラン, ワイルドキャベツ
+	<td>Brassica oleracea
+	<td><a target='_blank' href='http://plants.ensembl.org/Brassica_oleracea/'><!--
+		-->v2.1</a>
+</tr>
+<tr>
+	<td><a href='/IVFCAASv1/'>IVFCAASv1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Chinese cabbage
+	<td>ハクサイ
+	<td>Brassica rapa
+	<td><a target='_blank' href='http://plants.ensembl.org/Brassica_rapa/'><!--
+		-->IVFCAASv1 (Aug, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/Chlre_v3.1/'>Chlre_v3.1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Green algae
+	<td>クラミドモナス
+	<td>Chlamydomonas reinhardtii
+	<td><a target='_blank' href='http://plants.ensembl.org/Chlamydomonas_reinhardtii/'><!--
+		-->v3.1 (Nov, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/ASM9120v1/'>ASM9120v1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Red alga
+	<td>シアニディオシゾン
+	<td>Cyanidioschyzon merolae
+	<td><a target='_blank' href='http://plants.ensembl.org/Cyanidioschyzon_merolae/'><!--
+		-->ASM9120v1 (Nov, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/Soybn_V1.0/'>Soybn_V1.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Soybean
+	<td>ダイズ
+	<td>Glycine max
+	<td><a target='_blank' href='http://plants.ensembl.org/Glycine_max/'><!--
+		-->V1.0 (Jan, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/Horvu_v1/'>Horvu_v1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Barley
+	<td>オオムギ
+	<td>Hordeum vulgare
+	<td><a target='_blank' href='http://plants.ensembl.org/Hordeum_vulgare/'><!--
+		-->082214v1 (Mar, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/Lperr_V1.4/'>Lperr_V1.4</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>L. perrieri
+	<td>イネ科サヤヌカグサ属
+	<td>Leersia perrieri
+	<td><a target='_blank' href='http://plants.ensembl.org/Leersia_perrieri/'><!--
+		-->Lperr_V1.4 (Mar, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/MedtrA17_4.0/'>MedtrA17_4.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Barrel medic
+	<td>タルウマゴヤシ
+	<td>Medicago truncatula str. A17
+	<td><a target='_blank' href='http://plants.ensembl.org/Medicago_truncatula/'><!--
+		-->MedtrA17_4.0 (Jun, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/MA1/'>MA1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Banana
+	<td>バナナ
+	<td>Musa acuminata
+	<td><a target='_blank' href='http://plants.ensembl.org/Musa_acuminata/'><!--
+		-->MA1 (Aug, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/Obart_v1.0/'>Obart_v1.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>African wild rice
+	<td>イネ・野生種
+	<td>Oryza barthii
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_barthii/'><!--
+		-->Obart_v1.0 (Apr, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/Orybr_v1.4b/'>Orybr_v1.4b</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>African wild rice
+	<td>イネ・野生種
+	<td>Oryza brachyantha
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_brachyantha/'><!--
+		-->Oryza_brachyantha.v1.4b (May, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/AGI1.1/'>AGI1.1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>African wild rice
+	<td>イネ・野生種
+	<td>Oryza glaberrima
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_glaberrima/'><!--
+		-->AGI1.1 (May, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Orygl/'>Orygl</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Brazilian wild rice
+	<td>イネ・野生種
+	<td>Oryza glumaepatula
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_glumaepatula/'><!--
+		-->ALNU02000000 (Aug, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/Orylo_v0117/'>Orylo_v0117</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Longstamen rice
+	<td>イネ・野生種
+	<td>Oryza longistaminata
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_longistaminata/'><!--
+		-->v0117-2013Aug (Aug, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/Oryme_v1.3/'>Oryme_v1.3</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Australian wild rice
+	<td>イネ・野生種
+	<td>Oryza meridionalis
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_meridionalis/'><!--
+		-->Oryza_meridionalis_v1.3 (Oct, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/Oryni/'>Oryni</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Indian wild rice
+	<td>イネ・野生種
+	<td>Oryza nivara
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_nivara/'><!--
+		-->AWHD00000000 (Aug, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/Orypu/'>Orypu</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Red rice
+	<td>イネ・野生種
+	<td>Oryza punctata
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_punctata/'><!--
+		-->AVCL00000000 (Aug, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/PRJEB4137/'>PRJEB4137</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Brownbeard rice
+	<td>イネ・野生種
+	<td>Oryza rufipogon
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_rufipogon/'><!--
+		-->PRJEB4137 (Aug, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/ASM465v1/'>ASM465v1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Rice
+	<td>イネ・インディカ種
+	<td>Oryza sativa Indica
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_indica/'><!--
+		-->ASM465v1 (Jan, 2005)</a>
+</tr>
+<tr>
+	<td><a href='/IRGSP1.0/'>IRGSP1.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Rice
+	<td>イネ・ジャポニカ種
+	<td>Oryza sativa Japonica
+	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_sativa/'><!--
+		-->IRGSP-1.0</a>
+</tr>
+<tr>
+	<td><a href='/ASM9206v1/'>ASM9206v1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>O. lucimarinus
+	<td>オストレオコッカス
+	<td>Ostreococcus lucimarinus
+	<td><a target='_blank' href='http://plants.ensembl.org/Ostreococcus_lucimarinus/'><!--
+		-->ASM9206v1 (Jan, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/ASM242v1/'>ASM242v1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Moss
+	<td>ヒメツリガネゴケ
+	<td>Physcomitrella patens
+	<td><a target='_blank' href='http://plants.ensembl.org/Physcomitrella_patens/'><!--
+		-->ASM242v1 (Jul, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/Poptr_JGI2.0/'>Poptr_JGI2.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Western balsam poplar
+	<td>ポプラ, コットンウッド
+	<td>Populus trichocarpa
+	<td><a target='_blank' href='http://plants.ensembl.org/Populus_trichocarpa/'><!--
+		-->JGI2.0 (Jan, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/Prupe1_0/'>Prupe1_0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Peach
+	<td>モモ
+	<td>Prunus persica
+	<td><a target='_blank' href='http://plants.ensembl.org/Prunus_persica/'><!--
+		-->Prupe1_0 (Mar, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/Selml_v1.0/'>Selml_v1.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Spikemoss
+	<td>イヌタカヒバ
+	<td>Selaginella moellendorffii
+	<td><a target='_blank' href='http://plants.ensembl.org/Selaginella_moellendorffii/'><!--
+		-->v1.0 (May, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Setit_JGIv2.0/'>Setit_JGIv2.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Foxtail millet
+	<td>アワ
+	<td>Setaria italica
+	<td><a target='_blank' href='http://plants.ensembl.org/Setaria_italica/'><!--
+		-->JGIv2.0 (Jan, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/SL2.50/'>SL2.50</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Tomato
+	<td>トマト
+	<td>Solanum lycopersicum str. Heinz 1706
+	<td><a target='_blank' href='http://plants.ensembl.org/Solanum_lycopersicum/'><!--
+		-->SL2.50 (Oct, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/SolTub_3.0/'>SolTub_3.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Potato
+	<td>ジャガイモ
+	<td>Solanum tuberosum
+	<td><a target='_blank' href='http://plants.ensembl.org/Solanum_tuberosum/'><!--
+		-->SolTub_3.0 (May, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Sorbi1/'>Sorbi1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Sorghum
+	<td>モロコシ
+	<td>Sorghum bicolor
+	<td><a target='_blank' href='http://plants.ensembl.org/Sorghum_bicolor/'><!--
+		-->Sorbi1 (Dec, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/Thecc_20110822/'>Thecc_20110822</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Cacao
+	<td>カカオ
+	<td>Theobroma cacao
+	<td><a target='_blank' href='http://plants.ensembl.org/Theobroma_cacao/'><!--
+		-->Theobroma_cacao_20110822 (May, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/IWGSC1.0/'>IWGSC1.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Wheat
+	<td>コムギ
+	<td>Triticum aestivum
+	<td><a target='_blank' href='http://plants.ensembl.org/Triticum_aestivum/'><!--
+		-->IWGSC1.0+popseq (Nov, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/ASM34745v1/'>ASM34745v1</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Red wild einkorn
+	<td>ウラルツコムギ
+	<td>Triticum urartu
+	<td><a target='_blank' href='http://plants.ensembl.org/Triticum_urartu/'><!--
+		-->ASM34745v1 (Apr, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/IGGP_12x/'>IGGP_12x</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Grape
+	<td>ブドウ
+	<td>Vitis vinifera
+	<td><a target='_blank' href='http://plants.ensembl.org/Vitis_vinifera/'><!--
+		-->IGGP_12x (Jun, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/AGPv3/'>AGPv3</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Maize, Corn
+	<td>トウモロコシ
+	<td>Zea mays
+	<td><a target='_blank' href='http://plants.ensembl.org/Zea_mays/'><!--
+		-->AGPv3 (Apr, 2013)</a>
+</tr>
+<tr>
 	<td><a href='/Ppatens_251_v3/'>Ppatens_251_v3</a>
 	<td>Phytozome
 	<td>Plant
@@ -1532,26 +2499,6 @@ set_strand() ;
 	<td>Bombyx mori
 	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-17/fasta/bombyx_mori/dna/'><!--
 		-->Bmor1 (Apr, 2008)</a>
-</tr>
-<tr>
-	<td><a href='/ASM15162v1/'>ASM15162v1</a>
-	<td>Ensembl
-	<td>Insect
-	<td>Silkworm
-	<td>カイコガ
-	<td>Bombyx mori
-	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/release-25/metazoa/fasta/bombyx_mori/dna/'><!--
-		-->ASM15162v1/GCA_000151625.1 (Feb, 2013)</a>
-</tr>
-<tr>
-	<td><a href='/Tcas3/'>Tcas3</a>
-	<td>Ensembl
-	<td>Insect
-	<td>Red flour beetle
-	<td>コクヌストモドキ
-	<td>Tribolium castaneum
-	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/metazoa/release-28/fasta/tribolium_castaneum/dna/'><!--
-		-->Tcas3 (Feb, 2010)</a>
 </tr>
 <tr>
 	<td><a href='/pombe/'>pombe</a>
