@@ -1138,155 +1138,155 @@ my $robots = "<meta name=robots content=none>\n" ;  # トップページ以外�
 #-- ▽ プルダウンメニュー
 #ADD tyamamot synonym属性の追記
 my $select = <<"--EOS--" ;
-	<option value=\'hg38\'    synonym=\'$db_synonym{'hg38'   }\'>$db_fullname{'hg38'   }</option>
-	<option value=\'hg19\'    synonym=\'$db_synonym{'hg19'   }\'>$db_fullname{'hg19'   }</option>
-	<option value=\'hg18\'    synonym=\'$db_synonym{'hg18'   }\'>$db_fullname{'hg18'   }</option>
-	<option value=\'mm10\'    synonym=\'$db_synonym{'mm10'   }\'>$db_fullname{'mm10'   }</option>
-	<option value=\'mm9\'     synonym=\'$db_synonym{'mm9'    }\'>$db_fullname{'mm9'    }</option>
-	<option value=\'rn6\'     synonym=\'$db_synonym{'rn6'    }\'>$db_fullname{'rn6'    }</option>
-	<option value=\'rn5\'     synonym=\'$db_synonym{'rn5'    }\'>$db_fullname{'rn5'    }</option>
-	<option value=\'vicPac2\' synonym=\'$db_synonym{'vicPac2'}\'>$db_fullname{'vicPac2'}</option>
-	<option value=\'dasNov3\' synonym=\'$db_synonym{'dasNov3'}\'>$db_fullname{'dasNov3'}</option>
-	<option value=\'papAnu2\' synonym=\'$db_synonym{'papAnu2'}\'>$db_fullname{'papAnu2'}</option>
-	<option value=\'otoGar3\' synonym=\'$db_synonym{'otoGar3'}\'>$db_fullname{'otoGar3'}</option>
-	<option value=\'felCat5\' synonym=\'$db_synonym{'felCat5'}\'>$db_fullname{'felCat5'}</option>
-	<option value=\'panTro4\' synonym=\'$db_synonym{'panTro4'}\'>$db_fullname{'panTro4'}</option>
-	<option value=\'criGri1\' synonym=\'$db_synonym{'criGri1'}\'>$db_fullname{'criGri1'}</option>
-	<option value=\'bosTau8\' synonym=\'$db_synonym{'bosTau8'}\'>$db_fullname{'bosTau8'}</option>
-	<option value=\'canFam3\' synonym=\'$db_synonym{'canFam3'}\'>$db_fullname{'canFam3'}</option>
-	<option value=\'turTru2\' synonym=\'$db_synonym{'turTru2'}\'>$db_fullname{'turTru2'}</option>
-	<option value=\'loxAfr3\' synonym=\'$db_synonym{'loxAfr3'}\'>$db_fullname{'loxAfr3'}</option>
-	<option value=\'musFur1\' synonym=\'$db_synonym{'musFur1'}\'>$db_fullname{'musFur1'}</option>
-	<option value=\'nomLeu3\' synonym=\'$db_synonym{'nomLeu3'}\'>$db_fullname{'nomLeu3'}</option>
-	<option value=\'gorGor3\' synonym=\'$db_synonym{'gorGor3'}\'>$db_fullname{'gorGor3'}</option>
-	<option value=\'cavPor3\' synonym=\'$db_synonym{'cavPor3'}\'>$db_fullname{'cavPor3'}</option>
-	<option value=\'eriEur2\' synonym=\'$db_synonym{'eriEur2'}\'>$db_fullname{'eriEur2'}</option>
-	<option value=\'equCab2\' synonym=\'$db_synonym{'equCab2'}\'>$db_fullname{'equCab2'}</option>
-	<option value=\'dipOrd1\' synonym=\'$db_synonym{'dipOrd1'}\'>$db_fullname{'dipOrd1'}</option>
-	<option value=\'triMan1\' synonym=\'$db_synonym{'triMan1'}\'>$db_fullname{'triMan1'}</option>
-	<option value=\'calJac3\' synonym=\'$db_synonym{'calJac3'}\'>$db_fullname{'calJac3'}</option>
-	<option value=\'pteVam1\' synonym=\'$db_synonym{'pteVam1'}\'>$db_fullname{'pteVam1'}</option>
-	<option value=\'myoLuc2\' synonym=\'$db_synonym{'myoLuc2'}\'>$db_fullname{'myoLuc2'}</option>
-	<option value=\'balAcu1\' synonym=\'$db_synonym{'balAcu1'}\'>$db_fullname{'balAcu1'}</option>
-	<option value=\'micMur1\' synonym=\'$db_synonym{'micMur1'}\'>$db_fullname{'micMur1'}</option>
-	<option value=\'hetGla2\' synonym=\'$db_synonym{'hetGla2'}\'>$db_fullname{'hetGla2'}</option>
-	<option value=\'monDom5\' synonym=\'$db_synonym{'monDom5'}\'>$db_fullname{'monDom5'}</option>
-	<option value=\'ponAbe2\' synonym=\'$db_synonym{'ponAbe2'}\'>$db_fullname{'ponAbe2'}</option>
-	<option value=\'ailMel1\' synonym=\'$db_synonym{'ailMel1'}\'>$db_fullname{'ailMel1'}</option>
-	<option value=\'susScr3\' synonym=\'$db_synonym{'susScr3'}\'>$db_fullname{'susScr3'}</option>
-	<option value=\'ochPri3\' synonym=\'$db_synonym{'ochPri3'}\'>$db_fullname{'ochPri3'}</option>
-	<option value=\'ornAna1\' synonym=\'$db_synonym{'ornAna1'}\'>$db_fullname{'ornAna1'}</option>
-	<option value=\'oryCun2\' synonym=\'$db_synonym{'oryCun2'}\'>$db_fullname{'oryCun2'}</option>
-	<option value=\'rheMac3\' synonym=\'$db_synonym{'rheMac3'}\'>$db_fullname{'rheMac3'}</option>
-	<option value=\'proCap1\' synonym=\'$db_synonym{'proCap1'}\'>$db_fullname{'proCap1'}</option>
-	<option value=\'oviAri3\' synonym=\'$db_synonym{'oviAri3'}\'>$db_fullname{'oviAri3'}</option>
-	<option value=\'sorAra2\' synonym=\'$db_synonym{'sorAra2'}\'>$db_fullname{'sorAra2'}</option>
-	<option value=\'choHof1\' synonym=\'$db_synonym{'choHof1'}\'>$db_fullname{'choHof1'}</option>
-	<option value=\'speTri2\' synonym=\'$db_synonym{'speTri2'}\'>$db_fullname{'speTri2'}</option>
-	<option value=\'saiBol1\' synonym=\'$db_synonym{'saiBol1'}\'>$db_fullname{'saiBol1'}</option>
-	<option value=\'tarSyr1\' synonym=\'$db_synonym{'tarSyr1'}\'>$db_fullname{'tarSyr1'}</option>
-	<option value=\'sarHar1\' synonym=\'$db_synonym{'sarHar1'}\'>$db_fullname{'sarHar1'}</option>
-	<option value=\'echTel2\' synonym=\'$db_synonym{'echTel2'}\'>$db_fullname{'echTel2'}</option>
-	<option value=\'tupBel1\' synonym=\'$db_synonym{'tupBel1'}\'>$db_fullname{'tupBel1'}</option>
-	<option value=\'macEug2\' synonym=\'$db_synonym{'macEug2'}\'>$db_fullname{'macEug2'}</option>
-	<option value=\'cerSim1\' synonym=\'$db_synonym{'cerSim1'}\'>$db_fullname{'cerSim1'}</option>
-	<option value=\'allMis1\' synonym=\'$db_synonym{'allMis1'}\'>$db_fullname{'allMis1'}</option>
-	<option value=\'gadMor1\' synonym=\'$db_synonym{'gadMor1'}\'>$db_fullname{'gadMor1'}</option>
-	<option value=\'melUnd1\' synonym=\'$db_synonym{'melUnd1'}\'>$db_fullname{'melUnd1'}</option>
-	<option value=\'galGal4\' synonym=\'$db_synonym{'galGal4'}\'>$db_fullname{'galGal4'}</option>
-	<option value=\'latCha1\' synonym=\'$db_synonym{'latCha1'}\'>$db_fullname{'latCha1'}</option>
-	<option value=\'calMil1\' synonym=\'$db_synonym{'calMil1'}\'>$db_fullname{'calMil1'}</option>
-	<option value=\'fr3\'     synonym=\'$db_synonym{'fr3'    }\'>$db_fullname{'fr3'    }</option>
-	<option value=\'petMar2\' synonym=\'$db_synonym{'petMar2'}\'>$db_fullname{'petMar2'}</option>
-	<option value=\'anoCar2\' synonym=\'$db_synonym{'anoCar2'}\'>$db_fullname{'anoCar2'}</option>
-	<option value=\'oryLat2\' synonym=\'$db_synonym{'oryLat2'}\'>$db_fullname{'oryLat2'}</option>
-	<option value=\'geoFor1\' synonym=\'$db_synonym{'geoFor1'}\'>$db_fullname{'geoFor1'}</option>
-	<option value=\'oreNil2\' synonym=\'$db_synonym{'oreNil2'}\'>$db_fullname{'oreNil2'}</option>
-	<option value=\'chrPic1\' synonym=\'$db_synonym{'chrPic1'}\'>$db_fullname{'chrPic1'}</option>
-	<option value=\'gasAcu1\' synonym=\'$db_synonym{'gasAcu1'}\'>$db_fullname{'gasAcu1'}</option>
-	<option value=\'tetNig2\' synonym=\'$db_synonym{'tetNig2'}\'>$db_fullname{'tetNig2'}</option>
-	<option value=\'melGal1\' synonym=\'$db_synonym{'melGal1'}\'>$db_fullname{'melGal1'}</option>
-	<option value=\'Xenla7\'  synonym=\'$db_synonym{'Xenla7' }\'>$db_fullname{'Xenla7' }</option>
-	<option value=\'Xentr8\'  synonym=\'$db_synonym{'Xentr8' }\'>$db_fullname{'Xentr8' }</option>
-	<option value=\'Xentr7\'  synonym=\'$db_synonym{'Xentr7' }\'>$db_fullname{'Xentr7' }</option>
-	<option value=\'xenTro3\' synonym=\'$db_synonym{'xenTro3'}\'>$db_fullname{'xenTro3'}</option>
-	<option value=\'taeGut2\' synonym=\'$db_synonym{'taeGut2'}\'>$db_fullname{'taeGut2'}</option>
-	<option value=\'danRer7\' synonym=\'$db_synonym{'danRer7'}\'>$db_fullname{'danRer7'}</option>
-	<option value=\'ci2\'     synonym=\'$db_synonym{'ci2'    }\'>$db_fullname{'ci2'    }</option>
-	<option value=\'braFlo1\' synonym=\'$db_synonym{'braFlo1'}\'>$db_fullname{'braFlo1'}</option>
-	<option value=\'strPur2\' synonym=\'$db_synonym{'strPur2'}\'>$db_fullname{'strPur2'}</option>
-	<option value=\'anoGam1\' synonym=\'$db_synonym{'anoGam1'}\'>$db_fullname{'anoGam1'}</option>
-	<option value=\'apiMel2\' synonym=\'$db_synonym{'apiMel2'}\'>$db_fullname{'apiMel2'}</option>
-	<option value=\'droAna2\' synonym=\'$db_synonym{'droAna2'}\'>$db_fullname{'droAna2'}</option>
-	<option value=\'droEre1\' synonym=\'$db_synonym{'droEre1'}\'>$db_fullname{'droEre1'}</option>
-	<option value=\'droGri1\' synonym=\'$db_synonym{'droGri1'}\'>$db_fullname{'droGri1'}</option>
-	<option value=\'dm6\'     synonym=\'$db_synonym{'dm6'    }\'>$db_fullname{'dm6'    }</option>
-	<option value=\'dm3\'     synonym=\'$db_synonym{'dm3'    }\'>$db_fullname{'dm3'    }</option>
-	<option value=\'droMoj2\' synonym=\'$db_synonym{'droMoj2'}\'>$db_fullname{'droMoj2'}</option>
-	<option value=\'droPer1\' synonym=\'$db_synonym{'droPer1'}\'>$db_fullname{'droPer1'}</option>
-	<option value=\'dp3\'     synonym=\'$db_synonym{'dp3'    }\'>$db_fullname{'dp3'    }</option>
-	<option value=\'droSec1\' synonym=\'$db_synonym{'droSec1'}\'>$db_fullname{'droSec1'}</option>
-	<option value=\'droSim1\' synonym=\'$db_synonym{'droSim1'}\'>$db_fullname{'droSim1'}</option>
-	<option value=\'droVir2\' synonym=\'$db_synonym{'droVir2'}\'>$db_fullname{'droVir2'}</option>
-	<option value=\'droYak2\' synonym=\'$db_synonym{'droYak2'}\'>$db_fullname{'droYak2'}</option>
-	<option value=\'caePb2\'  synonym=\'$db_synonym{'caePb2' }\'>$db_fullname{'caePb2' }</option>
-	<option value=\'cb3\'     synonym=\'$db_synonym{'cb3'    }\'>$db_fullname{'cb3'    }</option>
-	<option value=\'ce10\'    synonym=\'$db_synonym{'ce10'   }\'>$db_fullname{'ce10'   }</option>
-	<option value=\'caeJap1\' synonym=\'$db_synonym{'caeJap1'}\'>$db_fullname{'caeJap1'}</option>
-	<option value=\'caeRem3\' synonym=\'$db_synonym{'caeRem3'}\'>$db_fullname{'caeRem3'}</option>
-	<option value=\'priPac1\' synonym=\'$db_synonym{'priPac1'}\'>$db_fullname{'priPac1'}</option>
-	<option value=\'sacCer3\' synonym=\'$db_synonym{'sacCer3'}\'>$db_fullname{'sacCer3'}</option>
-	<option value=\'aplCal1\' synonym=\'$db_synonym{'aplCal1'}\'>$db_fullname{'aplCal1'}</option>
+	<option value=\'hg38\'    synonym=\"$db_synonym{'hg38'   }\">$db_fullname{'hg38'   }</option>
+	<option value=\'hg19\'    synonym=\"$db_synonym{'hg19'   }\">$db_fullname{'hg19'   }</option>
+	<option value=\'hg18\'    synonym=\"$db_synonym{'hg18'   }\">$db_fullname{'hg18'   }</option>
+	<option value=\'mm10\'    synonym=\"$db_synonym{'mm10'   }\">$db_fullname{'mm10'   }</option>
+	<option value=\'mm9\'     synonym=\"$db_synonym{'mm9'    }\">$db_fullname{'mm9'    }</option>
+	<option value=\'rn6\'     synonym=\"$db_synonym{'rn6'    }\">$db_fullname{'rn6'    }</option>
+	<option value=\'rn5\'     synonym=\"$db_synonym{'rn5'    }\">$db_fullname{'rn5'    }</option>
+	<option value=\'vicPac2\' synonym=\"$db_synonym{'vicPac2'}\">$db_fullname{'vicPac2'}</option>
+	<option value=\'dasNov3\' synonym=\"$db_synonym{'dasNov3'}\">$db_fullname{'dasNov3'}</option>
+	<option value=\'papAnu2\' synonym=\"$db_synonym{'papAnu2'}\">$db_fullname{'papAnu2'}</option>
+	<option value=\'otoGar3\' synonym=\"$db_synonym{'otoGar3'}\">$db_fullname{'otoGar3'}</option>
+	<option value=\'felCat5\' synonym=\"$db_synonym{'felCat5'}\">$db_fullname{'felCat5'}</option>
+	<option value=\'panTro4\' synonym=\"$db_synonym{'panTro4'}\">$db_fullname{'panTro4'}</option>
+	<option value=\'criGri1\' synonym=\"$db_synonym{'criGri1'}\">$db_fullname{'criGri1'}</option>
+	<option value=\'bosTau8\' synonym=\"$db_synonym{'bosTau8'}\">$db_fullname{'bosTau8'}</option>
+	<option value=\'canFam3\' synonym=\"$db_synonym{'canFam3'}\">$db_fullname{'canFam3'}</option>
+	<option value=\'turTru2\' synonym=\"$db_synonym{'turTru2'}\">$db_fullname{'turTru2'}</option>
+	<option value=\'loxAfr3\' synonym=\"$db_synonym{'loxAfr3'}\">$db_fullname{'loxAfr3'}</option>
+	<option value=\'musFur1\' synonym=\"$db_synonym{'musFur1'}\">$db_fullname{'musFur1'}</option>
+	<option value=\'nomLeu3\' synonym=\"$db_synonym{'nomLeu3'}\">$db_fullname{'nomLeu3'}</option>
+	<option value=\'gorGor3\' synonym=\"$db_synonym{'gorGor3'}\">$db_fullname{'gorGor3'}</option>
+	<option value=\'cavPor3\' synonym=\"$db_synonym{'cavPor3'}\">$db_fullname{'cavPor3'}</option>
+	<option value=\'eriEur2\' synonym=\"$db_synonym{'eriEur2'}\">$db_fullname{'eriEur2'}</option>
+	<option value=\'equCab2\' synonym=\"$db_synonym{'equCab2'}\">$db_fullname{'equCab2'}</option>
+	<option value=\'dipOrd1\' synonym=\"$db_synonym{'dipOrd1'}\">$db_fullname{'dipOrd1'}</option>
+	<option value=\'triMan1\' synonym=\"$db_synonym{'triMan1'}\">$db_fullname{'triMan1'}</option>
+	<option value=\'calJac3\' synonym=\"$db_synonym{'calJac3'}\">$db_fullname{'calJac3'}</option>
+	<option value=\'pteVam1\' synonym=\"$db_synonym{'pteVam1'}\">$db_fullname{'pteVam1'}</option>
+	<option value=\'myoLuc2\' synonym=\"$db_synonym{'myoLuc2'}\">$db_fullname{'myoLuc2'}</option>
+	<option value=\'balAcu1\' synonym=\"$db_synonym{'balAcu1'}\">$db_fullname{'balAcu1'}</option>
+	<option value=\'micMur1\' synonym=\"$db_synonym{'micMur1'}\">$db_fullname{'micMur1'}</option>
+	<option value=\'hetGla2\' synonym=\"$db_synonym{'hetGla2'}\">$db_fullname{'hetGla2'}</option>
+	<option value=\'monDom5\' synonym=\"$db_synonym{'monDom5'}\">$db_fullname{'monDom5'}</option>
+	<option value=\'ponAbe2\' synonym=\"$db_synonym{'ponAbe2'}\">$db_fullname{'ponAbe2'}</option>
+	<option value=\'ailMel1\' synonym=\"$db_synonym{'ailMel1'}\">$db_fullname{'ailMel1'}</option>
+	<option value=\'susScr3\' synonym=\"$db_synonym{'susScr3'}\">$db_fullname{'susScr3'}</option>
+	<option value=\'ochPri3\' synonym=\"$db_synonym{'ochPri3'}\">$db_fullname{'ochPri3'}</option>
+	<option value=\'ornAna1\' synonym=\"$db_synonym{'ornAna1'}\">$db_fullname{'ornAna1'}</option>
+	<option value=\'oryCun2\' synonym=\"$db_synonym{'oryCun2'}\">$db_fullname{'oryCun2'}</option>
+	<option value=\'rheMac3\' synonym=\"$db_synonym{'rheMac3'}\">$db_fullname{'rheMac3'}</option>
+	<option value=\'proCap1\' synonym=\"$db_synonym{'proCap1'}\">$db_fullname{'proCap1'}</option>
+	<option value=\'oviAri3\' synonym=\"$db_synonym{'oviAri3'}\">$db_fullname{'oviAri3'}</option>
+	<option value=\'sorAra2\' synonym=\"$db_synonym{'sorAra2'}\">$db_fullname{'sorAra2'}</option>
+	<option value=\'choHof1\' synonym=\"$db_synonym{'choHof1'}\">$db_fullname{'choHof1'}</option>
+	<option value=\'speTri2\' synonym=\"$db_synonym{'speTri2'}\">$db_fullname{'speTri2'}</option>
+	<option value=\'saiBol1\' synonym=\"$db_synonym{'saiBol1'}\">$db_fullname{'saiBol1'}</option>
+	<option value=\'tarSyr1\' synonym=\"$db_synonym{'tarSyr1'}\">$db_fullname{'tarSyr1'}</option>
+	<option value=\'sarHar1\' synonym=\"$db_synonym{'sarHar1'}\">$db_fullname{'sarHar1'}</option>
+	<option value=\'echTel2\' synonym=\"$db_synonym{'echTel2'}\">$db_fullname{'echTel2'}</option>
+	<option value=\'tupBel1\' synonym=\"$db_synonym{'tupBel1'}\">$db_fullname{'tupBel1'}</option>
+	<option value=\'macEug2\' synonym=\"$db_synonym{'macEug2'}\">$db_fullname{'macEug2'}</option>
+	<option value=\'cerSim1\' synonym=\"$db_synonym{'cerSim1'}\">$db_fullname{'cerSim1'}</option>
+	<option value=\'allMis1\' synonym=\"$db_synonym{'allMis1'}\">$db_fullname{'allMis1'}</option>
+	<option value=\'gadMor1\' synonym=\"$db_synonym{'gadMor1'}\">$db_fullname{'gadMor1'}</option>
+	<option value=\'melUnd1\' synonym=\"$db_synonym{'melUnd1'}\">$db_fullname{'melUnd1'}</option>
+	<option value=\'galGal4\' synonym=\"$db_synonym{'galGal4'}\">$db_fullname{'galGal4'}</option>
+	<option value=\'latCha1\' synonym=\"$db_synonym{'latCha1'}\">$db_fullname{'latCha1'}</option>
+	<option value=\'calMil1\' synonym=\"$db_synonym{'calMil1'}\">$db_fullname{'calMil1'}</option>
+	<option value=\'fr3\'     synonym=\"$db_synonym{'fr3'    }\">$db_fullname{'fr3'    }</option>
+	<option value=\'petMar2\' synonym=\"$db_synonym{'petMar2'}\">$db_fullname{'petMar2'}</option>
+	<option value=\'anoCar2\' synonym=\"$db_synonym{'anoCar2'}\">$db_fullname{'anoCar2'}</option>
+	<option value=\'oryLat2\' synonym=\"$db_synonym{'oryLat2'}\">$db_fullname{'oryLat2'}</option>
+	<option value=\'geoFor1\' synonym=\"$db_synonym{'geoFor1'}\">$db_fullname{'geoFor1'}</option>
+	<option value=\'oreNil2\' synonym=\"$db_synonym{'oreNil2'}\">$db_fullname{'oreNil2'}</option>
+	<option value=\'chrPic1\' synonym=\"$db_synonym{'chrPic1'}\">$db_fullname{'chrPic1'}</option>
+	<option value=\'gasAcu1\' synonym=\"$db_synonym{'gasAcu1'}\">$db_fullname{'gasAcu1'}</option>
+	<option value=\'tetNig2\' synonym=\"$db_synonym{'tetNig2'}\">$db_fullname{'tetNig2'}</option>
+	<option value=\'melGal1\' synonym=\"$db_synonym{'melGal1'}\">$db_fullname{'melGal1'}</option>
+	<option value=\'Xenla7\'  synonym=\"$db_synonym{'Xenla7' }\">$db_fullname{'Xenla7' }</option>
+	<option value=\'Xentr8\'  synonym=\"$db_synonym{'Xentr8' }\">$db_fullname{'Xentr8' }</option>
+	<option value=\'Xentr7\'  synonym=\"$db_synonym{'Xentr7' }\">$db_fullname{'Xentr7' }</option>
+	<option value=\'xenTro3\' synonym=\"$db_synonym{'xenTro3'}\">$db_fullname{'xenTro3'}</option>
+	<option value=\'taeGut2\' synonym=\"$db_synonym{'taeGut2'}\">$db_fullname{'taeGut2'}</option>
+	<option value=\'danRer7\' synonym=\"$db_synonym{'danRer7'}\">$db_fullname{'danRer7'}</option>
+	<option value=\'ci2\'     synonym=\"$db_synonym{'ci2'    }\">$db_fullname{'ci2'    }</option>
+	<option value=\'braFlo1\' synonym=\"$db_synonym{'braFlo1'}\">$db_fullname{'braFlo1'}</option>
+	<option value=\'strPur2\' synonym=\"$db_synonym{'strPur2'}\">$db_fullname{'strPur2'}</option>
+	<option value=\'anoGam1\' synonym=\"$db_synonym{'anoGam1'}\">$db_fullname{'anoGam1'}</option>
+	<option value=\'apiMel2\' synonym=\"$db_synonym{'apiMel2'}\">$db_fullname{'apiMel2'}</option>
+	<option value=\'droAna2\' synonym=\"$db_synonym{'droAna2'}\">$db_fullname{'droAna2'}</option>
+	<option value=\'droEre1\' synonym=\"$db_synonym{'droEre1'}\">$db_fullname{'droEre1'}</option>
+	<option value=\'droGri1\' synonym=\"$db_synonym{'droGri1'}\">$db_fullname{'droGri1'}</option>
+	<option value=\'dm6\'     synonym=\"$db_synonym{'dm6'    }\">$db_fullname{'dm6'    }</option>
+	<option value=\'dm3\'     synonym=\"$db_synonym{'dm3'    }\">$db_fullname{'dm3'    }</option>
+	<option value=\'droMoj2\' synonym=\"$db_synonym{'droMoj2'}\">$db_fullname{'droMoj2'}</option>
+	<option value=\'droPer1\' synonym=\"$db_synonym{'droPer1'}\">$db_fullname{'droPer1'}</option>
+	<option value=\'dp3\'     synonym=\"$db_synonym{'dp3'    }\">$db_fullname{'dp3'    }</option>
+	<option value=\'droSec1\' synonym=\"$db_synonym{'droSec1'}\">$db_fullname{'droSec1'}</option>
+	<option value=\'droSim1\' synonym=\"$db_synonym{'droSim1'}\">$db_fullname{'droSim1'}</option>
+	<option value=\'droVir2\' synonym=\"$db_synonym{'droVir2'}\">$db_fullname{'droVir2'}</option>
+	<option value=\'droYak2\' synonym=\"$db_synonym{'droYak2'}\">$db_fullname{'droYak2'}</option>
+	<option value=\'caePb2\'  synonym=\"$db_synonym{'caePb2' }\">$db_fullname{'caePb2' }</option>
+	<option value=\'cb3\'     synonym=\"$db_synonym{'cb3'    }\">$db_fullname{'cb3'    }</option>
+	<option value=\'ce10\'    synonym=\"$db_synonym{'ce10'   }\">$db_fullname{'ce10'   }</option>
+	<option value=\'caeJap1\' synonym=\"$db_synonym{'caeJap1'}\">$db_fullname{'caeJap1'}</option>
+	<option value=\'caeRem3\' synonym=\"$db_synonym{'caeRem3'}\">$db_fullname{'caeRem3'}</option>
+	<option value=\'priPac1\' synonym=\"$db_synonym{'priPac1'}\">$db_fullname{'priPac1'}</option>
+	<option value=\'sacCer3\' synonym=\"$db_synonym{'sacCer3'}\">$db_fullname{'sacCer3'}</option>
+	<option value=\'aplCal1\' synonym=\"$db_synonym{'aplCal1'}\">$db_fullname{'aplCal1'}</option>
 
-	<option value=\'macaque_CE_1\' synonym=\'$db_synonym{'macaque_CE_1'}\'>$db_fullname{'macaque_CE_1'}</option>
-	<option value=\'bmor1\'   synonym=\'$db_synonym{'bmor1'  }\'>$db_fullname{'bmor1'  }</option>
-	<option value=\'ASM15162v1\' synonym=\'$db_synonym{'ASM15162v1'}\'>$db_fullname{'ASM15162v1'}</option>
-	<option value=\'Tcas3\'   synonym=\'$db_synonym{'Tcas3'  }\'>$db_fullname{'Tcas3'  }</option>
-	<option value=\'pombe\'   synonym=\'$db_synonym{'pombe'  }\'>$db_fullname{'pombe'  }</option>
+	<option value=\'macaque_CE_1\' synonym=\"$db_synonym{'macaque_CE_1'}\">$db_fullname{'macaque_CE_1'}</option>
+	<option value=\'bmor1\'   synonym=\"$db_synonym{'bmor1'  }\">$db_fullname{'bmor1'  }</option>
+	<option value=\'ASM15162v1\' synonym=\"$db_synonym{'ASM15162v1'}\">$db_fullname{'ASM15162v1'}</option>
+	<option value=\'Tcas3\'   synonym=\"$db_synonym{'Tcas3'  }\">$db_fullname{'Tcas3'  }</option>
+	<option value=\'pombe\'   synonym=\"$db_synonym{'pombe'  }\">$db_fullname{'pombe'  }</option>
 
-	<option value=\'TAIR10\'  synonym=\'$db_synonym{'TAIR10' }\'>$db_fullname{'TAIR10' }</option>
-	<option value=\'rice\'    synonym=\'$db_synonym{'rice'   }\'>$db_fullname{'rice'   }</option>
-	<option value=\'sorBic\'  synonym=\'$db_synonym{'sorBic' }\'>$db_fullname{'sorBic' }</option>
-	<option value=\'Ppatens_251_v3\'        synonym=\'$db_synonym{'Ppatens_251_v3'       }\'>$db_fullname{'Ppatens_251_v3'       }</option>
-	<option value=\'Smoellendorffii_91_v1\' synonym=\'$db_synonym{'Smoellendorffii_91_v1'}\'>$db_fullname{'Smoellendorffii_91_v1'}</option>
-	<option value=\'Creinhardtii_281_v5_5\' synonym=\'$db_synonym{'Creinhardtii_281_v5_5'}\'>$db_fullname{'Creinhardtii_281_v5_5'}</option>
-	<option value=\'Olucimarinus_231_v2\'   synonym=\'$db_synonym{'Olucimarinus_231_v2'  }\'>$db_fullname{'Olucimarinus_231_v2'  }</option>
+	<option value=\'TAIR10\'  synonym=\"$db_synonym{'TAIR10' }\">$db_fullname{'TAIR10' }</option>
+	<option value=\'rice\'    synonym=\"$db_synonym{'rice'   }\">$db_fullname{'rice'   }</option>
+	<option value=\'sorBic\'  synonym=\"$db_synonym{'sorBic' }\">$db_fullname{'sorBic' }</option>
+	<option value=\'Ppatens_251_v3\'        synonym=\"$db_synonym{'Ppatens_251_v3'       }\">$db_fullname{'Ppatens_251_v3'       }</option>
+	<option value=\'Smoellendorffii_91_v1\' synonym=\"$db_synonym{'Smoellendorffii_91_v1'}\">$db_fullname{'Smoellendorffii_91_v1'}</option>
+	<option value=\'Creinhardtii_281_v5_5\' synonym=\"$db_synonym{'Creinhardtii_281_v5_5'}\">$db_fullname{'Creinhardtii_281_v5_5'}</option>
+	<option value=\'Olucimarinus_231_v2\'   synonym=\"$db_synonym{'Olucimarinus_231_v2'  }\">$db_fullname{'Olucimarinus_231_v2'  }</option>
 
-	<option value=\'eboVir3\' synonym=\'$db_synonym{'eboVir3'}\'>$db_fullname{'eboVir3'}</option>
-
-	<option disabled>--------------------</option>
-
-	<option value=\'refseq\'      synonym=\'$db_synonym{'refseq'     }\'>$db_fullname{'refseq'     }</option>
-	<option value=\'hs_refseq70\' synonym=\'$db_synonym{'hs_refseq70'}\'>$db_fullname{'hs_refseq70'}</option>
-	<option value=\'mm_refseq70\' synonym=\'$db_synonym{'mm_refseq70'}\'>$db_fullname{'mm_refseq70'}</option>
-	<option value=\'rn_refseq70\' synonym=\'$db_synonym{'rn_refseq70'}\'>$db_fullname{'rn_refseq70'}</option>
-	<option value=\'prok\'        synonym=\'$db_synonym{'prok'       }\'>$db_fullname{'prok'       }</option>
-	<option value=\'16SrRNA\'     synonym=\'$db_synonym{'16SrRNA'    }\'>$db_fullname{'16SrRNA'    }</option>
-	<option value=\'macaque_CE_1_cds\' synonym=\'$db_synonym{'macaque_CE_1_cds'}\'>$db_fullname{'macaque_CE_1_cds'}</option>
+	<option value=\'eboVir3\' synonym=\"$db_synonym{'eboVir3'}\">$db_fullname{'eboVir3'}</option>
 
 	<option disabled>--------------------</option>
 
-	<option value=\'ddbj101hum\' synonym=\'$db_synonym{'ddbj101hum'}\'>$db_fullname{'ddbj101hum'}</option>
-	<option value=\'ddbj101pri\' synonym=\'$db_synonym{'ddbj101pri'}\'>$db_fullname{'ddbj101pri'}</option>
-	<option value=\'ddbj101rod\' synonym=\'$db_synonym{'ddbj101rod'}\'>$db_fullname{'ddbj101rod'}</option>
-	<option value=\'ddbj101mam\' synonym=\'$db_synonym{'ddbj101mam'}\'>$db_fullname{'ddbj101mam'}</option>
-	<option value=\'ddbj101vrt\' synonym=\'$db_synonym{'ddbj101vrt'}\'>$db_fullname{'ddbj101vrt'}</option>
-	<option value=\'ddbj101inv\' synonym=\'$db_synonym{'ddbj101inv'}\'>$db_fullname{'ddbj101inv'}</option>
-	<option value=\'ddbj101pln\' synonym=\'$db_synonym{'ddbj101pln'}\'>$db_fullname{'ddbj101pln'}</option>
-	<option value=\'ddbj101bct\' synonym=\'$db_synonym{'ddbj101bct'}\'>$db_fullname{'ddbj101bct'}</option>
-	<option value=\'ddbj101vrl\' synonym=\'$db_synonym{'ddbj101vrl'}\'>$db_fullname{'ddbj101vrl'}</option>
-	<option value=\'ddbj101phg\' synonym=\'$db_synonym{'ddbj101phg'}\'>$db_fullname{'ddbj101phg'}</option>
-	<option value=\'ddbj101pat\' synonym=\'$db_synonym{'ddbj101pat'}\'>$db_fullname{'ddbj101pat'}</option>
-	<option value=\'ddbj101env\' synonym=\'$db_synonym{'ddbj101env'}\'>$db_fullname{'ddbj101env'}</option>
-	<option value=\'ddbj101syn\' synonym=\'$db_synonym{'ddbj101syn'}\'>$db_fullname{'ddbj101syn'}</option>
-	<option value=\'ddbj101est\' synonym=\'$db_synonym{'ddbj101est'}\'>$db_fullname{'ddbj101est'}</option>
-	<option value=\'ddbj101tsa\' synonym=\'$db_synonym{'ddbj101tsa'}\'>$db_fullname{'ddbj101tsa'}</option>
-	<option value=\'ddbj101gss\' synonym=\'$db_synonym{'ddbj101gss'}\'>$db_fullname{'ddbj101gss'}</option>
-	<option value=\'ddbj101htc\' synonym=\'$db_synonym{'ddbj101htc'}\'>$db_fullname{'ddbj101htc'}</option>
-	<option value=\'ddbj101htg\' synonym=\'$db_synonym{'ddbj101htg'}\'>$db_fullname{'ddbj101htg'}</option>
-	<option value=\'ddbj101sts\' synonym=\'$db_synonym{'ddbj101sts'}\'>$db_fullname{'ddbj101sts'}</option>
-	<option value=\'ddbj101una\' synonym=\'$db_synonym{'ddbj101una'}\'>$db_fullname{'ddbj101una'}</option>
-	<option value=\'ddbj\'       synonym=\'$db_synonym{'ddbj'      }\'>$db_fullname{'ddbj'      }</option>
+	<option value=\'refseq\'      synonym=\"$db_synonym{'refseq'     }\">$db_fullname{'refseq'     }</option>
+	<option value=\'hs_refseq70\' synonym=\"$db_synonym{'hs_refseq70'}\">$db_fullname{'hs_refseq70'}</option>
+	<option value=\'mm_refseq70\' synonym=\"$db_synonym{'mm_refseq70'}\">$db_fullname{'mm_refseq70'}</option>
+	<option value=\'rn_refseq70\' synonym=\"$db_synonym{'rn_refseq70'}\">$db_fullname{'rn_refseq70'}</option>
+	<option value=\'prok\'        synonym=\"$db_synonym{'prok'       }\">$db_fullname{'prok'       }</option>
+	<option value=\'16SrRNA\'     synonym=\"$db_synonym{'16SrRNA'    }\">$db_fullname{'16SrRNA'    }</option>
+	<option value=\'macaque_CE_1_cds\' synonym=\"$db_synonym{'macaque_CE_1_cds'}\">$db_fullname{'macaque_CE_1_cds'}</option>
+
+	<option disabled>--------------------</option>
+
+	<option value=\'ddbj101hum\' synonym=\"$db_synonym{'ddbj101hum'}\">$db_fullname{'ddbj101hum'}</option>
+	<option value=\'ddbj101pri\' synonym=\"$db_synonym{'ddbj101pri'}\">$db_fullname{'ddbj101pri'}</option>
+	<option value=\'ddbj101rod\' synonym=\"$db_synonym{'ddbj101rod'}\">$db_fullname{'ddbj101rod'}</option>
+	<option value=\'ddbj101mam\' synonym=\"$db_synonym{'ddbj101mam'}\">$db_fullname{'ddbj101mam'}</option>
+	<option value=\'ddbj101vrt\' synonym=\"$db_synonym{'ddbj101vrt'}\">$db_fullname{'ddbj101vrt'}</option>
+	<option value=\'ddbj101inv\' synonym=\"$db_synonym{'ddbj101inv'}\">$db_fullname{'ddbj101inv'}</option>
+	<option value=\'ddbj101pln\' synonym=\"$db_synonym{'ddbj101pln'}\">$db_fullname{'ddbj101pln'}</option>
+	<option value=\'ddbj101bct\' synonym=\"$db_synonym{'ddbj101bct'}\">$db_fullname{'ddbj101bct'}</option>
+	<option value=\'ddbj101vrl\' synonym=\"$db_synonym{'ddbj101vrl'}\">$db_fullname{'ddbj101vrl'}</option>
+	<option value=\'ddbj101phg\' synonym=\"$db_synonym{'ddbj101phg'}\">$db_fullname{'ddbj101phg'}</option>
+	<option value=\'ddbj101pat\' synonym=\"$db_synonym{'ddbj101pat'}\">$db_fullname{'ddbj101pat'}</option>
+	<option value=\'ddbj101env\' synonym=\"$db_synonym{'ddbj101env'}\">$db_fullname{'ddbj101env'}</option>
+	<option value=\'ddbj101syn\' synonym=\"$db_synonym{'ddbj101syn'}\">$db_fullname{'ddbj101syn'}</option>
+	<option value=\'ddbj101est\' synonym=\"$db_synonym{'ddbj101est'}\">$db_fullname{'ddbj101est'}</option>
+	<option value=\'ddbj101tsa\' synonym=\"$db_synonym{'ddbj101tsa'}\">$db_fullname{'ddbj101tsa'}</option>
+	<option value=\'ddbj101gss\' synonym=\"$db_synonym{'ddbj101gss'}\">$db_fullname{'ddbj101gss'}</option>
+	<option value=\'ddbj101htc\' synonym=\"$db_synonym{'ddbj101htc'}\">$db_fullname{'ddbj101htc'}</option>
+	<option value=\'ddbj101htg\' synonym=\"$db_synonym{'ddbj101htg'}\">$db_fullname{'ddbj101htg'}</option>
+	<option value=\'ddbj101sts\' synonym=\"$db_synonym{'ddbj101sts'}\">$db_fullname{'ddbj101sts'}</option>
+	<option value=\'ddbj101una\' synonym=\"$db_synonym{'ddbj101una'}\">$db_fullname{'ddbj101una'}</option>
+	<option value=\'ddbj\'       synonym=\"$db_synonym{'ddbj'      }\">$db_fullname{'ddbj'      }</option>
 --EOS--
 
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
@@ -1382,155 +1382,155 @@ my $robots = "<meta name=robots content=none>\n" ;  # トップページ以外�
 #-- ▽ プルダウンメニュー
 #ADD tyamamot synonym属性の追記
 my $select = <<"--EOS--" ;
-	<option value=\'hg38\'    synonym=\'$db_synonym{'hg38'   }\'>$db_fullname{'hg38'   }</option>
-	<option value=\'hg19\'    synonym=\'$db_synonym{'hg19'   }\'>$db_fullname{'hg19'   }</option>
-	<option value=\'hg18\'    synonym=\'$db_synonym{'hg18'   }\'>$db_fullname{'hg18'   }</option>
-	<option value=\'mm10\'    synonym=\'$db_synonym{'mm10'   }\'>$db_fullname{'mm10'   }</option>
-	<option value=\'mm9\'     synonym=\'$db_synonym{'mm9'    }\'>$db_fullname{'mm9'    }</option>
-	<option value=\'rn6\'     synonym=\'$db_synonym{'rn6'    }\'>$db_fullname{'rn6'    }</option>
-	<option value=\'rn5\'     synonym=\'$db_synonym{'rn5'    }\'>$db_fullname{'rn5'    }</option>
-	<option value=\'vicPac2\' synonym=\'$db_synonym{'vicPac2'}\'>$db_fullname{'vicPac2'}</option>
-	<option value=\'dasNov3\' synonym=\'$db_synonym{'dasNov3'}\'>$db_fullname{'dasNov3'}</option>
-	<option value=\'papAnu2\' synonym=\'$db_synonym{'papAnu2'}\'>$db_fullname{'papAnu2'}</option>
-	<option value=\'otoGar3\' synonym=\'$db_synonym{'otoGar3'}\'>$db_fullname{'otoGar3'}</option>
-	<option value=\'felCat5\' synonym=\'$db_synonym{'felCat5'}\'>$db_fullname{'felCat5'}</option>
-	<option value=\'panTro4\' synonym=\'$db_synonym{'panTro4'}\'>$db_fullname{'panTro4'}</option>
-	<option value=\'criGri1\' synonym=\'$db_synonym{'criGri1'}\'>$db_fullname{'criGri1'}</option>
-	<option value=\'bosTau8\' synonym=\'$db_synonym{'bosTau8'}\'>$db_fullname{'bosTau8'}</option>
-	<option value=\'canFam3\' synonym=\'$db_synonym{'canFam3'}\'>$db_fullname{'canFam3'}</option>
-	<option value=\'turTru2\' synonym=\'$db_synonym{'turTru2'}\'>$db_fullname{'turTru2'}</option>
-	<option value=\'loxAfr3\' synonym=\'$db_synonym{'loxAfr3'}\'>$db_fullname{'loxAfr3'}</option>
-	<option value=\'musFur1\' synonym=\'$db_synonym{'musFur1'}\'>$db_fullname{'musFur1'}</option>
-	<option value=\'nomLeu3\' synonym=\'$db_synonym{'nomLeu3'}\'>$db_fullname{'nomLeu3'}</option>
-	<option value=\'gorGor3\' synonym=\'$db_synonym{'gorGor3'}\'>$db_fullname{'gorGor3'}</option>
-	<option value=\'cavPor3\' synonym=\'$db_synonym{'cavPor3'}\'>$db_fullname{'cavPor3'}</option>
-	<option value=\'eriEur2\' synonym=\'$db_synonym{'eriEur2'}\'>$db_fullname{'eriEur2'}</option>
-	<option value=\'equCab2\' synonym=\'$db_synonym{'equCab2'}\'>$db_fullname{'equCab2'}</option>
-	<option value=\'dipOrd1\' synonym=\'$db_synonym{'dipOrd1'}\'>$db_fullname{'dipOrd1'}</option>
-	<option value=\'triMan1\' synonym=\'$db_synonym{'triMan1'}\'>$db_fullname{'triMan1'}</option>
-	<option value=\'calJac3\' synonym=\'$db_synonym{'calJac3'}\'>$db_fullname{'calJac3'}</option>
-	<option value=\'pteVam1\' synonym=\'$db_synonym{'pteVam1'}\'>$db_fullname{'pteVam1'}</option>
-	<option value=\'myoLuc2\' synonym=\'$db_synonym{'myoLuc2'}\'>$db_fullname{'myoLuc2'}</option>
-	<option value=\'balAcu1\' synonym=\'$db_synonym{'balAcu1'}\'>$db_fullname{'balAcu1'}</option>
-	<option value=\'micMur1\' synonym=\'$db_synonym{'micMur1'}\'>$db_fullname{'micMur1'}</option>
-	<option value=\'hetGla2\' synonym=\'$db_synonym{'hetGla2'}\'>$db_fullname{'hetGla2'}</option>
-	<option value=\'monDom5\' synonym=\'$db_synonym{'monDom5'}\'>$db_fullname{'monDom5'}</option>
-	<option value=\'ponAbe2\' synonym=\'$db_synonym{'ponAbe2'}\'>$db_fullname{'ponAbe2'}</option>
-	<option value=\'ailMel1\' synonym=\'$db_synonym{'ailMel1'}\'>$db_fullname{'ailMel1'}</option>
-	<option value=\'susScr3\' synonym=\'$db_synonym{'susScr3'}\'>$db_fullname{'susScr3'}</option>
-	<option value=\'ochPri3\' synonym=\'$db_synonym{'ochPri3'}\'>$db_fullname{'ochPri3'}</option>
-	<option value=\'ornAna1\' synonym=\'$db_synonym{'ornAna1'}\'>$db_fullname{'ornAna1'}</option>
-	<option value=\'oryCun2\' synonym=\'$db_synonym{'oryCun2'}\'>$db_fullname{'oryCun2'}</option>
-	<option value=\'rheMac3\' synonym=\'$db_synonym{'rheMac3'}\'>$db_fullname{'rheMac3'}</option>
-	<option value=\'proCap1\' synonym=\'$db_synonym{'proCap1'}\'>$db_fullname{'proCap1'}</option>
-	<option value=\'oviAri3\' synonym=\'$db_synonym{'oviAri3'}\'>$db_fullname{'oviAri3'}</option>
-	<option value=\'sorAra2\' synonym=\'$db_synonym{'sorAra2'}\'>$db_fullname{'sorAra2'}</option>
-	<option value=\'choHof1\' synonym=\'$db_synonym{'choHof1'}\'>$db_fullname{'choHof1'}</option>
-	<option value=\'speTri2\' synonym=\'$db_synonym{'speTri2'}\'>$db_fullname{'speTri2'}</option>
-	<option value=\'saiBol1\' synonym=\'$db_synonym{'saiBol1'}\'>$db_fullname{'saiBol1'}</option>
-	<option value=\'tarSyr1\' synonym=\'$db_synonym{'tarSyr1'}\'>$db_fullname{'tarSyr1'}</option>
-	<option value=\'sarHar1\' synonym=\'$db_synonym{'sarHar1'}\'>$db_fullname{'sarHar1'}</option>
-	<option value=\'echTel2\' synonym=\'$db_synonym{'echTel2'}\'>$db_fullname{'echTel2'}</option>
-	<option value=\'tupBel1\' synonym=\'$db_synonym{'tupBel1'}\'>$db_fullname{'tupBel1'}</option>
-	<option value=\'macEug2\' synonym=\'$db_synonym{'macEug2'}\'>$db_fullname{'macEug2'}</option>
-	<option value=\'cerSim1\' synonym=\'$db_synonym{'cerSim1'}\'>$db_fullname{'cerSim1'}</option>
-	<option value=\'allMis1\' synonym=\'$db_synonym{'allMis1'}\'>$db_fullname{'allMis1'}</option>
-	<option value=\'gadMor1\' synonym=\'$db_synonym{'gadMor1'}\'>$db_fullname{'gadMor1'}</option>
-	<option value=\'melUnd1\' synonym=\'$db_synonym{'melUnd1'}\'>$db_fullname{'melUnd1'}</option>
-	<option value=\'galGal4\' synonym=\'$db_synonym{'galGal4'}\'>$db_fullname{'galGal4'}</option>
-	<option value=\'latCha1\' synonym=\'$db_synonym{'latCha1'}\'>$db_fullname{'latCha1'}</option>
-	<option value=\'calMil1\' synonym=\'$db_synonym{'calMil1'}\'>$db_fullname{'calMil1'}</option>
-	<option value=\'fr3\'     synonym=\'$db_synonym{'fr3'    }\'>$db_fullname{'fr3'    }</option>
-	<option value=\'petMar2\' synonym=\'$db_synonym{'petMar2'}\'>$db_fullname{'petMar2'}</option>
-	<option value=\'anoCar2\' synonym=\'$db_synonym{'anoCar2'}\'>$db_fullname{'anoCar2'}</option>
-	<option value=\'oryLat2\' synonym=\'$db_synonym{'oryLat2'}\'>$db_fullname{'oryLat2'}</option>
-	<option value=\'geoFor1\' synonym=\'$db_synonym{'geoFor1'}\'>$db_fullname{'geoFor1'}</option>
-	<option value=\'oreNil2\' synonym=\'$db_synonym{'oreNil2'}\'>$db_fullname{'oreNil2'}</option>
-	<option value=\'chrPic1\' synonym=\'$db_synonym{'chrPic1'}\'>$db_fullname{'chrPic1'}</option>
-	<option value=\'gasAcu1\' synonym=\'$db_synonym{'gasAcu1'}\'>$db_fullname{'gasAcu1'}</option>
-	<option value=\'tetNig2\' synonym=\'$db_synonym{'tetNig2'}\'>$db_fullname{'tetNig2'}</option>
-	<option value=\'melGal1\' synonym=\'$db_synonym{'melGal1'}\'>$db_fullname{'melGal1'}</option>
-	<option value=\'Xenla7\'  synonym=\'$db_synonym{'Xenla7' }\'>$db_fullname{'Xenla7' }</option>
-	<option value=\'Xentr8\'  synonym=\'$db_synonym{'Xentr8' }\'>$db_fullname{'Xentr8' }</option>
-	<option value=\'Xentr7\'  synonym=\'$db_synonym{'Xentr7' }\'>$db_fullname{'Xentr7' }</option>
-	<option value=\'xenTro3\' synonym=\'$db_synonym{'xenTro3'}\'>$db_fullname{'xenTro3'}</option>
-	<option value=\'taeGut2\' synonym=\'$db_synonym{'taeGut2'}\'>$db_fullname{'taeGut2'}</option>
-	<option value=\'danRer7\' synonym=\'$db_synonym{'danRer7'}\'>$db_fullname{'danRer7'}</option>
-	<option value=\'ci2\'     synonym=\'$db_synonym{'ci2'    }\'>$db_fullname{'ci2'    }</option>
-	<option value=\'braFlo1\' synonym=\'$db_synonym{'braFlo1'}\'>$db_fullname{'braFlo1'}</option>
-	<option value=\'strPur2\' synonym=\'$db_synonym{'strPur2'}\'>$db_fullname{'strPur2'}</option>
-	<option value=\'anoGam1\' synonym=\'$db_synonym{'anoGam1'}\'>$db_fullname{'anoGam1'}</option>
-	<option value=\'apiMel2\' synonym=\'$db_synonym{'apiMel2'}\'>$db_fullname{'apiMel2'}</option>
-	<option value=\'droAna2\' synonym=\'$db_synonym{'droAna2'}\'>$db_fullname{'droAna2'}</option>
-	<option value=\'droEre1\' synonym=\'$db_synonym{'droEre1'}\'>$db_fullname{'droEre1'}</option>
-	<option value=\'droGri1\' synonym=\'$db_synonym{'droGri1'}\'>$db_fullname{'droGri1'}</option>
-	<option value=\'dm6\'     synonym=\'$db_synonym{'dm6'    }\'>$db_fullname{'dm6'    }</option>
-	<option value=\'dm3\'     synonym=\'$db_synonym{'dm3'    }\'>$db_fullname{'dm3'    }</option>
-	<option value=\'droMoj2\' synonym=\'$db_synonym{'droMoj2'}\'>$db_fullname{'droMoj2'}</option>
-	<option value=\'droPer1\' synonym=\'$db_synonym{'droPer1'}\'>$db_fullname{'droPer1'}</option>
-	<option value=\'dp3\'     synonym=\'$db_synonym{'dp3'    }\'>$db_fullname{'dp3'    }</option>
-	<option value=\'droSec1\' synonym=\'$db_synonym{'droSec1'}\'>$db_fullname{'droSec1'}</option>
-	<option value=\'droSim1\' synonym=\'$db_synonym{'droSim1'}\'>$db_fullname{'droSim1'}</option>
-	<option value=\'droVir2\' synonym=\'$db_synonym{'droVir2'}\'>$db_fullname{'droVir2'}</option>
-	<option value=\'droYak2\' synonym=\'$db_synonym{'droYak2'}\'>$db_fullname{'droYak2'}</option>
-	<option value=\'caePb2\'  synonym=\'$db_synonym{'caePb2' }\'>$db_fullname{'caePb2' }</option>
-	<option value=\'cb3\'     synonym=\'$db_synonym{'cb3'    }\'>$db_fullname{'cb3'    }</option>
-	<option value=\'ce10\'    synonym=\'$db_synonym{'ce10'   }\'>$db_fullname{'ce10'   }</option>
-	<option value=\'caeJap1\' synonym=\'$db_synonym{'caeJap1'}\'>$db_fullname{'caeJap1'}</option>
-	<option value=\'caeRem3\' synonym=\'$db_synonym{'caeRem3'}\'>$db_fullname{'caeRem3'}</option>
-	<option value=\'priPac1\' synonym=\'$db_synonym{'priPac1'}\'>$db_fullname{'priPac1'}</option>
-	<option value=\'sacCer3\' synonym=\'$db_synonym{'sacCer3'}\'>$db_fullname{'sacCer3'}</option>
-	<option value=\'aplCal1\' synonym=\'$db_synonym{'aplCal1'}\'>$db_fullname{'aplCal1'}</option>
+	<option value=\'hg38\'    synonym=\"$db_synonym{'hg38'   }\">$db_fullname{'hg38'   }</option>
+	<option value=\'hg19\'    synonym=\"$db_synonym{'hg19'   }\">$db_fullname{'hg19'   }</option>
+	<option value=\'hg18\'    synonym=\"$db_synonym{'hg18'   }\">$db_fullname{'hg18'   }</option>
+	<option value=\'mm10\'    synonym=\"$db_synonym{'mm10'   }\">$db_fullname{'mm10'   }</option>
+	<option value=\'mm9\'     synonym=\"$db_synonym{'mm9'    }\">$db_fullname{'mm9'    }</option>
+	<option value=\'rn6\'     synonym=\"$db_synonym{'rn6'    }\">$db_fullname{'rn6'    }</option>
+	<option value=\'rn5\'     synonym=\"$db_synonym{'rn5'    }\">$db_fullname{'rn5'    }</option>
+	<option value=\'vicPac2\' synonym=\"$db_synonym{'vicPac2'}\">$db_fullname{'vicPac2'}</option>
+	<option value=\'dasNov3\' synonym=\"$db_synonym{'dasNov3'}\">$db_fullname{'dasNov3'}</option>
+	<option value=\'papAnu2\' synonym=\"$db_synonym{'papAnu2'}\">$db_fullname{'papAnu2'}</option>
+	<option value=\'otoGar3\' synonym=\"$db_synonym{'otoGar3'}\">$db_fullname{'otoGar3'}</option>
+	<option value=\'felCat5\' synonym=\"$db_synonym{'felCat5'}\">$db_fullname{'felCat5'}</option>
+	<option value=\'panTro4\' synonym=\"$db_synonym{'panTro4'}\">$db_fullname{'panTro4'}</option>
+	<option value=\'criGri1\' synonym=\"$db_synonym{'criGri1'}\">$db_fullname{'criGri1'}</option>
+	<option value=\'bosTau8\' synonym=\"$db_synonym{'bosTau8'}\">$db_fullname{'bosTau8'}</option>
+	<option value=\'canFam3\' synonym=\"$db_synonym{'canFam3'}\">$db_fullname{'canFam3'}</option>
+	<option value=\'turTru2\' synonym=\"$db_synonym{'turTru2'}\">$db_fullname{'turTru2'}</option>
+	<option value=\'loxAfr3\' synonym=\"$db_synonym{'loxAfr3'}\">$db_fullname{'loxAfr3'}</option>
+	<option value=\'musFur1\' synonym=\"$db_synonym{'musFur1'}\">$db_fullname{'musFur1'}</option>
+	<option value=\'nomLeu3\' synonym=\"$db_synonym{'nomLeu3'}\">$db_fullname{'nomLeu3'}</option>
+	<option value=\'gorGor3\' synonym=\"$db_synonym{'gorGor3'}\">$db_fullname{'gorGor3'}</option>
+	<option value=\'cavPor3\' synonym=\"$db_synonym{'cavPor3'}\">$db_fullname{'cavPor3'}</option>
+	<option value=\'eriEur2\' synonym=\"$db_synonym{'eriEur2'}\">$db_fullname{'eriEur2'}</option>
+	<option value=\'equCab2\' synonym=\"$db_synonym{'equCab2'}\">$db_fullname{'equCab2'}</option>
+	<option value=\'dipOrd1\' synonym=\"$db_synonym{'dipOrd1'}\">$db_fullname{'dipOrd1'}</option>
+	<option value=\'triMan1\' synonym=\"$db_synonym{'triMan1'}\">$db_fullname{'triMan1'}</option>
+	<option value=\'calJac3\' synonym=\"$db_synonym{'calJac3'}\">$db_fullname{'calJac3'}</option>
+	<option value=\'pteVam1\' synonym=\"$db_synonym{'pteVam1'}\">$db_fullname{'pteVam1'}</option>
+	<option value=\'myoLuc2\' synonym=\"$db_synonym{'myoLuc2'}\">$db_fullname{'myoLuc2'}</option>
+	<option value=\'balAcu1\' synonym=\"$db_synonym{'balAcu1'}\">$db_fullname{'balAcu1'}</option>
+	<option value=\'micMur1\' synonym=\"$db_synonym{'micMur1'}\">$db_fullname{'micMur1'}</option>
+	<option value=\'hetGla2\' synonym=\"$db_synonym{'hetGla2'}\">$db_fullname{'hetGla2'}</option>
+	<option value=\'monDom5\' synonym=\"$db_synonym{'monDom5'}\">$db_fullname{'monDom5'}</option>
+	<option value=\'ponAbe2\' synonym=\"$db_synonym{'ponAbe2'}\">$db_fullname{'ponAbe2'}</option>
+	<option value=\'ailMel1\' synonym=\"$db_synonym{'ailMel1'}\">$db_fullname{'ailMel1'}</option>
+	<option value=\'susScr3\' synonym=\"$db_synonym{'susScr3'}\">$db_fullname{'susScr3'}</option>
+	<option value=\'ochPri3\' synonym=\"$db_synonym{'ochPri3'}\">$db_fullname{'ochPri3'}</option>
+	<option value=\'ornAna1\' synonym=\"$db_synonym{'ornAna1'}\">$db_fullname{'ornAna1'}</option>
+	<option value=\'oryCun2\' synonym=\"$db_synonym{'oryCun2'}\">$db_fullname{'oryCun2'}</option>
+	<option value=\'rheMac3\' synonym=\"$db_synonym{'rheMac3'}\">$db_fullname{'rheMac3'}</option>
+	<option value=\'proCap1\' synonym=\"$db_synonym{'proCap1'}\">$db_fullname{'proCap1'}</option>
+	<option value=\'oviAri3\' synonym=\"$db_synonym{'oviAri3'}\">$db_fullname{'oviAri3'}</option>
+	<option value=\'sorAra2\' synonym=\"$db_synonym{'sorAra2'}\">$db_fullname{'sorAra2'}</option>
+	<option value=\'choHof1\' synonym=\"$db_synonym{'choHof1'}\">$db_fullname{'choHof1'}</option>
+	<option value=\'speTri2\' synonym=\"$db_synonym{'speTri2'}\">$db_fullname{'speTri2'}</option>
+	<option value=\'saiBol1\' synonym=\"$db_synonym{'saiBol1'}\">$db_fullname{'saiBol1'}</option>
+	<option value=\'tarSyr1\' synonym=\"$db_synonym{'tarSyr1'}\">$db_fullname{'tarSyr1'}</option>
+	<option value=\'sarHar1\' synonym=\"$db_synonym{'sarHar1'}\">$db_fullname{'sarHar1'}</option>
+	<option value=\'echTel2\' synonym=\"$db_synonym{'echTel2'}\">$db_fullname{'echTel2'}</option>
+	<option value=\'tupBel1\' synonym=\"$db_synonym{'tupBel1'}\">$db_fullname{'tupBel1'}</option>
+	<option value=\'macEug2\' synonym=\"$db_synonym{'macEug2'}\">$db_fullname{'macEug2'}</option>
+	<option value=\'cerSim1\' synonym=\"$db_synonym{'cerSim1'}\">$db_fullname{'cerSim1'}</option>
+	<option value=\'allMis1\' synonym=\"$db_synonym{'allMis1'}\">$db_fullname{'allMis1'}</option>
+	<option value=\'gadMor1\' synonym=\"$db_synonym{'gadMor1'}\">$db_fullname{'gadMor1'}</option>
+	<option value=\'melUnd1\' synonym=\"$db_synonym{'melUnd1'}\">$db_fullname{'melUnd1'}</option>
+	<option value=\'galGal4\' synonym=\"$db_synonym{'galGal4'}\">$db_fullname{'galGal4'}</option>
+	<option value=\'latCha1\' synonym=\"$db_synonym{'latCha1'}\">$db_fullname{'latCha1'}</option>
+	<option value=\'calMil1\' synonym=\"$db_synonym{'calMil1'}\">$db_fullname{'calMil1'}</option>
+	<option value=\'fr3\'     synonym=\"$db_synonym{'fr3'    }\">$db_fullname{'fr3'    }</option>
+	<option value=\'petMar2\' synonym=\"$db_synonym{'petMar2'}\">$db_fullname{'petMar2'}</option>
+	<option value=\'anoCar2\' synonym=\"$db_synonym{'anoCar2'}\">$db_fullname{'anoCar2'}</option>
+	<option value=\'oryLat2\' synonym=\"$db_synonym{'oryLat2'}\">$db_fullname{'oryLat2'}</option>
+	<option value=\'geoFor1\' synonym=\"$db_synonym{'geoFor1'}\">$db_fullname{'geoFor1'}</option>
+	<option value=\'oreNil2\' synonym=\"$db_synonym{'oreNil2'}\">$db_fullname{'oreNil2'}</option>
+	<option value=\'chrPic1\' synonym=\"$db_synonym{'chrPic1'}\">$db_fullname{'chrPic1'}</option>
+	<option value=\'gasAcu1\' synonym=\"$db_synonym{'gasAcu1'}\">$db_fullname{'gasAcu1'}</option>
+	<option value=\'tetNig2\' synonym=\"$db_synonym{'tetNig2'}\">$db_fullname{'tetNig2'}</option>
+	<option value=\'melGal1\' synonym=\"$db_synonym{'melGal1'}\">$db_fullname{'melGal1'}</option>
+	<option value=\'Xenla7\'  synonym=\"$db_synonym{'Xenla7' }\">$db_fullname{'Xenla7' }</option>
+	<option value=\'Xentr8\'  synonym=\"$db_synonym{'Xentr8' }\">$db_fullname{'Xentr8' }</option>
+	<option value=\'Xentr7\'  synonym=\"$db_synonym{'Xentr7' }\">$db_fullname{'Xentr7' }</option>
+	<option value=\'xenTro3\' synonym=\"$db_synonym{'xenTro3'}\">$db_fullname{'xenTro3'}</option>
+	<option value=\'taeGut2\' synonym=\"$db_synonym{'taeGut2'}\">$db_fullname{'taeGut2'}</option>
+	<option value=\'danRer7\' synonym=\"$db_synonym{'danRer7'}\">$db_fullname{'danRer7'}</option>
+	<option value=\'ci2\'     synonym=\"$db_synonym{'ci2'    }\">$db_fullname{'ci2'    }</option>
+	<option value=\'braFlo1\' synonym=\"$db_synonym{'braFlo1'}\">$db_fullname{'braFlo1'}</option>
+	<option value=\'strPur2\' synonym=\"$db_synonym{'strPur2'}\">$db_fullname{'strPur2'}</option>
+	<option value=\'anoGam1\' synonym=\"$db_synonym{'anoGam1'}\">$db_fullname{'anoGam1'}</option>
+	<option value=\'apiMel2\' synonym=\"$db_synonym{'apiMel2'}\">$db_fullname{'apiMel2'}</option>
+	<option value=\'droAna2\' synonym=\"$db_synonym{'droAna2'}\">$db_fullname{'droAna2'}</option>
+	<option value=\'droEre1\' synonym=\"$db_synonym{'droEre1'}\">$db_fullname{'droEre1'}</option>
+	<option value=\'droGri1\' synonym=\"$db_synonym{'droGri1'}\">$db_fullname{'droGri1'}</option>
+	<option value=\'dm6\'     synonym=\"$db_synonym{'dm6'    }\">$db_fullname{'dm6'    }</option>
+	<option value=\'dm3\'     synonym=\"$db_synonym{'dm3'    }\">$db_fullname{'dm3'    }</option>
+	<option value=\'droMoj2\' synonym=\"$db_synonym{'droMoj2'}\">$db_fullname{'droMoj2'}</option>
+	<option value=\'droPer1\' synonym=\"$db_synonym{'droPer1'}\">$db_fullname{'droPer1'}</option>
+	<option value=\'dp3\'     synonym=\"$db_synonym{'dp3'    }\">$db_fullname{'dp3'    }</option>
+	<option value=\'droSec1\' synonym=\"$db_synonym{'droSec1'}\">$db_fullname{'droSec1'}</option>
+	<option value=\'droSim1\' synonym=\"$db_synonym{'droSim1'}\">$db_fullname{'droSim1'}</option>
+	<option value=\'droVir2\' synonym=\"$db_synonym{'droVir2'}\">$db_fullname{'droVir2'}</option>
+	<option value=\'droYak2\' synonym=\"$db_synonym{'droYak2'}\">$db_fullname{'droYak2'}</option>
+	<option value=\'caePb2\'  synonym=\"$db_synonym{'caePb2' }\">$db_fullname{'caePb2' }</option>
+	<option value=\'cb3\'     synonym=\"$db_synonym{'cb3'    }\">$db_fullname{'cb3'    }</option>
+	<option value=\'ce10\'    synonym=\"$db_synonym{'ce10'   }\">$db_fullname{'ce10'   }</option>
+	<option value=\'caeJap1\' synonym=\"$db_synonym{'caeJap1'}\">$db_fullname{'caeJap1'}</option>
+	<option value=\'caeRem3\' synonym=\"$db_synonym{'caeRem3'}\">$db_fullname{'caeRem3'}</option>
+	<option value=\'priPac1\' synonym=\"$db_synonym{'priPac1'}\">$db_fullname{'priPac1'}</option>
+	<option value=\'sacCer3\' synonym=\"$db_synonym{'sacCer3'}\">$db_fullname{'sacCer3'}</option>
+	<option value=\'aplCal1\' synonym=\"$db_synonym{'aplCal1'}\">$db_fullname{'aplCal1'}</option>
 
-	<option value=\'macaque_CE_1\' synonym=\'$db_synonym{'macaque_CE_1'}\'>$db_fullname{'macaque_CE_1'}</option>
-	<option value=\'bmor1\'   synonym=\'$db_synonym{'bmor1'  }\'>$db_fullname{'bmor1'  }</option>
-	<option value=\'ASM15162v1\' synonym=\'$db_synonym{'ASM15162v1'}\'>$db_fullname{'ASM15162v1'}</option>
-	<option value=\'Tcas3\'   synonym=\'$db_synonym{'Tcas3'  }\'>$db_fullname{'Tcas3'  }</option>
-	<option value=\'pombe\'   synonym=\'$db_synonym{'pombe'  }\'>$db_fullname{'pombe'  }</option>
+	<option value=\'macaque_CE_1\' synonym=\"$db_synonym{'macaque_CE_1'}\">$db_fullname{'macaque_CE_1'}</option>
+	<option value=\'bmor1\'   synonym=\"$db_synonym{'bmor1'  }\">$db_fullname{'bmor1'  }</option>
+	<option value=\'ASM15162v1\' synonym=\"$db_synonym{'ASM15162v1'}\">$db_fullname{'ASM15162v1'}</option>
+	<option value=\'Tcas3\'   synonym=\"$db_synonym{'Tcas3'  }\">$db_fullname{'Tcas3'  }</option>
+	<option value=\'pombe\'   synonym=\"$db_synonym{'pombe'  }\">$db_fullname{'pombe'  }</option>
 
-	<option value=\'TAIR10\'  synonym=\'$db_synonym{'TAIR10' }\'>$db_fullname{'TAIR10' }</option>
-	<option value=\'rice\'    synonym=\'$db_synonym{'rice'   }\'>$db_fullname{'rice'   }</option>
-	<option value=\'sorBic\'  synonym=\'$db_synonym{'sorBic' }\'>$db_fullname{'sorBic' }</option>
-	<option value=\'Ppatens_251_v3\'        synonym=\'$db_synonym{'Ppatens_251_v3'       }\'>$db_fullname{'Ppatens_251_v3'       }</option>
-	<option value=\'Smoellendorffii_91_v1\' synonym=\'$db_synonym{'Smoellendorffii_91_v1'}\'>$db_fullname{'Smoellendorffii_91_v1'}</option>
-	<option value=\'Creinhardtii_281_v5_5\' synonym=\'$db_synonym{'Creinhardtii_281_v5_5'}\'>$db_fullname{'Creinhardtii_281_v5_5'}</option>
-	<option value=\'Olucimarinus_231_v2\'   synonym=\'$db_synonym{'Olucimarinus_231_v2'  }\'>$db_fullname{'Olucimarinus_231_v2'  }</option>
+	<option value=\'TAIR10\'  synonym=\"$db_synonym{'TAIR10' }\">$db_fullname{'TAIR10' }</option>
+	<option value=\'rice\'    synonym=\"$db_synonym{'rice'   }\">$db_fullname{'rice'   }</option>
+	<option value=\'sorBic\'  synonym=\"$db_synonym{'sorBic' }\">$db_fullname{'sorBic' }</option>
+	<option value=\'Ppatens_251_v3\'        synonym=\"$db_synonym{'Ppatens_251_v3'       }\">$db_fullname{'Ppatens_251_v3'       }</option>
+	<option value=\'Smoellendorffii_91_v1\' synonym=\"$db_synonym{'Smoellendorffii_91_v1'}\">$db_fullname{'Smoellendorffii_91_v1'}</option>
+	<option value=\'Creinhardtii_281_v5_5\' synonym=\"$db_synonym{'Creinhardtii_281_v5_5'}\">$db_fullname{'Creinhardtii_281_v5_5'}</option>
+	<option value=\'Olucimarinus_231_v2\'   synonym=\"$db_synonym{'Olucimarinus_231_v2'  }\">$db_fullname{'Olucimarinus_231_v2'  }</option>
 
-	<option value=\'eboVir3\' synonym=\'$db_synonym{'eboVir3'}\'>$db_fullname{'eboVir3'}</option>
-
-	<option disabled>--------------------</option>
-
-	<option value=\'refseq\'      synonym=\'$db_synonym{'refseq'     }\'>$db_fullname{'refseq'     }</option>
-	<option value=\'hs_refseq70\' synonym=\'$db_synonym{'hs_refseq70'}\'>$db_fullname{'hs_refseq70'}</option>
-	<option value=\'mm_refseq70\' synonym=\'$db_synonym{'mm_refseq70'}\'>$db_fullname{'mm_refseq70'}</option>
-	<option value=\'rn_refseq70\' synonym=\'$db_synonym{'rn_refseq70'}\'>$db_fullname{'rn_refseq70'}</option>
-	<option value=\'prok\'        synonym=\'$db_synonym{'prok'       }\'>$db_fullname{'prok'       }</option>
-	<option value=\'16SrRNA\'     synonym=\'$db_synonym{'16SrRNA'    }\'>$db_fullname{'16SrRNA'    }</option>
-	<option value=\'macaque_CE_1_cds\' synonym=\'$db_synonym{'macaque_CE_1_cds'}\'>$db_fullname{'macaque_CE_1_cds'}</option>
+	<option value=\'eboVir3\' synonym=\"$db_synonym{'eboVir3'}\">$db_fullname{'eboVir3'}</option>
 
 	<option disabled>--------------------</option>
 
-	<option value=\'ddbj101hum\' synonym=\'$db_synonym{'ddbj101hum'}\'>$db_fullname{'ddbj101hum'}</option>
-	<option value=\'ddbj101pri\' synonym=\'$db_synonym{'ddbj101pri'}\'>$db_fullname{'ddbj101pri'}</option>
-	<option value=\'ddbj101rod\' synonym=\'$db_synonym{'ddbj101rod'}\'>$db_fullname{'ddbj101rod'}</option>
-	<option value=\'ddbj101mam\' synonym=\'$db_synonym{'ddbj101mam'}\'>$db_fullname{'ddbj101mam'}</option>
-	<option value=\'ddbj101vrt\' synonym=\'$db_synonym{'ddbj101vrt'}\'>$db_fullname{'ddbj101vrt'}</option>
-	<option value=\'ddbj101inv\' synonym=\'$db_synonym{'ddbj101inv'}\'>$db_fullname{'ddbj101inv'}</option>
-	<option value=\'ddbj101pln\' synonym=\'$db_synonym{'ddbj101pln'}\'>$db_fullname{'ddbj101pln'}</option>
-	<option value=\'ddbj101bct\' synonym=\'$db_synonym{'ddbj101bct'}\'>$db_fullname{'ddbj101bct'}</option>
-	<option value=\'ddbj101vrl\' synonym=\'$db_synonym{'ddbj101vrl'}\'>$db_fullname{'ddbj101vrl'}</option>
-	<option value=\'ddbj101phg\' synonym=\'$db_synonym{'ddbj101phg'}\'>$db_fullname{'ddbj101phg'}</option>
-	<option value=\'ddbj101pat\' synonym=\'$db_synonym{'ddbj101pat'}\'>$db_fullname{'ddbj101pat'}</option>
-	<option value=\'ddbj101env\' synonym=\'$db_synonym{'ddbj101env'}\'>$db_fullname{'ddbj101env'}</option>
-	<option value=\'ddbj101syn\' synonym=\'$db_synonym{'ddbj101syn'}\'>$db_fullname{'ddbj101syn'}</option>
-	<option value=\'ddbj101est\' synonym=\'$db_synonym{'ddbj101est'}\'>$db_fullname{'ddbj101est'}</option>
-	<option value=\'ddbj101tsa\' synonym=\'$db_synonym{'ddbj101tsa'}\'>$db_fullname{'ddbj101tsa'}</option>
-	<option value=\'ddbj101gss\' synonym=\'$db_synonym{'ddbj101gss'}\'>$db_fullname{'ddbj101gss'}</option>
-	<option value=\'ddbj101htc\' synonym=\'$db_synonym{'ddbj101htc'}\'>$db_fullname{'ddbj101htc'}</option>
-	<option value=\'ddbj101htg\' synonym=\'$db_synonym{'ddbj101htg'}\'>$db_fullname{'ddbj101htg'}</option>
-	<option value=\'ddbj101sts\' synonym=\'$db_synonym{'ddbj101sts'}\'>$db_fullname{'ddbj101sts'}</option>
-	<option value=\'ddbj101una\' synonym=\'$db_synonym{'ddbj101una'}\'>$db_fullname{'ddbj101una'}</option>
-	<option value=\'ddbj\'       synonym=\'$db_synonym{'ddbj'      }\'>$db_fullname{'ddbj'      }</option>
+	<option value=\'refseq\'      synonym=\"$db_synonym{'refseq'     }\">$db_fullname{'refseq'     }</option>
+	<option value=\'hs_refseq70\' synonym=\"$db_synonym{'hs_refseq70'}\">$db_fullname{'hs_refseq70'}</option>
+	<option value=\'mm_refseq70\' synonym=\"$db_synonym{'mm_refseq70'}\">$db_fullname{'mm_refseq70'}</option>
+	<option value=\'rn_refseq70\' synonym=\"$db_synonym{'rn_refseq70'}\">$db_fullname{'rn_refseq70'}</option>
+	<option value=\'prok\'        synonym=\"$db_synonym{'prok'       }\">$db_fullname{'prok'       }</option>
+	<option value=\'16SrRNA\'     synonym=\"$db_synonym{'16SrRNA'    }\">$db_fullname{'16SrRNA'    }</option>
+	<option value=\'macaque_CE_1_cds\' synonym=\"$db_synonym{'macaque_CE_1_cds'}\">$db_fullname{'macaque_CE_1_cds'}</option>
+
+	<option disabled>--------------------</option>
+
+	<option value=\'ddbj101hum\' synonym=\"$db_synonym{'ddbj101hum'}\">$db_fullname{'ddbj101hum'}</option>
+	<option value=\'ddbj101pri\' synonym=\"$db_synonym{'ddbj101pri'}\">$db_fullname{'ddbj101pri'}</option>
+	<option value=\'ddbj101rod\' synonym=\"$db_synonym{'ddbj101rod'}\">$db_fullname{'ddbj101rod'}</option>
+	<option value=\'ddbj101mam\' synonym=\"$db_synonym{'ddbj101mam'}\">$db_fullname{'ddbj101mam'}</option>
+	<option value=\'ddbj101vrt\' synonym=\"$db_synonym{'ddbj101vrt'}\">$db_fullname{'ddbj101vrt'}</option>
+	<option value=\'ddbj101inv\' synonym=\"$db_synonym{'ddbj101inv'}\">$db_fullname{'ddbj101inv'}</option>
+	<option value=\'ddbj101pln\' synonym=\"$db_synonym{'ddbj101pln'}\">$db_fullname{'ddbj101pln'}</option>
+	<option value=\'ddbj101bct\' synonym=\"$db_synonym{'ddbj101bct'}\">$db_fullname{'ddbj101bct'}</option>
+	<option value=\'ddbj101vrl\' synonym=\"$db_synonym{'ddbj101vrl'}\">$db_fullname{'ddbj101vrl'}</option>
+	<option value=\'ddbj101phg\' synonym=\"$db_synonym{'ddbj101phg'}\">$db_fullname{'ddbj101phg'}</option>
+	<option value=\'ddbj101pat\' synonym=\"$db_synonym{'ddbj101pat'}\">$db_fullname{'ddbj101pat'}</option>
+	<option value=\'ddbj101env\' synonym=\"$db_synonym{'ddbj101env'}\">$db_fullname{'ddbj101env'}</option>
+	<option value=\'ddbj101syn\' synonym=\"$db_synonym{'ddbj101syn'}\">$db_fullname{'ddbj101syn'}</option>
+	<option value=\'ddbj101est\' synonym=\"$db_synonym{'ddbj101est'}\">$db_fullname{'ddbj101est'}</option>
+	<option value=\'ddbj101tsa\' synonym=\"$db_synonym{'ddbj101tsa'}\">$db_fullname{'ddbj101tsa'}</option>
+	<option value=\'ddbj101gss\' synonym=\"$db_synonym{'ddbj101gss'}\">$db_fullname{'ddbj101gss'}</option>
+	<option value=\'ddbj101htc\' synonym=\"$db_synonym{'ddbj101htc'}\">$db_fullname{'ddbj101htc'}</option>
+	<option value=\'ddbj101htg\' synonym=\"$db_synonym{'ddbj101htg'}\">$db_fullname{'ddbj101htg'}</option>
+	<option value=\'ddbj101sts\' synonym=\"$db_synonym{'ddbj101sts'}\">$db_fullname{'ddbj101sts'}</option>
+	<option value=\'ddbj101una\' synonym=\"$db_synonym{'ddbj101una'}\">$db_fullname{'ddbj101una'}</option>
+	<option value=\'ddbj\'       synonym=\"$db_synonym{'ddbj'      }\">$db_fullname{'ddbj'      }</option>
 --EOS--
 
 $db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
