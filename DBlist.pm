@@ -136,7 +136,8 @@ Creinhardtii_281_v5_5	172.18.8.74	42033	Phytozome	Chlamydomonas reinhardtii geno
 Olucimarinus_231_v2  	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus genome v2.0 (Jan, 2011)	Ostreococcus lucimarinus
 refseq70             	172.18.8.74	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
 refseq71             	172.18.8.74	60013	RefSeq   	RefSeq complete RNA release 71 (Jul, 2015)	
-refseq               	172.18.8.74	60013	RefSeq   	RefSeq complete RNA release 71 (Jul, 2015)	
+refseq72             	172.18.8.74	60023	RefSeq   	RefSeq complete RNA release 72 (Sep, 2015)	
+refseq               	172.18.8.74	60023	RefSeq   	RefSeq complete RNA release 72 (Sep, 2015)	
 hs_refseq            	172.18.8.75	42393	RefSeq   	RefSeq human RNA release 60 (Jul, 2013)	Homo sapiens
 mm_refseq            	172.18.8.75	42433	RefSeq   	RefSeq mouse RNA release 60 (Jul, 2013)	Mus musculus
 hg19_pre_mRNA        	172.18.8.75	50013	         	Human pre mRNA, Bits DB (Dec, 2014)	Homo sapiens

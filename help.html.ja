@@ -274,7 +274,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'      synonym=''>RefSeq complete RNA release 71 (Jul, 2015)</option>
+	<option value='refseq'      synonym=''>RefSeq complete RNA release 72 (Sep, 2015)</option>
 	<option value='hs_refseq70' synonym='Homo sapiens'>RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq70' synonym='Mus musculus'>RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='rn_refseq70' synonym='Rattus norvegicus'>RefSeq rat RNA release 70 (May, 2015)</option>
@@ -1600,7 +1600,16 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>refseq71 (alias of latest refseq release)
+	<td>refseq72 (alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq72/'>refseq72</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 72 (Sep, 2015)
 </tr>
 <tr>
 	<td><a href='/refseq71/'>refseq71</a>
@@ -1904,6 +1913,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2015-09-07 RefSeq rel. 72 (Sep, 2015) に更新。
 	<li>2015-07-22 100種以上のゲノムを追加 -
 		<a href='help.html#genomelist'>検索可能なデータベース一覧</a>
 	<li>2015-07-22 RefSeq rel. 71 (Jul, 2015) を再公開。
@@ -1955,7 +1965,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jul 22, 2015 by
+<p class=g>Last modified on Sep 7, 2015 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
