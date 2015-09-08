@@ -1290,7 +1290,7 @@ my $select = <<"--EOS--" ;
 	<option value=\'ASM34733v1\'     synonym=\"$db_synonym{'ASM34733v1'    }\">$db_fullname{'ASM34733v1'    }</option>
 	<option value=\'AMTR1.0\'        synonym=\"$db_synonym{'AMTR1.0'       }\">$db_fullname{'AMTR1.0'       }</option>
 	<option value=\'Araly_v.1.0\'    synonym=\"$db_synonym{'Araly_v.1.0'   }\">$db_fullname{'Araly_v.1.0'   }</option>
-	<option value=\'TAIR10\'         synonym=\"$db_synonym{'TAIR10'        }\">$db_fullname{'TAIR10'        }</option>
+	<option value=\'TAIR10_en\'      synonym=\"$db_synonym{'TAIR10_en'     }\">$db_fullname{'TAIR10_en'     }</option>
 	<option value=\'Bradi_v1.0\'     synonym=\"$db_synonym{'Bradi_v1.0'    }\">$db_fullname{'Bradi_v1.0'    }</option>
 	<option value=\'Braol_v2.1\'     synonym=\"$db_synonym{'Braol_v2.1'    }\">$db_fullname{'Braol_v2.1'    }</option>
 	<option value=\'IVFCAASv1\'      synonym=\"$db_synonym{'IVFCAASv1'     }\">$db_fullname{'IVFCAASv1'     }</option>
@@ -1621,7 +1621,7 @@ my $select = <<"--EOS--" ;
 	<option value=\'ASM34733v1\'     synonym=\"$db_synonym{'ASM34733v1'    }\">$db_fullname{'ASM34733v1'    }</option>
 	<option value=\'AMTR1.0\'        synonym=\"$db_synonym{'AMTR1.0'       }\">$db_fullname{'AMTR1.0'       }</option>
 	<option value=\'Araly_v.1.0\'    synonym=\"$db_synonym{'Araly_v.1.0'   }\">$db_fullname{'Araly_v.1.0'   }</option>
-	<option value=\'TAIR10\'         synonym=\"$db_synonym{'TAIR10'        }\">$db_fullname{'TAIR10'        }</option>
+	<option value=\'TAIR10_en\'      synonym=\"$db_synonym{'TAIR10_en'     }\">$db_fullname{'TAIR10_en'     }</option>
 	<option value=\'Bradi_v1.0\'     synonym=\"$db_synonym{'Bradi_v1.0'    }\">$db_fullname{'Bradi_v1.0'    }</option>
 	<option value=\'Braol_v2.1\'     synonym=\"$db_synonym{'Braol_v2.1'    }\">$db_fullname{'Braol_v2.1'    }</option>
 	<option value=\'IVFCAASv1\'      synonym=\"$db_synonym{'IVFCAASv1'     }\">$db_fullname{'IVFCAASv1'     }</option>

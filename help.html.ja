@@ -308,7 +308,7 @@ function set_strand(){
 	<option value='ASM34733v1'     synonym="Aegilops tauschii;tausch's goatgrass">Aegilops tauschii genome, ASM34733v1 (Dec, 2013)</option>
 	<option value='AMTR1.0'        synonym="Amborella trichopoda">Amborella trichopoda genome, AMTR1.0 (Jan, 2014)</option>
 	<option value='Araly_v.1.0'    synonym="Arabidopsis lyrata;lyre-leaved rock-cress">Arabidopsis lyrata genome, v.1.0 (Dec, 2008)</option>
-	<option value='TAIR10'         synonym="Arabidopsis thaliana">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
+	<option value='TAIR10_en'      synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Sep, 2010)</option>
 	<option value='Bradi_v1.0'     synonym="Brachypodium distachyon;purple false brome">Brachypodium distachyon genome, v1.0 (Jan, 2009)</option>
 	<option value='Braol_v2.1'     synonym="Brassica oleracea;wild cabbage">Brassica oleracea genome, v2.1</option>
 	<option value='IVFCAASv1'      synonym="Brassica rapa;chinese cabbage">Brassica rapa genome, IVFCAASv1 (Aug, 2009)</option>
