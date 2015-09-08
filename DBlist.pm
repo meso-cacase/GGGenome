@@ -216,10 +216,29 @@ Xentr8               	172.18.8.77	43023	Xenbase  	Xenopus tropicalis genome, Xen
 macaque_CE_1         	172.18.8.77	43043	         	Crab-eating macaque genome, CE_1.0 (Jul, 2011)	Macaca fascicularis
 macaque_CE_1_cds     	172.18.8.77	43053	         	Crab-eating macaque CDS, CE_1.0 (Jul, 2011)	Macaca fascicularis
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
-Ppatens_251_v3       	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens
-Smoellendorffii_91_v1	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii
-Creinhardtii_281_v5_5	172.18.8.74	42033	Phytozome	Chlamydomonas reinhardtii genome, v5.5 (May, 2014)	Chlamydomonas reinhardtii
-Olucimarinus_231_v2  	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)	Ostreococcus lucimarinus
+Ppatens_251_v3          	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
+Smoellendorffii_91_v1   	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss
+Creinhardtii_281_v5_5   	172.18.8.74	42033	Phytozome	Chlamydomonas reinhardtii genome, v5.5 (May, 2014)	Chlamydomonas reinhardtii;green algae
+Olucimarinus_231_v2     	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)	Ostreococcus lucimarinus;o. lucimarinus
+Cgrandiflora_v1         	172.18.8.74	47043	Phytozome	Capsella grandiflora genome, v1.1	Capsella grandiflora;c. grandiflora
+Crubella_v1             	172.18.8.74	47053	Phytozome	Capsella rubella genome, v1.0	Capsella rubella;red shepherd's purse
+Cpapaya_r.Dec2008       	172.18.8.74	47063	Phytozome	Carica papaya genome, ASGPBv0.4	Carica papaya;papaya
+CsubellipsoideaC169_v2.0	172.18.8.74	47103	Phytozome	Coccomyxa subellipsoidea C-169 genome, v2.0	Coccomyxa subellipsoidea;c. subellipsoidea
+Csativus_v1             	172.18.8.74	47113	Phytozome	Cucumis sativus genome, v1.0	Cucumis sativus;cucumber
+Egrandis_v2.0           	172.18.8.74	47123	Phytozome	Eucalyptus grandis genome, v2.0	Eucalyptus grandis;eucalyptus
+Fvesca_v1.1             	172.18.8.74	47143	Phytozome	Fragaria vesca genome, v1.1	Fragaria vesca;strawberry
+Graimondii_v2.0         	172.18.8.74	47153	Phytozome	Gossypium raimondii genome, v2.1	Gossypium raimondii;cotton
+Lusitatissimum_BGIv1.0  	172.18.8.74	47173	Phytozome	Linum usitatissimum genome, v1.0	Linum usitatissimum;flax
+Mdomestica_v1.0         	172.18.8.74	47183	Phytozome	Malus domestica genome, v1.0	Malus domestica;apple
+Mesculenta_v6           	172.18.8.74	47193	Phytozome	Manihot esculenta genome, v6.1	Manihot esculenta;cassava
+MpusillaCCMP1545_v3.0   	172.18.8.74	47203	Phytozome	Micromonas pusilla CCMP1545 genome, v3.0	Micromonas pusilla;picoplanktonic green alga
+MpusillaRCC299_v3.0     	172.18.8.74	47213	Phytozome	Micromonas sp. RCC299 genome, v3.0	Micromonas pusilla;picoplanktonic green alga
+Mguttatus_v2.0          	172.18.8.74	47223	Phytozome	Mimulus guttatus genome, v2.0	Mimulus guttatus;monkey flower
+Osativa_v7.0            	172.18.8.74	47233	Phytozome	Oryza sativa genome, v7.0	Oryza sativa;rice
+Ppersica_v2.0           	172.18.8.74	47293	Phytozome	Prunus persica genome, v2.1	Prunus persica;peach
+Rcommunis_TIGR.0.1      	172.18.8.74	47303	Phytozome	Ricinus communis genome, v0.1	Ricinus communis;castor bean
+Spolyrhiza_v1           	172.18.8.74	47333	Phytozome	Spirodela polyrhiza genome, v2	Spirodela polyrhiza;giant duckweed
+Vcarteri_v2             	172.18.8.74	47343	Phytozome	Volvox carteri genome, v2.0	Volvox carteri;green alga
 refseq70             	172.18.8.74	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
 refseq71             	172.18.8.74	60013	RefSeq   	RefSeq complete RNA release 71 (Jul, 2015)	
 refseq72             	172.18.8.74	60023	RefSeq   	RefSeq complete RNA release 72 (Sep, 2015)	

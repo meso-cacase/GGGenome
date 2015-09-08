@@ -352,10 +352,29 @@ function set_strand(){
 	<option value='TAIR10'  synonym="Arabidopsis thaliana">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
 	<option value='rice'    synonym="Oryza sativa">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
 	<option value='sorBic'  synonym="Sorghum bicolor">Sorghum genome, Sorghum bicolor v2.1 (May, 2013)</option>
-	<option value='Ppatens_251_v3'        synonym="Physcomitrella patens">Physcomitrella patens genome, v3.0 (Oct, 2007)</option>
-	<option value='Smoellendorffii_91_v1' synonym="Selaginella moellendorffii">Selaginella moellendorffii genome, v1.0 (Dec, 2007)</option>
-	<option value='Creinhardtii_281_v5_5' synonym="Chlamydomonas reinhardtii">Chlamydomonas reinhardtii genome, v5.5 (May, 2014)</option>
-	<option value='Olucimarinus_231_v2'   synonym="Ostreococcus lucimarinus">Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)</option>
+	<option value='Ppatens_251_v3'           synonym="Physcomitrella patens;moss">Physcomitrella patens genome, v3.0 (Oct, 2007)</option>
+	<option value='Smoellendorffii_91_v1'    synonym="Selaginella moellendorffii;spikemoss">Selaginella moellendorffii genome, v1.0 (Dec, 2007)</option>
+	<option value='Creinhardtii_281_v5_5'    synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v5.5 (May, 2014)</option>
+	<option value='Olucimarinus_231_v2'      synonym="Ostreococcus lucimarinus;o. lucimarinus">Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)</option>
+	<option value='Cgrandiflora_v1'          synonym="Capsella grandiflora;c. grandiflora">Capsella grandiflora genome, v1.1</option>
+	<option value='Crubella_v1'              synonym="Capsella rubella;red shepherd's purse">Capsella rubella genome, v1.0</option>
+	<option value='Cpapaya_r.Dec2008'        synonym="Carica papaya;papaya">Carica papaya genome, ASGPBv0.4</option>
+	<option value='CsubellipsoideaC169_v2.0' synonym="Coccomyxa subellipsoidea;c. subellipsoidea">Coccomyxa subellipsoidea C-169 genome, v2.0</option>
+	<option value='Csativus_v1'              synonym="Cucumis sativus;cucumber">Cucumis sativus genome, v1.0</option>
+	<option value='Egrandis_v2.0'            synonym="Eucalyptus grandis;eucalyptus">Eucalyptus grandis genome, v2.0</option>
+	<option value='Fvesca_v1.1'              synonym="Fragaria vesca;strawberry">Fragaria vesca genome, v1.1</option>
+	<option value='Graimondii_v2.0'          synonym="Gossypium raimondii;cotton">Gossypium raimondii genome, v2.1</option>
+	<option value='Lusitatissimum_BGIv1.0'   synonym="Linum usitatissimum;flax">Linum usitatissimum genome, v1.0</option>
+	<option value='Mdomestica_v1.0'          synonym="Malus domestica;apple">Malus domestica genome, v1.0</option>
+	<option value='Mesculenta_v6'            synonym="Manihot esculenta;cassava">Manihot esculenta genome, v6.1</option>
+	<option value='MpusillaCCMP1545_v3.0'    synonym="Micromonas pusilla;picoplanktonic green alga">Micromonas pusilla CCMP1545 genome, v3.0</option>
+	<option value='MpusillaRCC299_v3.0'      synonym="Micromonas pusilla;picoplanktonic green alga">Micromonas sp. RCC299 genome, v3.0</option>
+	<option value='Mguttatus_v2.0'           synonym="Mimulus guttatus;monkey flower">Mimulus guttatus genome, v2.0</option>
+	<option value='Osativa_v7.0'             synonym="Oryza sativa;rice">Oryza sativa genome, v7.0</option>
+	<option value='Ppersica_v2.0'            synonym="Prunus persica;peach">Prunus persica genome, v2.1</option>
+	<option value='Rcommunis_TIGR.0.1'       synonym="Ricinus communis;castor bean">Ricinus communis genome, v0.1</option>
+	<option value='Spolyrhiza_v1'            synonym="Spirodela polyrhiza;giant duckweed">Spirodela polyrhiza genome, v2</option>
+	<option value='Vcarteri_v2'              synonym="Volvox carteri;green alga">Volvox carteri genome, v2.0</option>
 
 	<option value='eboVir3' synonym="Filoviridae ebolavirus">Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
 
@@ -2429,6 +2448,196 @@ set_strand() ;
 	<td>Ostreococcus lucimarinus
 	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Olucimarinus'><!--
 		-->v2.0 (Jan, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Cgrandiflora_v1/'>Cgrandiflora_v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>C. grandiflora
+	<td>ナズナ属
+	<td>Capsella grandiflora
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Cgrandiflora'><!--
+		-->v1.1</a>
+</tr>
+<tr>
+	<td><a href='/Crubella_v1/'>Crubella_v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Red shepherd's purse
+	<td>ナズナ属
+	<td>Capsella rubella
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Crubella'><!--
+		-->v1.0</a>
+</tr>
+<tr>
+	<td><a href='/Cpapaya_r.Dec2008/'>Cpapaya_r.Dec2008</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Papaya
+	<td>パパイア
+	<td>Carica papaya
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Cpapaya'><!--
+		-->ASGPBv0.4</a>
+</tr>
+<tr>
+	<td><a href='/CsubellipsoideaC169_v2.0/'>CsubellipsoideaC169_v2.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>C. subellipsoidea
+	<td>コッコミクサ属
+	<td>Coccomyxa subellipsoidea
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_CsubellipsoideaC_169'><!--
+		-->v2.0</a>
+</tr>
+<tr>
+	<td><a href='/Csativus_v1/'>Csativus_v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Cucumber
+	<td>キュウリ
+	<td>Cucumis sativus
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Csativus'><!--
+		-->v1.0</a>
+</tr>
+<tr>
+	<td><a href='/Egrandis_v2.0/'>Egrandis_v2.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Eucalyptus
+	<td>ローズガム
+	<td>Eucalyptus grandis
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Egrandis_er'><!--
+		-->v2.0</a>
+</tr>
+<tr>
+	<td><a href='/Fvesca_v1.1/'>Fvesca_v1.1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Strawberry
+	<td>エゾヘビイチゴ
+	<td>Fragaria vesca
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Fvesca'><!--
+		-->v1.1</a>
+</tr>
+<tr>
+	<td><a href='/Graimondii_v2.0/'>Graimondii_v2.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Cotton
+	<td>ワタ
+	<td>Gossypium raimondii
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Graimondii'><!--
+		-->v2.1</a>
+</tr>
+<tr>
+	<td><a href='/Lusitatissimum_BGIv1.0/'>Lusitatissimum_BGIv1.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Flax
+	<td>アマ
+	<td>Linum usitatissimum
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Lusitatissimum'><!--
+		-->v1.0</a>
+</tr>
+<tr>
+	<td><a href='/Mdomestica_v1.0/'>Mdomestica_v1.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Apple
+	<td>リンゴ
+	<td>Malus domestica
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Mdomestica'><!--
+		-->v1.0</a>
+</tr>
+<tr>
+	<td><a href='/Mesculenta_v6/'>Mesculenta_v6</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Cassava
+	<td>キャッサバ
+	<td>Manihot esculenta
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Mesculenta_er'><!--
+		-->v6.1</a>
+</tr>
+<tr>
+	<td><a href='/MpusillaCCMP1545_v3.0/'>MpusillaCCMP1545_v3.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Picoplanktonic green alga
+	<td>ミクロモナス
+	<td>Micromonas pusilla
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_MpusillaCCMP1545'><!--
+		-->v3.0</a>
+</tr>
+<tr>
+	<td><a href='/MpusillaRCC299_v3.0/'>MpusillaRCC299_v3.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Picoplanktonic green alga
+	<td>ミクロモナス
+	<td>Micromonas pusilla
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_MspRCC299'><!--
+		-->v3.0</a>
+</tr>
+<tr>
+	<td><a href='/Mguttatus_v2.0/'>Mguttatus_v2.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Monkey flower
+	<td>ミムルス
+	<td>Mimulus guttatus
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Mguttatus'><!--
+		-->v2.0</a>
+</tr>
+<tr>
+	<td><a href='/Osativa_v7.0/'>Osativa_v7.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Rice
+	<td>イネ
+	<td>Oryza sativa
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Osativa'><!--
+		-->v7.0</a>
+</tr>
+<tr>
+	<td><a href='/Ppersica_v2.0/'>Ppersica_v2.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Peach
+	<td>ハナモモ
+	<td>Prunus persica
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Ppersica_er'><!--
+		-->v2.1</a>
+</tr>
+<tr>
+	<td><a href='/Rcommunis_TIGR.0.1/'>Rcommunis_TIGR.0.1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Castor bean
+	<td>トウゴマ
+	<td>Ricinus communis
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Rcommunis'><!--
+		-->v0.1</a>
+</tr>
+<tr>
+	<td><a href='/Spolyrhiza_v1/'>Spolyrhiza_v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Giant duckweed
+	<td>ウキクサ
+	<td>Spirodela polyrhiza
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Spolyrhiza_er'><!--
+		-->v2</a>
+</tr>
+<tr>
+	<td><a href='/Vcarteri_v2/'>Vcarteri_v2</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Green alga
+	<td>ボルボックス
+	<td>Volvox carteri
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Vcarteri'><!--
+		-->v2.0</a>
 </tr>
 <tr>
 	<td><a href='/Xenla7/'>Xenla7</a>
