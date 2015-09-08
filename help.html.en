@@ -2367,14 +2367,6 @@ set_strand() ;
 	<td>RefSeq complete RNA release 70 (May, 2015)
 </tr>
 <tr>
-	<td><a href='/hs_refseq/'>hs_refseq</a>
-	<td>RefSeq
-	<td>Mammal
-	<td>Human
-	<td>Homo sapiens
-	<td>RefSeq human RNA release 60 (Jul, 2013)
-</tr>
-<tr>
 	<td><a href='/hs_refseq70/'>hs_refseq70</a>
 	<td>RefSeq
 	<td>Mammal
@@ -2383,12 +2375,12 @@ set_strand() ;
 	<td>RefSeq human RNA release 70 (May, 2015)
 </tr>
 <tr>
-	<td><a href='/mm_refseq/'>mm_refseq</a>
+	<td><a href='/hs_refseq/'>hs_refseq</a>
 	<td>RefSeq
 	<td>Mammal
-	<td>Mouse
-	<td>Mus musculus
-	<td>RefSeq mouse RNA release 60 (Jul, 2013)
+	<td>Human
+	<td>Homo sapiens
+	<td>RefSeq human RNA release 60 (Jul, 2013)
 </tr>
 <tr>
 	<td><a href='/mm_refseq70/'>mm_refseq70</a>
@@ -2397,6 +2389,14 @@ set_strand() ;
 	<td>Mouse
 	<td>Mus musculus
 	<td>RefSeq mouse RNA release 70 (May, 2015)
+</tr>
+<tr>
+	<td><a href='/mm_refseq/'>mm_refseq</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td>RefSeq mouse RNA release 60 (Jul, 2013)
 </tr>
 <tr>
 	<td><a href='/rn_refseq70/'>rn_refseq70</a>
