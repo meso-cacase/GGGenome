@@ -15,10 +15,6 @@ package DBlist ;
 # 172.18.8.76	s06.dbcls.jp
 # 172.18.8.77	s07.dbcls.jp
 # 172.18.8.78	s08.dbcls.jp
-#
-# 削除予定：
-# ASM15162v1           	172.18.8.77	43033	Ensembl  	Silkworm genome, ASM15162v1/GCA_000151625.1 (Feb, 2013)	Bombyx mori
-# Tcas3                	172.18.8.77	43063	Ensembl  	Tribolium castaneum genome, Tcas3 (Feb, 2010)	Tribolium castaneum;red flour beetle
 
 $dbconfig =
 <<'--EOS--' ;
