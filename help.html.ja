@@ -196,7 +196,7 @@ function set_strand(){
 	<option value='ornAna1' synonym="Ornithorhynchus anatinus">Platypus genome, WUGSC 5.0.1/ornAna1 (Mar, 2007)</option>
 	<option value='oryCun2' synonym="Oryctolagus cuniculus">Rabbit genome, Broad/oryCun2 (Apr, 2009)</option>
 	<option value='rheMac3' synonym="Macaca mulatta">Rhesus genome, BGI CR_1.0/rheMac3 (Oct, 2010)</option>
-	<option value='proCap1' synonym="Procavia capensis">Rock hyrax genome, Broad/proCap1 (Jul, 2008)</option>
+	<option value='proCap1' synonym="Procavia capensis;cape hyrax">Rock hyrax genome, Broad/proCap1 (Jul, 2008)</option>
 	<option value='oviAri3' synonym="Ovis aries">Sheep genome, ISGC Oar_v3.1/oviAri3 (Aug, 2012)</option>
 	<option value='sorAra2' synonym="Sorex araneus">Shrew genome, Broad/sorAra2 (Aug, 2008)</option>
 	<option value='choHof1' synonym="Choloepus hoffmanni">Sloth genome, Broad/choHof1 (Jul, 2008)</option>
@@ -224,17 +224,17 @@ function set_strand(){
 	<option value='gasAcu1' synonym="Gasterosteus aculeatus">Stickleback genome, Broad/gasAcu1 (Feb, 2006)</option>
 	<option value='tetNig2' synonym="Tetraodon nigroviridis">Tetraodon genome, Genoscope 8.0/tetNig2 (Mar, 2007)</option>
 	<option value='melGal1' synonym="Meleagris gallopavo">Turkey genome, TGC Turkey_2.01/melGal1 (Dec, 2009)</option>
-	<option value='Xenla7'  synonym="Xenopus laevis">Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)</option>
-	<option value='Xentr8'  synonym="Xenopus tropicalis">Xenopus tropicalis genome, XenBase/JGI 8.0</option>
-	<option value='Xentr7'  synonym="Xenopus tropicalis">Xenopus tropicalis genome, XenBase/JGI 7.1</option>
-	<option value='xenTro3' synonym="Xenopus tropicalis;Western clawed frog">Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)</option>
+	<option value='Xenla7'  synonym="Xenopus laevis;african clawed frog">Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)</option>
+	<option value='Xentr8'  synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 8.0</option>
+	<option value='Xentr7'  synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 7.1</option>
+	<option value='xenTro3' synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)</option>
 	<option value='taeGut2' synonym="Taeniopygia guttata">Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)</option>
 	<option value='danRer7' synonym="Danio rerio">Zebrafish genome, Zv9/danRer7 (Jul, 2010)</option>
-	<option value='ci2'     synonym="Ciona intestinalis;Transparent sea squirt">Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)</option>
+	<option value='ci2'     synonym="Ciona intestinalis;transparent sea squirt">Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)</option>
 	<option value='braFlo1' synonym="Branchiostoma floridae">Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)</option>
-	<option value='strPur2' synonym="Strongylocentrotus purpuratus">S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)</option>
-	<option value='anoGam1' synonym="Anopheles gambiae">A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)</option>
-	<option value='apiMel2' synonym="Apis mellifera">A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)</option>
+	<option value='strPur2' synonym="Strongylocentrotus purpuratus;purple sea urchin">S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)</option>
+	<option value='anoGam1' synonym="Anopheles gambiae;african malaria mosquito">A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)</option>
+	<option value='apiMel2' synonym="Apis mellifera;honeybee">A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)</option>
 	<option value='droAna2' synonym="Drosophila ananassae;fruit fly">D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)</option>
 	<option value='droEre1' synonym="Drosophila erecta;fruit fly">D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)</option>
 	<option value='droGri1' synonym="Drosophila grimshawi;fruit fly">D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)</option>
@@ -348,7 +348,7 @@ function set_strand(){
 	<option value='bmor1'   synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
 	<option value='pombe'   synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 
-	<option value='TAIR10'  synonym="Arabidopsis thaliana">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
+	<option value='TAIR10'  synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
 	<option value='rice'    synonym="Oryza sativa">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
 	<option value='sorBic'  synonym="Sorghum bicolor">Sorghum genome, Sorghum bicolor v2.1 (May, 2013)</option>
 	<option value='Ppatens_251_v3'           synonym="Physcomitrella patens;moss">Physcomitrella patens genome, v3.0 (Oct, 2007)</option>
@@ -961,7 +961,7 @@ set_strand() ;
 	<td><a href='/proCap1/'>proCap1</a>
 	<td>UCSC
 	<td>Mammal
-	<td>Cape hyrax
+	<td>Rock hyrax, Cape hyrax
 	<td>ケープハイラックス
 	<td>Procavia capensis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=proCap1'><!--

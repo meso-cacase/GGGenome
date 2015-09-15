@@ -57,7 +57,7 @@ oryCun2  	172.18.8.77	40363	UCSC	Rabbit genome, Broad/oryCun2 (Apr, 2009)	Orycto
 rn6      	172.18.8.77	40373	UCSC	Rat genome, RGSC 6.0/rn6 (Jul, 2014)	Rattus norvegicus
 rn5      	172.18.8.77	40383	UCSC	Rat genome, RGSC 5.0/rn5 (Mar, 2012)	Rattus norvegicus
 rheMac3  	172.18.8.77	40393	UCSC	Rhesus genome, BGI CR_1.0/rheMac3 (Oct, 2010)	Macaca mulatta
-proCap1  	172.18.8.77	40403	UCSC	Rock hyrax genome, Broad/proCap1 (Jul, 2008)	Procavia capensis
+proCap1  	172.18.8.77	40403	UCSC	Rock hyrax genome, Broad/proCap1 (Jul, 2008)	Procavia capensis;cape hyrax
 oviAri3  	172.18.8.77	40413	UCSC	Sheep genome, ISGC Oar_v3.1/oviAri3 (Aug, 2012)	Ovis aries
 sorAra2  	172.18.8.77	40423	UCSC	Shrew genome, Broad/sorAra2 (Aug, 2008)	Sorex araneus
 choHof1  	172.18.8.77	40433	UCSC	Sloth genome, Broad/choHof1 (Jul, 2008)	Choloepus hoffmanni
@@ -85,14 +85,14 @@ chrPic1  	172.18.8.76	40643	UCSC	Painted turtle genome, v3.0.1/chrPic1 (Dec, 201
 gasAcu1  	172.18.8.76	40653	UCSC	Stickleback genome, Broad/gasAcu1 (Feb, 2006)	Gasterosteus aculeatus
 tetNig2  	172.18.8.76	40663	UCSC	Tetraodon genome, Genoscope 8.0/tetNig2 (Mar, 2007)	Tetraodon nigroviridis
 melGal1  	172.18.8.76	40673	UCSC	Turkey genome, TGC Turkey_2.01/melGal1 (Dec, 2009)	Meleagris gallopavo
-xenTro3  	172.18.8.76	40683	UCSC	Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)	Xenopus tropicalis;Western clawed frog
+xenTro3  	172.18.8.76	40683	UCSC	Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)	Xenopus tropicalis;western clawed frog
 taeGut2  	172.18.8.76	40693	UCSC	Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)	Taeniopygia guttata
 danRer7  	172.18.8.76	40703	UCSC	Zebrafish genome, Zv9/danRer7 (Jul, 2010)	Danio rerio
-ci2      	172.18.8.76	40713	UCSC	Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)	Ciona intestinalis;Transparent sea squirt
+ci2      	172.18.8.76	40713	UCSC	Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)	Ciona intestinalis;transparent sea squirt
 braFlo1  	172.18.8.76	40723	UCSC	Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)	Branchiostoma floridae
-strPur2  	172.18.8.76	40733	UCSC	S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)	Strongylocentrotus purpuratus
-anoGam1  	172.18.8.76	40743	UCSC	A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)	Anopheles gambiae
-apiMel2  	172.18.8.76	40753	UCSC	A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)	Apis mellifera
+strPur2  	172.18.8.76	40733	UCSC	S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)	Strongylocentrotus purpuratus;purple sea urchin
+anoGam1  	172.18.8.76	40743	UCSC	A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)	Anopheles gambiae;african malaria mosquito
+apiMel2  	172.18.8.76	40753	UCSC	A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)	Apis mellifera;honeybee
 droAna2  	172.18.8.76	40763	UCSC	D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)	Drosophila ananassae;fruit fly
 droEre1  	172.18.8.76	40773	UCSC	D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)	Drosophila erecta;fruit fly
 droGri1  	172.18.8.76	40783	UCSC	D. grimshawi genome, Agencourt prelim/droGri1 (Aug, 2005)	Drosophila grimshawi;fruit fly
@@ -202,16 +202,16 @@ IWGSC1.0    	172.18.8.75	45363	EnsemblPlants	Triticum aestivum genome, IWGSC1.0+
 ASM34745v1  	172.18.8.75	45373	EnsemblPlants	Triticum urartu genome, ASM34745v1 (Apr, 2013)	Triticum urartu;red wild einkorn
 IGGP_12x    	172.18.8.75	45383	EnsemblPlants	Vitis vinifera genome, IGGP_12x (Jun, 2011)	Vitis vinifera;grape
 AGPv3       	172.18.8.75	45393	EnsemblPlants	Zea mays genome, AGPv3 (Apr, 2013)	Zea mays;maize, Corn
-Xenla7   	172.18.8.70	42443	Xenbase	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)	Xenopus laevis
-TAIR10   	172.18.8.70	42373	    	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)	Arabidopsis thaliana
+Xenla7   	172.18.8.70	42443	Xenbase	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)	Xenopus laevis;african clawed frog
+TAIR10   	172.18.8.70	42373	    	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)	Arabidopsis thaliana;thale cress
 rice     	172.18.8.70	42293	    	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)	Oryza sativa
 sorBic   	172.18.8.70	42403	    	Sorghum genome, Sorghum bicolor v2.1 (May, 2013)	Sorghum bicolor
 bmor1    	172.18.8.70	42303	Ensembl	Silkworm genome, Bmor1 (Apr, 2008)	Bombyx mori
 pombe    	172.18.8.70	42453	Ensembl	S. pombe (972h-) genome, ASM294v2 (Nov, 2007)	Schizosaccharomyces pombe;fission yeast
 prok     	172.18.8.70	42323	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)	
 ddbj     	172.18.8.70	42313	DDBJ	DDBJ release 92.0 (Feb, 2013)	
-Xentr7               	172.18.8.77	43013	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 7.1	Xenopus tropicalis
-Xentr8               	172.18.8.77	43023	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 8.0	Xenopus tropicalis
+Xentr7               	172.18.8.77	43013	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 7.1	Xenopus tropicalis;western clawed frog
+Xentr8               	172.18.8.77	43023	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 8.0	Xenopus tropicalis;western clawed frog
 macaque_CE_1         	172.18.8.77	43043	         	Crab-eating macaque genome, CE_1.0 (Jul, 2011)	Macaca fascicularis
 macaque_CE_1_cds     	172.18.8.77	43053	         	Crab-eating macaque CDS, CE_1.0 (Jul, 2011)	Macaca fascicularis
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
