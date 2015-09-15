@@ -329,7 +329,6 @@ function set_strand(){
 	<option value='Orypu'          synonym="Oryza punctata;red rice">Oryza punctata genome, AVCL00000000 (Aug, 2013)</option>
 	<option value='PRJEB4137'      synonym="Oryza rufipogon;brownbeard rice">Oryza rufipogon genome, PRJEB4137 (Aug, 2013)</option>
 	<option value='ASM465v1'       synonym="Oryza sativa Indica;rice">Oryza sativa Indica genome, ASM465v1 (Jan, 2005)</option>
-	<option value='IRGSP1.0'       synonym="Oryza sativa Japonica;rice">Oryza sativa Japonica genome, IRGSP-1.0</option>
 	<option value='ASM9206v1'      synonym="Ostreococcus lucimarinus">Ostreococcus lucimarinus genome, ASM9206v1 (Jan, 2011)</option>
 	<option value='ASM242v1'       synonym="Physcomitrella patens;moss">Physcomitrella patens genome, ASM242v1 (Jul, 2006)</option>
 	<option value='Poptr_JGI2.0'   synonym="Populus trichocarpa;western balsam poplar">Populus trichocarpa genome, JGI2.0 (Jan, 2010)</option>
@@ -370,7 +369,6 @@ function set_strand(){
 	<option value='MpusillaCCMP1545_v3.0'    synonym="Micromonas pusilla;picoplanktonic green alga">Micromonas pusilla CCMP1545 genome, v3.0</option>
 	<option value='MpusillaRCC299_v3.0'      synonym="Micromonas pusilla;picoplanktonic green alga">Micromonas sp. RCC299 genome, v3.0</option>
 	<option value='Mguttatus_v2.0'           synonym="Mimulus guttatus;monkey flower">Mimulus guttatus genome, v2.0</option>
-	<option value='Osativa_v7.0'             synonym="Oryza sativa;rice">Oryza sativa genome, v7.0</option>
 	<option value='Ppersica_v2.0'            synonym="Prunus persica;peach">Prunus persica genome, v2.1</option>
 	<option value='Rcommunis_TIGR.0.1'       synonym="Ricinus communis;castor bean">Ricinus communis genome, v0.1</option>
 	<option value='Spolyrhiza_v1'            synonym="Spirodela polyrhiza;giant duckweed">Spirodela polyrhiza genome, v2</option>
@@ -2083,15 +2081,6 @@ set_strand() ;
 		-->ASM465v1 (Jan, 2005)</a>
 </tr>
 <tr>
-	<td><a href='/IRGSP1.0/'>IRGSP1.0</a>
-	<td>EnsemblPlants
-	<td>Plant
-	<td>Rice
-	<td>Oryza sativa Japonica
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_sativa/'><!--
-		-->IRGSP-1.0</a>
-</tr>
-<tr>
 	<td><a href='/ASM9206v1/'>ASM9206v1</a>
 	<td>EnsemblPlants
 	<td>Plant
@@ -2378,15 +2367,6 @@ set_strand() ;
 	<td>Mimulus guttatus
 	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Mguttatus'><!--
 		-->v2.0</a>
-</tr>
-<tr>
-	<td><a href='/Osativa_v7.0/'>Osativa_v7.0</a>
-	<td>Phytozome
-	<td>Plant
-	<td>Rice
-	<td>Oryza sativa
-	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Osativa'><!--
-		-->v7.0</a>
 </tr>
 <tr>
 	<td><a href='/Ppersica_v2.0/'>Ppersica_v2.0</a>

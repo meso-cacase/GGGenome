@@ -188,7 +188,6 @@ Oryni       	172.18.8.75	45213	EnsemblPlants	Oryza nivara genome, AWHD00000000 (
 Orypu       	172.18.8.75	45223	EnsemblPlants	Oryza punctata genome, AVCL00000000 (Aug, 2013)	Oryza punctata;red rice
 PRJEB4137   	172.18.8.75	45233	EnsemblPlants	Oryza rufipogon genome, PRJEB4137 (Aug, 2013)	Oryza rufipogon;brownbeard rice
 ASM465v1    	172.18.8.75	45243	EnsemblPlants	Oryza sativa Indica genome, ASM465v1 (Jan, 2005)	Oryza sativa Indica;rice
-IRGSP1.0    	172.18.8.75	45253	EnsemblPlants	Oryza sativa Japonica genome, IRGSP-1.0	Oryza sativa Japonica;rice
 ASM9206v1   	172.18.8.75	45263	EnsemblPlants	Ostreococcus lucimarinus genome, ASM9206v1 (Jan, 2011)	Ostreococcus lucimarinus
 ASM242v1    	172.18.8.75	45273	EnsemblPlants	Physcomitrella patens genome, ASM242v1 (Jul, 2006)	Physcomitrella patens;moss
 Poptr_JGI2.0	172.18.8.75	45283	EnsemblPlants	Populus trichocarpa genome, JGI2.0 (Jan, 2010)	Populus trichocarpa;western balsam poplar
@@ -234,7 +233,6 @@ Mesculenta_v6           	172.18.8.74	47193	Phytozome	Manihot esculenta genome, v
 MpusillaCCMP1545_v3.0   	172.18.8.74	47203	Phytozome	Micromonas pusilla CCMP1545 genome, v3.0	Micromonas pusilla;picoplanktonic green alga
 MpusillaRCC299_v3.0     	172.18.8.74	47213	Phytozome	Micromonas sp. RCC299 genome, v3.0	Micromonas pusilla;picoplanktonic green alga
 Mguttatus_v2.0          	172.18.8.74	47223	Phytozome	Mimulus guttatus genome, v2.0	Mimulus guttatus;monkey flower
-Osativa_v7.0            	172.18.8.74	47233	Phytozome	Oryza sativa genome, v7.0	Oryza sativa;rice
 Ppersica_v2.0           	172.18.8.74	47293	Phytozome	Prunus persica genome, v2.1	Prunus persica;peach
 Rcommunis_TIGR.0.1      	172.18.8.74	47303	Phytozome	Ricinus communis genome, v0.1	Ricinus communis;castor bean
 Spolyrhiza_v1           	172.18.8.74	47333	Phytozome	Spirodela polyrhiza genome, v2	Spirodela polyrhiza;giant duckweed

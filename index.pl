@@ -1311,7 +1311,6 @@ my $select = <<"--EOS--" ;
 	<option value=\'Orypu\'          synonym=\"$db_synonym{'Orypu'         }\">$db_fullname{'Orypu'         }</option>
 	<option value=\'PRJEB4137\'      synonym=\"$db_synonym{'PRJEB4137'     }\">$db_fullname{'PRJEB4137'     }</option>
 	<option value=\'ASM465v1\'       synonym=\"$db_synonym{'ASM465v1'      }\">$db_fullname{'ASM465v1'      }</option>
-	<option value=\'IRGSP1.0\'       synonym=\"$db_synonym{'IRGSP1.0'      }\">$db_fullname{'IRGSP1.0'      }</option>
 	<option value=\'ASM9206v1\'      synonym=\"$db_synonym{'ASM9206v1'     }\">$db_fullname{'ASM9206v1'     }</option>
 	<option value=\'ASM242v1\'       synonym=\"$db_synonym{'ASM242v1'      }\">$db_fullname{'ASM242v1'      }</option>
 	<option value=\'Poptr_JGI2.0\'   synonym=\"$db_synonym{'Poptr_JGI2.0'  }\">$db_fullname{'Poptr_JGI2.0'  }</option>
@@ -1352,7 +1351,6 @@ my $select = <<"--EOS--" ;
 	<option value=\'MpusillaCCMP1545_v3.0\'    synonym=\"$db_synonym{'MpusillaCCMP1545_v3.0'   }\">$db_fullname{'MpusillaCCMP1545_v3.0'   }</option>
 	<option value=\'MpusillaRCC299_v3.0\'      synonym=\"$db_synonym{'MpusillaRCC299_v3.0'     }\">$db_fullname{'MpusillaRCC299_v3.0'     }</option>
 	<option value=\'Mguttatus_v2.0\'           synonym=\"$db_synonym{'Mguttatus_v2.0'          }\">$db_fullname{'Mguttatus_v2.0'          }</option>
-	<option value=\'Osativa_v7.0\'             synonym=\"$db_synonym{'Osativa_v7.0'            }\">$db_fullname{'Osativa_v7.0'            }</option>
 	<option value=\'Ppersica_v2.0\'            synonym=\"$db_synonym{'Ppersica_v2.0'           }\">$db_fullname{'Ppersica_v2.0'           }</option>
 	<option value=\'Rcommunis_TIGR.0.1\'       synonym=\"$db_synonym{'Rcommunis_TIGR.0.1'      }\">$db_fullname{'Rcommunis_TIGR.0.1'      }</option>
 	<option value=\'Spolyrhiza_v1\'            synonym=\"$db_synonym{'Spolyrhiza_v1'           }\">$db_fullname{'Spolyrhiza_v1'           }</option>
@@ -1661,7 +1659,6 @@ my $select = <<"--EOS--" ;
 	<option value=\'Orypu\'          synonym=\"$db_synonym{'Orypu'         }\">$db_fullname{'Orypu'         }</option>
 	<option value=\'PRJEB4137\'      synonym=\"$db_synonym{'PRJEB4137'     }\">$db_fullname{'PRJEB4137'     }</option>
 	<option value=\'ASM465v1\'       synonym=\"$db_synonym{'ASM465v1'      }\">$db_fullname{'ASM465v1'      }</option>
-	<option value=\'IRGSP1.0\'       synonym=\"$db_synonym{'IRGSP1.0'      }\">$db_fullname{'IRGSP1.0'      }</option>
 	<option value=\'ASM9206v1\'      synonym=\"$db_synonym{'ASM9206v1'     }\">$db_fullname{'ASM9206v1'     }</option>
 	<option value=\'ASM242v1\'       synonym=\"$db_synonym{'ASM242v1'      }\">$db_fullname{'ASM242v1'      }</option>
 	<option value=\'Poptr_JGI2.0\'   synonym=\"$db_synonym{'Poptr_JGI2.0'  }\">$db_fullname{'Poptr_JGI2.0'  }</option>
@@ -1702,7 +1699,6 @@ my $select = <<"--EOS--" ;
 	<option value=\'MpusillaCCMP1545_v3.0\'    synonym=\"$db_synonym{'MpusillaCCMP1545_v3.0'   }\">$db_fullname{'MpusillaCCMP1545_v3.0'   }</option>
 	<option value=\'MpusillaRCC299_v3.0\'      synonym=\"$db_synonym{'MpusillaRCC299_v3.0'     }\">$db_fullname{'MpusillaRCC299_v3.0'     }</option>
 	<option value=\'Mguttatus_v2.0\'           synonym=\"$db_synonym{'Mguttatus_v2.0'          }\">$db_fullname{'Mguttatus_v2.0'          }</option>
-	<option value=\'Osativa_v7.0\'             synonym=\"$db_synonym{'Osativa_v7.0'            }\">$db_fullname{'Osativa_v7.0'            }</option>
 	<option value=\'Ppersica_v2.0\'            synonym=\"$db_synonym{'Ppersica_v2.0'           }\">$db_fullname{'Ppersica_v2.0'           }</option>
 	<option value=\'Rcommunis_TIGR.0.1\'       synonym=\"$db_synonym{'Rcommunis_TIGR.0.1'      }\">$db_fullname{'Rcommunis_TIGR.0.1'      }</option>
 	<option value=\'Spolyrhiza_v1\'            synonym=\"$db_synonym{'Spolyrhiza_v1'           }\">$db_fullname{'Spolyrhiza_v1'           }</option>
