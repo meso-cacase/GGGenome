@@ -1206,14 +1206,18 @@ my $select = <<"--EOS--" ;
 	<option value=\'gasAcu1\' synonym=\"$db_synonym{'gasAcu1'}\">$db_fullname{'gasAcu1'}</option>
 	<option value=\'tetNig2\' synonym=\"$db_synonym{'tetNig2'}\">$db_fullname{'tetNig2'}</option>
 	<option value=\'melGal1\' synonym=\"$db_synonym{'melGal1'}\">$db_fullname{'melGal1'}</option>
+	<option value=\'Xenla9\'  synonym=\"$db_synonym{'Xenla9' }\">$db_fullname{'Xenla9' }</option>
 	<option value=\'Xenla7\'  synonym=\"$db_synonym{'Xenla7' }\">$db_fullname{'Xenla7' }</option>
+	<option value=\'Xentr9\'  synonym=\"$db_synonym{'Xentr9' }\">$db_fullname{'Xentr9' }</option>
 	<option value=\'Xentr8\'  synonym=\"$db_synonym{'Xentr8' }\">$db_fullname{'Xentr8' }</option>
 	<option value=\'Xentr7\'  synonym=\"$db_synonym{'Xentr7' }\">$db_fullname{'Xentr7' }</option>
 	<option value=\'xenTro3\' synonym=\"$db_synonym{'xenTro3'}\">$db_fullname{'xenTro3'}</option>
 	<option value=\'taeGut2\' synonym=\"$db_synonym{'taeGut2'}\">$db_fullname{'taeGut2'}</option>
 	<option value=\'danRer7\' synonym=\"$db_synonym{'danRer7'}\">$db_fullname{'danRer7'}</option>
+	<option value=\'KH\'      synonym=\"$db_synonym{'KH'     }\">$db_fullname{'KH'     }</option>
 	<option value=\'ci2\'     synonym=\"$db_synonym{'ci2'    }\">$db_fullname{'ci2'    }</option>
 	<option value=\'braFlo1\' synonym=\"$db_synonym{'braFlo1'}\">$db_fullname{'braFlo1'}</option>
+	<option value=\'Spur_v3.1\' synonym=\"$db_synonym{'Spur_v3.1'}\">$db_fullname{'Spur_v3.1'}</option>
 	<option value=\'strPur2\' synonym=\"$db_synonym{'strPur2'}\">$db_fullname{'strPur2'}</option>
 	<option value=\'anoGam1\' synonym=\"$db_synonym{'anoGam1'}\">$db_fullname{'anoGam1'}</option>
 	<option value=\'apiMel2\' synonym=\"$db_synonym{'apiMel2'}\">$db_fullname{'apiMel2'}</option>
@@ -1294,6 +1298,7 @@ my $select = <<"--EOS--" ;
 	<option value=\'Bradi_v1.0\'     synonym=\"$db_synonym{'Bradi_v1.0'    }\">$db_fullname{'Bradi_v1.0'    }</option>
 	<option value=\'Braol_v2.1\'     synonym=\"$db_synonym{'Braol_v2.1'    }\">$db_fullname{'Braol_v2.1'    }</option>
 	<option value=\'IVFCAASv1\'      synonym=\"$db_synonym{'IVFCAASv1'     }\">$db_fullname{'IVFCAASv1'     }</option>
+	<option value=\'Brana_v4.1\'     synonym=\"$db_synonym{'Brana_v4.1'    }\">$db_fullname{'Brana_v4.1'    }</option>
 	<option value=\'Chlre_v3.1\'     synonym=\"$db_synonym{'Chlre_v3.1'    }\">$db_fullname{'Chlre_v3.1'    }</option>
 	<option value=\'ASM9120v1\'      synonym=\"$db_synonym{'ASM9120v1'     }\">$db_fullname{'ASM9120v1'     }</option>
 	<option value=\'Soybn_V1.0\'     synonym=\"$db_synonym{'Soybn_V1.0'    }\">$db_fullname{'Soybn_V1.0'    }</option>
@@ -1313,6 +1318,7 @@ my $select = <<"--EOS--" ;
 	<option value=\'ASM465v1\'       synonym=\"$db_synonym{'ASM465v1'      }\">$db_fullname{'ASM465v1'      }</option>
 	<option value=\'ASM9206v1\'      synonym=\"$db_synonym{'ASM9206v1'     }\">$db_fullname{'ASM9206v1'     }</option>
 	<option value=\'ASM242v1\'       synonym=\"$db_synonym{'ASM242v1'      }\">$db_fullname{'ASM242v1'      }</option>
+	<option value=\'Ptrichocarpa_v3.0\' synonym=\"$db_synonym{'Ptrichocarpa_v3.0'}\">$db_fullname{'Ptrichocarpa_v3.0'}</option>
 	<option value=\'Poptr_JGI2.0\'   synonym=\"$db_synonym{'Poptr_JGI2.0'  }\">$db_fullname{'Poptr_JGI2.0'  }</option>
 	<option value=\'Prupe1_0\'       synonym=\"$db_synonym{'Prupe1_0'      }\">$db_fullname{'Prupe1_0'      }</option>
 	<option value=\'Selml_v1.0\'     synonym=\"$db_synonym{'Selml_v1.0'    }\">$db_fullname{'Selml_v1.0'    }</option>
@@ -1328,11 +1334,17 @@ my $select = <<"--EOS--" ;
 
 	<option value=\'macaque_CE_1\' synonym=\"$db_synonym{'macaque_CE_1'}\">$db_fullname{'macaque_CE_1'}</option>
 	<option value=\'bmor1\'   synonym=\"$db_synonym{'bmor1'  }\">$db_fullname{'bmor1'  }</option>
+	<option value=\'h7\'           synonym=\"$db_synonym{'h7'          }\">$db_fullname{'h7'          }</option>
+	<option value=\'Hydra_RP_1.0\' synonym=\"$db_synonym{'Hydra_RP_1.0'}\">$db_fullname{'Hydra_RP_1.0'}</option>
 	<option value=\'pombe\'   synonym=\"$db_synonym{'pombe'  }\">$db_fullname{'pombe'  }</option>
 
 	<option value=\'TAIR10\'  synonym=\"$db_synonym{'TAIR10' }\">$db_fullname{'TAIR10' }</option>
 	<option value=\'rice\'    synonym=\"$db_synonym{'rice'   }\">$db_fullname{'rice'   }</option>
 	<option value=\'sorBic\'  synonym=\"$db_synonym{'sorBic' }\">$db_fullname{'sorBic' }</option>
+	<option value=\'lotus_r3.0\'               synonym=\"$db_synonym{'lotus_r3.0'              }\">$db_fullname{'lotus_r3.0'              }</option>
+	<option value=\'Niben_v1.0.1\'             synonym=\"$db_synonym{'Niben_v1.0.1'            }\">$db_fullname{'Niben_v1.0.1'            }</option>
+	<option value=\'adzuki_ver3\'              synonym=\"$db_synonym{'adzuki_ver3'             }\">$db_fullname{'adzuki_ver3'             }</option>
+	<option value=\'RSA_r1.0\'                 synonym=\"$db_synonym{'RSA_r1.0'                }\">$db_fullname{'RSA_r1.0'                }</option>
 	<option value=\'Ppatens_251_v3\'           synonym=\"$db_synonym{'Ppatens_251_v3'          }\">$db_fullname{'Ppatens_251_v3'          }</option>
 	<option value=\'Smoellendorffii_91_v1\'    synonym=\"$db_synonym{'Smoellendorffii_91_v1'   }\">$db_fullname{'Smoellendorffii_91_v1'   }</option>
 	<option value=\'Creinhardtii_281_v5_5\'    synonym=\"$db_synonym{'Creinhardtii_281_v5_5'   }\">$db_fullname{'Creinhardtii_281_v5_5'   }</option>
@@ -1554,14 +1566,18 @@ my $select = <<"--EOS--" ;
 	<option value=\'gasAcu1\' synonym=\"$db_synonym{'gasAcu1'}\">$db_fullname{'gasAcu1'}</option>
 	<option value=\'tetNig2\' synonym=\"$db_synonym{'tetNig2'}\">$db_fullname{'tetNig2'}</option>
 	<option value=\'melGal1\' synonym=\"$db_synonym{'melGal1'}\">$db_fullname{'melGal1'}</option>
+	<option value=\'Xenla9\'  synonym=\"$db_synonym{'Xenla9' }\">$db_fullname{'Xenla9' }</option>
 	<option value=\'Xenla7\'  synonym=\"$db_synonym{'Xenla7' }\">$db_fullname{'Xenla7' }</option>
+	<option value=\'Xentr9\'  synonym=\"$db_synonym{'Xentr9' }\">$db_fullname{'Xentr9' }</option>
 	<option value=\'Xentr8\'  synonym=\"$db_synonym{'Xentr8' }\">$db_fullname{'Xentr8' }</option>
 	<option value=\'Xentr7\'  synonym=\"$db_synonym{'Xentr7' }\">$db_fullname{'Xentr7' }</option>
 	<option value=\'xenTro3\' synonym=\"$db_synonym{'xenTro3'}\">$db_fullname{'xenTro3'}</option>
 	<option value=\'taeGut2\' synonym=\"$db_synonym{'taeGut2'}\">$db_fullname{'taeGut2'}</option>
 	<option value=\'danRer7\' synonym=\"$db_synonym{'danRer7'}\">$db_fullname{'danRer7'}</option>
+	<option value=\'KH\'      synonym=\"$db_synonym{'KH'     }\">$db_fullname{'KH'     }</option>
 	<option value=\'ci2\'     synonym=\"$db_synonym{'ci2'    }\">$db_fullname{'ci2'    }</option>
 	<option value=\'braFlo1\' synonym=\"$db_synonym{'braFlo1'}\">$db_fullname{'braFlo1'}</option>
+	<option value=\'Spur_v3.1\' synonym=\"$db_synonym{'Spur_v3.1'}\">$db_fullname{'Spur_v3.1'}</option>
 	<option value=\'strPur2\' synonym=\"$db_synonym{'strPur2'}\">$db_fullname{'strPur2'}</option>
 	<option value=\'anoGam1\' synonym=\"$db_synonym{'anoGam1'}\">$db_fullname{'anoGam1'}</option>
 	<option value=\'apiMel2\' synonym=\"$db_synonym{'apiMel2'}\">$db_fullname{'apiMel2'}</option>
@@ -1642,6 +1658,7 @@ my $select = <<"--EOS--" ;
 	<option value=\'Bradi_v1.0\'     synonym=\"$db_synonym{'Bradi_v1.0'    }\">$db_fullname{'Bradi_v1.0'    }</option>
 	<option value=\'Braol_v2.1\'     synonym=\"$db_synonym{'Braol_v2.1'    }\">$db_fullname{'Braol_v2.1'    }</option>
 	<option value=\'IVFCAASv1\'      synonym=\"$db_synonym{'IVFCAASv1'     }\">$db_fullname{'IVFCAASv1'     }</option>
+	<option value=\'Brana_v4.1\'     synonym=\"$db_synonym{'Brana_v4.1'    }\">$db_fullname{'Brana_v4.1'    }</option>
 	<option value=\'Chlre_v3.1\'     synonym=\"$db_synonym{'Chlre_v3.1'    }\">$db_fullname{'Chlre_v3.1'    }</option>
 	<option value=\'ASM9120v1\'      synonym=\"$db_synonym{'ASM9120v1'     }\">$db_fullname{'ASM9120v1'     }</option>
 	<option value=\'Soybn_V1.0\'     synonym=\"$db_synonym{'Soybn_V1.0'    }\">$db_fullname{'Soybn_V1.0'    }</option>
@@ -1661,6 +1678,7 @@ my $select = <<"--EOS--" ;
 	<option value=\'ASM465v1\'       synonym=\"$db_synonym{'ASM465v1'      }\">$db_fullname{'ASM465v1'      }</option>
 	<option value=\'ASM9206v1\'      synonym=\"$db_synonym{'ASM9206v1'     }\">$db_fullname{'ASM9206v1'     }</option>
 	<option value=\'ASM242v1\'       synonym=\"$db_synonym{'ASM242v1'      }\">$db_fullname{'ASM242v1'      }</option>
+	<option value=\'Ptrichocarpa_v3.0\' synonym=\"$db_synonym{'Ptrichocarpa_v3.0'}\">$db_fullname{'Ptrichocarpa_v3.0'}</option>
 	<option value=\'Poptr_JGI2.0\'   synonym=\"$db_synonym{'Poptr_JGI2.0'  }\">$db_fullname{'Poptr_JGI2.0'  }</option>
 	<option value=\'Prupe1_0\'       synonym=\"$db_synonym{'Prupe1_0'      }\">$db_fullname{'Prupe1_0'      }</option>
 	<option value=\'Selml_v1.0\'     synonym=\"$db_synonym{'Selml_v1.0'    }\">$db_fullname{'Selml_v1.0'    }</option>
@@ -1676,11 +1694,17 @@ my $select = <<"--EOS--" ;
 
 	<option value=\'macaque_CE_1\' synonym=\"$db_synonym{'macaque_CE_1'}\">$db_fullname{'macaque_CE_1'}</option>
 	<option value=\'bmor1\'   synonym=\"$db_synonym{'bmor1'  }\">$db_fullname{'bmor1'  }</option>
+	<option value=\'h7\'           synonym=\"$db_synonym{'h7'          }\">$db_fullname{'h7'          }</option>
+	<option value=\'Hydra_RP_1.0\' synonym=\"$db_synonym{'Hydra_RP_1.0'}\">$db_fullname{'Hydra_RP_1.0'}</option>
 	<option value=\'pombe\'   synonym=\"$db_synonym{'pombe'  }\">$db_fullname{'pombe'  }</option>
 
 	<option value=\'TAIR10\'  synonym=\"$db_synonym{'TAIR10' }\">$db_fullname{'TAIR10' }</option>
 	<option value=\'rice\'    synonym=\"$db_synonym{'rice'   }\">$db_fullname{'rice'   }</option>
 	<option value=\'sorBic\'  synonym=\"$db_synonym{'sorBic' }\">$db_fullname{'sorBic' }</option>
+	<option value=\'lotus_r3.0\'               synonym=\"$db_synonym{'lotus_r3.0'              }\">$db_fullname{'lotus_r3.0'              }</option>
+	<option value=\'Niben_v1.0.1\'             synonym=\"$db_synonym{'Niben_v1.0.1'            }\">$db_fullname{'Niben_v1.0.1'            }</option>
+	<option value=\'adzuki_ver3\'              synonym=\"$db_synonym{'adzuki_ver3'             }\">$db_fullname{'adzuki_ver3'             }</option>
+	<option value=\'RSA_r1.0\'                 synonym=\"$db_synonym{'RSA_r1.0'                }\">$db_fullname{'RSA_r1.0'                }</option>
 	<option value=\'Ppatens_251_v3\'           synonym=\"$db_synonym{'Ppatens_251_v3'          }\">$db_fullname{'Ppatens_251_v3'          }</option>
 	<option value=\'Smoellendorffii_91_v1\'    synonym=\"$db_synonym{'Smoellendorffii_91_v1'   }\">$db_fullname{'Smoellendorffii_91_v1'   }</option>
 	<option value=\'Creinhardtii_281_v5_5\'    synonym=\"$db_synonym{'Creinhardtii_281_v5_5'   }\">$db_fullname{'Creinhardtii_281_v5_5'   }</option>

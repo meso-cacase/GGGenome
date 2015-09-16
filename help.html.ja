@@ -224,14 +224,18 @@ function set_strand(){
 	<option value='gasAcu1' synonym="Gasterosteus aculeatus">Stickleback genome, Broad/gasAcu1 (Feb, 2006)</option>
 	<option value='tetNig2' synonym="Tetraodon nigroviridis">Tetraodon genome, Genoscope 8.0/tetNig2 (Mar, 2007)</option>
 	<option value='melGal1' synonym="Meleagris gallopavo">Turkey genome, TGC Turkey_2.01/melGal1 (Dec, 2009)</option>
+	<option value='Xenla9'  synonym="Xenopus laevis;african clawed frog">Xenopus laevis genome, XenBase/JGI 9.1</option>
 	<option value='Xenla7'  synonym="Xenopus laevis;african clawed frog">Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)</option>
+	<option value='Xentr9'  synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 9.0</option>
 	<option value='Xentr8'  synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 8.0</option>
 	<option value='Xentr7'  synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 7.1</option>
 	<option value='xenTro3' synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)</option>
 	<option value='taeGut2' synonym="Taeniopygia guttata">Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)</option>
 	<option value='danRer7' synonym="Danio rerio">Zebrafish genome, Zv9/danRer7 (Jul, 2010)</option>
+	<option value='KH'      synonym="Ciona intestinalis;transparent sea squirt">Ciona intestinalis genome, KH (Jul, 2008)</option>
 	<option value='ci2'     synonym="Ciona intestinalis;transparent sea squirt">Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)</option>
 	<option value='braFlo1' synonym="Branchiostoma floridae">Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)</option>
+	<option value='Spur_v3.1' synonym="Strongylocentrotus purpuratus;purple sea urchin">S. purpuratus genome, Spur_v3.1 (Jun, 2011)</option>
 	<option value='strPur2' synonym="Strongylocentrotus purpuratus;purple sea urchin">S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)</option>
 	<option value='anoGam1' synonym="Anopheles gambiae;african malaria mosquito">A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)</option>
 	<option value='apiMel2' synonym="Apis mellifera;honeybee">A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)</option>
@@ -312,6 +316,7 @@ function set_strand(){
 	<option value='Bradi_v1.0'     synonym="Brachypodium distachyon;purple false brome">Brachypodium distachyon genome, v1.0 (Jan, 2009)</option>
 	<option value='Braol_v2.1'     synonym="Brassica oleracea;wild cabbage">Brassica oleracea genome, v2.1</option>
 	<option value='IVFCAASv1'      synonym="Brassica rapa;chinese cabbage">Brassica rapa genome, IVFCAASv1 (Aug, 2009)</option>
+	<option value='Brana_v4.1'     synonym="Brassica napus">Brassica napus genome, Genoscope v4.1 (Aug, 2014)</option>
 	<option value='Chlre_v3.1'     synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)</option>
 	<option value='ASM9120v1'      synonym="Cyanidioschyzon merolae;red alga">Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)</option>
 	<option value='Soybn_V1.0'     synonym="Glycine max;soybean">Glycine max genome, V1.0 (Jan, 2010)</option>
@@ -331,6 +336,7 @@ function set_strand(){
 	<option value='ASM465v1'       synonym="Oryza sativa Indica;rice">Oryza sativa Indica genome, ASM465v1 (Jan, 2005)</option>
 	<option value='ASM9206v1'      synonym="Ostreococcus lucimarinus">Ostreococcus lucimarinus genome, ASM9206v1 (Jan, 2011)</option>
 	<option value='ASM242v1'       synonym="Physcomitrella patens;moss">Physcomitrella patens genome, ASM242v1 (Jul, 2006)</option>
+	<option value='Ptrichocarpa_v3.0' synonym="Populus trichocarpa;western balsam poplar">Populus trichocarpa genome, v3.0</option>
 	<option value='Poptr_JGI2.0'   synonym="Populus trichocarpa;western balsam poplar">Populus trichocarpa genome, JGI2.0 (Jan, 2010)</option>
 	<option value='Prupe1_0'       synonym="Prunus persica;peach">Prunus persica genome, Prupe1_0 (Mar, 2013)</option>
 	<option value='Selml_v1.0'     synonym="Selaginella moellendorffii;spikemoss">Selaginella moellendorffii genome, v1.0 (May, 2011)</option>
@@ -346,11 +352,17 @@ function set_strand(){
 
 	<option value='macaque_CE_1' synonym="Macaca fascicularis">Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
 	<option value='bmor1'   synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
+	<option value='h7'           synonym="Hydra vulgaris">Hydra genome, h7 (Aug, 2008)</option>
+	<option value='Hydra_RP_1.0' synonym="Hydra vulgaris">Hydra genome, Hydra_RP_1.0 (Oct, 2009)</option>
 	<option value='pombe'   synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 
 	<option value='TAIR10'  synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
 	<option value='rice'    synonym="Oryza sativa">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
 	<option value='sorBic'  synonym="Sorghum bicolor">Sorghum genome, Sorghum bicolor v2.1 (May, 2013)</option>
+	<option value='lotus_r3.0'               synonym="Lotus japonicus;japanese trefoil">Lotus japonicus genome, build 3.0 (Aug, 2015)</option>
+	<option value='Niben_v1.0.1'             synonym="Nicotiana benthamiana;tobacco">Nicotiana benthamiana genome, v1.0.1 (Jul, 2014)</option>
+	<option value='adzuki_ver3'              synonym="Vigna angularis;adzuki bean">Vigna angularis genome, ver3 (Nov, 2011)</option>
+	<option value='RSA_r1.0'                 synonym="Raphanus sativus;radish">Raphanus sativus genome, RSA_r1.0 (May, 2014)</option>
 	<option value='Ppatens_251_v3'           synonym="Physcomitrella patens;moss">Physcomitrella patens genome, v3.0 (Oct, 2007)</option>
 	<option value='Smoellendorffii_91_v1'    synonym="Selaginella moellendorffii;spikemoss">Selaginella moellendorffii genome, v1.0 (Dec, 2007)</option>
 	<option value='Creinhardtii_281_v5_5'    synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v5.5 (May, 2014)</option>
@@ -2618,6 +2630,26 @@ set_strand() ;
 		-->v2.0</a>
 </tr>
 <tr>
+	<td><a href='/Ptrichocarpa_v3.0/'>Ptrichocarpa_v3.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Western balsam poplar
+	<td>ポプラ, コットンウッド
+	<td>Populus trichocarpa
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Ptrichocarpa'><!--
+		-->v3.0</a>
+</tr>
+<tr>
+	<td><a href='/Xenla9/'>Xenla9</a>
+	<td>Xenbase
+	<td>Vertebrate
+	<td>African clawed frog
+	<td>アフリカツメガエル
+	<td>Xenopus laevis
+	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla9.1/'><!--
+		-->XenBase/JGI 9.1</a>
+</tr>
+<tr>
 	<td><a href='/Xenla7/'>Xenla7</a>
 	<td>Xenbase
 	<td>Vertebrate
@@ -2628,14 +2660,14 @@ set_strand() ;
 		-->JGI 7.1/Xenla7 (Dec, 2013)</a>
 </tr>
 <tr>
-	<td><a href='/Xentr7/'>Xentr7</a>
+	<td><a href='/Xentr9/'>Xentr9</a>
 	<td>Xenbase
 	<td>Vertebrate
 	<td>Western clawed frog
 	<td>ネッタイツメガエル
 	<td>Xenopus tropicalis
-	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr7.1/'><!--
-		-->XenBase/JGI 7.1</a>
+	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr9.0/'><!--
+		-->XenBase/JGI 9.0</a>
 </tr>
 <tr>
 	<td><a href='/Xentr8/'>Xentr8</a>
@@ -2646,6 +2678,16 @@ set_strand() ;
 	<td>Xenopus tropicalis
 	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr8.0/'><!--
 		-->XenBase/JGI 8.0</a>
+</tr>
+<tr>
+	<td><a href='/Xentr7/'>Xentr7</a>
+	<td>Xenbase
+	<td>Vertebrate
+	<td>Western clawed frog
+	<td>ネッタイツメガエル
+	<td>Xenopus tropicalis
+	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr7.1/'><!--
+		-->XenBase/JGI 7.1</a>
 </tr>
 <tr>
 	<td><a href='/TAIR10/'>TAIR10</a>
@@ -2678,6 +2720,56 @@ set_strand() ;
 		-->v2.1 (May, 2013)</a>
 </tr>
 <tr>
+	<td><a href='/Brana_v4.1/'>Brana_v4.1</a>
+	<td>Genoscope
+	<td>Plant
+	<td>Rapeseed
+	<td>セイヨウアブラナ
+	<td>Brassica napus
+	<td><a target='_blank' href='http://www.genoscope.cns.fr/brassicanapus/data/'><!--
+		-->Genoscope v4.1 (Aug, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/lotus_r3.0/'>lotus_r3.0</a>
+	<td>Kazusa
+	<td>Plant
+	<td>Japanese trefoil
+	<td>ミヤコグサ
+	<td>Lotus japonicus
+	<td><a target='_blank' href='ftp://ftp.kazusa.or.jp/pub/lotus/lotus_r3.0/'><!--
+		-->build 3.0 (Aug, 2015)</a>
+</tr>
+<tr>
+	<td><a href='/Niben_v1.0.1/'>Niben_v1.0.1</a>
+	<td>
+	<td>Plant
+	<td>Tobacco
+	<td>ベンサミアナタバコ
+	<td>Nicotiana benthamiana
+	<td><a target='_blank' href='ftp://ftp.solgenomics.net/genomes/Nicotiana_benthamiana/assemblies/Niben.genome.v1.0.1.scaffolds.nrcontigs.fasta.gz'><!--
+		-->v1.0.1 (Jul, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/adzuki_ver3/'>adzuki_ver3</a>
+	<td>
+	<td>Plant
+	<td>Adzuki bean
+	<td>アズキ
+	<td>Vigna angularis
+	<td><a target='_blank' href='ftp://plantgenomics.snu.ac.kr/adzuki_ver3/adzuki.ver3.ref.fa.cor.fa.gz'><!--
+		-->ver3 (Nov, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/RSA_r1.0/'>RSA_r1.0</a>
+	<td>Kazusa
+	<td>Plant
+	<td>Radish
+	<td>ダイコン
+	<td>Raphanus sativus
+	<td><a target='_blank' href='ftp://ftp.kazusa.or.jp/pub/radish/'><!--
+		-->RSA_r1.0 (May, 2014)</a>
+</tr>
+<tr>
 	<td><a href='/bmor1/'>bmor1</a>
 	<td>Ensembl
 	<td>Insect
@@ -2706,6 +2798,46 @@ set_strand() ;
 	<td>Macaca fascicularis
 	<td><a target='_blank' href='http://macaque.genomics.org.cn/page/species/download.jsp'><!--
 		-->CE_1.0 (Jul, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/KH/'>KH</a>
+	<td>
+	<td>Deuterostome
+	<td>Transparent sea squirt
+	<td>カタユウレイボヤ
+	<td>Ciona intestinalis
+	<td><a target='_blank' href='http://ghost.zool.kyoto-u.ac.jp/download_kh.html'><!--
+		-->KH (Jul, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/Spur_v3.1/'>Spur_v3.1</a>
+	<td>SpBase
+	<td>Deuterostome
+	<td>Purple sea urchin
+	<td>ムラサキウニ
+	<td>Strongylocentrotus purpuratus
+	<td><a target='_blank' href='http://www.spbase.org/SpBase/download/'><!--
+		-->Spur_v3.1 (Jun, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/h7/'>h7</a>
+	<td>NCBI
+	<td>Metazoa
+	<td>Hydra
+	<td>ヒドラ
+	<td>Hydra vulgaris
+	<td><a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/invertebrate/Hydra_vulgaris/all_assembly_versions/GCA_000219015.1_h7'><!--
+		-->h7 (Aug, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/Hydra_RP_1.0/'>Hydra_RP_1.0</a>
+	<td>NCBI
+	<td>Metazoa
+	<td>Hydra
+	<td>ヒドラ
+	<td>Hydra vulgaris
+	<td><a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/invertebrate/Hydra_vulgaris/all_assembly_versions/GCA_000004095.1_Hydra_RP_1.0'><!--
+		-->Hydra_RP_1.0 (Oct, 2009)</a>
 </tr>
 </tbody>
 </table>
