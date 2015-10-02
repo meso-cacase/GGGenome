@@ -1405,11 +1405,11 @@ my $select = <<"--EOS--" ;
 	<option value=\'ddbj\'       synonym=\"$db_synonym{'ddbj'      }\">$db_fullname{'ddbj'      }</option>
 --EOS--
 
-$db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
-	$db_fullname{$db} and $select =                       # 種を追加
+$db and $select =~ s/(?<=option value=\'$db\')/ selected/ or  # 種を選択
+	$db_fullname{$db} and $select =                           # 種を追加
 		"	<option value=$db selected>$db_fullname{$db}</option>\n" .
 		"	<option disabled>----------</option>\n" . $select or
-	$select =~ s/(?<=option value=hg19)/ selected/ ;      # default: Human genome (hg19)
+	$select =~ s/(?<=option value=hg19)/ selected/ ;          # default: Human genome (hg19)
 #-- △ プルダウンメニュー
 
 #-- ▽ strand選択ボタン
@@ -1765,11 +1765,11 @@ my $select = <<"--EOS--" ;
 	<option value=\'ddbj\'       synonym=\"$db_synonym{'ddbj'      }\">$db_fullname{'ddbj'      }</option>
 --EOS--
 
-$db and $select =~ s/(?<=option value=$db)/ selected/ or  # 種を選択
-	$db_fullname{$db} and $select =                       # 種を追加
+$db and $select =~ s/(?<=option value=\'$db\')/ selected/ or  # 種を選択
+	$db_fullname{$db} and $select =                           # 種を追加
 		"	<option value=$db selected>$db_fullname{$db}</option>\n" .
 		"	<option disabled>----------</option>\n" . $select or
-	$select =~ s/(?<=option value=hg19)/ selected/ ;      # default: Human genome (hg19)
+	$select =~ s/(?<=option value=hg19)/ selected/ ;          # default: Human genome (hg19)
 #-- △ プルダウンメニュー
 
 #-- ▽ strand選択ボタン
