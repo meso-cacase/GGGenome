@@ -7,11 +7,8 @@
 #
 # 必要なモジュール：
 # HTML::Template
-# ./Approx.pm    (by Yuki Naito)
-# ./DBlist.pm    (by Yuki Naito)
-#   LWP::Simple  (Approx.pm内で使用)
-#   JSON::XS     (Approx.pm内で使用)
-# ./Align2seq.pm (by Yuki Naito)
+# LWP::Simple (Approx.pm内で使用)
+# JSON::XS    (Approx.pm内で使用)
 #
 # 2012-07-03 Yuki Naito (@meso_cacase) 実装開始
 # 2012-11-30 Yuki Naito (@meso_cacase) index.html と search.cgi とを統合
