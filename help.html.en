@@ -505,7 +505,7 @@ set_strand() ;
 	<ul>
 		<li><span style='color:#FF6600'>db</span>:
 			hg19, mm10, dm3, ce10, TAIR10, pombe, refseq, etc. (default: hg19)<br>
-			<a href='help.html#genomelist'>Full list of databases is available below.</a>
+			<a href='help.html#db_list'>Full list of databases is available below.</a>
 		<li><span style='color:#0000FF'>k</span>:
 			Maximum number of mismatches/gaps. (default: 0)
 		<li><span style='color:#9933FF'>strand</span>:
@@ -545,7 +545,7 @@ set_strand() ;
 </ul>
 </div>
 
-<a name=genomelist></a>
+<a name=db_list></a>
 
 <h4>List of databases (Genome)</h4>
 
@@ -2918,7 +2918,7 @@ set_strand() ;
 		<a target='_blank' href='http://phytozome.jgi.doe.gov/'>Phytozome</a>.
 	<li>2015-09-07 Database updated to RefSeq rel. 72 (Sep, 2015).
 	<li>2015-07-22 100+ genome databases are added -
-		<a href='help.html#genomelist'>List of databases</a>
+		<a href='help.html#db_list'>List of databases</a>
 	<li>2015-07-22 Re-installed RefSeq rel. 71 (Jul, 2015).
 	<li>2015-07-16 Suspended RefSeq rel. 71 due to a data error.
 	<li>2015-07-15 Database updated to RefSeq rel. 71 (Jul, 2015).
