@@ -25,3 +25,8 @@
 h4 {
 	font-size: 14px;
 }
+.search {
+	background: url(glass.png) no-repeat 100% center;
+	background-size: 16px 16px;
+	padding: 1px 18px 2px 3px;
+}
