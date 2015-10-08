@@ -31,7 +31,7 @@ Ext.define('app', {
 
 	initStore : function(){
 		var self = this;
-		var datas = Ext.query('select#db>option').map(function(dom){
+		var datas = Ext.query('form[name='+self.getAppName().toLowerCase()+'] select[name=db]>option').map(function(dom){
 			var el = Ext.get(dom);
 			var synonym = (el.getAttribute('synonym') || '');
 			return {
@@ -46,6 +46,7 @@ Ext.define('app', {
 			storeId: self.makeId('store','dblist'),
 			data : datas
 		});
+
 
 		var genes = Ext.query('div.gene').map(function(dom){
 			var el = Ext.get(dom);
@@ -80,9 +81,12 @@ Ext.define('app', {
 
 	initUI : function(){
 		var self = this;
-		var db_element = Ext.get('db').hide();
+		var db_element;
+		try{db_element = Ext.get(Ext.query('form[name='+self.getAppName().toLowerCase()+'] select[name=db]')[0]);}catch(e){}
+		if(Ext.isEmpty(db_element)) return;
+		db_element.hide();
 		var dblist_render_html = Ext.DomHelper.createDom({tag:'div',cls:'dblist-render'});
-		var dblist_render = Ext.get(dblist_render_html).insertAfter(db_element);
+		var dblist_render = Ext.get(dblist_render_html)
 
 		self._dblistComboBox = Ext.create('app.field.dblist', {
 			id: self.makeId('ComboBox','dblist'),
@@ -109,7 +113,9 @@ Ext.define('app', {
 			})
 		});
 		if(self._dblistComboBox.queryFilter) self._dblistComboBox.store.addFilter(self._dblistComboBox.queryFilter, false);
-		db_element.remove();
+
+		dblist_render.replace(db_element);
+
 
 		var data_exports = Ext.query('h4#data_export');
 		if(!Ext.isEmpty(data_exports)){
@@ -221,4 +227,5 @@ Ext.define('app.field.dblist', {
 
 Ext.onReady(function(){
 	app.initApp();
+	Ext.getBody().setStyle({'visibility':'visible'});
 });
