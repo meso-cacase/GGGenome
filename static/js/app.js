@@ -6,7 +6,6 @@ Ext.define('app', {
 	},
 	constructor: function(config) {
 		this.initConfig(config);
-//		this.initApp();
 		return this;
 	},
 	warn : function(msg){
@@ -41,7 +40,6 @@ Ext.define('app', {
 				disabled: el.getAttribute('disabled') ? true : false
 			};
 		});
-//		console.log(datas);
 		self._dblistStore = Ext.create('app.store.dblist', {
 			storeId: self.makeId('store','dblist'),
 			data : datas
@@ -58,7 +56,6 @@ Ext.define('app', {
 			});
 			return rtn;
 		});
-//		console.log(genes);
 
 		var total_node = Ext.query('input[type=hidden][name=total]')[0];
 		var offset_node = Ext.query('input[type=hidden][name=offset]')[0];
@@ -85,9 +82,7 @@ Ext.define('app', {
 		try{db_element = Ext.get(Ext.query('form[name='+self.getAppName().toLowerCase()+'] select[name=db]')[0]);}catch(e){}
 		if(Ext.isEmpty(db_element)) return;
 		db_element.hide();
-		var dblist_render_html = Ext.DomHelper.createDom({tag:'div',cls:'dblist-render'});
-		var dblist_render = Ext.get(dblist_render_html)
-
+		var dblist_render = Ext.get(Ext.DomHelper.createDom({tag:'div',cls:'dblist-render'}))
 		self._dblistComboBox = Ext.create('app.field.dblist', {
 			id: self.makeId('ComboBox','dblist'),
 			hiddenLabel: true,
@@ -95,27 +90,12 @@ Ext.define('app', {
 			value: db_element.getValue(),
 			width: db_element.getWidth(),
 			listConfig: {
-				cls: 'dblist-boundlist'
+				cls: 'dblist-boundlist',
+				minWidth: db_element.getWidth()
 			},
-			renderTo: dblist_render,
-			queryFilter: new Ext.util.Filter({
-				filterFn: function(item) {
-					var value = (this.value||'').toLowerCase();
-					var idx = item.get('fullname').toLowerCase().indexOf(value);
-					if(idx<0){
-						Ext.each(item.get('synonym'),function(synonym){
-							idx = synonym.indexOf(value);
-							if(idx>=0) return false;
-						});
-					}
-					return idx>=0;
-				}
-			})
+			renderTo: dblist_render
 		});
-		if(self._dblistComboBox.queryFilter) self._dblistComboBox.store.addFilter(self._dblistComboBox.queryFilter, false);
-
 		dblist_render.replace(db_element);
-
 
 		var data_exports = Ext.query('h4#data_export');
 		if(!Ext.isEmpty(data_exports)){
@@ -226,7 +206,31 @@ Ext.define('app.field.dblist', {
 		var me = this;
 		if(record.data.disabled) return false;
 		return me.callParent(arguments);
-	}
+	},
+	afterRender: function() {
+		var me = this;
+		me.callParent();
+		me.inputEl.on('click',function(e, t, eOpts){
+			if(Ext.get(t).getWidth()-(e.getX()-Ext.get(t).getX())<16){
+				me.doQuery(Ext.get(t).getValue());
+				me.expand();
+			}
+		});
+		me.store.addFilter(me.queryFilter, false);
+	},
+	queryFilter: new Ext.util.Filter({
+		filterFn: function(item) {
+			var value = (this.value||'').toLowerCase();
+			var idx = item.get('fullname').toLowerCase().indexOf(value);
+			if(idx<0){
+				Ext.each(item.get('synonym'),function(synonym){
+					idx = synonym.indexOf(value);
+					if(idx>=0) return false;
+				});
+			}
+			return idx>=0;
+		}
+	})
 });
 
 Ext.onReady(function(){
