@@ -2843,6 +2843,8 @@ set_strand() ;
 </table>
 </div>
 
+<a name=db_list2></a>
+
 <h4>検索可能なデータベース一覧(ゲノム以外)</h4>
 
 <div>
