@@ -355,6 +355,7 @@ function set_strand(){
 	<option value='h7'           synonym="Hydra vulgaris">Hydra genome, h7 (Aug, 2008)</option>
 	<option value='Hydra_RP_1.0' synonym="Hydra vulgaris">Hydra genome, Hydra_RP_1.0 (Oct, 2009)</option>
 	<option value='pombe'   synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
+	<option value='MG8'     synonym="Magnaporthe oryzae;rice blast fungus">Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)</option>
 
 	<option value='TAIR10'  synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
 	<option value='rice'    synonym="Oryza sativa ssp. japonica;rice">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
@@ -2788,6 +2789,16 @@ set_strand() ;
 	<td>Schizosaccharomyces pombe
 	<td><a target='_blank' href='ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/'><!--
 		-->ASM294v2 (Nov, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/MG8/'>MG8</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>Rice blast fungus (70-15)
+	<td>イネいもち病菌
+	<td>Magnaporthe oryzae
+	<td><a target='_blank' href='http://fungi.ensembl.org/Magnaporthe_oryzae/'><!--
+		-->MG8 (Sep, 2011)</a>
 </tr>
 <tr>
 	<td><a href='/macaque_CE_1/'>macaque_CE_1</a>

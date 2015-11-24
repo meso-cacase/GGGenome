@@ -205,6 +205,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'h7\'           synonym=\"$db_synonym{'h7'          }\">$db_fullname{'h7'          }</option>
 	<option value=\'Hydra_RP_1.0\' synonym=\"$db_synonym{'Hydra_RP_1.0'}\">$db_fullname{'Hydra_RP_1.0'}</option>
 	<option value=\'pombe\'   synonym=\"$db_synonym{'pombe'  }\">$db_fullname{'pombe'  }</option>
+	<option value=\'MG8\'     synonym=\"$db_synonym{'MG8'    }\">$db_fullname{'MG8'    }</option>
 
 	<option value=\'TAIR10\'  synonym=\"$db_synonym{'TAIR10' }\">$db_fullname{'TAIR10' }</option>
 	<option value=\'rice\'    synonym=\"$db_synonym{'rice'   }\">$db_fullname{'rice'   }</option>
