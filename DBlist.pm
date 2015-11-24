@@ -170,7 +170,7 @@ Araly_v.1.0 	172.18.8.75	45033	EnsemblPlants	Arabidopsis lyrata genome, v.1.0 (D
 TAIR10_en   	172.18.8.75	45043	EnsemblPlants	Arabidopsis thaliana genome, TAIR10 (Sep, 2010)	Arabidopsis thaliana;thale cress
 Bradi_v1.0  	172.18.8.75	45053	EnsemblPlants	Brachypodium distachyon genome, v1.0 (Jan, 2009)	Brachypodium distachyon;purple false brome
 Braol_v2.1  	172.18.8.75	45063	EnsemblPlants	Brassica oleracea genome, v2.1	Brassica oleracea;wild cabbage
-IVFCAASv1   	172.18.8.75	45073	EnsemblPlants	Brassica rapa genome, IVFCAASv1 (Aug, 2009)	Brassica rapa;chinese cabbage
+IVFCAASv1   	172.18.8.75	45073	EnsemblPlants	Brassica rapa genome, IVFCAASv1 (Aug, 2009)	Brassica rapa ssp. pekinensis;chinese cabbage
 Chlre_v3.1  	172.18.8.75	45083	EnsemblPlants	Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)	Chlamydomonas reinhardtii;green algae
 ASM9120v1   	172.18.8.75	45093	EnsemblPlants	Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)	Cyanidioschyzon merolae;red alga
 Soybn_V1.0  	172.18.8.75	45103	EnsemblPlants	Glycine max genome, V1.0 (Jan, 2010)	Glycine max;soybean
@@ -187,7 +187,7 @@ Oryme_v1.3  	172.18.8.75	45203	EnsemblPlants	Oryza meridionalis genome, Oryza_me
 Oryni       	172.18.8.75	45213	EnsemblPlants	Oryza nivara genome, AWHD00000000 (Aug, 2013)	Oryza nivara;indian wild rice
 Orypu       	172.18.8.75	45223	EnsemblPlants	Oryza punctata genome, AVCL00000000 (Aug, 2013)	Oryza punctata;red rice
 PRJEB4137   	172.18.8.75	45233	EnsemblPlants	Oryza rufipogon genome, PRJEB4137 (Aug, 2013)	Oryza rufipogon;brownbeard rice
-ASM465v1    	172.18.8.75	45243	EnsemblPlants	Oryza sativa Indica genome, ASM465v1 (Jan, 2005)	Oryza sativa Indica;rice
+ASM465v1    	172.18.8.75	45243	EnsemblPlants	Oryza sativa Indica genome, ASM465v1 (Jan, 2005)	Oryza sativa ssp. indica;rice
 ASM9206v1   	172.18.8.75	45263	EnsemblPlants	Ostreococcus lucimarinus genome, ASM9206v1 (Jan, 2011)	Ostreococcus lucimarinus
 ASM242v1    	172.18.8.75	45273	EnsemblPlants	Physcomitrella patens genome, ASM242v1 (Jul, 2006)	Physcomitrella patens;moss
 Poptr_JGI2.0	172.18.8.75	45283	EnsemblPlants	Populus trichocarpa genome, JGI2.0 (Jan, 2010)	Populus trichocarpa;western balsam poplar
@@ -204,10 +204,10 @@ IGGP_12x    	172.18.8.75	45383	EnsemblPlants	Vitis vinifera genome, IGGP_12x (Ju
 AGPv3       	172.18.8.75	45393	EnsemblPlants	Zea mays genome, AGPv3 (Apr, 2013)	Zea mays;maize, Corn
 Xenla7   	172.18.8.70	42443	Xenbase	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)	Xenopus laevis;african clawed frog
 TAIR10   	172.18.8.70	42373	    	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)	Arabidopsis thaliana;thale cress
-rice     	172.18.8.70	42293	    	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)	Oryza sativa
+rice     	172.18.8.70	42293	    	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)	Oryza sativa ssp. japonica;rice
 sorBic   	172.18.8.70	42403	    	Sorghum genome, Sorghum bicolor v2.1 (May, 2013)	Sorghum bicolor
 bmor1    	172.18.8.70	42303	Ensembl	Silkworm genome, Bmor1 (Apr, 2008)	Bombyx mori
-pombe    	172.18.8.70	42453	Ensembl	S. pombe (972h-) genome, ASM294v2 (Nov, 2007)	Schizosaccharomyces pombe;fission yeast
+pombe    	172.18.8.70	42453	EnsemblFungi	S. pombe (972h-) genome, ASM294v2 (Nov, 2007)	Schizosaccharomyces pombe;fission yeast
 prok     	172.18.8.70	42323	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)	
 ddbj     	172.18.8.70	42313	DDBJ	DDBJ release 92.0 (Feb, 2013)	
 Xentr7               	172.18.8.77	43013	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 7.1	Xenopus tropicalis;western clawed frog

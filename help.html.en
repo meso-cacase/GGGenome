@@ -315,7 +315,7 @@ function set_strand(){
 	<option value='TAIR10_en'      synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Sep, 2010)</option>
 	<option value='Bradi_v1.0'     synonym="Brachypodium distachyon;purple false brome">Brachypodium distachyon genome, v1.0 (Jan, 2009)</option>
 	<option value='Braol_v2.1'     synonym="Brassica oleracea;wild cabbage">Brassica oleracea genome, v2.1</option>
-	<option value='IVFCAASv1'      synonym="Brassica rapa;chinese cabbage">Brassica rapa genome, IVFCAASv1 (Aug, 2009)</option>
+	<option value='IVFCAASv1'      synonym="Brassica rapa ssp. pekinensis;chinese cabbage">Brassica rapa genome, IVFCAASv1 (Aug, 2009)</option>
 	<option value='Brana_v4.1'     synonym="Brassica napus">Brassica napus genome, Genoscope v4.1 (Aug, 2014)</option>
 	<option value='Chlre_v3.1'     synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)</option>
 	<option value='ASM9120v1'      synonym="Cyanidioschyzon merolae;red alga">Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)</option>
@@ -333,7 +333,7 @@ function set_strand(){
 	<option value='Oryni'          synonym="Oryza nivara;indian wild rice">Oryza nivara genome, AWHD00000000 (Aug, 2013)</option>
 	<option value='Orypu'          synonym="Oryza punctata;red rice">Oryza punctata genome, AVCL00000000 (Aug, 2013)</option>
 	<option value='PRJEB4137'      synonym="Oryza rufipogon;brownbeard rice">Oryza rufipogon genome, PRJEB4137 (Aug, 2013)</option>
-	<option value='ASM465v1'       synonym="Oryza sativa Indica;rice">Oryza sativa Indica genome, ASM465v1 (Jan, 2005)</option>
+	<option value='ASM465v1'       synonym="Oryza sativa ssp. indica;rice">Oryza sativa Indica genome, ASM465v1 (Jan, 2005)</option>
 	<option value='ASM9206v1'      synonym="Ostreococcus lucimarinus">Ostreococcus lucimarinus genome, ASM9206v1 (Jan, 2011)</option>
 	<option value='ASM242v1'       synonym="Physcomitrella patens;moss">Physcomitrella patens genome, ASM242v1 (Jul, 2006)</option>
 	<option value='Ptrichocarpa_v3.0' synonym="Populus trichocarpa;western balsam poplar">Populus trichocarpa genome, v3.0</option>
@@ -357,7 +357,7 @@ function set_strand(){
 	<option value='pombe'   synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 
 	<option value='TAIR10'  synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
-	<option value='rice'    synonym="Oryza sativa">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
+	<option value='rice'    synonym="Oryza sativa ssp. japonica;rice">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
 	<option value='sorBic'  synonym="Sorghum bicolor">Sorghum genome, Sorghum bicolor v2.1 (May, 2013)</option>
 	<option value='lotus_r3.0'               synonym="Lotus japonicus;japanese trefoil">Lotus japonicus genome, build 3.0 (Aug, 2015)</option>
 	<option value='Niben_v1.0.1'             synonym="Nicotiana benthamiana;tobacco">Nicotiana benthamiana genome, v1.0.1 (Jul, 2014)</option>
@@ -1935,7 +1935,7 @@ set_strand() ;
 	<td>EnsemblPlants
 	<td>Plant
 	<td>Chinese cabbage
-	<td>Brassica rapa
+	<td>Brassica rapa ssp. pekinensis
 	<td><a target='_blank' href='http://plants.ensembl.org/Brassica_rapa/'><!--
 		-->IVFCAASv1 (Aug, 2009)</a>
 </tr>
@@ -2087,8 +2087,8 @@ set_strand() ;
 	<td><a href='/ASM465v1/'>ASM465v1</a>
 	<td>EnsemblPlants
 	<td>Plant
-	<td>Rice
-	<td>Oryza sativa Indica
+	<td>Rice (Indica)
+	<td>Oryza sativa ssp. indica
 	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_indica/'><!--
 		-->ASM465v1 (Jan, 2005)</a>
 </tr>
@@ -2481,10 +2481,10 @@ set_strand() ;
 </tr>
 <tr>
 	<td><a href='/rice/'>rice</a>
-	<td>
+	<td>RAP-DB
 	<td>Plant
-	<td>Rice
-	<td>Oryza sativa
+	<td>Rice (Japonica)
+	<td>Oryza sativa ssp. japonica
 	<td><a target='_blank' href='http://rapdb.dna.affrc.go.jp/download/irgsp1.html'><!--
 		-->Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</a>
 </tr>
@@ -2553,7 +2553,7 @@ set_strand() ;
 </tr>
 <tr>
 	<td><a href='/pombe/'>pombe</a>
-	<td>Ensembl
+	<td>EnsemblFungi
 	<td>Fungi
 	<td>Fission yeast (972h-)
 	<td>Schizosaccharomyces pombe
