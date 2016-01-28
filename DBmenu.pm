@@ -251,26 +251,26 @@ $dbmenu = <<"--EOS--" ;
 
 	<option disabled>--------------------</option>
 
-	<option value=\'ddbj102hum\' synonym=\"$db_synonym{'ddbj102hum'}\">$db_fullname{'ddbj102hum'}</option>
-	<option value=\'ddbj102pri\' synonym=\"$db_synonym{'ddbj102pri'}\">$db_fullname{'ddbj102pri'}</option>
-	<option value=\'ddbj102rod\' synonym=\"$db_synonym{'ddbj102rod'}\">$db_fullname{'ddbj102rod'}</option>
-	<option value=\'ddbj102mam\' synonym=\"$db_synonym{'ddbj102mam'}\">$db_fullname{'ddbj102mam'}</option>
-	<option value=\'ddbj102vrt\' synonym=\"$db_synonym{'ddbj102vrt'}\">$db_fullname{'ddbj102vrt'}</option>
-	<option value=\'ddbj102inv\' synonym=\"$db_synonym{'ddbj102inv'}\">$db_fullname{'ddbj102inv'}</option>
-	<option value=\'ddbj102pln\' synonym=\"$db_synonym{'ddbj102pln'}\">$db_fullname{'ddbj102pln'}</option>
-	<option value=\'ddbj102bct\' synonym=\"$db_synonym{'ddbj102bct'}\">$db_fullname{'ddbj102bct'}</option>
-	<option value=\'ddbj102vrl\' synonym=\"$db_synonym{'ddbj102vrl'}\">$db_fullname{'ddbj102vrl'}</option>
-	<option value=\'ddbj102phg\' synonym=\"$db_synonym{'ddbj102phg'}\">$db_fullname{'ddbj102phg'}</option>
-	<option value=\'ddbj102pat\' synonym=\"$db_synonym{'ddbj102pat'}\">$db_fullname{'ddbj102pat'}</option>
-	<option value=\'ddbj102env\' synonym=\"$db_synonym{'ddbj102env'}\">$db_fullname{'ddbj102env'}</option>
-	<option value=\'ddbj102syn\' synonym=\"$db_synonym{'ddbj102syn'}\">$db_fullname{'ddbj102syn'}</option>
-	<option value=\'ddbj102est\' synonym=\"$db_synonym{'ddbj102est'}\">$db_fullname{'ddbj102est'}</option>
-	<option value=\'ddbj102tsa\' synonym=\"$db_synonym{'ddbj102tsa'}\">$db_fullname{'ddbj102tsa'}</option>
-	<option value=\'ddbj102gss\' synonym=\"$db_synonym{'ddbj102gss'}\">$db_fullname{'ddbj102gss'}</option>
-	<option value=\'ddbj102htc\' synonym=\"$db_synonym{'ddbj102htc'}\">$db_fullname{'ddbj102htc'}</option>
-	<option value=\'ddbj102htg\' synonym=\"$db_synonym{'ddbj102htg'}\">$db_fullname{'ddbj102htg'}</option>
-	<option value=\'ddbj102sts\' synonym=\"$db_synonym{'ddbj102sts'}\">$db_fullname{'ddbj102sts'}</option>
-	<option value=\'ddbj102una\' synonym=\"$db_synonym{'ddbj102una'}\">$db_fullname{'ddbj102una'}</option>
+	<option value=\'ddbj103hum\' synonym=\"$db_synonym{'ddbj103hum'}\">$db_fullname{'ddbj103hum'}</option>
+	<option value=\'ddbj103pri\' synonym=\"$db_synonym{'ddbj103pri'}\">$db_fullname{'ddbj103pri'}</option>
+	<option value=\'ddbj103rod\' synonym=\"$db_synonym{'ddbj103rod'}\">$db_fullname{'ddbj103rod'}</option>
+	<option value=\'ddbj103mam\' synonym=\"$db_synonym{'ddbj103mam'}\">$db_fullname{'ddbj103mam'}</option>
+	<option value=\'ddbj103vrt\' synonym=\"$db_synonym{'ddbj103vrt'}\">$db_fullname{'ddbj103vrt'}</option>
+	<option value=\'ddbj103inv\' synonym=\"$db_synonym{'ddbj103inv'}\">$db_fullname{'ddbj103inv'}</option>
+	<option value=\'ddbj103pln\' synonym=\"$db_synonym{'ddbj103pln'}\">$db_fullname{'ddbj103pln'}</option>
+	<option value=\'ddbj103bct\' synonym=\"$db_synonym{'ddbj103bct'}\">$db_fullname{'ddbj103bct'}</option>
+	<option value=\'ddbj103vrl\' synonym=\"$db_synonym{'ddbj103vrl'}\">$db_fullname{'ddbj103vrl'}</option>
+	<option value=\'ddbj103phg\' synonym=\"$db_synonym{'ddbj103phg'}\">$db_fullname{'ddbj103phg'}</option>
+	<option value=\'ddbj103pat\' synonym=\"$db_synonym{'ddbj103pat'}\">$db_fullname{'ddbj103pat'}</option>
+	<option value=\'ddbj103env\' synonym=\"$db_synonym{'ddbj103env'}\">$db_fullname{'ddbj103env'}</option>
+	<option value=\'ddbj103syn\' synonym=\"$db_synonym{'ddbj103syn'}\">$db_fullname{'ddbj103syn'}</option>
+	<option value=\'ddbj103est\' synonym=\"$db_synonym{'ddbj103est'}\">$db_fullname{'ddbj103est'}</option>
+	<option value=\'ddbj103tsa\' synonym=\"$db_synonym{'ddbj103tsa'}\">$db_fullname{'ddbj103tsa'}</option>
+	<option value=\'ddbj103gss\' synonym=\"$db_synonym{'ddbj103gss'}\">$db_fullname{'ddbj103gss'}</option>
+	<option value=\'ddbj103htc\' synonym=\"$db_synonym{'ddbj103htc'}\">$db_fullname{'ddbj103htc'}</option>
+	<option value=\'ddbj103htg\' synonym=\"$db_synonym{'ddbj103htg'}\">$db_fullname{'ddbj103htg'}</option>
+	<option value=\'ddbj103sts\' synonym=\"$db_synonym{'ddbj103sts'}\">$db_fullname{'ddbj103sts'}</option>
+	<option value=\'ddbj103una\' synonym=\"$db_synonym{'ddbj103una'}\">$db_fullname{'ddbj103una'}</option>
 	<option value=\'ddbj\'       synonym=\"$db_synonym{'ddbj'      }\">$db_fullname{'ddbj'      }</option>
 --EOS--
 
