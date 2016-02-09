@@ -245,6 +245,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'hs_refseq70\' synonym=\"$db_synonym{'hs_refseq70'}\">$db_fullname{'hs_refseq70'}</option>
 	<option value=\'mm_refseq70\' synonym=\"$db_synonym{'mm_refseq70'}\">$db_fullname{'mm_refseq70'}</option>
 	<option value=\'rn_refseq70\' synonym=\"$db_synonym{'rn_refseq70'}\">$db_fullname{'rn_refseq70'}</option>
+	<option value=\'togogenome\'  synonym=\"$db_synonym{'togogenome' }\">$db_fullname{'togogenome' }</option>
 	<option value=\'prok\'        synonym=\"$db_synonym{'prok'       }\">$db_fullname{'prok'       }</option>
 	<option value=\'16SrRNA\'     synonym=\"$db_synonym{'16SrRNA'    }\">$db_fullname{'16SrRNA'    }</option>
 	<option value=\'macaque_CE_1_cds\' synonym=\"$db_synonym{'macaque_CE_1_cds'}\">$db_fullname{'macaque_CE_1_cds'}</option>

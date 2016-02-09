@@ -395,6 +395,7 @@ function set_strand(){
 	<option value='hs_refseq70' synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq70' synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='rn_refseq70' synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
+	<option value='togogenome'  synonym="">TogoGenome from RefSeq 70 (May, 2015)</option>
 	<option value='prok'        synonym="">Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
 	<option value='16SrRNA'     synonym="">DDBJ 16S rRNA of prokaryotes (Dec, 2014)</option>
 	<option value='macaque_CE_1_cds' synonym="Macaca fascicularis">Crab-eating macaque CDS, CE_1.0 (Jul, 2011)</option>
@@ -3159,6 +3160,24 @@ set_strand() ;
 	<td>
 	<td>
 	<td>DDBJ release 92.0 (Feb, 2013)
+</tr>
+<tr>
+	<td><a href='/togogenome/'>togogenome</a>
+	<td>DBCLS
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>TogoGenome from RefSeq 70 (May, 2015)<br>(alias of latest TogoGenome release)
+</tr>
+<tr>
+	<td><a href='/togogenome70/'>togogenome70</a>
+	<td>DBCLS
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>TogoGenome from RefSeq 70 (May, 2015)
 </tr>
 <tr>
 	<td><a href='/prok/'>prok</a>

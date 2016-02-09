@@ -919,10 +919,23 @@ sub parse_seqname_json {  # 配列名に含まれるtaxonomy ID等をJSONに展�
 my $json = $_[0] or return $_[0] ;
 if ($db eq 'prok' and $json->{name} =~ s/^(.*?)\s*\{(.*)\}/$1/){
 	foreach (split /,/, $2){
-		$_ =~ /taxonomy:\"(.*?)\"/   and $json->{taxonomy}   = $1 +0 ;  # 数値化
+		$_ =~ /taxonomy:\"(.*?)\"/   and $json->{taxonomy}   = $1 + 0 ;  # 数値化
 		$_ =~ /bioproject:\"(.*?)\"/ and $json->{bioproject} = $1 ;
 		$_ =~ /refseq:\"(.*?)\"/     and $json->{refseq}     = $1 ;
 	}
+} elsif ($db =~ /^togogenome/ and
+	$json->{name} =~ /(
+		(\"definition\":\"([^"]*)\") |
+		(\"taxonomy\"  :\"([^"]*)\") |
+		(\"bioproject\":\"([^"]*)\") |
+		(\"refseq\"    :\"([^"]*)\") |
+		(,\s*)
+	)+/x){
+	# $json->{definition} = $3 ;
+	$json->{name}       = $3 ;
+	$json->{taxonomy}   = $5 + 0 ;  # 数値化
+	$json->{bioproject} = $7 ;
+	$json->{refseq}     = $9 ;
 }
 return $json ;
 } ;
@@ -1012,6 +1025,18 @@ my $db      = $_[3] // '' ;
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$3>$1</a><br>\n\t" .
 	       "<span class=g>$2</span><br>" .
 	       "<font color='#0E774A'>$3</font>:$pos-$pos_end" :
+($db =~ /^togogenome/ and
+	$name =~ /(
+		(\"definition\":\"([^"]*)\") |
+		(\"taxonomy\"  :\"([^"]*)\") |
+		(\"bioproject\":\"([^"]*)\") |
+		(\"refseq\"    :\"([^"]*)\") |
+		(,\s*)
+	)+/x) ?
+	return "<a class=a target='_blank' href=" .
+	       "http://www.ncbi.nlm.nih.gov/nuccore/$9>$3</a><br>\n\t" .
+	       "<span class=g>taxonomy:\"$5\", bioproject:\"$7\", refseq:\"$9\"</span><br>" .
+	       "<font color='#0E774A'>$9</font>:$pos-$pos_end" :
 ($db =~ /^ddbj/ and $name =~ /^.*?\|(\S+)\s+(.*)$/) ?
 	return "<a class=a target='_blank' href=" .
 	       "http://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
