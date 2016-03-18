@@ -226,6 +226,7 @@ lotus_r3.0           	172.18.8.77	42583	Kazusa   	Lotus japonicus genome, build 
 Niben_v1.0.1         	172.18.8.77	42593	         	Nicotiana benthamiana genome, v1.0.1 (Jul, 2014)	Nicotiana benthamiana;tobacco
 adzuki_ver3          	172.18.8.77	42603	         	Vigna angularis genome, ver3 (Nov, 2011)	Vigna angularis;adzuki bean
 RSA_r1.0             	172.18.8.77	42613	Kazusa   	Raphanus sativus genome, RSA_r1.0 (May, 2014)	Raphanus sativus;radish
+MesAur1.0            	172.18.8.77	42623	         	Golden hamster genome, MesAur1.0 (Mar, 2013)	Mesocricetus auratus;golden hamster
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3          	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1   	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss

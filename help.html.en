@@ -351,6 +351,7 @@ function set_strand(){
 	<option value='AGPv3'          synonym="Zea mays;maize, Corn">Zea mays genome, AGPv3 (Apr, 2013)</option>
 
 	<option value='macaque_CE_1' synonym="Macaca fascicularis">Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
+	<option value='MesAur1.0'    synonym="Mesocricetus auratus;golden hamster">Golden hamster genome, MesAur1.0 (Mar, 2013)</option>
 	<option value='bmor1'   synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
 	<option value='h7'           synonym="Hydra vulgaris">Hydra genome, h7 (Aug, 2008)</option>
 	<option value='Hydra_RP_1.0' synonym="Hydra vulgaris">Hydra genome, Hydra_RP_1.0 (Oct, 2009)</option>
@@ -2579,6 +2580,15 @@ set_strand() ;
 	<td>Macaca fascicularis
 	<td><a target='_blank' href='http://macaque.genomics.org.cn/page/species/download.jsp'><!--
 		-->CE_1.0 (Jul, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/MesAur1.0/'>MesAur1.0</a>
+	<td>
+	<td>Mammal
+	<td>Golden hamster
+	<td>Mesocricetus auratus
+	<td><a target='_blank' href='http://www.ncbi.nlm.nih.gov/assembly/GCF_000349665.1/'><!--
+		-->MesAur1.0 (Mar, 2013)</a>
 </tr>
 <tr>
 	<td><a href='/KH/'>KH</a>
