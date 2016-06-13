@@ -352,16 +352,26 @@ function set_strand(){
 
 	<option value='macaque_CE_1' synonym="Macaca fascicularis">Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
 	<option value='MesAur1.0'    synonym="Mesocricetus auratus;golden hamster">Golden hamster genome, MesAur1.0 (Mar, 2013)</option>
-	<option value='bmor1'   synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
+	<option value='bmor1'        synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
 	<option value='h7'           synonym="Hydra vulgaris">Hydra genome, h7 (Aug, 2008)</option>
 	<option value='Hydra_RP_1.0' synonym="Hydra vulgaris">Hydra genome, Hydra_RP_1.0 (Oct, 2009)</option>
-	<option value='pombe'   synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
-	<option value='MG8'     synonym="Magnaporthe oryzae;rice blast fungus">Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)</option>
+	<option value='Tetth'        synonym="Tetrahymena thermophila">Tetrahymena thermophila genome (Jun, 2014)</option>
+	<option value='Tetbo'        synonym="Tetrahymena borealis">Tetrahymena borealis genome (Oct, 2012)</option>
+	<option value='Tetel'        synonym="Tetrahymena elliotti">Tetrahymena elliotti genome (Oct, 2012)</option>
+	<option value='Tetma'        synonym="Tetrahymena malaccensis">Tetrahymena malaccensis genome (Oct, 2012)</option>
+	<option value='pombe'        synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
+	<option value='MG8'          synonym="Magnaporthe oryzae;rice blast fungus">Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)</option>
+	<option value='ASM644v2'     synonym="Debaryomyces hansenii;marine yeast">Debaryomyces hansenii (CBS767) genome, ASM644v2 (Feb, 2015)</option>
+	<option value='ASM251v1'     synonym="Kluyveromyces lactis;kluyveromyces yeast">Kluyveromyces lactis genome, ASM251v1 (Feb, 2015)</option>
+	<option value='ASM252v1'     synonym="Yarrowia lipolytica;oleaginous yeast">Yarrowia lipolytica genome, ASM252v1 (May, 2012)</option>
+	<option value='RR'           synonym="Fusarium graminearum;Gibberella zeae;wheat head blight fungus">Fusarium graminearum genome, RR (Nov, 2014)</option>
+	<option value='RHOziaDV1.0'  synonym="Rhodotorula toruloides;oleaginous yeast">Rhodotorula toruloides (NP11) genome, RHOziaDV1.0 (Apr, 2013)</option>
 
 	<option value='TAIR10'  synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
 	<option value='rice'    synonym="Oryza sativa ssp. japonica;rice">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
 	<option value='sorBic'  synonym="Sorghum bicolor">Sorghum genome, Sorghum bicolor v2.1 (May, 2013)</option>
 	<option value='lotus_r3.0'               synonym="Lotus japonicus;japanese trefoil">Lotus japonicus genome, build 3.0 (Aug, 2015)</option>
+	<option value='BX'                       synonym="Nicotiana tabacum;tobacco">Nicotiana tabacum (BX) genome, Ntab-BX (2014)</option>
 	<option value='Niben_v1.0.1'             synonym="Nicotiana benthamiana;tobacco">Nicotiana benthamiana genome, v1.0.1 (Jul, 2014)</option>
 	<option value='adzuki_ver3'              synonym="Vigna angularis;adzuki bean">Vigna angularis genome, ver3 (Nov, 2011)</option>
 	<option value='RSA_r1.0'                 synonym="Raphanus sativus;radish">Raphanus sativus genome, RSA_r1.0 (May, 2014)</option>
@@ -2743,6 +2753,16 @@ set_strand() ;
 		-->build 3.0 (Aug, 2015)</a>
 </tr>
 <tr>
+	<td><a href='/BX/'>BX</a>
+	<td>
+	<td>Plant
+	<td>Tobacco (BX)
+	<td>タバコ
+	<td>Nicotiana tabacum
+	<td><a target='_blank' href='ftp://ftp.solgenomics.net/genomes/Nicotiana_tabacum/assembly/Ntab-BX_AWOK-SS.fa.gz'><!--
+		-->Ntab-BX (2014)</a>
+</tr>
+<tr>
 	<td><a href='/Niben_v1.0.1/'>Niben_v1.0.1</a>
 	<td>
 	<td>Plant
@@ -2803,6 +2823,56 @@ set_strand() ;
 		-->MG8 (Sep, 2011)</a>
 </tr>
 <tr>
+	<td><a href='/ASM644v2/'>ASM644v2</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>Marine yeast (CBS767)
+	<td>耐塩性酵母
+	<td>Debaryomyces hansenii
+	<td><a target='_blank' href='http://fungi.ensembl.org/Debaryomyces_hansenii_cbs767/'><!--
+		-->ASM644v2 (Feb, 2015)</a>
+</tr>
+<tr>
+	<td><a href='/ASM251v1/'>ASM251v1</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>Kluyveromyces yeast
+	<td>Kluyveromyces酵母
+	<td>Kluyveromyces lactis
+	<td><a target='_blank' href='http://fungi.ensembl.org/Kluyveromyces_lactis/'><!--
+		-->ASM251v1 (Feb, 2015)</a>
+</tr>
+<tr>
+	<td><a href='/ASM252v1/'>ASM252v1</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>Oleaginous yeast
+	<td>アルカン資化性酵母
+	<td>Yarrowia lipolytica
+	<td><a target='_blank' href='http://fungi.ensembl.org/Yarrowia_lipolytica/'><!--
+		-->ASM252v1 (May, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/RR/'>RR</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>Wheat head blight fungus
+	<td>フザリウム菌
+	<td>Fusarium graminearum (Gibberella zeae)
+	<td><a target='_blank' href='http://fungi.ensembl.org/Fusarium_graminearum/'><!--
+		-->RR (Nov, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/RHOziaDV1.0/'>RHOziaDV1.0</a>
+	<td>NCBI
+	<td>Fungi
+	<td>Oleaginous yeast
+	<td>Rhodotorula酵母
+	<td>Rhodotorula toruloides
+	<td><a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000320785.1_RHOziaDV1.0/GCF_000320785.1_RHOziaDV1.0_genomic.fna.gz'><!--
+		-->RHOziaDV1.0 (Apr, 2013)</a>
+</tr>
+<tr>
 	<td><a href='/macaque_CE_1/'>macaque_CE_1</a>
 	<td>
 	<td>Mammal
@@ -2861,6 +2931,46 @@ set_strand() ;
 	<td>Hydra vulgaris
 	<td><a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/invertebrate/Hydra_vulgaris/all_assembly_versions/GCA_000004095.1_Hydra_RP_1.0'><!--
 		-->Hydra_RP_1.0 (Oct, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/Tetth/'>Tetth</a>
+	<td>TGD
+	<td>Ciliophora
+	<td>T. thermophila
+	<td>テトラヒメナ
+	<td>Tetrahymena thermophila
+	<td><a target='_blank' href='http://www.ciliate.org/system/downloads/T_thermophila_June2014_assembly.fasta'><!--
+		-->Tetrahymena thermophila (Jun, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/Tetbo/'>Tetbo</a>
+	<td>TGD
+	<td>Ciliophora
+	<td>T. borealis
+	<td>テトラヒメナ
+	<td>Tetrahymena borealis
+	<td><a target='_blank' href='http://www.ciliate.org/system/downloads/T_borealis_oct2012_supercontigs.fasta'><!--
+		-->Tetrahymena borealis (Oct, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/Tetel/'>Tetel</a>
+	<td>TGD
+	<td>Ciliophora
+	<td>T. elliotti
+	<td>テトラヒメナ
+	<td>Tetrahymena elliotti
+	<td><a target='_blank' href='http://www.ciliate.org/system/downloads/T_elliotti_oct2012_supercontigs.fasta'><!--
+		-->Tetrahymena elliotti (Oct, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/Tetma/'>Tetma</a>
+	<td>TGD
+	<td>Ciliophora
+	<td>T. malaccensis
+	<td>テトラヒメナ
+	<td>Tetrahymena malaccensis
+	<td><a target='_blank' href='http://www.ciliate.org/system/downloads/T_malaccensis_oct2012_supercontigs.fasta'><!--
+		-->Tetrahymena malaccensis (Oct, 2012)</a>
 </tr>
 </tbody>
 </table>
@@ -3222,6 +3332,8 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2016-06-13 10種のゲノムを追加 -
+		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
 	<li>2016-05-26 RefSeq rel. 76 (May, 2016) に更新。
 	<li>2016-04-27 DDBJ rel. 104.0 (Mar, 2016) に更新。
 	<li>2016-03-18 RefSeq rel. 75 (Mar, 2016) に更新。
@@ -3289,7 +3401,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on May 26, 2016 by
+<p class=g>Last modified on Jun 13, 2016 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a

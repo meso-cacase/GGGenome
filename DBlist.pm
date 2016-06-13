@@ -227,6 +227,16 @@ Niben_v1.0.1         	172.18.8.77	42593	         	Nicotiana benthamiana genome, 
 adzuki_ver3          	172.18.8.77	42603	         	Vigna angularis genome, ver3 (Nov, 2011)	Vigna angularis;adzuki bean
 RSA_r1.0             	172.18.8.77	42613	Kazusa   	Raphanus sativus genome, RSA_r1.0 (May, 2014)	Raphanus sativus;radish
 MesAur1.0            	172.18.8.77	42623	         	Golden hamster genome, MesAur1.0 (Mar, 2013)	Mesocricetus auratus;golden hamster
+ASM644v2             	172.18.8.76	42633	EnsemblFungi	Debaryomyces hansenii (CBS767) genome, ASM644v2 (Feb, 2015)	Debaryomyces hansenii;marine yeast
+ASM251v1             	172.18.8.76	42643	EnsemblFungi	Kluyveromyces lactis genome, ASM251v1 (Feb, 2015)	Kluyveromyces lactis;kluyveromyces yeast
+ASM252v1             	172.18.8.76	42653	EnsemblFungi	Yarrowia lipolytica genome, ASM252v1 (May, 2012)	Yarrowia lipolytica;oleaginous yeast
+RR                   	172.18.8.76	42663	EnsemblFungi	Fusarium graminearum genome, RR (Nov, 2014)	Fusarium graminearum;Gibberella zeae;wheat head blight fungus
+BX                   	172.18.8.76	42673	         	Nicotiana tabacum (BX) genome, Ntab-BX (2014)	Nicotiana tabacum;tobacco
+RHOziaDV1.0          	172.18.8.76	42683	NCBI     	Rhodotorula toruloides (NP11) genome, RHOziaDV1.0 (Apr, 2013)	Rhodotorula toruloides;oleaginous yeast
+Tetth                	172.18.8.76	42693	TGD      	Tetrahymena thermophila genome (Jun, 2014)	Tetrahymena thermophila
+Tetbo                	172.18.8.76	42703	TGD      	Tetrahymena borealis genome (Oct, 2012)	Tetrahymena borealis
+Tetel                	172.18.8.76	42713	TGD      	Tetrahymena elliotti genome (Oct, 2012)	Tetrahymena elliotti
+Tetma                	172.18.8.76	42723	TGD      	Tetrahymena malaccensis genome (Oct, 2012)	Tetrahymena malaccensis
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3          	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1   	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss
