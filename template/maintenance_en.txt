@@ -1,4 +1,0 @@
-NOTICE:
-<ul>
-	<li>Server maintenance: 21 Jun 2016, 11:00 to 14:00 (JST). Sorry for the inconvenience.
-</ul>
