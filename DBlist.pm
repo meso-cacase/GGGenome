@@ -292,8 +292,8 @@ ddbj104rod           	172.18.8.71	64043	DDBJ     	DDBJ release 104.0, ROD divisi
 ddbj104mam           	172.18.8.71	64053	DDBJ     	DDBJ release 104.0, MAM division (Mar, 2016)	ddbjmam
 ddbj104vrt           	172.18.8.71	64063	DDBJ     	DDBJ release 104.0, VRT division (Mar, 2016)	ddbjvrt
 ddbj104inv           	172.18.8.71	64073	DDBJ     	DDBJ release 104.0, INV division (Mar, 2016)	ddbjinv
-ddbj104pln           	172.18.8.71	64083	DDBJ     	DDBJ release 104.0, PLN division (Mar, 2016)	ddbjpln
-ddbj104bct           	172.18.8.71	64093	DDBJ     	DDBJ release 104.0, BCT division (Mar, 2016)	ddbjbct
+ddbj104pln           	172.18.8.72	64083	DDBJ     	DDBJ release 104.0, PLN division (Mar, 2016)	ddbjpln
+ddbj104bct           	172.18.8.72	64093	DDBJ     	DDBJ release 104.0, BCT division (Mar, 2016)	ddbjbct
 ddbj104vrl           	172.18.8.71	64103	DDBJ     	DDBJ release 104.0, VRL division (Mar, 2016)	ddbjvrl
 ddbj104phg           	172.18.8.71	64113	DDBJ     	DDBJ release 104.0, PHG division (Mar, 2016)	ddbjphg
 ddbj104pat           	172.18.8.72	64123	DDBJ     	DDBJ release 104.0, PAT division (Mar, 2016)	ddbjpat
