@@ -262,7 +262,6 @@ Spolyrhiza_v1           	172.18.8.74	47333	Phytozome	Spirodela polyrhiza genome,
 Vcarteri_v2             	172.18.8.74	47343	Phytozome	Volvox carteri genome, v2.0	Volvox carteri;green alga
 Ptrichocarpa_v3.0       	172.18.8.74	47353	Phytozome	Populus trichocarpa genome, v3.0	Populus trichocarpa;western balsam poplar
 refseq70             	172.18.8.74	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
-refseq75             	172.18.8.74	60053	RefSeq   	RefSeq complete RNA release 75 (Mar, 2016)	
 refseq76             	172.18.8.74	60063	RefSeq   	RefSeq complete RNA release 76 (May, 2016)	
 refseq77             	172.18.8.74	60073	RefSeq   	RefSeq complete RNA release 77 (Jul, 2016)	
 refseq               	172.18.8.74	60073	RefSeq   	RefSeq complete RNA release 77 (Jul, 2016)	
