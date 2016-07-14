@@ -286,26 +286,26 @@ rnnm_refseq70        	172.18.8.75	50173	RefSeq   	RefSeq rat RNA (NM/NR) release
 rnxm_refseq70        	172.18.8.75	50183	RefSeq   	RefSeq rat RNA (XM/XR) release 70 (May, 2015)	Rattus norvegicus
 togogenome74         	172.18.8.70	60243	         	TogoGenome from RefSeq 74 (Jan, 2016)	
 togogenome           	172.18.8.70	60243	         	TogoGenome from RefSeq 74 (Jan, 2016)	
-ddbj104hum           	172.18.8.71	64023	DDBJ     	DDBJ release 104.0, HUM division (Mar, 2016)	ddbjhum
-ddbj104pri           	172.18.8.71	64033	DDBJ     	DDBJ release 104.0, PRI division (Mar, 2016)	ddbjpri
-ddbj104rod           	172.18.8.71	64043	DDBJ     	DDBJ release 104.0, ROD division (Mar, 2016)	ddbjrod
-ddbj104mam           	172.18.8.71	64053	DDBJ     	DDBJ release 104.0, MAM division (Mar, 2016)	ddbjmam
-ddbj104vrt           	172.18.8.71	64063	DDBJ     	DDBJ release 104.0, VRT division (Mar, 2016)	ddbjvrt
-ddbj104inv           	172.18.8.71	64073	DDBJ     	DDBJ release 104.0, INV division (Mar, 2016)	ddbjinv
-ddbj104pln           	172.18.8.72	64083	DDBJ     	DDBJ release 104.0, PLN division (Mar, 2016)	ddbjpln
-ddbj104bct           	172.18.8.72	64093	DDBJ     	DDBJ release 104.0, BCT division (Mar, 2016)	ddbjbct
-ddbj104vrl           	172.18.8.71	64103	DDBJ     	DDBJ release 104.0, VRL division (Mar, 2016)	ddbjvrl
-ddbj104phg           	172.18.8.71	64113	DDBJ     	DDBJ release 104.0, PHG division (Mar, 2016)	ddbjphg
-ddbj104pat           	172.18.8.72	64123	DDBJ     	DDBJ release 104.0, PAT division (Mar, 2016)	ddbjpat
-ddbj104env           	172.18.8.72	64133	DDBJ     	DDBJ release 104.0, ENV division (Mar, 2016)	ddbjenv
-ddbj104syn           	172.18.8.72	64143	DDBJ     	DDBJ release 104.0, SYN division (Mar, 2016)	ddbjsyn
-ddbj104est           	172.18.8.72	64153	DDBJ     	DDBJ release 104.0, EST division (Mar, 2016)	ddbjest
-ddbj104tsa           	172.18.8.73	64163	DDBJ     	DDBJ release 104.0, TSA division (Mar, 2016)	ddbjtsa
-ddbj104gss           	172.18.8.73	64173	DDBJ     	DDBJ release 104.0, GSS division (Mar, 2016)	ddbjgss
-ddbj104htc           	172.18.8.73	64183	DDBJ     	DDBJ release 104.0, HTC division (Mar, 2016)	ddbjhtc
-ddbj104htg           	172.18.8.73	64193	DDBJ     	DDBJ release 104.0, HTG division (Mar, 2016)	ddbjhtg
-ddbj104sts           	172.18.8.73	64203	DDBJ     	DDBJ release 104.0, STS division (Mar, 2016)	ddbjsts
-ddbj104una           	172.18.8.73	64213	DDBJ     	DDBJ release 104.0, UNA division (Mar, 2016)	ddbjuna
+ddbj105hum           	172.18.8.77	65023	DDBJ     	DDBJ release 105.0, HUM division (Jun, 2016)	ddbjhum
+ddbj105pri           	172.18.8.76	65033	DDBJ     	DDBJ release 105.0, PRI division (Jun, 2016)	ddbjpri
+ddbj105rod           	172.18.8.72	65043	DDBJ     	DDBJ release 105.0, ROD division (Jun, 2016)	ddbjrod
+ddbj105mam           	172.18.8.76	65053	DDBJ     	DDBJ release 105.0, MAM division (Jun, 2016)	ddbjmam
+ddbj105vrt           	172.18.8.76	65063	DDBJ     	DDBJ release 105.0, VRT division (Jun, 2016)	ddbjvrt
+ddbj105inv           	172.18.8.73	65073	DDBJ     	DDBJ release 105.0, INV division (Jun, 2016)	ddbjinv
+ddbj105pln           	172.18.8.78	65083	DDBJ     	DDBJ release 105.0, PLN division (Jun, 2016)	ddbjpln
+ddbj105bct           	172.18.8.78	65093	DDBJ     	DDBJ release 105.0, BCT division (Jun, 2016)	ddbjbct
+ddbj105vrl           	172.18.8.75	65103	DDBJ     	DDBJ release 105.0, VRL division (Jun, 2016)	ddbjvrl
+ddbj105phg           	172.18.8.78	65113	DDBJ     	DDBJ release 105.0, PHG division (Jun, 2016)	ddbjphg
+ddbj105pat           	172.18.8.77	65123	DDBJ     	DDBJ release 105.0, PAT division (Jun, 2016)	ddbjpat
+ddbj105env           	172.18.8.77	65133	DDBJ     	DDBJ release 105.0, ENV division (Jun, 2016)	ddbjenv
+ddbj105syn           	172.18.8.73	65143	DDBJ     	DDBJ release 105.0, SYN division (Jun, 2016)	ddbjsyn
+ddbj105est           	172.18.8.73	65153	DDBJ     	DDBJ release 105.0, EST division (Jun, 2016)	ddbjest
+ddbj105tsa           	172.18.8.72	65163	DDBJ     	DDBJ release 105.0, TSA division (Jun, 2016)	ddbjtsa
+ddbj105gss           	172.18.8.76	65173	DDBJ     	DDBJ release 105.0, GSS division (Jun, 2016)	ddbjgss
+ddbj105htc           	172.18.8.73	65183	DDBJ     	DDBJ release 105.0, HTC division (Jun, 2016)	ddbjhtc
+ddbj105htg           	172.18.8.72	65193	DDBJ     	DDBJ release 105.0, HTG division (Jun, 2016)	ddbjhtg
+ddbj105sts           	172.18.8.78	65203	DDBJ     	DDBJ release 105.0, STS division (Jun, 2016)	ddbjsts
+ddbj105una           	172.18.8.73	65213	DDBJ     	DDBJ release 105.0, UNA division (Jun, 2016)	ddbjuna
 --EOS--
 
 return 1 ;
