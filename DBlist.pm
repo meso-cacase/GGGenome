@@ -237,6 +237,8 @@ Tetth                	172.18.8.76	42693	TGD      	Tetrahymena thermophila genome
 Tetbo                	172.18.8.76	42703	TGD      	Tetrahymena borealis genome (Oct, 2012)	Tetrahymena borealis
 Tetel                	172.18.8.76	42713	TGD      	Tetrahymena elliotti genome (Oct, 2012)	Tetrahymena elliotti
 Tetma                	172.18.8.76	42723	TGD      	Tetrahymena malaccensis genome (Oct, 2012)	Tetrahymena malaccensis
+JRGv1                	172.18.8.72	42833	ToMMo    	Human Japanese Reference Genome, JRGv1 (Aug, 2016)	Homo sapiens
+decoyJRGv1           	172.18.8.72	42843	ToMMo    	Decoy sequence of the Human Japanese Reference Genome, decoyJRGv1 (Aug, 2016)	Homo sapiens
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3          	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1   	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss

@@ -159,6 +159,8 @@ function set_strand(){
 	<option value='hg38'    synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
 	<option value='hg19' selected    synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
 	<option value='hg18'    synonym="Homo sapiens">Human genome, NCBI36/hg18 (Mar, 2006)</option>
+	<option value='JRGv1'   synonym="Homo sapiens">Human Japanese Reference Genome, JRGv1 (Aug, 2016)</option>
+	<option value='decoyJRGv1' synonym="Homo sapiens">Decoy sequence of the Human Japanese Reference Genome, decoyJRGv1 (Aug, 2016)</option>
 	<option value='mm10'    synonym="Mus musculus">Mouse genome, GRCm38/mm10 (Dec, 2011)</option>
 	<option value='mm9'     synonym="Mus musculus">Mouse genome, NCBI37/mm9 (Jul, 2007)</option>
 	<option value='rn6'     synonym="Rattus norvegicus">Rat genome, RGSC 6.0/rn6 (Jul, 2014)</option>
@@ -2726,6 +2728,24 @@ set_strand() ;
 	<td><a target='_blank' href='http://www.ciliate.org/system/downloads/T_malaccensis_oct2012_supercontigs.fasta'><!--
 		-->Tetrahymena malaccensis (Oct, 2012)</a>
 </tr>
+<tr>
+	<td><a href='/JRGv1/'>JRGv1</a>
+	<td>ToMMo
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
+		-->Japanese Reference Genome, JRGv1 (Aug, 2016)</a>
+</tr>
+<tr>
+	<td><a href='/decoyJRGv1/'>decoyJRGv1</a>
+	<td>ToMMo
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
+		-->Decoy sequence of the Japanese Reference Genome,<br>decoyJRGv1 (Aug, 2016)</a>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3047,6 +3067,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2016-08-30 Human Japanese Reference Genome JRGv1/decoyJRGv1 are available.
 	<li>2016-07-14 Database updated to DDBJ rel. 105.0 (Jun, 2016).
 	<li>2016-07-12 Database updated to RefSeq rel. 77 (Jul, 2016).
 	<li>2016-06-13 Added 10 genome databases -
@@ -3119,7 +3140,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jul 14, 2016 by
+<p class=g>Last modified on Aug 30, 2016 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
