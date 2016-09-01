@@ -361,13 +361,23 @@ function set_strand(){
 	<option value='Tetbo'        synonym="Tetrahymena borealis">Tetrahymena borealis genome (Oct, 2012)</option>
 	<option value='Tetel'        synonym="Tetrahymena elliotti">Tetrahymena elliotti genome (Oct, 2012)</option>
 	<option value='Tetma'        synonym="Tetrahymena malaccensis">Tetrahymena malaccensis genome (Oct, 2012)</option>
+	<option value='img1'         synonym="Ichthyophthirius multifiliis;ciliate">Ichthyophthirius multifiliis macronuclear genome</option>
+	<option value='stylo'        synonym="Stylonychia lemnae;ciliate">Stylonychia lemnae macronuclear genome</option>
+	<option value='oxy'          synonym="Oxytricha trifallax;ciliate">Oxytricha trifallax macronuclear genome</option>
+	<option value='oxymic'       synonym="Oxytricha trifallax;ciliate">Oxytricha trifallax micronuclear genome</option>
 	<option value='pombe'        synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 	<option value='MG8'          synonym="Magnaporthe oryzae;rice blast fungus">Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)</option>
 	<option value='ASM644v2'     synonym="Debaryomyces hansenii;marine yeast">Debaryomyces hansenii (CBS767) genome, ASM644v2 (Feb, 2015)</option>
 	<option value='ASM251v1'     synonym="Kluyveromyces lactis;kluyveromyces yeast">Kluyveromyces lactis genome, ASM251v1 (Feb, 2015)</option>
 	<option value='ASM252v1'     synonym="Yarrowia lipolytica;oleaginous yeast">Yarrowia lipolytica genome, ASM252v1 (May, 2012)</option>
 	<option value='RR'           synonym="Fusarium graminearum;Gibberella zeae;wheat head blight fungus">Fusarium graminearum genome, RR (Nov, 2014)</option>
+	<option value='CC3'          synonym="Coprinopsis cinerea;Hormographiella aspergillata;inky cap fungus">Coprinopsis cinerea (okayama7#130) genome, CC3 (Aug, 2014)</option>
 	<option value='RHOziaDV1.0'  synonym="Rhodotorula toruloides;oleaginous yeast">Rhodotorula toruloides (NP11) genome, RHOziaDV1.0 (Apr, 2013)</option>
+	<option value='A_nidulans_FGSC_A4' synonym="Aspergillus nidulans;Emericella nidulans">Aspergillus nidulans (FGSC A4) genome, s10-m04-r06 (Apr, 2016)</option>
+	<option value='A_fumigatus_Af293'  synonym="Aspergillus fumigatus;Neosartorya fumigata">Aspergillus fumigatus (Af293) genome, s03-m05-r06 (Apr, 2016)</option>
+	<option value='C_glabrata_CBS138'  synonym="Candida glabrata;Torulopsis glabrata">Candida glabrata (CBS138) genome, s02-m07-r08 (Jun, 2016)</option>
+	<option value='C_albicans_SC5314'  synonym="Candida albicans">Candida albicans (SC5314) genome, Assembly 21, A21-s02-m09-r10 (Feb, 2016)</option>
+	<option value='JCVI_PMFA1_2.0'     synonym="Penicillium marneffei;Talaromyces marneffei">Penicillium marneffei (ATCC 18224) genome, JCVI-PMFA1-2.0 (Oct, 2008)</option>
 
 	<option value='TAIR10'  synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Nov, 2010)</option>
 	<option value='rice'    synonym="Oryza sativa ssp. japonica;rice">Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)</option>
@@ -2630,6 +2640,15 @@ set_strand() ;
 		-->RR (Nov, 2014)</a>
 </tr>
 <tr>
+	<td><a href='/CC3/'>CC3</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>Inky cap fungus
+	<td>Coprinopsis cinerea (Hormographiella aspergillata)
+	<td><a target='_blank' href='http://fungi.ensembl.org/Coprinopsis_cinerea_okayama7_130/Info/Index'><!--
+		-->CC3 (Aug, 2014)</a>
+</tr>
+<tr>
 	<td><a href='/RHOziaDV1.0/'>RHOziaDV1.0</a>
 	<td>NCBI
 	<td>Fungi
@@ -2637,6 +2656,51 @@ set_strand() ;
 	<td>Rhodotorula toruloides
 	<td><a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000320785.1_RHOziaDV1.0/GCF_000320785.1_RHOziaDV1.0_genomic.fna.gz'><!--
 		-->RHOziaDV1.0 (Apr, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/A_nidulans_FGSC_A4/'>A_nidulans_FGSC_A4</a>
+	<td>AspGD
+	<td>Fungi
+	<td>A. nidulans
+	<td>Aspergillus nidulans (Emericella nidulans)
+	<td><a target='_blank' href='http://www.aspergillusgenome.org/download/sequence/A_nidulans_FGSC_A4/current/A_nidulans_FGSC_A4_version_s10-m04-r06_chromosomes.fasta.gz'><!--
+		-->s10-m04-r06 (Apr, 2016)</a>
+</tr>
+<tr>
+	<td><a href='/A_fumigatus_Af293/'>A_fumigatus_Af293</a>
+	<td>AspGD
+	<td>Fungi
+	<td>A. fumigatus
+	<td>Aspergillus fumigatus (Neosartorya fumigata)
+	<td><a target='_blank' href='http://www.aspergillusgenome.org/download/sequence/A_fumigatus_Af293/current/A_fumigatus_Af293_version_s03-m05-r06_chromosomes.fasta.gz'><!--
+		-->s03-m05-r06 (Apr, 2016)</a>
+</tr>
+<tr>
+	<td><a href='/C_glabrata_CBS138/'>C_glabrata_CBS138</a>
+	<td>CGD
+	<td>Fungi
+	<td>C. glabrata
+	<td>Candida glabrata (Torulopsis glabrata)
+	<td><a target='_blank' href='http://www.candidagenome.org/download/sequence/C_glabrata_CBS138/current/C_glabrata_CBS138_version_s02-m07-r08_chromosomes.fasta.gz'><!--
+		-->s02-m07-r08 (Jun, 2016)</a>
+</tr>
+<tr>
+	<td><a href='/C_albicans_SC5314/'>C_albicans_SC5314</a>
+	<td>CGD
+	<td>Fungi
+	<td>C. albicans
+	<td>Candida albicans
+	<td><a target='_blank' href='http://www.candidagenome.org/download/sequence/C_albicans_SC5314/Assembly21/current/C_albicans_SC5314_version_A21-s02-m09-r10_chromosomes.fasta.gz'><!--
+		-->Assembly 21, A21-s02-m09-r10 (Feb, 2016)</a>
+</tr>
+<tr>
+	<td><a href='/JCVI_PMFA1_2.0/'>JCVI_PMFA1_2.0</a>
+	<td>NCBI
+	<td>Fungi
+	<td>P. marneffei
+	<td>Penicillium marneffei (Talaromyces marneffei)
+	<td><a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000001985.1_JCVI-PMFA1-2.0/GCF_000001985.1_JCVI-PMFA1-2.0_genomic.fna.gz'><!--
+		-->JCVI-PMFA1-2.0 (Oct, 2008)</a>
 </tr>
 <tr>
 	<td><a href='/macaque_CE_1/'>macaque_CE_1</a>
@@ -2727,6 +2791,42 @@ set_strand() ;
 	<td>Tetrahymena malaccensis
 	<td><a target='_blank' href='http://www.ciliate.org/system/downloads/T_malaccensis_oct2012_supercontigs.fasta'><!--
 		-->Tetrahymena malaccensis (Oct, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/img1/'>img1</a>
+	<td>IchDB
+	<td>Ciliophora
+	<td>Ciliate
+	<td>Ichthyophthirius multifiliis
+	<td><a target='_blank' href='http://ich.ciliate.org/system/downloads/img1_0407.assembly.fsa'><!--
+		-->Ichthyophthirius multifiliis macronuclear genome</a>
+</tr>
+<tr>
+	<td><a href='/stylo/'>stylo</a>
+	<td>StyloDB
+	<td>Ciliophora
+	<td>Ciliate
+	<td>Stylonychia lemnae
+	<td><a target='_blank' href='http://stylo.ciliate.org/system/downloads/stylo_assembly.fa'><!--
+		-->Stylonychia lemnae macronuclear genome</a>
+</tr>
+<tr>
+	<td><a href='/oxy/'>oxy</a>
+	<td>OxyDB
+	<td>Ciliophora
+	<td>Ciliate
+	<td>Oxytricha trifallax
+	<td><a target='_blank' href='http://oxy.ciliate.org/system/downloads/Oxytricha_trifallax_022112_assembly.fasta'><!--
+		-->Oxytricha trifallax macronuclear genome</a>
+</tr>
+<tr>
+	<td><a href='/oxymic/'>oxymic</a>
+	<td>OxyDB
+	<td>Ciliophora
+	<td>Ciliate
+	<td>Oxytricha trifallax
+	<td><a target='_blank' href='http://oxy.ciliate.org/system/downloads/Oxytricha_trifallax_micronuclear_assembly.fasta'><!--
+		-->Oxytricha trifallax micronuclear genome</a>
 </tr>
 <tr>
 	<td><a href='/JRGv1/'>JRGv1</a>
@@ -3067,6 +3167,8 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2016-09-01 Added 10 genome databases -
+		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
 	<li>2016-08-30 Human Japanese Reference Genome JRGv1/decoyJRGv1 are available.
 	<li>2016-07-14 Database updated to DDBJ rel. 105.0 (Jun, 2016).
 	<li>2016-07-12 Database updated to RefSeq rel. 77 (Jul, 2016).
@@ -3140,7 +3242,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Aug 30, 2016 by
+<p class=g>Last modified on Sep 1, 2016 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

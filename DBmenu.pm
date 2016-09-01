@@ -211,13 +211,23 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'Tetbo\'        synonym=\"$db_synonym{'Tetbo'       }\">$db_fullname{'Tetbo'       }</option>
 	<option value=\'Tetel\'        synonym=\"$db_synonym{'Tetel'       }\">$db_fullname{'Tetel'       }</option>
 	<option value=\'Tetma\'        synonym=\"$db_synonym{'Tetma'       }\">$db_fullname{'Tetma'       }</option>
+	<option value=\'img1\'         synonym=\"$db_synonym{'img1'        }\">$db_fullname{'img1'        }</option>
+	<option value=\'stylo\'        synonym=\"$db_synonym{'stylo'       }\">$db_fullname{'stylo'       }</option>
+	<option value=\'oxy\'          synonym=\"$db_synonym{'oxy'         }\">$db_fullname{'oxy'         }</option>
+	<option value=\'oxymic\'       synonym=\"$db_synonym{'oxymic'      }\">$db_fullname{'oxymic'      }</option>
 	<option value=\'pombe\'        synonym=\"$db_synonym{'pombe'       }\">$db_fullname{'pombe'       }</option>
 	<option value=\'MG8\'          synonym=\"$db_synonym{'MG8'         }\">$db_fullname{'MG8'         }</option>
 	<option value=\'ASM644v2\'     synonym=\"$db_synonym{'ASM644v2'    }\">$db_fullname{'ASM644v2'    }</option>
 	<option value=\'ASM251v1\'     synonym=\"$db_synonym{'ASM251v1'    }\">$db_fullname{'ASM251v1'    }</option>
 	<option value=\'ASM252v1\'     synonym=\"$db_synonym{'ASM252v1'    }\">$db_fullname{'ASM252v1'    }</option>
 	<option value=\'RR\'           synonym=\"$db_synonym{'RR'          }\">$db_fullname{'RR'          }</option>
+	<option value=\'CC3\'          synonym=\"$db_synonym{'CC3'         }\">$db_fullname{'CC3'         }</option>
 	<option value=\'RHOziaDV1.0\'  synonym=\"$db_synonym{'RHOziaDV1.0' }\">$db_fullname{'RHOziaDV1.0' }</option>
+	<option value=\'A_nidulans_FGSC_A4\' synonym=\"$db_synonym{'A_nidulans_FGSC_A4'}\">$db_fullname{'A_nidulans_FGSC_A4'}</option>
+	<option value=\'A_fumigatus_Af293\'  synonym=\"$db_synonym{'A_fumigatus_Af293' }\">$db_fullname{'A_fumigatus_Af293' }</option>
+	<option value=\'C_glabrata_CBS138\'  synonym=\"$db_synonym{'C_glabrata_CBS138' }\">$db_fullname{'C_glabrata_CBS138' }</option>
+	<option value=\'C_albicans_SC5314\'  synonym=\"$db_synonym{'C_albicans_SC5314' }\">$db_fullname{'C_albicans_SC5314' }</option>
+	<option value=\'JCVI_PMFA1_2.0\'     synonym=\"$db_synonym{'JCVI_PMFA1_2.0'    }\">$db_fullname{'JCVI_PMFA1_2.0'    }</option>
 
 	<option value=\'TAIR10\'  synonym=\"$db_synonym{'TAIR10' }\">$db_fullname{'TAIR10' }</option>
 	<option value=\'rice\'    synonym=\"$db_synonym{'rice'   }\">$db_fullname{'rice'   }</option>

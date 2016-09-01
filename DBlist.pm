@@ -231,12 +231,22 @@ ASM644v2             	172.18.8.76	42633	EnsemblFungi	Debaryomyces hansenii (CBS7
 ASM251v1             	172.18.8.76	42643	EnsemblFungi	Kluyveromyces lactis genome, ASM251v1 (Feb, 2015)	Kluyveromyces lactis;kluyveromyces yeast
 ASM252v1             	172.18.8.76	42653	EnsemblFungi	Yarrowia lipolytica genome, ASM252v1 (May, 2012)	Yarrowia lipolytica;oleaginous yeast
 RR                   	172.18.8.76	42663	EnsemblFungi	Fusarium graminearum genome, RR (Nov, 2014)	Fusarium graminearum;Gibberella zeae;wheat head blight fungus
+CC3                  	172.18.8.72	42823	EnsemblFungi	Coprinopsis cinerea (okayama7#130) genome, CC3 (Aug, 2014)	Coprinopsis cinerea;Hormographiella aspergillata;inky cap fungus
 BX                   	172.18.8.76	42673	         	Nicotiana tabacum (BX) genome, Ntab-BX (2014)	Nicotiana tabacum;tobacco
 RHOziaDV1.0          	172.18.8.76	42683	NCBI     	Rhodotorula toruloides (NP11) genome, RHOziaDV1.0 (Apr, 2013)	Rhodotorula toruloides;oleaginous yeast
 Tetth                	172.18.8.76	42693	TGD      	Tetrahymena thermophila genome (Jun, 2014)	Tetrahymena thermophila
 Tetbo                	172.18.8.76	42703	TGD      	Tetrahymena borealis genome (Oct, 2012)	Tetrahymena borealis
 Tetel                	172.18.8.76	42713	TGD      	Tetrahymena elliotti genome (Oct, 2012)	Tetrahymena elliotti
 Tetma                	172.18.8.76	42723	TGD      	Tetrahymena malaccensis genome (Oct, 2012)	Tetrahymena malaccensis
+img1                 	172.18.8.72	42733	IchDB    	Ichthyophthirius multifiliis macronuclear genome	Ichthyophthirius multifiliis;ciliate
+stylo                	172.18.8.72	42743	StyloDB  	Stylonychia lemnae macronuclear genome	Stylonychia lemnae;ciliate
+oxy                  	172.18.8.72	42753	OxyDB    	Oxytricha trifallax macronuclear genome	Oxytricha trifallax;ciliate
+oxymic               	172.18.8.72	42763	OxyDB    	Oxytricha trifallax micronuclear genome	Oxytricha trifallax;ciliate
+A_nidulans_FGSC_A4   	172.18.8.72	42773	AspGD    	Aspergillus nidulans (FGSC A4) genome, s10-m04-r06 (Apr, 2016)	Aspergillus nidulans;Emericella nidulans
+A_fumigatus_Af293    	172.18.8.72	42783	AspGD    	Aspergillus fumigatus (Af293) genome, s03-m05-r06 (Apr, 2016)	Aspergillus fumigatus;Neosartorya fumigata
+C_glabrata_CBS138    	172.18.8.72	42793	CGD      	Candida glabrata (CBS138) genome, s02-m07-r08 (Jun, 2016)	Candida glabrata;Torulopsis glabrata
+C_albicans_SC5314    	172.18.8.72	42803	CGD      	Candida albicans (SC5314) genome, Assembly 21, A21-s02-m09-r10 (Feb, 2016)	Candida albicans
+JCVI_PMFA1_2.0       	172.18.8.72	42813	NCBI     	Penicillium marneffei (ATCC 18224) genome, JCVI-PMFA1-2.0 (Oct, 2008)	Penicillium marneffei;Talaromyces marneffei
 JRGv1                	172.18.8.72	42833	ToMMo    	Human Japanese Reference Genome, JRGv1 (Aug, 2016)	Homo sapiens
 decoyJRGv1           	172.18.8.72	42843	ToMMo    	Decoy sequence of the Human Japanese Reference Genome, decoyJRGv1 (Aug, 2016)	Homo sapiens
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
