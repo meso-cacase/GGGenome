@@ -2870,7 +2870,7 @@ set_strand() ;
 	<td>Fungi
 	<td>Wheat head blight fungus
 	<td>フザリウム菌
-	<td>Fusarium graminearum (Gibberella zeae)
+	<td>Fusarium graminearum<br>(Gibberella zeae)
 	<td><a target='_blank' href='http://fungi.ensembl.org/Fusarium_graminearum/'><!--
 		-->RR (Nov, 2014)</a>
 </tr>
@@ -2880,7 +2880,7 @@ set_strand() ;
 	<td>Fungi
 	<td>Inky cap fungus
 	<td>ウシグソヒトヨタケ
-	<td>Coprinopsis cinerea (Hormographiella aspergillata)
+	<td>Coprinopsis cinerea<br>(Hormographiella aspergillata)
 	<td><a target='_blank' href='http://fungi.ensembl.org/Coprinopsis_cinerea_okayama7_130/Info/Index'><!--
 		-->CC3 (Aug, 2014)</a>
 </tr>
@@ -2900,7 +2900,7 @@ set_strand() ;
 	<td>Fungi
 	<td>A. nidulans
 	<td>アスペルギルス
-	<td>Aspergillus nidulans (Emericella nidulans)
+	<td>Aspergillus nidulans<br>(Emericella nidulans)
 	<td><a target='_blank' href='http://www.aspergillusgenome.org/download/sequence/A_nidulans_FGSC_A4/current/A_nidulans_FGSC_A4_version_s10-m04-r06_chromosomes.fasta.gz'><!--
 		-->s10-m04-r06 (Apr, 2016)</a>
 </tr>
@@ -2910,7 +2910,7 @@ set_strand() ;
 	<td>Fungi
 	<td>A. fumigatus
 	<td>アスペルギルス
-	<td>Aspergillus fumigatus (Neosartorya fumigata)
+	<td>Aspergillus fumigatus<br>(Neosartorya fumigata)
 	<td><a target='_blank' href='http://www.aspergillusgenome.org/download/sequence/A_fumigatus_Af293/current/A_fumigatus_Af293_version_s03-m05-r06_chromosomes.fasta.gz'><!--
 		-->s03-m05-r06 (Apr, 2016)</a>
 </tr>
@@ -2920,7 +2920,7 @@ set_strand() ;
 	<td>Fungi
 	<td>C. glabrata
 	<td>カンジダ
-	<td>Candida glabrata (Torulopsis glabrata)
+	<td>Candida glabrata<br>(Torulopsis glabrata)
 	<td><a target='_blank' href='http://www.candidagenome.org/download/sequence/C_glabrata_CBS138/current/C_glabrata_CBS138_version_s02-m07-r08_chromosomes.fasta.gz'><!--
 		-->s02-m07-r08 (Jun, 2016)</a>
 </tr>
@@ -2940,7 +2940,7 @@ set_strand() ;
 	<td>Fungi
 	<td>P. marneffei
 	<td>アオカビ, ペニシリウム
-	<td>Penicillium marneffei (Talaromyces marneffei)
+	<td>Penicillium marneffei<br>(Talaromyces marneffei)
 	<td><a target='_blank' href='ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000001985.1_JCVI-PMFA1-2.0/GCF_000001985.1_JCVI-PMFA1-2.0_genomic.fna.gz'><!--
 		-->JCVI-PMFA1-2.0 (Oct, 2008)</a>
 </tr>
@@ -3049,7 +3049,7 @@ set_strand() ;
 	<td>IchDB
 	<td>Ciliophora
 	<td>Ciliate
-	<td>繊毛虫, イクチオフチリウス, ハクテンチュウ, 白点虫
+	<td>繊毛虫, イクチオフチリウス,<br>ハクテンチュウ, 白点虫
 	<td>Ichthyophthirius multifiliis
 	<td><a target='_blank' href='http://ich.ciliate.org/system/downloads/img1_0407.assembly.fsa'><!--
 		-->Ichthyophthirius multifiliis macronuclear genome</a>
