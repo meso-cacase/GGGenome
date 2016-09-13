@@ -2717,7 +2717,7 @@ set_strand() ;
 	<td>Mammal
 	<td>Golden hamster
 	<td>Mesocricetus auratus
-	<td><a target='_blank' href='http://www.ncbi.nlm.nih.gov/assembly/GCF_000349665.1/'><!--
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCF_000349665.1/'><!--
 		-->MesAur1.0 (Mar, 2013)</a>
 </tr>
 <tr>
