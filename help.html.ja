@@ -414,7 +414,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'      synonym="">RefSeq complete RNA release 77 (Jul, 2016)</option>
+	<option value='refseq'      synonym="">RefSeq complete RNA release 78 (Sep, 2016)</option>
 	<option value='hs_refseq70' synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq70' synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='rn_refseq70' synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
@@ -3133,7 +3133,16 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 77 (Jul, 2016)<br>(alias of latest refseq release)
+	<td>RefSeq complete RNA release 78 (Sep, 2016)<br>(alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq77/'>refseq78</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 78 (Sep, 2016)
 </tr>
 <tr>
 	<td><a href='/refseq77/'>refseq77</a>
@@ -3464,6 +3473,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2016-09-16 RefSeq rel. 78 (Sep, 2016) に更新。
 	<li>2016-09-01 10種のゲノムを追加 -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
 	<li>2016-08-30 日本人基準ゲノム JRGv1/decoyJRGv1 を追加。
@@ -3538,7 +3548,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Sep 1, 2016 by
+<p class=g>Last modified on Sep 16, 2016 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
