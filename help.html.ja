@@ -2107,7 +2107,7 @@ set_strand() ;
 	<td>EnsemblPlants
 	<td>Plant
 	<td>Purple false brome
-	<td>セイヨウヤマカモジ, ミナトカモジグサ
+	<td>セイヨウヤマカモジ,<br>ミナトカモジグサ
 	<td>Brachypodium distachyon
 	<td><a target='_blank' href='http://plants.ensembl.org/Brachypodium_distachyon/'><!--
 		-->v1.0 (Jan, 2009)</a>
@@ -2117,7 +2117,7 @@ set_strand() ;
 	<td>EnsemblPlants
 	<td>Plant
 	<td>Wild cabbage
-	<td>ヤセイカンラン, ワイルドキャベツ
+	<td>ヤセイカンラン,<br>ワイルドキャベツ
 	<td>Brassica oleracea
 	<td><a target='_blank' href='http://plants.ensembl.org/Brassica_oleracea/'><!--
 		-->v2.1</a>
