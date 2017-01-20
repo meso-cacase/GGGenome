@@ -414,7 +414,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'      synonym="">RefSeq complete RNA release 79 (Nov, 2016)</option>
+	<option value='refseq'      synonym="">RefSeq complete RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70' synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq70' synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='rn_refseq70' synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
@@ -2873,7 +2873,15 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 79 (Nov, 2016)<br>(alias of latest refseq release)
+	<td>RefSeq complete RNA release 80 (Jan, 2017)<br>(alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq80/'>refseq80</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 80 (Jan, 2017)
 </tr>
 <tr>
 	<td><a href='/refseq79/'>refseq79</a>
@@ -3167,6 +3175,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-01-20 Database updated to RefSeq rel. 80 (Jan, 2017).
 	<li>2016-11-18 Database updated to RefSeq rel. 79 (Nov, 2016).
 	<li>2016-10-03 Database updated to DDBJ rel. 106.0 (Sep, 2016).
 	<li>2016-09-16 Database updated to RefSeq rel. 78 (Sep, 2016).
@@ -3245,7 +3254,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Dec 23, 2016 by
+<p class=g>Last modified on Jan 20, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
