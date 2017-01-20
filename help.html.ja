@@ -163,6 +163,8 @@ function set_strand(){
 	<option value='decoyJRGv1' synonym="Homo sapiens">Decoy sequence of the Human Japanese Reference Genome, decoyJRGv1 (Aug, 2016)</option>
 	<option value='mm10'    synonym="Mus musculus">Mouse genome, GRCm38/mm10 (Dec, 2011)</option>
 	<option value='mm9'     synonym="Mus musculus">Mouse genome, NCBI37/mm9 (Jul, 2007)</option>
+	<option value='MSMv3'   synonym="Mus musculus">Mouse genome, MSMv3</option>
+	<option value='JF1v2'   synonym="Mus musculus">Mouse genome, JF1v2</option>
 	<option value='rn6'     synonym="Rattus norvegicus">Rat genome, RGSC 6.0/rn6 (Jul, 2014)</option>
 	<option value='rn5'     synonym="Rattus norvegicus">Rat genome, RGSC 5.0/rn5 (Mar, 2012)</option>
 	<option value='vicPac2' synonym="Vicugna pacos">Alpaca genome, Vicugna_pacos-2.0.1/vicPac2 (Mar, 2013)</option>
@@ -365,6 +367,7 @@ function set_strand(){
 	<option value='stylo'        synonym="Stylonychia lemnae;ciliate">Stylonychia lemnae macronuclear genome</option>
 	<option value='oxy'          synonym="Oxytricha trifallax;ciliate">Oxytricha trifallax macronuclear genome</option>
 	<option value='oxymic'       synonym="Oxytricha trifallax;ciliate">Oxytricha trifallax micronuclear genome</option>
+	<option value='YOKOZUNA-1'   synonym="Ramazzottius variornatus;tardigrade;water bear">Ramazzottius variornatus (YOKOZUNA-1) genome (Sep, 2016)</option>
 	<option value='pombe'        synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 	<option value='MG8'          synonym="Magnaporthe oryzae;rice blast fungus">Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)</option>
 	<option value='ASM644v2'     synonym="Debaryomyces hansenii;marine yeast">Debaryomyces hansenii (CBS767) genome, ASM644v2 (Feb, 2015)</option>
@@ -387,6 +390,7 @@ function set_strand(){
 	<option value='Niben_v1.0.1'             synonym="Nicotiana benthamiana;tobacco">Nicotiana benthamiana genome, v1.0.1 (Jul, 2014)</option>
 	<option value='adzuki_ver3'              synonym="Vigna angularis;adzuki bean">Vigna angularis genome, ver3 (Nov, 2011)</option>
 	<option value='RSA_r1.0'                 synonym="Raphanus sativus;radish">Raphanus sativus genome, RSA_r1.0 (May, 2014)</option>
+	<option value='asagao'                   synonym="Ipomoea nil;Pharbitis nil;japanese morning glory">Ipomoea nil (Tokyo Kokei Standard; TKS) genome (Sep, 2016)</option>
 	<option value='Ppatens_251_v3'           synonym="Physcomitrella patens;moss">Physcomitrella patens genome, v3.0 (Oct, 2007)</option>
 	<option value='Smoellendorffii_91_v1'    synonym="Selaginella moellendorffii;spikemoss">Selaginella moellendorffii genome, v1.0 (Dec, 2007)</option>
 	<option value='Creinhardtii_281_v5_5'    synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v5.5 (May, 2014)</option>
@@ -397,9 +401,11 @@ function set_strand(){
 	<option value='CsubellipsoideaC169_v2.0' synonym="Coccomyxa subellipsoidea;c. subellipsoidea">Coccomyxa subellipsoidea C-169 genome, v2.0</option>
 	<option value='Csativus_v1'              synonym="Cucumis sativus;cucumber">Cucumis sativus genome, v1.0</option>
 	<option value='Egrandis_v2.0'            synonym="Eucalyptus grandis;eucalyptus">Eucalyptus grandis genome, v2.0</option>
+	<option value='fragaria_vesca_v2.0.a1'   synonym="Fragaria vesca;strawberry">Fragaria vesca genome, v2.0.a1 (Dec, 2014)</option>
 	<option value='Fvesca_v1.1'              synonym="Fragaria vesca;strawberry">Fragaria vesca genome, v1.1</option>
 	<option value='Graimondii_v2.0'          synonym="Gossypium raimondii;cotton">Gossypium raimondii genome, v2.1</option>
 	<option value='Lusitatissimum_BGIv1.0'   synonym="Linum usitatissimum;flax">Linum usitatissimum genome, v1.0</option>
+	<option value='malus_x_domestica_v1.0p'  synonym="Malus domestica;apple">Malus domestica genome, v1.0p (Aug, 2012)</option>
 	<option value='Mdomestica_v1.0'          synonym="Malus domestica;apple">Malus domestica genome, v1.0</option>
 	<option value='Mesculenta_v6'            synonym="Manihot esculenta;cassava">Manihot esculenta genome, v6.1</option>
 	<option value='MpusillaCCMP1545_v3.0'    synonym="Micromonas pusilla;picoplanktonic green alga">Micromonas pusilla CCMP1545 genome, v3.0</option>
@@ -409,6 +415,8 @@ function set_strand(){
 	<option value='Rcommunis_TIGR.0.1'       synonym="Ricinus communis;castor bean">Ricinus communis genome, v0.1</option>
 	<option value='Spolyrhiza_v1'            synonym="Spirodela polyrhiza;giant duckweed">Spirodela polyrhiza genome, v2</option>
 	<option value='Vcarteri_v2'              synonym="Volvox carteri;green alga">Volvox carteri genome, v2.0</option>
+	<option value='ASM15095v2'               synonym="Phaeodactylum tricornutum;diatom">Phaeodactylum tricornutum genome, ASM15095v2 (Feb, 2010)</option>
+	<option value='ASM14940v2'               synonym="Thalassiosira pseudonana;diatom">Thalassiosira pseudonana genome, ASM14940v2 (May, 2014)</option>
 
 	<option value='eboVir3' synonym="Filoviridae ebolavirus">Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
 
@@ -2805,6 +2813,36 @@ set_strand() ;
 		-->RSA_r1.0 (May, 2014)</a>
 </tr>
 <tr>
+	<td><a href='/fragaria_vesca_v2.0.a1/'>fragaria_vesca_v2.0.a1</a>
+	<td>
+	<td>Plant
+	<td>Strawberry
+	<td>エゾヘビイチゴ
+	<td>Fragaria vesca
+	<td><a target='_blank' href='https://www.rosaceae.org/species/fragaria_vesca/genome_v2.0.a1'><!--
+		-->v2.0.a1 (Dec, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/malus_x_domestica_v1.0p/'>malus_x_domestica_v1.0p</a>
+	<td>
+	<td>Plant
+	<td>Apple
+	<td>リンゴ
+	<td>Malus domestica
+	<td><a target='_blank' href='https://www.rosaceae.org/species/malus/malus_x_domestica/genome_v1.0p'><!--
+		-->v1.0p (Aug, 2012)</a>
+</tr>
+<tr>
+	<td><a href='/asagao/'>asagao</a>
+	<td>
+	<td>Plant
+	<td>Japanese morning glory
+	<td>アサガオ
+	<td>Ipomoea nil<br>(Pharbitis nil)
+	<td><a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/wgs/BDFN.gz'><!--
+		-->Tokyo Kokei Standard; TKS (Sep, 2016)</a>
+</tr>
+<tr>
 	<td><a href='/bmor1/'>bmor1</a>
 	<td>Ensembl
 	<td>Insect
@@ -3103,6 +3141,56 @@ set_strand() ;
 	<td>Homo sapiens
 	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
 		-->Decoy sequence of the Japanese Reference Genome,<br>decoyJRGv1 (Aug, 2016)</a>
+</tr>
+<tr>
+	<td><a href='/MSMv3/'>MSMv3</a>
+	<td>
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td><a target='_blank' href='ftp://molossinus.lab.nig.ac.jp/pub/msmdb/For_Seq_Analysis/fasta_files/MSMv3/'><!--
+		-->MSMv3</a>
+</tr>
+<tr>
+	<td><a href='/JF1v2/'>JF1v2</a>
+	<td>
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td><a target='_blank' href='ftp://molossinus.lab.nig.ac.jp/pub/msmdb/For_Seq_Analysis/fasta_files/JF1v2/'><!--
+		-->JF1v2</a>
+</tr>
+<tr>
+	<td><a href='/YOKOZUNA-1/'>YOKOZUNA-1</a>
+	<td>
+	<td>Tardigrada
+	<td>Tardigrade (Water bear)
+	<td>ヨコヅナクマムシ
+	<td>Ramazzottius variornatus
+	<td><a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/wgs/BDGG.gz'><!--
+		-->YOKOZUNA-1 (Sep, 2016)</a>
+</tr>
+<tr>
+	<td><a href='/ASM15095v2/'>ASM15095v2</a>
+	<td>EnsemblProtists
+	<td>Bacillariophyta
+	<td>Diatom
+	<td>珪藻
+	<td>Phaeodactylum tricornutum
+	<td><a target='_blank' href='http://protists.ensembl.org/Phaeodactylum_tricornutum/Info/Index'><!--
+		-->ASM15095v2 (Feb, 2010)</a>
+</tr>
+<tr>
+	<td><a href='/ASM14940v2/'>ASM14940v2</a>
+	<td>EnsemblProtists
+	<td>Bacillariophyta
+	<td>Diatom
+	<td>珪藻
+	<td>Thalassiosira pseudonana
+	<td><a target='_blank' href='http://protists.ensembl.org/Thalassiosira_pseudonana/Info/Index'><!--
+		-->ASM14940v2 (May, 2014)</a>
 </tr>
 </tbody>
 </table>
@@ -3464,6 +3552,8 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-01-20 8種のゲノムを追加 -
+		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
 	<li>2017-01-20 RefSeq rel. 80 (Jan, 2017) に更新。
 	<li>2016-11-18 RefSeq rel. 79 (Nov, 2016) に更新。
 	<li>2016-10-03 DDBJ rel. 106.0 (Sep, 2016) に更新。

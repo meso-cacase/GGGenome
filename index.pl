@@ -960,6 +960,16 @@ my $db      = $_[3] // '' ;
 	       "Blastx_protein%2C"      .
 	       "Blatx_Plant_protein%2C" .
 	       "GeneExpression_GeneAtlas0_1'>$name:$pos-$pos_end</a>" :
+($db eq 'malus_x_domestica_v1.0p') ?
+	return "<a class=a target='_blank' href='" .
+	       "https://www.rosaceae.org/gb/gbrowse/malus_x_domestica_v1.0-primary/?" .
+	       "name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
+($db eq 'fragaria_vesca_v2.0.a1') ?
+	return "<a class=a target='_blank' href='" .
+	       "https://www.rosaceae.org/jbrowse/?" .
+	       "data=data%2Ffragaria%2Ffvesca_v2.0.a1&loc=$name%3A$pos..$pos_end&" .
+	       "tracks=DNA%2Cgenes%2C" .
+	       "transcripts'>$name:$pos-$pos_end</a>" :
 ($db eq 'ASM15162v1' and $name =~ s/\s.*//) ?
 	return "<a class=a target='_blank' href='" .
 	       "http://metazoa.ensembl.org/Bombyx_mori/Location/View?" .
