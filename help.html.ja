@@ -433,26 +433,26 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='ddbj106hum' synonym="ddbjhum">DDBJ release 106.0, HUM division (Sep, 2016)</option>
-	<option value='ddbj106pri' synonym="ddbjpri">DDBJ release 106.0, PRI division (Sep, 2016)</option>
-	<option value='ddbj106rod' synonym="ddbjrod">DDBJ release 106.0, ROD division (Sep, 2016)</option>
-	<option value='ddbj106mam' synonym="ddbjmam">DDBJ release 106.0, MAM division (Sep, 2016)</option>
-	<option value='ddbj106vrt' synonym="ddbjvrt">DDBJ release 106.0, VRT division (Sep, 2016)</option>
-	<option value='ddbj106inv' synonym="ddbjinv">DDBJ release 106.0, INV division (Sep, 2016)</option>
-	<option value='ddbj106pln' synonym="ddbjpln">DDBJ release 106.0, PLN division (Sep, 2016)</option>
-	<option value='ddbj106bct' synonym="ddbjbct">DDBJ release 106.0, BCT division (Sep, 2016)</option>
-	<option value='ddbj106vrl' synonym="ddbjvrl">DDBJ release 106.0, VRL division (Sep, 2016)</option>
-	<option value='ddbj106phg' synonym="ddbjphg">DDBJ release 106.0, PHG division (Sep, 2016)</option>
-	<option value='ddbj106pat' synonym="ddbjpat">DDBJ release 106.0, PAT division (Sep, 2016)</option>
-	<option value='ddbj106env' synonym="ddbjenv">DDBJ release 106.0, ENV division (Sep, 2016)</option>
-	<option value='ddbj106syn' synonym="ddbjsyn">DDBJ release 106.0, SYN division (Sep, 2016)</option>
-	<option value='ddbj106est' synonym="ddbjest">DDBJ release 106.0, EST division (Sep, 2016)</option>
-	<option value='ddbj106tsa' synonym="ddbjtsa">DDBJ release 106.0, TSA division (Sep, 2016)</option>
-	<option value='ddbj106gss' synonym="ddbjgss">DDBJ release 106.0, GSS division (Sep, 2016)</option>
-	<option value='ddbj106htc' synonym="ddbjhtc">DDBJ release 106.0, HTC division (Sep, 2016)</option>
-	<option value='ddbj106htg' synonym="ddbjhtg">DDBJ release 106.0, HTG division (Sep, 2016)</option>
-	<option value='ddbj106sts' synonym="ddbjsts">DDBJ release 106.0, STS division (Sep, 2016)</option>
-	<option value='ddbj106una' synonym="ddbjuna">DDBJ release 106.0, UNA division (Sep, 2016)</option>
+	<option value='ddbj107hum' synonym="ddbjhum">DDBJ release 107.0, HUM division (Jan, 2017)</option>
+	<option value='ddbj107pri' synonym="ddbjpri">DDBJ release 107.0, PRI division (Jan, 2017)</option>
+	<option value='ddbj107rod' synonym="ddbjrod">DDBJ release 107.0, ROD division (Jan, 2017)</option>
+	<option value='ddbj107mam' synonym="ddbjmam">DDBJ release 107.0, MAM division (Jan, 2017)</option>
+	<option value='ddbj107vrt' synonym="ddbjvrt">DDBJ release 107.0, VRT division (Jan, 2017)</option>
+	<option value='ddbj107inv' synonym="ddbjinv">DDBJ release 107.0, INV division (Jan, 2017)</option>
+	<option value='ddbj107pln' synonym="ddbjpln">DDBJ release 107.0, PLN division (Jan, 2017)</option>
+	<option value='ddbj107bct' synonym="ddbjbct">DDBJ release 107.0, BCT division (Jan, 2017)</option>
+	<option value='ddbj107vrl' synonym="ddbjvrl">DDBJ release 107.0, VRL division (Jan, 2017)</option>
+	<option value='ddbj107phg' synonym="ddbjphg">DDBJ release 107.0, PHG division (Jan, 2017)</option>
+	<option value='ddbj107pat' synonym="ddbjpat">DDBJ release 107.0, PAT division (Jan, 2017)</option>
+	<option value='ddbj107env' synonym="ddbjenv">DDBJ release 107.0, ENV division (Jan, 2017)</option>
+	<option value='ddbj107syn' synonym="ddbjsyn">DDBJ release 107.0, SYN division (Jan, 2017)</option>
+	<option value='ddbj107est' synonym="ddbjest">DDBJ release 107.0, EST division (Jan, 2017)</option>
+	<option value='ddbj107tsa' synonym="ddbjtsa">DDBJ release 107.0, TSA division (Jan, 2017)</option>
+	<option value='ddbj107gss' synonym="ddbjgss">DDBJ release 107.0, GSS division (Jan, 2017)</option>
+	<option value='ddbj107htc' synonym="ddbjhtc">DDBJ release 107.0, HTC division (Jan, 2017)</option>
+	<option value='ddbj107htg' synonym="ddbjhtg">DDBJ release 107.0, HTG division (Jan, 2017)</option>
+	<option value='ddbj107sts' synonym="ddbjsts">DDBJ release 107.0, STS division (Jan, 2017)</option>
+	<option value='ddbj107una' synonym="ddbjuna">DDBJ release 107.0, UNA division (Jan, 2017)</option>
 	<option value='ddbj'       synonym="">DDBJ release 92.0 (Feb, 2013)</option>
 </select>
 <br>
@@ -3296,184 +3296,184 @@ set_strand() ;
 	<td>RefSeq rat RNA release 70 (May, 2015)
 </tr>
 <tr>
-	<td><a href='/ddbj106hum/'>ddbj106hum</a>
+	<td><a href='/ddbj107hum/'>ddbj107hum</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, HUM division (Sep, 2016)
+	<td>DDBJ release 107.0, HUM division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106pri/'>ddbj106pri</a>
+	<td><a href='/ddbj107pri/'>ddbj107pri</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, PRI division (Sep, 2016)
+	<td>DDBJ release 107.0, PRI division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106rod/'>ddbj106rod</a>
+	<td><a href='/ddbj107rod/'>ddbj107rod</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, ROD division (Sep, 2016)
+	<td>DDBJ release 107.0, ROD division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106mam/'>ddbj106mam</a>
+	<td><a href='/ddbj107mam/'>ddbj107mam</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, MAM division (Sep, 2016)
+	<td>DDBJ release 107.0, MAM division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106vrt/'>ddbj106vrt</a>
+	<td><a href='/ddbj107vrt/'>ddbj107vrt</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, VRT division (Sep, 2016)
+	<td>DDBJ release 107.0, VRT division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106inv/'>ddbj106inv</a>
+	<td><a href='/ddbj107inv/'>ddbj107inv</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, INV division (Sep, 2016)
+	<td>DDBJ release 107.0, INV division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106pln/'>ddbj106pln</a>
+	<td><a href='/ddbj107pln/'>ddbj107pln</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, PLN division (Sep, 2016)
+	<td>DDBJ release 107.0, PLN division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106bct/'>ddbj106bct</a>
+	<td><a href='/ddbj107bct/'>ddbj107bct</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, BCT division (Sep, 2016)
+	<td>DDBJ release 107.0, BCT division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106vrl/'>ddbj106vrl</a>
+	<td><a href='/ddbj107vrl/'>ddbj107vrl</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, VRL division (Sep, 2016)
+	<td>DDBJ release 107.0, VRL division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106phg/'>ddbj106phg</a>
+	<td><a href='/ddbj107phg/'>ddbj107phg</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, PHG division (Sep, 2016)
+	<td>DDBJ release 107.0, PHG division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106pat/'>ddbj106pat</a>
+	<td><a href='/ddbj107pat/'>ddbj107pat</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, PAT division (Sep, 2016)
+	<td>DDBJ release 107.0, PAT division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106env/'>ddbj106env</a>
+	<td><a href='/ddbj107env/'>ddbj107env</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, ENV division (Sep, 2016)
+	<td>DDBJ release 107.0, ENV division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106syn/'>ddbj106syn</a>
+	<td><a href='/ddbj107syn/'>ddbj107syn</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, SYN division (Sep, 2016)
+	<td>DDBJ release 107.0, SYN division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106est/'>ddbj106est</a>
+	<td><a href='/ddbj107est/'>ddbj107est</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, EST division (Sep, 2016)
+	<td>DDBJ release 107.0, EST division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106tsa/'>ddbj106tsa</a>
+	<td><a href='/ddbj107tsa/'>ddbj107tsa</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, TSA division (Sep, 2016)
+	<td>DDBJ release 107.0, TSA division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106gss/'>ddbj106gss</a>
+	<td><a href='/ddbj107gss/'>ddbj107gss</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, GSS division (Sep, 2016)
+	<td>DDBJ release 107.0, GSS division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106htc/'>ddbj106htc</a>
+	<td><a href='/ddbj107htc/'>ddbj107htc</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, HTC division (Sep, 2016)
+	<td>DDBJ release 107.0, HTC division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106htg/'>ddbj106htg</a>
+	<td><a href='/ddbj107htg/'>ddbj107htg</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, HTG division (Sep, 2016)
+	<td>DDBJ release 107.0, HTG division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106sts/'>ddbj106sts</a>
+	<td><a href='/ddbj107sts/'>ddbj107sts</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, STS division (Sep, 2016)
+	<td>DDBJ release 107.0, STS division (Jan, 2017)
 </tr>
 <tr>
-	<td><a href='/ddbj106una/'>ddbj106una</a>
+	<td><a href='/ddbj107una/'>ddbj107una</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 106.0, UNA division (Sep, 2016)
+	<td>DDBJ release 107.0, UNA division (Jan, 2017)
 </tr>
 <tr>
 	<td><a href='/ddbj/'>ddbj</a>
@@ -3552,6 +3552,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-02-01 DDBJ rel. 107.0 (Jan, 2017) に更新。
 	<li>2017-01-20 8種のゲノムを追加 -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
 	<li>2017-01-20 RefSeq rel. 80 (Jan, 2017) に更新。
@@ -3632,7 +3633,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jan 20, 2017 by
+<p class=g>Last modified on Feb 1, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
