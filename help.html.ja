@@ -424,8 +424,11 @@ function set_strand(){
 	<option disabled>--------------------</option>
 
 	<option value='refseq'      synonym="">RefSeq complete RNA release 80 (Jan, 2017)</option>
+	<option value='hs_refseq80' synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70' synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
+	<option value='mm_refseq80' synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
 	<option value='mm_refseq70' synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
+	<option value='rn_refseq80' synonym="Rattus norvegicus">RefSeq rat RNA release 80 (Jan, 2017)</option>
 	<option value='rn_refseq70' synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
 	<option value='togogenome'  synonym="">TogoGenome from RefSeq 74 (Jan, 2016)</option>
 	<option value='prok'        synonym="">Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
@@ -3262,6 +3265,15 @@ set_strand() ;
 	<td>RefSeq complete RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/hs_refseq80/'>hs_refseq80</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td>RefSeq human RNA release 80 (Jan, 2017)
+</tr>
+<tr>
 	<td><a href='/hs_refseq70/'>hs_refseq70</a>
 	<td>RefSeq
 	<td>Mammal
@@ -3280,6 +3292,15 @@ set_strand() ;
 	<td>RefSeq human RNA release 60 (Jul, 2013)
 </tr>
 <tr>
+	<td><a href='/mm_refseq80/'>mm_refseq80</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td>RefSeq mouse RNA release 80 (Jan, 2017)
+</tr>
+<tr>
 	<td><a href='/mm_refseq70/'>mm_refseq70</a>
 	<td>RefSeq
 	<td>Mammal
@@ -3296,6 +3317,15 @@ set_strand() ;
 	<td>マウス
 	<td>Mus musculus
 	<td>RefSeq mouse RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/rn_refseq80/'>rn_refseq80</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>ラット
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA release 80 (Jan, 2017)
 </tr>
 <tr>
 	<td><a href='/rn_refseq70/'>rn_refseq70</a>
