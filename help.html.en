@@ -319,6 +319,7 @@ function set_strand(){
 	<option value='TAIR10_en'      synonym="Arabidopsis thaliana;thale cress">Arabidopsis thaliana genome, TAIR10 (Sep, 2010)</option>
 	<option value='Bradi_v1.0'     synonym="Brachypodium distachyon;purple false brome">Brachypodium distachyon genome, v1.0 (Jan, 2009)</option>
 	<option value='Braol_v2.1'     synonym="Brassica oleracea;wild cabbage">Brassica oleracea genome, v2.1</option>
+	<option value='Brapa_v1.5'     synonym="Brassica rapa ssp. pekinensis;chinese cabbage">Brassica rapa genome, v1.5 (May, 2013)</option>
 	<option value='IVFCAASv1'      synonym="Brassica rapa ssp. pekinensis;chinese cabbage">Brassica rapa genome, IVFCAASv1 (Aug, 2009)</option>
 	<option value='Brana_v4.1'     synonym="Brassica napus">Brassica napus genome, Genoscope v4.1 (Aug, 2014)</option>
 	<option value='Chlre_v3.1'     synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)</option>
@@ -2540,6 +2541,15 @@ set_strand() ;
 		-->Genoscope v4.1 (Aug, 2014)</a>
 </tr>
 <tr>
+	<td><a href='/Brapa_v1.5/'>Brapa_v1.5</a>
+	<td>
+	<td>Plant
+	<td>Chinese cabbage
+	<td>Brassica rapa ssp. pekinensis
+	<td><a target='_blank' href='http://brassicadb.org/brad/datasets/pub/Genomes/Brassica_rapa/V1.5/'><!--
+		-->v1.5 (May, 2013)</a>
+</tr>
+<tr>
 	<td><a href='/lotus_r3.0/'>lotus_r3.0</a>
 	<td>Kazusa
 	<td>Plant
@@ -3247,6 +3257,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-02-17 <i>Brassica rapa</i> genome v1.5 is available.
 	<li>2017-02-01 Database updated to DDBJ rel. 107.0 (Jan, 2017).
 	<li>2017-01-20 Added 8 genome databases -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
@@ -3329,7 +3340,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Feb 1, 2017 by
+<p class=g>Last modified on Feb 17, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

@@ -169,6 +169,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'TAIR10_en\'      synonym=\"$db_synonym{'TAIR10_en'     }\">$db_fullname{'TAIR10_en'     }</option>
 	<option value=\'Bradi_v1.0\'     synonym=\"$db_synonym{'Bradi_v1.0'    }\">$db_fullname{'Bradi_v1.0'    }</option>
 	<option value=\'Braol_v2.1\'     synonym=\"$db_synonym{'Braol_v2.1'    }\">$db_fullname{'Braol_v2.1'    }</option>
+	<option value=\'Brapa_v1.5\'     synonym=\"$db_synonym{'Brapa_v1.5'    }\">$db_fullname{'Brapa_v1.5'    }</option>
 	<option value=\'IVFCAASv1\'      synonym=\"$db_synonym{'IVFCAASv1'     }\">$db_fullname{'IVFCAASv1'     }</option>
 	<option value=\'Brana_v4.1\'     synonym=\"$db_synonym{'Brana_v4.1'    }\">$db_fullname{'Brana_v4.1'    }</option>
 	<option value=\'Chlre_v3.1\'     synonym=\"$db_synonym{'Chlre_v3.1'    }\">$db_fullname{'Chlre_v3.1'    }</option>

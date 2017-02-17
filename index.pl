@@ -970,6 +970,10 @@ my $db      = $_[3] // '' ;
 	       "data=data%2Ffragaria%2Ffvesca_v2.0.a1&loc=$name%3A$pos..$pos_end&" .
 	       "tracks=DNA%2Cgenes%2C" .
 	       "transcripts'>$name:$pos-$pos_end</a>" :
+($db eq 'Brapa_v1.5' and $name =~ s/\s.*//) ?
+	return "<a class=a target='_blank' href='" .
+	       "http://brassicadb.org/cgi-bin/gbrowse/Brassica_v1.5/?" .
+	       "name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'ASM15162v1' and $name =~ s/\s.*//) ?
 	return "<a class=a target='_blank' href='" .
 	       "http://metazoa.ensembl.org/Bombyx_mori/Location/View?" .
