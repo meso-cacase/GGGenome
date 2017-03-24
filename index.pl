@@ -782,8 +782,7 @@ my $position_end = ($position and $length) ?
                    '' ;
 
 $name =~ s/^>// ;
-$position -- ;      # BEDの座標は0-basedのため変換
-$position_end -- ;  # BEDの座標は0-basedのため変換
+$position -- ;  # BEDのstartは0-basedのため変換、endは1-basedのためそのまま
 
 return join "\t", (
 	$name,
