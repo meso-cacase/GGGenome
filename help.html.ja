@@ -423,7 +423,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'      synonym="">RefSeq complete RNA release 80 (Jan, 2017)</option>
+	<option value='refseq'      synonym="">RefSeq complete RNA release 81 (Mar, 2017)</option>
 	<option value='hs_refseq80' synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70' synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq80' synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
@@ -3235,7 +3235,16 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 80 (Jan, 2017)<br>(alias of latest refseq release)
+	<td>RefSeq complete RNA release 81 (Mar, 2017)<br>(alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq81/'>refseq81</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 81 (Mar, 2017)
 </tr>
 <tr>
 	<td><a href='/refseq80/'>refseq80</a>
@@ -3593,6 +3602,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-03-24 RefSeq rel. 81 (Mar, 2017) に更新。
 	<li>2017-02-17 ハクサイ (<i>Brassica rapa</i>) ゲノム v1.5 を追加。
 	<li>2017-02-01 DDBJ rel. 107.0 (Jan, 2017) に更新。
 	<li>2017-01-20 8種のゲノムを追加 -
@@ -3675,7 +3685,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Feb 17, 2017 by
+<p class=g>Last modified on Mar 24, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
