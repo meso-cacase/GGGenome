@@ -314,8 +314,8 @@ mmxm_refseq80        	172.18.8.75	50243	RefSeq   	RefSeq mouse RNA (XM/XR) relea
 rn_refseq80          	172.18.8.75	50253	RefSeq   	RefSeq rat RNA release 80 (Jan, 2017)	Rattus norvegicus
 rnnm_refseq80        	172.18.8.75	50263	RefSeq   	RefSeq rat RNA (NM/NR) release 80 (Jan, 2017)	Rattus norvegicus
 rnxm_refseq80        	172.18.8.75	50273	RefSeq   	RefSeq rat RNA (XM/XR) release 80 (Jan, 2017)	Rattus norvegicus
-togogenome74         	172.18.8.70	60243	         	TogoGenome from RefSeq 74 (Jan, 2016)	
-togogenome           	172.18.8.70	60243	         	TogoGenome from RefSeq 74 (Jan, 2016)	
+togogenome79         	172.18.8.70	60293	         	TogoGenome from RefSeq 79 (Nov, 2016)	
+togogenome           	172.18.8.70	60293	         	TogoGenome from RefSeq 79 (Nov, 2016)	
 ddbj108hum           	172.18.8.77	53023	DDBJ     	DDBJ release 108.0, HUM division (Mar, 2017)	ddbjhum
 ddbj108pri           	172.18.8.76	53033	DDBJ     	DDBJ release 108.0, PRI division (Mar, 2017)	ddbjpri
 ddbj108rod           	172.18.8.72	53043	DDBJ     	DDBJ release 108.0, ROD division (Mar, 2017)	ddbjrod
