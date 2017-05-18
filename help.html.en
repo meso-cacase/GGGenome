@@ -423,7 +423,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'      synonym="">RefSeq complete RNA release 81 (Mar, 2017)</option>
+	<option value='refseq'      synonym="">RefSeq complete RNA release 82 (May, 2017)</option>
 	<option value='hs_refseq80' synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70' synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq80' synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
@@ -2966,15 +2966,15 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 81 (Mar, 2017)<br>(alias of latest refseq release)
+	<td>RefSeq complete RNA release 82 (May, 2017)<br>(alias of latest refseq release)
 </tr>
 <tr>
-	<td><a href='/refseq81/'>refseq81</a>
+	<td><a href='/refseq82/'>refseq82</a>
 	<td>RefSeq
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 81 (Mar, 2017)
+	<td>RefSeq complete RNA release 82 (May, 2017)
 </tr>
 <tr>
 	<td><a href='/refseq80/'>refseq80</a>
@@ -3284,6 +3284,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-05-18 Database updated to RefSeq rel. 82 (May, 2017).
 	<li>2017-04-20 Database updated to DDBJ rel. 108.0 (Mar, 2017).
 	<li>2017-03-24 Database updated to RefSeq rel. 81 (Mar, 2017).
 	<li>2017-02-17 <i>Brassica rapa</i> genome v1.5 is available.
@@ -3369,7 +3370,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Apr 20, 2017 by
+<p class=g>Last modified on May 18, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

@@ -285,7 +285,8 @@ Ptrichocarpa_v3.0       	172.18.8.74	47353	Phytozome	Populus trichocarpa genome,
 refseq70             	172.18.8.74	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
 refseq80             	172.18.8.74	60103	RefSeq   	RefSeq complete RNA release 80 (Jan, 2017)	
 refseq81             	172.18.8.73	60113	RefSeq   	RefSeq complete RNA release 81 (Mar, 2017)	
-refseq               	172.18.8.73	60113	RefSeq   	RefSeq complete RNA release 81 (Mar, 2017)	
+refseq82             	172.18.8.74	60123	RefSeq   	RefSeq complete RNA release 82 (May, 2017)	
+refseq               	172.18.8.74	60123	RefSeq   	RefSeq complete RNA release 82 (May, 2017)	
 hs_refseq            	172.18.8.75	42393	RefSeq   	RefSeq human RNA release 60 (Jul, 2013)	Homo sapiens
 mm_refseq            	172.18.8.75	42433	RefSeq   	RefSeq mouse RNA release 60 (Jul, 2013)	Mus musculus
 hg19_pre_mRNA        	172.18.8.75	50013	         	Human pre mRNA, Bits DB (Dec, 2014)	Homo sapiens
