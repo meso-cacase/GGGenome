@@ -430,6 +430,8 @@ function set_strand(){
 	<option value='mm_refseq70' synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='rn_refseq80' synonym="Rattus norvegicus">RefSeq rat RNA release 80 (Jan, 2017)</option>
 	<option value='rn_refseq70' synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
+	<option value='GENCODE_26'  synonym="Homo sapiens">GENCODE human release 26 (Mar, 2017)</option>
+	<option value='GENCODE_M13' synonym="Mus musculus">GENCODE mouse release M13 (Mar, 2017)</option>
 	<option value='togogenome'  synonym="">TogoGenome from RefSeq 79 (Nov, 2016)</option>
 	<option value='prok'        synonym="">Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
 	<option value='16SrRNA'     synonym="">DDBJ 16S rRNA of prokaryotes (Dec, 2014)</option>
@@ -3057,6 +3059,22 @@ set_strand() ;
 	<td>RefSeq rat RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/GENCODE_26/'>GENCODE_26</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td>GENCODE human release 26 (Mar, 2017)
+</tr>
+<tr>
+	<td><a href='/GENCODE_M13/'>GENCODE_M13</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td>GENCODE mouse release M13 (Mar, 2017)
+</tr>
+<tr>
 	<td><a href='/ddbj108hum/'>ddbj108hum</a>
 	<td>DDBJ
 	<td>
@@ -3284,6 +3302,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-06-09 GENCODE human 26 (Mar, 2017) and mouse M13 (Mar, 2017) are available.
 	<li>2017-05-18 Database updated to RefSeq rel. 82 (May, 2017).
 	<li>2017-04-20 Database updated to DDBJ rel. 108.0 (Mar, 2017).
 	<li>2017-03-24 Database updated to RefSeq rel. 81 (Mar, 2017).
@@ -3370,7 +3389,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on May 18, 2017 by
+<p class=g>Last modified on Jun 9, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

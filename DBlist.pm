@@ -315,6 +315,8 @@ mmxm_refseq80        	172.18.8.75	50243	RefSeq   	RefSeq mouse RNA (XM/XR) relea
 rn_refseq80          	172.18.8.75	50253	RefSeq   	RefSeq rat RNA release 80 (Jan, 2017)	Rattus norvegicus
 rnnm_refseq80        	172.18.8.75	50263	RefSeq   	RefSeq rat RNA (NM/NR) release 80 (Jan, 2017)	Rattus norvegicus
 rnxm_refseq80        	172.18.8.75	50273	RefSeq   	RefSeq rat RNA (XM/XR) release 80 (Jan, 2017)	Rattus norvegicus
+GENCODE_26           	172.18.8.75	42953	GENCODE  	GENCODE human release 26 (Mar, 2017)	Homo sapiens
+GENCODE_M13          	172.18.8.75	42963	GENCODE  	GENCODE mouse release M13 (Mar, 2017)	Mus musculus
 togogenome79         	172.18.8.70	60293	         	TogoGenome from RefSeq 79 (Nov, 2016)	
 togogenome           	172.18.8.70	60293	         	TogoGenome from RefSeq 79 (Nov, 2016)	
 ddbj108hum           	172.18.8.77	53023	DDBJ     	DDBJ release 108.0, HUM division (Mar, 2017)	ddbjhum

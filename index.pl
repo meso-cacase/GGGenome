@@ -1054,6 +1054,13 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href=" .
 	       "https://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
+($db =~ /^GENCODE/ and $name =~ /^(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)$/) ?
+	return "<a class=a target='_blank' href=" .
+	       "http://www.ensembl.org/Multi/Search/Results?q=$1>$5</a> <font color=silver>|</font> " .
+	       "transcript <font color=silver>|</font> $8<br>\n\t" .
+	       "<font color='#0E774A'>$1</font> <font color=silver>|</font> " .
+	       "<font color='#7F3737'>$4</font><br>\n\t" .
+	       "position: $pos-$pos_end\n" :
 # それ以外の場合
 	return "$name<br>\n\t" .
 	       "position: $pos-$pos_end\n" ;
