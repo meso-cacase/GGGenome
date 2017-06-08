@@ -159,6 +159,8 @@ function set_strand(){
 	<option value='hg38'    synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
 	<option value='hg19' selected    synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
 	<option value='hg18'    synonym="Homo sapiens">Human genome, NCBI36/hg18 (Mar, 2006)</option>
+	<option value='JRGv2'   synonym="Homo sapiens">Human Japanese Reference Genome, JRGv2 (Jun, 2017)</option>
+	<option value='decoyJRGv2' synonym="Homo sapiens">Decoy sequence of the Human Japanese Reference Genome, decoyJRGv2 (Jun, 2017)</option>
 	<option value='JRGv1'   synonym="Homo sapiens">Human Japanese Reference Genome, JRGv1 (Aug, 2016)</option>
 	<option value='decoyJRGv1' synonym="Homo sapiens">Decoy sequence of the Human Japanese Reference Genome, decoyJRGv1 (Aug, 2016)</option>
 	<option value='mm10'    synonym="Mus musculus">Mouse genome, GRCm38/mm10 (Dec, 2011)</option>
@@ -3139,6 +3141,26 @@ set_strand() ;
 		-->Oxytricha trifallax micronuclear genome</a>
 </tr>
 <tr>
+	<td><a href='/JRGv2/'>JRGv2</a>
+	<td>ToMMo
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
+		-->Japanese Reference Genome, JRGv2 (Jun, 2017)</a>
+</tr>
+<tr>
+	<td><a href='/decoyJRGv2/'>decoyJRGv2</a>
+	<td>ToMMo
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
+		-->Decoy sequence of the Japanese Reference Genome,<br>decoyJRGv2 (Jun, 2017)</a>
+</tr>
+<tr>
 	<td><a href='/JRGv1/'>JRGv1</a>
 	<td>ToMMo
 	<td>Mammal
@@ -3613,6 +3635,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-06-09 日本人基準ゲノム JRGv2/decoyJRGv2 を追加。
 	<li>2017-06-09 GENCODE ヒト 26 (Mar, 2017) および マウス M13 (Mar, 2017) を追加。
 	<li>2017-05-18 RefSeq rel. 82 (May, 2017) に更新。
 	<li>2017-04-20 DDBJ rel. 108.0 (Mar, 2017) に更新。
