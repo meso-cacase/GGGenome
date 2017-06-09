@@ -3367,7 +3367,8 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td>GENCODE human release 26 (Mar, 2017)
+	<td><a target='_blank' href='https://www.gencodegenes.org/releases/26.html'><!--
+		-->GENCODE human release 26 (Mar, 2017)</a>
 </tr>
 <tr>
 	<td><a href='/GENCODE_M13/'>GENCODE_M13</a>
@@ -3376,7 +3377,8 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td>GENCODE mouse release M13 (Mar, 2017)
+	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/13.html'><!--
+		-->GENCODE mouse release M13 (Mar, 2017)</a>
 </tr>
 <tr>
 	<td><a href='/ddbj108hum/'>ddbj108hum</a>
