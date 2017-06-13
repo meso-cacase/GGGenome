@@ -260,6 +260,7 @@ asagao               	172.18.8.72	42903	         	Ipomoea nil (Tokyo Kokei Stand
 malus_x_domestica_v1.0p 	172.18.8.72	42913	         	Malus domestica genome, v1.0p (Aug, 2012)	Malus domestica;apple
 fragaria_vesca_v2.0.a1  	172.18.8.72	42923	         	Fragaria vesca genome, v2.0.a1 (Dec, 2014)	Fragaria vesca;strawberry
 Brapa_v1.5           	172.18.8.72	42933	         	Brassica rapa genome, v1.5 (May, 2013)	Brassica rapa ssp. pekinensis;chinese cabbage
+Bomo_silkbase        	172.18.8.72	42943	SilkBase 	Silkworm genome, SilkBase assembly (Jan, 2017)	Bombyx mori
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3          	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1   	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss

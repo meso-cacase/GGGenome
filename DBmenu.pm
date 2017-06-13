@@ -135,7 +135,9 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'Aqu1\'           synonym=\"$db_synonym{'Aqu1'          }\">$db_fullname{'Aqu1'          }</option>
 	<option value=\'AdarC3\'         synonym=\"$db_synonym{'AdarC3'        }\">$db_fullname{'AdarC3'        }</option>
 	<option value=\'Attacep1.0\'     synonym=\"$db_synonym{'Attacep1.0'    }\">$db_fullname{'Attacep1.0'    }</option>
+	<option value=\'Bomo_silkbase\'  synonym=\"$db_synonym{'Bomo_silkbase' }\">$db_fullname{'Bomo_silkbase' }</option>
 	<option value=\'ASM15162v1\'     synonym=\"$db_synonym{'ASM15162v1'    }\">$db_fullname{'ASM15162v1'    }</option>
+	<option value=\'bmor1\'          synonym=\"$db_synonym{'bmor1'         }\">$db_fullname{'bmor1'         }</option>
 	<option value=\'B_malayi_3.0\'   synonym=\"$db_synonym{'B_malayi_3.0'  }\">$db_fullname{'B_malayi_3.0'  }</option>
 	<option value=\'Capte_v1.0\'     synonym=\"$db_synonym{'Capte_v1.0'    }\">$db_fullname{'Capte_v1.0'    }</option>
 	<option value=\'oyster_v9\'      synonym=\"$db_synonym{'oyster_v9'     }\">$db_fullname{'oyster_v9'     }</option>
@@ -209,7 +211,6 @@ $dbmenu = <<"--EOS--" ;
 
 	<option value=\'macaque_CE_1\' synonym=\"$db_synonym{'macaque_CE_1'}\">$db_fullname{'macaque_CE_1'}</option>
 	<option value=\'MesAur1.0\'    synonym=\"$db_synonym{'MesAur1.0'   }\">$db_fullname{'MesAur1.0'   }</option>
-	<option value=\'bmor1\'        synonym=\"$db_synonym{'bmor1'       }\">$db_fullname{'bmor1'       }</option>
 	<option value=\'h7\'           synonym=\"$db_synonym{'h7'          }\">$db_fullname{'h7'          }</option>
 	<option value=\'Hydra_RP_1.0\' synonym=\"$db_synonym{'Hydra_RP_1.0'}\">$db_fullname{'Hydra_RP_1.0'}</option>
 	<option value=\'Tetth\'        synonym=\"$db_synonym{'Tetth'       }\">$db_fullname{'Tetth'       }</option>

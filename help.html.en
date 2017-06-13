@@ -285,7 +285,9 @@ function set_strand(){
 	<option value='Aqu1'           synonym="Amphimedon queenslandica;sponge">Amphimedon queenslandica genome, Aqu1 (Oct, 2010)</option>
 	<option value='AdarC3'         synonym="Anopheles darlingi;mosquito">Anopheles darlingi genome, AdarC3 (Jan, 2014)</option>
 	<option value='Attacep1.0'     synonym="Atta cephalotes;leafcutter ant">Atta cephalotes genome, Attacep1.0 (Jul, 2012)</option>
+	<option value='Bomo_silkbase'  synonym="Bombyx mori">Silkworm genome, SilkBase assembly (Jan, 2017)</option>
 	<option value='ASM15162v1'     synonym="Bombyx mori">Silkworm genome, ASM15162v1 (Feb, 2013)</option>
+	<option value='bmor1'          synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
 	<option value='B_malayi_3.0'   synonym="Brugia malayi;filarial nematode worm">Brugia malayi genome, B_malayi-3.0 (Dec, 2012)</option>
 	<option value='Capte_v1.0'     synonym="Capitella teleta;polychaete worm">Capitella teleta genome, Capitella teleta v1.0 (Dec, 2012)</option>
 	<option value='oyster_v9'      synonym="Crassostrea gigas;pacific oyster">Crassostrea gigas genome, oyster_v9 (Sep, 2012)</option>
@@ -359,7 +361,6 @@ function set_strand(){
 
 	<option value='macaque_CE_1' synonym="Macaca fascicularis">Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
 	<option value='MesAur1.0'    synonym="Mesocricetus auratus;golden hamster">Golden hamster genome, MesAur1.0 (Mar, 2013)</option>
-	<option value='bmor1'        synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
 	<option value='h7'           synonym="Hydra vulgaris">Hydra genome, h7 (Aug, 2008)</option>
 	<option value='Hydra_RP_1.0' synonym="Hydra vulgaris">Hydra genome, Hydra_RP_1.0 (Oct, 2009)</option>
 	<option value='Tetth'        synonym="Tetrahymena thermophila">Tetrahymena thermophila genome (Jun, 2014)</option>
@@ -2629,6 +2630,15 @@ set_strand() ;
 		-->Tokyo Kokei Standard; TKS (Sep, 2016)</a>
 </tr>
 <tr>
+	<td><a href='/Bomo_silkbase/'>Bomo_silkbase</a>
+	<td>SilkBase
+	<td>Insect
+	<td>Silkworm
+	<td>Bombyx mori
+	<td><a target='_blank' href='http://silkbase.ab.a.u-tokyo.ac.jp/cgi-bin/download.cgi'><!--
+		-->SilkBase assembly (Jan, 2017)</a>
+</tr>
+<tr>
 	<td><a href='/bmor1/'>bmor1</a>
 	<td>Ensembl
 	<td>Insect
@@ -3324,6 +3334,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-06-14 Silkworm genome (SilkBase, 2017) is available.
 	<li>2017-06-09 Human Japanese Reference Genome JRGv2/decoyJRGv2 are available.
 	<li>2017-06-09 GENCODE human 26 (Mar, 2017) and mouse M13 (Mar, 2017) are available.
 	<li>2017-05-18 Database updated to RefSeq rel. 82 (May, 2017).
@@ -3412,7 +3423,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jun 9, 2017 by
+<p class=g>Last modified on Jun 14, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
