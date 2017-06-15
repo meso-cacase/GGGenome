@@ -261,6 +261,11 @@ malus_x_domestica_v1.0p 	172.18.8.72	42913	         	Malus domestica genome, v1.
 fragaria_vesca_v2.0.a1  	172.18.8.72	42923	         	Fragaria vesca genome, v2.0.a1 (Dec, 2014)	Fragaria vesca;strawberry
 Brapa_v1.5           	172.18.8.72	42933	         	Brassica rapa genome, v1.5 (May, 2013)	Brassica rapa ssp. pekinensis;chinese cabbage
 Bomo_silkbase        	172.18.8.72	42943	SilkBase 	Silkworm genome, SilkBase assembly (Jan, 2017)	Bombyx mori
+SL2.4                	172.18.8.72	42053	         	Solanum lycopersicum genome, SL2.40 (Jan, 2011)	Solanum lycopersicum;tomato
+SL3.0                	172.18.8.72	42063	         	Solanum lycopersicum genome, SL3.00 (Feb, 2017)	Solanum lycopersicum;tomato
+ChineseLong_v2       	172.18.8.72	42073	         	Cucumis sativus (Chinese long) genome, v2	Cucumis sativus;cucumber
+PI183967             	172.18.8.72	42083	         	Cucumis sativus (PI183967) genome (Apr, 2013)	Cucumis sativus;cucumber
+CM3.5.1              	172.18.8.72	42093	         	Cucumis melo genome, v3.5.1 (Oct, 2013)	Cucumis melo;melon
 16SrRNA              	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3          	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1   	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss
@@ -269,6 +274,8 @@ Olucimarinus_231_v2     	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus ge
 Cgrandiflora_v1         	172.18.8.74	47043	Phytozome	Capsella grandiflora genome, v1.1	Capsella grandiflora;c. grandiflora
 Crubella_v1             	172.18.8.74	47053	Phytozome	Capsella rubella genome, v1.0	Capsella rubella;red shepherd's purse
 Cpapaya_r.Dec2008       	172.18.8.74	47063	Phytozome	Carica papaya genome, ASGPBv0.4	Carica papaya;papaya
+Cclementina_v1          	172.18.8.74	47083	Phytozome	Citrus clementina genome, v1.0	Citrus clementina;clementine
+Csinensis_v1            	172.18.8.74	47093	Phytozome	Citrus sinensis genome, v1.1	Citrus sinensis;sweet orange
 CsubellipsoideaC169_v2.0	172.18.8.74	47103	Phytozome	Coccomyxa subellipsoidea C-169 genome, v2.0	Coccomyxa subellipsoidea;c. subellipsoidea
 Csativus_v1             	172.18.8.74	47113	Phytozome	Cucumis sativus genome, v1.0	Cucumis sativus;cucumber
 Egrandis_v2.0           	172.18.8.74	47123	Phytozome	Eucalyptus grandis genome, v2.0	Eucalyptus grandis;eucalyptus

@@ -350,7 +350,9 @@ function set_strand(){
 	<option value='Prupe1_0'       synonym="Prunus persica;peach">Prunus persica genome, Prupe1_0 (Mar, 2013)</option>
 	<option value='Selml_v1.0'     synonym="Selaginella moellendorffii;spikemoss">Selaginella moellendorffii genome, v1.0 (May, 2011)</option>
 	<option value='Setit_JGIv2.0'  synonym="Setaria italica;foxtail millet">Setaria italica genome, JGIv2.0 (Jan, 2012)</option>
+	<option value='SL3.0'          synonym="Solanum lycopersicum;tomato">Solanum lycopersicum genome, SL3.00 (Feb, 2017)</option>
 	<option value='SL2.50'         synonym="Solanum lycopersicum str. Heinz 1706;tomato">Solanum lycopersicum str. Heinz 1706 genome, SL2.50 (Oct, 2014)</option>
+	<option value='SL2.4'          synonym="Solanum lycopersicum;tomato">Solanum lycopersicum genome, SL2.40 (Jan, 2011)</option>
 	<option value='SolTub_3.0'     synonym="Solanum tuberosum;potato">Solanum tuberosum genome, SolTub_3.0 (May, 2011)</option>
 	<option value='Sorbi1'         synonym="Sorghum bicolor;sorghum">Sorghum bicolor genome, Sorbi1 (Dec, 2007)</option>
 	<option value='Thecc_20110822' synonym="Theobroma cacao;cacao">Theobroma cacao genome, Theobroma_cacao_20110822 (May, 2014)</option>
@@ -402,7 +404,12 @@ function set_strand(){
 	<option value='Cgrandiflora_v1'          synonym="Capsella grandiflora;c. grandiflora">Capsella grandiflora genome, v1.1</option>
 	<option value='Crubella_v1'              synonym="Capsella rubella;red shepherd's purse">Capsella rubella genome, v1.0</option>
 	<option value='Cpapaya_r.Dec2008'        synonym="Carica papaya;papaya">Carica papaya genome, ASGPBv0.4</option>
+	<option value='Cclementina_v1'           synonym="Citrus clementina;clementine">Citrus clementina genome, v1.0</option>
+	<option value='Csinensis_v1'             synonym="Citrus sinensis;sweet orange">Citrus sinensis genome, v1.1</option>
 	<option value='CsubellipsoideaC169_v2.0' synonym="Coccomyxa subellipsoidea;c. subellipsoidea">Coccomyxa subellipsoidea C-169 genome, v2.0</option>
+	<option value='CM3.5.1'                  synonym="Cucumis melo;melon">Cucumis melo genome, v3.5.1 (Oct, 2013)</option>
+	<option value='PI183967'                 synonym="Cucumis sativus;cucumber">Cucumis sativus (PI183967) genome (Apr, 2013)</option>
+	<option value='ChineseLong_v2'           synonym="Cucumis sativus;cucumber">Cucumis sativus (Chinese long) genome, v2</option>
 	<option value='Csativus_v1'              synonym="Cucumis sativus;cucumber">Cucumis sativus genome, v1.0</option>
 	<option value='Egrandis_v2.0'            synonym="Eucalyptus grandis;eucalyptus">Eucalyptus grandis genome, v2.0</option>
 	<option value='fragaria_vesca_v2.0.a1'   synonym="Fragaria vesca;strawberry">Fragaria vesca genome, v2.0.a1 (Dec, 2014)</option>
@@ -2324,6 +2331,24 @@ set_strand() ;
 		-->ASGPBv0.4</a>
 </tr>
 <tr>
+	<td><a href='/Cclementina_v1/'>Cclementina_v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Clementine
+	<td>Citrus clementina
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Cclementina'><!--
+		-->v1.0</a>
+</tr>
+<tr>
+	<td><a href='/Csinensis_v1/'>Csinensis_v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Sweet orange
+	<td>Citrus sinensis
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Csinensis'><!--
+		-->v1.1</a>
+</tr>
+<tr>
 	<td><a href='/CsubellipsoideaC169_v2.0/'>CsubellipsoideaC169_v2.0</a>
 	<td>Phytozome
 	<td>Plant
@@ -2628,6 +2653,51 @@ set_strand() ;
 	<td>Ipomoea nil<br>(Pharbitis nil)
 	<td><a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/wgs/BDFN.gz'><!--
 		-->Tokyo Kokei Standard; TKS (Sep, 2016)</a>
+</tr>
+<tr>
+	<td><a href='/SL3.0/'>SL3.0</a>
+	<td>
+	<td>Plant
+	<td>Tomato
+	<td>Solanum lycopersicum
+	<td><a target='_blank' href='https://solgenomics.net/organism/Solanum_lycopersicum/genome'><!--
+		-->SL3.00 (Feb, 2017)</a>
+</tr>
+<tr>
+	<td><a href='/SL2.4/'>SL2.4</a>
+	<td>
+	<td>Plant
+	<td>Tomato
+	<td>Solanum lycopersicum
+	<td><a target='_blank' href='https://solgenomics.net/organism/Solanum_lycopersicum/genome'><!--
+		-->SL2.40 (Jan, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/CM3.5.1/'>CM3.5.1</a>
+	<td>
+	<td>Plant
+	<td>Melon
+	<td>Cucumis melo
+	<td><a target='_blank' href='https://melonomics.net/files/Genome/Melon_genome_v3.5.1/'><!--
+		-->v3.5.1 (Oct, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/PI183967/'>PI183967</a>
+	<td>
+	<td>Plant
+	<td>Cucumber (PI183967)
+	<td>Cucumis sativus
+	<td><a target='_blank' href='http://cucurbitgenomics.org/organism/6'><!--
+		-->PI183967 (Apr, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/ChineseLong_v2/'>ChineseLong_v2</a>
+	<td>
+	<td>Plant
+	<td>Cucumber (Chinese long)
+	<td>Cucumis sativus
+	<td><a target='_blank' href='http://cucurbitgenomics.org/organism/2'><!--
+		-->v2</a>
 </tr>
 <tr>
 	<td><a href='/Bomo_silkbase/'>Bomo_silkbase</a>
@@ -3334,6 +3404,8 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-06-15 Added 7 genome databases -
+		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
 	<li>2017-06-14 Silkworm genome (SilkBase, 2017) is available.
 	<li>2017-06-09 Human Japanese Reference Genome JRGv2/decoyJRGv2 are available.
 	<li>2017-06-09 GENCODE human 26 (Mar, 2017) and mouse M13 (Mar, 2017) are available.
@@ -3423,7 +3495,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jun 14, 2017 by
+<p class=g>Last modified on Jun 15, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
