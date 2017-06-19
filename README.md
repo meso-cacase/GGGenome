@@ -19,15 +19,13 @@ GGGenome《ゲゲゲノム》
 + http://GGGenome.dbcls.jp/hg19/2/GCAAGAAGAGATTGCCCA  
   ヒトゲノムhg19に対して2ミスマッチ/ギャップ以内で GCAAGAAGAGATTGCCCA を検索
 
-![スクリーンショット]
-(http://g86.dbcls.jp/~meso/meme/wp-content/uploads/2013/02/GGGenome_screen.png
+![スクリーンショット](http://data.dbcls.jp/~meso/img/GGGenome_screen.png
 "GGGenome《ゲゲゲノム》スクリーンショットHTML")
 
 + http://GGGenome.dbcls.jp/hg19/2/GCAAGAAGAGATTGCCCA.json  
   上記の結果をJSONで取得
 
-![スクリーンショット]
-(http://g86.dbcls.jp/~meso/meme/wp-content/uploads/2013/02/GGGenome_json.png
+![スクリーンショット](http://data.dbcls.jp/~meso/img/GGGenome_json.png
 "GGGenome《ゲゲゲノム》スクリーンショットJSON")
 
 
@@ -36,41 +34,35 @@ GGGenome《ゲゲゲノム》
 
 下記のように検索クエリとURIとが対応しています。
 
-**URI:** http://GGGenome.dbcls.jp/db/k/sequence[.format][.download]
+```
+URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
+```
 
-+ *db* : 塩基配列データベース  
-  'hg19'   - ヒトゲノム [GRCh37/hg19 (Feb, 2009)]
-             (http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
++ *`db`* : 塩基配列データベース  
+  `hg19`   - ヒトゲノム [GRCh37/hg19 (Feb, 2009)](http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
              (省略時のデフォルト)  
-  'mm10'   - マウスゲノム [GRCm38/mm10 (Dec, 2011)]
-             (http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
-  'dm3'    - ショウジョウバエゲノム [BDGP R5/dm3 (Apr, 2006)]
-             (http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
-  'ce10'   - 線虫ゲノム [WS220/ce10 (Oct, 2010)]
-             (http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
-  'TAIR10' - シロイヌナズナゲノム [TAIR10 (Nov, 2010)]
-             (ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/)  
-  'pombe'  - 分裂酵母ゲノム [ASM294v2 (Nov, 2007)]
-             (ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz)  
-  'refseq' - [RefSeq complete RNA (最新版)]
-             (ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
-   その他   - [検索可能なデータベース一覧]
-             (http://GGGenome.dbcls.jp/help.html)
-+ *k* : 許容するミスマッチ/ギャップの数  
-  省略時のデフォルト: 0
-+ *strand* : 特定の方向のみ検索  
-  '+' または 'plus'  - プラス方向のみ検索  
-  '-' または 'minus' - マイナス方向のみ検索  
+  `mm10`   - マウスゲノム [GRCm38/mm10 (Dec, 2011)](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
+  `dm3`    - ショウジョウバエゲノム [BDGP R5/dm3 (Apr, 2006)](http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
+  `ce10`   - 線虫ゲノム [WS220/ce10 (Oct, 2010)](http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
+  `TAIR10` - シロイヌナズナゲノム [TAIR10 (Nov, 2010)](ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/)  
+  `pombe`  - 分裂酵母ゲノム [ASM294v2 (Nov, 2007)](ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz)  
+  `refseq` - [RefSeq complete RNA (最新版)](ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
+   その他   - [検索可能なデータベース一覧](http://GGGenome.dbcls.jp/help.html)
++ *`k`* : 許容するミスマッチ/ギャップの数  
+  省略時のデフォルト: `0`
++ *`strand`* : 特定の方向のみ検索  
+  `+` または `plus`  - プラス方向のみ検索  
+  `-` または `minus` - マイナス方向のみ検索  
   省略時は両方向を検索
-+ *sequence* : 塩基配列 (省略不可)
-+ *format* : 検索結果のフォーマット  
-  'html' - HTML (省略時のデフォルト)  
-  'txt'  - タブ区切りテキスト  
-  'csv'  - CSV (comma-separated values) 形式  
-  'bed'  - BED (browser extensible data) 形式  
-  'gff'  - GFF (general feature format) 形式  
-  'json' - JSON
-+ *download* : 検索結果をファイルとしてダウンロード (txt, csv, bed, gff, jsonのみ)
++ *`sequence`* : 塩基配列 (省略不可)
++ *`format`* : 検索結果のフォーマット  
+  `html` - HTML (省略時のデフォルト)  
+  `txt`  - タブ区切りテキスト  
+  `csv`  - CSV (comma-separated values) 形式  
+  `bed`  - BED (browser extensible data) 形式  
+  `gff`  - GFF (general feature format) 形式  
+  `json` - JSON
++ *`download`* : 検索結果をファイルとしてダウンロード (txt, csv, bed, gff, jsonのみ)
 
 **例1:** http://GGGenome.dbcls.jp/ce10/1/TTCATTGACAACATT
 
@@ -107,12 +99,15 @@ GGGenome《ゲゲゲノム》
   遺伝子をGoogleのように検索できるウェブサーバ
   → [紹介記事](http://first.lifesciencedb.jp/from_dbcls/e0001)
 
++ CRISPRdirect (http://crispr.dbcls.jp/)  
+  ゲノム編集のためのガイドRNA設計ウェブサーバ
+  → [プレスリリース](http://dbcls.rois.ac.jp/archives/2642)
 
 ライセンス
 --------
 
-Copyright &copy; 2012-2015 Yuki Naito
+Copyright &copy; 2012-2017 Yuki Naito
  ([@meso_cacase](http://twitter.com/meso_cacase)) at  
 Database Center for Life Science (DBCLS), Japan.  
-This software is distributed under [modified BSD license]
- (http://www.opensource.org/licenses/bsd-license.php).
+This software is distributed under
+[modified BSD license](http://www.opensource.org/licenses/bsd-license.php).
