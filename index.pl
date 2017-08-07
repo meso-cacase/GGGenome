@@ -1017,6 +1017,11 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href=" .
 	       "https://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
+# RefSeq release 83からFASTAファイルの形式変更
+($db =~ /refseq/ and $name =~ /^(\S+)\ (.*)$/) ?
+	return "<a class=a target='_blank' href=" .
+	       "https://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
+	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
 ($db =~ /^(hg19|mm10)_pre_mRNA$/ and $name =~ /^(.*?)\|(.*?)\|(.*?)\|(.*?):(.*?):(.*?):(.*?)\|/) ?
 	return "$4:@{[$6+1]}-$7($5), pre-mRNA of " .
 	       "<a class=a target='_blank' href=" .

@@ -433,7 +433,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'      synonym="">RefSeq complete RNA release 82 (May, 2017)</option>
+	<option value='refseq'      synonym="">RefSeq complete RNA release 83 (Jul, 2017)</option>
 	<option value='hs_refseq80' synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70' synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq80' synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
@@ -3068,15 +3068,15 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 82 (May, 2017)<br>(alias of latest refseq release)
+	<td>RefSeq complete RNA release 83 (Jul, 2017)<br>(alias of latest refseq release)
 </tr>
 <tr>
-	<td><a href='/refseq82/'>refseq82</a>
+	<td><a href='/refseq83/'>refseq83</a>
 	<td>RefSeq
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 82 (May, 2017)
+	<td>RefSeq complete RNA release 83 (Jul, 2017)
 </tr>
 <tr>
 	<td><a href='/refseq80/'>refseq80</a>
@@ -3404,6 +3404,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-08-07 Database updated to RefSeq rel. 83 (Jul, 2017).
 	<li>2017-07-03 Database updated to DDBJ rel. 109.0 (May, 2017).
 	<li>2017-06-15 Added 7 genome databases -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
@@ -3496,7 +3497,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jul 3, 2017 by
+<p class=g>Last modified on Aug 7, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
