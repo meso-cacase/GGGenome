@@ -134,6 +134,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'AaegL3\'         synonym=\"$db_synonym{'AaegL3'        }\">$db_fullname{'AaegL3'        }</option>
 	<option value=\'Aqu1\'           synonym=\"$db_synonym{'Aqu1'          }\">$db_fullname{'Aqu1'          }</option>
 	<option value=\'AdarC3\'         synonym=\"$db_synonym{'AdarC3'        }\">$db_fullname{'AdarC3'        }</option>
+	<option value=\'Aros_1.0\'       synonym=\"$db_synonym{'Aros_1.0'      }\">$db_fullname{'Aros_1.0'      }</option>
 	<option value=\'Attacep1.0\'     synonym=\"$db_synonym{'Attacep1.0'    }\">$db_fullname{'Attacep1.0'    }</option>
 	<option value=\'Bomo_silkbase\'  synonym=\"$db_synonym{'Bomo_silkbase' }\">$db_fullname{'Bomo_silkbase' }</option>
 	<option value=\'ASM15162v1\'     synonym=\"$db_synonym{'ASM15162v1'    }\">$db_fullname{'ASM15162v1'    }</option>
@@ -231,9 +232,11 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'ASM252v1\'     synonym=\"$db_synonym{'ASM252v1'    }\">$db_fullname{'ASM252v1'    }</option>
 	<option value=\'RR\'           synonym=\"$db_synonym{'RR'          }\">$db_fullname{'RR'          }</option>
 	<option value=\'CC3\'          synonym=\"$db_synonym{'CC3'         }\">$db_fullname{'CC3'         }</option>
+	<option value=\'ASM24337v1\'   synonym=\"$db_synonym{'ASM24337v1'  }\">$db_fullname{'ASM24337v1'  }</option>
 	<option value=\'RHOziaDV1.0\'  synonym=\"$db_synonym{'RHOziaDV1.0' }\">$db_fullname{'RHOziaDV1.0' }</option>
 	<option value=\'A_nidulans_FGSC_A4\' synonym=\"$db_synonym{'A_nidulans_FGSC_A4'}\">$db_fullname{'A_nidulans_FGSC_A4'}</option>
 	<option value=\'A_fumigatus_Af293\'  synonym=\"$db_synonym{'A_fumigatus_Af293' }\">$db_fullname{'A_fumigatus_Af293' }</option>
+	<option value=\'A_oryzae_RIB40\'     synonym=\"$db_synonym{'A_oryzae_RIB40'    }\">$db_fullname{'A_oryzae_RIB40'    }</option>
 	<option value=\'C_glabrata_CBS138\'  synonym=\"$db_synonym{'C_glabrata_CBS138' }\">$db_fullname{'C_glabrata_CBS138' }</option>
 	<option value=\'C_albicans_SC5314\'  synonym=\"$db_synonym{'C_albicans_SC5314' }\">$db_fullname{'C_albicans_SC5314' }</option>
 	<option value=\'JCVI_PMFA1_2.0\'     synonym=\"$db_synonym{'JCVI_PMFA1_2.0'    }\">$db_fullname{'JCVI_PMFA1_2.0'    }</option>
@@ -260,6 +263,8 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'CM3.5.1\'                  synonym=\"$db_synonym{'CM3.5.1'                 }\">$db_fullname{'CM3.5.1'                 }</option>
 	<option value=\'PI183967\'                 synonym=\"$db_synonym{'PI183967'                }\">$db_fullname{'PI183967'                }</option>
 	<option value=\'ChineseLong_v2\'           synonym=\"$db_synonym{'ChineseLong_v2'          }\">$db_fullname{'ChineseLong_v2'          }</option>
+	<option value=\'A_chinensis_Hongyang\'     synonym=\"$db_synonym{'A_chinensis_Hongyang'    }\">$db_fullname{'A_chinensis_Hongyang'    }</option>
+	<option value=\'Mpolymorpha_3.1\'          synonym=\"$db_synonym{'Mpolymorpha_3.1'         }\">$db_fullname{'Mpolymorpha_3.1'         }</option>
 	<option value=\'Csativus_v1\'              synonym=\"$db_synonym{'Csativus_v1'             }\">$db_fullname{'Csativus_v1'             }</option>
 	<option value=\'Egrandis_v2.0\'            synonym=\"$db_synonym{'Egrandis_v2.0'           }\">$db_fullname{'Egrandis_v2.0'           }</option>
 	<option value=\'fragaria_vesca_v2.0.a1\'   synonym=\"$db_synonym{'fragaria_vesca_v2.0.a1'  }\">$db_fullname{'fragaria_vesca_v2.0.a1'  }</option>

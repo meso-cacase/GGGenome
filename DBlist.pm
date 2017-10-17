@@ -266,6 +266,11 @@ SL3.0                    	172.18.8.72	42063	         	Solanum lycopersicum genom
 ChineseLong_v2           	172.18.8.72	42073	         	Cucumis sativus (Chinese long) genome, v2	Cucumis sativus;cucumber
 PI183967                 	172.18.8.72	42083	         	Cucumis sativus (PI183967) genome (Apr, 2013)	Cucumis sativus;cucumber
 CM3.5.1                  	172.18.8.72	42093	         	Cucumis melo genome, v3.5.1 (Oct, 2013)	Cucumis melo;melon
+A_oryzae_RIB40           	172.18.8.72	42993	AspGD    	Aspergillus oryzae (RIB40) genome, s01-m09-r03 (Oct, 2015)	Aspergillus oryzae;koji
+A_chinensis_Hongyang     	172.18.8.72	43003	         	Actinidia chinensis genome	Actinidia chinensis;golden kiwi;Kiwifruit
+ASM24337v1               	172.18.8.72	43033	EnsemblFungi	Torulaspora delbrueckii genome, ASM24337v1 (Feb, 2015)	Torulaspora delbrueckii;yeast
+Aros_1.0                 	172.18.8.72	43063	NCBI     	Athalia rosae genome, Aros_1.0 (Mar, 2013)	Athalia rosae;turnip sawfly;coleseed sawfly
+Mpolymorpha_3.1          	172.18.8.72	43583	         	Marchantia polymorpha genome JGI 3.1	Marchantia polymorpha;liverwort
 16SrRNA                  	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3           	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1    	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss
