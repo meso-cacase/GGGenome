@@ -440,7 +440,9 @@ function set_strand(){
 	<option value='mm_refseq70' synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='rn_refseq80' synonym="Rattus norvegicus">RefSeq rat RNA release 80 (Jan, 2017)</option>
 	<option value='rn_refseq70' synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
+	<option value='GENCODE_27'  synonym="Homo sapiens">GENCODE human release 27 (Aug, 2017)</option>
 	<option value='GENCODE_26'  synonym="Homo sapiens">GENCODE human release 26 (Mar, 2017)</option>
+	<option value='GENCODE_M15' synonym="Mus musculus">GENCODE mouse release M15 (Aug, 2017)</option>
 	<option value='GENCODE_M13' synonym="Mus musculus">GENCODE mouse release M13 (Mar, 2017)</option>
 	<option value='togogenome'  synonym="">TogoGenome from RefSeq 83 (Jul, 2017)</option>
 	<option value='prok'        synonym="">Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
@@ -3458,6 +3460,16 @@ set_strand() ;
 	<td>RefSeq rat RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/GENCODE_27/'>GENCODE_27</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://www.gencodegenes.org/releases/27.html'><!--
+		-->GENCODE human release 27 (Aug, 2017)</a>
+</tr>
+<tr>
 	<td><a href='/GENCODE_26/'>GENCODE_26</a>
 	<td>GENCODE
 	<td>Mammal
@@ -3468,6 +3480,15 @@ set_strand() ;
 		-->GENCODE human release 26 (Mar, 2017)</a>
 </tr>
 <tr>
+	<td><a href='/GENCODE_M15/'>GENCODE_M15</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/15.html'><!--
+		-->GENCODE mouse release M15 (Aug, 2017)</a>
+</tr><tr>
 	<td><a href='/GENCODE_M13/'>GENCODE_M13</a>
 	<td>GENCODE
 	<td>Mammal
@@ -3734,6 +3755,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-10-17 GENCODE ヒト 27 (Aug, 2017) および マウス M15 (Aug, 2017) に更新。
 	<li>2017-10-09 RefSeq rel. 84 (Sep, 2017) に更新。
 	<li>2017-08-07 RefSeq rel. 83 (Jul, 2017) に更新。
 	<li>2017-07-03 DDBJ rel. 109.0 (May, 2017) に更新。
@@ -3827,7 +3849,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Oct 9, 2017 by
+<p class=g>Last modified on Oct 17, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
