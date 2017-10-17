@@ -329,6 +329,8 @@ GENCODE_26               	172.18.8.75	42953	GENCODE  	GENCODE human release 26 (
 GENCODE_27               	172.18.8.75	43563	GENCODE  	GENCODE human release 27 (Aug, 2017)	Homo sapiens
 GENCODE_M13              	172.18.8.75	42963	GENCODE  	GENCODE mouse release M13 (Mar, 2017)	Mus musculus
 GENCODE_M15              	172.18.8.75	43573	GENCODE  	GENCODE mouse release M15 (Aug, 2017)	Mus musculus
+miRBase21                	172.18.8.72	43593	miRBase  	miRBase release 21, stem-loop microRNA sequences (Jun, 2014)	
+miRBase21mat             	172.18.8.72	43603	miRBase  	miRBase release 21, mature microRNA sequences (Jun, 2014)	
 togogenome83             	172.18.8.72	60333	         	TogoGenome from RefSeq 83 (Jul, 2017)	
 togogenome               	172.18.8.72	60333	         	TogoGenome from RefSeq 83 (Jul, 2017)	
 ddbj109hum               	172.18.8.77	54023	DDBJ     	DDBJ release 109.0, HUM division (May, 2017)	ddbjhum

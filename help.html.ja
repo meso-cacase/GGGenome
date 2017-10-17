@@ -447,6 +447,8 @@ function set_strand(){
 	<option value='togogenome'  synonym="">TogoGenome from RefSeq 83 (Jul, 2017)</option>
 	<option value='prok'        synonym="">Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
 	<option value='16SrRNA'     synonym="">DDBJ 16S rRNA of prokaryotes (Dec, 2014)</option>
+	<option value='miRBase21'   synonym="">miRBase release 21, stem-loop microRNA sequences (Jun, 2014)</option>
+	<option value='miRBase21mat'     synonym="">miRBase release 21, mature microRNA sequences (Jun, 2014)</option>
 	<option value='macaque_CE_1_cds' synonym="Macaca fascicularis">Crab-eating macaque CDS, CE_1.0 (Jul, 2011)</option>
 
 	<option disabled>--------------------</option>
@@ -3724,6 +3726,26 @@ set_strand() ;
 	<td>DDBJ 16S rRNA of prokaryotes (Dec, 2014)
 </tr>
 <tr>
+	<td><a href='/miRBase21/'>miRBase21</a>
+	<td>miRBase
+	<td>
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='ftp://mirbase.org/pub/mirbase/21/'><!--
+		-->miRBase release 21, stem-loop microRNA sequences (Jun, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/miRBase21mat/'>miRBase21mat</a>
+	<td>miRBase
+	<td>
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='ftp://mirbase.org/pub/mirbase/21/'><!--
+		-->miRBase release 21, mature microRNA sequences (Jun, 2014)</a>
+</tr>
+<tr>
 	<td><a href='/macaque_CE_1_cds/'>macaque_CE_1_cds</a>
 	<td>
 	<td>Mammal
@@ -3755,6 +3777,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-10-17 miRBase rel. 21のstem-loopおよびmature miRNA配列を追加。
 	<li>2017-10-17 GENCODE ヒト 27 (Aug, 2017) および マウス M15 (Aug, 2017) に更新。
 	<li>2017-10-09 RefSeq rel. 84 (Sep, 2017) に更新。
 	<li>2017-08-07 RefSeq rel. 83 (Jul, 2017) に更新。
