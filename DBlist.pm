@@ -338,26 +338,26 @@ miRBase21                	172.18.8.72	43593	miRBase  	miRBase release 21, stem-l
 miRBase21mat             	172.18.8.72	43603	miRBase  	miRBase release 21, mature microRNA sequences (Jun, 2014)	
 togogenome83             	172.18.8.72	60333	         	TogoGenome from RefSeq 83 (Jul, 2017)	
 togogenome               	172.18.8.72	60333	         	TogoGenome from RefSeq 83 (Jul, 2017)	
-ddbj109hum               	172.18.8.77	54023	DDBJ     	DDBJ release 109.0, HUM division (May, 2017)	ddbjhum
-ddbj109pri               	172.18.8.76	54033	DDBJ     	DDBJ release 109.0, PRI division (May, 2017)	ddbjpri
-ddbj109rod               	172.18.8.72	54043	DDBJ     	DDBJ release 109.0, ROD division (May, 2017)	ddbjrod
-ddbj109mam               	172.18.8.76	54053	DDBJ     	DDBJ release 109.0, MAM division (May, 2017)	ddbjmam
-ddbj109vrt               	172.18.8.76	54063	DDBJ     	DDBJ release 109.0, VRT division (May, 2017)	ddbjvrt
-ddbj109inv               	172.18.8.73	54073	DDBJ     	DDBJ release 109.0, INV division (May, 2017)	ddbjinv
-ddbj109pln               	172.18.8.78	54083	DDBJ     	DDBJ release 109.0, PLN division (May, 2017)	ddbjpln
-ddbj109bct               	172.18.8.78	54093	DDBJ     	DDBJ release 109.0, BCT division (May, 2017)	ddbjbct
-ddbj109vrl               	172.18.8.75	54103	DDBJ     	DDBJ release 109.0, VRL division (May, 2017)	ddbjvrl
-ddbj109phg               	172.18.8.78	54113	DDBJ     	DDBJ release 109.0, PHG division (May, 2017)	ddbjphg
-ddbj109pat               	172.18.8.77	54123	DDBJ     	DDBJ release 109.0, PAT division (May, 2017)	ddbjpat
-ddbj109env               	172.18.8.77	54133	DDBJ     	DDBJ release 109.0, ENV division (May, 2017)	ddbjenv
-ddbj109syn               	172.18.8.73	54143	DDBJ     	DDBJ release 109.0, SYN division (May, 2017)	ddbjsyn
-ddbj109est               	172.18.8.73	54153	DDBJ     	DDBJ release 109.0, EST division (May, 2017)	ddbjest
-ddbj109tsa               	172.18.8.72	54163	DDBJ     	DDBJ release 109.0, TSA division (May, 2017)	ddbjtsa
-ddbj109gss               	172.18.8.76	54173	DDBJ     	DDBJ release 109.0, GSS division (May, 2017)	ddbjgss
-ddbj109htc               	172.18.8.73	54183	DDBJ     	DDBJ release 109.0, HTC division (May, 2017)	ddbjhtc
-ddbj109htg               	172.18.8.72	54193	DDBJ     	DDBJ release 109.0, HTG division (May, 2017)	ddbjhtg
-ddbj109sts               	172.18.8.78	54203	DDBJ     	DDBJ release 109.0, STS division (May, 2017)	ddbjsts
-ddbj109una               	172.18.8.73	54213	DDBJ     	DDBJ release 109.0, UNA division (May, 2017)	ddbjuna
+ddbj110hum               	172.18.8.77	55023	DDBJ     	DDBJ release 110.0, HUM division (Sep, 2017)	ddbjhum
+ddbj110pri               	172.18.8.76	55033	DDBJ     	DDBJ release 110.0, PRI division (Sep, 2017)	ddbjpri
+ddbj110rod               	172.18.8.72	55043	DDBJ     	DDBJ release 110.0, ROD division (Sep, 2017)	ddbjrod
+ddbj110mam               	172.18.8.76	55053	DDBJ     	DDBJ release 110.0, MAM division (Sep, 2017)	ddbjmam
+ddbj110vrt               	172.18.8.76	55063	DDBJ     	DDBJ release 110.0, VRT division (Sep, 2017)	ddbjvrt
+ddbj110inv               	172.18.8.73	55073	DDBJ     	DDBJ release 110.0, INV division (Sep, 2017)	ddbjinv
+ddbj110pln               	172.18.8.78	55083	DDBJ     	DDBJ release 110.0, PLN division (Sep, 2017)	ddbjpln
+ddbj110bct               	172.18.8.78	55093	DDBJ     	DDBJ release 110.0, BCT division (Sep, 2017)	ddbjbct
+ddbj110vrl               	172.18.8.75	55103	DDBJ     	DDBJ release 110.0, VRL division (Sep, 2017)	ddbjvrl
+ddbj110phg               	172.18.8.78	55113	DDBJ     	DDBJ release 110.0, PHG division (Sep, 2017)	ddbjphg
+ddbj110pat               	172.18.8.77	55123	DDBJ     	DDBJ release 110.0, PAT division (Sep, 2017)	ddbjpat
+ddbj110env               	172.18.8.77	55133	DDBJ     	DDBJ release 110.0, ENV division (Sep, 2017)	ddbjenv
+ddbj110syn               	172.18.8.73	55143	DDBJ     	DDBJ release 110.0, SYN division (Sep, 2017)	ddbjsyn
+ddbj110est               	172.18.8.73	55153	DDBJ     	DDBJ release 110.0, EST division (Sep, 2017)	ddbjest
+ddbj110tsa               	172.18.8.72	55163	DDBJ     	DDBJ release 110.0, TSA division (Sep, 2017)	ddbjtsa
+ddbj110gss               	172.18.8.76	55173	DDBJ     	DDBJ release 110.0, GSS division (Sep, 2017)	ddbjgss
+ddbj110htc               	172.18.8.73	55183	DDBJ     	DDBJ release 110.0, HTC division (Sep, 2017)	ddbjhtc
+ddbj110htg               	172.18.8.72	55193	DDBJ     	DDBJ release 110.0, HTG division (Sep, 2017)	ddbjhtg
+ddbj110sts               	172.18.8.78	55203	DDBJ     	DDBJ release 110.0, STS division (Sep, 2017)	ddbjsts
+ddbj110una               	172.18.8.73	55213	DDBJ     	DDBJ release 110.0, UNA division (Sep, 2017)	ddbjuna
 --EOS--
 
 return 1 ;
