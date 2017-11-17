@@ -299,7 +299,6 @@ Vcarteri_v2              	172.18.8.74	47343	Phytozome	Volvox carteri genome, v2.
 Ptrichocarpa_v3.0        	172.18.8.74	47353	Phytozome	Populus trichocarpa genome, v3.0	Populus trichocarpa;western balsam poplar
 refseq70                 	172.18.8.74	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
 refseq80                 	172.18.8.74	60103	RefSeq   	RefSeq complete RNA release 80 (Jan, 2017)	
-refseq83                 	172.18.8.73	60133	RefSeq   	RefSeq complete RNA release 83 (Jul, 2017)	
 refseq84                 	172.18.8.74	60143	RefSeq   	RefSeq complete RNA release 84 (Sep, 2017)	
 refseq85                 	172.18.8.73	60153	RefSeq   	RefSeq complete RNA release 85 (Nov, 2017)	
 refseq                   	172.18.8.73	60153	RefSeq   	RefSeq complete RNA release 85 (Nov, 2017)	
