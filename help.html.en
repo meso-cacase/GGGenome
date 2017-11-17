@@ -438,7 +438,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'      synonym="">RefSeq complete RNA release 84 (Sep, 2017)</option>
+	<option value='refseq'      synonym="">RefSeq complete RNA release 85 (Nov, 2017)</option>
 	<option value='hs_refseq80' synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70' synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq80' synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
@@ -3122,7 +3122,15 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 84 (Sep, 2017)<br>(alias of latest refseq release)
+	<td>RefSeq complete RNA release 85 (Nov, 2017)<br>(alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq85/'>refseq85</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 85 (Nov, 2017)
 </tr>
 <tr>
 	<td><a href='/refseq84/'>refseq84</a>
@@ -3501,6 +3509,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-11-17 Database updated to RefSeq rel. 85 (Nov, 2017).
 	<li>2017-11-06 Database updated to DDBJ rel. 110.0 (Sep, 2017).
 	<li>2017-10-17 Added 5 genome databases -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
@@ -3600,7 +3609,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 6, 2017 by
+<p class=g>Last modified on Nov 17, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
