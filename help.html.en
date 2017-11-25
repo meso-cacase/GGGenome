@@ -449,7 +449,7 @@ function set_strand(){
 	<option value='GENCODE_26'  synonym="Homo sapiens">GENCODE human release 26 (Mar, 2017)</option>
 	<option value='GENCODE_M15' synonym="Mus musculus">GENCODE mouse release M15 (Aug, 2017)</option>
 	<option value='GENCODE_M13' synonym="Mus musculus">GENCODE mouse release M13 (Mar, 2017)</option>
-	<option value='togogenome'  synonym="">TogoGenome from RefSeq 83 (Jul, 2017)</option>
+	<option value='togogenome'  synonym="">TogoGenome from RefSeq 84 (Sep, 2017)</option>
 	<option value='prok'        synonym="">Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
 	<option value='16SrRNA'     synonym="">DDBJ 16S rRNA of prokaryotes (Dec, 2014)</option>
 	<option value='miRBase21'   synonym="">miRBase release 21, stem-loop microRNA sequences (Jun, 2014)</option>
@@ -3429,15 +3429,15 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>TogoGenome from RefSeq 83 (Jul, 2017)<br>(alias of latest TogoGenome release)
+	<td>TogoGenome from RefSeq 84 (Sep, 2017)<br>(alias of latest TogoGenome release)
 </tr>
 <tr>
-	<td><a href='/togogenome83/'>togogenome83</a>
+	<td><a href='/togogenome84/'>togogenome84</a>
 	<td>DBCLS
 	<td>
 	<td>
 	<td>
-	<td>TogoGenome from RefSeq 83 (Jul, 2017)
+	<td>TogoGenome from RefSeq 84 (Sep, 2017)
 </tr>
 <tr>
 	<td><a href='/prok/'>prok</a>
@@ -3601,7 +3601,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 17, 2017 by
+<p class=g>Last modified on Nov 25, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
