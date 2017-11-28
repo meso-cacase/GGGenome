@@ -959,6 +959,13 @@ my $db      = $_[3] // '' ;
 	       "Blastx_protein%2C"      .
 	       "Blatx_Plant_protein%2C" .
 	       "GeneExpression_GeneAtlas0_1'>$name:$pos-$pos_end</a>" :
+(grep {$source{$db} eq 'CyanoBase'} keys(%source) and $name =~ s/.*://) ?
+	return "<a class=a target='_blank' href='" .
+	       "http://genome.microbedb.jp/jbrowse/?" .
+	       "data=cyanobase%2F$db&"       .
+	       "tracks=CyanoBase%2CDNA&"     .
+	       "loc=$name%3A$pos..$pos_end&" .
+	       "highlight=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'malus_x_domestica_v1.0p') ?
 	return "<a class=a target='_blank' href='" .
 	       "https://www.rosaceae.org/gb/gbrowse/malus_x_domestica_v1.0-primary/?" .
