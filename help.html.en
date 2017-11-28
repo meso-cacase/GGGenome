@@ -436,6 +436,383 @@ function set_strand(){
 
 	<option value='eboVir3'                  synonym="Filoviridae ebolavirus">Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
 
+	<option value='GCA_000009725.1'          synonym="">Synechocystis sp. PCC 6803 genome, GCA_000009725.1</option>
+	<option value='GCA_000009705.1'          synonym="">Nostoc sp. PCC 7120 genome, GCA_000009705.1</option>
+	<option value='GCA_000011345.1'          synonym="">Thermosynechococcus elongatus BP-1 genome, GCA_000011345.1</option>
+	<option value='GCA_000010625.1'          synonym="">Microcystis aeruginosa NIES-843 genome, GCA_000010625.1</option>
+	<option value='GCA_000011385.1'          synonym="">Gloeobacter violaceus PCC 7421 genome, GCA_000011385.1</option>
+	<option value='GCA_000006985.1'          synonym="">Chlorobium tepidum TLS genome, GCA_000006985.1</option>
+	<option value='GCA_000007925.1'          synonym="">Prochlorococcus marinus subsp. marinus str. CCMP1375 genome, GCA_000007925.1</option>
+	<option value='GCA_000010065.1'          synonym="">Synechococcus elongatus PCC 6301 genome, GCA_000010065.1</option>
+	<option value='GCA_000011465.1'          synonym="">Prochlorococcus marinus subsp. pastoris str. CCMP1986 genome, GCA_000011465.1</option>
+	<option value='GCA_000011485.1'          synonym="">Prochlorococcus marinus str. MIT 9313 genome, GCA_000011485.1</option>
+	<option value='GCA_000012465.1'          synonym="">Prochlorococcus marinus str. NATL2A genome, GCA_000012465.1</option>
+	<option value='GCA_000012505.1'          synonym="">Synechococcus sp. CC9902 genome, GCA_000012505.1</option>
+	<option value='GCA_000012525.1'          synonym="">Synechococcus elongatus PCC 7942 genome, GCA_000012525.1</option>
+	<option value='GCA_000012625.1'          synonym="">Synechococcus sp. CC9605 genome, GCA_000012625.1</option>
+	<option value='GCA_000012645.1'          synonym="">Prochlorococcus marinus str. MIT 9312 genome, GCA_000012645.1</option>
+	<option value='GCA_000013205.1'          synonym="">Synechococcus sp. JA-3-3Ab genome, GCA_000013205.1</option>
+	<option value='GCA_000013225.1'          synonym="">Cyanobacteria bacterium Yellowstone B-Prime genome, GCA_000013225.1</option>
+	<option value='GCA_000014265.1'          synonym="">Trichodesmium erythraeum IMS101 genome, GCA_000014265.1</option>
+	<option value='GCA_000014585.1'          synonym="">Synechococcus sp. CC9311 genome, GCA_000014585.1</option>
+	<option value='GCA_000015645.1'          synonym="">Prochlorococcus marinus str. AS9601 genome, GCA_000015645.1</option>
+	<option value='GCA_000015665.1'          synonym="">Prochlorococcus marinus str. MIT 9515 genome, GCA_000015665.1</option>
+	<option value='GCA_000015685.1'          synonym="">Prochlorococcus marinus str. NATL1A genome, GCA_000015685.1</option>
+	<option value='GCA_000015705.1'          synonym="">Prochlorococcus marinus str. MIT 9303 genome, GCA_000015705.1</option>
+	<option value='GCA_000015965.1'          synonym="">Prochlorococcus marinus str. MIT 9301 genome, GCA_000015965.1</option>
+	<option value='GCA_000017845.1'          synonym="">Cyanothece sp. ATCC 51142 genome, GCA_000017845.1</option>
+	<option value='GCA_000018065.1'          synonym="">Prochlorococcus marinus str. MIT 9215 genome, GCA_000018065.1</option>
+	<option value='GCA_000018105.1'          synonym="">Acaryochloris marina MBIC11017 genome, GCA_000018105.1</option>
+	<option value='GCA_000018585.1'          synonym="">Prochlorococcus marinus str. MIT 9211 genome, GCA_000018585.1</option>
+	<option value='GCA_000019485.1'          synonym="">Synechococcus sp. PCC 7002 genome, GCA_000019485.1</option>
+	<option value='GCA_000020025.1'          synonym="">Nostoc punctiforme PCC 73102 genome, GCA_000020025.1</option>
+	<option value='GCA_000021805.1'          synonym="">Cyanothece sp. PCC 8801 genome, GCA_000021805.1</option>
+	<option value='GCA_000021825.1'          synonym="">Cyanothece sp. PCC 7424 genome, GCA_000021825.1</option>
+	<option value='GCA_000022045.1'          synonym="">Cyanothece sp. PCC 7425 genome, GCA_000022045.1</option>
+	<option value='GCA_000024045.1'          synonym="">Cyanothece sp. PCC 8802 genome, GCA_000024045.1</option>
+	<option value='GCA_000025125.1'          synonym="">Candidatus Atelocyanobacterium thalassa isolate ALOHA genome, GCA_000025125.1</option>
+	<option value='GCA_000063505.1'          synonym="">Synechococcus sp. WH 7803 genome, GCA_000063505.1</option>
+	<option value='GCA_000063525.1'          synonym="">Synechococcus sp. RCC307 genome, GCA_000063525.1</option>
+	<option value='GCA_000147335.1'          synonym="">Cyanothece sp. PCC 7822 genome, GCA_000147335.1</option>
+	<option value='GCA_000153045.1'          synonym="">Synechococcus sp. WH 5701 genome, GCA_000153045.1</option>
+	<option value='GCA_000153065.1'          synonym="">Synechococcus sp. RS9917 genome, GCA_000153065.1</option>
+	<option value='GCA_000153285.1'          synonym="">Synechococcus sp. WH 7805 genome, GCA_000153285.1</option>
+	<option value='GCA_000153805.1'          synonym="">Synechococcus sp. BL107 genome, GCA_000153805.1</option>
+	<option value='GCA_000153825.1'          synonym="">Synechococcus sp. RS9916 genome, GCA_000153825.1</option>
+	<option value='GCA_000155555.1'          synonym="">Coleofasciculus chthonoplastes PCC 7420 genome, GCA_000155555.1</option>
+	<option value='GCA_000155595.1'          synonym="">Synechococcus sp. PCC 7335 genome, GCA_000155595.1</option>
+	<option value='GCA_000155635.1'          synonym="">Cyanobium sp. PCC 7001 genome, GCA_000155635.1</option>
+	<option value='GCA_000158595.1'          synonym="">Prochlorococcus marinus str. MIT 9202 genome, GCA_000158595.1</option>
+	<option value='GCA_000161795.2'          synonym="">Synechococcus sp. WH 8109 genome, GCA_000161795.2</option>
+	<option value='GCA_000167195.1'          synonym="">Crocosphaera watsonii WH 8501 genome, GCA_000167195.1</option>
+	<option value='GCA_000169095.1'          synonym="">Lyngbya sp. PCC 8106 genome, GCA_000169095.1</option>
+	<option value='GCA_000169135.1'          synonym="">Nodularia spumigena CCY9414 genome, GCA_000169135.1</option>
+	<option value='GCA_000169335.1'          synonym="">Cyanothece sp. CCY0110 genome, GCA_000169335.1</option>
+	<option value='GCA_000173555.1'          synonym="">Arthrospira maxima CS-328 genome, GCA_000173555.1</option>
+	<option value='GCA_000175415.3'          synonym="">Arthrospira platensis str. Paraca genome, GCA_000175415.3</option>
+	<option value='GCA_000175835.1'          synonym="">Cylindrospermopsis raciborskii CS-505 genome, GCA_000175835.1</option>
+	<option value='GCA_000175855.1'          synonym="">Raphidiopsis brookii D9 genome, GCA_000175855.1</option>
+	<option value='GCA_000176895.2'          synonym="">Arthrospira sp. PCC 8005 genome, GCA_000176895.2</option>
+	<option value='GCA_000179235.1'          synonym="">Synechococcus sp. CB0101 genome, GCA_000179235.1</option>
+	<option value='GCA_000179255.1'          synonym="">Synechococcus sp. CB0205 genome, GCA_000179255.1</option>
+	<option value='GCA_000180455.1'          synonym="">Oscillatoria sp. PCC 6506 genome, GCA_000180455.1</option>
+	<option value='GCA_000195775.1'          synonym="">Rhodopseudomonas palustris CGA009 genome, GCA_000195775.1</option>
+	<option value='GCA_000195975.1'          synonym="">Synechococcus sp. WH 8102 genome, GCA_000195975.1</option>
+	<option value='GCA_000196515.1'          synonym="">Nostoc azollae 0708 genome, GCA_000196515.1</option>
+	<option value='GCA_000204075.1'          synonym="">Anabaena variabilis ATCC 29413 genome, GCA_000204075.1</option>
+	<option value='GCA_000210375.1'          synonym="">Arthrospira platensis NIES-39 genome, GCA_000210375.1</option>
+	<option value='GCA_000211815.1'          synonym="">Moorea producens 3L genome, GCA_000211815.1</option>
+	<option value='GCA_000214075.2'          synonym="">Microcoleus vaginatus FGP-2 genome, GCA_000214075.2</option>
+	<option value='GCA_000218705.1'          synonym="">Prochlorococcus marinus bv. HNLC1 genome, GCA_000218705.1</option>
+	<option value='GCA_000218745.1'          synonym="">Prochlorococcus marinus bv. HNLC2 genome, GCA_000218745.1</option>
+	<option value='GCA_000230675.2'          synonym="">Synechococcus sp. WH 8016 genome, GCA_000230675.2</option>
+	<option value='GCA_000231365.2'          synonym="">Fischerella sp. JSC-11 genome, GCA_000231365.2</option>
+	<option value='GCA_000231425.3'          synonym="">Cyanothece sp. ATCC 51472 genome, GCA_000231425.3</option>
+	<option value='GCA_000235665.2'          synonym="">Crocosphaera watsonii WH 0003 genome, GCA_000235665.2</option>
+	<option value='GCA_000238775.2'          synonym="">Acaryochloris sp. CCMEE 5410 genome, GCA_000238775.2</option>
+	<option value='GCA_000252425.1'          synonym="">Prochloron didemni P2-Fiji genome, GCA_000252425.1</option>
+	<option value='GCA_000252465.1'          synonym="">Prochloron didemni P3-Solomon genome, GCA_000252465.1</option>
+	<option value='GCA_000252485.1'          synonym="">Prochloron didemni P4-Papua_New_Guinea genome, GCA_000252485.1</option>
+	<option value='GCA_000270265.1'          synonym="">Synechocystis sp. PCC 6803 genome, GCA_000270265.1</option>
+	<option value='GCA_000284135.1'          synonym="">Synechocystis sp. PCC 6803 substr. GT-I genome, GCA_000284135.1</option>
+	<option value='GCA_000284215.1'          synonym="">Synechocystis sp. PCC 6803 substr. PCC-N genome, GCA_000284215.1</option>
+	<option value='GCA_000284455.1'          synonym="">Synechocystis sp. PCC 6803 substr. PCC-P genome, GCA_000284455.1</option>
+	<option value='GCA_000291785.1'          synonym="">Prochlorococcus sp. W4 genome, GCA_000291785.1</option>
+	<option value='GCA_000291805.1'          synonym="">Prochlorococcus sp. W7 genome, GCA_000291805.1</option>
+	<option value='GCA_000291825.1'          synonym="">Prochlorococcus sp. W8 genome, GCA_000291825.1</option>
+	<option value='GCA_000291845.1'          synonym="">Prochlorococcus sp. W10 genome, GCA_000291845.1</option>
+	<option value='GCA_000291865.1'          synonym="">Prochlorococcus sp. W6 genome, GCA_000291865.1</option>
+	<option value='GCA_000291885.1'          synonym="">Prochlorococcus sp. W2 genome, GCA_000291885.1</option>
+	<option value='GCA_000291905.1'          synonym="">Prochlorococcus sp. W3 genome, GCA_000291905.1</option>
+	<option value='GCA_000291925.1'          synonym="">Prochlorococcus sp. W9 genome, GCA_000291925.1</option>
+	<option value='GCA_000291945.1'          synonym="">Prochlorococcus sp. W11 genome, GCA_000291945.1</option>
+	<option value='GCA_000291965.1'          synonym="">Prochlorococcus sp. W12 genome, GCA_000291965.1</option>
+	<option value='GCA_000291985.1'          synonym="">Prochlorococcus sp. W5 genome, GCA_000291985.1</option>
+	<option value='GCA_000297435.1'          synonym="">Microcystis sp. T1-4 genome, GCA_000297435.1</option>
+	<option value='GCA_000300115.1'          synonym="">Tolypothrix sp. PCC 7601 genome, GCA_000300115.1</option>
+	<option value='GCA_000307915.1'          synonym="">Arthrospira platensis C1 genome, GCA_000307915.1</option>
+	<option value='GCA_000307995.2'          synonym="">Microcystis aeruginosa PCC 9432 genome, GCA_000307995.2</option>
+	<option value='GCA_000309385.1'          synonym="">Nodosilinea nodulosa PCC 7104 genome, GCA_000309385.1</option>
+	<option value='GCA_000309945.1'          synonym="">Oscillatoriales cyanobacterium JSC-12 genome, GCA_000309945.1</option>
+	<option value='GCA_000312165.1'          synonym="">Microcystis aeruginosa PCC 9717 genome, GCA_000312165.1</option>
+	<option value='GCA_000312185.1'          synonym="">Microcystis aeruginosa PCC 9443 genome, GCA_000312185.1</option>
+	<option value='GCA_000312205.1'          synonym="">Microcystis aeruginosa PCC 7941 genome, GCA_000312205.1</option>
+	<option value='GCA_000312225.1'          synonym="">Microcystis aeruginosa PCC 9807 genome, GCA_000312225.1</option>
+	<option value='GCA_000312245.1'          synonym="">Microcystis aeruginosa PCC 9808 genome, GCA_000312245.1</option>
+	<option value='GCA_000312265.1'          synonym="">Microcystis aeruginosa PCC 9809 genome, GCA_000312265.1</option>
+	<option value='GCA_000312285.1'          synonym="">Microcystis aeruginosa PCC 9701 genome, GCA_000312285.1</option>
+	<option value='GCA_000312705.1'          synonym="">Anabaena sp. 90 genome, GCA_000312705.1</option>
+	<option value='GCA_000312725.1'          synonym="">Microcystis aeruginosa PCC 9806 genome, GCA_000312725.1</option>
+	<option value='GCA_000314005.1'          synonym="">Spirulina subsalsa PCC 9445 genome, GCA_000314005.1</option>
+	<option value='GCA_000315565.1'          synonym="">Mastigocladopsis repens PCC 10914 genome, GCA_000315565.1</option>
+	<option value='GCA_000315585.1'          synonym="">Fischerella sp. PCC 9339 genome, GCA_000315585.1</option>
+	<option value='GCA_000316115.1'          synonym="">Leptolyngbya sp. PCC 7375 genome, GCA_000316115.1</option>
+	<option value='GCA_000316515.1'          synonym="">Cyanobium gracile PCC 6307 genome, GCA_000316515.1</option>
+	<option value='GCA_000316575.1'          synonym="">Calothrix sp. PCC 7507 genome, GCA_000316575.1</option>
+	<option value='GCA_000316605.1'          synonym="">Leptolyngbya sp. PCC 7376 genome, GCA_000316605.1</option>
+	<option value='GCA_000316625.1'          synonym="">Nostoc sp. PCC 7107 genome, GCA_000316625.1</option>
+	<option value='GCA_000316645.1'          synonym="">Nostoc sp. PCC 7524 genome, GCA_000316645.1</option>
+	<option value='GCA_000316665.1'          synonym="">Rivularia sp. PCC 7116 genome, GCA_000316665.1</option>
+	<option value='GCA_000316685.1'          synonym="">Synechococcus sp. PCC 6312 genome, GCA_000316685.1</option>
+	<option value='GCA_000317025.1'          synonym="">Pleurocapsa sp. PCC 7327 genome, GCA_000317025.1</option>
+	<option value='GCA_000317045.1'          synonym="">Geitlerinema sp. PCC 7407 genome, GCA_000317045.1</option>
+	<option value='GCA_000317065.1'          synonym="">Pseudanabaena sp. PCC 7367 genome, GCA_000317065.1</option>
+	<option value='GCA_000317085.1'          synonym="">Synechococcus sp. PCC 7502 genome, GCA_000317085.1</option>
+	<option value='GCA_000317105.1'          synonym="">Oscillatoria acuminata PCC 6304 genome, GCA_000317105.1</option>
+	<option value='GCA_000317125.1'          synonym="">Chroococcidiopsis thermalis PCC 7203 genome, GCA_000317125.1</option>
+	<option value='GCA_000317145.1'          synonym="">Chamaesiphon minutus PCC 6605 genome, GCA_000317145.1</option>
+	<option value='GCA_000317205.1'          synonym="">Fischerella muscicola PCC 7414 genome, GCA_000317205.1</option>
+	<option value='GCA_000317225.1'          synonym="">Fischerella thermalis PCC 7521 genome, GCA_000317225.1</option>
+	<option value='GCA_000317245.1'          synonym="">Fischerella muscicola SAG 1427-1 genome, GCA_000317245.1</option>
+	<option value='GCA_000317265.1'          synonym="">Chlorogloeopsis fritschii PCC 9212 genome, GCA_000317265.1</option>
+	<option value='GCA_000317285.1'          synonym="">Chlorogloeopsis fritschii PCC 6912 genome, GCA_000317285.1</option>
+	<option value='GCA_000317435.1'          synonym="">Calothrix sp. PCC 6303 genome, GCA_000317435.1</option>
+	<option value='GCA_000317475.1'          synonym="">Oscillatoria nigro-viridis PCC 7112 genome, GCA_000317475.1</option>
+	<option value='GCA_000317495.1'          synonym="">Crinalium epipsammum PCC 9333 genome, GCA_000317495.1</option>
+	<option value='GCA_000317515.1'          synonym="">Microcoleus sp. PCC 7113 genome, GCA_000317515.1</option>
+	<option value='GCA_000317535.1'          synonym="">Cylindrospermum stagnale PCC 7417 genome, GCA_000317535.1</option>
+	<option value='GCA_000317555.1'          synonym="">Gloeocapsa sp. PCC 7428 genome, GCA_000317555.1</option>
+	<option value='GCA_000317575.1'          synonym="">Stanieria cyanosphaera PCC 7437 genome, GCA_000317575.1</option>
+	<option value='GCA_000317615.1'          synonym="">Dactylococcopsis salina PCC 8305 genome, GCA_000317615.1</option>
+	<option value='GCA_000317635.1'          synonym="">Halothece sp. PCC 7418 genome, GCA_000317635.1</option>
+	<option value='GCA_000317655.1'          synonym="">Cyanobacterium stanieri PCC 7202 genome, GCA_000317655.1</option>
+	<option value='GCA_000317675.1'          synonym="">Cyanobacterium aponinum PCC 10605 genome, GCA_000317675.1</option>
+	<option value='GCA_000317695.1'          synonym="">Anabaena cylindrica PCC 7122 genome, GCA_000317695.1</option>
+	<option value='GCA_000330925.1'          synonym="">Microcystis aeruginosa TAIHU98 genome, GCA_000330925.1</option>
+	<option value='GCA_000331305.1'          synonym="">Calothrix sp. PCC 7103 genome, GCA_000331305.1</option>
+	<option value='GCA_000332035.1'          synonym="">Gloeocapsa sp. PCC 73106 genome, GCA_000332035.1</option>
+	<option value='GCA_000332055.1'          synonym="">Xenococcus sp. PCC 7305 genome, GCA_000332055.1</option>
+	<option value='GCA_000332075.2'          synonym="">Synechocystis sp. PCC 7509 genome, GCA_000332075.2</option>
+	<option value='GCA_000332095.2'          synonym="">Leptolyngbya sp. PCC 6406 genome, GCA_000332095.2</option>
+	<option value='GCA_000332135.1'          synonym="">Anabaena sp. PCC 7108 genome, GCA_000332135.1</option>
+	<option value='GCA_000332155.1'          synonym="">Kamptonema formosum PCC 6407 genome, GCA_000332155.1</option>
+	<option value='GCA_000332175.1'          synonym="">Pseudanabaena sp. PCC 6802 genome, GCA_000332175.1</option>
+	<option value='GCA_000332195.1'          synonym="">Pleurocapsa sp. PCC 7319 genome, GCA_000332195.1</option>
+	<option value='GCA_000332215.1'          synonym="">Pseudanabaena biceps PCC 7429 genome, GCA_000332215.1</option>
+	<option value='GCA_000332235.1'          synonym="">Geminocystis herdmanii PCC 6308 genome, GCA_000332235.1</option>
+	<option value='GCA_000332255.1'          synonym="">cyanobacterium PCC 7702 genome, GCA_000332255.1</option>
+	<option value='GCA_000332275.1'          synonym="">Synechococcus sp. PCC 7336 genome, GCA_000332275.1</option>
+	<option value='GCA_000332295.1'          synonym="">Microchaete sp. PCC 7126 genome, GCA_000332295.1</option>
+	<option value='GCA_000332315.1'          synonym="">Prochlorothrix hollandica PCC 9006 genome, GCA_000332315.1</option>
+	<option value='GCA_000332335.1'          synonym="">Oscillatoria sp. PCC 10802 genome, GCA_000332335.1</option>
+	<option value='GCA_000332355.1'          synonym="">Geitlerinema sp. PCC 7105 genome, GCA_000332355.1</option>
+	<option value='GCA_000332585.1'          synonym="">Microcystis aeruginosa DIANCHI905 genome, GCA_000332585.1</option>
+	<option value='GCA_000340565.3'          synonym="">Nodularia spumigena CCY9414 genome, GCA_000340565.3</option>
+	<option value='GCA_000340785.1'          synonym="">Synechocystis sp. PCC 6803 genome, GCA_000340785.1</option>
+	<option value='GCA_000341585.2'          synonym="">Prochlorothrix hollandica PCC 9006 genome, GCA_000341585.2</option>
+	<option value='GCA_000346485.1'          synonym="">Scytonema hofmanni PCC 7110 genome, GCA_000346485.1</option>
+	<option value='GCA_000350105.1'          synonym="">Richelia intracellularis HH01 genome, GCA_000350105.1</option>
+	<option value='GCA_000350125.1'          synonym="">Richelia intracellularis HM01 genome, GCA_000350125.1</option>
+	<option value='GCA_000353285.1'          synonym="">Leptolyngbya boryana PCC 6306 genome, GCA_000353285.1</option>
+	<option value='GCA_000380225.1'          synonym="">filamentous cyanobacterium ESFC-1 genome, GCA_000380225.1</option>
+	<option value='GCA_000412595.1'          synonym="">Microcystis aeruginosa SPC777 genome, GCA_000412595.1</option>
+	<option value='GCA_000426905.1'          synonym="">Dolichospermum circinale AWQC131C genome, GCA_000426905.1</option>
+	<option value='GCA_000426925.1'          synonym="">Dolichospermum circinale AWQC310F genome, GCA_000426925.1</option>
+	<option value='GCA_000447295.1'          synonym="">Fischerella sp. PCC 9431 genome, GCA_000447295.1</option>
+	<option value='GCA_000464665.1'          synonym="">Planktothrix agardhii NIVA-CYA 15 genome, GCA_000464665.1</option>
+	<option value='GCA_000464725.1'          synonym="">Planktothrix agardhii NIVA-CYA 34 genome, GCA_000464725.1</option>
+	<option value='GCA_000464745.1'          synonym="">Planktothrix mougeotii NIVA-CYA 405 genome, GCA_000464745.1</option>
+	<option value='GCA_000464765.1'          synonym="">Planktothrix prolifica NIVA-CYA 406 genome, GCA_000464765.1</option>
+	<option value='GCA_000464785.1'          synonym="">Planktothrix rubescens NIVA-CYA 407 genome, GCA_000464785.1</option>
+	<option value='GCA_000464805.1'          synonym="">Planktothrix prolifica NIVA-CYA 540 genome, GCA_000464805.1</option>
+	<option value='GCA_000464825.1'          synonym="">Planktothrix agardhii NIVA-CYA 56/3 genome, GCA_000464825.1</option>
+	<option value='GCA_000464845.1'          synonym="">Planktothrix prolifica NIVA-CYA 98 genome, GCA_000464845.1</option>
+	<option value='GCA_000472885.1'          synonym="">Mastigocoleus testarum BC008 genome, GCA_000472885.1</option>
+	<option value='GCA_000473895.1'          synonym="">Rubidibacter lacunae KORDI 51-2 genome, GCA_000473895.1</option>
+	<option value='GCA_000478195.2'          synonym="">Lyngbya aestuarii BL J genome, GCA_000478195.2</option>
+	<option value='GCA_000478825.2'          synonym="">Synechocystis sp. PCC 6714 genome, GCA_000478825.2</option>
+	<option value='GCA_000482245.1'          synonym="">Leptolyngbya sp. Heron Island J genome, GCA_000482245.1</option>
+	<option value='GCA_000484535.1'          synonym="">Gloeobacter kilaueensis JS1 genome, GCA_000484535.1</option>
+	<option value='GCA_000485815.1'          synonym="">Synechococcus sp. NKBG15041c genome, GCA_000485815.1</option>
+	<option value='GCA_000505665.1'          synonym="">Thermosynechococcus sp. NK55a genome, GCA_000505665.1</option>
+	<option value='GCA_000515235.1'          synonym="">Synechococcus sp. CC9616 genome, GCA_000515235.1</option>
+	<option value='GCA_000517105.1'          synonym="">Fischerella sp. PCC 9605 genome, GCA_000517105.1</option>
+	<option value='GCA_000521175.1'          synonym="">Aphanizomenon flos-aquae NIES-81 genome, GCA_000521175.1</option>
+	<option value='GCA_000582685.1'          synonym="">Scytonema hofmanni UTEX 2349 genome, GCA_000582685.1</option>
+	<option value='GCA_000586015.1'          synonym="">Candidatus Synechococcus spongiarum SH4 genome, GCA_000586015.1</option>
+	<option value='GCA_000599945.1'          synonym="">Microcystis aeruginosa PCC 7005 genome, GCA_000599945.1</option>
+	<option value='GCA_000613065.1'          synonym="">Richelia intracellularis genome, GCA_000613065.1</option>
+	<option value='GCA_000633975.1'          synonym="">Prochlorococcus sp. scB241_526B17 genome, GCA_000633975.1</option>
+	<option value='GCA_000633995.1'          synonym="">Prochlorococcus sp. scB241_526K3 genome, GCA_000633995.1</option>
+	<option value='GCA_000634015.1'          synonym="">Prochlorococcus sp. scB241_526N9 genome, GCA_000634015.1</option>
+	<option value='GCA_000634035.1'          synonym="">Prochlorococcus sp. scB241_527E14 genome, GCA_000634035.1</option>
+	<option value='GCA_000634055.1'          synonym="">Prochlorococcus sp. scB241_527N11 genome, GCA_000634055.1</option>
+	<option value='GCA_000634075.1'          synonym="">Prochlorococcus sp. scB241_528J14 genome, GCA_000634075.1</option>
+	<option value='GCA_000634095.1'          synonym="">Prochlorococcus sp. scB241_528J8 genome, GCA_000634095.1</option>
+	<option value='GCA_000634115.1'          synonym="">Prochlorococcus sp. scB241_528O2 genome, GCA_000634115.1</option>
+	<option value='GCA_000634135.1'          synonym="">Prochlorococcus sp. scB241_528P14 genome, GCA_000634135.1</option>
+	<option value='GCA_000634155.1'          synonym="">Prochlorococcus sp. scB241_529C4 genome, GCA_000634155.1</option>
+	<option value='GCA_000634175.1'          synonym="">Prochlorococcus sp. scB241_529D18 genome, GCA_000634175.1</option>
+	<option value='GCA_000634195.1'          synonym="">Prochlorococcus sp. scB243_495D8 genome, GCA_000634195.1</option>
+	<option value='GCA_000634215.1'          synonym="">Prochlorococcus sp. scB243_495L20 genome, GCA_000634215.1</option>
+	<option value='GCA_000634235.1'          synonym="">Prochlorococcus sp. scB243_495N16 genome, GCA_000634235.1</option>
+	<option value='GCA_000634255.1'          synonym="">Prochlorococcus sp. scB243_496A2 genome, GCA_000634255.1</option>
+	<option value='GCA_000634275.1'          synonym="">Prochlorococcus sp. scB243_497J18 genome, GCA_000634275.1</option>
+	<option value='GCA_000634295.1'          synonym="">Prochlorococcus sp. scB243_498A3 genome, GCA_000634295.1</option>
+	<option value='GCA_000634315.1'          synonym="">Prochlorococcus sp. scB243_498J20 genome, GCA_000634315.1</option>
+	<option value='GCA_000634335.1'          synonym="">Prochlorococcus sp. scB243_498N4 genome, GCA_000634335.1</option>
+	<option value='GCA_000634355.1'          synonym="">Prochlorococcus sp. scB243_498N8 genome, GCA_000634355.1</option>
+	<option value='GCA_000634375.1'          synonym="">Prochlorococcus sp. scB245a_518A17 genome, GCA_000634375.1</option>
+	<option value='GCA_000634395.1'          synonym="">Prochlorococcus sp. scB245a_518D8 genome, GCA_000634395.1</option>
+	<option value='GCA_000634415.1'          synonym="">Prochlorococcus sp. scB245a_519A13 genome, GCA_000634415.1</option>
+	<option value='GCA_000634435.1'          synonym="">Prochlorococcus sp. scB245a_519B7 genome, GCA_000634435.1</option>
+	<option value='GCA_000634455.1'          synonym="">Prochlorococcus sp. scB245a_519O21 genome, GCA_000634455.1</option>
+	<option value='GCA_000634475.1'          synonym="">Prochlorococcus sp. scB245a_520B18 genome, GCA_000634475.1</option>
+	<option value='GCA_000634495.1'          synonym="">Prochlorococcus sp. scB245a_520D2 genome, GCA_000634495.1</option>
+	<option value='GCA_000634515.1'          synonym="">Prochlorococcus sp. scB245a_520K10 genome, GCA_000634515.1</option>
+	<option value='GCA_000634535.1'          synonym="">Prochlorococcus sp. scB245a_520M11 genome, GCA_000634535.1</option>
+	<option value='GCA_000634555.2'          synonym="">Prochlorococcus sp. scB245a_521A19 genome, GCA_000634555.2</option>
+	<option value='GCA_000634575.1'          synonym="">Prochlorococcus sp. scB245a_521N3 genome, GCA_000634575.1</option>
+	<option value='GCA_000634595.1'          synonym="">Prochlorococcus sp. scB245a_521O23 genome, GCA_000634595.1</option>
+	<option value='GCA_000634615.1'          synonym="">Prochlorococcus sp. scB241_526B19 genome, GCA_000634615.1</option>
+	<option value='GCA_000634635.1'          synonym="">Prochlorococcus sp. scB241_526B22 genome, GCA_000634635.1</option>
+	<option value='GCA_000634655.1'          synonym="">Prochlorococcus sp. scB241_526N5 genome, GCA_000634655.1</option>
+	<option value='GCA_000634675.1'          synonym="">Prochlorococcus sp. scB241_527E15 genome, GCA_000634675.1</option>
+	<option value='GCA_000634695.1'          synonym="">Prochlorococcus sp. scB241_527L15 genome, GCA_000634695.1</option>
+	<option value='GCA_000634715.1'          synonym="">Prochlorococcus sp. scB241_528K19 genome, GCA_000634715.1</option>
+	<option value='GCA_000634735.1'          synonym="">Prochlorococcus sp. scB241_528N17 genome, GCA_000634735.1</option>
+	<option value='GCA_000634755.1'          synonym="">Prochlorococcus sp. scB241_528N20 genome, GCA_000634755.1</option>
+	<option value='GCA_000634775.1'          synonym="">Prochlorococcus sp. scB241_528N8 genome, GCA_000634775.1</option>
+	<option value='GCA_000634795.1'          synonym="">Prochlorococcus sp. scB241_529J15 genome, GCA_000634795.1</option>
+	<option value='GCA_000634815.1'          synonym="">Prochlorococcus sp. scB243_495G23 genome, GCA_000634815.1</option>
+	<option value='GCA_000634835.1'          synonym="">Prochlorococcus sp. scB243_495I8 genome, GCA_000634835.1</option>
+	<option value='GCA_000634855.1'          synonym="">Prochlorococcus sp. scB243_495N4 genome, GCA_000634855.1</option>
+	<option value='GCA_000634875.1'          synonym="">Prochlorococcus sp. scB243_495P20 genome, GCA_000634875.1</option>
+	<option value='GCA_000634895.1'          synonym="">Prochlorococcus sp. scB243_496E10 genome, GCA_000634895.1</option>
+	<option value='GCA_000634915.1'          synonym="">Prochlorococcus sp. scB243_496G15 genome, GCA_000634915.1</option>
+	<option value='GCA_000634935.1'          synonym="">Prochlorococcus sp. scB243_497I20 genome, GCA_000634935.1</option>
+	<option value='GCA_000634955.1'          synonym="">Prochlorococcus sp. scB243_497N18 genome, GCA_000634955.1</option>
+	<option value='GCA_000634975.1'          synonym="">Prochlorococcus sp. scB243_498B22 genome, GCA_000634975.1</option>
+	<option value='GCA_000634995.1'          synonym="">Prochlorococcus sp. scB243_498C16 genome, GCA_000634995.1</option>
+	<option value='GCA_000635015.1'          synonym="">Prochlorococcus sp. scB243_498I20 genome, GCA_000635015.1</option>
+	<option value='GCA_000635035.1'          synonym="">Prochlorococcus sp. scB243_498L10 genome, GCA_000635035.1</option>
+	<option value='GCA_000635055.1'          synonym="">Prochlorococcus sp. scB245a_518A6 genome, GCA_000635055.1</option>
+	<option value='GCA_000635075.1'          synonym="">Prochlorococcus sp. scB245a_518E10 genome, GCA_000635075.1</option>
+	<option value='GCA_000635095.1'          synonym="">Prochlorococcus sp. scB245a_518J7 genome, GCA_000635095.1</option>
+	<option value='GCA_000635115.1'          synonym="">Prochlorococcus sp. scB245a_518K17 genome, GCA_000635115.1</option>
+	<option value='GCA_000635135.1'          synonym="">Prochlorococcus sp. scB245a_518O7 genome, GCA_000635135.1</option>
+	<option value='GCA_000635155.1'          synonym="">Prochlorococcus sp. scB245a_519C7 genome, GCA_000635155.1</option>
+	<option value='GCA_000635175.1'          synonym="">Prochlorococcus sp. scB245a_519E23 genome, GCA_000635175.1</option>
+	<option value='GCA_000635195.1'          synonym="">Prochlorococcus sp. scB245a_519L21 genome, GCA_000635195.1</option>
+	<option value='GCA_000635215.1'          synonym="">Prochlorococcus sp. scB245a_521C8 genome, GCA_000635215.1</option>
+	<option value='GCA_000635235.1'          synonym="">Prochlorococcus sp. scB245a_521K15 genome, GCA_000635235.1</option>
+	<option value='GCA_000635255.1'          synonym="">Prochlorococcus sp. scB245a_521O20 genome, GCA_000635255.1</option>
+	<option value='GCA_000635275.1'          synonym="">Prochlorococcus sp. scB241_526D20 genome, GCA_000635275.1</option>
+	<option value='GCA_000635295.1'          synonym="">Prochlorococcus sp. scB241_527G5 genome, GCA_000635295.1</option>
+	<option value='GCA_000635315.1'          synonym="">Prochlorococcus sp. scB241_527I9 genome, GCA_000635315.1</option>
+	<option value='GCA_000635335.1'          synonym="">Prochlorococcus sp. scB241_527L16 genome, GCA_000635335.1</option>
+	<option value='GCA_000635355.1'          synonym="">Prochlorococcus sp. scB241_527L22 genome, GCA_000635355.1</option>
+	<option value='GCA_000635375.1'          synonym="">Prochlorococcus sp. scB241_527P5 genome, GCA_000635375.1</option>
+	<option value='GCA_000635395.1'          synonym="">Prochlorococcus sp. scB241_528P18 genome, GCA_000635395.1</option>
+	<option value='GCA_000635415.1'          synonym="">Prochlorococcus sp. scB241_529B19 genome, GCA_000635415.1</option>
+	<option value='GCA_000635435.1'          synonym="">Prochlorococcus sp. scB241_529J11 genome, GCA_000635435.1</option>
+	<option value='GCA_000635455.1'          synonym="">Prochlorococcus sp. scB241_529J16 genome, GCA_000635455.1</option>
+	<option value='GCA_000635475.1'          synonym="">Prochlorococcus sp. scB241_529O19 genome, GCA_000635475.1</option>
+	<option value='GCA_000635495.1'          synonym="">Prochlorococcus sp. scB243_495K23 genome, GCA_000635495.1</option>
+	<option value='GCA_000635515.1'          synonym="">Prochlorococcus sp. scB243_495N3 genome, GCA_000635515.1</option>
+	<option value='GCA_000635535.1'          synonym="">Prochlorococcus sp. scB243_496M6 genome, GCA_000635535.1</option>
+	<option value='GCA_000635555.1'          synonym="">Prochlorococcus sp. scB243_496N4 genome, GCA_000635555.1</option>
+	<option value='GCA_000635575.1'          synonym="">Prochlorococcus sp. scB243_497E17 genome, GCA_000635575.1</option>
+	<option value='GCA_000635595.1'          synonym="">Prochlorococcus sp. scB243_498B23 genome, GCA_000635595.1</option>
+	<option value='GCA_000635615.1'          synonym="">Prochlorococcus sp. scB243_498F21 genome, GCA_000635615.1</option>
+	<option value='GCA_000635635.1'          synonym="">Prochlorococcus sp. scB243_498G3 genome, GCA_000635635.1</option>
+	<option value='GCA_000635655.1'          synonym="">Prochlorococcus sp. scB243_498M14 genome, GCA_000635655.1</option>
+	<option value='GCA_000635675.1'          synonym="">Prochlorococcus sp. scB243_498P15 genome, GCA_000635675.1</option>
+	<option value='GCA_000635695.1'          synonym="">Prochlorococcus sp. scB243_498P3 genome, GCA_000635695.1</option>
+	<option value='GCA_000635715.1'          synonym="">Prochlorococcus sp. scB245a_518I6 genome, GCA_000635715.1</option>
+	<option value='GCA_000635735.1'          synonym="">Prochlorococcus sp. scB245a_519D13 genome, GCA_000635735.1</option>
+	<option value='GCA_000635755.1'          synonym="">Prochlorococcus sp. scB245a_519G16 genome, GCA_000635755.1</option>
+	<option value='GCA_000635775.1'          synonym="">Prochlorococcus sp. scB245a_519O11 genome, GCA_000635775.1</option>
+	<option value='GCA_000635795.1'          synonym="">Prochlorococcus sp. scB245a_520E22 genome, GCA_000635795.1</option>
+	<option value='GCA_000635815.1'          synonym="">Prochlorococcus sp. scB245a_520F22 genome, GCA_000635815.1</option>
+	<option value='GCA_000635835.1'          synonym="">Prochlorococcus sp. scB245a_521B10 genome, GCA_000635835.1</option>
+	<option value='GCA_000635855.1'          synonym="">Prochlorococcus sp. scB245a_521M10 genome, GCA_000635855.1</option>
+	<option value='GCA_000635875.1'          synonym="">Prochlorococcus sp. scB245a_521N5 genome, GCA_000635875.1</option>
+	<option value='GCA_000708525.1'          synonym="">Cyanobium sp. CACIAM 14 genome, GCA_000708525.1</option>
+	<option value='GCA_000710505.1'          synonym="">Planktothrix agardhii NIVA-CYA 126/8 genome, GCA_000710505.1</option>
+	<option value='GCA_000715475.1'          synonym="">Synechococcus sp. NKBG042902 genome, GCA_000715475.1</option>
+	<option value='GCA_000733415.1'          synonym="">Leptolyngbya sp. JSC-1 genome, GCA_000733415.1</option>
+	<option value='GCA_000734895.2'          synonym="">Calothrix sp. 336/3 genome, GCA_000734895.2</option>
+	<option value='GCA_000737535.1'          synonym="">Synechococcus sp. KORDI-100 genome, GCA_000737535.1</option>
+	<option value='GCA_000737575.1'          synonym="">Synechococcus sp. KORDI-49 genome, GCA_000737575.1</option>
+	<option value='GCA_000737595.1'          synonym="">Synechococcus sp. KORDI-52 genome, GCA_000737595.1</option>
+	<option value='GCA_000737945.1'          synonym="">Candidatus Atelocyanobacterium thalassa isolate SIO64986 genome, GCA_000737945.1</option>
+	<option value='GCA_000756305.1'          synonym="">Myxosarcina sp. GI1 genome, GCA_000756305.1</option>
+	<option value='GCA_000757845.1'          synonym="">Prochlorococcus sp. MIT 0604 genome, GCA_000757845.1</option>
+	<option value='GCA_000757865.1'          synonym="">Prochlorococcus sp. MIT 0801 genome, GCA_000757865.1</option>
+	<option value='GCA_000759855.1'          synonym="">Prochlorococcus marinus str. MIT 9107 genome, GCA_000759855.1</option>
+	<option value='GCA_000759865.1'          synonym="">Prochlorococcus marinus str. MIT 9116 genome, GCA_000759865.1</option>
+	<option value='GCA_000759875.1'          synonym="">Prochlorococcus marinus str. EQPAC1 genome, GCA_000759875.1</option>
+	<option value='GCA_000759885.1'          synonym="">Prochlorococcus marinus str. GP2 genome, GCA_000759885.1</option>
+	<option value='GCA_000759935.1'          synonym="">Prochlorococcus marinus str. MIT 9123 genome, GCA_000759935.1</option>
+	<option value='GCA_000759955.1'          synonym="">Prochlorococcus marinus str. MIT 9201 genome, GCA_000759955.1</option>
+	<option value='GCA_000759975.1'          synonym="">Prochlorococcus marinus str. MIT 9302 genome, GCA_000759975.1</option>
+	<option value='GCA_000760015.1'          synonym="">Prochlorococcus marinus str. MIT 9311 genome, GCA_000760015.1</option>
+	<option value='GCA_000760035.1'          synonym="">Prochlorococcus marinus str. MIT 9314 genome, GCA_000760035.1</option>
+	<option value='GCA_000760055.1'          synonym="">Prochlorococcus marinus str. MIT 9321 genome, GCA_000760055.1</option>
+	<option value='GCA_000760075.1'          synonym="">Prochlorococcus marinus str. MIT 9322 genome, GCA_000760075.1</option>
+	<option value='GCA_000760095.1'          synonym="">Prochlorococcus marinus str. MIT 9401 genome, GCA_000760095.1</option>
+	<option value='GCA_000760115.1'          synonym="">Prochlorococcus marinus str. SB genome, GCA_000760115.1</option>
+	<option value='GCA_000760155.1'          synonym="">Prochlorococcus marinus str. LG genome, GCA_000760155.1</option>
+	<option value='GCA_000760175.1'          synonym="">Prochlorococcus sp. MIT 0601 genome, GCA_000760175.1</option>
+	<option value='GCA_000760195.1'          synonym="">Prochlorococcus sp. MIT 0602 genome, GCA_000760195.1</option>
+	<option value='GCA_000760215.1'          synonym="">Prochlorococcus sp. MIT 0603 genome, GCA_000760215.1</option>
+	<option value='GCA_000760235.1'          synonym="">Prochlorococcus marinus str. PAC1 genome, GCA_000760235.1</option>
+	<option value='GCA_000760255.1'          synonym="">Prochlorococcus marinus str. SS2 genome, GCA_000760255.1</option>
+	<option value='GCA_000760275.1'          synonym="">Prochlorococcus marinus str. SS35 genome, GCA_000760275.1</option>
+	<option value='GCA_000760295.1'          synonym="">Prochlorococcus sp. MIT 0701 genome, GCA_000760295.1</option>
+	<option value='GCA_000760315.1'          synonym="">Prochlorococcus sp. MIT 0702 genome, GCA_000760315.1</option>
+	<option value='GCA_000760335.1'          synonym="">Prochlorococcus sp. MIT 0703 genome, GCA_000760335.1</option>
+	<option value='GCA_000760355.1'          synonym="">Prochlorococcus marinus str. SS51 genome, GCA_000760355.1</option>
+	<option value='GCA_000760375.1'          synonym="">Prochlorococcus sp. SS52 genome, GCA_000760375.1</option>
+	<option value='GCA_000760695.2'          synonym="">Tolypothrix bouteillei VB521301 genome, GCA_000760695.2</option>
+	<option value='GCA_000763385.1'          synonym="">Leptolyngbya sp. KIOST-1 genome, GCA_000763385.1</option>
+	<option value='GCA_000775285.1'          synonym="">Neosynechococcus sphagnicola sy1 genome, GCA_000775285.1</option>
+	<option value='GCA_000787675.1'          synonym="">Microcystis aeruginosa NIES-44 genome, GCA_000787675.1</option>
+	<option value='GCA_000789435.1'          synonym="">Aphanizomenon flos-aquae 2012/KM1/D3 genome, GCA_000789435.1</option>
+	<option value='GCA_000817325.1'          synonym="">Synechococcus sp. UTEX 2973 genome, GCA_000817325.1</option>
+	<option value='GCA_000817735.1'          synonym="">Scytonema millei VB511283 genome, GCA_000817735.1</option>
+	<option value='GCA_000817745.1'          synonym="">Aphanocapsa montana BDHKU210001 genome, GCA_000817745.1</option>
+	<option value='GCA_000817775.1'          synonym="">Lyngbya confervoides BDU141951 genome, GCA_000817775.1</option>
+	<option value='GCA_000817785.1'          synonym="">Hassallia byssoidea VB512170 genome, GCA_000817785.1</option>
+	<option value='GCA_000828075.1'          synonym="">Tolypothrix campylonemoides VB511288 genome, GCA_000828075.1</option>
+	<option value='GCA_000828085.1'          synonym="">Scytonema tolypothrichoides VB-61278 genome, GCA_000828085.1</option>
+	<option value='GCA_000829235.1'          synonym="">cyanobacterium endosymbiont of Epithemia turgida isolate EtSB Lake Yunoko genome, GCA_000829235.1</option>
+	<option value='GCA_000934435.1'          synonym="">Mastigocladus laminosus UU774 genome, GCA_000934435.1</option>
+	<option value='GCA_000952155.1'          synonym="">Chroococcales cyanobacterium CENA595 genome, GCA_000952155.1</option>
+	<option value='GCA_000963755.2'          synonym="">Trichodesmium erythraeum 21-75 genome, GCA_000963755.2</option>
+	<option value='GCA_000972705.2'          synonym="">Limnoraphis robusta CS-951 genome, GCA_000972705.2</option>
+	<option value='GCA_000973065.1'          synonym="">Arthrospira sp. PCC 8005 genome, GCA_000973065.1</option>
+	<option value='GCA_000974245.1'          synonym="">Arthrospira sp. TJSD091 genome, GCA_000974245.1</option>
+	<option value='GCA_000981785.1'          synonym="">Microcystis aeruginosa NIES-2549 genome, GCA_000981785.1</option>
+	<option value='GCA_000987385.1'          synonym="">Trichodesmium thiebautii H9-4 genome, GCA_000987385.1</option>
+	<option value='GCA_001007625.1'          synonym="">Candidatus Synechococcus spongiarum 142 genome, GCA_001007625.1</option>
+	<option value='GCA_001007635.1'          synonym="">Candidatus Synechococcus spongiarum 15L genome, GCA_001007635.1</option>
+	<option value='GCA_001007665.1'          synonym="">Candidatus Synechococcus spongiarum SP3 genome, GCA_001007665.1</option>
+	<option value='GCA_001039265.1'          synonym="">Synechococcus sp. GFB01 genome, GCA_001039265.1</option>
+	<option value='GCA_001039555.1'          synonym="">Crocosphaera watsonii WH 8502 genome, GCA_001039555.1</option>
+	<option value='GCA_001039615.1'          synonym="">Crocosphaera watsonii WH 0401 genome, GCA_001039615.1</option>
+	<option value='GCA_001039635.1'          synonym="">Crocosphaera watsonii WH 0402 genome, GCA_001039635.1</option>
+	<option value='GCA_001040845.1'          synonym="">Synechococcus sp. WH 8020 genome, GCA_001040845.1</option>
+	<option value='GCA_001050835.1'          synonym="">Crocosphaera watsonii WH 0005 genome, GCA_001050835.1</option>
+	<option value='GCA_001180245.1'          synonym="">Prochlorococcus marinus genome, GCA_001180245.1</option>
+	<option value='GCA_001180265.1'          synonym="">Prochlorococcus marinus genome, GCA_001180265.1</option>
+	<option value='GCA_001180285.1'          synonym="">Prochlorococcus marinus genome, GCA_001180285.1</option>
+	<option value='GCA_001180305.1'          synonym="">Prochlorococcus marinus genome, GCA_001180305.1</option>
+	<option value='GCA_001180325.1'          synonym="">Prochlorococcus marinus genome, GCA_001180325.1</option>
+	<option value='GCA_001182765.1'          synonym="">Synechococcus sp. WH 8103 genome, GCA_001182765.1</option>
+	<option value='GCA_001264245.1'          synonym="">Microcystis panniformis FACHB-1757 genome, GCA_001264245.1</option>
+	<option value='GCA_001275395.1'          synonym="">Hapalosiphon sp. MRB220 genome, GCA_001275395.1</option>
+	<option value='GCA_001276715.1'          synonym="">Planktothricoides sp. SR001 genome, GCA_001276715.1</option>
+	<option value='GCA_001277295.1'          synonym="">Anabaena sp. wa102 genome, GCA_001277295.1</option>
+	<option value='GCA_001298445.1'          synonym="">Nostoc piscinale CENA21 genome, GCA_001298445.1</option>
+	<option value='GCA_001314865.1'          synonym="">Phormidesmis priestleyi Ana genome, GCA_001314865.1</option>
+	<option value='GCA_001314905.1'          synonym="">Phormidium sp. OSCR genome, GCA_001314905.1</option>
+	<option value='GCA_001318385.1'          synonym="">Synechocystis sp. PCC 6803 genome, GCA_001318385.1</option>
+	<option value='GCA_001402795.1'          synonym="">Pseudanabaena sp. Roaring Creek genome, GCA_001402795.1</option>
+	<option value='GCA_001456025.1'          synonym="">Mastigocoleus testarum BC008 genome, GCA_001456025.1</option>
+	<option value='GCA_001458455.1'          synonym="">Chrysosporum ovalisporum genome, GCA_001458455.1</option>
+
 	<option disabled>--------------------</option>
 
 	<option value='refseq'                   synonym="">RefSeq complete RNA release 85 (Nov, 2017)</option>
@@ -3095,6 +3472,3390 @@ set_strand() ;
 	<td><a target='_blank' href='http://protists.ensembl.org/Thalassiosira_pseudonana/Info/Index'><!--
 		-->ASM14940v2 (May, 2014)</a>
 </tr>
+<tr>
+	<td><a href='/GCA_000009725.1/'>GCA_000009725.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 6803
+	<td>Synechocystis sp. PCC 6803
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000009725.1'><!--
+		-->GCA_000009725.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000009705.1/'>GCA_000009705.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nostoc sp. PCC 7120
+	<td>Nostoc sp. PCC 7120
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000009705.1'><!--
+		-->GCA_000009705.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000011345.1/'>GCA_000011345.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Thermosynechococcus elongatus BP-1
+	<td>Thermosynechococcus elongatus BP-1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000011345.1'><!--
+		-->GCA_000011345.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000010625.1/'>GCA_000010625.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa NIES-843
+	<td>Microcystis aeruginosa NIES-843
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000010625.1'><!--
+		-->GCA_000010625.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000011385.1/'>GCA_000011385.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Gloeobacter violaceus PCC 7421
+	<td>Gloeobacter violaceus PCC 7421
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000011385.1'><!--
+		-->GCA_000011385.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000006985.1/'>GCA_000006985.1</a>
+	<td>CyanoBase
+	<td>Chlorobi
+	<td>Chlorobium tepidum TLS
+	<td>Chlorobium tepidum TLS
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000006985.1'><!--
+		-->GCA_000006985.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000007925.1/'>GCA_000007925.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus<br>subsp. marinus str. CCMP1375
+	<td>Prochlorococcus marinus<br>subsp. marinus str. CCMP1375
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000007925.1'><!--
+		-->GCA_000007925.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000010065.1/'>GCA_000010065.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus elongatus PCC 6301
+	<td>Synechococcus elongatus PCC 6301
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000010065.1'><!--
+		-->GCA_000010065.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000011465.1/'>GCA_000011465.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus<br>subsp. pastoris str. CCMP1986
+	<td>Prochlorococcus marinus<br>subsp. pastoris str. CCMP1986
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000011465.1'><!--
+		-->GCA_000011465.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000011485.1/'>GCA_000011485.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9313
+	<td>Prochlorococcus marinus str. MIT 9313
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000011485.1'><!--
+		-->GCA_000011485.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000012465.1/'>GCA_000012465.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. NATL2A
+	<td>Prochlorococcus marinus str. NATL2A
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000012465.1'><!--
+		-->GCA_000012465.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000012505.1/'>GCA_000012505.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. CC9902
+	<td>Synechococcus sp. CC9902
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000012505.1'><!--
+		-->GCA_000012505.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000012525.1/'>GCA_000012525.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus elongatus PCC 7942
+	<td>Synechococcus elongatus PCC 7942
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000012525.1'><!--
+		-->GCA_000012525.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000012625.1/'>GCA_000012625.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. CC9605
+	<td>Synechococcus sp. CC9605
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000012625.1'><!--
+		-->GCA_000012625.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000012645.1/'>GCA_000012645.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9312
+	<td>Prochlorococcus marinus str. MIT 9312
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000012645.1'><!--
+		-->GCA_000012645.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000013205.1/'>GCA_000013205.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. JA-3-3Ab
+	<td>Synechococcus sp. JA-3-3Ab
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000013205.1'><!--
+		-->GCA_000013205.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000013225.1/'>GCA_000013225.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanobacteria bacterium<br>Yellowstone B-Prime
+	<td>Cyanobacteria bacterium<br>Yellowstone B-Prime
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000013225.1'><!--
+		-->GCA_000013225.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000014265.1/'>GCA_000014265.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Trichodesmium erythraeum IMS101
+	<td>Trichodesmium erythraeum IMS101
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000014265.1'><!--
+		-->GCA_000014265.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000014585.1/'>GCA_000014585.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. CC9311
+	<td>Synechococcus sp. CC9311
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000014585.1'><!--
+		-->GCA_000014585.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000015645.1/'>GCA_000015645.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. AS9601
+	<td>Prochlorococcus marinus str. AS9601
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000015645.1'><!--
+		-->GCA_000015645.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000015665.1/'>GCA_000015665.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9515
+	<td>Prochlorococcus marinus str. MIT 9515
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000015665.1'><!--
+		-->GCA_000015665.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000015685.1/'>GCA_000015685.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. NATL1A
+	<td>Prochlorococcus marinus str. NATL1A
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000015685.1'><!--
+		-->GCA_000015685.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000015705.1/'>GCA_000015705.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9303
+	<td>Prochlorococcus marinus str. MIT 9303
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000015705.1'><!--
+		-->GCA_000015705.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000015965.1/'>GCA_000015965.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9301
+	<td>Prochlorococcus marinus str. MIT 9301
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000015965.1'><!--
+		-->GCA_000015965.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000017845.1/'>GCA_000017845.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanothece sp. ATCC 51142
+	<td>Cyanothece sp. ATCC 51142
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000017845.1'><!--
+		-->GCA_000017845.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000018065.1/'>GCA_000018065.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9215
+	<td>Prochlorococcus marinus str. MIT 9215
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000018065.1'><!--
+		-->GCA_000018065.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000018105.1/'>GCA_000018105.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Acaryochloris marina MBIC11017
+	<td>Acaryochloris marina MBIC11017
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000018105.1'><!--
+		-->GCA_000018105.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000018585.1/'>GCA_000018585.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9211
+	<td>Prochlorococcus marinus str. MIT 9211
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000018585.1'><!--
+		-->GCA_000018585.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000019485.1/'>GCA_000019485.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. PCC 7002
+	<td>Synechococcus sp. PCC 7002
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000019485.1'><!--
+		-->GCA_000019485.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000020025.1/'>GCA_000020025.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nostoc punctiforme PCC 73102
+	<td>Nostoc punctiforme PCC 73102
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000020025.1'><!--
+		-->GCA_000020025.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000021805.1/'>GCA_000021805.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanothece sp. PCC 8801
+	<td>Cyanothece sp. PCC 8801
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000021805.1'><!--
+		-->GCA_000021805.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000021825.1/'>GCA_000021825.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanothece sp. PCC 7424
+	<td>Cyanothece sp. PCC 7424
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000021825.1'><!--
+		-->GCA_000021825.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000022045.1/'>GCA_000022045.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanothece sp. PCC 7425
+	<td>Cyanothece sp. PCC 7425
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000022045.1'><!--
+		-->GCA_000022045.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000024045.1/'>GCA_000024045.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanothece sp. PCC 8802
+	<td>Cyanothece sp. PCC 8802
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000024045.1'><!--
+		-->GCA_000024045.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000025125.1/'>GCA_000025125.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Candidatus Atelocyanobacterium thalassa<br>isolate ALOHA
+	<td>Candidatus Atelocyanobacterium thalassa<br>isolate ALOHA
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000025125.1'><!--
+		-->GCA_000025125.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000063505.1/'>GCA_000063505.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. WH 7803
+	<td>Synechococcus sp. WH 7803
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000063505.1'><!--
+		-->GCA_000063505.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000063525.1/'>GCA_000063525.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. RCC307
+	<td>Synechococcus sp. RCC307
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000063525.1'><!--
+		-->GCA_000063525.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000147335.1/'>GCA_000147335.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanothece sp. PCC 7822
+	<td>Cyanothece sp. PCC 7822
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000147335.1'><!--
+		-->GCA_000147335.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000153045.1/'>GCA_000153045.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. WH 5701
+	<td>Synechococcus sp. WH 5701
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000153045.1'><!--
+		-->GCA_000153045.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000153065.1/'>GCA_000153065.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. RS9917
+	<td>Synechococcus sp. RS9917
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000153065.1'><!--
+		-->GCA_000153065.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000153285.1/'>GCA_000153285.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. WH 7805
+	<td>Synechococcus sp. WH 7805
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000153285.1'><!--
+		-->GCA_000153285.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000153805.1/'>GCA_000153805.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. BL107
+	<td>Synechococcus sp. BL107
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000153805.1'><!--
+		-->GCA_000153805.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000153825.1/'>GCA_000153825.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. RS9916
+	<td>Synechococcus sp. RS9916
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000153825.1'><!--
+		-->GCA_000153825.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000155555.1/'>GCA_000155555.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Coleofasciculus chthonoplastes PCC 7420
+	<td>Coleofasciculus chthonoplastes PCC 7420
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000155555.1'><!--
+		-->GCA_000155555.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000155595.1/'>GCA_000155595.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. PCC 7335
+	<td>Synechococcus sp. PCC 7335
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000155595.1'><!--
+		-->GCA_000155595.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000155635.1/'>GCA_000155635.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanobium sp. PCC 7001
+	<td>Cyanobium sp. PCC 7001
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000155635.1'><!--
+		-->GCA_000155635.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000158595.1/'>GCA_000158595.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9202
+	<td>Prochlorococcus marinus str. MIT 9202
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000158595.1'><!--
+		-->GCA_000158595.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000161795.2/'>GCA_000161795.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. WH 8109
+	<td>Synechococcus sp. WH 8109
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000161795.2'><!--
+		-->GCA_000161795.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000167195.1/'>GCA_000167195.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Crocosphaera watsonii WH 8501
+	<td>Crocosphaera watsonii WH 8501
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000167195.1'><!--
+		-->GCA_000167195.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000169095.1/'>GCA_000169095.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Lyngbya sp. PCC 8106
+	<td>Lyngbya sp. PCC 8106
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000169095.1'><!--
+		-->GCA_000169095.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000169135.1/'>GCA_000169135.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nodularia spumigena CCY9414
+	<td>Nodularia spumigena CCY9414
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000169135.1'><!--
+		-->GCA_000169135.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000169335.1/'>GCA_000169335.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanothece sp. CCY0110
+	<td>Cyanothece sp. CCY0110
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000169335.1'><!--
+		-->GCA_000169335.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000173555.1/'>GCA_000173555.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Arthrospira maxima CS-328
+	<td>Arthrospira maxima CS-328
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000173555.1'><!--
+		-->GCA_000173555.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000175415.3/'>GCA_000175415.3</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Arthrospira platensis str. Paraca
+	<td>Arthrospira platensis str. Paraca
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000175415.3'><!--
+		-->GCA_000175415.3</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000175835.1/'>GCA_000175835.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cylindrospermopsis raciborskii CS-505
+	<td>Cylindrospermopsis raciborskii CS-505
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000175835.1'><!--
+		-->GCA_000175835.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000175855.1/'>GCA_000175855.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Raphidiopsis brookii D9
+	<td>Raphidiopsis brookii D9
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000175855.1'><!--
+		-->GCA_000175855.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000176895.2/'>GCA_000176895.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Arthrospira sp. PCC 8005
+	<td>Arthrospira sp. PCC 8005
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000176895.2'><!--
+		-->GCA_000176895.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000179235.1/'>GCA_000179235.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. CB0101
+	<td>Synechococcus sp. CB0101
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000179235.1'><!--
+		-->GCA_000179235.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000179255.1/'>GCA_000179255.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. CB0205
+	<td>Synechococcus sp. CB0205
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000179255.1'><!--
+		-->GCA_000179255.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000180455.1/'>GCA_000180455.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Oscillatoria sp. PCC 6506
+	<td>Oscillatoria sp. PCC 6506
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000180455.1'><!--
+		-->GCA_000180455.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000195775.1/'>GCA_000195775.1</a>
+	<td>CyanoBase
+	<td>Proteobacteria
+	<td>Rhodopseudomonas palustris CGA009
+	<td>Rhodopseudomonas palustris CGA009
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000195775.1'><!--
+		-->GCA_000195775.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000195975.1/'>GCA_000195975.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. WH 8102
+	<td>Synechococcus sp. WH 8102
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000195975.1'><!--
+		-->GCA_000195975.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000196515.1/'>GCA_000196515.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nostoc azollae 0708
+	<td>Nostoc azollae 0708
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000196515.1'><!--
+		-->GCA_000196515.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000204075.1/'>GCA_000204075.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Anabaena variabilis ATCC 29413
+	<td>Anabaena variabilis ATCC 29413
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000204075.1'><!--
+		-->GCA_000204075.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000210375.1/'>GCA_000210375.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Arthrospira platensis NIES-39
+	<td>Arthrospira platensis NIES-39
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000210375.1'><!--
+		-->GCA_000210375.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000211815.1/'>GCA_000211815.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Moorea producens 3L
+	<td>Moorea producens 3L
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000211815.1'><!--
+		-->GCA_000211815.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000214075.2/'>GCA_000214075.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcoleus vaginatus FGP-2
+	<td>Microcoleus vaginatus FGP-2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000214075.2'><!--
+		-->GCA_000214075.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000218705.1/'>GCA_000218705.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus bv. HNLC1
+	<td>Prochlorococcus marinus bv. HNLC1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000218705.1'><!--
+		-->GCA_000218705.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000218745.1/'>GCA_000218745.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus bv. HNLC2
+	<td>Prochlorococcus marinus bv. HNLC2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000218745.1'><!--
+		-->GCA_000218745.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000230675.2/'>GCA_000230675.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. WH 8016
+	<td>Synechococcus sp. WH 8016
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000230675.2'><!--
+		-->GCA_000230675.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000231365.2/'>GCA_000231365.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Fischerella sp. JSC-11
+	<td>Fischerella sp. JSC-11
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000231365.2'><!--
+		-->GCA_000231365.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000231425.3/'>GCA_000231425.3</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanothece sp. ATCC 51472
+	<td>Cyanothece sp. ATCC 51472
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000231425.3'><!--
+		-->GCA_000231425.3</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000235665.2/'>GCA_000235665.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Crocosphaera watsonii WH 0003
+	<td>Crocosphaera watsonii WH 0003
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000235665.2'><!--
+		-->GCA_000235665.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000238775.2/'>GCA_000238775.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Acaryochloris sp. CCMEE 5410
+	<td>Acaryochloris sp. CCMEE 5410
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000238775.2'><!--
+		-->GCA_000238775.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000252425.1/'>GCA_000252425.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochloron didemni P2-Fiji
+	<td>Prochloron didemni P2-Fiji
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000252425.1'><!--
+		-->GCA_000252425.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000252465.1/'>GCA_000252465.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochloron didemni P3-Solomon
+	<td>Prochloron didemni P3-Solomon
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000252465.1'><!--
+		-->GCA_000252465.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000252485.1/'>GCA_000252485.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochloron didemni P4-Papua_New_Guinea
+	<td>Prochloron didemni P4-Papua_New_Guinea
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000252485.1'><!--
+		-->GCA_000252485.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000270265.1/'>GCA_000270265.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 6803
+	<td>Synechocystis sp. PCC 6803
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000270265.1'><!--
+		-->GCA_000270265.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000284135.1/'>GCA_000284135.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 6803 substr. GT-I
+	<td>Synechocystis sp. PCC 6803 substr. GT-I
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000284135.1'><!--
+		-->GCA_000284135.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000284215.1/'>GCA_000284215.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 6803 substr. PCC-N
+	<td>Synechocystis sp. PCC 6803 substr. PCC-N
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000284215.1'><!--
+		-->GCA_000284215.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000284455.1/'>GCA_000284455.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 6803 substr. PCC-P
+	<td>Synechocystis sp. PCC 6803 substr. PCC-P
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000284455.1'><!--
+		-->GCA_000284455.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291785.1/'>GCA_000291785.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W4
+	<td>Prochlorococcus sp. W4
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291785.1'><!--
+		-->GCA_000291785.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291805.1/'>GCA_000291805.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W7
+	<td>Prochlorococcus sp. W7
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291805.1'><!--
+		-->GCA_000291805.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291825.1/'>GCA_000291825.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W8
+	<td>Prochlorococcus sp. W8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291825.1'><!--
+		-->GCA_000291825.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291845.1/'>GCA_000291845.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W10
+	<td>Prochlorococcus sp. W10
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291845.1'><!--
+		-->GCA_000291845.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291865.1/'>GCA_000291865.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W6
+	<td>Prochlorococcus sp. W6
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291865.1'><!--
+		-->GCA_000291865.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291885.1/'>GCA_000291885.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W2
+	<td>Prochlorococcus sp. W2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291885.1'><!--
+		-->GCA_000291885.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291905.1/'>GCA_000291905.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W3
+	<td>Prochlorococcus sp. W3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291905.1'><!--
+		-->GCA_000291905.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291925.1/'>GCA_000291925.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W9
+	<td>Prochlorococcus sp. W9
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291925.1'><!--
+		-->GCA_000291925.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291945.1/'>GCA_000291945.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W11
+	<td>Prochlorococcus sp. W11
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291945.1'><!--
+		-->GCA_000291945.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291965.1/'>GCA_000291965.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W12
+	<td>Prochlorococcus sp. W12
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291965.1'><!--
+		-->GCA_000291965.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000291985.1/'>GCA_000291985.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. W5
+	<td>Prochlorococcus sp. W5
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000291985.1'><!--
+		-->GCA_000291985.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000297435.1/'>GCA_000297435.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis sp. T1-4
+	<td>Microcystis sp. T1-4
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000297435.1'><!--
+		-->GCA_000297435.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000300115.1/'>GCA_000300115.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Tolypothrix sp. PCC 7601
+	<td>Tolypothrix sp. PCC 7601
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000300115.1'><!--
+		-->GCA_000300115.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000307915.1/'>GCA_000307915.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Arthrospira platensis C1
+	<td>Arthrospira platensis C1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000307915.1'><!--
+		-->GCA_000307915.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000307995.2/'>GCA_000307995.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 9432
+	<td>Microcystis aeruginosa PCC 9432
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000307995.2'><!--
+		-->GCA_000307995.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000309385.1/'>GCA_000309385.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nodosilinea nodulosa PCC 7104
+	<td>Nodosilinea nodulosa PCC 7104
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000309385.1'><!--
+		-->GCA_000309385.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000309945.1/'>GCA_000309945.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Oscillatoriales cyanobacterium JSC-12
+	<td>Oscillatoriales cyanobacterium JSC-12
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000309945.1'><!--
+		-->GCA_000309945.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312165.1/'>GCA_000312165.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 9717
+	<td>Microcystis aeruginosa PCC 9717
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312165.1'><!--
+		-->GCA_000312165.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312185.1/'>GCA_000312185.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 9443
+	<td>Microcystis aeruginosa PCC 9443
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312185.1'><!--
+		-->GCA_000312185.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312205.1/'>GCA_000312205.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 7941
+	<td>Microcystis aeruginosa PCC 7941
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312205.1'><!--
+		-->GCA_000312205.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312225.1/'>GCA_000312225.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 9807
+	<td>Microcystis aeruginosa PCC 9807
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312225.1'><!--
+		-->GCA_000312225.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312245.1/'>GCA_000312245.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 9808
+	<td>Microcystis aeruginosa PCC 9808
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312245.1'><!--
+		-->GCA_000312245.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312265.1/'>GCA_000312265.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 9809
+	<td>Microcystis aeruginosa PCC 9809
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312265.1'><!--
+		-->GCA_000312265.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312285.1/'>GCA_000312285.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 9701
+	<td>Microcystis aeruginosa PCC 9701
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312285.1'><!--
+		-->GCA_000312285.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312705.1/'>GCA_000312705.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Anabaena sp. 90
+	<td>Anabaena sp. 90
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312705.1'><!--
+		-->GCA_000312705.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000312725.1/'>GCA_000312725.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 9806
+	<td>Microcystis aeruginosa PCC 9806
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000312725.1'><!--
+		-->GCA_000312725.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000314005.1/'>GCA_000314005.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Spirulina subsalsa PCC 9445
+	<td>Spirulina subsalsa PCC 9445
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000314005.1'><!--
+		-->GCA_000314005.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000315565.1/'>GCA_000315565.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Mastigocladopsis repens PCC 10914
+	<td>Mastigocladopsis repens PCC 10914
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000315565.1'><!--
+		-->GCA_000315565.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000315585.1/'>GCA_000315585.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Fischerella sp. PCC 9339
+	<td>Fischerella sp. PCC 9339
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000315585.1'><!--
+		-->GCA_000315585.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000316115.1/'>GCA_000316115.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Leptolyngbya sp. PCC 7375
+	<td>Leptolyngbya sp. PCC 7375
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000316115.1'><!--
+		-->GCA_000316115.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000316515.1/'>GCA_000316515.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanobium gracile PCC 6307
+	<td>Cyanobium gracile PCC 6307
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000316515.1'><!--
+		-->GCA_000316515.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000316575.1/'>GCA_000316575.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Calothrix sp. PCC 7507
+	<td>Calothrix sp. PCC 7507
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000316575.1'><!--
+		-->GCA_000316575.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000316605.1/'>GCA_000316605.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Leptolyngbya sp. PCC 7376
+	<td>Leptolyngbya sp. PCC 7376
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000316605.1'><!--
+		-->GCA_000316605.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000316625.1/'>GCA_000316625.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nostoc sp. PCC 7107
+	<td>Nostoc sp. PCC 7107
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000316625.1'><!--
+		-->GCA_000316625.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000316645.1/'>GCA_000316645.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nostoc sp. PCC 7524
+	<td>Nostoc sp. PCC 7524
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000316645.1'><!--
+		-->GCA_000316645.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000316665.1/'>GCA_000316665.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Rivularia sp. PCC 7116
+	<td>Rivularia sp. PCC 7116
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000316665.1'><!--
+		-->GCA_000316665.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000316685.1/'>GCA_000316685.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. PCC 6312
+	<td>Synechococcus sp. PCC 6312
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000316685.1'><!--
+		-->GCA_000316685.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317025.1/'>GCA_000317025.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Pleurocapsa sp. PCC 7327
+	<td>Pleurocapsa sp. PCC 7327
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317025.1'><!--
+		-->GCA_000317025.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317045.1/'>GCA_000317045.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Geitlerinema sp. PCC 7407
+	<td>Geitlerinema sp. PCC 7407
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317045.1'><!--
+		-->GCA_000317045.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317065.1/'>GCA_000317065.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Pseudanabaena sp. PCC 7367
+	<td>Pseudanabaena sp. PCC 7367
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317065.1'><!--
+		-->GCA_000317065.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317085.1/'>GCA_000317085.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. PCC 7502
+	<td>Synechococcus sp. PCC 7502
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317085.1'><!--
+		-->GCA_000317085.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317105.1/'>GCA_000317105.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Oscillatoria acuminata PCC 6304
+	<td>Oscillatoria acuminata PCC 6304
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317105.1'><!--
+		-->GCA_000317105.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317125.1/'>GCA_000317125.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Chroococcidiopsis thermalis PCC 7203
+	<td>Chroococcidiopsis thermalis PCC 7203
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317125.1'><!--
+		-->GCA_000317125.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317145.1/'>GCA_000317145.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Chamaesiphon minutus PCC 6605
+	<td>Chamaesiphon minutus PCC 6605
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317145.1'><!--
+		-->GCA_000317145.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317205.1/'>GCA_000317205.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Fischerella muscicola PCC 7414
+	<td>Fischerella muscicola PCC 7414
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317205.1'><!--
+		-->GCA_000317205.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317225.1/'>GCA_000317225.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Fischerella thermalis PCC 7521
+	<td>Fischerella thermalis PCC 7521
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317225.1'><!--
+		-->GCA_000317225.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317245.1/'>GCA_000317245.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Fischerella muscicola SAG 1427-1
+	<td>Fischerella muscicola SAG 1427-1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317245.1'><!--
+		-->GCA_000317245.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317265.1/'>GCA_000317265.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Chlorogloeopsis fritschii PCC 9212
+	<td>Chlorogloeopsis fritschii PCC 9212
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317265.1'><!--
+		-->GCA_000317265.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317285.1/'>GCA_000317285.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Chlorogloeopsis fritschii PCC 6912
+	<td>Chlorogloeopsis fritschii PCC 6912
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317285.1'><!--
+		-->GCA_000317285.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317435.1/'>GCA_000317435.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Calothrix sp. PCC 6303
+	<td>Calothrix sp. PCC 6303
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317435.1'><!--
+		-->GCA_000317435.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317475.1/'>GCA_000317475.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Oscillatoria nigro-viridis PCC 7112
+	<td>Oscillatoria nigro-viridis PCC 7112
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317475.1'><!--
+		-->GCA_000317475.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317495.1/'>GCA_000317495.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Crinalium epipsammum PCC 9333
+	<td>Crinalium epipsammum PCC 9333
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317495.1'><!--
+		-->GCA_000317495.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317515.1/'>GCA_000317515.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcoleus sp. PCC 7113
+	<td>Microcoleus sp. PCC 7113
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317515.1'><!--
+		-->GCA_000317515.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317535.1/'>GCA_000317535.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cylindrospermum stagnale PCC 7417
+	<td>Cylindrospermum stagnale PCC 7417
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317535.1'><!--
+		-->GCA_000317535.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317555.1/'>GCA_000317555.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Gloeocapsa sp. PCC 7428
+	<td>Gloeocapsa sp. PCC 7428
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317555.1'><!--
+		-->GCA_000317555.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317575.1/'>GCA_000317575.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Stanieria cyanosphaera PCC 7437
+	<td>Stanieria cyanosphaera PCC 7437
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317575.1'><!--
+		-->GCA_000317575.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317615.1/'>GCA_000317615.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Dactylococcopsis salina PCC 8305
+	<td>Dactylococcopsis salina PCC 8305
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317615.1'><!--
+		-->GCA_000317615.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317635.1/'>GCA_000317635.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Halothece sp. PCC 7418
+	<td>Halothece sp. PCC 7418
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317635.1'><!--
+		-->GCA_000317635.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317655.1/'>GCA_000317655.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanobacterium stanieri PCC 7202
+	<td>Cyanobacterium stanieri PCC 7202
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317655.1'><!--
+		-->GCA_000317655.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317675.1/'>GCA_000317675.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanobacterium aponinum PCC 10605
+	<td>Cyanobacterium aponinum PCC 10605
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317675.1'><!--
+		-->GCA_000317675.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000317695.1/'>GCA_000317695.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Anabaena cylindrica PCC 7122
+	<td>Anabaena cylindrica PCC 7122
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000317695.1'><!--
+		-->GCA_000317695.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000330925.1/'>GCA_000330925.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa TAIHU98
+	<td>Microcystis aeruginosa TAIHU98
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000330925.1'><!--
+		-->GCA_000330925.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000331305.1/'>GCA_000331305.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Calothrix sp. PCC 7103
+	<td>Calothrix sp. PCC 7103
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000331305.1'><!--
+		-->GCA_000331305.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332035.1/'>GCA_000332035.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Gloeocapsa sp. PCC 73106
+	<td>Gloeocapsa sp. PCC 73106
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332035.1'><!--
+		-->GCA_000332035.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332055.1/'>GCA_000332055.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Xenococcus sp. PCC 7305
+	<td>Xenococcus sp. PCC 7305
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332055.1'><!--
+		-->GCA_000332055.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332075.2/'>GCA_000332075.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 7509
+	<td>Synechocystis sp. PCC 7509
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332075.2'><!--
+		-->GCA_000332075.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332095.2/'>GCA_000332095.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Leptolyngbya sp. PCC 6406
+	<td>Leptolyngbya sp. PCC 6406
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332095.2'><!--
+		-->GCA_000332095.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332135.1/'>GCA_000332135.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Anabaena sp. PCC 7108
+	<td>Anabaena sp. PCC 7108
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332135.1'><!--
+		-->GCA_000332135.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332155.1/'>GCA_000332155.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Kamptonema formosum PCC 6407
+	<td>Kamptonema formosum PCC 6407
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332155.1'><!--
+		-->GCA_000332155.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332175.1/'>GCA_000332175.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Pseudanabaena sp. PCC 6802
+	<td>Pseudanabaena sp. PCC 6802
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332175.1'><!--
+		-->GCA_000332175.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332195.1/'>GCA_000332195.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Pleurocapsa sp. PCC 7319
+	<td>Pleurocapsa sp. PCC 7319
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332195.1'><!--
+		-->GCA_000332195.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332215.1/'>GCA_000332215.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Pseudanabaena biceps PCC 7429
+	<td>Pseudanabaena biceps PCC 7429
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332215.1'><!--
+		-->GCA_000332215.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332235.1/'>GCA_000332235.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Geminocystis herdmanii PCC 6308
+	<td>Geminocystis herdmanii PCC 6308
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332235.1'><!--
+		-->GCA_000332235.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332255.1/'>GCA_000332255.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>cyanobacterium PCC 7702
+	<td>cyanobacterium PCC 7702
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332255.1'><!--
+		-->GCA_000332255.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332275.1/'>GCA_000332275.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. PCC 7336
+	<td>Synechococcus sp. PCC 7336
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332275.1'><!--
+		-->GCA_000332275.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332295.1/'>GCA_000332295.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microchaete sp. PCC 7126
+	<td>Microchaete sp. PCC 7126
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332295.1'><!--
+		-->GCA_000332295.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332315.1/'>GCA_000332315.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorothrix hollandica PCC 9006
+	<td>Prochlorothrix hollandica PCC 9006
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332315.1'><!--
+		-->GCA_000332315.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332335.1/'>GCA_000332335.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Oscillatoria sp. PCC 10802
+	<td>Oscillatoria sp. PCC 10802
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332335.1'><!--
+		-->GCA_000332335.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332355.1/'>GCA_000332355.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Geitlerinema sp. PCC 7105
+	<td>Geitlerinema sp. PCC 7105
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332355.1'><!--
+		-->GCA_000332355.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000332585.1/'>GCA_000332585.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa DIANCHI905
+	<td>Microcystis aeruginosa DIANCHI905
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000332585.1'><!--
+		-->GCA_000332585.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000340565.3/'>GCA_000340565.3</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nodularia spumigena CCY9414
+	<td>Nodularia spumigena CCY9414
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000340565.3'><!--
+		-->GCA_000340565.3</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000340785.1/'>GCA_000340785.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 6803
+	<td>Synechocystis sp. PCC 6803
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000340785.1'><!--
+		-->GCA_000340785.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000341585.2/'>GCA_000341585.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorothrix hollandica PCC 9006
+	<td>Prochlorothrix hollandica PCC 9006
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000341585.2'><!--
+		-->GCA_000341585.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000346485.1/'>GCA_000346485.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Scytonema hofmanni PCC 7110
+	<td>Scytonema hofmanni PCC 7110
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000346485.1'><!--
+		-->GCA_000346485.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000350105.1/'>GCA_000350105.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Richelia intracellularis HH01
+	<td>Richelia intracellularis HH01
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000350105.1'><!--
+		-->GCA_000350105.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000350125.1/'>GCA_000350125.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Richelia intracellularis HM01
+	<td>Richelia intracellularis HM01
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000350125.1'><!--
+		-->GCA_000350125.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000353285.1/'>GCA_000353285.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Leptolyngbya boryana PCC 6306
+	<td>Leptolyngbya boryana PCC 6306
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000353285.1'><!--
+		-->GCA_000353285.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000380225.1/'>GCA_000380225.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>filamentous cyanobacterium ESFC-1
+	<td>filamentous cyanobacterium ESFC-1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000380225.1'><!--
+		-->GCA_000380225.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000412595.1/'>GCA_000412595.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa SPC777
+	<td>Microcystis aeruginosa SPC777
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000412595.1'><!--
+		-->GCA_000412595.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000426905.1/'>GCA_000426905.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Dolichospermum circinale AWQC131C
+	<td>Dolichospermum circinale AWQC131C
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000426905.1'><!--
+		-->GCA_000426905.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000426925.1/'>GCA_000426925.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Dolichospermum circinale AWQC310F
+	<td>Dolichospermum circinale AWQC310F
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000426925.1'><!--
+		-->GCA_000426925.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000447295.1/'>GCA_000447295.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Fischerella sp. PCC 9431
+	<td>Fischerella sp. PCC 9431
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000447295.1'><!--
+		-->GCA_000447295.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000464665.1/'>GCA_000464665.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix agardhii NIVA-CYA 15
+	<td>Planktothrix agardhii NIVA-CYA 15
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000464665.1'><!--
+		-->GCA_000464665.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000464725.1/'>GCA_000464725.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix agardhii NIVA-CYA 34
+	<td>Planktothrix agardhii NIVA-CYA 34
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000464725.1'><!--
+		-->GCA_000464725.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000464745.1/'>GCA_000464745.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix mougeotii NIVA-CYA 405
+	<td>Planktothrix mougeotii NIVA-CYA 405
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000464745.1'><!--
+		-->GCA_000464745.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000464765.1/'>GCA_000464765.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix prolifica NIVA-CYA 406
+	<td>Planktothrix prolifica NIVA-CYA 406
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000464765.1'><!--
+		-->GCA_000464765.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000464785.1/'>GCA_000464785.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix rubescens NIVA-CYA 407
+	<td>Planktothrix rubescens NIVA-CYA 407
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000464785.1'><!--
+		-->GCA_000464785.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000464805.1/'>GCA_000464805.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix prolifica NIVA-CYA 540
+	<td>Planktothrix prolifica NIVA-CYA 540
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000464805.1'><!--
+		-->GCA_000464805.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000464825.1/'>GCA_000464825.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix agardhii NIVA-CYA 56/3
+	<td>Planktothrix agardhii NIVA-CYA 56/3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000464825.1'><!--
+		-->GCA_000464825.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000464845.1/'>GCA_000464845.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix prolifica NIVA-CYA 98
+	<td>Planktothrix prolifica NIVA-CYA 98
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000464845.1'><!--
+		-->GCA_000464845.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000472885.1/'>GCA_000472885.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Mastigocoleus testarum BC008
+	<td>Mastigocoleus testarum BC008
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000472885.1'><!--
+		-->GCA_000472885.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000473895.1/'>GCA_000473895.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Rubidibacter lacunae KORDI 51-2
+	<td>Rubidibacter lacunae KORDI 51-2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000473895.1'><!--
+		-->GCA_000473895.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000478195.2/'>GCA_000478195.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Lyngbya aestuarii BL J
+	<td>Lyngbya aestuarii BL J
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000478195.2'><!--
+		-->GCA_000478195.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000478825.2/'>GCA_000478825.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 6714
+	<td>Synechocystis sp. PCC 6714
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000478825.2'><!--
+		-->GCA_000478825.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000482245.1/'>GCA_000482245.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Leptolyngbya sp. Heron Island J
+	<td>Leptolyngbya sp. Heron Island J
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000482245.1'><!--
+		-->GCA_000482245.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000484535.1/'>GCA_000484535.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Gloeobacter kilaueensis JS1
+	<td>Gloeobacter kilaueensis JS1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000484535.1'><!--
+		-->GCA_000484535.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000485815.1/'>GCA_000485815.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. NKBG15041c
+	<td>Synechococcus sp. NKBG15041c
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000485815.1'><!--
+		-->GCA_000485815.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000505665.1/'>GCA_000505665.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Thermosynechococcus sp. NK55a
+	<td>Thermosynechococcus sp. NK55a
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000505665.1'><!--
+		-->GCA_000505665.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000515235.1/'>GCA_000515235.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. CC9616
+	<td>Synechococcus sp. CC9616
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000515235.1'><!--
+		-->GCA_000515235.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000517105.1/'>GCA_000517105.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Fischerella sp. PCC 9605
+	<td>Fischerella sp. PCC 9605
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000517105.1'><!--
+		-->GCA_000517105.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000521175.1/'>GCA_000521175.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Aphanizomenon flos-aquae NIES-81
+	<td>Aphanizomenon flos-aquae NIES-81
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000521175.1'><!--
+		-->GCA_000521175.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000582685.1/'>GCA_000582685.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Scytonema hofmanni UTEX 2349
+	<td>Scytonema hofmanni UTEX 2349
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000582685.1'><!--
+		-->GCA_000582685.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000586015.1/'>GCA_000586015.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Candidatus Synechococcus spongiarum SH4
+	<td>Candidatus Synechococcus spongiarum SH4
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000586015.1'><!--
+		-->GCA_000586015.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000599945.1/'>GCA_000599945.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa PCC 7005
+	<td>Microcystis aeruginosa PCC 7005
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000599945.1'><!--
+		-->GCA_000599945.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000613065.1/'>GCA_000613065.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Richelia intracellularis
+	<td>Richelia intracellularis
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000613065.1'><!--
+		-->GCA_000613065.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000633975.1/'>GCA_000633975.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_526B17
+	<td>Prochlorococcus sp. scB241_526B17
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000633975.1'><!--
+		-->GCA_000633975.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000633995.1/'>GCA_000633995.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_526K3
+	<td>Prochlorococcus sp. scB241_526K3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000633995.1'><!--
+		-->GCA_000633995.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634015.1/'>GCA_000634015.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_526N9
+	<td>Prochlorococcus sp. scB241_526N9
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634015.1'><!--
+		-->GCA_000634015.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634035.1/'>GCA_000634035.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527E14
+	<td>Prochlorococcus sp. scB241_527E14
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634035.1'><!--
+		-->GCA_000634035.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634055.1/'>GCA_000634055.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527N11
+	<td>Prochlorococcus sp. scB241_527N11
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634055.1'><!--
+		-->GCA_000634055.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634075.1/'>GCA_000634075.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528J14
+	<td>Prochlorococcus sp. scB241_528J14
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634075.1'><!--
+		-->GCA_000634075.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634095.1/'>GCA_000634095.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528J8
+	<td>Prochlorococcus sp. scB241_528J8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634095.1'><!--
+		-->GCA_000634095.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634115.1/'>GCA_000634115.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528O2
+	<td>Prochlorococcus sp. scB241_528O2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634115.1'><!--
+		-->GCA_000634115.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634135.1/'>GCA_000634135.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528P14
+	<td>Prochlorococcus sp. scB241_528P14
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634135.1'><!--
+		-->GCA_000634135.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634155.1/'>GCA_000634155.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_529C4
+	<td>Prochlorococcus sp. scB241_529C4
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634155.1'><!--
+		-->GCA_000634155.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634175.1/'>GCA_000634175.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_529D18
+	<td>Prochlorococcus sp. scB241_529D18
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634175.1'><!--
+		-->GCA_000634175.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634195.1/'>GCA_000634195.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495D8
+	<td>Prochlorococcus sp. scB243_495D8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634195.1'><!--
+		-->GCA_000634195.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634215.1/'>GCA_000634215.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495L20
+	<td>Prochlorococcus sp. scB243_495L20
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634215.1'><!--
+		-->GCA_000634215.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634235.1/'>GCA_000634235.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495N16
+	<td>Prochlorococcus sp. scB243_495N16
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634235.1'><!--
+		-->GCA_000634235.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634255.1/'>GCA_000634255.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_496A2
+	<td>Prochlorococcus sp. scB243_496A2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634255.1'><!--
+		-->GCA_000634255.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634275.1/'>GCA_000634275.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_497J18
+	<td>Prochlorococcus sp. scB243_497J18
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634275.1'><!--
+		-->GCA_000634275.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634295.1/'>GCA_000634295.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498A3
+	<td>Prochlorococcus sp. scB243_498A3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634295.1'><!--
+		-->GCA_000634295.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634315.1/'>GCA_000634315.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498J20
+	<td>Prochlorococcus sp. scB243_498J20
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634315.1'><!--
+		-->GCA_000634315.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634335.1/'>GCA_000634335.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498N4
+	<td>Prochlorococcus sp. scB243_498N4
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634335.1'><!--
+		-->GCA_000634335.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634355.1/'>GCA_000634355.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498N8
+	<td>Prochlorococcus sp. scB243_498N8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634355.1'><!--
+		-->GCA_000634355.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634375.1/'>GCA_000634375.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_518A17
+	<td>Prochlorococcus sp. scB245a_518A17
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634375.1'><!--
+		-->GCA_000634375.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634395.1/'>GCA_000634395.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_518D8
+	<td>Prochlorococcus sp. scB245a_518D8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634395.1'><!--
+		-->GCA_000634395.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634415.1/'>GCA_000634415.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519A13
+	<td>Prochlorococcus sp. scB245a_519A13
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634415.1'><!--
+		-->GCA_000634415.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634435.1/'>GCA_000634435.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519B7
+	<td>Prochlorococcus sp. scB245a_519B7
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634435.1'><!--
+		-->GCA_000634435.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634455.1/'>GCA_000634455.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519O21
+	<td>Prochlorococcus sp. scB245a_519O21
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634455.1'><!--
+		-->GCA_000634455.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634475.1/'>GCA_000634475.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_520B18
+	<td>Prochlorococcus sp. scB245a_520B18
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634475.1'><!--
+		-->GCA_000634475.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634495.1/'>GCA_000634495.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_520D2
+	<td>Prochlorococcus sp. scB245a_520D2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634495.1'><!--
+		-->GCA_000634495.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634515.1/'>GCA_000634515.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_520K10
+	<td>Prochlorococcus sp. scB245a_520K10
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634515.1'><!--
+		-->GCA_000634515.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634535.1/'>GCA_000634535.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_520M11
+	<td>Prochlorococcus sp. scB245a_520M11
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634535.1'><!--
+		-->GCA_000634535.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634555.2/'>GCA_000634555.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521A19
+	<td>Prochlorococcus sp. scB245a_521A19
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634555.2'><!--
+		-->GCA_000634555.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634575.1/'>GCA_000634575.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521N3
+	<td>Prochlorococcus sp. scB245a_521N3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634575.1'><!--
+		-->GCA_000634575.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634595.1/'>GCA_000634595.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521O23
+	<td>Prochlorococcus sp. scB245a_521O23
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634595.1'><!--
+		-->GCA_000634595.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634615.1/'>GCA_000634615.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_526B19
+	<td>Prochlorococcus sp. scB241_526B19
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634615.1'><!--
+		-->GCA_000634615.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634635.1/'>GCA_000634635.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_526B22
+	<td>Prochlorococcus sp. scB241_526B22
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634635.1'><!--
+		-->GCA_000634635.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634655.1/'>GCA_000634655.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_526N5
+	<td>Prochlorococcus sp. scB241_526N5
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634655.1'><!--
+		-->GCA_000634655.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634675.1/'>GCA_000634675.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527E15
+	<td>Prochlorococcus sp. scB241_527E15
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634675.1'><!--
+		-->GCA_000634675.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634695.1/'>GCA_000634695.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527L15
+	<td>Prochlorococcus sp. scB241_527L15
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634695.1'><!--
+		-->GCA_000634695.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634715.1/'>GCA_000634715.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528K19
+	<td>Prochlorococcus sp. scB241_528K19
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634715.1'><!--
+		-->GCA_000634715.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634735.1/'>GCA_000634735.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528N17
+	<td>Prochlorococcus sp. scB241_528N17
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634735.1'><!--
+		-->GCA_000634735.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634755.1/'>GCA_000634755.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528N20
+	<td>Prochlorococcus sp. scB241_528N20
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634755.1'><!--
+		-->GCA_000634755.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634775.1/'>GCA_000634775.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528N8
+	<td>Prochlorococcus sp. scB241_528N8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634775.1'><!--
+		-->GCA_000634775.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634795.1/'>GCA_000634795.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_529J15
+	<td>Prochlorococcus sp. scB241_529J15
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634795.1'><!--
+		-->GCA_000634795.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634815.1/'>GCA_000634815.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495G23
+	<td>Prochlorococcus sp. scB243_495G23
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634815.1'><!--
+		-->GCA_000634815.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634835.1/'>GCA_000634835.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495I8
+	<td>Prochlorococcus sp. scB243_495I8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634835.1'><!--
+		-->GCA_000634835.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634855.1/'>GCA_000634855.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495N4
+	<td>Prochlorococcus sp. scB243_495N4
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634855.1'><!--
+		-->GCA_000634855.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634875.1/'>GCA_000634875.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495P20
+	<td>Prochlorococcus sp. scB243_495P20
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634875.1'><!--
+		-->GCA_000634875.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634895.1/'>GCA_000634895.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_496E10
+	<td>Prochlorococcus sp. scB243_496E10
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634895.1'><!--
+		-->GCA_000634895.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634915.1/'>GCA_000634915.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_496G15
+	<td>Prochlorococcus sp. scB243_496G15
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634915.1'><!--
+		-->GCA_000634915.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634935.1/'>GCA_000634935.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_497I20
+	<td>Prochlorococcus sp. scB243_497I20
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634935.1'><!--
+		-->GCA_000634935.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634955.1/'>GCA_000634955.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_497N18
+	<td>Prochlorococcus sp. scB243_497N18
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634955.1'><!--
+		-->GCA_000634955.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634975.1/'>GCA_000634975.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498B22
+	<td>Prochlorococcus sp. scB243_498B22
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634975.1'><!--
+		-->GCA_000634975.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000634995.1/'>GCA_000634995.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498C16
+	<td>Prochlorococcus sp. scB243_498C16
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000634995.1'><!--
+		-->GCA_000634995.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635015.1/'>GCA_000635015.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498I20
+	<td>Prochlorococcus sp. scB243_498I20
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635015.1'><!--
+		-->GCA_000635015.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635035.1/'>GCA_000635035.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498L10
+	<td>Prochlorococcus sp. scB243_498L10
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635035.1'><!--
+		-->GCA_000635035.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635055.1/'>GCA_000635055.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_518A6
+	<td>Prochlorococcus sp. scB245a_518A6
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635055.1'><!--
+		-->GCA_000635055.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635075.1/'>GCA_000635075.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_518E10
+	<td>Prochlorococcus sp. scB245a_518E10
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635075.1'><!--
+		-->GCA_000635075.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635095.1/'>GCA_000635095.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_518J7
+	<td>Prochlorococcus sp. scB245a_518J7
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635095.1'><!--
+		-->GCA_000635095.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635115.1/'>GCA_000635115.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_518K17
+	<td>Prochlorococcus sp. scB245a_518K17
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635115.1'><!--
+		-->GCA_000635115.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635135.1/'>GCA_000635135.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_518O7
+	<td>Prochlorococcus sp. scB245a_518O7
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635135.1'><!--
+		-->GCA_000635135.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635155.1/'>GCA_000635155.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519C7
+	<td>Prochlorococcus sp. scB245a_519C7
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635155.1'><!--
+		-->GCA_000635155.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635175.1/'>GCA_000635175.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519E23
+	<td>Prochlorococcus sp. scB245a_519E23
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635175.1'><!--
+		-->GCA_000635175.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635195.1/'>GCA_000635195.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519L21
+	<td>Prochlorococcus sp. scB245a_519L21
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635195.1'><!--
+		-->GCA_000635195.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635215.1/'>GCA_000635215.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521C8
+	<td>Prochlorococcus sp. scB245a_521C8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635215.1'><!--
+		-->GCA_000635215.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635235.1/'>GCA_000635235.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521K15
+	<td>Prochlorococcus sp. scB245a_521K15
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635235.1'><!--
+		-->GCA_000635235.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635255.1/'>GCA_000635255.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521O20
+	<td>Prochlorococcus sp. scB245a_521O20
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635255.1'><!--
+		-->GCA_000635255.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635275.1/'>GCA_000635275.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_526D20
+	<td>Prochlorococcus sp. scB241_526D20
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635275.1'><!--
+		-->GCA_000635275.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635295.1/'>GCA_000635295.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527G5
+	<td>Prochlorococcus sp. scB241_527G5
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635295.1'><!--
+		-->GCA_000635295.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635315.1/'>GCA_000635315.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527I9
+	<td>Prochlorococcus sp. scB241_527I9
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635315.1'><!--
+		-->GCA_000635315.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635335.1/'>GCA_000635335.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527L16
+	<td>Prochlorococcus sp. scB241_527L16
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635335.1'><!--
+		-->GCA_000635335.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635355.1/'>GCA_000635355.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527L22
+	<td>Prochlorococcus sp. scB241_527L22
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635355.1'><!--
+		-->GCA_000635355.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635375.1/'>GCA_000635375.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_527P5
+	<td>Prochlorococcus sp. scB241_527P5
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635375.1'><!--
+		-->GCA_000635375.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635395.1/'>GCA_000635395.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_528P18
+	<td>Prochlorococcus sp. scB241_528P18
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635395.1'><!--
+		-->GCA_000635395.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635415.1/'>GCA_000635415.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_529B19
+	<td>Prochlorococcus sp. scB241_529B19
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635415.1'><!--
+		-->GCA_000635415.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635435.1/'>GCA_000635435.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_529J11
+	<td>Prochlorococcus sp. scB241_529J11
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635435.1'><!--
+		-->GCA_000635435.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635455.1/'>GCA_000635455.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_529J16
+	<td>Prochlorococcus sp. scB241_529J16
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635455.1'><!--
+		-->GCA_000635455.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635475.1/'>GCA_000635475.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB241_529O19
+	<td>Prochlorococcus sp. scB241_529O19
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635475.1'><!--
+		-->GCA_000635475.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635495.1/'>GCA_000635495.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495K23
+	<td>Prochlorococcus sp. scB243_495K23
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635495.1'><!--
+		-->GCA_000635495.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635515.1/'>GCA_000635515.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_495N3
+	<td>Prochlorococcus sp. scB243_495N3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635515.1'><!--
+		-->GCA_000635515.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635535.1/'>GCA_000635535.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_496M6
+	<td>Prochlorococcus sp. scB243_496M6
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635535.1'><!--
+		-->GCA_000635535.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635555.1/'>GCA_000635555.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_496N4
+	<td>Prochlorococcus sp. scB243_496N4
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635555.1'><!--
+		-->GCA_000635555.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635575.1/'>GCA_000635575.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_497E17
+	<td>Prochlorococcus sp. scB243_497E17
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635575.1'><!--
+		-->GCA_000635575.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635595.1/'>GCA_000635595.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498B23
+	<td>Prochlorococcus sp. scB243_498B23
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635595.1'><!--
+		-->GCA_000635595.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635615.1/'>GCA_000635615.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498F21
+	<td>Prochlorococcus sp. scB243_498F21
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635615.1'><!--
+		-->GCA_000635615.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635635.1/'>GCA_000635635.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498G3
+	<td>Prochlorococcus sp. scB243_498G3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635635.1'><!--
+		-->GCA_000635635.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635655.1/'>GCA_000635655.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498M14
+	<td>Prochlorococcus sp. scB243_498M14
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635655.1'><!--
+		-->GCA_000635655.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635675.1/'>GCA_000635675.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498P15
+	<td>Prochlorococcus sp. scB243_498P15
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635675.1'><!--
+		-->GCA_000635675.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635695.1/'>GCA_000635695.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB243_498P3
+	<td>Prochlorococcus sp. scB243_498P3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635695.1'><!--
+		-->GCA_000635695.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635715.1/'>GCA_000635715.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_518I6
+	<td>Prochlorococcus sp. scB245a_518I6
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635715.1'><!--
+		-->GCA_000635715.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635735.1/'>GCA_000635735.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519D13
+	<td>Prochlorococcus sp. scB245a_519D13
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635735.1'><!--
+		-->GCA_000635735.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635755.1/'>GCA_000635755.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519G16
+	<td>Prochlorococcus sp. scB245a_519G16
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635755.1'><!--
+		-->GCA_000635755.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635775.1/'>GCA_000635775.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_519O11
+	<td>Prochlorococcus sp. scB245a_519O11
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635775.1'><!--
+		-->GCA_000635775.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635795.1/'>GCA_000635795.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_520E22
+	<td>Prochlorococcus sp. scB245a_520E22
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635795.1'><!--
+		-->GCA_000635795.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635815.1/'>GCA_000635815.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_520F22
+	<td>Prochlorococcus sp. scB245a_520F22
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635815.1'><!--
+		-->GCA_000635815.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635835.1/'>GCA_000635835.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521B10
+	<td>Prochlorococcus sp. scB245a_521B10
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635835.1'><!--
+		-->GCA_000635835.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635855.1/'>GCA_000635855.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521M10
+	<td>Prochlorococcus sp. scB245a_521M10
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635855.1'><!--
+		-->GCA_000635855.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000635875.1/'>GCA_000635875.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. scB245a_521N5
+	<td>Prochlorococcus sp. scB245a_521N5
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000635875.1'><!--
+		-->GCA_000635875.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000708525.1/'>GCA_000708525.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Cyanobium sp. CACIAM 14
+	<td>Cyanobium sp. CACIAM 14
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000708525.1'><!--
+		-->GCA_000708525.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000710505.1/'>GCA_000710505.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothrix agardhii NIVA-CYA 126/8
+	<td>Planktothrix agardhii NIVA-CYA 126/8
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000710505.1'><!--
+		-->GCA_000710505.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000715475.1/'>GCA_000715475.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. NKBG042902
+	<td>Synechococcus sp. NKBG042902
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000715475.1'><!--
+		-->GCA_000715475.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000733415.1/'>GCA_000733415.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Leptolyngbya sp. JSC-1
+	<td>Leptolyngbya sp. JSC-1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000733415.1'><!--
+		-->GCA_000733415.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000734895.2/'>GCA_000734895.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Calothrix sp. 336/3
+	<td>Calothrix sp. 336/3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000734895.2'><!--
+		-->GCA_000734895.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000737535.1/'>GCA_000737535.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. KORDI-100
+	<td>Synechococcus sp. KORDI-100
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000737535.1'><!--
+		-->GCA_000737535.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000737575.1/'>GCA_000737575.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. KORDI-49
+	<td>Synechococcus sp. KORDI-49
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000737575.1'><!--
+		-->GCA_000737575.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000737595.1/'>GCA_000737595.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. KORDI-52
+	<td>Synechococcus sp. KORDI-52
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000737595.1'><!--
+		-->GCA_000737595.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000737945.1/'>GCA_000737945.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Candidatus Atelocyanobacterium thalassa<br>isolate SIO64986
+	<td>Candidatus Atelocyanobacterium thalassa<br>isolate SIO64986
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000737945.1'><!--
+		-->GCA_000737945.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000756305.1/'>GCA_000756305.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Myxosarcina sp. GI1
+	<td>Myxosarcina sp. GI1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000756305.1'><!--
+		-->GCA_000756305.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000757845.1/'>GCA_000757845.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. MIT 0604
+	<td>Prochlorococcus sp. MIT 0604
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000757845.1'><!--
+		-->GCA_000757845.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000757865.1/'>GCA_000757865.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. MIT 0801
+	<td>Prochlorococcus sp. MIT 0801
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000757865.1'><!--
+		-->GCA_000757865.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000759855.1/'>GCA_000759855.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9107
+	<td>Prochlorococcus marinus str. MIT 9107
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000759855.1'><!--
+		-->GCA_000759855.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000759865.1/'>GCA_000759865.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9116
+	<td>Prochlorococcus marinus str. MIT 9116
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000759865.1'><!--
+		-->GCA_000759865.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000759875.1/'>GCA_000759875.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. EQPAC1
+	<td>Prochlorococcus marinus str. EQPAC1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000759875.1'><!--
+		-->GCA_000759875.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000759885.1/'>GCA_000759885.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. GP2
+	<td>Prochlorococcus marinus str. GP2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000759885.1'><!--
+		-->GCA_000759885.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000759935.1/'>GCA_000759935.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9123
+	<td>Prochlorococcus marinus str. MIT 9123
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000759935.1'><!--
+		-->GCA_000759935.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000759955.1/'>GCA_000759955.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9201
+	<td>Prochlorococcus marinus str. MIT 9201
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000759955.1'><!--
+		-->GCA_000759955.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000759975.1/'>GCA_000759975.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9302
+	<td>Prochlorococcus marinus str. MIT 9302
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000759975.1'><!--
+		-->GCA_000759975.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760015.1/'>GCA_000760015.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9311
+	<td>Prochlorococcus marinus str. MIT 9311
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760015.1'><!--
+		-->GCA_000760015.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760035.1/'>GCA_000760035.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9314
+	<td>Prochlorococcus marinus str. MIT 9314
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760035.1'><!--
+		-->GCA_000760035.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760055.1/'>GCA_000760055.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9321
+	<td>Prochlorococcus marinus str. MIT 9321
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760055.1'><!--
+		-->GCA_000760055.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760075.1/'>GCA_000760075.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9322
+	<td>Prochlorococcus marinus str. MIT 9322
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760075.1'><!--
+		-->GCA_000760075.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760095.1/'>GCA_000760095.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. MIT 9401
+	<td>Prochlorococcus marinus str. MIT 9401
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760095.1'><!--
+		-->GCA_000760095.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760115.1/'>GCA_000760115.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. SB
+	<td>Prochlorococcus marinus str. SB
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760115.1'><!--
+		-->GCA_000760115.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760155.1/'>GCA_000760155.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. LG
+	<td>Prochlorococcus marinus str. LG
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760155.1'><!--
+		-->GCA_000760155.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760175.1/'>GCA_000760175.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. MIT 0601
+	<td>Prochlorococcus sp. MIT 0601
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760175.1'><!--
+		-->GCA_000760175.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760195.1/'>GCA_000760195.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. MIT 0602
+	<td>Prochlorococcus sp. MIT 0602
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760195.1'><!--
+		-->GCA_000760195.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760215.1/'>GCA_000760215.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. MIT 0603
+	<td>Prochlorococcus sp. MIT 0603
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760215.1'><!--
+		-->GCA_000760215.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760235.1/'>GCA_000760235.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. PAC1
+	<td>Prochlorococcus marinus str. PAC1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760235.1'><!--
+		-->GCA_000760235.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760255.1/'>GCA_000760255.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. SS2
+	<td>Prochlorococcus marinus str. SS2
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760255.1'><!--
+		-->GCA_000760255.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760275.1/'>GCA_000760275.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. SS35
+	<td>Prochlorococcus marinus str. SS35
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760275.1'><!--
+		-->GCA_000760275.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760295.1/'>GCA_000760295.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. MIT 0701
+	<td>Prochlorococcus sp. MIT 0701
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760295.1'><!--
+		-->GCA_000760295.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760315.1/'>GCA_000760315.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. MIT 0702
+	<td>Prochlorococcus sp. MIT 0702
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760315.1'><!--
+		-->GCA_000760315.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760335.1/'>GCA_000760335.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. MIT 0703
+	<td>Prochlorococcus sp. MIT 0703
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760335.1'><!--
+		-->GCA_000760335.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760355.1/'>GCA_000760355.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus str. SS51
+	<td>Prochlorococcus marinus str. SS51
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760355.1'><!--
+		-->GCA_000760355.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760375.1/'>GCA_000760375.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus sp. SS52
+	<td>Prochlorococcus sp. SS52
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760375.1'><!--
+		-->GCA_000760375.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000760695.2/'>GCA_000760695.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Tolypothrix bouteillei VB521301
+	<td>Tolypothrix bouteillei VB521301
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000760695.2'><!--
+		-->GCA_000760695.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000763385.1/'>GCA_000763385.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Leptolyngbya sp. KIOST-1
+	<td>Leptolyngbya sp. KIOST-1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000763385.1'><!--
+		-->GCA_000763385.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000775285.1/'>GCA_000775285.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Neosynechococcus sphagnicola sy1
+	<td>Neosynechococcus sphagnicola sy1
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000775285.1'><!--
+		-->GCA_000775285.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000787675.1/'>GCA_000787675.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa NIES-44
+	<td>Microcystis aeruginosa NIES-44
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000787675.1'><!--
+		-->GCA_000787675.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000789435.1/'>GCA_000789435.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Aphanizomenon flos-aquae 2012/KM1/D3
+	<td>Aphanizomenon flos-aquae 2012/KM1/D3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000789435.1'><!--
+		-->GCA_000789435.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000817325.1/'>GCA_000817325.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. UTEX 2973
+	<td>Synechococcus sp. UTEX 2973
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000817325.1'><!--
+		-->GCA_000817325.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000817735.1/'>GCA_000817735.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Scytonema millei VB511283
+	<td>Scytonema millei VB511283
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000817735.1'><!--
+		-->GCA_000817735.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000817745.1/'>GCA_000817745.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Aphanocapsa montana BDHKU210001
+	<td>Aphanocapsa montana BDHKU210001
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000817745.1'><!--
+		-->GCA_000817745.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000817775.1/'>GCA_000817775.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Lyngbya confervoides BDU141951
+	<td>Lyngbya confervoides BDU141951
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000817775.1'><!--
+		-->GCA_000817775.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000817785.1/'>GCA_000817785.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Hassallia byssoidea VB512170
+	<td>Hassallia byssoidea VB512170
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000817785.1'><!--
+		-->GCA_000817785.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000828075.1/'>GCA_000828075.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Tolypothrix campylonemoides VB511288
+	<td>Tolypothrix campylonemoides VB511288
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000828075.1'><!--
+		-->GCA_000828075.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000828085.1/'>GCA_000828085.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Scytonema tolypothrichoides VB-61278
+	<td>Scytonema tolypothrichoides VB-61278
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000828085.1'><!--
+		-->GCA_000828085.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000829235.1/'>GCA_000829235.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>cyanobacterium endosymbiont of<br>Epithemia turgida isolate EtSB Lake Yunoko
+	<td>cyanobacterium endosymbiont of<br>Epithemia turgida isolate EtSB Lake Yunoko
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000829235.1'><!--
+		-->GCA_000829235.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000934435.1/'>GCA_000934435.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Mastigocladus laminosus UU774
+	<td>Mastigocladus laminosus UU774
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000934435.1'><!--
+		-->GCA_000934435.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000952155.1/'>GCA_000952155.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Chroococcales cyanobacterium CENA595
+	<td>Chroococcales cyanobacterium CENA595
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000952155.1'><!--
+		-->GCA_000952155.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000963755.2/'>GCA_000963755.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Trichodesmium erythraeum 21-75
+	<td>Trichodesmium erythraeum 21-75
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000963755.2'><!--
+		-->GCA_000963755.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000972705.2/'>GCA_000972705.2</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Limnoraphis robusta CS-951
+	<td>Limnoraphis robusta CS-951
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000972705.2'><!--
+		-->GCA_000972705.2</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000973065.1/'>GCA_000973065.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Arthrospira sp. PCC 8005
+	<td>Arthrospira sp. PCC 8005
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000973065.1'><!--
+		-->GCA_000973065.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000974245.1/'>GCA_000974245.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Arthrospira sp. TJSD091
+	<td>Arthrospira sp. TJSD091
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000974245.1'><!--
+		-->GCA_000974245.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000981785.1/'>GCA_000981785.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis aeruginosa NIES-2549
+	<td>Microcystis aeruginosa NIES-2549
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000981785.1'><!--
+		-->GCA_000981785.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_000987385.1/'>GCA_000987385.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Trichodesmium thiebautii H9-4
+	<td>Trichodesmium thiebautii H9-4
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_000987385.1'><!--
+		-->GCA_000987385.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001007625.1/'>GCA_001007625.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Candidatus Synechococcus spongiarum 142
+	<td>Candidatus Synechococcus spongiarum 142
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001007625.1'><!--
+		-->GCA_001007625.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001007635.1/'>GCA_001007635.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Candidatus Synechococcus spongiarum 15L
+	<td>Candidatus Synechococcus spongiarum 15L
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001007635.1'><!--
+		-->GCA_001007635.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001007665.1/'>GCA_001007665.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Candidatus Synechococcus spongiarum SP3
+	<td>Candidatus Synechococcus spongiarum SP3
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001007665.1'><!--
+		-->GCA_001007665.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001039265.1/'>GCA_001039265.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. GFB01
+	<td>Synechococcus sp. GFB01
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001039265.1'><!--
+		-->GCA_001039265.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001039555.1/'>GCA_001039555.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Crocosphaera watsonii WH 8502
+	<td>Crocosphaera watsonii WH 8502
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001039555.1'><!--
+		-->GCA_001039555.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001039615.1/'>GCA_001039615.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Crocosphaera watsonii WH 0401
+	<td>Crocosphaera watsonii WH 0401
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001039615.1'><!--
+		-->GCA_001039615.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001039635.1/'>GCA_001039635.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Crocosphaera watsonii WH 0402
+	<td>Crocosphaera watsonii WH 0402
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001039635.1'><!--
+		-->GCA_001039635.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001040845.1/'>GCA_001040845.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. WH 8020
+	<td>Synechococcus sp. WH 8020
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001040845.1'><!--
+		-->GCA_001040845.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001050835.1/'>GCA_001050835.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Crocosphaera watsonii WH 0005
+	<td>Crocosphaera watsonii WH 0005
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001050835.1'><!--
+		-->GCA_001050835.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001180245.1/'>GCA_001180245.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus
+	<td>Prochlorococcus marinus
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001180245.1'><!--
+		-->GCA_001180245.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001180265.1/'>GCA_001180265.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus
+	<td>Prochlorococcus marinus
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001180265.1'><!--
+		-->GCA_001180265.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001180285.1/'>GCA_001180285.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus
+	<td>Prochlorococcus marinus
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001180285.1'><!--
+		-->GCA_001180285.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001180305.1/'>GCA_001180305.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus
+	<td>Prochlorococcus marinus
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001180305.1'><!--
+		-->GCA_001180305.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001180325.1/'>GCA_001180325.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Prochlorococcus marinus
+	<td>Prochlorococcus marinus
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001180325.1'><!--
+		-->GCA_001180325.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001182765.1/'>GCA_001182765.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechococcus sp. WH 8103
+	<td>Synechococcus sp. WH 8103
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001182765.1'><!--
+		-->GCA_001182765.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001264245.1/'>GCA_001264245.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Microcystis panniformis FACHB-1757
+	<td>Microcystis panniformis FACHB-1757
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001264245.1'><!--
+		-->GCA_001264245.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001275395.1/'>GCA_001275395.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Hapalosiphon sp. MRB220
+	<td>Hapalosiphon sp. MRB220
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001275395.1'><!--
+		-->GCA_001275395.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001276715.1/'>GCA_001276715.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Planktothricoides sp. SR001
+	<td>Planktothricoides sp. SR001
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001276715.1'><!--
+		-->GCA_001276715.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001277295.1/'>GCA_001277295.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Anabaena sp. wa102
+	<td>Anabaena sp. wa102
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001277295.1'><!--
+		-->GCA_001277295.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001298445.1/'>GCA_001298445.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Nostoc piscinale CENA21
+	<td>Nostoc piscinale CENA21
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001298445.1'><!--
+		-->GCA_001298445.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001314865.1/'>GCA_001314865.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Phormidesmis priestleyi Ana
+	<td>Phormidesmis priestleyi Ana
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001314865.1'><!--
+		-->GCA_001314865.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001314905.1/'>GCA_001314905.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Phormidium sp. OSCR
+	<td>Phormidium sp. OSCR
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001314905.1'><!--
+		-->GCA_001314905.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001318385.1/'>GCA_001318385.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Synechocystis sp. PCC 6803
+	<td>Synechocystis sp. PCC 6803
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001318385.1'><!--
+		-->GCA_001318385.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001402795.1/'>GCA_001402795.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Pseudanabaena sp. Roaring Creek
+	<td>Pseudanabaena sp. Roaring Creek
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001402795.1'><!--
+		-->GCA_001402795.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001456025.1/'>GCA_001456025.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Mastigocoleus testarum BC008
+	<td>Mastigocoleus testarum BC008
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001456025.1'><!--
+		-->GCA_001456025.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_001458455.1/'>GCA_001458455.1</a>
+	<td>CyanoBase
+	<td>Cyanobacteria
+	<td>Chrysosporum ovalisporum
+	<td>Chrysosporum ovalisporum
+	<td><a target='_blank' href='http://genome.microbedb.jp/cyanobase/GCA_001458455.1'><!--
+		-->GCA_001458455.1</a>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3501,6 +7262,9 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-11-29 376 genomes from
+		<a target='_blank' href='http://genome.microbedb.jp/cyanobase/'>CyanoBase</a> are added -
+		<a href='help.html#db_list'>List of databases</a>
 	<li>2017-11-17 Database updated to RefSeq rel. 85 (Nov, 2017).
 	<li>2017-11-06 Database updated to DDBJ rel. 110.0 (Sep, 2017).
 	<li>2017-10-17 Added 5 genome databases -
@@ -3601,7 +7365,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 25, 2017 by
+<p class=g>Last modified on Nov 29, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
