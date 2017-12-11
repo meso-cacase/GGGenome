@@ -416,6 +416,7 @@ function set_strand(){
 	<option value='A_chinensis_Hongyang'     synonym="Actinidia chinensis;golden kiwi;Kiwifruit">Actinidia chinensis genome</option>
 	<option value='Mpolymorpha_3.1'          synonym="Marchantia polymorpha;liverwort">Marchantia polymorpha genome JGI 3.1</option>
 	<option value='Csativus_v1'              synonym="Cucumis sativus;cucumber">Cucumis sativus genome, v1.0</option>
+	<option value='Dcarota_v2.0'             synonym="Daucus carota;carrot">Daucus carota genome, v2.0</option>
 	<option value='Egrandis_v2.0'            synonym="Eucalyptus grandis;eucalyptus">Eucalyptus grandis genome, v2.0</option>
 	<option value='fragaria_vesca_v2.0.a1'   synonym="Fragaria vesca;strawberry">Fragaria vesca genome, v2.0.a1 (Dec, 2014)</option>
 	<option value='Fvesca_v1.1'              synonym="Fragaria vesca;strawberry">Fragaria vesca genome, v1.1</option>
@@ -2751,6 +2752,15 @@ set_strand() ;
 	<td>Cucumis sativus
 	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Csativus'><!--
 		-->v1.0</a>
+</tr>
+<tr>
+	<td><a href='/Dcarota_v2.0/'>Dcarota_v2.0</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Carrot
+	<td>Daucus carota
+	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Dcarota'><!--
+		-->v2.0</a>
 </tr>
 <tr>
 	<td><a href='/Egrandis_v2.0/'>Egrandis_v2.0</a>
@@ -7262,6 +7272,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-12-11 Carrot genome is available.
 	<li>2017-11-29 376 genomes from
 		<a target='_blank' href='http://genome.microbedb.jp/cyanobase/'>CyanoBase</a> are added -
 		<a href='help.html#db_list'>List of databases</a>
@@ -7365,7 +7376,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 29, 2017 by
+<p class=g>Last modified on Dec 11, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

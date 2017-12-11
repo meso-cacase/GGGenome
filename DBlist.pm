@@ -283,6 +283,7 @@ Cclementina_v1           	172.18.8.74	47083	Phytozome	Citrus clementina genome, 
 Csinensis_v1             	172.18.8.74	47093	Phytozome	Citrus sinensis genome, v1.1	Citrus sinensis;sweet orange
 CsubellipsoideaC169_v2.0 	172.18.8.74	47103	Phytozome	Coccomyxa subellipsoidea C-169 genome, v2.0	Coccomyxa subellipsoidea;c. subellipsoidea
 Csativus_v1              	172.18.8.74	47113	Phytozome	Cucumis sativus genome, v1.0	Cucumis sativus;cucumber
+Dcarota_v2.0             	172.18.8.72	43613	Phytozome	Daucus carota genome, v2.0	Daucus carota;carrot
 Egrandis_v2.0            	172.18.8.74	47123	Phytozome	Eucalyptus grandis genome, v2.0	Eucalyptus grandis;eucalyptus
 Fvesca_v1.1              	172.18.8.74	47143	Phytozome	Fragaria vesca genome, v1.1	Fragaria vesca;strawberry
 Graimondii_v2.0          	172.18.8.74	47153	Phytozome	Gossypium raimondii genome, v2.1	Gossypium raimondii;cotton

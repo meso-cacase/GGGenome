@@ -949,7 +949,9 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$db&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
-(grep {$source{$db} eq 'Phytozome'} keys(%source)) ?
+(grep {$source{$db} eq 'Phytozome'} keys(%source) and
+	eval '$db eq "Dcarota_v2.0" and $name =~ s/\s*\[.*// ; 1') ?
+	# ニンジンゲノムのみ $name を整形
 	return "<a class=a target='_blank' href='" .
 	       "http://phytozome.jgi.doe.gov/jbrowse/?" .
 	       "data=genomes%2F@{[(split /_/, $db)[0]]}&loc=$name%3A$pos..$pos_end&" .

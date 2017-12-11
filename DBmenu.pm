@@ -266,6 +266,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'A_chinensis_Hongyang\'     synonym=\"$db_synonym{'A_chinensis_Hongyang'    }\">$db_fullname{'A_chinensis_Hongyang'    }</option>
 	<option value=\'Mpolymorpha_3.1\'          synonym=\"$db_synonym{'Mpolymorpha_3.1'         }\">$db_fullname{'Mpolymorpha_3.1'         }</option>
 	<option value=\'Csativus_v1\'              synonym=\"$db_synonym{'Csativus_v1'             }\">$db_fullname{'Csativus_v1'             }</option>
+	<option value=\'Dcarota_v2.0\'             synonym=\"$db_synonym{'Dcarota_v2.0'            }\">$db_fullname{'Dcarota_v2.0'            }</option>
 	<option value=\'Egrandis_v2.0\'            synonym=\"$db_synonym{'Egrandis_v2.0'           }\">$db_fullname{'Egrandis_v2.0'           }</option>
 	<option value=\'fragaria_vesca_v2.0.a1\'   synonym=\"$db_synonym{'fragaria_vesca_v2.0.a1'  }\">$db_fullname{'fragaria_vesca_v2.0.a1'  }</option>
 	<option value=\'Fvesca_v1.1\'              synonym=\"$db_synonym{'Fvesca_v1.1'             }\">$db_fullname{'Fvesca_v1.1'             }</option>
