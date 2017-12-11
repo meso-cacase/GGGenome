@@ -707,6 +707,9 @@ mmxm_refseq80            	172.18.8.75	50243	RefSeq   	RefSeq mouse RNA (XM/XR) r
 rn_refseq80              	172.18.8.75	50253	RefSeq   	RefSeq rat RNA release 80 (Jan, 2017)	Rattus norvegicus
 rnnm_refseq80            	172.18.8.75	50263	RefSeq   	RefSeq rat RNA (NM/NR) release 80 (Jan, 2017)	Rattus norvegicus
 rnxm_refseq80            	172.18.8.75	50273	RefSeq   	RefSeq rat RNA (XM/XR) release 80 (Jan, 2017)	Rattus norvegicus
+hg19_pre_mRNA_refGene171101	172.18.8.75	50283	         	Human pre mRNA, refGene 171101 on hg19	Homo sapiens
+hg19_pre_mRNA_FANTOMlv1  	172.18.8.75	50293	         	Human pre mRNA, FANTOM lv1 on hg19	Homo sapiens
+hg19_pre_mRNA_FANTOMlv4  	172.18.8.75	50303	         	Human pre mRNA, FANTOM lv4 on hg19	Homo sapiens
 GENCODE_26               	172.18.8.75	42953	GENCODE  	GENCODE human release 26 (Mar, 2017)	Homo sapiens
 GENCODE_27               	172.18.8.75	43563	GENCODE  	GENCODE human release 27 (Aug, 2017)	Homo sapiens
 GENCODE_M13              	172.18.8.75	42963	GENCODE  	GENCODE mouse release M13 (Mar, 2017)	Mus musculus
