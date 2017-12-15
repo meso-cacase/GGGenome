@@ -825,6 +825,7 @@ function set_strand(){
 	<option value='rn_refseq70'              synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
 	<option value='GENCODE_27'               synonym="Homo sapiens">GENCODE human release 27 (Aug, 2017)</option>
 	<option value='GENCODE_26'               synonym="Homo sapiens">GENCODE human release 26 (Mar, 2017)</option>
+	<option value='GENCODE_M16'              synonym="Mus musculus">GENCODE mouse release M16 (Dec, 2017)</option>
 	<option value='GENCODE_M15'              synonym="Mus musculus">GENCODE mouse release M15 (Aug, 2017)</option>
 	<option value='GENCODE_M13'              synonym="Mus musculus">GENCODE mouse release M13 (Mar, 2017)</option>
 	<option value='togogenome'               synonym="">TogoGenome from RefSeq 84 (Sep, 2017)</option>
@@ -7010,6 +7011,15 @@ set_strand() ;
 		-->GENCODE human release 26 (Mar, 2017)</a>
 </tr>
 <tr>
+	<td><a href='/GENCODE_M16/'>GENCODE_M16</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/16.html'><!--
+		-->GENCODE mouse release M16 (Dec, 2017)</a>
+</tr>
+<tr>
 	<td><a href='/GENCODE_M15/'>GENCODE_M15</a>
 	<td>GENCODE
 	<td>Mammal
@@ -7017,7 +7027,8 @@ set_strand() ;
 	<td>Mus musculus
 	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/15.html'><!--
 		-->GENCODE mouse release M15 (Aug, 2017)</a>
-</tr><tr>
+</tr>
+<tr>
 	<td><a href='/GENCODE_M13/'>GENCODE_M13</a>
 	<td>GENCODE
 	<td>Mammal
@@ -7272,6 +7283,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2017-12-15 Databases updated to GENCODE mouse M16 (Dec, 2017).
 	<li>2017-12-11 Carrot genome is available.
 	<li>2017-11-29 376 genomes from
 		<a target='_blank' href='http://genome.microbedb.jp/cyanobase/'>CyanoBase</a> are added -
@@ -7376,7 +7388,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Dec 11, 2017 by
+<p class=g>Last modified on Dec 15, 2017 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
