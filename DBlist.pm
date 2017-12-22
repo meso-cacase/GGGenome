@@ -210,7 +210,7 @@ bmor1                    	172.18.8.70	42303	Ensembl	Silkworm genome, Bmor1 (Apr,
 pombe                    	172.18.8.70	42453	EnsemblFungi	S. pombe (972h-) genome, ASM294v2 (Nov, 2007)	Schizosaccharomyces pombe;fission yeast
 MG8                      	172.18.8.77	42463	EnsemblFungi	Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)	Magnaporthe oryzae;rice blast fungus
 prok                     	172.18.8.70	42323	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)	
-ddbj                     	172.18.8.70	42313	DDBJ	DDBJ release 92.0 (Feb, 2013)	
+ddbj                     	172.18.8.76	42313	DDBJ	DDBJ release 92.0 (Feb, 2013)	
 Xentr7                   	172.18.8.77	43013	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 7.1	Xenopus tropicalis;western clawed frog
 Xentr8                   	172.18.8.77	43023	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 8.0	Xenopus tropicalis;western clawed frog
 Xentr9                   	172.18.8.77	42513	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 9.0	Xenopus tropicalis;western clawed frog
