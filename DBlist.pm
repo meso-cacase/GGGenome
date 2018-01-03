@@ -18,7 +18,7 @@ package DBlist ;
 
 $dbconfig =
 <<'--EOS--' ;
-hg38                     	172.18.8.78	40013	UCSC	Human genome, GRCh38/hg38 (Dec, 2013)	Homo sapiens
+hg38                     	172.18.8.75	40013	UCSC	Human genome, GRCh38/hg38 (Dec, 2013)	Homo sapiens
 hg19                     	172.18.8.78	40023	UCSC	Human genome, GRCh37/hg19 (Feb, 2009)	Homo sapiens
 mm10                     	172.18.8.78	40033	UCSC	Mouse genome, GRCm38/mm10 (Dec, 2011)	Mus musculus
 mm9                      	172.18.8.78	40043	UCSC	Mouse genome, NCBI37/mm9 (Jul, 2007)	Mus musculus
