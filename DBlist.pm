@@ -739,6 +739,16 @@ ddbj111htc               	172.18.8.73	56183	DDBJ     	DDBJ release 111.0, HTC di
 ddbj111htg               	172.18.8.72	56193	DDBJ     	DDBJ release 111.0, HTG division (Dec, 2017)	ddbjhtg
 ddbj111sts               	172.18.8.78	56203	DDBJ     	DDBJ release 111.0, STS division (Dec, 2017)	ddbjsts
 ddbj111una               	172.18.8.73	56213	DDBJ     	DDBJ release 111.0, UNA division (Dec, 2017)	ddbjuna
+65017                    	172.18.8.75	65017	         	Test Database 65017	
+65027                    	172.18.8.75	65027	         	Test Database 65027	
+65037                    	172.18.8.75	65037	         	Test Database 65037	
+65047                    	172.18.8.75	65047	         	Test Database 65047	
+65057                    	172.18.8.75	65057	         	Test Database 65057	
+65067                    	172.18.8.75	65067	         	Test Database 65067	
+65077                    	172.18.8.75	65077	         	Test Database 65077	
+65087                    	172.18.8.75	65087	         	Test Database 65087	
+65097                    	172.18.8.75	65097	         	Test Database 65097	
+65107                    	172.18.8.75	65107	         	Test Database 65107	
 --EOS--
 
 return 1 ;
