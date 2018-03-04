@@ -8,6 +8,7 @@ AddLanguage ja .ja
 LanguagePriority en ja
 ForceLanguagePriority Prefer Fallback
 Options +MultiViews
+Header append Access-Control-Allow-Origin: *
 
 # mod_rewriteを利用し、画像以外の全リクエストをindex.cgiで処理するようURIを書き換える
 RewriteEngine On
