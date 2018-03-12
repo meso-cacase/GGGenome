@@ -1,4 +1,0 @@
-NOTICE:
-<ul>
-	<li>Server maintenance: 9 Mar 2018, 17:00 to 12 Mar 2018, 9:00 (JST). Sorry for the inconvenience.
-</ul>
