@@ -895,6 +895,7 @@ set_strand() ;
 <div>
 <ul>
 	<li>塩基配列を高速に検索するサイトです。
+	<li><b>誰でも無償で自由に利用できます。</b>
 	<li>大文字・小文字は区別しません。
 	<li>U は T とまったく同じです。
 	<li>N, R, Y等のあいまいな塩基を含む配列も検索できます。
@@ -8101,7 +8102,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jan 26, 2018 by
+<p class=g>Last modified on Mar 15, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a

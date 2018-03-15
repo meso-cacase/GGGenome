@@ -896,6 +896,7 @@ set_strand() ;
 <div>
 <ul>
 	<li>GGGenome is an ultrafast search engine for nucleotide sequences.
+	<li><b>Freely available to all users.</b>
 	<li>Searches are always case insensitive.
 	<li>U and T will be treated identically.
 	<li>Ambiguous nucleotide characters (N, R, Y ...) can be used.
@@ -7393,7 +7394,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jan 26, 2018 by
+<p class=g>Last modified on Mar 15, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
