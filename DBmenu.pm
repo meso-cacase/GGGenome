@@ -681,6 +681,8 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'togogenome\'               synonym=\"$db_synonym{'togogenome'              }\">$db_fullname{'togogenome'              }</option>
 	<option value=\'prok\'                     synonym=\"$db_synonym{'prok'                    }\">$db_fullname{'prok'                    }</option>
 	<option value=\'16SrRNA\'                  synonym=\"$db_synonym{'16SrRNA'                 }\">$db_fullname{'16SrRNA'                 }</option>
+	<option value=\'miRBase22\'                synonym=\"$db_synonym{'miRBase22'               }\">$db_fullname{'miRBase22'               }</option>
+	<option value=\'miRBase22mat\'             synonym=\"$db_synonym{'miRBase22mat'            }\">$db_fullname{'miRBase22mat'            }</option>
 	<option value=\'miRBase21\'                synonym=\"$db_synonym{'miRBase21'               }\">$db_fullname{'miRBase21'               }</option>
 	<option value=\'miRBase21mat\'             synonym=\"$db_synonym{'miRBase21mat'            }\">$db_fullname{'miRBase21mat'            }</option>
 	<option value=\'macaque_CE_1_cds\'         synonym=\"$db_synonym{'macaque_CE_1_cds'        }\">$db_fullname{'macaque_CE_1_cds'        }</option>

@@ -831,6 +831,8 @@ function set_strand(){
 	<option value='togogenome'               synonym="">TogoGenome from RefSeq 85 (Nov, 2017)</option>
 	<option value='prok'                     synonym="">Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
 	<option value='16SrRNA'                  synonym="">DDBJ 16S rRNA of prokaryotes (Dec, 2014)</option>
+	<option value='miRBase22'                synonym="">miRBase release 22, stem-loop microRNA sequences (Mar, 2018)</option>
+	<option value='miRBase22mat'             synonym="">miRBase release 22, mature microRNA sequences (Mar, 2018)</option>
 	<option value='miRBase21'                synonym="">miRBase release 21, stem-loop microRNA sequences (Jun, 2014)</option>
 	<option value='miRBase21mat'             synonym="">miRBase release 21, mature microRNA sequences (Jun, 2014)</option>
 	<option value='macaque_CE_1_cds'         synonym="Macaca fascicularis">Crab-eating macaque CDS, CE_1.0 (Jul, 2011)</option>
@@ -7945,6 +7947,26 @@ set_strand() ;
 	<td>DDBJ 16S rRNA of prokaryotes (Dec, 2014)
 </tr>
 <tr>
+	<td><a href='/miRBase22/'>miRBase22</a>
+	<td>miRBase
+	<td>
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='ftp://mirbase.org/pub/mirbase/22/'><!--
+		-->miRBase release 22, stem-loop microRNA sequences (Mar, 2018)</a>
+</tr>
+<tr>
+	<td><a href='/miRBase22mat/'>miRBase22mat</a>
+	<td>miRBase
+	<td>
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='ftp://mirbase.org/pub/mirbase/22/'><!--
+		-->miRBase release 22, mature microRNA sequences (Mar, 2018)</a>
+</tr>
+<tr>
 	<td><a href='/miRBase21/'>miRBase21</a>
 	<td>miRBase
 	<td>
@@ -7996,6 +8018,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2018-03-22 miRBase rel. 22 (Mar, 2018) に更新。
 	<li>2018-03-22 RefSeq rel. 87 (Mar, 2018) に更新。
 	<li>2018-01-26 RefSeq rel. 86 (Jan, 2018) に更新。
 	<li>2017-12-30 DDBJ rel. 111.0 (Dec, 2017) に更新。
