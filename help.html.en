@@ -816,7 +816,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 86 (Jan, 2018)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 87 (Mar, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq80'              synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
@@ -6898,7 +6898,15 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 86 (Jan, 2018)<br>(alias of latest refseq release)
+	<td>RefSeq complete RNA release 87 (Mar, 2018)<br>(alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq87/'>refseq87</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 87 (Mar, 2018)
 </tr>
 <tr>
 	<td><a href='/refseq86/'>refseq86</a>
@@ -7287,6 +7295,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2018-03-22 Database updated to RefSeq rel. 87 (Mar, 2018).
 	<li>2018-01-26 Database updated to RefSeq rel. 86 (Jan, 2018).
 	<li>2017-12-30 Database updated to DDBJ rel. 111.0 (Dec, 2017).
 	<li>2017-12-15 Databases updated to GENCODE mouse M16 (Dec, 2017).
@@ -7394,7 +7403,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Mar 15, 2018 by
+<p class=g>Last modified on Mar 22, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
