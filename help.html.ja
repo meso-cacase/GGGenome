@@ -834,8 +834,10 @@ function set_strand(){
 	<option value='mm_refseq70'              synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='rn_refseq80'              synonym="Rattus norvegicus">RefSeq rat RNA release 80 (Jan, 2017)</option>
 	<option value='rn_refseq70'              synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
+	<option value='GENCODE_28'               synonym="Homo sapiens">GENCODE human release 28 (Apr, 2018)</option>
 	<option value='GENCODE_27'               synonym="Homo sapiens">GENCODE human release 27 (Aug, 2017)</option>
 	<option value='GENCODE_26'               synonym="Homo sapiens">GENCODE human release 26 (Mar, 2017)</option>
+	<option value='GENCODE_M17'              synonym="Mus musculus">GENCODE mouse release M17 (Apr, 2018)</option>
 	<option value='GENCODE_M16'              synonym="Mus musculus">GENCODE mouse release M16 (Dec, 2017)</option>
 	<option value='GENCODE_M15'              synonym="Mus musculus">GENCODE mouse release M15 (Aug, 2017)</option>
 	<option value='GENCODE_M13'              synonym="Mus musculus">GENCODE mouse release M13 (Mar, 2017)</option>
@@ -7793,6 +7795,16 @@ set_strand() ;
 	<td>RefSeq rat RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/GENCODE_28/'>GENCODE_28</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://www.gencodegenes.org/releases/28.html'><!--
+		-->GENCODE human release 28 (Apr, 2018)</a>
+</tr>
+<tr>
 	<td><a href='/GENCODE_27/'>GENCODE_27</a>
 	<td>GENCODE
 	<td>Mammal
@@ -7811,6 +7823,16 @@ set_strand() ;
 	<td>Homo sapiens
 	<td><a target='_blank' href='https://www.gencodegenes.org/releases/26.html'><!--
 		-->GENCODE human release 26 (Mar, 2017)</a>
+</tr>
+<tr>
+	<td><a href='/GENCODE_M17/'>GENCODE_M17</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/17.html'><!--
+		-->GENCODE mouse release M17 (Apr, 2018)</a>
 </tr>
 <tr>
 	<td><a href='/GENCODE_M16/'>GENCODE_M16</a>
@@ -8139,6 +8161,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2018-04-19 GENCODE ヒト 28 (Apr, 2018) および マウス M17 (Apr, 2018) に更新。
 	<li>2018-04-19 11種のゲノムを追加 -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
 	<li>2018-03-22 miRBase rel. 22 (Mar, 2018) に更新。
