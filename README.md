@@ -1,7 +1,7 @@
 GGGenome《ゲゲゲノム》
 ======================
 
-GGGenome is an ultrafast search engine for nucleotide sequences.
+GGGenome is an ultrafast search engine for nucleotide sequences.  
 Freely available to all users.
 
 ゲノム等の塩基配列を高速に検索するウェブサービスです。  
