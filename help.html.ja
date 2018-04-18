@@ -360,7 +360,7 @@ function set_strand(){
 	<option value='IWGSC1.0'                 synonym="Triticum aestivum;wheat">Triticum aestivum genome, IWGSC1.0+popseq (Nov, 2014)</option>
 	<option value='ASM34745v1'               synonym="Triticum urartu;red wild einkorn">Triticum urartu genome, ASM34745v1 (Apr, 2013)</option>
 	<option value='IGGP_12x'                 synonym="Vitis vinifera;grape">Vitis vinifera genome, IGGP_12x (Jun, 2011)</option>
-	<option value='AGPv3'                    synonym="Zea mays;maize, Corn">Zea mays genome, AGPv3 (Apr, 2013)</option>
+	<option value='AGPv3'                    synonym="Zea mays;maize;corn">Zea mays genome, AGPv3 (Apr, 2013)</option>
 
 	<option value='macaque_CE_1'             synonym="Macaca fascicularis">Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
 	<option value='MesAur1.0'                synonym="Mesocricetus auratus;golden hamster">Golden hamster genome, MesAur1.0 (Mar, 2013)</option>
@@ -403,17 +403,17 @@ function set_strand(){
 	<option value='Ppatens_251_v3'           synonym="Physcomitrella patens;moss">Physcomitrella patens genome, v3.0 (Oct, 2007)</option>
 	<option value='Smoellendorffii_91_v1'    synonym="Selaginella moellendorffii;spikemoss">Selaginella moellendorffii genome, v1.0 (Dec, 2007)</option>
 	<option value='Creinhardtii_281_v5_5'    synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v5.5 (May, 2014)</option>
-	<option value='Olucimarinus_231_v2'      synonym="Ostreococcus lucimarinus;o. lucimarinus">Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)</option>
-	<option value='Cgrandiflora_v1'          synonym="Capsella grandiflora;c. grandiflora">Capsella grandiflora genome, v1.1</option>
+	<option value='Olucimarinus_231_v2'      synonym="Ostreococcus lucimarinus">Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)</option>
+	<option value='Cgrandiflora_v1'          synonym="Capsella grandiflora">Capsella grandiflora genome, v1.1</option>
 	<option value='Crubella_v1'              synonym="Capsella rubella;red shepherd's purse">Capsella rubella genome, v1.0</option>
 	<option value='Cpapaya_r.Dec2008'        synonym="Carica papaya;papaya">Carica papaya genome, ASGPBv0.4</option>
 	<option value='Cclementina_v1'           synonym="Citrus clementina;clementine">Citrus clementina genome, v1.0</option>
 	<option value='Csinensis_v1'             synonym="Citrus sinensis;sweet orange">Citrus sinensis genome, v1.1</option>
-	<option value='CsubellipsoideaC169_v2.0' synonym="Coccomyxa subellipsoidea;c. subellipsoidea">Coccomyxa subellipsoidea C-169 genome, v2.0</option>
+	<option value='CsubellipsoideaC169_v2.0' synonym="Coccomyxa subellipsoidea">Coccomyxa subellipsoidea C-169 genome, v2.0</option>
 	<option value='CM3.5.1'                  synonym="Cucumis melo;melon">Cucumis melo genome, v3.5.1 (Oct, 2013)</option>
-	<option value='PI183967'                 synonym="Cucumis sativus;cucumber">Cucumis sativus (PI183967) genome (Apr, 2013)</option>
+	<option value='PI183967'                 synonym="Cucumis sativus;cucumber">Cucumis sativus (PI 183967) genome</option>
 	<option value='ChineseLong_v2'           synonym="Cucumis sativus;cucumber">Cucumis sativus (Chinese long) genome, v2</option>
-	<option value='A_chinensis_Hongyang'     synonym="Actinidia chinensis;golden kiwi;Kiwifruit">Actinidia chinensis genome</option>
+	<option value='A_chinensis_Hongyang'     synonym="Actinidia chinensis;golden kiwi;kiwifruit">Actinidia chinensis genome</option>
 	<option value='Mpolymorpha_3.1'          synonym="Marchantia polymorpha;liverwort">Marchantia polymorpha genome JGI 3.1</option>
 	<option value='Csativus_v1'              synonym="Cucumis sativus;cucumber">Cucumis sativus genome, v1.0</option>
 	<option value='Dcarota_v2.0'             synonym="Daucus carota;carrot">Daucus carota genome, v2.0</option>
@@ -3326,11 +3326,11 @@ set_strand() ;
 	<td><a href='/PI183967/'>PI183967</a>
 	<td>
 	<td>Plant
-	<td>Cucumber (PI183967)
+	<td>Cucumber (PI 183967)
 	<td>キュウリ
 	<td>Cucumis sativus
 	<td><a target='_blank' href='http://cucurbitgenomics.org/organism/6'><!--
-		-->PI183967 (Apr, 2013)</a>
+		-->PI183967</a>
 </tr>
 <tr>
 	<td><a href='/ChineseLong_v2/'>ChineseLong_v2</a>

@@ -201,7 +201,7 @@ Thecc_20110822           	172.18.8.75	45353	EnsemblPlants	Theobroma cacao genome
 IWGSC1.0                 	172.18.8.75	45363	EnsemblPlants	Triticum aestivum genome, IWGSC1.0+popseq (Nov, 2014)	Triticum aestivum;wheat
 ASM34745v1               	172.18.8.75	45373	EnsemblPlants	Triticum urartu genome, ASM34745v1 (Apr, 2013)	Triticum urartu;red wild einkorn
 IGGP_12x                 	172.18.8.75	45383	EnsemblPlants	Vitis vinifera genome, IGGP_12x (Jun, 2011)	Vitis vinifera;grape
-AGPv3                    	172.18.8.75	45393	EnsemblPlants	Zea mays genome, AGPv3 (Apr, 2013)	Zea mays;maize, Corn
+AGPv3                    	172.18.8.75	45393	EnsemblPlants	Zea mays genome, AGPv3 (Apr, 2013)	Zea mays;maize;corn
 Xenla7                   	172.18.8.70	42443	Xenbase	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)	Xenopus laevis;african clawed frog
 TAIR10                   	172.18.8.70	42373	    	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)	Arabidopsis thaliana;thale cress
 rice                     	172.18.8.70	42293	    	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)	Oryza sativa ssp. japonica;rice
@@ -264,10 +264,10 @@ Bomo_silkbase            	172.18.8.72	42943	SilkBase 	Silkworm genome, SilkBase 
 SL2.4                    	172.18.8.72	42053	         	Solanum lycopersicum genome, SL2.40 (Jan, 2011)	Solanum lycopersicum;tomato
 SL3.0                    	172.18.8.72	42063	         	Solanum lycopersicum genome, SL3.00 (Feb, 2017)	Solanum lycopersicum;tomato
 ChineseLong_v2           	172.18.8.72	42073	         	Cucumis sativus (Chinese long) genome, v2	Cucumis sativus;cucumber
-PI183967                 	172.18.8.72	42083	         	Cucumis sativus (PI183967) genome (Apr, 2013)	Cucumis sativus;cucumber
+PI183967                 	172.18.8.72	42083	         	Cucumis sativus (PI 183967) genome	Cucumis sativus;cucumber
 CM3.5.1                  	172.18.8.72	42093	         	Cucumis melo genome, v3.5.1 (Oct, 2013)	Cucumis melo;melon
 A_oryzae_RIB40           	172.18.8.72	42993	AspGD    	Aspergillus oryzae (RIB40) genome, s01-m09-r03 (Oct, 2015)	Aspergillus oryzae;koji
-A_chinensis_Hongyang     	172.18.8.72	43003	         	Actinidia chinensis genome	Actinidia chinensis;golden kiwi;Kiwifruit
+A_chinensis_Hongyang     	172.18.8.72	43003	         	Actinidia chinensis genome	Actinidia chinensis;golden kiwi;kiwifruit
 ASM24337v1               	172.18.8.72	43033	EnsemblFungi	Torulaspora delbrueckii genome, ASM24337v1 (Feb, 2015)	Torulaspora delbrueckii;yeast
 Aros_1.0                 	172.18.8.72	43063	NCBI     	Athalia rosae genome, Aros_1.0 (Mar, 2013)	Athalia rosae;turnip sawfly;coleseed sawfly
 Mpolymorpha_3.1          	172.18.8.72	43583	         	Marchantia polymorpha genome JGI 3.1	Marchantia polymorpha;liverwort
@@ -275,13 +275,13 @@ Mpolymorpha_3.1          	172.18.8.72	43583	         	Marchantia polymorpha geno
 Ppatens_251_v3           	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1    	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss
 Creinhardtii_281_v5_5    	172.18.8.74	42033	Phytozome	Chlamydomonas reinhardtii genome, v5.5 (May, 2014)	Chlamydomonas reinhardtii;green algae
-Olucimarinus_231_v2      	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)	Ostreococcus lucimarinus;o. lucimarinus
-Cgrandiflora_v1          	172.18.8.74	47043	Phytozome	Capsella grandiflora genome, v1.1	Capsella grandiflora;c. grandiflora
+Olucimarinus_231_v2      	172.18.8.74	42043	Phytozome	Ostreococcus lucimarinus genome, v2.0 (Jan, 2011)	Ostreococcus lucimarinus
+Cgrandiflora_v1          	172.18.8.74	47043	Phytozome	Capsella grandiflora genome, v1.1	Capsella grandiflora
 Crubella_v1              	172.18.8.74	47053	Phytozome	Capsella rubella genome, v1.0	Capsella rubella;red shepherd's purse
 Cpapaya_r.Dec2008        	172.18.8.74	47063	Phytozome	Carica papaya genome, ASGPBv0.4	Carica papaya;papaya
 Cclementina_v1           	172.18.8.74	47083	Phytozome	Citrus clementina genome, v1.0	Citrus clementina;clementine
 Csinensis_v1             	172.18.8.74	47093	Phytozome	Citrus sinensis genome, v1.1	Citrus sinensis;sweet orange
-CsubellipsoideaC169_v2.0 	172.18.8.74	47103	Phytozome	Coccomyxa subellipsoidea C-169 genome, v2.0	Coccomyxa subellipsoidea;c. subellipsoidea
+CsubellipsoideaC169_v2.0 	172.18.8.74	47103	Phytozome	Coccomyxa subellipsoidea C-169 genome, v2.0	Coccomyxa subellipsoidea
 Csativus_v1              	172.18.8.74	47113	Phytozome	Cucumis sativus genome, v1.0	Cucumis sativus;cucumber
 Dcarota_v2.0             	172.18.8.72	43613	Phytozome	Daucus carota genome, v2.0	Daucus carota;carrot
 Egrandis_v2.0            	172.18.8.74	47123	Phytozome	Eucalyptus grandis genome, v2.0	Eucalyptus grandis;eucalyptus
