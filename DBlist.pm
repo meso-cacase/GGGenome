@@ -202,6 +202,17 @@ IWGSC1.0                 	172.18.8.75	45363	EnsemblPlants	Triticum aestivum geno
 ASM34745v1               	172.18.8.75	45373	EnsemblPlants	Triticum urartu genome, ASM34745v1 (Apr, 2013)	Triticum urartu;red wild einkorn
 IGGP_12x                 	172.18.8.75	45383	EnsemblPlants	Vitis vinifera genome, IGGP_12x (Jun, 2011)	Vitis vinifera;grape
 AGPv3                    	172.18.8.75	45393	EnsemblPlants	Zea mays genome, AGPv3 (Apr, 2013)	Zea mays;maize;corn
+AGPv4                    	172.18.8.72	43733	EnsemblPlants	Zea mays genome, AGPv4 (Mar, 2016)	Zea mays;maize;corn
+Cmo_v1                   	172.18.8.72	43633	    	Cucurbita moschata (Rifu) genome, v1	Cucurbita moschata;pumpkin;squash
+Zunla-1_v2.0             	172.18.8.72	43643	    	Capsicum annuum (Zunla-1) genome, release 2.0	Capsicum annuum;pepper
+Chiltepin_v2.0           	172.18.8.72	43653	    	Capsicum annuum var. glabriusculum (Chiltepin) genome, release 2.0	Capsicum annuum var. glabriusculum;pepper
+CM3.6.1                  	172.18.8.72	43663	    	Cucumis melo genome, v3.6.1 (Jul, 2017)	Cucumis melo;melon
+SME_r2.5.1               	172.18.8.72	43673	    	Solanum melongena genome, r2.5.1	Solanum melongena;eggplant
+Csativus_Gy14            	172.18.8.72	43683	    	Cucumis sativus (Gy14) genome, v1	Cucumis sativus;cucumber
+Cp4.1                    	172.18.8.72	43693	    	Cucurbita pepo subsp. pepo (Zucchini) genome, v4.1	Cucurbita pepo subsp. pepo;zucchini
+WCG_v1                   	172.18.8.72	43703	    	Citrullus lanatus subsp. vulgaris (Charleston Gray) genome, v1	Citrullus lanatus subsp. vulgaris;watermelon
+W97103_v1                	172.18.8.72	43713	    	Citrullus lanatus subsp. vulgaris (97103) genome, v1	Citrullus lanatus subsp. vulgaris;watermelon
+HanXRQr1.0               	172.18.8.72	43723	    	Helianthus annuus genome, HanXRQr1.0 (Dec, 2015)	Helianthus annuus;sunflower
 Xenla7                   	172.18.8.70	42443	Xenbase	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)	Xenopus laevis;african clawed frog
 TAIR10                   	172.18.8.70	42373	    	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)	Arabidopsis thaliana;thale cress
 rice                     	172.18.8.70	42293	    	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)	Oryza sativa ssp. japonica;rice

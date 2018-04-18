@@ -328,6 +328,8 @@ function set_strand(){
 	<option value='IVFCAASv1'                synonym="Brassica rapa ssp. pekinensis;chinese cabbage">Brassica rapa genome, IVFCAASv1 (Aug, 2009)</option>
 	<option value='Brana_v4.1'               synonym="Brassica napus">Brassica napus genome, Genoscope v4.1 (Aug, 2014)</option>
 	<option value='Chlre_v3.1'               synonym="Chlamydomonas reinhardtii;green algae">Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)</option>
+	<option value='WCG_v1'                   synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (Charleston Gray) genome, v1</option>
+	<option value='W97103_v1'                synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (97103) genome, v1</option>
 	<option value='ASM9120v1'                synonym="Cyanidioschyzon merolae;red alga">Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)</option>
 	<option value='Soybn_V1.0'               synonym="Glycine max;soybean">Glycine max genome, V1.0 (Jan, 2010)</option>
 	<option value='Horvu_v1'                 synonym="Hordeum vulgare;barley">Hordeum vulgare genome, 082214v1 (Mar, 2012)</option>
@@ -354,12 +356,14 @@ function set_strand(){
 	<option value='SL3.0'                    synonym="Solanum lycopersicum;tomato">Solanum lycopersicum genome, SL3.00 (Feb, 2017)</option>
 	<option value='SL2.50'                   synonym="Solanum lycopersicum str. Heinz 1706;tomato">Solanum lycopersicum str. Heinz 1706 genome, SL2.50 (Oct, 2014)</option>
 	<option value='SL2.4'                    synonym="Solanum lycopersicum;tomato">Solanum lycopersicum genome, SL2.40 (Jan, 2011)</option>
+	<option value='SME_r2.5.1'               synonym="Solanum melongena;eggplant">Solanum melongena genome, r2.5.1</option>
 	<option value='SolTub_3.0'               synonym="Solanum tuberosum;potato">Solanum tuberosum genome, SolTub_3.0 (May, 2011)</option>
 	<option value='Sorbi1'                   synonym="Sorghum bicolor;sorghum">Sorghum bicolor genome, Sorbi1 (Dec, 2007)</option>
 	<option value='Thecc_20110822'           synonym="Theobroma cacao;cacao">Theobroma cacao genome, Theobroma_cacao_20110822 (May, 2014)</option>
 	<option value='IWGSC1.0'                 synonym="Triticum aestivum;wheat">Triticum aestivum genome, IWGSC1.0+popseq (Nov, 2014)</option>
 	<option value='ASM34745v1'               synonym="Triticum urartu;red wild einkorn">Triticum urartu genome, ASM34745v1 (Apr, 2013)</option>
 	<option value='IGGP_12x'                 synonym="Vitis vinifera;grape">Vitis vinifera genome, IGGP_12x (Jun, 2011)</option>
+	<option value='AGPv4'                    synonym="Zea mays;maize;corn">Zea mays genome, AGPv4 (Mar, 2016)</option>
 	<option value='AGPv3'                    synonym="Zea mays;maize;corn">Zea mays genome, AGPv3 (Apr, 2013)</option>
 
 	<option value='macaque_CE_1'             synonym="Macaca fascicularis">Crab-eating macaque genome, CE_1.0 (Jul, 2011)</option>
@@ -410,11 +414,18 @@ function set_strand(){
 	<option value='Cclementina_v1'           synonym="Citrus clementina;clementine">Citrus clementina genome, v1.0</option>
 	<option value='Csinensis_v1'             synonym="Citrus sinensis;sweet orange">Citrus sinensis genome, v1.1</option>
 	<option value='CsubellipsoideaC169_v2.0' synonym="Coccomyxa subellipsoidea">Coccomyxa subellipsoidea C-169 genome, v2.0</option>
+	<option value='CM3.6.1'                  synonym="Cucumis melo;melon">Cucumis melo genome, v3.6.1 (Jul, 2017)</option>
 	<option value='CM3.5.1'                  synonym="Cucumis melo;melon">Cucumis melo genome, v3.5.1 (Oct, 2013)</option>
 	<option value='PI183967'                 synonym="Cucumis sativus;cucumber">Cucumis sativus (PI 183967) genome</option>
 	<option value='ChineseLong_v2'           synonym="Cucumis sativus;cucumber">Cucumis sativus (Chinese long) genome, v2</option>
+	<option value='Csativus_Gy14'            synonym="Cucumis sativus;cucumber">Cucumis sativus (Gy14) genome, v1</option>
+	<option value='Cmo_v1'                   synonym="Cucurbita moschata;pumpkin;squash">Cucurbita moschata (Rifu) genome, v1</option>
+	<option value='Cp4.1'                    synonym="Cucurbita pepo subsp. pepo;zucchini">Cucurbita pepo subsp. pepo (Zucchini) genome, v4.1</option>
 	<option value='A_chinensis_Hongyang'     synonym="Actinidia chinensis;golden kiwi;kiwifruit">Actinidia chinensis genome</option>
 	<option value='Mpolymorpha_3.1'          synonym="Marchantia polymorpha;liverwort">Marchantia polymorpha genome JGI 3.1</option>
+	<option value='Zunla-1_v2.0'             synonym="Capsicum annuum;pepper">Capsicum annuum (Zunla-1) genome, release 2.0</option>
+	<option value='Chiltepin_v2.0'           synonym="Capsicum annuum var. glabriusculum;pepper">Capsicum annuum var. glabriusculum (Chiltepin) genome, release 2.0</option>
+	<option value='HanXRQr1.0'               synonym="Helianthus annuus;sunflower">Helianthus annuus genome, HanXRQr1.0 (Dec, 2015)</option>
 	<option value='Csativus_v1'              synonym="Cucumis sativus;cucumber">Cucumis sativus genome, v1.0</option>
 	<option value='Dcarota_v2.0'             synonym="Daucus carota;carrot">Daucus carota genome, v2.0</option>
 	<option value='Egrandis_v2.0'            synonym="Eucalyptus grandis;eucalyptus">Eucalyptus grandis genome, v2.0</option>
@@ -2653,6 +2664,15 @@ set_strand() ;
 		-->IGGP_12x (Jun, 2011)</a>
 </tr>
 <tr>
+	<td><a href='/AGPv4/'>AGPv4</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Maize, Corn
+	<td>Zea mays
+	<td><a target='_blank' href='http://plants.ensembl.org/Zea_mays/'><!--
+		-->AGPv4 (Mar, 2016)</a>
+</tr>
+<tr>
 	<td><a href='/AGPv3/'>AGPv3</a>
 	<td>EnsemblPlants
 	<td>Plant
@@ -3076,6 +3096,42 @@ set_strand() ;
 		-->SL2.40 (Jan, 2011)</a>
 </tr>
 <tr>
+	<td><a href='/SME_r2.5.1/'>SME_r2.5.1</a>
+	<td>
+	<td>Plant
+	<td>Eggplant
+	<td>Solanum melongena
+	<td><a target='_blank' href='http://eggplant.kazusa.or.jp/'><!--
+		-->r2.5.1</a>
+</tr>
+<tr>
+	<td><a href='/WCG_v1/'>WCG_v1</a>
+	<td>
+	<td>Plant
+	<td>Watermelon
+	<td>Citrullus lanatus subsp. vulgaris
+	<td><a target='_blank' href='http://cucurbitgenomics.org/organism/4'><!--
+		-->v1</a>
+</tr>
+<tr>
+	<td><a href='/W97103_v1/'>W97103_v1</a>
+	<td>
+	<td>Plant
+	<td>Watermelon
+	<td>Citrullus lanatus subsp. vulgaris
+	<td><a target='_blank' href='http://cucurbitgenomics.org/organism/1'><!--
+		-->v1</a>
+</tr>
+<tr>
+	<td><a href='/CM3.6.1/'>CM3.6.1</a>
+	<td>
+	<td>Plant
+	<td>Melon
+	<td>Cucumis melo
+	<td><a target='_blank' href='http://www.melonomics.net/melonomics.html'><!--
+		-->v3.6.1 (Jul, 2017)</a>
+</tr>
+<tr>
 	<td><a href='/CM3.5.1/'>CM3.5.1</a>
 	<td>
 	<td>Plant
@@ -3103,6 +3159,33 @@ set_strand() ;
 		-->v2</a>
 </tr>
 <tr>
+	<td><a href='/Csativus_Gy14/'>Csativus_Gy14</a>
+	<td>
+	<td>Plant
+	<td>Cucumber
+	<td>Cucumis sativus
+	<td><a target='_blank' href='http://cucurbitgenomics.org/organism/7'><!--
+		-->v1</a>
+</tr>
+<tr>
+	<td><a href='/Cmo_v1/'>Cmo_v1</a>
+	<td>
+	<td>Plant
+	<td>Pumpkin, Squash
+	<td>Cucurbita moschata
+	<td><a target='_blank' href='http://cucurbitgenomics.org/organism/9'><!--
+		-->v1</a>
+</tr>
+<tr>
+	<td><a href='/Cp4.1/'>Cp4.1</a>
+	<td>
+	<td>Plant
+	<td>Zucchini
+	<td>Cucurbita pepo subsp. pepo
+	<td><a target='_blank' href='http://cucurbitgenomics.org/organism/14'><!--
+		-->v4.1</a>
+</tr>
+<tr>
 	<td><a href='/A_chinensis_Hongyang/'>A_chinensis_Hongyang</a>
 	<td>
 	<td>Plant
@@ -3119,6 +3202,33 @@ set_strand() ;
 	<td>Marchantia polymorpha
 	<td><a target='_blank' href='http://marchantia.info/download/'><!--
 		-->Marchantia polymorpha genome JGI 3.1</a>
+</tr>
+<tr>
+	<td><a href='/Zunla-1_v2.0/'>Zunla-1_v2.0</a>
+	<td>
+	<td>Plant
+	<td>Pepper
+	<td>Capsicum annuum
+	<td><a target='_blank' href='http://peppersequence.genomics.cn/page/species/download.jsp'><!--
+		-->release 2.0</a>
+</tr>
+<tr>
+	<td><a href='/Chiltepin_v2.0/'>Chiltepin_v2.0</a>
+	<td>
+	<td>Plant
+	<td>Pepper
+	<td>Capsicum annuum var. glabriusculum
+	<td><a target='_blank' href='http://peppersequence.genomics.cn/page/species/download.jsp'><!--
+		-->release 2.0</a>
+</tr>
+<tr>
+	<td><a href='/HanXRQr1.0/'>HanXRQr1.0</a>
+	<td>
+	<td>Plant
+	<td>Sunflower
+	<td>Helianthus annuus
+	<td><a target='_blank' href='https://www.heliagene.org/HanXRQ-SUNRISE/'><!--
+		-->HanXRQr1.0 (Dec, 2015)</a>
 </tr>
 <tr>
 	<td><a href='/Aros_1.0/'>Aros_1.0</a>
@@ -7307,6 +7417,8 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2018-04-19 Added 11 genome databases -
+		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
 	<li>2018-03-22 Database updated to miRBase rel. 22 (Mar, 2018).
 	<li>2018-03-22 Database updated to RefSeq rel. 87 (Mar, 2018).
 	<li>2018-01-26 Database updated to RefSeq rel. 86 (Jan, 2018).
@@ -7416,7 +7528,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Mar 22, 2018 by
+<p class=g>Last modified on Apr 19, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
