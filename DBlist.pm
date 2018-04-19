@@ -722,6 +722,10 @@ rnxm_refseq80            	172.18.8.75	50273	RefSeq   	RefSeq rat RNA (XM/XR) rel
 hg19_pre_mRNA_refGene171101	172.18.8.75	50283	         	Human pre mRNA, refGene 171101 on hg19	Homo sapiens
 hg19_pre_mRNA_FANTOMlv1  	172.18.8.75	50293	         	Human pre mRNA, FANTOM lv1 on hg19	Homo sapiens
 hg19_pre_mRNA_FANTOMlv4  	172.18.8.75	50303	         	Human pre mRNA, FANTOM lv4 on hg19	Homo sapiens
+hg38_ncbiRefSeqCurated_spliced_20180411       	172.18.8.75	50313		Human spliced mRNA, RefSeq 20170306 on hg38 (Apr. 2018)	Homo sapiens
+hg38_ncbiRefSeqCurated_unspliced_20180411     	172.18.8.75	50323		Human unspliced mRNA, RefSeq 20170306 on hg38 (Apr. 2018)	Homo sapiens
+hg38_wgEncodeGencodeCompV27_spliced_20180411  	172.18.8.75	50333		Human spliced mRNA, GENCODE27 20170925 on hg38 (Apr. 2018)	Homo sapiens
+hg38_wgEncodeGencodeCompV27_unspliced_20180411	172.18.8.75	50343		Human unspliced mRNA, GENCODE27 20170925 on hg38 (Apr. 2018)	Homo sapiens
 GENCODE_26               	172.18.8.75	42953	GENCODE  	GENCODE human release 26 (Mar, 2017)	Homo sapiens
 GENCODE_27               	172.18.8.75	43563	GENCODE  	GENCODE human release 27 (Aug, 2017)	Homo sapiens
 GENCODE_28               	172.18.8.75	43773	GENCODE  	GENCODE human release 28 (Apr, 2018)	Homo sapiens
