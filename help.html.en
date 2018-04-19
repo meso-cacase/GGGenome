@@ -425,6 +425,7 @@ function set_strand(){
 	<option value='Mpolymorpha_3.1'          synonym="Marchantia polymorpha;liverwort">Marchantia polymorpha genome JGI 3.1</option>
 	<option value='Zunla-1_v2.0'             synonym="Capsicum annuum;pepper">Capsicum annuum (Zunla-1) genome, release 2.0</option>
 	<option value='Chiltepin_v2.0'           synonym="Capsicum annuum var. glabriusculum;pepper">Capsicum annuum var. glabriusculum (Chiltepin) genome, release 2.0</option>
+	<option value='Ccanephora_1.0'           synonym="Coffea canephora;coffee">Coffea canephora genomve v1.0</option>
 	<option value='HanXRQr1.0'               synonym="Helianthus annuus;sunflower">Helianthus annuus genome, HanXRQr1.0 (Dec, 2015)</option>
 	<option value='Csativus_v1'              synonym="Cucumis sativus;cucumber">Cucumis sativus genome, v1.0</option>
 	<option value='Dcarota_v2.0'             synonym="Daucus carota;carrot">Daucus carota genome, v2.0</option>
@@ -3222,6 +3223,15 @@ set_strand() ;
 	<td>Capsicum annuum var. glabriusculum
 	<td><a target='_blank' href='http://peppersequence.genomics.cn/page/species/download.jsp'><!--
 		-->release 2.0</a>
+</tr>
+<tr>
+	<td><a href='/Ccanephora_1.0/'>Ccanephora_1.0</a>
+	<td>
+	<td>Plant
+	<td>Coffee
+	<td>Coffea canephora
+	<td><a target='_blank' href='http://coffee-genome.org/'><!--
+		-->v1.0</a>
 </tr>
 <tr>
 	<td><a href='/HanXRQr1.0/'>HanXRQr1.0</a>
@@ -7439,7 +7449,7 @@ set_strand() ;
 <ul>
 	<li>2018-04-19 Database updated to DDBJ rel. 112.0 (Apr, 2018).
 	<li>2018-04-19 Databases updated to GENCODE human 28 (Apr, 2018) and mouse M17 (Apr, 2018).
-	<li>2018-04-19 Added 11 genome databases -
+	<li>2018-04-19 Added 12 genome databases -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
 	<li>2018-03-22 Database updated to miRBase rel. 22 (Mar, 2018).
 	<li>2018-03-22 Database updated to RefSeq rel. 87 (Mar, 2018).
