@@ -88,6 +88,8 @@ melGal1                  	172.18.8.76	40673	UCSC	Turkey genome, TGC Turkey_2.01/
 xenTro3                  	172.18.8.76	40683	UCSC	Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)	Xenopus tropicalis;western clawed frog
 taeGut2                  	172.18.8.76	40693	UCSC	Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)	Taeniopygia guttata
 danRer7                  	172.18.8.76	40703	UCSC	Zebrafish genome, Zv9/danRer7 (Jul, 2010)	Danio rerio
+danRer10                 	172.18.8.76	40983	UCSC	Zebrafish genome, GRCz10/danRer10 (Sep, 2014)	Danio rerio
+danRer11                 	172.18.8.76	40993	UCSC	Zebrafish genome, GRCz11/danRer11 (May, 2017)	Danio rerio
 ci2                      	172.18.8.76	40713	UCSC	Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)	Ciona intestinalis;transparent sea squirt
 braFlo1                  	172.18.8.76	40723	UCSC	Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)	Branchiostoma floridae
 strPur2                  	172.18.8.76	40733	UCSC	S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)	Strongylocentrotus purpuratus;purple sea urchin

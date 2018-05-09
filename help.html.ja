@@ -237,6 +237,8 @@ function set_strand(){
 	<option value='Xentr7'                   synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 7.1</option>
 	<option value='xenTro3'                  synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)</option>
 	<option value='taeGut2'                  synonym="Taeniopygia guttata">Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)</option>
+	<option value='danRer11'                 synonym="Danio rerio">Zebrafish genome, GRCz11/danRer11 (May, 2017)</option>
+	<option value='danRer10'                 synonym="Danio rerio">Zebrafish genome, GRCz10/danRer10 (Sep, 2014)</option>
 	<option value='danRer7'                  synonym="Danio rerio">Zebrafish genome, Zv9/danRer7 (Jul, 2010)</option>
 	<option value='KH'                       synonym="Ciona intestinalis;transparent sea squirt">Ciona intestinalis genome, KH (Jul, 2008)</option>
 	<option value='ci2'                      synonym="Ciona intestinalis;transparent sea squirt">Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)</option>
@@ -1725,6 +1727,26 @@ set_strand() ;
 	<td>Taeniopygia guttata
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut2'><!--
 		-->WashU taeGut324/taeGut2 (Feb, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/danRer11/'>danRer11</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Zebrafish
+	<td>ゼブラフィッシュ
+	<td>Danio rerio
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer11'><!--
+		-->GRCz11/danRer11 (May, 2017)</a>
+</tr>
+<tr>
+	<td><a href='/danRer10/'>danRer10</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Zebrafish
+	<td>ゼブラフィッシュ
+	<td>Danio rerio
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer10'><!--
+		-->GRCz10/danRer10 (Sep, 2014)</a>
 </tr>
 <tr>
 	<td><a href='/danRer7/'>danRer7</a>
@@ -8284,7 +8306,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Apr 19, 2018 by
+<p class=g>Last modified on May 9, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
