@@ -29,6 +29,7 @@ otoGar3                  	172.18.8.78	40083	UCSC	Bushbaby genome, Broad/otoGar3 
 felCat5                  	172.18.8.78	40093	UCSC	Cat genome, ICGSC Felis_catus 6.2/felCat5 (Sep, 2011)	Felis catus
 panTro4                  	172.18.8.78	40103	UCSC	Chimp genome, CSAC 2.1.4/panTro4 (Feb, 2011)	Pan troglodytes
 criGri1                  	172.18.8.78	40113	UCSC	Chinese hamster genome, C_griseus_v1.0/criGri1 (Jul, 2013)	Cricetulus griseus
+bosTau7                  	172.18.8.78	41003	UCSC	Cow genome, Btau_4.6.1/bosTau7 (Oct, 2011)	Bos taurus
 bosTau8                  	172.18.8.78	40123	UCSC	Cow genome, Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)	Bos taurus
 canFam3                  	172.18.8.78	40133	UCSC	Dog genome, Broad CanFam3.1/canFam3 (Sep, 2011)	Canis lupus familiaris
 turTru2                  	172.18.8.78	40143	UCSC	Dolphin genome, Baylor Ttru_1.4/turTru2 (Oct, 2011)	Tursiops truncatus

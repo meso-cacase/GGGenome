@@ -177,6 +177,7 @@ function set_strand(){
 	<option value='panTro4'                  synonym="Pan troglodytes">Chimp genome, CSAC 2.1.4/panTro4 (Feb, 2011)</option>
 	<option value='criGri1'                  synonym="Cricetulus griseus">Chinese hamster genome, C_griseus_v1.0/criGri1 (Jul, 2013)</option>
 	<option value='bosTau8'                  synonym="Bos taurus">Cow genome, Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)</option>
+	<option value='bosTau7'                  synonym="Bos taurus">Cow genome, Btau_4.6.1/bosTau7 (Oct, 2011)</option>
 	<option value='canFam3'                  synonym="Canis lupus familiaris">Dog genome, Broad CanFam3.1/canFam3 (Sep, 2011)</option>
 	<option value='turTru2'                  synonym="Tursiops truncatus">Dolphin genome, Baylor Ttru_1.4/turTru2 (Oct, 2011)</option>
 	<option value='loxAfr3'                  synonym="Loxodonta africana">Elephant genome, Broad/loxAfr3 (Jul, 2009)</option>
@@ -1155,6 +1156,15 @@ set_strand() ;
 	<td>Bos taurus
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=bosTau8'><!--
 		-->Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/bosTau7/'>bosTau7</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Cow
+	<td>Bos taurus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=bosTau7'><!--
+		-->Btau_4.6.1/bosTau7 (Oct, 2011)</a>
 </tr>
 <tr>
 	<td><a href='/canFam3/'>canFam3</a>
