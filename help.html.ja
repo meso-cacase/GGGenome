@@ -845,7 +845,7 @@ function set_strand(){
 	<option value='GENCODE_M16'              synonym="Mus musculus">GENCODE mouse release M16 (Dec, 2017)</option>
 	<option value='GENCODE_M15'              synonym="Mus musculus">GENCODE mouse release M15 (Aug, 2017)</option>
 	<option value='GENCODE_M13'              synonym="Mus musculus">GENCODE mouse release M13 (Mar, 2017)</option>
-	<option value='togogenome'               synonym="">TogoGenome from RefSeq 86 (Jan, 2018)</option>
+	<option value='togogenome'               synonym="">TogoGenome from RefSeq 87 (Mar, 2018)</option>
 	<option value='prok'                     synonym="">Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)</option>
 	<option value='16SrRNA'                  synonym="">DDBJ 16S rRNA of prokaryotes (Dec, 2014)</option>
 	<option value='miRBase22'                synonym="">miRBase release 22, stem-loop microRNA sequences (Mar, 2018)</option>
@@ -8104,16 +8104,16 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>TogoGenome from RefSeq 86 (Jan, 2018)<br>(alias of latest TogoGenome release)
+	<td>TogoGenome from RefSeq 87 (Mar, 2018)<br>(alias of latest TogoGenome release)
 </tr>
 <tr>
-	<td><a href='/togogenome86/'>togogenome86</a>
+	<td><a href='/togogenome87/'>togogenome87</a>
 	<td>DBCLS
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>TogoGenome from RefSeq 86 (Jan, 2018)
+	<td>TogoGenome from RefSeq 87 (Mar, 2018)
 </tr>
 <tr>
 	<td><a href='/prok/'>prok</a>
