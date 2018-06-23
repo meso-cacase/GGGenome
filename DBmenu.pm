@@ -184,6 +184,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'WCG_v1\'                   synonym=\"$db_synonym{'WCG_v1'                  }\">$db_fullname{'WCG_v1'                  }</option>
 	<option value=\'W97103_v1\'                synonym=\"$db_synonym{'W97103_v1'               }\">$db_fullname{'W97103_v1'               }</option>
 	<option value=\'ASM9120v1\'                synonym=\"$db_synonym{'ASM9120v1'               }\">$db_fullname{'ASM9120v1'               }</option>
+	<option value=\'Soybn_V2.0\'               synonym=\"$db_synonym{'Soybn_V2.0'              }\">$db_fullname{'Soybn_V2.0'              }</option>
 	<option value=\'Soybn_V1.0\'               synonym=\"$db_synonym{'Soybn_V1.0'              }\">$db_fullname{'Soybn_V1.0'              }</option>
 	<option value=\'Horvu_v1\'                 synonym=\"$db_synonym{'Horvu_v1'                }\">$db_fullname{'Horvu_v1'                }</option>
 	<option value=\'Lperr_V1.4\'               synonym=\"$db_synonym{'Lperr_V1.4'              }\">$db_fullname{'Lperr_V1.4'              }</option>
@@ -211,6 +212,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'SL2.4\'                    synonym=\"$db_synonym{'SL2.4'                   }\">$db_fullname{'SL2.4'                   }</option>
 	<option value=\'SME_r2.5.1\'               synonym=\"$db_synonym{'SME_r2.5.1'              }\">$db_fullname{'SME_r2.5.1'              }</option>
 	<option value=\'SolTub_3.0\'               synonym=\"$db_synonym{'SolTub_3.0'              }\">$db_fullname{'SolTub_3.0'              }</option>
+	<option value=\'Sorbi3\'                   synonym=\"$db_synonym{'Sorbi3'                  }\">$db_fullname{'Sorbi3'                  }</option>
 	<option value=\'Sorbi1\'                   synonym=\"$db_synonym{'Sorbi1'                  }\">$db_fullname{'Sorbi1'                  }</option>
 	<option value=\'Thecc_20110822\'           synonym=\"$db_synonym{'Thecc_20110822'          }\">$db_fullname{'Thecc_20110822'          }</option>
 	<option value=\'IWGSC1.0\'                 synonym=\"$db_synonym{'IWGSC1.0'                }\">$db_fullname{'IWGSC1.0'                }</option>

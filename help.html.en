@@ -334,6 +334,7 @@ function set_strand(){
 	<option value='WCG_v1'                   synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (Charleston Gray) genome, v1</option>
 	<option value='W97103_v1'                synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (97103) genome, v1</option>
 	<option value='ASM9120v1'                synonym="Cyanidioschyzon merolae;red alga">Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)</option>
+	<option value='Soybn_V2.0'               synonym="Glycine max;soybean">Glycine max genome, v2.0 (Nov, 2015)</option>
 	<option value='Soybn_V1.0'               synonym="Glycine max;soybean">Glycine max genome, V1.0 (Jan, 2010)</option>
 	<option value='Horvu_v1'                 synonym="Hordeum vulgare;barley">Hordeum vulgare genome, 082214v1 (Mar, 2012)</option>
 	<option value='Lperr_V1.4'               synonym="Leersia perrieri">Leersia perrieri genome, Lperr_V1.4 (Mar, 2014)</option>
@@ -361,6 +362,7 @@ function set_strand(){
 	<option value='SL2.4'                    synonym="Solanum lycopersicum;tomato">Solanum lycopersicum genome, SL2.40 (Jan, 2011)</option>
 	<option value='SME_r2.5.1'               synonym="Solanum melongena;eggplant">Solanum melongena genome, r2.5.1</option>
 	<option value='SolTub_3.0'               synonym="Solanum tuberosum;potato">Solanum tuberosum genome, SolTub_3.0 (May, 2011)</option>
+	<option value='Sorbi3'                   synonym="Sorghum bicolor;sorghum">Sorghum bicolor genome, NCBIv3 (Jun, 2017)</option>
 	<option value='Sorbi1'                   synonym="Sorghum bicolor;sorghum">Sorghum bicolor genome, Sorbi1 (Dec, 2007)</option>
 	<option value='Thecc_20110822'           synonym="Theobroma cacao;cacao">Theobroma cacao genome, Theobroma_cacao_20110822 (May, 2014)</option>
 	<option value='IWGSC1.0'                 synonym="Triticum aestivum;wheat">Triticum aestivum genome, IWGSC1.0+popseq (Nov, 2014)</option>
@@ -2445,6 +2447,15 @@ set_strand() ;
 		-->ASM9120v1 (Nov, 2008)</a>
 </tr>
 <tr>
+	<td><a href='/Soybn_V2.0/'>Soybn_V2.0</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Soybean
+	<td>Glycine max
+	<td><a target='_blank' href='http://plants.ensembl.org/Glycine_max/'><!--
+		-->v2.0 (Nov, 2015)</a>
+</tr>
+<tr>
 	<td><a href='/Soybn_V1.0/'>Soybn_V1.0</a>
 	<td>EnsemblPlants
 	<td>Plant
@@ -2650,6 +2661,15 @@ set_strand() ;
 	<td>Solanum tuberosum
 	<td><a target='_blank' href='http://plants.ensembl.org/Solanum_tuberosum/'><!--
 		-->SolTub_3.0 (May, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/Sorbi3/'>Sorbi3</a>
+	<td>EnsemblPlants
+	<td>Plant
+	<td>Sorghum
+	<td>Sorghum bicolor
+	<td><a target='_blank' href='http://plants.ensembl.org/Sorghum_bicolor/'><!--
+		-->NCBIv3 (Jun, 2017)</a>
 </tr>
 <tr>
 	<td><a href='/Sorbi1/'>Sorbi1</a>
@@ -7591,7 +7611,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on May 28, 2018 by
+<p class=g>Last modified on Jun 23, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

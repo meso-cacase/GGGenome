@@ -177,6 +177,7 @@ IVFCAASv1                	172.18.8.75	45073	EnsemblPlants	Brassica rapa genome, 
 Chlre_v3.1               	172.18.8.75	45083	EnsemblPlants	Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)	Chlamydomonas reinhardtii;green algae
 ASM9120v1                	172.18.8.75	45093	EnsemblPlants	Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)	Cyanidioschyzon merolae;red alga
 Soybn_V1.0               	172.18.8.75	45103	EnsemblPlants	Glycine max genome, V1.0 (Jan, 2010)	Glycine max;soybean
+Soybn_V2.0               	172.18.8.75	45403	EnsemblPlants	Glycine max genome, v2.0 (Nov, 2015)	Glycine max;soybean
 Horvu_v1                 	172.18.8.75	45113	EnsemblPlants	Hordeum vulgare genome, 082214v1 (Mar, 2012)	Hordeum vulgare;barley
 Lperr_V1.4               	172.18.8.75	45123	EnsemblPlants	Leersia perrieri genome, Lperr_V1.4 (Mar, 2014)	Leersia perrieri
 MedtrA17_4.0             	172.18.8.75	45133	EnsemblPlants	Medicago truncatula str. A17 genome, MedtrA17_4.0 (Jun, 2014)	Medicago truncatula str. A17;barrel medic
@@ -200,6 +201,7 @@ Setit_JGIv2.0            	172.18.8.75	45313	EnsemblPlants	Setaria italica genome
 SL2.50                   	172.18.8.75	45323	EnsemblPlants	Solanum lycopersicum str. Heinz 1706 genome, SL2.50 (Oct, 2014)	Solanum lycopersicum str. Heinz 1706;tomato
 SolTub_3.0               	172.18.8.75	45333	EnsemblPlants	Solanum tuberosum genome, SolTub_3.0 (May, 2011)	Solanum tuberosum;potato
 Sorbi1                   	172.18.8.75	45343	EnsemblPlants	Sorghum bicolor genome, Sorbi1 (Dec, 2007)	Sorghum bicolor;sorghum
+Sorbi3                   	172.18.8.75	45413	EnsemblPlants	Sorghum bicolor genome, NCBIv3 (Jun, 2017)	Sorghum bicolor;sorghum
 Thecc_20110822           	172.18.8.75	45353	EnsemblPlants	Theobroma cacao genome, Theobroma_cacao_20110822 (May, 2014)	Theobroma cacao;cacao
 IWGSC1.0                 	172.18.8.75	45363	EnsemblPlants	Triticum aestivum genome, IWGSC1.0+popseq (Nov, 2014)	Triticum aestivum;wheat
 ASM34745v1               	172.18.8.75	45373	EnsemblPlants	Triticum urartu genome, ASM34745v1 (Apr, 2013)	Triticum urartu;red wild einkorn
