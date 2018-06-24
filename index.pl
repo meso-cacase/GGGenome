@@ -847,17 +847,22 @@ my $snippet_end  = ($snippet_pos and $snippet) ?
 
 $name =~ s/^>// ;
 
-return [
-	parse_seqname_json({
-		name         => $name,
-		strand       => $strand,
-		position     => $position,
-		position_end => $position_end,
-		snippet      => $snippet,
-		snippet_pos  => $snippet_pos,
-		snippet_end  => $snippet_end
-	})
-] ;
+my $json = {
+	name         => $name,
+	strand       => $strand,
+	position     => $position,
+	position_end => $position_end,
+	snippet      => $snippet,
+	snippet_pos  => $snippet_pos,
+	snippet_end  => $snippet_end,
+} ;
+
+defined $gene->{matching_status} and $json->{matching_status} = $gene->{matching_status} ;
+defined $gene->{edit_info}       and $json->{edit_info}       = $gene->{edit_info} ;
+defined $gene->{query_based}     and $json->{query_based}     = $gene->{query_based} ;
+defined $gene->{body_based}      and $json->{body_based}      = $gene->{body_based} ;
+
+return [ parse_seqname_json($json) ] ;
 } ;
 # ====================
 sub show_hit_html {  # ヒットした遺伝子をHTMLで出力
