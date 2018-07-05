@@ -359,7 +359,19 @@ if ($format eq 'txt'){
 	}
 	#--- △ (-)鎖の検索実行と結果出力
 
-	push @summary, '# name,strand,start,end,snippet,snippet_pos,snippet_end' ;
+	push @summary, '# ' . join(',',
+		'name',
+		'strand',
+		'start',
+		'end',
+		'snippet',
+		'snippet_pos',
+		'snippet_end',
+		'query',
+		'sbjct',
+		'align',
+		'edit',
+	) ;
 	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
 	print_txt(join "\n", (@summary, @hit_list)) ;
 #-- △ CSV形式
@@ -768,6 +780,10 @@ my $length      = $gene->{length}      // '' ;
 my $position    = $gene->{pos}         // '' ;
 my $snippet     = $gene->{snippet}     // '' ;
 my $snippet_pos = $gene->{snippet_pos} // '' ;
+my $query_based = $gene->{query_based} // '' ;
+my $body_based  = $gene->{body_based}  // '' ;
+my $alignment   = $gene->{matching_status} // '' ;
+my $edit_info   = $gene->{edit_info}   // '' ;
 
 my $position_end = ($position and $length) ?
                    $position + $length - 1 :
@@ -785,7 +801,11 @@ return join ',', (
 	$position_end,
 	$snippet,
 	$snippet_pos,
-	$snippet_end
+	$snippet_end,
+	"\"$query_based\"",
+	"\"$body_based\"",
+	"\"$alignment\"",
+	"\"$edit_info\"",
 ) ;
 } ;
 # ====================
