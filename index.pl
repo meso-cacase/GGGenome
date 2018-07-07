@@ -754,6 +754,10 @@ my $snippet_end  = ($snippet_pos and $snippet) ?
                    $snippet_pos + length($snippet) - 1 :
                    '' ;
 
+$edit_info =~ tr/!/X/ ;  # X: ミスマッチ
+$edit_info =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
+$edit_info =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
+
 $name =~ s/^>// ;
 
 return join "\t", (
@@ -791,6 +795,10 @@ my $position_end = ($position and $length) ?
 my $snippet_end  = ($snippet_pos and $snippet) ?
                    $snippet_pos + length($snippet) - 1 :
                    '' ;
+
+$edit_info =~ tr/!/X/ ;  # X: ミスマッチ
+$edit_info =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
+$edit_info =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
 
 $name =~ s/^>// ;
 
@@ -901,6 +909,12 @@ defined $gene->{matching_status} and $json->{align} = $gene->{matching_status} ;
 defined $gene->{edit_info}       and $json->{edit}  = $gene->{edit_info} ;
 defined $gene->{query_based}     and $json->{query} = $gene->{query_based} ;
 defined $gene->{body_based}      and $json->{sbjct} = $gene->{body_based} ;
+
+if (defined $json->{edit}){
+	$json->{edit} =~ tr/!/X/ ;  # X: ミスマッチ
+	$json->{edit} =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
+	$json->{edit} =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
+}
 
 return [ parse_seqname_json($json) ] ;
 } ;
