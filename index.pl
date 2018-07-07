@@ -305,6 +305,10 @@ if ($format eq 'txt'){
 		'sbjct',
 		'align',
 		'edit',
+		'match',
+		'mis',
+		'del',
+		'ins',
 	) ;
 	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
 	print_txt(join "\n", (@summary, @hit_list)) ;
@@ -371,6 +375,10 @@ if ($format eq 'txt'){
 		'sbjct',
 		'align',
 		'edit',
+		'match',
+		'mis',
+		'del',
+		'ins',
 	) ;
 	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
 	print_txt(join "\n", (@summary, @hit_list)) ;
@@ -754,9 +762,16 @@ my $snippet_end  = ($snippet_pos and $snippet) ?
                    $snippet_pos + length($snippet) - 1 :
                    '' ;
 
+#- ▼ アライメント情報からミスマッチ・挿入・欠失の数を計算
 $edit_info =~ tr/!/X/ ;  # X: ミスマッチ
 $edit_info =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
 $edit_info =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
+
+my $match = $edit_info ? ($edit_info =~ tr/=/=/) : '' ;  # =: マッチ
+my $mis   = $edit_info ? ($edit_info =~ tr/X/X/) : '' ;  # X: ミスマッチ
+my $del   = $edit_info ? ($edit_info =~ tr/D/D/) : '' ;  # D: 欠失
+my $ins   = $edit_info ? ($edit_info =~ tr/I/I/) : '' ;  # I: 挿入
+#- ▲ アライメント情報からミスマッチ・挿入・欠失の数を計算
 
 $name =~ s/^>// ;
 
@@ -772,6 +787,10 @@ return join "\t", (
 	$body_based,
 	$alignment,
 	$edit_info,
+	$match,
+	$mis,
+	$del,
+	$ins,
 ) ;
 } ;
 # ====================
@@ -796,9 +815,16 @@ my $snippet_end  = ($snippet_pos and $snippet) ?
                    $snippet_pos + length($snippet) - 1 :
                    '' ;
 
+#- ▼ アライメント情報からミスマッチ・挿入・欠失の数を計算
 $edit_info =~ tr/!/X/ ;  # X: ミスマッチ
 $edit_info =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
 $edit_info =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
+
+my $match = $edit_info ? ($edit_info =~ tr/=/=/) : '' ;  # =: マッチ
+my $mis   = $edit_info ? ($edit_info =~ tr/X/X/) : '' ;  # X: ミスマッチ
+my $del   = $edit_info ? ($edit_info =~ tr/D/D/) : '' ;  # D: 欠失
+my $ins   = $edit_info ? ($edit_info =~ tr/I/I/) : '' ;  # I: 挿入
+#- ▲ アライメント情報からミスマッチ・挿入・欠失の数を計算
 
 $name =~ s/^>// ;
 
@@ -814,6 +840,10 @@ return join ',', (
 	"\"$body_based\"",
 	"\"$alignment\"",
 	"\"$edit_info\"",
+	$match,
+	$mis,
+	$del,
+	$ins,
 ) ;
 } ;
 # ====================
@@ -910,11 +940,18 @@ defined $gene->{edit_info}       and $json->{edit}  = $gene->{edit_info} ;
 defined $gene->{query_based}     and $json->{query} = $gene->{query_based} ;
 defined $gene->{body_based}      and $json->{sbjct} = $gene->{body_based} ;
 
+#- ▼ アライメント情報からミスマッチ・挿入・欠失の数を計算
 if (defined $json->{edit}){
 	$json->{edit} =~ tr/!/X/ ;  # X: ミスマッチ
 	$json->{edit} =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
 	$json->{edit} =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
+
+	$json->{match} = ($json->{edit} =~ tr/=/=/) ;  # =: マッチ
+	$json->{mis}   = ($json->{edit} =~ tr/X/X/) ;  # X: ミスマッチ
+	$json->{del}   = ($json->{edit} =~ tr/D/D/) ;  # D: 欠失
+	$json->{ins}   = ($json->{edit} =~ tr/I/I/) ;  # I: 挿入
 }
+#- ▲ アライメント情報からミスマッチ・挿入・欠失の数を計算
 
 return [ parse_seqname_json($json) ] ;
 } ;
