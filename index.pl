@@ -897,10 +897,10 @@ my $json = {
 	snippet_end  => $snippet_end,
 } ;
 
-defined $gene->{matching_status} and $json->{matching_status} = $gene->{matching_status} ;
-defined $gene->{edit_info}       and $json->{edit_info}       = $gene->{edit_info} ;
-defined $gene->{query_based}     and $json->{query_based}     = $gene->{query_based} ;
-defined $gene->{body_based}      and $json->{body_based}      = $gene->{body_based} ;
+defined $gene->{matching_status} and $json->{align} = $gene->{matching_status} ;
+defined $gene->{edit_info}       and $json->{edit}  = $gene->{edit_info} ;
+defined $gene->{query_based}     and $json->{query} = $gene->{query_based} ;
+defined $gene->{body_based}      and $json->{sbjct} = $gene->{body_based} ;
 
 return [ parse_seqname_json($json) ] ;
 } ;
