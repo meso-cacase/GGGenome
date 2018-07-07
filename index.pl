@@ -799,7 +799,7 @@ return join ',', (
 	$strand,
 	$position,
 	$position_end,
-	$snippet,
+	"\"$snippet\"",
 	$snippet_pos,
 	$snippet_end,
 	"\"$query_based\"",
