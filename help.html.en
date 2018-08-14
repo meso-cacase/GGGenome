@@ -7484,6 +7484,42 @@ set_strand() ;
 	<td>Macaca fascicularis
 	<td>Crab-eating macaque CDS, CE_1.0 (Jul, 2011)
 </tr>
+<tr>
+	<td><a href='/hg38_ncbiRefSeqCurated_spliced_20180411/'>hg38_ncbiRefSeqCurated_<br>spliced_20180411</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://d3g.riken.jp/dataset/'><!--
+		-->Human spliced mRNA,<br>RefSeq 20170306 on hg38 (Apr. 2018)</a>
+</tr>
+<tr>
+	<td><a href='/hg38_ncbiRefSeqCurated_unspliced_20180411/'>hg38_ncbiRefSeqCurated_<br>unspliced_20180411</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://d3g.riken.jp/dataset/'><!--
+		-->Human unspliced mRNA,<br>RefSeq 20170306 on hg38 (Apr. 2018)</a>
+</tr>
+<tr>
+	<td><a href='/hg38_wgEncodeGencodeCompV27_spliced_20180411/'>hg38_wgEncodeGencodeCompV27_<br>spliced_20180411</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://d3g.riken.jp/dataset/'><!--
+		-->Human spliced mRNA,<br>GENCODE27 20170925 on hg38 (Apr. 2018)</a>
+</tr>
+<tr>
+	<td><a href='/hg38_wgEncodeGencodeCompV27_unspliced_20180411/'>hg38_wgEncodeGencodeCompV27_<br>unspliced_20180411</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://d3g.riken.jp/dataset/'><!--
+		-->Human unspliced mRNA,<br>GENCODE27 20170925 on hg38 (Apr. 2018)</a>
+</tr>
 </tbody>
 </table>
 </div>
