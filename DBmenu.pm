@@ -708,6 +708,13 @@ $dbmenu = <<"--EOS--" ;
 
 	<option disabled>--------------------</option>
 
+	<option value=\'hg38_ncbiRefSeqCurated_spliced_20180411\'        synonym=\"$db_synonym{'hg38_ncbiRefSeqCurated_spliced_20180411'        }\">$db_fullname{'hg38_ncbiRefSeqCurated_spliced_20180411'        }</option>
+	<option value=\'hg38_ncbiRefSeqCurated_unspliced_20180411\'      synonym=\"$db_synonym{'hg38_ncbiRefSeqCurated_unspliced_20180411'      }\">$db_fullname{'hg38_ncbiRefSeqCurated_unspliced_20180411'      }</option>
+	<option value=\'hg38_wgEncodeGencodeCompV27_spliced_20180411\'   synonym=\"$db_synonym{'hg38_wgEncodeGencodeCompV27_spliced_20180411'   }\">$db_fullname{'hg38_wgEncodeGencodeCompV27_spliced_20180411'   }</option>
+	<option value=\'hg38_wgEncodeGencodeCompV27_unspliced_20180411\' synonym=\"$db_synonym{'hg38_wgEncodeGencodeCompV27_unspliced_20180411' }\">$db_fullname{'hg38_wgEncodeGencodeCompV27_unspliced_20180411' }</option>
+
+	<option disabled>--------------------</option>
+
 	<option value=\'ddbj113hum\'               synonym=\"$db_synonym{'ddbj113hum'              }\">$db_fullname{'ddbj113hum'              }</option>
 	<option value=\'ddbj113pri\'               synonym=\"$db_synonym{'ddbj113pri'              }\">$db_fullname{'ddbj113pri'              }</option>
 	<option value=\'ddbj113rod\'               synonym=\"$db_synonym{'ddbj113rod'              }\">$db_fullname{'ddbj113rod'              }</option>

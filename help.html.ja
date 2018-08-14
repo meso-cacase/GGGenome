@@ -858,6 +858,13 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
+	<option value='hg38_ncbiRefSeqCurated_spliced_20180411'        synonym="Homo sapiens">Human spliced mRNA, RefSeq 20170306 on hg38 (Apr. 2018)</option>
+	<option value='hg38_ncbiRefSeqCurated_unspliced_20180411'      synonym="Homo sapiens">Human unspliced mRNA, RefSeq 20170306 on hg38 (Apr. 2018)</option>
+	<option value='hg38_wgEncodeGencodeCompV27_spliced_20180411'   synonym="Homo sapiens">Human spliced mRNA, GENCODE27 20170925 on hg38 (Apr. 2018)</option>
+	<option value='hg38_wgEncodeGencodeCompV27_unspliced_20180411' synonym="Homo sapiens">Human unspliced mRNA, GENCODE27 20170925 on hg38 (Apr. 2018)</option>
+
+	<option disabled>--------------------</option>
+
 	<option value='ddbj113hum'               synonym="ddbjhum">DDBJ release 113.0, HUM division (Jun, 2018)</option>
 	<option value='ddbj113pri'               synonym="ddbjpri">DDBJ release 113.0, PRI division (Jun, 2018)</option>
 	<option value='ddbj113rod'               synonym="ddbjrod">DDBJ release 113.0, ROD division (Jun, 2018)</option>
