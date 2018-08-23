@@ -264,7 +264,7 @@ if ($format eq 'txt'){
 		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
 		$hit_num    = $hits->{total_hit_num}           // '' ;
 		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+		$hit_approx and $hit_num =~ s/^(\d{1,2})(\d*)/'>' . $1 . 0 x length($2)/e ;
 
 		push @summary, "# query:	$queryseq" ;
 		push @summary, "# count:	$hit_num" ;
@@ -286,7 +286,7 @@ if ($format eq 'txt'){
 		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
 		$hit_num    = $hits->{total_hit_num}           // '' ;
 		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+		$hit_approx and $hit_num =~ s/^(\d{1,2})(\d*)/'>' . $1 . 0 x length($2)/e ;
 
 		push @summary, "# query:	$queryseq" ;
 		push @summary, "# count:	$hit_num" ;
@@ -334,7 +334,7 @@ if ($format eq 'txt'){
 		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
 		$hit_num    = $hits->{total_hit_num}           // '' ;
 		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+		$hit_approx and $hit_num =~ s/^(\d{1,2})(\d*)/'>' . $1 . 0 x length($2)/e ;
 
 		push @summary, "# query,$queryseq" ;
 		push @summary, "# count,$hit_num" ;
@@ -356,7 +356,7 @@ if ($format eq 'txt'){
 		# ヒット数を出力、予測値の場合は有効2桁で先頭に'>'を付加
 		$hit_num    = $hits->{total_hit_num}           // '' ;
 		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
-		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'>' . $1 . 0 x length($2)/e ;
+		$hit_approx and $hit_num =~ s/^(\d{1,2})(\d*)/'>' . $1 . 0 x length($2)/e ;
 
 		push @summary, "# query,$queryseq" ;
 		push @summary, "# count,$hit_num" ;
@@ -544,7 +544,7 @@ if ($format eq 'txt'){
 		$hit_num    = $hits->{total_hit_num}           // '' ;
 		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
 		$ds_hit_num += $hit_num ;
-		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+		$hit_approx and $hit_num =~ s/^(\d{1,2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
 		$hit_approx and $ds_approx = 1 ;
 
 		push @summary,
@@ -579,7 +579,7 @@ if ($format eq 'txt'){
 		$hit_num    = $hits->{total_hit_num}           // '' ;
 		$hit_approx = $hits->{total_hit_num_is_approx} // '' ;
 		$ds_hit_num += $hit_num ;
-		$hit_approx and $hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+		$hit_approx and $hit_num =~ s/^(\d{1,2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
 		$hit_approx and $ds_approx = 1 ;
 
 		push @summary,
@@ -590,7 +590,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ 両鎖の合計数を出力
 	my $total = $ds_hit_num ;  #ADD tyamamot totalの追加
-	$ds_approx and $ds_hit_num =~ s/^(\d{2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
+	$ds_approx and $ds_hit_num =~ s/^(\d{1,2})(\d*)/'&gt;' . $1 . 0 x length($2)/e ;
 
 	$limit   = ($debug ? $max_hit_debug : $max_hit_html) ;  #ADD tyamamot 検索を打ち切るヒット数を改めてセット
 	$offset  = $query{'offset'} // 0 ;                      #ADD tyamamot offsetの追加
