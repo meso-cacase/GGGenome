@@ -388,6 +388,8 @@ function set_strand(){
 	<option value='MG8'                      synonym="Magnaporthe oryzae;rice blast fungus">Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)</option>
 	<option value='ASM644v2'                 synonym="Debaryomyces hansenii;marine yeast">Debaryomyces hansenii (CBS767) genome, ASM644v2 (Feb, 2015)</option>
 	<option value='ASM251v1'                 synonym="Kluyveromyces lactis;kluyveromyces yeast">Kluyveromyces lactis genome, ASM251v1 (Feb, 2015)</option>
+	<option value='KM1777_03'                synonym="Kluyveromyces marxianus;kluyveromyces yeast">Kluyveromyces marxianus genome, KM1777_03 (Oct, 2014)</option>
+	<option value='PicPas_Mar2011'           synonym="Komagataella phaffii;Pichia pastoris;methylotrophic yeast">Komagataella phaffii CBS 7435 genome, PicPas_Mar2011 (Oct, 2016)</option>
 	<option value='ASM252v1'                 synonym="Yarrowia lipolytica;oleaginous yeast">Yarrowia lipolytica genome, ASM252v1 (May, 2012)</option>
 	<option value='RR'                       synonym="Fusarium graminearum;Gibberella zeae;wheat head blight fungus">Fusarium graminearum genome, RR (Nov, 2014)</option>
 	<option value='CC3'                      synonym="Coprinopsis cinerea;Hormographiella aspergillata;inky cap fungus">Coprinopsis cinerea (okayama7#130) genome, CC3 (Aug, 2014)</option>
@@ -3361,6 +3363,24 @@ set_strand() ;
 	<td>Kluyveromyces lactis
 	<td><a target='_blank' href='http://fungi.ensembl.org/Kluyveromyces_lactis/'><!--
 		-->ASM251v1 (Feb, 2015)</a>
+</tr>
+<tr>
+	<td><a href='/KM1777_03/'>KM1777_03</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>Kluyveromyces yeast
+	<td>Kluyveromyces marxianus
+	<td><a target='_blank' href='http://fungi.ensembl.org/Kluyveromyces_marxianus/'><!--
+		-->KM1777_03 (Oct, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/PicPas_Mar2011/'>PicPas_Mar2011</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>Methylotrophic yeast (CBS 7435)
+	<td>Komagataella phaffii<br>(Pichia pastoris)
+	<td><a target='_blank' href='http://fungi.ensembl.org/Komagataella_phaffii_cbs_7435/'><!--
+		-->PicPas_Mar2011 (Oct, 2016)</a>
 </tr>
 <tr>
 	<td><a href='/ASM252v1/'>ASM252v1</a>
@@ -7656,7 +7676,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Aug 3, 2018 by
+<p class=g>Last modified on Aug 23, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

@@ -256,6 +256,8 @@ ASM251v1                 	172.18.8.76	42643	EnsemblFungi	Kluyveromyces lactis ge
 ASM252v1                 	172.18.8.76	42653	EnsemblFungi	Yarrowia lipolytica genome, ASM252v1 (May, 2012)	Yarrowia lipolytica;oleaginous yeast
 RR                       	172.18.8.76	42663	EnsemblFungi	Fusarium graminearum genome, RR (Nov, 2014)	Fusarium graminearum;Gibberella zeae;wheat head blight fungus
 CC3                      	172.18.8.72	42823	EnsemblFungi	Coprinopsis cinerea (okayama7#130) genome, CC3 (Aug, 2014)	Coprinopsis cinerea;Hormographiella aspergillata;inky cap fungus
+KM1777_03                	172.18.8.76	43883	EnsemblFungi	Kluyveromyces marxianus genome, KM1777_03 (Oct, 2014)	Kluyveromyces marxianus;kluyveromyces yeast
+PicPas_Mar2011           	172.18.8.76	43893	EnsemblFungi	Komagataella phaffii CBS 7435 genome, PicPas_Mar2011 (Oct, 2016)	Komagataella phaffii;Pichia pastoris;methylotrophic yeast
 BX                       	172.18.8.76	42673	         	Nicotiana tabacum (BX) genome, Ntab-BX (2014)	Nicotiana tabacum;tobacco
 RHOziaDV1.0              	172.18.8.76	42683	NCBI     	Rhodotorula toruloides (NP11) genome, RHOziaDV1.0 (Apr, 2013)	Rhodotorula toruloides;oleaginous yeast
 Tetth                    	172.18.8.76	42693	TGD      	Tetrahymena thermophila genome (Jun, 2014)	Tetrahymena thermophila
