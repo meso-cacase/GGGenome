@@ -9,7 +9,7 @@ http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/SEQUENCE[.FORMAT][.download]
     'dm3'    - Drosophila genome, BDGP R5/dm3 (Apr, 2006)
     'ce10'   - C. elegans genome, WS220/ce10 (Oct, 2010)
     'TAIR10' - Arabidopsis thaliana genome, TAIR10 (Nov, 2010)
-    'pombe'  - S. pombe (972h-) genome, ASM294v2 (Nov, 2007)
+    'pombe'  - Schizosaccharomyces pombe (972h-) genome, ASM294v2 (Nov, 2007)
     'refseq' - RefSeq complete RNA, latest release
     *** List of available databases: http://GGGenome.dbcls.jp/help.html ***
     Default: hg19

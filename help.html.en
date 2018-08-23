@@ -284,7 +284,7 @@ function set_strand(){
 	<option value='LepOcu1'                  synonym="Lepisosteus oculatus">Spotted gar genome, LepOcu1 (Dec, 2011)</option>
 	<option value='ChlSab1.1'                synonym="Chlorocebus sabaeus">Green monkey genome, ChlSab1.1 (Mar, 2014)</option>
 	<option value='Acyr_2.0'                 synonym="Acyrthosiphon pisum;pea aphid">Acyrthosiphon pisum genome, Acyr_2.0 (Jun, 2010)</option>
-	<option value='AaegL3'                   synonym="Aedes aegypti;yellowfever mosquito">Aedes aegypti genome, AaegL3 (Dec, 2013)</option>
+	<option value='AaegL3'                   synonym="Aedes aegypti;yellow fever mosquito">Aedes aegypti genome, AaegL3 (Dec, 2013)</option>
 	<option value='Aqu1'                     synonym="Amphimedon queenslandica;sponge">Amphimedon queenslandica genome, Aqu1 (Oct, 2010)</option>
 	<option value='AdarC3'                   synonym="Anopheles darlingi;mosquito">Anopheles darlingi genome, AdarC3 (Jan, 2014)</option>
 	<option value='Aros_1.0'                 synonym="Athalia rosae;turnip sawfly;coleseed sawfly">Athalia rosae genome, Aros_1.0 (Mar, 2013)</option>
@@ -384,7 +384,7 @@ function set_strand(){
 	<option value='oxy'                      synonym="Oxytricha trifallax;ciliate">Oxytricha trifallax macronuclear genome</option>
 	<option value='oxymic'                   synonym="Oxytricha trifallax;ciliate">Oxytricha trifallax micronuclear genome</option>
 	<option value='YOKOZUNA-1'               synonym="Ramazzottius variornatus;tardigrade;water bear">Ramazzottius variornatus (YOKOZUNA-1) genome (Sep, 2016)</option>
-	<option value='pombe'                    synonym="Schizosaccharomyces pombe;fission yeast">S. pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
+	<option value='pombe'                    synonym="Schizosaccharomyces pombe;fission yeast">Schizosaccharomyces pombe (972h-) genome, ASM294v2 (Nov, 2007)</option>
 	<option value='MG8'                      synonym="Magnaporthe oryzae;rice blast fungus">Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)</option>
 	<option value='ASM644v2'                 synonym="Debaryomyces hansenii;marine yeast">Debaryomyces hansenii (CBS767) genome, ASM644v2 (Feb, 2015)</option>
 	<option value='ASM251v1'                 synonym="Kluyveromyces lactis;kluyveromyces yeast">Kluyveromyces lactis genome, ASM251v1 (Feb, 2015)</option>
@@ -2072,7 +2072,7 @@ set_strand() ;
 	<td><a href='/AaegL3/'>AaegL3</a>
 	<td>EnsemblMetazoa
 	<td>Insect
-	<td>Yellowfever mosquito
+	<td>Yellow fever mosquito
 	<td>Aedes aegypti
 	<td><a target='_blank' href='http://metazoa.ensembl.org/Aedes_aegypti/'><!--
 		-->AaegL3 (Dec, 2013)</a>
@@ -3406,7 +3406,7 @@ set_strand() ;
 	<td>Fungi
 	<td>Inky cap fungus
 	<td>Coprinopsis cinerea<br>(Hormographiella aspergillata)
-	<td><a target='_blank' href='http://fungi.ensembl.org/Coprinopsis_cinerea_okayama7_130/Info/Index'><!--
+	<td><a target='_blank' href='http://fungi.ensembl.org/Coprinopsis_cinerea_okayama7_130/'><!--
 		-->CC3 (Aug, 2014)</a>
 </tr>
 <tr>
@@ -3415,7 +3415,7 @@ set_strand() ;
 	<td>Fungi
 	<td>Torulaspora yeast
 	<td>Torulaspora delbrueckii
-	<td><a target='_blank' href='http://fungi.ensembl.org/Torulaspora_delbrueckii/Info/Index'><!--
+	<td><a target='_blank' href='http://fungi.ensembl.org/Torulaspora_delbrueckii/'><!--
 		-->ASM24337v1 (Feb, 2015)</a>
 </tr>
 <tr>
