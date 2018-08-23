@@ -756,7 +756,8 @@ miRBase21mat             	172.18.8.72	43603	miRBase  	miRBase release 21, mature
 miRBase22                	172.18.8.72	43743	miRBase  	miRBase release 22, stem-loop microRNA sequences (Mar, 2018)	
 miRBase22mat             	172.18.8.72	43753	miRBase  	miRBase release 22, mature microRNA sequences (Mar, 2018)	
 togogenome88             	172.18.8.70	60383	         	TogoGenome from RefSeq 88 (May, 2018)	
-togogenome               	172.18.8.70	60383	         	TogoGenome from RefSeq 88 (May, 2018)	
+togogenome89             	172.18.8.71	60483	         	TogoGenome from RefSeq 89 (Jul, 2018)	
+togogenome               	172.18.8.71	60483	         	TogoGenome from RefSeq 89 (Jul, 2018)	
 ddbj113hum               	172.18.8.77	58023	DDBJ     	DDBJ release 113.0, HUM division (Jun, 2018)	ddbjhum
 ddbj113pri               	172.18.8.76	58033	DDBJ     	DDBJ release 113.0, PRI division (Jun, 2018)	ddbjpri
 ddbj113rod               	172.18.8.72	58043	DDBJ     	DDBJ release 113.0, ROD division (Jun, 2018)	ddbjrod
