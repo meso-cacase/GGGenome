@@ -298,6 +298,8 @@ ASM24337v1               	172.18.8.72	43033	EnsemblFungi	Torulaspora delbrueckii
 Aros_1.0                 	172.18.8.72	43063	NCBI     	Athalia rosae genome, Aros_1.0 (Mar, 2013)	Athalia rosae;turnip sawfly;coleseed sawfly
 Mpolymorpha_3.1          	172.18.8.72	43583	         	Marchantia polymorpha genome, JGI 3.1	Marchantia polymorpha;liverwort
 Ccanephora_1.0           	172.18.8.72	43793	         	Coffea canephora genome, v1.0	Coffea canephora;coffee
+AaegL5                   	172.18.8.72	28000	VectorBase	Aedes aegypti genome, AaegL5 (Jun, 2017)	Aedes aegypti;yellow fever mosquito
+AaloF1                   	172.18.8.72	28001	VectorBase	Aedes albopictus genome, AaloF1 (Nov, 2015)	Aedes albopictus;asian tiger mosquito;forest mosquito
 16SrRNA                  	172.18.8.77	50053	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3           	172.18.8.74	42013	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1    	172.18.8.74	42023	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss

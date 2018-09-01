@@ -284,7 +284,9 @@ function set_strand(){
 	<option value='LepOcu1'                  synonym="Lepisosteus oculatus">Spotted gar genome, LepOcu1 (Dec, 2011)</option>
 	<option value='ChlSab1.1'                synonym="Chlorocebus sabaeus">Green monkey genome, ChlSab1.1 (Mar, 2014)</option>
 	<option value='Acyr_2.0'                 synonym="Acyrthosiphon pisum;pea aphid">Acyrthosiphon pisum genome, Acyr_2.0 (Jun, 2010)</option>
+	<option value='AaegL5'                   synonym="Aedes aegypti;yellow fever mosquito">Aedes aegypti genome, AaegL5 (Jun, 2017)</option>
 	<option value='AaegL3'                   synonym="Aedes aegypti;yellow fever mosquito">Aedes aegypti genome, AaegL3 (Dec, 2013)</option>
+	<option value='AaloF1'                   synonym="Aedes albopictus;asian tiger mosquito;forest mosquito">Aedes albopictus genome, AaloF1 (Nov, 2015)</option>
 	<option value='AdarC3'                   synonym="Anopheles darlingi;american malaria mosquito">Anopheles darlingi genome, AdarC3 (Jan, 2014)</option>
 	<option value='Aqu1'                     synonym="Amphimedon queenslandica;sponge">Amphimedon queenslandica genome, Aqu1 (Oct, 2010)</option>
 	<option value='Aros_1.0'                 synonym="Athalia rosae;turnip sawfly;coleseed sawfly">Athalia rosae genome, Aros_1.0 (Mar, 2013)</option>
@@ -2069,6 +2071,15 @@ set_strand() ;
 		-->Acyr_2.0 (Jun, 2010)</a>
 </tr>
 <tr>
+	<td><a href='/AaegL5/'>AaegL5</a>
+	<td>VectorBase
+	<td>Insect
+	<td>Yellow fever mosquito
+	<td>Aedes aegypti
+	<td><a target='_blank' href='https://www.vectorbase.org/organisms/aedes-aegypti/lvp_agwg/aaegl5'><!--
+		-->AaegL5 (Jun, 2017)</a>
+</tr>
+<tr>
 	<td><a href='/AaegL3/'>AaegL3</a>
 	<td>EnsemblMetazoa
 	<td>Insect
@@ -2076,6 +2087,15 @@ set_strand() ;
 	<td>Aedes aegypti
 	<td><a target='_blank' href='http://metazoa.ensembl.org/Aedes_aegypti/'><!--
 		-->AaegL3 (Dec, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/AaloF1/'>AaloF1</a>
+	<td>VectorBase
+	<td>Insect
+	<td>Asian tiger mosquito, Forest mosquito
+	<td>Aedes albopictus
+	<td><a target='_blank' href='http://metazoa.ensembl.org/Amphimedon_queenslandica/'><!--
+		-->AaloF1 (Nov, 2015)</a>
 </tr>
 <tr>
 	<td><a href='/Aqu1/'>Aqu1</a>
@@ -7684,7 +7704,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Aug 23, 2018 by
+<p class=g>Last modified on Sep 1, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
