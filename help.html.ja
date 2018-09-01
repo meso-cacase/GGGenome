@@ -285,8 +285,8 @@ function set_strand(){
 	<option value='ChlSab1.1'                synonym="Chlorocebus sabaeus">Green monkey genome, ChlSab1.1 (Mar, 2014)</option>
 	<option value='Acyr_2.0'                 synonym="Acyrthosiphon pisum;pea aphid">Acyrthosiphon pisum genome, Acyr_2.0 (Jun, 2010)</option>
 	<option value='AaegL3'                   synonym="Aedes aegypti;yellow fever mosquito">Aedes aegypti genome, AaegL3 (Dec, 2013)</option>
+	<option value='AdarC3'                   synonym="Anopheles darlingi;american malaria mosquito">Anopheles darlingi genome, AdarC3 (Jan, 2014)</option>
 	<option value='Aqu1'                     synonym="Amphimedon queenslandica;sponge">Amphimedon queenslandica genome, Aqu1 (Oct, 2010)</option>
-	<option value='AdarC3'                   synonym="Anopheles darlingi;mosquito">Anopheles darlingi genome, AdarC3 (Jan, 2014)</option>
 	<option value='Aros_1.0'                 synonym="Athalia rosae;turnip sawfly;coleseed sawfly">Athalia rosae genome, Aros_1.0 (Mar, 2013)</option>
 	<option value='Attacep1.0'               synonym="Atta cephalotes;leafcutter ant">Atta cephalotes genome, Attacep1.0 (Jul, 2012)</option>
 	<option value='Bomo_silkbase'            synonym="Bombyx mori">Silkworm genome, SilkBase assembly (Jan, 2017)</option>
@@ -2214,7 +2214,7 @@ set_strand() ;
 	<td><a href='/AdarC3/'>AdarC3</a>
 	<td>EnsemblMetazoa
 	<td>Insect
-	<td>Mosquito
+	<td>American malaria mosquito
 	<td>ハマダラカ
 	<td>Anopheles darlingi
 	<td><a target='_blank' href='http://metazoa.ensembl.org/Anopheles_darlingi/'><!--

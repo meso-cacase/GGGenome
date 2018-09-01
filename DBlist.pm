@@ -142,7 +142,7 @@ ChlSab1.1                	172.18.8.76	43203	Ensembl	Green monkey genome, ChlSab1
 Acyr_2.0                 	172.18.8.76	43213	EnsemblMetazoa	Acyrthosiphon pisum genome, Acyr_2.0 (Jun, 2010)	Acyrthosiphon pisum;pea aphid
 AaegL3                   	172.18.8.76	43223	EnsemblMetazoa	Aedes aegypti genome, AaegL3 (Dec, 2013)	Aedes aegypti;yellow fever mosquito
 Aqu1                     	172.18.8.76	43233	EnsemblMetazoa	Amphimedon queenslandica genome, Aqu1 (Oct, 2010)	Amphimedon queenslandica;sponge
-AdarC3                   	172.18.8.76	43243	EnsemblMetazoa	Anopheles darlingi genome, AdarC3 (Jan, 2014)	Anopheles darlingi;mosquito
+AdarC3                   	172.18.8.76	43243	EnsemblMetazoa	Anopheles darlingi genome, AdarC3 (Jan, 2014)	Anopheles darlingi;american malaria mosquito
 Attacep1.0               	172.18.8.76	43253	EnsemblMetazoa	Atta cephalotes genome, Attacep1.0 (Jul, 2012)	Atta cephalotes;leafcutter ant
 ASM15162v1               	172.18.8.76	43263	EnsemblMetazoa	Silkworm genome, ASM15162v1 (Feb, 2013)	Bombyx mori
 B_malayi_3.0             	172.18.8.76	43273	EnsemblMetazoa	Brugia malayi genome, B_malayi-3.0 (Dec, 2012)	Brugia malayi;filarial nematode worm
