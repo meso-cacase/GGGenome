@@ -837,7 +837,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 89 (Jul, 2018)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='mm_refseq80'              synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
@@ -7801,7 +7801,16 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td>RefSeq complete RNA release 89 (Jul, 2018)<br>(alias of latest refseq release)
+	<td>RefSeq complete RNA release 90 (Sep, 2018)<br>(alias of latest refseq release)
+</tr>
+<tr>
+	<td><a href='/refseq89/'>refseq90</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 90 (Sep, 2018)
 </tr>
 <tr>
 	<td><a href='/refseq89/'>refseq89</a>
@@ -8327,6 +8336,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2018-09-23 RefSeq rel. 90 (Sep, 2018) に更新。
 	<li>2018-08-03 RefSeq rel. 89 (Jul, 2018) に更新。
 	<li>2018-07-06 DDBJ rel. 113.0 (Jun, 2018) に更新。
 	<li>2018-05-28 RefSeq rel. 88 (May, 2018) に更新。
@@ -8442,7 +8452,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Sep 1, 2018 by
+<p class=g>Last modified on Sep 23, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
