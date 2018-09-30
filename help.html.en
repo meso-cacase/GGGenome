@@ -838,10 +838,13 @@ function set_strand(){
 	<option disabled>--------------------</option>
 
 	<option value='refseq'                   synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
+	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
+	<option value='mm_refseq90'              synonym="Mus musculus">RefSeq mouse RNA release 90 (Sep, 2018)</option>
 	<option value='mm_refseq80'              synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
 	<option value='mm_refseq70'              synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
+	<option value='rn_refseq90'              synonym="Rattus norvegicus">RefSeq rat RNA release 90 (Sep, 2018)</option>
 	<option value='rn_refseq80'              synonym="Rattus norvegicus">RefSeq rat RNA release 80 (Jan, 2017)</option>
 	<option value='rn_refseq70'              synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
 	<option value='GENCODE_28'               synonym="Homo sapiens">GENCODE human release 28 (Apr, 2018)</option>
@@ -7154,6 +7157,14 @@ set_strand() ;
 	<td>RefSeq complete RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/hs_refseq90/'>hs_refseq90</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td>RefSeq human RNA release 90 (Sep, 2018)
+</tr>
+<tr>
 	<td><a href='/hs_refseq80/'>hs_refseq80</a>
 	<td>RefSeq
 	<td>Mammal
@@ -7178,6 +7189,14 @@ set_strand() ;
 	<td>RefSeq human RNA release 60 (Jul, 2013)
 </tr>
 <tr>
+	<td><a href='/mm_refseq90/'>mm_refseq90</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td>RefSeq mouse RNA release 90 (Sep, 2018)
+</tr>
+<tr>
 	<td><a href='/mm_refseq80/'>mm_refseq80</a>
 	<td>RefSeq
 	<td>Mammal
@@ -7200,6 +7219,14 @@ set_strand() ;
 	<td>Mouse
 	<td>Mus musculus
 	<td>RefSeq mouse RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/rn_refseq90/'>rn_refseq90</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA release 90 (Sep, 2018)
 </tr>
 <tr>
 	<td><a href='/rn_refseq80/'>rn_refseq80</a>
@@ -7705,7 +7732,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Sep 23, 2018 by
+<p class=g>Last modified on Sep 30, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
