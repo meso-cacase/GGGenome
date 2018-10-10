@@ -895,7 +895,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='ddbj'                     synonym="">DDBJ release 92.0 (Feb, 2013)</option>
+	<option value='ddbj92'                   synonym="">DDBJ release 92.0 (Feb, 2013)</option>
 </select>
 <br>
 許容するミスマッチ/ギャップの数：<input type=text name=k size=3 value=0>
@@ -8192,13 +8192,14 @@ set_strand() ;
 	<td>DDBJ release 114.0, UNA division (Sep, 2018)
 </tr>
 <tr>
-	<td><a href='/ddbj/'>ddbj</a>
+	<td><a href='/ddbj92/'>ddbj92</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 92.0 (Feb, 2013)
+	<td><a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/release_note_archive/ddbj/ddbjrel.92.txt'><!--
+		-->DDBJ release 92.0 (Feb, 2013)</a>
 </tr>
 <tr>
 	<td><a href='/togogenome/'>togogenome</a>
