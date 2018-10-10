@@ -7118,15 +7118,7 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a>
-	<td>RefSeq
-	<td>
-	<td>
-	<td>
-	<td>RefSeq complete RNA release 90 (Sep, 2018)<br>(alias of latest refseq release)
-</tr>
-<tr>
-	<td><a href='/refseq89/'>refseq90</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq90/'>refseq90</a>
 	<td>RefSeq
 	<td>
 	<td>
