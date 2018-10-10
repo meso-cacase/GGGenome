@@ -233,7 +233,6 @@ bmor1                    	172.18.8.70	42303	Ensembl	Silkworm genome, Bmor1 (Apr,
 pombe                    	172.18.8.70	42453	EnsemblFungi	Schizosaccharomyces pombe (972h-) genome, ASM294v2 (Nov, 2007)	Schizosaccharomyces pombe;fission yeast
 MG8                      	172.18.8.77	42463	EnsemblFungi	Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)	Magnaporthe oryzae;rice blast fungus
 prok                     	172.18.8.70	42323	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)	
-ddbj92                   	172.18.8.76	42313	DDBJ     	DDBJ release 92.0 (Feb, 2013)	
 Xentr7                   	172.18.8.77	43013	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 7.1	Xenopus tropicalis;western clawed frog
 Xentr8                   	172.18.8.77	43023	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 8.0	Xenopus tropicalis;western clawed frog
 Xentr9                   	172.18.8.77	42513	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 9.0	Xenopus tropicalis;western clawed frog
@@ -770,6 +769,9 @@ togogenome88             	172.18.8.70	60383	         	TogoGenome from RefSeq 88 
 togogenome89_big         	172.18.8.70	60493	         	TogoGenome from RefSeq 89 (Jul, 2018)	
 togogenome89             	172.18.8.71	60483	         	TogoGenome from RefSeq 89 (Jul, 2018)	
 togogenome               	172.18.8.71	60483	         	TogoGenome from RefSeq 89 (Jul, 2018)	
+ddbj92                   	172.18.8.76	42313	DDBJ     	DDBJ release 92.0 (Feb, 2013)	
+ddbj114                  	172.18.8.71	27660	DDBJ     	DDBJ release 114.0 (Sep, 2018)	
+ddbj                     	172.18.8.71	27660	DDBJ     	DDBJ release 114.0 (Sep, 2018)	
 ddbj114hum               	172.18.8.77	27661	DDBJ     	DDBJ release 114.0, HUM division (Sep, 2018)	ddbjhum
 ddbj114pri               	172.18.8.76	27662	DDBJ     	DDBJ release 114.0, PRI division (Sep, 2018)	ddbjpri
 ddbj114rod               	172.18.8.72	27663	DDBJ     	DDBJ release 114.0, ROD division (Sep, 2018)	ddbjrod

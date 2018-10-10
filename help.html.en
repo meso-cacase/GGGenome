@@ -872,6 +872,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
+	<option value='ddbj'                     synonym="">DDBJ release 114.0 (Sep, 2018)</option>
 	<option value='ddbj114hum'               synonym="ddbjhum">DDBJ release 114.0, HUM division (Sep, 2018)</option>
 	<option value='ddbj114pri'               synonym="ddbjpri">DDBJ release 114.0, PRI division (Sep, 2018)</option>
 	<option value='ddbj114rod'               synonym="ddbjrod">DDBJ release 114.0, ROD division (Sep, 2018)</option>
@@ -7306,6 +7307,15 @@ set_strand() ;
 	<td>Mus musculus
 	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/13.html'><!--
 		-->GENCODE mouse release M13 (Mar, 2017)</a>
+</tr>
+<tr>
+	<td><a href='/ddbj/'>ddbj</a> (alias of latest release)<br><a href='/ddbj114/'>ddbj114</a>
+	<td>DDBJ
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/release_note_archive/ddbj/ddbjrel.114.txt'><!--
+		-->DDBJ release 114.0 (Sep, 2018)</a><br>(all divisions, excluding bulk sequence data in TLS, TSA, WGS)
 </tr>
 <tr>
 	<td><a href='/ddbj114hum/'>ddbj114hum</a>

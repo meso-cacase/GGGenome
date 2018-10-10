@@ -722,6 +722,7 @@ $dbmenu = <<"--EOS--" ;
 
 	<option disabled>--------------------</option>
 
+	<option value=\'ddbj\'                     synonym=\"$db_synonym{'ddbj'                    }\">$db_fullname{'ddbj'                    }</option>
 	<option value=\'ddbj114hum\'               synonym=\"$db_synonym{'ddbj114hum'              }\">$db_fullname{'ddbj114hum'              }</option>
 	<option value=\'ddbj114pri\'               synonym=\"$db_synonym{'ddbj114pri'              }\">$db_fullname{'ddbj114pri'              }</option>
 	<option value=\'ddbj114rod\'               synonym=\"$db_synonym{'ddbj114rod'              }\">$db_fullname{'ddbj114rod'              }</option>
