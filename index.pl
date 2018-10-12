@@ -41,7 +41,7 @@ my $max_k_debug      = 50 ;       # 許容するミスマッチ/ギャップ数�
 my $max_hit_html     = 50 ;       # 検索を打ち切るヒット数、HTMLの場合
 my $max_hit_api      = 100000 ;   # 検索を打ち切るヒット数、TXT,CSV,BED,GFF,JSONの場合
 my $max_hit_debug    = 10000000 ; # 検索を打ち切るヒット数、デバッグモード
-my $timeout          = 20 ;       # タイムアウト時間、秒
+my $timeout          = 30 ;       # タイムアウト時間、秒
 my $timeout_debug    = 1800 ;     # タイムアウト時間、秒、デバッグモード
 
 my $dbconf = $DBlist::dbconfig ;  # データベースの正式名およびホスト名/ポート番号のリスト
