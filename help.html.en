@@ -7495,14 +7495,6 @@ set_strand() ;
 	<td>TogoGenome from RefSeq 89 (Jul, 2018)
 </tr>
 <tr>
-	<td><a href='/togogenome88/'>togogenome88</a>
-	<td>DBCLS
-	<td>
-	<td>
-	<td>
-	<td>TogoGenome from RefSeq 88 (May, 2018)
-</tr>
-<tr>
 	<td><a href='/prok/'>prok</a>
 	<td>
 	<td>
@@ -7736,7 +7728,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Oct 10, 2018 by
+<p class=g>Last modified on Nov 14, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
