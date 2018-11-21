@@ -837,7 +837,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 91 (Nov, 2018)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
@@ -7118,7 +7118,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq90/'>refseq90</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq91/'>refseq91</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 91 (Nov, 2018)
+</tr>
+<tr>
+	<td><a href='/refseq90/'>refseq90</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -7610,6 +7618,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2018-11-21 Database updated to RefSeq rel. 91 (Nov, 2018).
 	<li>2018-10-10 Database updated to DDBJ rel. 114.0 (Sep, 2018).
 	<li>2018-09-23 Database updated to RefSeq rel. 90 (Sep, 2018).
 	<li>2018-08-03 Database updated to RefSeq rel. 89 (Jul, 2018).
@@ -7728,7 +7737,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 14, 2018 by
+<p class=g>Last modified on Nov 21, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
