@@ -704,7 +704,6 @@ GCA_001456025.1          	172.18.8.72	54993	CyanoBase	Mastigocoleus testarum BC0
 GCA_001458455.1          	172.18.8.72	54823	CyanoBase	Chrysosporum ovalisporum genome, GCA_001458455.1	
 refseq70                 	172.18.8.74	60003	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
 refseq80                 	172.18.8.74	60103	RefSeq   	RefSeq complete RNA release 80 (Jan, 2017)	
-refseq89                 	172.18.8.73	60193	RefSeq   	RefSeq complete RNA release 89 (Jul, 2018)	
 refseq90                 	172.18.8.74	28003	RefSeq   	RefSeq complete RNA release 90 (Sep, 2018)	
 refseq91                 	172.18.8.73	27491	RefSeq   	RefSeq complete RNA release 91 (Nov, 2018)	
 refseq                   	172.18.8.73	27491	RefSeq   	RefSeq complete RNA release 91 (Nov, 2018)	
