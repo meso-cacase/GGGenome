@@ -781,16 +781,16 @@ ddbj114htc               	172.18.8.73	27677	DDBJ     	DDBJ release 114.0, HTC di
 ddbj114htg               	172.18.8.72	27678	DDBJ     	DDBJ release 114.0, HTG division (Sep, 2018)	ddbjhtg
 ddbj114sts               	172.18.8.78	27679	DDBJ     	DDBJ release 114.0, STS division (Sep, 2018)	ddbjsts
 ddbj114una               	172.18.8.73	27680	DDBJ     	DDBJ release 114.0, UNA division (Sep, 2018)	ddbjuna
-65017                    	172.18.8.75	65017	         	Test Database 65017	
-65027                    	172.18.8.75	65027	         	Test Database 65027	
-65037                    	172.18.8.75	65037	         	Test Database 65037	
-65047                    	172.18.8.75	65047	         	Test Database 65047	
-65057                    	172.18.8.75	65057	         	Test Database 65057	
-65067                    	172.18.8.75	65067	         	Test Database 65067	
-65077                    	172.18.8.75	65077	         	Test Database 65077	
-65087                    	172.18.8.75	65087	         	Test Database 65087	
-65097                    	172.18.8.75	65097	         	Test Database 65097	
-65107                    	172.18.8.75	65107	         	Test Database 65107	
+28781                    	172.18.8.75	28781	         	Test Database 28781	
+28782                    	172.18.8.75	28782	         	Test Database 28782	
+28783                    	172.18.8.75	28783	         	Test Database 28783	
+28784                    	172.18.8.75	28784	         	Test Database 28784	
+28785                    	172.18.8.75	28785	         	Test Database 28785	
+28786                    	172.18.8.75	28786	         	Test Database 28786	
+28787                    	172.18.8.75	28787	         	Test Database 28787	
+28788                    	172.18.8.75	28788	         	Test Database 28788	
+28789                    	172.18.8.75	28789	         	Test Database 28789	
+28790                    	172.18.8.75	28790	         	Test Database 28790	
 --EOS--
 
 return 1 ;
