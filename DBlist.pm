@@ -21,9 +21,6 @@ $dbconfig =
 hg38                     	172.18.8.78	28017	UCSC	Human genome, GRCh38/hg38 (Dec, 2013)	Homo sapiens
 hg19                     	172.18.8.78	28018	UCSC	Human genome, GRCh37/hg19 (Feb, 2009)	Homo sapiens
 mm10                     	172.18.8.78	28019	UCSC	Mouse genome, GRCm38/mm10 (Dec, 2011)	Mus musculus
-hg38-old                 	172.18.8.75	40013	UCSC	Human genome, GRCh38/hg38 (Dec, 2013)	Homo sapiens
-hg19-old                 	172.18.8.78	40023	UCSC	Human genome, GRCh37/hg19 (Feb, 2009)	Homo sapiens
-mm10-old                 	172.18.8.78	40033	UCSC	Mouse genome, GRCm38/mm10 (Dec, 2011)	Mus musculus
 mm9                      	172.18.8.78	28020	UCSC	Mouse genome, NCBI37/mm9 (Jul, 2007)	Mus musculus
 vicPac2                  	172.18.8.78	28021	UCSC	Alpaca genome, Vicugna_pacos-2.0.1/vicPac2 (Mar, 2013)	Vicugna pacos
 dasNov3                  	172.18.8.78	28022	UCSC	Armadillo genome, Baylor/dasNov3 (Dec, 2011)	Dasypus novemcinctus
@@ -46,7 +43,6 @@ equCab2                  	172.18.8.78	28038	UCSC	Horse genome, Broad/equCab2 (Se
 dipOrd1                  	172.18.8.78	28039	UCSC	Kangaroo rat genome, Broad/dipOrd1 (Jul, 2008)	Dipodomys ordii
 triMan1                  	172.18.8.78	28040	UCSC	Manatee genome, Broad v1.0/triMan1 (Oct, 2011)	Trichechus manatus latirostris
 calJac3                  	172.18.8.78	28041	UCSC	Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)	Callithrix jacchus
-calJac3-old              	172.18.8.78	40243	UCSC	Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)	Callithrix jacchus
 pteVam1                  	172.18.8.78	28042	UCSC	Megabat genome, Broad/pteVam1 (Jul, 2008)	Pteropus vampyrus
 myoLuc2                  	172.18.8.78	28043	UCSC	Microbat genome, Broad Institute Myoluc2.0/myoLuc2 (Jul, 2010)	Myotis lucifugus
 balAcu1                  	172.18.8.77	28044	UCSC	Minke whale genome, BalAcu1.0/balAcu1 (Oct, 2013)	Balaenoptera acutorostrata scammoni
@@ -60,10 +56,8 @@ ochPri3                  	172.18.8.77	28051	UCSC	Pika genome, OchPri3.0/ochPri3 
 ornAna1                  	172.18.8.77	28052	UCSC	Platypus genome, WUGSC 5.0.1/ornAna1 (Mar, 2007)	Ornithorhynchus anatinus
 oryCun2                  	172.18.8.77	28053	UCSC	Rabbit genome, Broad/oryCun2 (Apr, 2009)	Oryctolagus cuniculus
 rn6                      	172.18.8.77	28054	UCSC	Rat genome, RGSC 6.0/rn6 (Jul, 2014)	Rattus norvegicus
-rn6-old                  	172.18.8.77	40373	UCSC	Rat genome, RGSC 6.0/rn6 (Jul, 2014)	Rattus norvegicus
 rn5                      	172.18.8.77	28055	UCSC	Rat genome, RGSC 5.0/rn5 (Mar, 2012)	Rattus norvegicus
 rheMac3                  	172.18.8.77	28056	UCSC	Rhesus genome, BGI CR_1.0/rheMac3 (Oct, 2010)	Macaca mulatta
-rheMac3-old              	172.18.8.77	40393	UCSC	Rhesus genome, BGI CR_1.0/rheMac3 (Oct, 2010)	Macaca mulatta
 proCap1                  	172.18.8.77	28057	UCSC	Rock hyrax genome, Broad/proCap1 (Jul, 2008)	Procavia capensis;cape hyrax
 oviAri3                  	172.18.8.77	28058	UCSC	Sheep genome, ISGC Oar_v3.1/oviAri3 (Aug, 2012)	Ovis aries
 sorAra2                  	172.18.8.77	28059	UCSC	Shrew genome, Broad/sorAra2 (Aug, 2008)	Sorex araneus
@@ -130,7 +124,6 @@ CSAV2.0                  	172.18.8.76	28119	Ensembl	Ciona savignyi genome, CSAV 
 AstMex102                	172.18.8.76	28120	Ensembl	Cave fish genome, AstMex102 (Apr, 2013)	Astyanax mexicanus
 PelSin_1.0               	172.18.8.76	28121	Ensembl	Chinese softshell turtle genome, PelSin_1.0 (Oct, 2011)	Pelodiscus sinensis
 MacFas5.0                	172.18.8.76	28122	Ensembl	Crab-eating macaque genome, MacFas5.0 (Jun, 2013)	Macaca fascicularis
-MacFas5.0-old            	172.18.8.76	43123	Ensembl	Crab-eating macaque genome, MacFas5.0 (Jun, 2013)	Macaca fascicularis
 BGI_duck_1.0             	172.18.8.76	28123	Ensembl	Duck genome, BGI_duck_1.0 (Apr, 2013)	Anas platyrhynchos
 FicAlb_1.4               	172.18.8.76	28124	Ensembl	Flycatcher genome, FicAlb_1.4 (Jan, 2012)	Ficedula albicollis
 Pham                     	172.18.8.76	28125	Ensembl	Hamadryas baboon genome, Pham (Nov, 2008)	Papio hamadryas
@@ -238,7 +231,6 @@ Xentr8                   	172.18.8.77	28226	Xenbase  	Xenopus tropicalis genome,
 Xentr9                   	172.18.8.77	28227	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 9.0	Xenopus tropicalis;western clawed frog
 Xenla9                   	172.18.8.77	28228	Xenbase  	Xenopus laevis genome, XenBase/JGI 9.1	Xenopus laevis;african clawed frog
 macaque_CE_1             	172.18.8.77	28229	         	Crab-eating macaque genome, CE_1.0 (Jul, 2011)	Macaca fascicularis
-macaque_CE_1-old         	172.18.8.77	43043	         	Crab-eating macaque genome, CE_1.0 (Jul, 2011)	Macaca fascicularis
 macaque_CE_1_cds         	172.18.8.77	28230	         	Crab-eating macaque CDS, CE_1.0 (Jul, 2011)	Macaca fascicularis
 KH                       	172.18.8.77	28231	         	Ciona intestinalis genome, KH (Jul, 2008)	Ciona intestinalis;transparent sea squirt
 Spur_v3.1                	172.18.8.77	28232	SpBase   	S. purpuratus genome, Spur_v3.1 (Jun, 2011)	Strongylocentrotus purpuratus;purple sea urchin
@@ -727,15 +719,12 @@ rn_refseq70              	172.18.8.75	28707	RefSeq   	RefSeq rat RNA release 70 
 rnnm_refseq70            	172.18.8.75	28708	RefSeq   	RefSeq rat RNA (NM/NR) release 70 (May, 2015)	Rattus norvegicus
 rnxm_refseq70            	172.18.8.75	28709	RefSeq   	RefSeq rat RNA (XM/XR) release 70 (May, 2015)	Rattus norvegicus
 hs_refseq80              	172.18.8.75	28710	RefSeq   	RefSeq human RNA release 80 (Jan, 2017)	Homo sapiens
-hs_refseq80-old          	172.18.8.75	50193	RefSeq   	RefSeq human RNA release 80 (Jan, 2017)	Homo sapiens
 hsnm_refseq80            	172.18.8.75	28711	RefSeq   	RefSeq human RNA (NM/NR) release 80 (Jan, 2017)	Homo sapiens
 hsxm_refseq80            	172.18.8.75	28712	RefSeq   	RefSeq human RNA (XM/XR) release 80 (Jan, 2017)	Homo sapiens
 mm_refseq80              	172.18.8.75	28713	RefSeq   	RefSeq mouse RNA release 80 (Jan, 2017)	Mus musculus
-mm_refseq80-old          	172.18.8.75	50203	RefSeq   	RefSeq mouse RNA release 80 (Jan, 2017)	Mus musculus
 mmnm_refseq80            	172.18.8.75	28714	RefSeq   	RefSeq mouse RNA (NM/NR) release 80 (Jan, 2017)	Mus musculus
 mmxm_refseq80            	172.18.8.75	28715	RefSeq   	RefSeq mouse RNA (XM/XR) release 80 (Jan, 2017)	Mus musculus
 rn_refseq80              	172.18.8.75	28716	RefSeq   	RefSeq rat RNA release 80 (Jan, 2017)	Rattus norvegicus
-rn_refseq80-old          	172.18.8.75	50253	RefSeq   	RefSeq rat RNA release 80 (Jan, 2017)	Rattus norvegicus
 rnnm_refseq80            	172.18.8.75	28717	RefSeq   	RefSeq rat RNA (NM/NR) release 80 (Jan, 2017)	Rattus norvegicus
 rnxm_refseq80            	172.18.8.75	28718	RefSeq   	RefSeq rat RNA (XM/XR) release 80 (Jan, 2017)	Rattus norvegicus
 hs_refseq90              	172.18.8.75	28004	RefSeq   	RefSeq human RNA release 90 (Sep, 2018)	Homo sapiens
