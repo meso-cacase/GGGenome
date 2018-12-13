@@ -273,6 +273,7 @@ function set_strand(){
 	<option value='braFlo1'                  synonym="Branchiostoma floridae">Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)</option>
 	<option value='Spur_v3.1'                synonym="Strongylocentrotus purpuratus;purple sea urchin">S. purpuratus genome, Spur_v3.1 (Jun, 2011)</option>
 	<option value='strPur2'                  synonym="Strongylocentrotus purpuratus;purple sea urchin">S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)</option>
+	<option value='AgamP4'                   synonym="Anopheles gambiae;african malaria mosquito">Anopheles gambiae genome, AgamP4 (Apr, 2014)</option>
 	<option value='anoGam3'                  synonym="Anopheles gambiae;african malaria mosquito">A. gambiae genome, ICSAGA P3/anoGam3 (Nov, 2006)</option>
 	<option value='anoGam1'                  synonym="Anopheles gambiae;african malaria mosquito">A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)</option>
 	<option value='apiMel3'                  synonym="Apis mellifera;honeybee">A. mellifera genome, Baylor HGSC Amel_3.0/apiMel3 (May, 2005)</option>
@@ -366,6 +367,8 @@ function set_strand(){
 	<option value='WCG_v1'                   synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (Charleston Gray) genome, v1</option>
 	<option value='W97103_v1'                synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (97103) genome, v1</option>
 	<option value='ASM9120v1'                synonym="Cyanidioschyzon merolae;red alga">Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)</option>
+	<option value='Gmax_Wm82.a4.v1'          synonym="Glycine max;soybean">Glycine max genome, Wm82.a4.v1/v4.0</option>
+	<option value='Gmax_Wm82.a2.v1'          synonym="Glycine max;soybean">Glycine max genome, Wm82.a2.v1/v2.0</option>
 	<option value='Soybn_V2.0'               synonym="Glycine max;soybean">Glycine max genome, v2.0 (Nov, 2015)</option>
 	<option value='Soybn_V1.0'               synonym="Glycine max;soybean">Glycine max genome, V1.0 (Jan, 2010)</option>
 	<option value='Horvu_v1'                 synonym="Hordeum vulgare;barley">Hordeum vulgare genome, 082214v1 (Mar, 2012)</option>
@@ -430,6 +433,8 @@ function set_strand(){
 	<option value='A_nidulans_FGSC_A4'       synonym="Aspergillus nidulans;Emericella nidulans">Aspergillus nidulans (FGSC A4) genome, s10-m04-r06 (Apr, 2016)</option>
 	<option value='A_fumigatus_Af293'        synonym="Aspergillus fumigatus;Neosartorya fumigata">Aspergillus fumigatus (Af293) genome, s03-m05-r06 (Apr, 2016)</option>
 	<option value='A_oryzae_RIB40'           synonym="Aspergillus oryzae;koji">Aspergillus oryzae (RIB40) genome, s01-m09-r03 (Oct, 2015)</option>
+	<option value='AspL_2604'                synonym="Aspergillus luchuensis;black koji">Aspergillus luchuensis str. RIB 2604 genome, AspL_2604</option>
+	<option value='Akaw_assembly01'          synonym="Aspergillus kawachii;white koji">Aspergillus kawachii genome, IFO 4308 (Nov, 2011)</option>
 	<option value='C_glabrata_CBS138'        synonym="Candida glabrata;Torulopsis glabrata">Candida glabrata (CBS138) genome, s02-m07-r08 (Jun, 2016)</option>
 	<option value='C_albicans_SC5314'        synonym="Candida albicans">Candida albicans (SC5314) genome, Assembly 21, A21-s02-m09-r10 (Feb, 2016)</option>
 	<option value='JCVI_PMFA1_2.0'           synonym="Penicillium marneffei;Talaromyces marneffei">Penicillium marneffei (ATCC 18224) genome, JCVI-PMFA1-2.0 (Oct, 2008)</option>
@@ -466,6 +471,7 @@ function set_strand(){
 	<option value='Chiltepin_v2.0'           synonym="Capsicum annuum var. glabriusculum;pepper">Capsicum annuum var. glabriusculum (Chiltepin) genome, release 2.0</option>
 	<option value='Ccanephora_1.0'           synonym="Coffea canephora;coffee">Coffea canephora genome, v1.0</option>
 	<option value='HanXRQr1.0'               synonym="Helianthus annuus;sunflower">Helianthus annuus genome, HanXRQr1.0 (Dec, 2015)</option>
+	<option value='Gur1'                     synonym="Glycyrrhiza uralensis;chinese licorice">Glycyrrhiza uralensis genome, release 1 (Aug, 2016)</option>
 	<option value='Csativus_v1'              synonym="Cucumis sativus;cucumber">Cucumis sativus genome, v1.0</option>
 	<option value='Dcarota_v2.0'             synonym="Daucus carota;carrot">Daucus carota genome, v2.0</option>
 	<option value='Egrandis_v2.0'            synonym="Eucalyptus grandis;eucalyptus">Eucalyptus grandis genome, v2.0</option>
@@ -485,6 +491,7 @@ function set_strand(){
 	<option value='Vcarteri_v2'              synonym="Volvox carteri;green alga">Volvox carteri genome, v2.0</option>
 	<option value='ASM15095v2'               synonym="Phaeodactylum tricornutum;diatom">Phaeodactylum tricornutum genome, ASM15095v2 (Feb, 2010)</option>
 	<option value='ASM14940v2'               synonym="Thalassiosira pseudonana;diatom">Thalassiosira pseudonana genome, ASM14940v2 (May, 2014)</option>
+	<option value='ASM82905v1'               synonym="Lactobacillus casei">Lactobacillus casei subsp. casei (ATCC 393) genome, ASM82905v1 (Aug, 2013)</option>
 
 	<option value='eboVir3'                  synonym="Filoviridae ebolavirus">Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
 
@@ -2402,6 +2409,15 @@ set_strand() ;
 		-->AaloF1 (Nov, 2015)</a>
 </tr>
 <tr>
+	<td><a href='/AgamP4/'>AgamP4</a>
+	<td>VectorBase
+	<td>Insect
+	<td>African malaria mosquito
+	<td>Anopheles gambiae
+	<td><a target='_blank' href='https://www.vectorbase.org/organisms/anopheles-gambiae/pest/agamp4'><!--
+		-->AgamP4 (Apr, 2014)</a>
+</tr>
+<tr>
 	<td><a href='/Aqu1/'>Aqu1</a>
 	<td>EnsemblMetazoa
 	<td>Metazoa
@@ -3203,6 +3219,24 @@ set_strand() ;
 		-->v2.1</a>
 </tr>
 <tr>
+	<td><a href='/Gmax_Wm82.a4.v1/'>Gmax_Wm82.a4.v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Soybean
+	<td>Glycine max
+	<td><a target='_blank' href='https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Gmax'><!--
+		-->Wm82.a4.v1/v4.0</a>
+</tr>
+<tr>
+	<td><a href='/Gmax_Wm82.a2.v1/'>Gmax_Wm82.a2.v1</a>
+	<td>Phytozome
+	<td>Plant
+	<td>Soybean
+	<td>Glycine max
+	<td><a target='_blank' href='https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Gmax'><!--
+		-->Wm82.a2.v1/v2.0</a>
+</tr>
+<tr>
 	<td><a href='/Lusitatissimum_BGIv1.0/'>Lusitatissimum_BGIv1.0</a>
 	<td>Phytozome
 	<td>Plant
@@ -3626,6 +3660,15 @@ set_strand() ;
 		-->HanXRQr1.0 (Dec, 2015)</a>
 </tr>
 <tr>
+	<td><a href='/Gur1/'>Gur1</a>
+	<td>
+	<td>Plant
+	<td>Chinese licorice
+	<td>Glycyrrhiza uralensis
+	<td><a target='_blank' href='http://ngs-data-archive.psc.riken.jp/Gur-genome/download.pl'><!--
+		-->release 1 (Aug, 2016)</a>
+</tr>
+<tr>
 	<td><a href='/Aros_1.0/'>Aros_1.0</a>
 	<td>NCBI
 	<td>Insect
@@ -3741,6 +3784,24 @@ set_strand() ;
 	<td>Torulaspora delbrueckii
 	<td><a target='_blank' href='http://fungi.ensembl.org/Torulaspora_delbrueckii/'><!--
 		-->ASM24337v1 (Feb, 2015)</a>
+</tr>
+<tr>
+	<td><a href='/AspL_2604/'>AspL_2604</a>
+	<td>EnsemblFungi
+	<td>Fungi
+	<td>A. luchuensis
+	<td>Aspergillus luchuensis
+	<td><a target='_blank' href='http://fungi.ensembl.org/Aspergillus_luchuensis_gca_001602395/Info/Index'><!--
+		-->AspL_2604</a>
+</tr>
+<tr>
+	<td><a href='/Akaw_assembly01/'>Akaw_assembly01</a>
+	<td>NCBI
+	<td>Fungi
+	<td>A. kawachii
+	<td>Aspergillus kawachii
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCA_000239835.2'><!--
+		-->IFO 4308 (Nov, 2011)</a>
 </tr>
 <tr>
 	<td><a href='/RHOziaDV1.0/'>RHOziaDV1.0</a>
@@ -4011,6 +4072,15 @@ set_strand() ;
 	<td>Thalassiosira pseudonana
 	<td><a target='_blank' href='http://protists.ensembl.org/Thalassiosira_pseudonana/Info/Index'><!--
 		-->ASM14940v2 (May, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/ASM82905v1/'>ASM82905v1</a>
+	<td>NCBI
+	<td>Other
+	<td>Lactobacillus casei
+	<td>Lactobacillus casei subsp. casei
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCA_000829055.1'><!--
+		-->ASM82905v1 (Aug, 2013)</a>
 </tr>
 <tr>
 	<td><a href='/GCA_000009725.1/'>GCA_000009725.1</a>

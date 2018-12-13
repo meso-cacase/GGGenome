@@ -321,6 +321,11 @@ Mpolymorpha_3.1          	172.18.8.72	28284	         	Marchantia polymorpha geno
 Ccanephora_1.0           	172.18.8.72	28285	         	Coffea canephora genome, v1.0	Coffea canephora;coffee
 AaegL5                   	172.18.8.72	28000	VectorBase	Aedes aegypti genome, AaegL5 (Jun, 2017)	Aedes aegypti;yellow fever mosquito
 AaloF1                   	172.18.8.72	28001	VectorBase	Aedes albopictus genome, AaloF1 (Nov, 2015)	Aedes albopictus;asian tiger mosquito;forest mosquito
+AgamP4                   	172.18.8.72	28016	VectorBase	Anopheles gambiae genome, AgamP4 (Apr, 2014)	Anopheles gambiae;african malaria mosquito
+AspL_2604                	172.18.8.72	28013	EnsemblFungi	Aspergillus luchuensis str. RIB 2604 genome, AspL_2604	Aspergillus luchuensis;black koji
+Akaw_assembly01          	172.18.8.72	28014	NCBI     	Aspergillus kawachii genome, IFO 4308 (Nov, 2011)	Aspergillus kawachii;white koji
+ASM82905v1               	172.18.8.72	28015	NCBI     	Lactobacillus casei subsp. casei (ATCC 393) genome, ASM82905v1 (Aug, 2013)	Lactobacillus casei
+Gur1                     	172.18.8.72	28749	         	Glycyrrhiza uralensis genome, release 1 (Aug, 2016)	Glycyrrhiza uralensis;chinese licorice
 16SrRNA                  	172.18.8.77	28286	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3           	172.18.8.74	28287	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1    	172.18.8.74	28288	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss
@@ -348,6 +353,8 @@ Rcommunis_TIGR.0.1       	172.18.8.74	28309	Phytozome	Ricinus communis genome, v
 Spolyrhiza_v1            	172.18.8.74	28310	Phytozome	Spirodela polyrhiza genome, v2	Spirodela polyrhiza;giant duckweed
 Vcarteri_v2              	172.18.8.74	28311	Phytozome	Volvox carteri genome, v2.0	Volvox carteri;green alga
 Ptrichocarpa_v3.0        	172.18.8.74	28312	Phytozome	Populus trichocarpa genome, v3.0	Populus trichocarpa;western balsam poplar
+Gmax_Wm82.a2.v1          	172.18.8.74	28791	Phytozome	Glycine max genome, Wm82.a2.v1/v2.0	Glycine max;soybean
+Gmax_Wm82.a4.v1          	172.18.8.74	28792	Phytozome	Glycine max genome, Wm82.a4.v1/v4.0	Glycine max;soybean
 GCA_000009725.1          	172.18.8.72	28313	CyanoBase	Synechocystis sp. PCC 6803 genome, GCA_000009725.1	
 GCA_000009705.1          	172.18.8.72	28314	CyanoBase	Nostoc sp. PCC 7120 genome, GCA_000009705.1	
 GCA_000011345.1          	172.18.8.72	28315	CyanoBase	Thermosynechococcus elongatus BP-1 genome, GCA_000011345.1	
