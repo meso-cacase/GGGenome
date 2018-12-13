@@ -354,7 +354,6 @@ Spolyrhiza_v1            	172.18.8.74	28310	Phytozome	Spirodela polyrhiza genome
 Vcarteri_v2              	172.18.8.74	28311	Phytozome	Volvox carteri genome, v2.0	Volvox carteri;green alga
 Ptrichocarpa_v3.0        	172.18.8.74	28312	Phytozome	Populus trichocarpa genome, v3.0	Populus trichocarpa;western balsam poplar
 Gmax_Wm82.a2.v1          	172.18.8.74	28791	Phytozome	Glycine max genome, Wm82.a2.v1/v2.0	Glycine max;soybean
-Gmax_Wm82.a4.v1          	172.18.8.74	28792	Phytozome	Glycine max genome, Wm82.a4.v1/v4.0	Glycine max;soybean
 GCA_000009725.1          	172.18.8.72	28313	CyanoBase	Synechocystis sp. PCC 6803 genome, GCA_000009725.1	
 GCA_000009705.1          	172.18.8.72	28314	CyanoBase	Nostoc sp. PCC 7120 genome, GCA_000009705.1	
 GCA_000011345.1          	172.18.8.72	28315	CyanoBase	Thermosynechococcus elongatus BP-1 genome, GCA_000011345.1	

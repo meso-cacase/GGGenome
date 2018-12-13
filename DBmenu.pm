@@ -217,7 +217,6 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'WCG_v1\'                   synonym=\"$db_synonym{'WCG_v1'                  }\">$db_fullname{'WCG_v1'                  }</option>
 	<option value=\'W97103_v1\'                synonym=\"$db_synonym{'W97103_v1'               }\">$db_fullname{'W97103_v1'               }</option>
 	<option value=\'ASM9120v1\'                synonym=\"$db_synonym{'ASM9120v1'               }\">$db_fullname{'ASM9120v1'               }</option>
-	<option value=\'Gmax_Wm82.a4.v1\'          synonym=\"$db_synonym{'Gmax_Wm82.a4.v1'         }\">$db_fullname{'Gmax_Wm82.a4.v1'         }</option>
 	<option value=\'Gmax_Wm82.a2.v1\'          synonym=\"$db_synonym{'Gmax_Wm82.a2.v1'         }\">$db_fullname{'Gmax_Wm82.a2.v1'         }</option>
 	<option value=\'Soybn_V2.0\'               synonym=\"$db_synonym{'Soybn_V2.0'              }\">$db_fullname{'Soybn_V2.0'              }</option>
 	<option value=\'Soybn_V1.0\'               synonym=\"$db_synonym{'Soybn_V1.0'              }\">$db_fullname{'Soybn_V1.0'              }</option>

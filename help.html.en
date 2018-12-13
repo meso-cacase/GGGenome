@@ -367,7 +367,6 @@ function set_strand(){
 	<option value='WCG_v1'                   synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (Charleston Gray) genome, v1</option>
 	<option value='W97103_v1'                synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (97103) genome, v1</option>
 	<option value='ASM9120v1'                synonym="Cyanidioschyzon merolae;red alga">Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)</option>
-	<option value='Gmax_Wm82.a4.v1'          synonym="Glycine max;soybean">Glycine max genome, Wm82.a4.v1/v4.0</option>
 	<option value='Gmax_Wm82.a2.v1'          synonym="Glycine max;soybean">Glycine max genome, Wm82.a2.v1/v2.0</option>
 	<option value='Soybn_V2.0'               synonym="Glycine max;soybean">Glycine max genome, v2.0 (Nov, 2015)</option>
 	<option value='Soybn_V1.0'               synonym="Glycine max;soybean">Glycine max genome, V1.0 (Jan, 2010)</option>
@@ -3217,15 +3216,6 @@ set_strand() ;
 	<td>Gossypium raimondii
 	<td><a target='_blank' href='http://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Graimondii'><!--
 		-->v2.1</a>
-</tr>
-<tr>
-	<td><a href='/Gmax_Wm82.a4.v1/'>Gmax_Wm82.a4.v1</a>
-	<td>Phytozome
-	<td>Plant
-	<td>Soybean
-	<td>Glycine max
-	<td><a target='_blank' href='https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Gmax'><!--
-		-->Wm82.a4.v1/v4.0</a>
 </tr>
 <tr>
 	<td><a href='/Gmax_Wm82.a2.v1/'>Gmax_Wm82.a2.v1</a>
@@ -7980,7 +7970,7 @@ set_strand() ;
 
 <div>
 <ul>
-	<li>2018-12-13 Added 37 genome databases -
+	<li>2018-12-13 Added 36 genome databases -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
 	<li>2018-11-21 Database updated to RefSeq rel. 91 (Nov, 2018).
 	<li>2018-10-10 Database updated to DDBJ rel. 114.0 (Sep, 2018).
