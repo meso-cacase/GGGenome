@@ -118,6 +118,36 @@ sacCer3                  	172.18.8.76	28113	UCSC	S. cerevisiae (S288C) genome, S
 aplCal1                  	172.18.8.76	28114	UCSC	Sea hare genome, Broad 2.0/aplCal1 (Sep, 2008)	Aplysia californica
 eboVir3                  	172.18.8.76	28115	UCSC	Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)	Filoviridae ebolavirus
 hg18                     	172.18.8.76	28116	UCSC	Human genome, NCBI36/hg18 (Mar, 2006)	Homo sapiens
+xenLae2                  	172.18.8.76	28750	UCSC	African clawed frog genome, Xenopus_laevis_v2/xenLae2 (Aug, 2016)	Xenopus laevis;african clawed frog
+bisBis1                  	172.18.8.78	28751	UCSC	Bison genome, Bison_UMD1.0/bisBis1 (Oct, 2014)	Bison bison
+panPan2                  	172.18.8.78	28752	UCSC	Bonobo genome, MPI-EVA panpan1.1/panPan2 (Aug, 2015)	Pan paniscus
+aptMan1                  	172.18.8.76	28753	UCSC	Brown kiwi genome, MPI-EVA AptMant0/aptMan1 (Jun, 2015)	Apteryx australis;southern brown kiwi
+felCat8                  	172.18.8.78	28754	UCSC	Cat genome, ICGSC Felis_catus_8.0/felCat8 (Nov, 2014)	Felis catus
+galGal5                  	172.18.8.76	28755	UCSC	Chicken genome, Gallus_gallus-5.0/galGal5 (Dec, 2015)	Gallus gallus
+panTro5                  	172.18.8.78	28756	UCSC	Chimpanzee genome, Pan_tro 3.0/panTro5 (May, 2016)	Pan troglodytes
+manPen1                  	172.18.8.78	28757	UCSC	Chinese pangolin genome, M_pentadactyla-1.1.1/manPen1 (Aug, 2014)	Manis pentadactyla
+macFas5                  	172.18.8.78	28758	UCSC	Crab-eating macaque genome, Macaca_fascicularis_5.0/macFas5 (Jun, 2013)	Macaca fascicularis
+thaSir1                  	172.18.8.76	28759	UCSC	Garter snake genome, Thanmnophis_sirtalis-6.0/thaSir1 (Jun, 2015)	Thamnophis sirtalis
+aquChr2                  	172.18.8.76	28760	UCSC	Golden eagle genome, aquChr-1.0.2/aquChr2 (Oct, 2014)	Aquila chrysaetos canadensis
+rhiRox1                  	172.18.8.78	28761	UCSC	Golden snub-nosed monkey genome, Rrox_v1/rhiRox1 (Oct, 2014)	Rhinopithecus roxellana
+gorGor5                  	172.18.8.78	28762	UCSC	Gorilla genome, GMSRT3/gorGor5 (Mar, 2016)	Gorilla gorilla gorilla
+chlSab2                  	172.18.8.78	28763	UCSC	Green monkey genome, Chlorocebus_sabeus 1.1/chlSab2 (Mar, 2014)	Chlorocebus sabaeus
+galVar1                  	172.18.8.77	28765	UCSC	Malayan flying lemur genome, G_variegatus-3.0.2/galVar1 (Jun, 2014)	Galeopterus variegatus
+micMur2                  	172.18.8.77	28766	UCSC	Mouse lemur genome, Mouse lemur/micMur2 (May, 2015)	Microcebus murinus
+ponAbe3                  	172.18.8.77	28767	UCSC	Orangutan genome, Susie_PABv2/ponAbe3 (Jan, 2018)	Pongo abelii
+susScr11                 	172.18.8.77	28768	UCSC	Pig genome, SGSC Sscrofa11.1/susScr11 (Feb, 2017)	Sus scrofa
+ornAna2                  	172.18.8.77	28769	UCSC	Platypus genome, ASM227v2/ornAna2 (Feb, 2007)	Ornithorhynchus anatinus
+nasLar1                  	172.18.8.78	28770	UCSC	Proboscis monkey genome, Charlie1.0/nasLar1 (Nov, 2014)	Nasalis larvatus
+rheMac8                  	172.18.8.77	28771	UCSC	Rhesus genome, BCM Mmul_8.0.1/rheMac8 (Nov, 2015)	Macaca mulatta
+oviAri4                  	172.18.8.77	28772	UCSC	Sheep genome, ISGC Oar_v4.0/oviAri4 (Nov, 2015)	Ovis aries
+tarSyr2                  	172.18.8.77	28773	UCSC	Tarsier genome, Tarsius_syrichta-2.0.1/tarSyr2 (Sep, 2013)	Tarsius syrichta
+nanPar1                  	172.18.8.76	28774	UCSC	Tibetan frog genome, BGI_ZX_2015/nanPar1 (Mar, 2015)	Nanorana parkeri
+melGal5                  	172.18.8.76	28775	UCSC	Turkey genome, TGC Turkey_5.0/melGal5 (Nov, 2014)	Meleagris gallopavo
+xenTro9                  	172.18.8.76	28776	UCSC	Xenopus tropicalis genome, JGI 9.1/xenTro9 (Jul, 2016)	Xenopus tropicalis;western clawed frog
+ci3                      	172.18.8.76	28777	UCSC	Ciona intestinalis genome, Kyoto KH/ci3 (Apr, 2011)	Ciona intestinalis;transparent sea squirt
+anoGam3                  	172.18.8.76	28778	UCSC	A. gambiae genome, ICSAGA P3/anoGam3 (Nov, 2006)	Anopheles gambiae;african malaria mosquito
+apiMel3                  	172.18.8.76	28779	UCSC	A. mellifera genome, Baylor HGSC Amel_3.0/apiMel3 (May, 2005)	Apis mellifera;honeybee
+ce11                     	172.18.8.76	28780	UCSC	C. elegans genome, WS220/ce11 (Feb, 2013)	Caenorhabditis elegans;nematode worm
 OryAfe1.0                	172.18.8.76	28117	Ensembl	Aardvark genome, OryAfe1.0 (May, 2012)	Orycteropus afer
 PoeFor_5.1.2             	172.18.8.76	28118	Ensembl	Amazon molly genome, Poecilia_formosa-5.1.2 (Oct, 2013)	Poecilia formosa
 CSAV2.0                  	172.18.8.76	28119	Ensembl	Ciona savignyi genome, CSAV 2.0 (Oct, 2005)	Ciona savignyi;pacific transparent sea squirt

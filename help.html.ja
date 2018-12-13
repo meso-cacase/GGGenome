@@ -172,56 +172,79 @@ function set_strand(){
 	<option value='vicPac2'                  synonym="Vicugna pacos">Alpaca genome, Vicugna_pacos-2.0.1/vicPac2 (Mar, 2013)</option>
 	<option value='dasNov3'                  synonym="Dasypus novemcinctus">Armadillo genome, Baylor/dasNov3 (Dec, 2011)</option>
 	<option value='papAnu2'                  synonym="Papio anubis">Baboon genome, Baylor Panu_2.0/papAnu2 (Mar, 2012)</option>
+	<option value='bisBis1'                  synonym="Bison bison">Bison genome, Bison_UMD1.0/bisBis1 (Oct, 2014)</option>
+	<option value='panPan2'                  synonym="Pan paniscus">Bonobo genome, MPI-EVA panpan1.1/panPan2 (Aug, 2015)</option>
 	<option value='otoGar3'                  synonym="Otolemur garnettii">Bushbaby genome, Broad/otoGar3 (Mar, 2011)</option>
+	<option value='felCat8'                  synonym="Felis catus">Cat genome, ICGSC Felis_catus_8.0/felCat8 (Nov, 2014)</option>
 	<option value='felCat5'                  synonym="Felis catus">Cat genome, ICGSC Felis_catus 6.2/felCat5 (Sep, 2011)</option>
+	<option value='panTro5'                  synonym="Pan troglodytes">Chimpanzee genome, Pan_tro 3.0/panTro5 (May, 2016)</option>
 	<option value='panTro4'                  synonym="Pan troglodytes">Chimp genome, CSAC 2.1.4/panTro4 (Feb, 2011)</option>
 	<option value='criGri1'                  synonym="Cricetulus griseus">Chinese hamster genome, C_griseus_v1.0/criGri1 (Jul, 2013)</option>
+	<option value='manPen1'                  synonym="Manis pentadactyla">Chinese pangolin genome, M_pentadactyla-1.1.1/manPen1 (Aug, 2014)</option>
 	<option value='bosTau8'                  synonym="Bos taurus">Cow genome, Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)</option>
 	<option value='bosTau7'                  synonym="Bos taurus">Cow genome, Btau_4.6.1/bosTau7 (Oct, 2011)</option>
+	<option value='macFas5'                  synonym="Macaca fascicularis">Crab-eating macaque genome, Macaca_fascicularis_5.0/macFas5 (Jun, 2013)</option>
 	<option value='canFam3'                  synonym="Canis lupus familiaris">Dog genome, Broad CanFam3.1/canFam3 (Sep, 2011)</option>
 	<option value='turTru2'                  synonym="Tursiops truncatus">Dolphin genome, Baylor Ttru_1.4/turTru2 (Oct, 2011)</option>
 	<option value='loxAfr3'                  synonym="Loxodonta africana">Elephant genome, Broad/loxAfr3 (Jul, 2009)</option>
 	<option value='musFur1'                  synonym="Mustela putorius furo">Ferret genome, MusPutFur1.0/musFur1 (Apr, 2011)</option>
 	<option value='nomLeu3'                  synonym="Nomascus leucogenys">Gibbon genome, GGSC Nleu3.0/nomLeu3 (Oct, 2012)</option>
+	<option value='rhiRox1'                  synonym="Rhinopithecus roxellana">Golden snub-nosed monkey genome, Rrox_v1/rhiRox1 (Oct, 2014)</option>
+	<option value='gorGor5'                  synonym="Gorilla gorilla gorilla">Gorilla genome, GMSRT3/gorGor5 (Mar, 2016)</option>
 	<option value='gorGor3'                  synonym="Gorilla gorilla gorilla">Gorilla genome, gorGor3.1/gorGor3 (May, 2011)</option>
+	<option value='chlSab2'                  synonym="Chlorocebus sabaeus">Green monkey genome, Chlorocebus_sabeus 1.1/chlSab2 (Mar, 2014)</option>
 	<option value='cavPor3'                  synonym="Cavia porcellus">Guinea pig genome, Broad/cavPor3 (Feb, 2008)</option>
 	<option value='eriEur2'                  synonym="Erinaceus europaeus">Hedgehog genome, EriEur2.0/eriEur2 (May, 2012)</option>
 	<option value='equCab2'                  synonym="Equus caballus">Horse genome, Broad/equCab2 (Sep, 2007)</option>
 	<option value='dipOrd1'                  synonym="Dipodomys ordii">Kangaroo rat genome, Broad/dipOrd1 (Jul, 2008)</option>
+	<option value='galVar1'                  synonym="Galeopterus variegatus">Malayan flying lemur genome, G_variegatus-3.0.2/galVar1 (Jun, 2014)</option>
 	<option value='triMan1'                  synonym="Trichechus manatus latirostris">Manatee genome, Broad v1.0/triMan1 (Oct, 2011)</option>
 	<option value='calJac3'                  synonym="Callithrix jacchus">Marmoset genome, WUGSC 3.2/calJac3 (Mar, 2009)</option>
 	<option value='pteVam1'                  synonym="Pteropus vampyrus">Megabat genome, Broad/pteVam1 (Jul, 2008)</option>
 	<option value='myoLuc2'                  synonym="Myotis lucifugus">Microbat genome, Broad Institute Myoluc2.0/myoLuc2 (Jul, 2010)</option>
 	<option value='balAcu1'                  synonym="Balaenoptera acutorostrata scammoni">Minke whale genome, BalAcu1.0/balAcu1 (Oct, 2013)</option>
+	<option value='micMur2'                  synonym="Microcebus murinus">Mouse lemur genome, Mouse lemur/micMur2 (May, 2015)</option>
 	<option value='micMur1'                  synonym="Microcebus murinus">Mouse lemur genome, Broad/micMur1 (Jul, 2007)</option>
 	<option value='hetGla2'                  synonym="Heterocephalus glaber">Naked mole-rat genome, Broad HetGla_female_1.0/hetGla2 (Jan, 2012)</option>
 	<option value='monDom5'                  synonym="Monodelphis domestica">Opossum genome, Broad/monDom5 (Oct, 2006)</option>
+	<option value='ponAbe3'                  synonym="Pongo abelii">Orangutan genome, Susie_PABv2/ponAbe3 (Jan, 2018)</option>
 	<option value='ponAbe2'                  synonym="Pongo abelii">Orangutan genome, WUGSC 2.0.2/ponAbe2 (Jul, 2007)</option>
 	<option value='ailMel1'                  synonym="Ailuropoda melanoleuca">Panda genome, BGI-Shenzhen 1.0/ailMel1 (Dec, 2009)</option>
+	<option value='susScr11'                 synonym="Sus scrofa">Pig genome, SGSC Sscrofa11.1/susScr11 (Feb, 2017)</option>
 	<option value='susScr3'                  synonym="Sus scrofa">Pig genome, SGSC Sscrofa10.2/susScr3 (Aug, 2011)</option>
 	<option value='ochPri3'                  synonym="Ochotona princeps">Pika genome, OchPri3.0/ochPri3 (May, 2012)</option>
+	<option value='ornAna2'                  synonym="Ornithorhynchus anatinus">Platypus genome, ASM227v2/ornAna2 (Feb, 2007)</option>
 	<option value='ornAna1'                  synonym="Ornithorhynchus anatinus">Platypus genome, WUGSC 5.0.1/ornAna1 (Mar, 2007)</option>
+	<option value='nasLar1'                  synonym="Nasalis larvatus">Proboscis monkey genome, Charlie1.0/nasLar1 (Nov, 2014)</option>
 	<option value='oryCun2'                  synonym="Oryctolagus cuniculus">Rabbit genome, Broad/oryCun2 (Apr, 2009)</option>
+	<option value='rheMac8'                  synonym="Macaca mulatta">Rhesus genome, BCM Mmul_8.0.1/rheMac8 (Nov, 2015)</option>
 	<option value='rheMac3'                  synonym="Macaca mulatta">Rhesus genome, BGI CR_1.0/rheMac3 (Oct, 2010)</option>
 	<option value='proCap1'                  synonym="Procavia capensis;cape hyrax">Rock hyrax genome, Broad/proCap1 (Jul, 2008)</option>
+	<option value='oviAri4'                  synonym="Ovis aries">Sheep genome, ISGC Oar_v4.0/oviAri4 (Nov, 2015)</option>
 	<option value='oviAri3'                  synonym="Ovis aries">Sheep genome, ISGC Oar_v3.1/oviAri3 (Aug, 2012)</option>
 	<option value='sorAra2'                  synonym="Sorex araneus">Shrew genome, Broad/sorAra2 (Aug, 2008)</option>
 	<option value='choHof1'                  synonym="Choloepus hoffmanni">Sloth genome, Broad/choHof1 (Jul, 2008)</option>
 	<option value='speTri2'                  synonym="Spermophilus tridecemlineatus">Squirrel genome, Broad/speTri2 (Nov, 2011)</option>
 	<option value='saiBol1'                  synonym="Saimiri boliviensis">Squirrel monkey genome, Broad/saiBol1 (Oct, 2011)</option>
+	<option value='tarSyr2'                  synonym="Tarsius syrichta">Tarsier genome, Tarsius_syrichta-2.0.1/tarSyr2 (Sep, 2013)</option>
 	<option value='tarSyr1'                  synonym="Tarsius syrichta">Tarsier genome, Broad/tarSyr1 (Aug, 2008)</option>
 	<option value='sarHar1'                  synonym="Sarcophilus harrisii">Tasmanian devil genome, WTSI Devil_ref v7.0/sarHar1 (Feb, 2011)</option>
 	<option value='echTel2'                  synonym="Echinops telfairi">Tenrec genome, Broad/echTel2 (Nov, 2012)</option>
 	<option value='tupBel1'                  synonym="Tupaia belangeri">Tree shrew genome, Broad/tupBel1 (Dec, 2006)</option>
 	<option value='macEug2'                  synonym="Macropus eugenii">Wallaby genome, TWGS Meug_1.1/macEug2 (Sep, 2009)</option>
 	<option value='cerSim1'                  synonym="Ceratotherium simum">White rhinoceros genome, CerSimSim1.0/cerSim1 (May, 2012)</option>
+	<option value='xenLae2'                  synonym="Xenopus laevis;african clawed frog">African clawed frog genome, Xenopus_laevis_v2/xenLae2 (Aug, 2016)</option>
 	<option value='allMis1'                  synonym="Alligator mississippiensis">American alligator genome, allMis0.2/allMis1 (Aug, 2012)</option>
 	<option value='gadMor1'                  synonym="Gadus morhua">Atlantic cod genome, Genofisk GadMor_May2010/gadMor1 (May, 2010)</option>
+	<option value='aptMan1'                  synonym="Apteryx australis;southern brown kiwi">Brown kiwi genome, MPI-EVA AptMant0/aptMan1 (Jun, 2015)</option>
 	<option value='melUnd1'                  synonym="Melopsittacus undulatus">Budgerigar genome, WUSTL v6.3/melUnd1 (Sep, 2011)</option>
+	<option value='galGal5'                  synonym="Gallus gallus">Chicken genome, Gallus_gallus-5.0/galGal5 (Dec, 2015)</option>
 	<option value='galGal4'                  synonym="Gallus gallus">Chicken genome, ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</option>
 	<option value='latCha1'                  synonym="Latimeria chalumnae">Coelacanth genome, Broad/latCha1 (Aug, 2011)</option>
 	<option value='calMil1'                  synonym="Callorhinchus milii">Elephant shark genome, Callorhinchus_milii-6.1.3/calMil1 (Dec, 2013)</option>
 	<option value='fr3'                      synonym="Takifugu rubripes">Fugu genome, FUGU5/fr3 (Oct, 2011)</option>
+	<option value='thaSir1'                  synonym="Thamnophis sirtalis">Garter snake genome, Thanmnophis_sirtalis-6.0/thaSir1 (Jun, 2015)</option>
+	<option value='aquChr2'                  synonym="Aquila chrysaetos canadensis">Golden eagle genome, aquChr-1.0.2/aquChr2 (Oct, 2014)</option>
 	<option value='petMar2'                  synonym="Petromyzon marinus">Lamprey genome, WUGSC 7.0/petMar2 (Sep, 2010)</option>
 	<option value='anoCar2'                  synonym="Anolis carolinensis">Lizard genome, Broad AnoCar2.0/anoCar2 (May, 2010)</option>
 	<option value='oryLat2'                  synonym="Oryzias latipes">Medaka genome, NIG/UT MEDAKA1/oryLat2 (Oct, 2005)</option>
@@ -230,23 +253,29 @@ function set_strand(){
 	<option value='chrPic1'                  synonym="Chrysemys picta bellii">Painted turtle genome, v3.0.1/chrPic1 (Dec, 2011)</option>
 	<option value='gasAcu1'                  synonym="Gasterosteus aculeatus">Stickleback genome, Broad/gasAcu1 (Feb, 2006)</option>
 	<option value='tetNig2'                  synonym="Tetraodon nigroviridis">Tetraodon genome, Genoscope 8.0/tetNig2 (Mar, 2007)</option>
+	<option value='nanPar1'                  synonym="Nanorana parkeri">Tibetan frog genome, BGI_ZX_2015/nanPar1 (Mar, 2015)</option>
+	<option value='melGal5'                  synonym="Meleagris gallopavo">Turkey genome, TGC Turkey_5.0/melGal5 (Nov, 2014)</option>
 	<option value='melGal1'                  synonym="Meleagris gallopavo">Turkey genome, TGC Turkey_2.01/melGal1 (Dec, 2009)</option>
 	<option value='Xenla9'                   synonym="Xenopus laevis;african clawed frog">Xenopus laevis genome, XenBase/JGI 9.1</option>
 	<option value='Xenla7'                   synonym="Xenopus laevis;african clawed frog">Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)</option>
 	<option value='Xentr9'                   synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 9.0</option>
 	<option value='Xentr8'                   synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 8.0</option>
 	<option value='Xentr7'                   synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 7.1</option>
+	<option value='xenTro9'                  synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, JGI 9.1/xenTro9 (Jul, 2016)</option>
 	<option value='xenTro3'                  synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, JGI 4.2/xenTro3 (Nov, 2009)</option>
 	<option value='taeGut2'                  synonym="Taeniopygia guttata">Zebra finch genome, WashU taeGut324/taeGut2 (Feb, 2013)</option>
 	<option value='danRer11'                 synonym="Danio rerio">Zebrafish genome, GRCz11/danRer11 (May, 2017)</option>
 	<option value='danRer10'                 synonym="Danio rerio">Zebrafish genome, GRCz10/danRer10 (Sep, 2014)</option>
 	<option value='danRer7'                  synonym="Danio rerio">Zebrafish genome, Zv9/danRer7 (Jul, 2010)</option>
 	<option value='KH'                       synonym="Ciona intestinalis;transparent sea squirt">Ciona intestinalis genome, KH (Jul, 2008)</option>
+	<option value='ci3'                      synonym="Ciona intestinalis;transparent sea squirt">Ciona intestinalis genome, Kyoto KH/ci3 (Apr, 2011)</option>
 	<option value='ci2'                      synonym="Ciona intestinalis;transparent sea squirt">Ciona intestinalis genome, JGI 2.1/ci2 (Mar, 2005)</option>
 	<option value='braFlo1'                  synonym="Branchiostoma floridae">Lancelet genome, JGI 1.0/braFlo1 (Mar, 2006)</option>
 	<option value='Spur_v3.1'                synonym="Strongylocentrotus purpuratus;purple sea urchin">S. purpuratus genome, Spur_v3.1 (Jun, 2011)</option>
 	<option value='strPur2'                  synonym="Strongylocentrotus purpuratus;purple sea urchin">S. purpuratus genome, Baylor 2.1/strPur2 (Sep, 2006)</option>
+	<option value='anoGam3'                  synonym="Anopheles gambiae;african malaria mosquito">A. gambiae genome, ICSAGA P3/anoGam3 (Nov, 2006)</option>
 	<option value='anoGam1'                  synonym="Anopheles gambiae;african malaria mosquito">A. gambiae genome, IAGEC MOZ2/anoGam1 (Feb, 2003)</option>
+	<option value='apiMel3'                  synonym="Apis mellifera;honeybee">A. mellifera genome, Baylor HGSC Amel_3.0/apiMel3 (May, 2005)</option>
 	<option value='apiMel2'                  synonym="Apis mellifera;honeybee">A. mellifera genome, Baylor 2.0/apiMel2 (Jan, 2005)</option>
 	<option value='droAna2'                  synonym="Drosophila ananassae;fruit fly">D. ananassae genome, Agencourt prelim/droAna2 (Aug, 2005)</option>
 	<option value='droEre1'                  synonym="Drosophila erecta;fruit fly">D. erecta genome, Agencourt prelim/droEre1 (Aug, 2005)</option>
@@ -262,6 +291,7 @@ function set_strand(){
 	<option value='droYak2'                  synonym="Drosophila yakuba;fruit fly">D. yakuba genome, WUGSC 7.1/droYak2 (Nov, 2005)</option>
 	<option value='caePb2'                   synonym="Caenorhabditis brenneri;nematode worm">C. brenneri genome, WUGSC 6.0.1/caePb2 (Feb, 2008)</option>
 	<option value='cb3'                      synonym="Caenorhabditis briggsae;nematode worm">C. briggsae genome, WUGSC 1.0/cb3 (Jan, 2007)</option>
+	<option value='ce11'                     synonym="Caenorhabditis elegans;nematode worm">C. elegans genome, WS220/ce11 (Feb, 2013)</option>
 	<option value='ce10'                     synonym="Caenorhabditis elegans;nematode worm">C. elegans genome, WS220/ce10 (Oct, 2010)</option>
 	<option value='caeJap1'                  synonym="Caenorhabditis japonica;nematode worm">C. japonica genome, WUGSC 3.0.2/caeJap1 (Mar, 2008)</option>
 	<option value='caeRem3'                  synonym="Caenorhabditis remanei;nematode worm">C. remanei genome, WUGSC 15.0.1/caeRem3 (May, 2007)</option>
@@ -1147,6 +1177,26 @@ set_strand() ;
 		-->Baylor Panu_2.0/papAnu2 (Mar, 2012)</a>
 </tr>
 <tr>
+	<td><a href='/bisBis1/'>bisBis1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>American bison
+	<td>アメリカバイソン
+	<td>Bison bison
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=bisBis1'><!--
+		-->Bison_UMD1.0/bisBis1 (Oct, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/panPan2/'>panPan2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Bonobo
+	<td>ボノボ
+	<td>Pan paniscus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=panPan2'><!--
+		-->MPI-EVA panpan1.1/panPan2 (Aug, 2015)</a>
+</tr>
+<tr>
 	<td><a href='/otoGar3/'>otoGar3</a>
 	<td>UCSC
 	<td>Mammal
@@ -1157,6 +1207,16 @@ set_strand() ;
 		-->Broad/otoGar3 (Mar, 2011)</a>
 </tr>
 <tr>
+	<td><a href='/felCat8/'>felCat8</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Cat
+	<td>ネコ
+	<td>Felis catus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=felCat8'><!--
+		-->ICGSC Felis_catus_8.0/felCat8 (Nov, 2014)</a>
+</tr>
+<tr>
 	<td><a href='/felCat5/'>felCat5</a>
 	<td>UCSC
 	<td>Mammal
@@ -1165,6 +1225,16 @@ set_strand() ;
 	<td>Felis catus
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=felCat5'><!--
 		-->ICGSC Felis_catus 6.2/felCat5 (Sep, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/panTro5/'>panTro5</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Chimpanzee
+	<td>チンパンジー
+	<td>Pan troglodytes
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=panTro5'><!--
+		-->Pan_tro 3.0/panTro5 (May, 2016)</a>
 </tr>
 <tr>
 	<td><a href='/panTro4/'>panTro4</a>
@@ -1187,6 +1257,16 @@ set_strand() ;
 		-->C_griseus_v1.0/criGri1 (Jul, 2013)</a>
 </tr>
 <tr>
+	<td><a href='/manPen1/'>manPen1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Chinese pangolin
+	<td>ミミセンザンコウ
+	<td>Manis pentadactyla
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=manPen1'><!--
+		-->M_pentadactyla-1.1.1/manPen1 (Aug, 2014)</a>
+</tr>
+<tr>
 	<td><a href='/bosTau8/'>bosTau8</a>
 	<td>UCSC
 	<td>Mammal
@@ -1205,6 +1285,16 @@ set_strand() ;
 	<td>Bos taurus
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=bosTau7'><!--
 		-->Btau_4.6.1/bosTau7 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/macFas5/'>macFas5</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Crab-eating macaque
+	<td>カニクイザル
+	<td>Macaca fascicularis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=macFas5'><!--
+		-->Macaca_fascicularis_5.0/macFas5 (Jun, 2013)</a>
 </tr>
 <tr>
 	<td><a href='/canFam3/'>canFam3</a>
@@ -1257,6 +1347,26 @@ set_strand() ;
 		-->GGSC Nleu3.0/nomLeu3 (Oct, 2012)</a>
 </tr>
 <tr>
+	<td><a href='/rhiRox1/'>rhiRox1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Golden snub-nosed monkey
+	<td>キンシコウ
+	<td>Rhinopithecus roxellana
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rhiRox1'><!--
+		-->Rrox_v1/rhiRox1 (Oct, 2014)</a>
+</tr>
+<tr>
+	<td><a href='/gorGor5/'>gorGor5</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Gorilla
+	<td>ゴリラ
+	<td>Gorilla gorilla gorilla
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gorGor5'><!--
+		-->GMSRT3/gorGor5 (Mar, 2016)</a>
+</tr>
+<tr>
 	<td><a href='/gorGor3/'>gorGor3</a>
 	<td>UCSC
 	<td>Mammal
@@ -1265,6 +1375,16 @@ set_strand() ;
 	<td>Gorilla gorilla gorilla
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gorGor3'><!--
 		-->gorGor3.1/gorGor3 (May, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/chlSab2/'>chlSab2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Green monkey
+	<td>ミドリザル
+	<td>Chlorocebus sabaeus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=chlSab2'><!--
+		-->Chlorocebus_sabeus 1.1/chlSab2 (Mar, 2014)</a>
 </tr>
 <tr>
 	<td><a href='/cavPor3/'>cavPor3</a>
@@ -1305,6 +1425,16 @@ set_strand() ;
 	<td>Dipodomys ordii
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dipOrd1'><!--
 		-->Broad/dipOrd1 (Jul, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/galVar1/'>galVar1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Malayan flying lemur
+	<td>マレーヒヨケザル
+	<td>Galeopterus variegatus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=galVar1'><!--
+		-->G_variegatus-3.0.2/galVar1 (Jun, 2014)</a>
 </tr>
 <tr>
 	<td><a href='/triMan1/'>triMan1</a>
@@ -1357,6 +1487,16 @@ set_strand() ;
 		-->BalAcu1.0/balAcu1 (Oct, 2013)</a>
 </tr>
 <tr>
+	<td><a href='/micMur2/'>micMur2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Mouse lemur
+	<td>ネズミキツネザル
+	<td>Microcebus murinus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=micMur2'><!--
+		-->Mouse lemur/micMur2 (May, 2015)</a>
+</tr>
+<tr>
 	<td><a href='/micMur1/'>micMur1</a>
 	<td>UCSC
 	<td>Mammal
@@ -1387,6 +1527,16 @@ set_strand() ;
 		-->Broad/monDom5 (Oct, 2006)</a>
 </tr>
 <tr>
+	<td><a href='/ponAbe3/'>ponAbe3</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Orangutan
+	<td>オランウータン
+	<td>Pongo abelii
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ponAbe3'><!--
+		-->Susie_PABv2/ponAbe3 (Jan, 2018)</a>
+</tr>
+<tr>
 	<td><a href='/ponAbe2/'>ponAbe2</a>
 	<td>UCSC
 	<td>Mammal
@@ -1405,6 +1555,16 @@ set_strand() ;
 	<td>Ailuropoda melanoleuca
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ailMel1'><!--
 		-->BGI-Shenzhen 1.0/ailMel1 (Dec, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/susScr11/'>susScr11</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Pig
+	<td>ブタ, イノシシ
+	<td>Sus scrofa
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=susScr11'><!--
+		-->SGSC Sscrofa11.1/susScr11 (Feb, 2017)</a>
 </tr>
 <tr>
 	<td><a href='/susScr3/'>susScr3</a>
@@ -1427,6 +1587,16 @@ set_strand() ;
 		-->OchPri3.0/ochPri3 (May, 2012)</a>
 </tr>
 <tr>
+	<td><a href='/ornAna2/'>ornAna2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Platypus
+	<td>カモノハシ
+	<td>Ornithorhynchus anatinus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ornAna2'><!--
+		-->ASM227v2/ornAna2 (Feb, 2007)</a>
+</tr>
+<tr>
 	<td><a href='/ornAna1/'>ornAna1</a>
 	<td>UCSC
 	<td>Mammal
@@ -1437,6 +1607,16 @@ set_strand() ;
 		-->WUGSC 5.0.1/ornAna1 (Mar, 2007)</a>
 </tr>
 <tr>
+	<td><a href='/nasLar1/'>nasLar1</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Proboscis monkey
+	<td>テングザル
+	<td>Nasalis larvatus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=nasLar1'><!--
+		-->Charlie1.0/nasLar1 (Nov, 2014)</a>
+</tr>
+<tr>
 	<td><a href='/oryCun2/'>oryCun2</a>
 	<td>UCSC
 	<td>Mammal
@@ -1445,6 +1625,16 @@ set_strand() ;
 	<td>Oryctolagus cuniculus
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oryCun2'><!--
 		-->Broad/oryCun2 (Apr, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/rheMac8/'>rheMac8</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Rhesus macaque
+	<td>アカゲザル
+	<td>Macaca mulatta
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rheMac8'><!--
+		-->BCM Mmul_8.0.1/rheMac8 (Nov, 2015)</a>
 </tr>
 <tr>
 	<td><a href='/rheMac3/'>rheMac3</a>
@@ -1465,6 +1655,16 @@ set_strand() ;
 	<td>Procavia capensis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=proCap1'><!--
 		-->Broad/proCap1 (Jul, 2008)</a>
+</tr>
+<tr>
+	<td><a href='/oviAri4/'>oviAri4</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Sheep
+	<td>ヒツジ
+	<td>Ovis aries
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oviAri4'><!--
+		-->ISGC Oar_v4.0/oviAri4 (Nov, 2015)</a>
 </tr>
 <tr>
 	<td><a href='/oviAri3/'>oviAri3</a>
@@ -1515,6 +1715,16 @@ set_strand() ;
 	<td>Saimiri boliviensis
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=saiBol1'><!--
 		-->Broad/saiBol1 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/tarSyr2/'>tarSyr2</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Tarsier
+	<td>メガネザル
+	<td>Tarsius syrichta
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=tarSyr2'><!--
+		-->Tarsius_syrichta-2.0.1/tarSyr2 (Sep, 2013)</a>
 </tr>
 <tr>
 	<td><a href='/tarSyr1/'>tarSyr1</a>
@@ -1577,6 +1787,16 @@ set_strand() ;
 		-->CerSimSim1.0/cerSim1 (May, 2012)</a>
 </tr>
 <tr>
+	<td><a href='/xenLae2/'>xenLae2</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>African clawed frog
+	<td>アフリカツメガエル
+	<td>Xenopus laevis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=xenLae2'><!--
+		-->Xenopus_laevis_v2/xenLae2 (Aug, 2016)</a>
+</tr>
+<tr>
 	<td><a href='/allMis1/'>allMis1</a>
 	<td>UCSC
 	<td>Vertebrate
@@ -1597,6 +1817,16 @@ set_strand() ;
 		-->Genofisk GadMor_May2010/gadMor1 (May, 2010)</a>
 </tr>
 <tr>
+	<td><a href='/aptMan1/'>aptMan1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Southern brown kiwi
+	<td>キーウィ
+	<td>Apteryx australis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=aptMan1'><!--
+		-->MPI-EVA AptMant0/aptMan1 (Jun, 2015)</a>
+</tr>
+<tr>
 	<td><a href='/melUnd1/'>melUnd1</a>
 	<td>UCSC
 	<td>Vertebrate
@@ -1605,6 +1835,16 @@ set_strand() ;
 	<td>Melopsittacus undulatus
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=melUnd1'><!--
 		-->WUSTL v6.3/melUnd1 (Sep, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/galGal5/'>galGal5</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Chicken
+	<td>ニワトリ
+	<td>Gallus gallus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=galGal5'><!--
+		-->Gallus_gallus-5.0/galGal5 (Dec, 2015)</a>
 </tr>
 <tr>
 	<td><a href='/galGal4/'>galGal4</a>
@@ -1645,6 +1885,26 @@ set_strand() ;
 	<td>Takifugu rubripes
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=fr3'><!--
 		-->FUGU5/fr3 (Oct, 2011)</a>
+</tr>
+<tr>
+	<td><a href='/thaSir1/'>thaSir1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Garter snake
+	<td>ガーターヘビ
+	<td>Thamnophis sirtalis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=thaSir1'><!--
+		-->Thanmnophis_sirtalis-6.0/thaSir1 (Jun, 2015)</a>
+</tr>
+<tr>
+	<td><a href='/aquChr2/'>aquChr2</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Golden eagle
+	<td>イヌワシ
+	<td>Aquila chrysaetos canadensis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=aquChr2'><!--
+		-->aquChr-1.0.2/aquChr2 (Oct, 2014)</a>
 </tr>
 <tr>
 	<td><a href='/petMar2/'>petMar2</a>
@@ -1727,6 +1987,26 @@ set_strand() ;
 		-->Genoscope 8.0/tetNig2 (Mar, 2007)</a>
 </tr>
 <tr>
+	<td><a href='/nanPar1/'>nanPar1</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Tibetan frog
+	<td>ナノラナ属のカエル
+	<td>Nanorana parkeri
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=nanPar1'><!--
+		-->BGI_ZX_2015/nanPar1 (Mar, 2015)</a>
+</tr>
+<tr>
+	<td><a href='/melGal5/'>melGal5</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Turkey
+	<td>シチメンチョウ
+	<td>Meleagris gallopavo
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=melGal5'><!--
+		-->TGC Turkey_5.0/melGal5 (Nov, 2014)</a>
+</tr>
+<tr>
 	<td><a href='/melGal1/'>melGal1</a>
 	<td>UCSC
 	<td>Vertebrate
@@ -1735,6 +2015,16 @@ set_strand() ;
 	<td>Meleagris gallopavo
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=melGal1'><!--
 		-->TGC Turkey_2.01/melGal1 (Dec, 2009)</a>
+</tr>
+<tr>
+	<td><a href='/xenTro9/'>xenTro9</a>
+	<td>UCSC
+	<td>Vertebrate
+	<td>Western clawed frog
+	<td>ネッタイツメガエル
+	<td>Xenopus tropicalis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=xenTro9'><!--
+		-->JGI 9.1/xenTro9 (Jul, 2016)</a>
 </tr>
 <tr>
 	<td><a href='/xenTro3/'>xenTro3</a>
@@ -1787,6 +2077,16 @@ set_strand() ;
 		-->Zv9/danRer7 (Jul, 2010)</a>
 </tr>
 <tr>
+	<td><a href='/ci3/'>ci3</a>
+	<td>UCSC
+	<td>Deuterostome
+	<td>Transparent sea squirt
+	<td>カタユウレイボヤ
+	<td>Ciona intestinalis
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ci3'><!--
+		-->Kyoto KH/ci3 (Apr, 2011)</a>
+</tr>
+<tr>
 	<td><a href='/ci2/'>ci2</a>
 	<td>UCSC
 	<td>Deuterostome
@@ -1817,6 +2117,16 @@ set_strand() ;
 		-->Baylor 2.1/strPur2 (Sep, 2006)</a>
 </tr>
 <tr>
+	<td><a href='/anoGam3/'>anoGam3</a>
+	<td>UCSC
+	<td>Insect
+	<td>African malaria mosquito
+	<td>ハマダラカ
+	<td>Anopheles gambiae
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=anoGam3'><!--
+		-->ICSAGA P3/anoGam3 (Nov, 2006)</a>
+</tr>
+<tr>
 	<td><a href='/anoGam1/'>anoGam1</a>
 	<td>UCSC
 	<td>Insect
@@ -1825,6 +2135,16 @@ set_strand() ;
 	<td>Anopheles gambiae
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=anoGam1'><!--
 		-->IAGEC MOZ2/anoGam1 (Feb, 2003)</a>
+</tr>
+<tr>
+	<td><a href='/apiMel3/'>apiMel3</a>
+	<td>UCSC
+	<td>Insect
+	<td>Honeybee
+	<td>ミツバチ
+	<td>Apis mellifera
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=apiMel3'><!--
+		-->Baylor HGSC Amel_3.0/apiMel3 (May, 2005)</a>
 </tr>
 <tr>
 	<td><a href='/apiMel2/'>apiMel2</a>
@@ -1975,6 +2295,16 @@ set_strand() ;
 	<td>Caenorhabditis briggsae
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cb3'><!--
 		-->WUGSC 1.0/cb3 (Jan, 2007)</a>
+</tr>
+<tr>
+	<td><a href='/ce11/'>ce11</a>
+	<td>UCSC
+	<td>Nematode
+	<td>C. elegans (Nematode worm)
+	<td>線虫
+	<td>Caenorhabditis elegans
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ce11'><!--
+		-->WS220/ce11 (Feb, 2013)</a>
 </tr>
 <tr>
 	<td><a href='/ce10/'>ce10</a>
@@ -8469,7 +8799,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 21, 2018 by
+<p class=g>Last modified on Dec 13, 2018 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
