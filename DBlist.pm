@@ -27,7 +27,7 @@ dasNov3                  	172.18.8.78	28022	UCSC	Armadillo genome, Baylor/dasNov
 papAnu2                  	172.18.8.78	28023	UCSC	Baboon genome, Baylor Panu_2.0/papAnu2 (Mar, 2012)	Papio anubis
 otoGar3                  	172.18.8.78	28024	UCSC	Bushbaby genome, Broad/otoGar3 (Mar, 2011)	Otolemur garnettii
 felCat5                  	172.18.8.78	28025	UCSC	Cat genome, ICGSC Felis_catus 6.2/felCat5 (Sep, 2011)	Felis catus
-panTro4                  	172.18.8.78	28026	UCSC	Chimp genome, CSAC 2.1.4/panTro4 (Feb, 2011)	Pan troglodytes
+panTro4                  	172.18.8.78	28026	UCSC	Chimpanzee genome, CSAC 2.1.4/panTro4 (Feb, 2011)	Pan troglodytes
 criGri1                  	172.18.8.78	28027	UCSC	Chinese hamster genome, C_griseus_v1.0/criGri1 (Jul, 2013)	Cricetulus griseus
 bosTau7                  	172.18.8.78	28028	UCSC	Cow genome, Btau_4.6.1/bosTau7 (Oct, 2011)	Bos taurus
 bosTau8                  	172.18.8.78	28029	UCSC	Cow genome, Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)	Bos taurus

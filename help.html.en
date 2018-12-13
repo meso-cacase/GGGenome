@@ -178,7 +178,7 @@ function set_strand(){
 	<option value='felCat8'                  synonym="Felis catus">Cat genome, ICGSC Felis_catus_8.0/felCat8 (Nov, 2014)</option>
 	<option value='felCat5'                  synonym="Felis catus">Cat genome, ICGSC Felis_catus 6.2/felCat5 (Sep, 2011)</option>
 	<option value='panTro5'                  synonym="Pan troglodytes">Chimpanzee genome, Pan_tro 3.0/panTro5 (May, 2016)</option>
-	<option value='panTro4'                  synonym="Pan troglodytes">Chimp genome, CSAC 2.1.4/panTro4 (Feb, 2011)</option>
+	<option value='panTro4'                  synonym="Pan troglodytes">Chimpanzee genome, CSAC 2.1.4/panTro4 (Feb, 2011)</option>
 	<option value='criGri1'                  synonym="Cricetulus griseus">Chinese hamster genome, C_griseus_v1.0/criGri1 (Jul, 2013)</option>
 	<option value='manPen1'                  synonym="Manis pentadactyla">Chinese pangolin genome, M_pentadactyla-1.1.1/manPen1 (Aug, 2014)</option>
 	<option value='bosTau8'                  synonym="Bos taurus">Cow genome, Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)</option>
