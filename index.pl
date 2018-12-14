@@ -763,10 +763,6 @@ my $snippet_end  = ($snippet_pos and $snippet) ?
                    '' ;
 
 #- ▼ アライメント情報からミスマッチ・挿入・欠失の数を計算
-$edit_info =~ tr/!/X/ ;  # X: ミスマッチ
-$edit_info =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
-$edit_info =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
-
 my $match = $edit_info ? ($edit_info =~ tr/=/=/) : '' ;  # =: マッチ
 my $mis   = $edit_info ? ($edit_info =~ tr/X/X/) : '' ;  # X: ミスマッチ
 my $del   = $edit_info ? ($edit_info =~ tr/D/D/) : '' ;  # D: 欠失
@@ -816,10 +812,6 @@ my $snippet_end  = ($snippet_pos and $snippet) ?
                    '' ;
 
 #- ▼ アライメント情報からミスマッチ・挿入・欠失の数を計算
-$edit_info =~ tr/!/X/ ;  # X: ミスマッチ
-$edit_info =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
-$edit_info =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
-
 my $match = $edit_info ? ($edit_info =~ tr/=/=/) : '' ;  # =: マッチ
 my $mis   = $edit_info ? ($edit_info =~ tr/X/X/) : '' ;  # X: ミスマッチ
 my $del   = $edit_info ? ($edit_info =~ tr/D/D/) : '' ;  # D: 欠失
@@ -942,10 +934,6 @@ defined $gene->{body_based}      and $json->{sbjct} = $gene->{body_based} ;
 
 #- ▼ アライメント情報からミスマッチ・挿入・欠失の数を計算
 if (defined $json->{edit}){
-	$json->{edit} =~ tr/!/X/ ;  # X: ミスマッチ
-	$json->{edit} =~ tr/-/D/ ;  # D: 欠失。データベースには存在するが、クエリにはない塩基
-	$json->{edit} =~ tr/+/I/ ;  # I: 挿入。データベースにはないが、クエリには存在する塩基
-
 	$json->{match} = ($json->{edit} =~ tr/=/=/) ;  # =: マッチ
 	$json->{mis}   = ($json->{edit} =~ tr/X/X/) ;  # X: ミスマッチ
 	$json->{del}   = ($json->{edit} =~ tr/D/D/) ;  # D: 欠失
