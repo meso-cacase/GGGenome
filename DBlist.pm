@@ -734,7 +734,8 @@ refseq70                 	172.18.8.74	28689	RefSeq   	RefSeq complete RNA releas
 refseq80                 	172.18.8.74	28690	RefSeq   	RefSeq complete RNA release 80 (Jan, 2017)	
 refseq90                 	172.18.8.74	28003	RefSeq   	RefSeq complete RNA release 90 (Sep, 2018)	
 refseq91                 	172.18.8.73	27491	RefSeq   	RefSeq complete RNA release 91 (Nov, 2018)	
-refseq                   	172.18.8.73	27491	RefSeq   	RefSeq complete RNA release 91 (Nov, 2018)	
+refseq92                 	172.18.8.74	27492	RefSeq   	RefSeq complete RNA release 92 (Jan, 2019)	
+refseq                   	172.18.8.74	27492	RefSeq   	RefSeq complete RNA release 92 (Jan, 2019)	
 hs_refseq                	172.18.8.75	28691	RefSeq   	RefSeq human RNA release 60 (Jul, 2013)	Homo sapiens
 mm_refseq                	172.18.8.75	28692	RefSeq   	RefSeq mouse RNA release 60 (Jul, 2013)	Mus musculus
 hg19_pre_mRNA            	172.18.8.75	28693	         	Human pre mRNA, Bits DB (Dec, 2014)	Homo sapiens

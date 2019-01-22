@@ -873,7 +873,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 91 (Nov, 2018)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 92 (Jan, 2019)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
@@ -7478,7 +7478,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq91/'>refseq91</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq92/'>refseq92</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 92 (Jan, 2019)
+</tr>
+<tr>
+	<td><a href='/refseq91/'>refseq91</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -7970,6 +7978,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2019-01-22 Database updated to RefSeq rel. 92 (Jan, 2019).
 	<li>2019-01-09 Database updated to DDBJ rel. 115.0 (Dec, 2018).
 	<li>2018-12-13 TXT/CSV/JSON output includes sequence alignment and numbers of mismatches etc.
 	<li>2018-12-13 Added 36 genome databases -
@@ -8093,7 +8102,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jan 9, 2019 by
+<p class=g>Last modified on Jan 22, 2019 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
