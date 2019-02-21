@@ -1,0 +1,4 @@
+NOTICE:
+<ul>
+	<li>Server maintenance: 22 Feb 2019, 18:00 to 24 Feb 2019, 20:00 +0900 (JST). Sorry for the inconvenience.
+</ul>
