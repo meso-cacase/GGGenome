@@ -23,9 +23,10 @@ my $q     = $_[0] or return () ;
 my $host  = $_[1] or return () ;
 my $port  = $_[2] or return () ;
 my $k     = $_[3] // 0  ;
-my $limit = $_[4] // '' ;
-my $offset  = $_[5] // 0   ;	#ADD tyamamot offsetの追加
-my $timeout = $_[6] // 180 ;	#ADD tyamamot timeoutの追加
+my $nogap = $_[4] // '' ;
+my $limit = $_[5] // '' ;
+my $offset  = $_[6] // 0   ;	#ADD tyamamot offsetの追加
+my $timeout = $_[7] // 180 ;	#ADD tyamamot timeoutの追加
 
 # 縮重塩基の展開
 my @q = iub_expand($q) ;
@@ -34,7 +35,7 @@ my @q = iub_expand($q) ;
 my @hit_all ;
 my @uri_all ;
 foreach (@q){
-	my ($hit, $uri) = approx_core($_, $host, $port, $k, $limit, $offset, $timeout) ;	#ADD tyamamot offset,timeoutの追加
+	my ($hit, $uri) = approx_core($_, $host, $port, $k, $nogap, $limit, $offset, $timeout) ;	#ADD tyamamot offset,timeoutの追加
 	push @hit_all, $hit ;
 	push @uri_all, $uri ;
 }
@@ -90,11 +91,12 @@ my $q     = $_[0] or return () ;
 my $host  = $_[1] or return () ;
 my $port  = $_[2] or return () ;
 my $k     = $_[3] // 0  ;
-my $limit = $_[4] // '' ;
-my $offset  = $_[5] // 0   ;	#ADD tyamamot offsetの追加
-my $timeout = $_[6] // 180 ;	#ADD tyamamot timeoutの追加
+my $nogap = $_[4] ? 1 : 0 ;
+my $limit = $_[5] // '' ;
+my $offset  = $_[6] // 0   ;	#ADD tyamamot offsetの追加
+my $timeout = $_[7] // 180 ;	#ADD tyamamot timeoutの追加
 #CHANGE tyamamot offsetの値を送るようにする
-my $uri   = "http://$host:$port/match?q=$q&k=$k&offset=$offset&limit=$limit" ;
+my $uri   = "http://$host:$port/match?q=$q&k=$k&no_gap=$nogap&offset=$offset&limit=$limit" ;
 
 #CHANGE tyamamot timeoutを使用するようにする
 $ua->timeout($timeout) ;

@@ -51,9 +51,9 @@ RewriteRule  (?:^|/)(api)?\.txt$  /%1api.txt  [R,L]
 
 #- ▼ help.htmlの表示
 # mod_rewriteの適用を終了する条件
-RewriteRule  ^help\.html(\.en|\.ja)?$                                                                         -             [L]
-RewriteRule  ^(?:debug/)?(?:(en|ja)/)(?:(?!en/|ja/)[\w\.]+/)?(?:\d+/)?(?:(?:\+|\-)/)?help\.html(\.en|\.ja)?$  help.html.$1  [L]
-RewriteRule  ^(?:debug/)?(?:[\w\.]+/)?(?:\d+/)?(?:(?:\+|\-)/)?help\.html(\.en|\.ja)?$                         help.html$1   [L]
+RewriteRule  ^help\.html(\.en|\.ja)?$                                                                                    -             [L]
+RewriteRule  ^(?:debug/)?(?:(en|ja)/)(?:(?!en/|ja/)[\w\.]+/)?(?:\d+/)?(?:(?:\+|\-)/)?(?:nogap/)?help\.html(\.en|\.ja)?$  help.html.$1  [L]
+RewriteRule  ^(?:debug/)?(?:[\w\.]+/)?(?:\d+/)?(?:(?:\+|\-)/)?(?:nogap/)?help\.html(\.en|\.ja)?$                         help.html$1   [L]
 #- ▲ help.htmlの表示
 
 #- ▼ それ以外のリクエストを全てindex.cgiに送る

@@ -71,6 +71,7 @@ my $lang         = '' ;  # HTMLの場合の日本語/英語: ja, en
 my $db           = '' ;  # 生物種 (データベース): hg19, mm10, ...
 my $k            = '' ;  # 許容するミスマッチ/ギャップの数: 0, 1, 2, ...
 my $strand       = '' ;  # 検索する方向: +, -
+my $nogap        = '' ;  # nogapモード
 my $query_string = '' ;  # 塩基配列
 my $format       = '' ;  # 出力フォーマット: html, txt, csv, bed, gff, json
 my $download     = '' ;  # ファイルとしてダウンロードするか: (boolean)
@@ -78,7 +79,7 @@ my $debug        = '' ;  # デバッグモード
 #-- △ 使用するパラメータ一覧
 
 #-- ▽ URIからパラメータを取得
-# 例：/en/mm10/2/TTCATTGACAACATTGCGT.txt.download
+# 例：/debug/en/mm10/2/+/nogap/TTCATTGACAACATTGCGT.txt.download
 #
 my $request_uri = $ENV{'REQUEST_URI'} // '' ;
 $request_uri =~ s/\?.*// ;  # '?' 以降のQUERY_STRING部分を除去
@@ -94,6 +95,8 @@ while ($request_uri =~ m{([^/]+)(/?)}g){
 		$k = $1 :
 	($param =~ /^(\+|\-|plus|minus|both)$/i) ?
 		$strand = $1 :
+	($param =~ /^(nogap)$/i) ?
+		$nogap = 'true' :
 	($param =~ /^(debug)$/i) ?
 		$debug = 'true' :
 	(not $slash) ?  # 上記に当てはまらず最後の要素: $query_string へ
@@ -145,6 +148,11 @@ $strand =~ s/^plus$/+/i ;             # plus  -> +
 $strand =~ s/^minus$/-/i ;            # minus -> -
 $strand =~ s/^both$//i ;              # both  -> 空欄
 
+$nogap =                              # nogapモード
+	$query{'nogap'} //                # 1) QUERY_STRINGから
+	$nogap          //                # 2) QUERY_STRING未指定 → URIから
+	'' ;                              # 3) URI未指定 → 空欄
+
 $format =                             # 出力フォーマット
 	(defined $query{'format'} and $query{'format'} =~ /^(html|txt|csv|bed|gff|json)?$/i) ?
 	lc($query{'format'}) :            # 1) QUERY_STRINGから
@@ -168,11 +176,12 @@ $debug =                              # デバッグモード
 #- ▼ パラメータからURIを生成してリダイレクト
 my $redirect_uri = '/' ;
 $redirect_uri .= ($request_uri =~ m{^/(test|bitst)/}) ? "$1/" : '' ;  # テストページ対応
-$redirect_uri .= $debug ? "debug/" : '' ;
-$redirect_uri .= $lang ? "$lang/" : '' ;
-$redirect_uri .= $db   ? "$db/"   : '' ;
-$redirect_uri .= $k    ? "$k/"    : '' ;  # 値が 0 の場合は /0/ を省略
+$redirect_uri .= $debug    ? "debug/"    : '' ;
+$redirect_uri .= $lang     ? "$lang/"    : '' ;
+$redirect_uri .= $db       ? "$db/"      : '' ;
+$redirect_uri .= $k        ? "$k/"       : '' ;  # 値が 0 の場合は /0/ を省略
 $redirect_uri .= $strand   ? "$strand/"  : '' ;
+$redirect_uri .= $nogap    ? "nogap/"    : '' ;
 $redirect_uri .= $query_string ;
 $redirect_uri .= $format   ? ".$format"  : '' ;
 $redirect_uri .= $download ? '.download' : '' ;
@@ -196,6 +205,7 @@ $lang     ||= ($0 =~ /ja$/) ? 'ja' :  # lang が未定義で実行ファイル�
 $db       ||= 'hg19' ;
 $k        ||= 0 ;
 $strand   ||= '' ;
+$nogap    ||= '' ;
 $format   ||= 'html' ;
 $download ||= '' ;
 $debug    ||= '' ;
@@ -252,7 +262,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -274,7 +284,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -322,7 +332,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -344,7 +354,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -391,7 +401,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -405,7 +415,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -429,7 +439,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -443,7 +453,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -464,7 +474,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -488,7 +498,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit) or
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -531,7 +541,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit, $offset, $timeout) or #CHANGE tyamamot
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, $offset, $timeout) or #CHANGE tyamamot
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -566,7 +576,7 @@ if ($format eq 'txt'){
 		#ADD end tyamamot
 
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $limit, $offset, $timeout) or #CHANGE tyamamot
+		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, $offset, $timeout) or #CHANGE tyamamot
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -610,10 +620,11 @@ if ($format eq 'txt'){
 	#--- ▽ TXT/CSV/BED/GFF/JSON出力のbase URIを生成
 	my $linkbase_uri = '/' ;
 	$linkbase_uri .= ($request_uri =~ m{^/(test|bitst)/}) ? "$1/" : '' ;  # テストページ対応
-	$linkbase_uri .= $debug ? "debug/" : '' ;
-	$linkbase_uri .= $db ? "$db/" : '' ;
-	$linkbase_uri .= $k  ? "$k/"  : '' ;  # 値が 0 の場合は /0/ を省略
+	$linkbase_uri .= $debug  ? "debug/"   : '' ;
+	$linkbase_uri .= $db     ? "$db/"     : '' ;
+	$linkbase_uri .= $k      ? "$k/"      : '' ;  # 値が 0 の場合は /0/ を省略
 	$linkbase_uri .= $strand ? "$strand/" : '' ;
+	$linkbase_uri .= $nogap  ? "nogap/"   : '' ;
 	$linkbase_uri .= $query_string ;
 	#--- △ TXT/CSV/BED/GFF/JSON出力のbase URIを生成
 
@@ -655,6 +666,7 @@ if ($format eq 'txt'){
 		DB           => $db,
 		K            => $k,
 		STRAND       => $strand,
+		NOGAP        => $nogap,
 		QUERY        => $query_string,
 		FORMAT       => $format,
 		DOWNLOAD     => $download,
