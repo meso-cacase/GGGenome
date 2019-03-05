@@ -1318,6 +1318,14 @@ my $strand_selection =
 ($strand and $strand eq '-') ? $strand_selection =~ s/minus/minus checked/ :
                                $strand_selection =~ s/both/both checked/   ;
 #-- △ strand選択ボタン
+
+#-- ▽ nogap選択ボタン
+my $nogap_selection =
+"<input type=radio name=nogap value=0>ミスマッチ/ギャップを許容
+<input type=radio name=nogap value=1>ミスマッチのみ許容 ：" ;
+$nogap ? $nogap_selection =~ s/value=1/value=1 checked/ :
+         $nogap_selection =~ s/value=0/value=0 checked/ ;
+#-- △ nogap選択ボタン
 #- ▲ 検索結果ページを出力：default
 
 #- ▼ エラーページを出力：引数が ERROR で始まる場合
@@ -1367,6 +1375,7 @@ $template_index->param(
 	SELECT => $select,
 	K      => $k,
 	STRAND => $strand_selection,
+	NOGAP  => $nogap_selection,
 	CHATA  => $chata,
 	HTML   => $html
 ) ;
@@ -1412,6 +1421,14 @@ my $strand_selection =
 ($strand and $strand eq '-') ? $strand_selection =~ s/minus/minus checked/ :
                                $strand_selection =~ s/both/both checked/   ;
 #-- △ strand選択ボタン
+
+#-- ▽ nogap選択ボタン
+my $nogap_selection =
+"<input type=radio name=nogap value=0>mismatches/gaps
+<input type=radio name=nogap value=1>mismatches :" ;
+$nogap ? $nogap_selection =~ s/value=1/value=1 checked/ :
+         $nogap_selection =~ s/value=0/value=0 checked/ ;
+#-- △ nogap選択ボタン
 #- ▲ 検索結果ページを出力：default
 
 #- ▼ エラーページを出力：引数が ERROR で始まる場合
@@ -1461,6 +1478,7 @@ $template_index->param(
 	SELECT => $select,
 	K      => $k,
 	STRAND => $strand_selection,
+	NOGAP  => $nogap_selection,
 	CHATA  => $chata,
 	HTML   => $html
 ) ;

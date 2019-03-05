@@ -98,12 +98,16 @@ function hideDebug() {
 <p>
 <input type=text name=query size=70 value='<TMPL_VAR NAME=QUERY>'>
 <input type=submit value='検索'>
+</p>
+<p>
+データベース：<br>&emsp;
 <select id=db name=db>
 <TMPL_VAR NAME=SELECT>
 </select>
-<br>
-許容するミスマッチ/ギャップの数：<input type=text name=k size=3 value='<TMPL_VAR NAME=K>'>
-(検索する塩基配列の長さの25%まで)
+</p>
+<p>
+<TMPL_VAR NAME=NOGAP>
+<input type=text name=k size=3 value='<TMPL_VAR NAME=K>'> 塩基まで (検索する配列長の25%まで)
 <br>
 <TMPL_VAR NAME=STRAND>
 </p>

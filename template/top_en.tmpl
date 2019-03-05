@@ -29,6 +29,7 @@ URIs:
 		--><span style='color:#FF6600'>db</span>/<!--
 		--><span style='color:#0000FF'>k</span>/<!--
 		-->[<span style='color:#9933FF'>strand</span>]/<!--
+		-->[<span style='color:#00CCCC'>nogap</span>]/<!--
 		--><span style='color:#008000'>sequence</span><!--
 		-->[.<span style='color:#FF0080'>format</span>]<!--
 		-->[.<span style='color:brown'>download</span>]
@@ -40,6 +41,8 @@ URIs:
 			Maximum number of mismatches/gaps. (default: 0)
 		<li><span style='color:#9933FF'>strand</span>:
 			'+' ('plus') or '-' ('minus') to search specified strand only. (optional)
+		<li><span style='color:#00CCCC'>nogap</span>:
+			No gaps. Allow only <span style='color:#0000FF'>k</span> mismatches. (optional)
 		<li><span style='color:#008000'>sequence</span>:
 			Nucleotide sequence, case insensitive.
 		<li><span style='color:#FF0080'>format</span>:
@@ -57,19 +60,21 @@ URIs:
 		<li>with perfect matches (default),
 		<li>output in <span style='color:#FF0080'>html</span> format (default).
 	</ul>
-	<li>Example 2: <a href='http://GGGenome.dbcls.jp/mm10/2/+/TTCATTGACAACATTGCGT.txt'><!--
+	<li>Example 2: <a href='http://GGGenome.dbcls.jp/mm10/2/+/nogap/TTCATTGACAACATTGCGT.txt'><!--
 		-->http://GGGenome.dbcls.jp/<!--
 		--><span style='color:#FF6600'>mm10</span>/<!--
 		--><span style='color:#0000FF'>2</span>/<!--
 		--><span style='color:#9933FF'>+</span>/<!--
+		--><span style='color:#00CCCC'>nogap</span>/<!--
 		--><span style='color:#008000'>TTCATTGACAACATTGCGT</span><!--
 		-->.<span style='color:#FF0080'>txt</span><!--
 		--></a>
 	<ul>
 		<li>Search <span style='color:#008000'>TTCATTGACAACATTGCGT</span> in
 		<li>mouse genome <span style='color:#FF6600'>mm10</span>,
-		<li>allowing <span style='color:#0000FF'>2</span> mismatches/gaps,
+		<li>allowing <span style='color:#0000FF'>2</span> mismatches,
 		<li>search for <span style='color:#9933FF'>+</span> strand only,
+		<li>with <span style='color:#00CCCC'>nogap</span> (allow only mismatches),
 		<li>output in tab-delimited <span style='color:#FF0080'>txt</span> format.
 	</ul>
 </ul>
@@ -78,6 +83,7 @@ URIs:
 <div>
 What's new:
 <ul>
+	<li>2019-03-06 nogap (no gaps in alignment) option is available.
 	<li>2019-01-22 Database updated to RefSeq rel. 92 (Jan, 2019).
 	<li>2019-01-09 Database updated to DDBJ rel. 115.0 (Dec, 2018).
 	<li>2018-12-13 TXT/CSV/JSON output includes sequence alignment and numbers of mismatches etc.

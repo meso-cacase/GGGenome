@@ -98,12 +98,17 @@ function hideDebug() {
 <p>
 <input type=text name=query size=70 value='<TMPL_VAR NAME=QUERY>'>
 <input type=submit value='Search'>
+</p>
+<p>
+Database:<br>&emsp;
 <select id=db name=db>
 <TMPL_VAR NAME=SELECT>
 </select>
-<br>
-Max number of mismatches/gaps: <input type=text name=k size=3 value='<TMPL_VAR NAME=K>'>
-(no more than 25% of the query length)
+</p>
+<p>
+Max number of
+<TMPL_VAR NAME=NOGAP>
+<input type=text name=k size=3 value='<TMPL_VAR NAME=K>'> (no more than 25% of the query length)
 <br>
 <TMPL_VAR NAME=STRAND>
 </p>
