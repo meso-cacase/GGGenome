@@ -6,7 +6,6 @@ package DBlist ;
 # DB	host	port	source	fullname	synonym(複数の場合は;で区切る)
 #
 # ホスト一覧：
-# 172.18.8.70	ssd.dbcls.jp
 # 172.18.8.71	s01.dbcls.jp
 # 172.18.8.72	s02.dbcls.jp
 # 172.18.8.73	s03.dbcls.jp
@@ -248,14 +247,14 @@ Cp4.1                    	172.18.8.72	28213	    	Cucurbita pepo subsp. pepo (Zuc
 WCG_v1                   	172.18.8.72	28214	    	Citrullus lanatus subsp. vulgaris (Charleston Gray) genome, v1	Citrullus lanatus subsp. vulgaris;watermelon
 W97103_v1                	172.18.8.72	28215	    	Citrullus lanatus subsp. vulgaris (97103) genome, v1	Citrullus lanatus subsp. vulgaris;watermelon
 HanXRQr1.0               	172.18.8.72	28216	    	Helianthus annuus genome, HanXRQr1.0 (Dec, 2015)	Helianthus annuus;sunflower
-Xenla7                   	172.18.8.70	28217	Xenbase	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)	Xenopus laevis;african clawed frog
-TAIR10                   	172.18.8.70	28218	    	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)	Arabidopsis thaliana;thale cress
-rice                     	172.18.8.70	28219	RAP-DB	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)	Oryza sativa ssp. japonica;rice
-sorBic                   	172.18.8.70	28220	    	Sorghum genome, Sorghum bicolor v2.1 (May, 2013)	Sorghum bicolor
-bmor1                    	172.18.8.70	28221	Ensembl	Silkworm genome, Bmor1 (Apr, 2008)	Bombyx mori
-pombe                    	172.18.8.70	28222	EnsemblFungi	Schizosaccharomyces pombe (972h-) genome, ASM294v2 (Nov, 2007)	Schizosaccharomyces pombe;fission yeast
+Xenla7                   	172.18.8.72	28217	Xenbase	Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)	Xenopus laevis;african clawed frog
+TAIR10                   	172.18.8.72	28218	    	Arabidopsis thaliana genome, TAIR10 (Nov, 2010)	Arabidopsis thaliana;thale cress
+rice                     	172.18.8.72	28219	RAP-DB	Rice genome, Os-Nipponbare-Reference-IRGSP-1.0 (Oct, 2011)	Oryza sativa ssp. japonica;rice
+sorBic                   	172.18.8.72	28220	    	Sorghum genome, Sorghum bicolor v2.1 (May, 2013)	Sorghum bicolor
+bmor1                    	172.18.8.76	28221	Ensembl	Silkworm genome, Bmor1 (Apr, 2008)	Bombyx mori
+pombe                    	172.18.8.76	28222	EnsemblFungi	Schizosaccharomyces pombe (972h-) genome, ASM294v2 (Nov, 2007)	Schizosaccharomyces pombe;fission yeast
 MG8                      	172.18.8.77	28223	EnsemblFungi	Magnaporthe oryzae (70-15) genome, MG8 (Sep, 2011)	Magnaporthe oryzae;rice blast fungus
-prok                     	172.18.8.70	28224	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)	
+prok                     	172.18.8.72	28224	    	Prokaryotic TogoGenome from RefSeq 62 (Nov, 2013)	
 Xentr7                   	172.18.8.77	28225	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 7.1	Xenopus tropicalis;western clawed frog
 Xentr8                   	172.18.8.77	28226	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 8.0	Xenopus tropicalis;western clawed frog
 Xentr9                   	172.18.8.77	28227	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 9.0	Xenopus tropicalis;western clawed frog
