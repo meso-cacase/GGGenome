@@ -876,7 +876,7 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 92 (Jan, 2019)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 93 (Mar, 2019)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
@@ -7489,7 +7489,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq92/'>refseq92</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq93/'>refseq93</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 93 (Mar, 2019)
+</tr>
+<tr>
+	<td><a href='/refseq92/'>refseq92</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -7989,6 +7997,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2019-04-03 Database updated to RefSeq rel. 93 (Mar, 2019).
 	<li>2019-03-06 nogap (no gaps in alignment) option is available.
 	<li>2019-01-22 Database updated to RefSeq rel. 92 (Jan, 2019).
 	<li>2019-01-09 Database updated to DDBJ rel. 115.0 (Dec, 2018).
@@ -8114,7 +8123,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Mar 6, 2019 by
+<p class=g>Last modified on Apr 3, 2019 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
