@@ -1,8 +1,9 @@
 GGGenome《ゲゲゲノム》
 ======================
 
-GGGenome is an ultrafast search engine for nucleotide sequences.  
-Freely available to all users.
+**GGGenome** is an ultrafast search engine for nucleotide sequences.  
+The web server of GGGenome is freely available to all users.  
+English version of GGGenome: https://GGGenome.dbcls.jp/en/
 
 ゲノム等の塩基配列を高速に検索するウェブサービスです。  
 数塩基のミスマッチ、挿入、欠失を許容した配列検索が可能です。  
@@ -109,7 +110,7 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
 License
 --------
 
-Copyright &copy; 2012-2018 Yuki Naito
+Copyright &copy; 2012-2019 Yuki Naito
  ([@meso_cacase](http://twitter.com/meso_cacase)) at  
 Database Center for Life Science (DBCLS), Japan.  
 This software is distributed under
