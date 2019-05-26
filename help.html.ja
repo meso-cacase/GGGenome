@@ -370,9 +370,9 @@ function set_strand(){
 	<option value='WCG_v1'                   synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (Charleston Gray) genome, v1</option>
 	<option value='W97103_v1'                synonym="Citrullus lanatus subsp. vulgaris;watermelon">Citrullus lanatus subsp. vulgaris (97103) genome, v1</option>
 	<option value='ASM9120v1'                synonym="Cyanidioschyzon merolae;red alga">Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)</option>
-	<option value='Gmax_Wm82.a2.v1'          synonym="Glycine max;soybean">Glycine max genome, Wm82.a2.v1/v2.0</option>
-	<option value='Soybn_V2.0'               synonym="Glycine max;soybean">Glycine max genome, v2.0 (Nov, 2015)</option>
-	<option value='Soybn_V1.0'               synonym="Glycine max;soybean">Glycine max genome, V1.0 (Jan, 2010)</option>
+	<option value='Gmax_Wm82.a2.v1'          synonym="Glycine max;soybean">Glycine max genome, Wm82.a2.v1/v2.0 Phytozome Gmax_275</option>
+	<option value='Soybn_V2.0'               synonym="Glycine max;soybean">Glycine max genome, v2.0 EnsemblPlants (Nov, 2015)</option>
+	<option value='Soybn_V1.0'               synonym="Glycine max;soybean">Glycine max genome, V1.0 EnsemblPlants (Jan, 2010)</option>
 	<option value='Horvu_v1'                 synonym="Hordeum vulgare;barley">Hordeum vulgare genome, 082214v1 (Mar, 2012)</option>
 	<option value='Lperr_V1.4'               synonym="Leersia perrieri">Leersia perrieri genome, Lperr_V1.4 (Mar, 2014)</option>
 	<option value='MedtrA17_4.0'             synonym="Medicago truncatula str. A17;barrel medic">Medicago truncatula str. A17 genome, MedtrA17_4.0 (Jun, 2014)</option>

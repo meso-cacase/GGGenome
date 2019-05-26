@@ -205,8 +205,8 @@ Braol_v2.1               	172.18.8.75	28171	EnsemblPlants	Brassica oleracea geno
 IVFCAASv1                	172.18.8.75	28172	EnsemblPlants	Brassica rapa genome, IVFCAASv1 (Aug, 2009)	Brassica rapa ssp. pekinensis;chinese cabbage
 Chlre_v3.1               	172.18.8.75	28173	EnsemblPlants	Chlamydomonas reinhardtii genome, v3.1 (Nov, 2007)	Chlamydomonas reinhardtii;green algae
 ASM9120v1                	172.18.8.75	28174	EnsemblPlants	Cyanidioschyzon merolae genome, ASM9120v1 (Nov, 2008)	Cyanidioschyzon merolae;red alga
-Soybn_V1.0               	172.18.8.75	28175	EnsemblPlants	Glycine max genome, V1.0 (Jan, 2010)	Glycine max;soybean
-Soybn_V2.0               	172.18.8.75	28176	EnsemblPlants	Glycine max genome, v2.0 (Nov, 2015)	Glycine max;soybean
+Soybn_V1.0               	172.18.8.75	28175	EnsemblPlants	Glycine max genome, V1.0 EnsemblPlants (Jan, 2010)	Glycine max;soybean
+Soybn_V2.0               	172.18.8.75	28176	EnsemblPlants	Glycine max genome, v2.0 EnsemblPlants (Nov, 2015)	Glycine max;soybean
 Horvu_v1                 	172.18.8.75	28177	EnsemblPlants	Hordeum vulgare genome, 082214v1 (Mar, 2012)	Hordeum vulgare;barley
 Lperr_V1.4               	172.18.8.75	28178	EnsemblPlants	Leersia perrieri genome, Lperr_V1.4 (Mar, 2014)	Leersia perrieri
 MedtrA17_4.0             	172.18.8.75	28179	EnsemblPlants	Medicago truncatula str. A17 genome, MedtrA17_4.0 (Jun, 2014)	Medicago truncatula str. A17;barrel medic
@@ -352,7 +352,7 @@ Rcommunis_TIGR.0.1       	172.18.8.74	28309	Phytozome	Ricinus communis genome, v
 Spolyrhiza_v1            	172.18.8.74	28310	Phytozome	Spirodela polyrhiza genome, v2	Spirodela polyrhiza;giant duckweed
 Vcarteri_v2              	172.18.8.74	28311	Phytozome	Volvox carteri genome, v2.0	Volvox carteri;green alga
 Ptrichocarpa_v3.0        	172.18.8.74	28312	Phytozome	Populus trichocarpa genome, v3.0	Populus trichocarpa;western balsam poplar
-Gmax_Wm82.a2.v1          	172.18.8.74	28791	Phytozome	Glycine max genome, Wm82.a2.v1/v2.0	Glycine max;soybean
+Gmax_Wm82.a2.v1          	172.18.8.74	28791	Phytozome	Glycine max genome, Wm82.a2.v1/v2.0 Phytozome Gmax_275	Glycine max;soybean
 GCA_000009725.1          	172.18.8.72	28313	CyanoBase	Synechocystis sp. PCC 6803 genome, GCA_000009725.1	
 GCA_000009705.1          	172.18.8.72	28314	CyanoBase	Nostoc sp. PCC 7120 genome, GCA_000009705.1	
 GCA_000011345.1          	172.18.8.72	28315	CyanoBase	Thermosynechococcus elongatus BP-1 genome, GCA_000011345.1	
