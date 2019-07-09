@@ -306,7 +306,7 @@ asagao                   	172.18.8.72	28270	         	Ipomoea nil (Tokyo Kokei S
 malus_x_domestica_v1.0p  	172.18.8.72	28271	         	Malus domestica genome, v1.0p (Aug, 2012)	Malus domestica;apple
 fragaria_vesca_v2.0.a1   	172.18.8.72	28272	         	Fragaria vesca genome, v2.0.a1 (Dec, 2014)	Fragaria vesca;strawberry
 Brapa_v1.5               	172.18.8.72	28273	         	Brassica rapa genome, v1.5 (May, 2013)	Brassica rapa ssp. pekinensis;chinese cabbage
-Bomo_silkbase            	172.18.8.72	28274	SilkBase 	Silkworm genome, SilkBase assembly (Jan, 2017)	Bombyx mori
+Bomo_silkbase            	172.18.8.72	28274	SilkBase 	Silkworm genome, SilkBase assembly (Nov, 2016)	Bombyx mori
 SL2.4                    	172.18.8.72	28275	         	Solanum lycopersicum genome, SL2.40 (Jan, 2011)	Solanum lycopersicum;tomato
 SL3.0                    	172.18.8.72	28276	         	Solanum lycopersicum genome, SL3.00 (Feb, 2017)	Solanum lycopersicum;tomato
 ChineseLong_v2           	172.18.8.72	28277	         	Cucumis sativus (Chinese long) genome, v2	Cucumis sativus;cucumber

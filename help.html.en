@@ -325,7 +325,7 @@ Database:<br>&emsp;
 	<option value='Aqu1'                     synonym="Amphimedon queenslandica;sponge">Amphimedon queenslandica genome, Aqu1 (Oct, 2010)</option>
 	<option value='Aros_1.0'                 synonym="Athalia rosae;turnip sawfly;coleseed sawfly">Athalia rosae genome, Aros_1.0 (Mar, 2013)</option>
 	<option value='Attacep1.0'               synonym="Atta cephalotes;leafcutter ant">Atta cephalotes genome, Attacep1.0 (Jul, 2012)</option>
-	<option value='Bomo_silkbase'            synonym="Bombyx mori">Silkworm genome, SilkBase assembly (Jan, 2017)</option>
+	<option value='Bomo_silkbase'            synonym="Bombyx mori">Silkworm genome, SilkBase assembly (Nov, 2016)</option>
 	<option value='ASM15162v1'               synonym="Bombyx mori">Silkworm genome, ASM15162v1 (Feb, 2013)</option>
 	<option value='bmor1'                    synonym="Bombyx mori">Silkworm genome, Bmor1 (Apr, 2008)</option>
 	<option value='B_malayi_3.0'             synonym="Brugia malayi;filarial nematode worm">Brugia malayi genome, B_malayi-3.0 (Dec, 2012)</option>
@@ -3685,7 +3685,7 @@ set_strand() ;
 	<td>Silkworm
 	<td>Bombyx mori
 	<td><a target='_blank' href='http://silkbase.ab.a.u-tokyo.ac.jp/cgi-bin/download.cgi'><!--
-		-->SilkBase assembly (Jan, 2017)</a>
+		-->SilkBase assembly (Nov, 2016)</a>
 </tr>
 <tr>
 	<td><a href='/bmor1/'>bmor1</a>
@@ -8027,7 +8027,7 @@ set_strand() ;
 	<li>2017-07-03 Database updated to DDBJ rel. 109.0 (May, 2017).
 	<li>2017-06-15 Added 7 genome databases -
 		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>List</a>
-	<li>2017-06-14 Silkworm genome (SilkBase, 2017) is available.
+	<li>2017-06-14 Silkworm genome (SilkBase, Nov. 2016) is available.
 	<li>2017-06-09 Human Japanese Reference Genome JRGv2/decoyJRGv2 are available.
 	<li>2017-06-09 GENCODE human 26 (Mar, 2017) and mouse M13 (Mar, 2017) are available.
 	<li>2017-05-18 Database updated to RefSeq rel. 82 (May, 2017).
@@ -8116,7 +8116,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jun 6, 2019 by
+<p class=g>Last modified on Jul 10, 2019 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
