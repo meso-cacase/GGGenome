@@ -904,6 +904,14 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
+	<option value='hg38_refSeqCuratedProtCoding_prespliced_d3g1906' synonym="Homo sapiens">Human pre-spliced RNA, RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)</option>
+	<option value='hg38_refSeqCuratedProtCoding_spliced_d3g1906'    synonym="Homo sapiens">Human spliced RNA, RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)</option>
+	<option value='mm10_refSeqCuratedProtCoding_prespliced_d3g1906' synonym="Mus musculus">Mouse pre-spliced RNA, RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)</option>
+	<option value='mm10_refSeqCuratedProtCoding_spliced_d3g1906'    synonym="Mus musculus">Mouse spliced RNA, RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)</option>
+	<option value='macFas5_refGene_prespliced_d3g1906'              synonym="Macaca fascicularis">Crab-eating macaque pre-spliced RNA, refGene on macFas5, D3G 19.06 (Jun, 2019)</option>
+	<option value='macFas5_refGene_spliced_d3g1906'                 synonym="Macaca fascicularis">Crab-eating macaque spliced RNA, refGene on macFas5, D3G 19.06 (Jun, 2019)</option>
+	<option value='calJac3_refGene_prespliced_d3g1906'              synonym="Callithrix jacchus">Marmoset pre-spliced RNA, refGene on calJac3, D3G 19.06 (Jun, 2019)</option>
+	<option value='calJac3_refGene_spliced_d3g1906'                 synonym="Callithrix jacchus">Marmoset spliced RNA, refGene on calJac3, D3G 19.06 (Jun, 2019)</option>
 	<option value='hg38_ncbiRefSeqCurated_spliced_20180411'        synonym="Homo sapiens">Human spliced mRNA, RefSeq 20170306 on hg38 (Apr. 2018)</option>
 	<option value='hg38_ncbiRefSeqCurated_unspliced_20180411'      synonym="Homo sapiens">Human unspliced mRNA, RefSeq 20170306 on hg38 (Apr. 2018)</option>
 	<option value='hg38_wgEncodeGencodeCompV27_spliced_20180411'   synonym="Homo sapiens">Human spliced mRNA, GENCODE27 20170925 on hg38 (Apr. 2018)</option>

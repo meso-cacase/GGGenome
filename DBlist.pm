@@ -781,6 +781,14 @@ hg38_ncbiRefSeqCurated_unspliced_redundant_20180411      	172.18.8.75	28794		Hum
 hg38_wgEncodeGencodeCompV27_spliced_20180411             	172.18.8.75	28724		Human spliced mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
 hg38_wgEncodeGencodeCompV27_unspliced_20180411           	172.18.8.75	28725		Human unspliced mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
 hg38_wgEncodeGencodeCompV27_unspliced_redundant_20180411 	172.18.8.75	28795		Human unspliced redundant mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
+hg38_refSeqCuratedProtCoding_prespliced_d3g1906          	172.18.8.75	28799	D3G	Human pre-spliced RNA, RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)	Homo sapiens
+hg38_refSeqCuratedProtCoding_spliced_d3g1906             	172.18.8.75	28800	D3G	Human spliced RNA, RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)	Homo sapiens
+mm10_refSeqCuratedProtCoding_prespliced_d3g1906          	172.18.8.75	28801	D3G	Mouse pre-spliced RNA, RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)	Mus musculus
+mm10_refSeqCuratedProtCoding_spliced_d3g1906             	172.18.8.75	28802	D3G	Mouse spliced RNA, RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)	Mus musculus
+macFas5_refGene_prespliced_d3g1906                       	172.18.8.75	28803	D3G	Crab-eating macaque pre-spliced RNA, refGene on macFas5, D3G 19.06 (Jun, 2019)	Macaca fascicularis
+macFas5_refGene_spliced_d3g1906                          	172.18.8.75	28804	D3G	Crab-eating macaque spliced RNA, refGene on macFas5, D3G 19.06 (Jun, 2019)	Macaca fascicularis
+calJac3_refGene_prespliced_d3g1906                       	172.18.8.75	28805	D3G	Marmoset pre-spliced RNA, refGene on calJac3, D3G 19.06 (Jun, 2019)	Callithrix jacchus
+calJac3_refGene_spliced_d3g1906                          	172.18.8.75	28806	D3G	Marmoset spliced RNA, refGene on calJac3, D3G 19.06 (Jun, 2019)	Callithrix jacchus
 GENCODE_26               	172.18.8.75	28726	GENCODE  	GENCODE human release 26 (Mar, 2017)	Homo sapiens
 GENCODE_27               	172.18.8.75	28727	GENCODE  	GENCODE human release 27 (Aug, 2017)	Homo sapiens
 GENCODE_28               	172.18.8.75	28728	GENCODE  	GENCODE human release 28 (Apr, 2018)	Homo sapiens

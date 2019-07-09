@@ -751,6 +751,14 @@ $dbmenu = <<"--EOS--" ;
 
 	<option disabled>--------------------</option>
 
+	<option value=\'hg38_refSeqCuratedProtCoding_prespliced_d3g1906\' synonym=\"$db_synonym{'hg38_refSeqCuratedProtCoding_prespliced_d3g1906' }\">$db_fullname{'hg38_refSeqCuratedProtCoding_prespliced_d3g1906' }</option>
+	<option value=\'hg38_refSeqCuratedProtCoding_spliced_d3g1906\'    synonym=\"$db_synonym{'hg38_refSeqCuratedProtCoding_spliced_d3g1906'    }\">$db_fullname{'hg38_refSeqCuratedProtCoding_spliced_d3g1906'    }</option>
+	<option value=\'mm10_refSeqCuratedProtCoding_prespliced_d3g1906\' synonym=\"$db_synonym{'mm10_refSeqCuratedProtCoding_prespliced_d3g1906' }\">$db_fullname{'mm10_refSeqCuratedProtCoding_prespliced_d3g1906' }</option>
+	<option value=\'mm10_refSeqCuratedProtCoding_spliced_d3g1906\'    synonym=\"$db_synonym{'mm10_refSeqCuratedProtCoding_spliced_d3g1906'    }\">$db_fullname{'mm10_refSeqCuratedProtCoding_spliced_d3g1906'    }</option>
+	<option value=\'macFas5_refGene_prespliced_d3g1906\'              synonym=\"$db_synonym{'macFas5_refGene_prespliced_d3g1906'              }\">$db_fullname{'macFas5_refGene_prespliced_d3g1906'              }</option>
+	<option value=\'macFas5_refGene_spliced_d3g1906\'                 synonym=\"$db_synonym{'macFas5_refGene_spliced_d3g1906'                 }\">$db_fullname{'macFas5_refGene_spliced_d3g1906'                 }</option>
+	<option value=\'calJac3_refGene_prespliced_d3g1906\'              synonym=\"$db_synonym{'calJac3_refGene_prespliced_d3g1906'              }\">$db_fullname{'calJac3_refGene_prespliced_d3g1906'              }</option>
+	<option value=\'calJac3_refGene_spliced_d3g1906\'                 synonym=\"$db_synonym{'calJac3_refGene_spliced_d3g1906'                 }\">$db_fullname{'calJac3_refGene_spliced_d3g1906'                 }</option>
 	<option value=\'hg38_ncbiRefSeqCurated_spliced_20180411\'        synonym=\"$db_synonym{'hg38_ncbiRefSeqCurated_spliced_20180411'        }\">$db_fullname{'hg38_ncbiRefSeqCurated_spliced_20180411'        }</option>
 	<option value=\'hg38_ncbiRefSeqCurated_unspliced_20180411\'      synonym=\"$db_synonym{'hg38_ncbiRefSeqCurated_unspliced_20180411'      }\">$db_fullname{'hg38_ncbiRefSeqCurated_unspliced_20180411'      }</option>
 	<option value=\'hg38_wgEncodeGencodeCompV27_spliced_20180411\'   synonym=\"$db_synonym{'hg38_wgEncodeGencodeCompV27_spliced_20180411'   }\">$db_fullname{'hg38_wgEncodeGencodeCompV27_spliced_20180411'   }</option>
