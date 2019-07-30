@@ -7942,6 +7942,78 @@ set_strand() ;
 	<td>Crab-eating macaque CDS, CE_1.0 (Jul, 2011)
 </tr>
 <tr>
+	<td><a href='/hg38_refSeqCuratedProtCoding_prespliced_d3g1906/'>hg38_refSeqCuratedProtCoding_<br>prespliced_d3g1906</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+		-->Human pre-spliced RNA,<br>RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)</a>
+</tr>
+<tr>
+	<td><a href='/hg38_refSeqCuratedProtCoding_spliced_d3g1906/'>hg38_refSeqCuratedProtCoding_<br>spliced_d3g1906</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+		-->Human spliced RNA,<br>RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)</a>
+</tr>
+<tr>
+	<td><a href='/mm10_refSeqCuratedProtCoding_prespliced_d3g1906/'>mm10_refSeqCuratedProtCoding_<br>prespliced_d3g1906</a>
+	<td>D3G
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+		-->Mouse pre-spliced RNA,<br>RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)</a>
+</tr>
+<tr>
+	<td><a href='/mm10_refSeqCuratedProtCoding_spliced_d3g1906/'>mm10_refSeqCuratedProtCoding_<br>spliced_d3g1906</a>
+	<td>D3G
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+		-->Mouse spliced RNA,<br>RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)</a>
+</tr>
+<tr>
+	<td><a href='/macFas5_refGene_prespliced_d3g1906/'>macFas5_refGene_<br>prespliced_d3g1906</a>
+	<td>D3G
+	<td>Mammal
+	<td>Crab-eating macaque
+	<td>Macaca fascicularis
+	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+		-->Crab-eating macaque pre-spliced RNA,<br>refGene on macFas5, D3G 19.06 (Jun, 2019)</a>
+</tr>
+<tr>
+	<td><a href='/macFas5_refGene_spliced_d3g1906/'>macFas5_refGene_<br>spliced_d3g1906</a>
+	<td>D3G
+	<td>Mammal
+	<td>Crab-eating macaque
+	<td>Macaca fascicularis
+	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+		-->Crab-eating macaque spliced RNA,<br>refGene on macFas5, D3G 19.06 (Jun, 2019)</a>
+</tr>
+<tr>
+	<td><a href='/calJac3_refGene_prespliced_d3g1906/'>calJac3_refGene_<br>prespliced_d3g1906</a>
+	<td>D3G
+	<td>Mammal
+	<td>Marmoset
+	<td>Callithrix jacchus
+	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+		-->Marmoset pre-spliced RNA,<br>refGene on calJac3, D3G 19.06 (Jun, 2019)</a>
+</tr>
+<tr>
+	<td><a href='/calJac3_refGene_spliced_d3g1906/'>calJac3_refGene_<br>spliced_d3g1906</a>
+	<td>D3G
+	<td>Mammal
+	<td>Marmoset
+	<td>Callithrix jacchus
+	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+		-->Marmoset spliced RNA,<br>refGene on calJac3, D3G 19.06 (Jun, 2019)</a>
+</tr>
+<tr>
 	<td><a href='/hg38_ncbiRefSeqCurated_spliced_20180411/'>hg38_ncbiRefSeqCurated_<br>spliced_20180411</a>
 	<td>D3G
 	<td>Mammal
@@ -8124,7 +8196,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jul 10, 2019 by
+<p class=g>Last modified on Jul 30, 2019 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
