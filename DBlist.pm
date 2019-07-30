@@ -803,28 +803,28 @@ miRBase22mat             	172.18.8.72	28736	miRBase  	miRBase release 22, mature
 togogenome92             	172.18.8.71	27920	         	TogoGenome from RefSeq 92 (Jan, 2019)	
 togogenome               	172.18.8.71	27920	         	TogoGenome from RefSeq 92 (Jan, 2019)	
 ddbj92                   	172.18.8.76	42313	DDBJ     	DDBJ release 92.0 (Feb, 2013)	
-ddbj115                  	172.18.8.71	27700	DDBJ     	DDBJ release 115.0 (Dec, 2018)	
-ddbj                     	172.18.8.71	27700	DDBJ     	DDBJ release 115.0 (Dec, 2018)	
-ddbj115hum               	172.18.8.77	27701	DDBJ     	DDBJ release 115.0, HUM division (Dec, 2018)	ddbjhum
-ddbj115pri               	172.18.8.76	27702	DDBJ     	DDBJ release 115.0, PRI division (Dec, 2018)	ddbjpri
-ddbj115rod               	172.18.8.72	27703	DDBJ     	DDBJ release 115.0, ROD division (Dec, 2018)	ddbjrod
-ddbj115mam               	172.18.8.76	27704	DDBJ     	DDBJ release 115.0, MAM division (Dec, 2018)	ddbjmam
-ddbj115vrt               	172.18.8.76	27705	DDBJ     	DDBJ release 115.0, VRT division (Dec, 2018)	ddbjvrt
-ddbj115inv               	172.18.8.73	27706	DDBJ     	DDBJ release 115.0, INV division (Dec, 2018)	ddbjinv
-ddbj115pln               	172.18.8.78	27707	DDBJ     	DDBJ release 115.0, PLN division (Dec, 2018)	ddbjpln
-ddbj115bct               	172.18.8.78	27708	DDBJ     	DDBJ release 115.0, BCT division (Dec, 2018)	ddbjbct
-ddbj115vrl               	172.18.8.75	27709	DDBJ     	DDBJ release 115.0, VRL division (Dec, 2018)	ddbjvrl
-ddbj115phg               	172.18.8.78	27710	DDBJ     	DDBJ release 115.0, PHG division (Dec, 2018)	ddbjphg
-ddbj115pat               	172.18.8.77	27711	DDBJ     	DDBJ release 115.0, PAT division (Dec, 2018)	ddbjpat
-ddbj115env               	172.18.8.77	27712	DDBJ     	DDBJ release 115.0, ENV division (Dec, 2018)	ddbjenv
-ddbj115syn               	172.18.8.73	27713	DDBJ     	DDBJ release 115.0, SYN division (Dec, 2018)	ddbjsyn
-ddbj115est               	172.18.8.73	27714	DDBJ     	DDBJ release 115.0, EST division (Dec, 2018)	ddbjest
-ddbj115tsa               	172.18.8.72	27715	DDBJ     	DDBJ release 115.0, TSA division (Dec, 2018)	ddbjtsa
-ddbj115gss               	172.18.8.76	27716	DDBJ     	DDBJ release 115.0, GSS division (Dec, 2018)	ddbjgss
-ddbj115htc               	172.18.8.73	27717	DDBJ     	DDBJ release 115.0, HTC division (Dec, 2018)	ddbjhtc
-ddbj115htg               	172.18.8.72	27718	DDBJ     	DDBJ release 115.0, HTG division (Dec, 2018)	ddbjhtg
-ddbj115sts               	172.18.8.78	27719	DDBJ     	DDBJ release 115.0, STS division (Dec, 2018)	ddbjsts
-ddbj115una               	172.18.8.73	27720	DDBJ     	DDBJ release 115.0, UNA division (Dec, 2018)	ddbjuna
+ddbj116                  	172.18.8.71	27740	DDBJ     	DDBJ release 116.0 (Jun, 2019)	
+ddbj                     	172.18.8.71	27740	DDBJ     	DDBJ release 116.0 (Jun, 2019)	
+ddbj116hum               	172.18.8.77	27741	DDBJ     	DDBJ release 116.0, HUM division (Jun, 2019)	ddbjhum
+ddbj116pri               	172.18.8.76	27742	DDBJ     	DDBJ release 116.0, PRI division (Jun, 2019)	ddbjpri
+ddbj116rod               	172.18.8.72	27743	DDBJ     	DDBJ release 116.0, ROD division (Jun, 2019)	ddbjrod
+ddbj116mam               	172.18.8.76	27744	DDBJ     	DDBJ release 116.0, MAM division (Jun, 2019)	ddbjmam
+ddbj116vrt               	172.18.8.76	27745	DDBJ     	DDBJ release 116.0, VRT division (Jun, 2019)	ddbjvrt
+ddbj116inv               	172.18.8.73	27746	DDBJ     	DDBJ release 116.0, INV division (Jun, 2019)	ddbjinv
+ddbj116pln               	172.18.8.78	27747	DDBJ     	DDBJ release 116.0, PLN division (Jun, 2019)	ddbjpln
+ddbj116bct               	172.18.8.78	27748	DDBJ     	DDBJ release 116.0, BCT division (Jun, 2019)	ddbjbct
+ddbj116vrl               	172.18.8.75	27749	DDBJ     	DDBJ release 116.0, VRL division (Jun, 2019)	ddbjvrl
+ddbj116phg               	172.18.8.78	27750	DDBJ     	DDBJ release 116.0, PHG division (Jun, 2019)	ddbjphg
+ddbj116pat               	172.18.8.77	27751	DDBJ     	DDBJ release 116.0, PAT division (Jun, 2019)	ddbjpat
+ddbj116env               	172.18.8.77	27752	DDBJ     	DDBJ release 116.0, ENV division (Jun, 2019)	ddbjenv
+ddbj116syn               	172.18.8.73	27753	DDBJ     	DDBJ release 116.0, SYN division (Jun, 2019)	ddbjsyn
+ddbj116est               	172.18.8.73	27754	DDBJ     	DDBJ release 116.0, EST division (Jun, 2019)	ddbjest
+ddbj116tsa               	172.18.8.72	27755	DDBJ     	DDBJ release 116.0, TSA division (Jun, 2019)	ddbjtsa
+ddbj116gss               	172.18.8.76	27756	DDBJ     	DDBJ release 116.0, GSS division (Jun, 2019)	ddbjgss
+ddbj116htc               	172.18.8.73	27757	DDBJ     	DDBJ release 116.0, HTC division (Jun, 2019)	ddbjhtc
+ddbj116htg               	172.18.8.72	27758	DDBJ     	DDBJ release 116.0, HTG division (Jun, 2019)	ddbjhtg
+ddbj116sts               	172.18.8.78	27759	DDBJ     	DDBJ release 116.0, STS division (Jun, 2019)	ddbjsts
+ddbj116una               	172.18.8.73	27760	DDBJ     	DDBJ release 116.0, UNA division (Jun, 2019)	ddbjuna
 28781                    	172.18.8.75	28781	         	Test Database 28781	
 28782                    	172.18.8.75	28782	         	Test Database 28782	
 28783                    	172.18.8.75	28783	         	Test Database 28783	
