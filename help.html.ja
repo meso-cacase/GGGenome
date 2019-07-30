@@ -8718,7 +8718,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+	<td><a target='_blank' href='https://d3g.riken.jp/release/19.06/'><!--
 		-->Human pre-spliced RNA,<br>RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)</a>
 </tr>
 <tr>
@@ -8728,7 +8728,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+	<td><a target='_blank' href='https://d3g.riken.jp/release/19.06/'><!--
 		-->Human spliced RNA,<br>RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)</a>
 </tr>
 <tr>
@@ -8738,7 +8738,7 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+	<td><a target='_blank' href='https://d3g.riken.jp/release/19.06/'><!--
 		-->Mouse pre-spliced RNA,<br>RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)</a>
 </tr>
 <tr>
@@ -8748,7 +8748,7 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+	<td><a target='_blank' href='https://d3g.riken.jp/release/19.06/'><!--
 		-->Mouse spliced RNA,<br>RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)</a>
 </tr>
 <tr>
@@ -8758,7 +8758,7 @@ set_strand() ;
 	<td>Crab-eating macaque
 	<td>カニクイザル
 	<td>Macaca fascicularis
-	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+	<td><a target='_blank' href='https://d3g.riken.jp/release/19.06/'><!--
 		-->Crab-eating macaque pre-spliced RNA,<br>refGene on macFas5, D3G 19.06 (Jun, 2019)</a>
 </tr>
 <tr>
@@ -8768,7 +8768,7 @@ set_strand() ;
 	<td>Crab-eating macaque
 	<td>カニクイザル
 	<td>Macaca fascicularis
-	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+	<td><a target='_blank' href='https://d3g.riken.jp/release/19.06/'><!--
 		-->Crab-eating macaque spliced RNA,<br>refGene on macFas5, D3G 19.06 (Jun, 2019)</a>
 </tr>
 <tr>
@@ -8778,7 +8778,7 @@ set_strand() ;
 	<td>Marmoset
 	<td>マーモセット
 	<td>Callithrix jacchus
-	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+	<td><a target='_blank' href='https://d3g.riken.jp/release/19.06/'><!--
 		-->Marmoset pre-spliced RNA,<br>refGene on calJac3, D3G 19.06 (Jun, 2019)</a>
 </tr>
 <tr>
@@ -8788,7 +8788,7 @@ set_strand() ;
 	<td>Marmoset
 	<td>マーモセット
 	<td>Callithrix jacchus
-	<td><a target='_blank' href='http://d3g.riken.jp/release/19.06/'><!--
+	<td><a target='_blank' href='https://d3g.riken.jp/release/19.06/'><!--
 		-->Marmoset spliced RNA,<br>refGene on calJac3, D3G 19.06 (Jun, 2019)</a>
 </tr>
 <tr>
