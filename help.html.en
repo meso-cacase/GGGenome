@@ -912,10 +912,10 @@ Database:<br>&emsp;
 	<option value='macFas5_refGene_spliced_d3g1906'                 synonym="Macaca fascicularis">Crab-eating macaque spliced RNA, refGene on macFas5, D3G 19.06 (Jun, 2019)</option>
 	<option value='calJac3_refGene_prespliced_d3g1906'              synonym="Callithrix jacchus">Marmoset pre-spliced RNA, refGene on calJac3, D3G 19.06 (Jun, 2019)</option>
 	<option value='calJac3_refGene_spliced_d3g1906'                 synonym="Callithrix jacchus">Marmoset spliced RNA, refGene on calJac3, D3G 19.06 (Jun, 2019)</option>
-	<option value='hg38_ncbiRefSeqCurated_spliced_20180411'        synonym="Homo sapiens">Human spliced mRNA, RefSeq 20170306 on hg38 (Apr. 2018)</option>
-	<option value='hg38_ncbiRefSeqCurated_unspliced_20180411'      synonym="Homo sapiens">Human unspliced mRNA, RefSeq 20170306 on hg38 (Apr. 2018)</option>
-	<option value='hg38_wgEncodeGencodeCompV27_spliced_20180411'   synonym="Homo sapiens">Human spliced mRNA, GENCODE27 20170925 on hg38 (Apr. 2018)</option>
-	<option value='hg38_wgEncodeGencodeCompV27_unspliced_20180411' synonym="Homo sapiens">Human unspliced mRNA, GENCODE27 20170925 on hg38 (Apr. 2018)</option>
+	<option value='hg38_ncbiRefSeqCurated_spliced_20180411'         synonym="Homo sapiens">Human spliced mRNA, RefSeq 20170306 on hg38 (Apr, 2018)</option>
+	<option value='hg38_ncbiRefSeqCurated_unspliced_20180411'       synonym="Homo sapiens">Human unspliced mRNA, RefSeq 20170306 on hg38 (Apr, 2018)</option>
+	<option value='hg38_wgEncodeGencodeCompV27_spliced_20180411'    synonym="Homo sapiens">Human spliced mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)</option>
+	<option value='hg38_wgEncodeGencodeCompV27_unspliced_20180411'  synonym="Homo sapiens">Human unspliced mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)</option>
 
 	<option disabled>--------------------</option>
 
@@ -8019,8 +8019,8 @@ set_strand() ;
 	<td>Mammal
 	<td>Human
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://d3g.riken.jp/dataset/'><!--
-		-->Human spliced mRNA,<br>RefSeq 20170306 on hg38 (Apr. 2018)</a>
+	<td><a target='_blank' href='https://d3g.riken.jp/release/18.04/'><!--
+		-->Human spliced mRNA,<br>RefSeq 20170306 on hg38 (Apr, 2018)</a>
 </tr>
 <tr>
 	<td><a href='/hg38_ncbiRefSeqCurated_unspliced_20180411/'>hg38_ncbiRefSeqCurated_<br>unspliced_20180411</a>
@@ -8028,8 +8028,8 @@ set_strand() ;
 	<td>Mammal
 	<td>Human
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://d3g.riken.jp/dataset/'><!--
-		-->Human unspliced mRNA,<br>RefSeq 20170306 on hg38 (Apr. 2018)</a>
+	<td><a target='_blank' href='https://d3g.riken.jp/release/18.04/'><!--
+		-->Human unspliced mRNA,<br>RefSeq 20170306 on hg38 (Apr, 2018)</a>
 </tr>
 <tr>
 	<td><a href='/hg38_wgEncodeGencodeCompV27_spliced_20180411/'>hg38_wgEncodeGencodeCompV27_<br>spliced_20180411</a>
@@ -8037,8 +8037,8 @@ set_strand() ;
 	<td>Mammal
 	<td>Human
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://d3g.riken.jp/dataset/'><!--
-		-->Human spliced mRNA,<br>GENCODE27 20170925 on hg38 (Apr. 2018)</a>
+	<td><a target='_blank' href='https://d3g.riken.jp/release/18.04/'><!--
+		-->Human spliced mRNA,<br>GENCODE27 20170925 on hg38 (Apr, 2018)</a>
 </tr>
 <tr>
 	<td><a href='/hg38_wgEncodeGencodeCompV27_unspliced_20180411/'>hg38_wgEncodeGencodeCompV27_<br>unspliced_20180411</a>
@@ -8046,8 +8046,8 @@ set_strand() ;
 	<td>Mammal
 	<td>Human
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://d3g.riken.jp/dataset/'><!--
-		-->Human unspliced mRNA,<br>GENCODE27 20170925 on hg38 (Apr. 2018)</a>
+	<td><a target='_blank' href='https://d3g.riken.jp/release/18.04/'><!--
+		-->Human unspliced mRNA,<br>GENCODE27 20170925 on hg38 (Apr, 2018)</a>
 </tr>
 </tbody>
 </table>

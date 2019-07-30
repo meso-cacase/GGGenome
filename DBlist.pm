@@ -775,12 +775,12 @@ rnxm_refseq90            	172.18.8.75	28012	RefSeq   	RefSeq rat RNA (XM/XR) rel
 hg19_pre_mRNA_refGene171101	172.18.8.75	28719	         	Human pre mRNA, refGene 171101 on hg19	Homo sapiens
 hg19_pre_mRNA_FANTOMlv1  	172.18.8.75	28720	         	Human pre mRNA, FANTOM lv1 on hg19	Homo sapiens
 hg19_pre_mRNA_FANTOMlv4  	172.18.8.75	28721	         	Human pre mRNA, FANTOM lv4 on hg19	Homo sapiens
-hg38_ncbiRefSeqCurated_spliced_20180411                  	172.18.8.75	28722		Human spliced mRNA, RefSeq 20170306 on hg38 (Apr, 2018)	Homo sapiens
-hg38_ncbiRefSeqCurated_unspliced_20180411                	172.18.8.75	28723		Human unspliced mRNA, RefSeq 20170306 on hg38 (Apr, 2018)	Homo sapiens
-hg38_ncbiRefSeqCurated_unspliced_redundant_20180411      	172.18.8.75	28794		Human unspliced redundant mRNA, RefSeq 20170306 on hg38 (Apr, 2018)	Homo sapiens
-hg38_wgEncodeGencodeCompV27_spliced_20180411             	172.18.8.75	28724		Human spliced mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
-hg38_wgEncodeGencodeCompV27_unspliced_20180411           	172.18.8.75	28725		Human unspliced mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
-hg38_wgEncodeGencodeCompV27_unspliced_redundant_20180411 	172.18.8.75	28795		Human unspliced redundant mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
+hg38_ncbiRefSeqCurated_spliced_20180411                  	172.18.8.75	28722	D3G	Human spliced mRNA, RefSeq 20170306 on hg38 (Apr, 2018)	Homo sapiens
+hg38_ncbiRefSeqCurated_unspliced_20180411                	172.18.8.75	28723	D3G	Human unspliced mRNA, RefSeq 20170306 on hg38 (Apr, 2018)	Homo sapiens
+hg38_ncbiRefSeqCurated_unspliced_redundant_20180411      	172.18.8.75	28794	D3G	Human unspliced redundant mRNA, RefSeq 20170306 on hg38 (Apr, 2018)	Homo sapiens
+hg38_wgEncodeGencodeCompV27_spliced_20180411             	172.18.8.75	28724	D3G	Human spliced mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
+hg38_wgEncodeGencodeCompV27_unspliced_20180411           	172.18.8.75	28725	D3G	Human unspliced mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
+hg38_wgEncodeGencodeCompV27_unspliced_redundant_20180411 	172.18.8.75	28795	D3G	Human unspliced redundant mRNA, GENCODE27 20170925 on hg38 (Apr, 2018)	Homo sapiens
 hg38_refSeqCuratedProtCoding_prespliced_d3g1906          	172.18.8.75	28799	D3G	Human pre-spliced RNA, RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)	Homo sapiens
 hg38_refSeqCuratedProtCoding_spliced_d3g1906             	172.18.8.75	28800	D3G	Human spliced RNA, RefSeq curated protein coding on hg38, D3G 19.06 (Jun, 2019)	Homo sapiens
 mm10_refSeqCuratedProtCoding_prespliced_d3g1906          	172.18.8.75	28801	D3G	Mouse pre-spliced RNA, RefSeq curated protein coding on mm10, D3G 19.06 (Jun, 2019)	Mus musculus
