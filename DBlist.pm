@@ -732,7 +732,6 @@ GCA_001458455.1          	172.18.8.72	28688	CyanoBase	Chrysosporum ovalisporum g
 refseq70                 	172.18.8.74	28689	RefSeq   	RefSeq complete RNA release 70 (May, 2015)	
 refseq80                 	172.18.8.74	28690	RefSeq   	RefSeq complete RNA release 80 (Jan, 2017)	
 refseq90                 	172.18.8.74	28003	RefSeq   	RefSeq complete RNA release 90 (Sep, 2018)	
-refseq93                 	172.18.8.73	27493	RefSeq   	RefSeq complete RNA release 93 (Mar, 2019)	
 refseq94                 	172.18.8.74	27494	RefSeq   	RefSeq complete RNA release 94 (May, 2019)	
 refseq95                 	172.18.8.73	27495	RefSeq   	RefSeq complete RNA release 95 (Jul, 2019)	
 refseq                   	172.18.8.73	27495	RefSeq   	RefSeq complete RNA release 95 (Jul, 2019)	
