@@ -321,6 +321,9 @@ if ($format eq 'txt'){
 		'ins',
 	) ;
 	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
+
+	alarm 0 ;  # 検索結果の出力前にタイムアウト判定を解除
+
 	print_txt(join "\n", (@summary, @hit_list)) ;
 #-- △ TXT(タブ区切りテキスト)形式
 
@@ -391,6 +394,9 @@ if ($format eq 'txt'){
 		'ins',
 	) ;
 	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
+
+	alarm 0 ;  # 検索結果の出力前にタイムアウト判定を解除
+
 	print_txt(join "\n", (@summary, @hit_list)) ;
 #-- △ CSV形式
 
@@ -427,6 +433,9 @@ if ($format eq 'txt'){
 	#--- △ (-)鎖の検索実行と結果出力
 
 	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
+
+	alarm 0 ;  # 検索結果の出力前にタイムアウト判定を解除
+
 	print_txt(join "\n", (@summary, @hit_list)) ;
 #-- △ BED形式
 
@@ -465,6 +474,9 @@ if ($format eq 'txt'){
 	#--- △ (-)鎖の検索実行と結果出力
 
 	@hit_list or push @hit_list, '### No items found. ###' ;  # ヒットがゼロ件
+
+	alarm 0 ;  # 検索結果の出力前にタイムアウト判定を解除
+
 	print_txt(join "\n", (@summary, @hit_list)) ;
 #-- △ GFF形式
 
@@ -526,6 +538,9 @@ if ($format eq 'txt'){
 		results  => \@hit_list,
 		error    => 'none'
 	}) ;
+
+	alarm 0 ;  # 検索結果の出力前にタイムアウト判定を解除
+
 	print_json($json_result) ;
 #-- △ JSON形式
 
@@ -674,12 +689,13 @@ if ($format eq 'txt'){
 		TIMELOG      => "@timelog"
 	) ;
 
+	alarm 0 ;  # 検索結果の出力前にタイムアウト判定を解除
+
 	($lang eq 'ja') ? print_html_ja($template_search->output) :  # Japanese HTML
 	                  print_html_en($template_search->output) ;  # default: English HTML
 }
 #-- △ HTML形式
 
-	alarm 0 ;
 } ;
 #- △ タイムアウト処理を行う部分
 
