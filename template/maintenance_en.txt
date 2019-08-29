@@ -1,4 +1,0 @@
-NOTICE:
-<ul>
-	<li>Server maintenance: 29 Aug 2019, 11:00 to 15:00 +0900 (JST). Sorry for the inconvenience.
-</ul>
