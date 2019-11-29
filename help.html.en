@@ -876,7 +876,7 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 96 (Sep, 2019)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 97 (Nov, 2019)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
@@ -7497,7 +7497,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq96/'>refseq96</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq97/'>refseq97</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 97 (Nov, 2019)
+</tr>
+<tr>
+	<td><a href='/refseq96/'>refseq96</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -8061,6 +8069,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2019-11-29 Database updated to RefSeq rel. 97 (Nov, 2019).
 	<li>2019-11-10 Database updated to DDBJ rel. 117.0 (Oct, 2019).
 	<li>2019-09-25 Database updated to RefSeq rel. 96 (Sep, 2019).
 	<li>2019-07-31 Database updated to RefSeq rel. 95 (Jul, 2019).
@@ -8192,7 +8201,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 11, 2019 by
+<p class=g>Last modified on Nov 29, 2019 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
