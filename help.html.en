@@ -919,27 +919,27 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='ddbj'                     synonym="">DDBJ release 117.0 (Oct, 2019)</option>
-	<option value='ddbj117hum'               synonym="ddbjhum">DDBJ release 117.0, HUM division (Oct, 2019)</option>
-	<option value='ddbj117pri'               synonym="ddbjpri">DDBJ release 117.0, PRI division (Oct, 2019)</option>
-	<option value='ddbj117rod'               synonym="ddbjrod">DDBJ release 117.0, ROD division (Oct, 2019)</option>
-	<option value='ddbj117mam'               synonym="ddbjmam">DDBJ release 117.0, MAM division (Oct, 2019)</option>
-	<option value='ddbj117vrt'               synonym="ddbjvrt">DDBJ release 117.0, VRT division (Oct, 2019)</option>
-	<option value='ddbj117inv'               synonym="ddbjinv">DDBJ release 117.0, INV division (Oct, 2019)</option>
-	<option value='ddbj117pln'               synonym="ddbjpln">DDBJ release 117.0, PLN division (Oct, 2019)</option>
-	<option value='ddbj117bct'               synonym="ddbjbct">DDBJ release 117.0, BCT division (Oct, 2019)</option>
-	<option value='ddbj117vrl'               synonym="ddbjvrl">DDBJ release 117.0, VRL division (Oct, 2019)</option>
-	<option value='ddbj117phg'               synonym="ddbjphg">DDBJ release 117.0, PHG division (Oct, 2019)</option>
-	<option value='ddbj117pat'               synonym="ddbjpat">DDBJ release 117.0, PAT division (Oct, 2019)</option>
-	<option value='ddbj117env'               synonym="ddbjenv">DDBJ release 117.0, ENV division (Oct, 2019)</option>
-	<option value='ddbj117syn'               synonym="ddbjsyn">DDBJ release 117.0, SYN division (Oct, 2019)</option>
-	<option value='ddbj117est'               synonym="ddbjest">DDBJ release 117.0, EST division (Oct, 2019)</option>
-	<option value='ddbj117tsa'               synonym="ddbjtsa">DDBJ release 117.0, TSA division (Oct, 2019)</option>
-	<option value='ddbj117gss'               synonym="ddbjgss">DDBJ release 117.0, GSS division (Oct, 2019)</option>
-	<option value='ddbj117htc'               synonym="ddbjhtc">DDBJ release 117.0, HTC division (Oct, 2019)</option>
-	<option value='ddbj117htg'               synonym="ddbjhtg">DDBJ release 117.0, HTG division (Oct, 2019)</option>
-	<option value='ddbj117sts'               synonym="ddbjsts">DDBJ release 117.0, STS division (Oct, 2019)</option>
-	<option value='ddbj117una'               synonym="ddbjuna">DDBJ release 117.0, UNA division (Oct, 2019)</option>
+	<option value='ddbj'                     synonym="">DDBJ release 118.0 (Jan, 2020)</option>
+	<option value='ddbj118hum'               synonym="ddbjhum">DDBJ release 118.0, HUM division (Jan, 2020)</option>
+	<option value='ddbj118pri'               synonym="ddbjpri">DDBJ release 118.0, PRI division (Jan, 2020)</option>
+	<option value='ddbj118rod'               synonym="ddbjrod">DDBJ release 118.0, ROD division (Jan, 2020)</option>
+	<option value='ddbj118mam'               synonym="ddbjmam">DDBJ release 118.0, MAM division (Jan, 2020)</option>
+	<option value='ddbj118vrt'               synonym="ddbjvrt">DDBJ release 118.0, VRT division (Jan, 2020)</option>
+	<option value='ddbj118inv'               synonym="ddbjinv">DDBJ release 118.0, INV division (Jan, 2020)</option>
+	<option value='ddbj118pln'               synonym="ddbjpln">DDBJ release 118.0, PLN division (Jan, 2020)</option>
+	<option value='ddbj118bct'               synonym="ddbjbct">DDBJ release 118.0, BCT division (Jan, 2020)</option>
+	<option value='ddbj118vrl'               synonym="ddbjvrl">DDBJ release 118.0, VRL division (Jan, 2020)</option>
+	<option value='ddbj118phg'               synonym="ddbjphg">DDBJ release 118.0, PHG division (Jan, 2020)</option>
+	<option value='ddbj118pat'               synonym="ddbjpat">DDBJ release 118.0, PAT division (Jan, 2020)</option>
+	<option value='ddbj118env'               synonym="ddbjenv">DDBJ release 118.0, ENV division (Jan, 2020)</option>
+	<option value='ddbj118syn'               synonym="ddbjsyn">DDBJ release 118.0, SYN division (Jan, 2020)</option>
+	<option value='ddbj118est'               synonym="ddbjest">DDBJ release 118.0, EST division (Jan, 2020)</option>
+	<option value='ddbj118tsa'               synonym="ddbjtsa">DDBJ release 118.0, TSA division (Jan, 2020)</option>
+	<option value='ddbj118gss'               synonym="ddbjgss">DDBJ release 118.0, GSS division (Jan, 2020)</option>
+	<option value='ddbj118htc'               synonym="ddbjhtc">DDBJ release 118.0, HTC division (Jan, 2020)</option>
+	<option value='ddbj118htg'               synonym="ddbjhtg">DDBJ release 118.0, HTG division (Jan, 2020)</option>
+	<option value='ddbj118sts'               synonym="ddbjsts">DDBJ release 118.0, STS division (Jan, 2020)</option>
+	<option value='ddbj118una'               synonym="ddbjuna">DDBJ release 118.0, UNA division (Jan, 2020)</option>
 
 	<option disabled>--------------------</option>
 
@@ -7688,173 +7688,173 @@ set_strand() ;
 		-->GENCODE mouse release M13 (Mar, 2017)</a>
 </tr>
 <tr>
-	<td><a href='/ddbj/'>ddbj</a> (alias of latest release)<br><a href='/ddbj117/'>ddbj117</a>
+	<td><a href='/ddbj/'>ddbj</a> (alias of latest release)<br><a href='/ddbj118/'>ddbj118</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td><a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/release_note_archive/ddbj/ddbjrel.114.txt'><!--
-		-->DDBJ release 117.0 (Oct, 2019)</a><br>(all divisions, excluding bulk sequence data in TLS, TSA, WGS)
+		-->DDBJ release 118.0 (Jan, 2020)</a><br>(all divisions, excluding bulk sequence data in TLS, TSA, WGS)
 </tr>
 <tr>
-	<td><a href='/ddbj117hum/'>ddbj117hum</a>
+	<td><a href='/ddbj118hum/'>ddbj118hum</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, HUM division (Oct, 2019)
+	<td>DDBJ release 118.0, HUM division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117pri/'>ddbj117pri</a>
+	<td><a href='/ddbj118pri/'>ddbj118pri</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, PRI division (Oct, 2019)
+	<td>DDBJ release 118.0, PRI division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117rod/'>ddbj117rod</a>
+	<td><a href='/ddbj118rod/'>ddbj118rod</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, ROD division (Oct, 2019)
+	<td>DDBJ release 118.0, ROD division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117mam/'>ddbj117mam</a>
+	<td><a href='/ddbj118mam/'>ddbj118mam</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, MAM division (Oct, 2019)
+	<td>DDBJ release 118.0, MAM division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117vrt/'>ddbj117vrt</a>
+	<td><a href='/ddbj118vrt/'>ddbj118vrt</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, VRT division (Oct, 2019)
+	<td>DDBJ release 118.0, VRT division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117inv/'>ddbj117inv</a>
+	<td><a href='/ddbj118inv/'>ddbj118inv</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, INV division (Oct, 2019)
+	<td>DDBJ release 118.0, INV division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117pln/'>ddbj117pln</a>
+	<td><a href='/ddbj118pln/'>ddbj118pln</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, PLN division (Oct, 2019)
+	<td>DDBJ release 118.0, PLN division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117bct/'>ddbj117bct</a>
+	<td><a href='/ddbj118bct/'>ddbj118bct</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, BCT division (Oct, 2019)
+	<td>DDBJ release 118.0, BCT division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117vrl/'>ddbj117vrl</a>
+	<td><a href='/ddbj118vrl/'>ddbj118vrl</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, VRL division (Oct, 2019)
+	<td>DDBJ release 118.0, VRL division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117phg/'>ddbj117phg</a>
+	<td><a href='/ddbj118phg/'>ddbj118phg</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, PHG division (Oct, 2019)
+	<td>DDBJ release 118.0, PHG division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117pat/'>ddbj117pat</a>
+	<td><a href='/ddbj118pat/'>ddbj118pat</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, PAT division (Oct, 2019)
+	<td>DDBJ release 118.0, PAT division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117env/'>ddbj117env</a>
+	<td><a href='/ddbj118env/'>ddbj118env</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, ENV division (Oct, 2019)
+	<td>DDBJ release 118.0, ENV division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117syn/'>ddbj117syn</a>
+	<td><a href='/ddbj118syn/'>ddbj118syn</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, SYN division (Oct, 2019)
+	<td>DDBJ release 118.0, SYN division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117est/'>ddbj117est</a>
+	<td><a href='/ddbj118est/'>ddbj118est</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, EST division (Oct, 2019)
+	<td>DDBJ release 118.0, EST division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117tsa/'>ddbj117tsa</a>
+	<td><a href='/ddbj118tsa/'>ddbj118tsa</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, TSA division (Oct, 2019)
+	<td>DDBJ release 118.0, TSA division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117gss/'>ddbj117gss</a>
+	<td><a href='/ddbj118gss/'>ddbj118gss</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, GSS division (Oct, 2019)
+	<td>DDBJ release 118.0, GSS division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117htc/'>ddbj117htc</a>
+	<td><a href='/ddbj118htc/'>ddbj118htc</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, HTC division (Oct, 2019)
+	<td>DDBJ release 118.0, HTC division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117htg/'>ddbj117htg</a>
+	<td><a href='/ddbj118htg/'>ddbj118htg</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, HTG division (Oct, 2019)
+	<td>DDBJ release 118.0, HTG division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117sts/'>ddbj117sts</a>
+	<td><a href='/ddbj118sts/'>ddbj118sts</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, STS division (Oct, 2019)
+	<td>DDBJ release 118.0, STS division (Jan, 2020)
 </tr>
 <tr>
-	<td><a href='/ddbj117una/'>ddbj117una</a>
+	<td><a href='/ddbj118una/'>ddbj118una</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 117.0, UNA division (Oct, 2019)
+	<td>DDBJ release 118.0, UNA division (Jan, 2020)
 </tr>
 <tr>
 	<td><a href='/ddbj92/'>ddbj92</a>
@@ -8061,6 +8061,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-03-18 Database updated to DDBJ rel. 118.0 (Jan, 2020).
 	<li>2019-11-29 Database updated to RefSeq rel. 97 (Nov, 2019).
 	<li>2019-11-10 Database updated to DDBJ rel. 117.0 (Oct, 2019).
 	<li>2019-09-25 Database updated to RefSeq rel. 96 (Sep, 2019).
@@ -8193,7 +8194,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 29, 2019 by
+<p class=g>Last modified on Mar 18, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
