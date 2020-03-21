@@ -344,6 +344,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'ASM82905v1\'               synonym=\"$db_synonym{'ASM82905v1'              }\">$db_fullname{'ASM82905v1'              }</option>
 
 	<option value=\'eboVir3\'                  synonym=\"$db_synonym{'eboVir3'                 }\">$db_fullname{'eboVir3'                 }</option>
+	<option value=\'SARS-CoV-2\'               synonym=\"$db_synonym{'SARS-CoV-2'              }\">$db_fullname{'SARS-CoV-2'              }</option>
 
 	<option value=\'GCA_000009725.1\'          synonym=\"$db_synonym{'GCA_000009725.1'         }\">$db_fullname{'GCA_000009725.1'         }</option>
 	<option value=\'GCA_000009705.1\'          synonym=\"$db_synonym{'GCA_000009705.1'         }\">$db_fullname{'GCA_000009705.1'         }</option>

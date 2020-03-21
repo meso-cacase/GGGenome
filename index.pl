@@ -1199,6 +1199,10 @@ my $db      = $_[3] // '' ;
 	       "<font color='#0E774A'>$1</font> <font color=silver>|</font> " .
 	       "<font color='#7F3737'>$4</font><br>\n\t" .
 	       "position: $pos-$pos_end\n" :
+($db =~ /^SARS/ and $name =~ /^(\S+)\ (.*)$/) ?
+	return "<a class=a target='_blank' href=" .
+	       "https://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
+	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
 # それ以外の場合
 	return "$name<br>\n\t" .
 	       "position: $pos-$pos_end\n" ;

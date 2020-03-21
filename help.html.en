@@ -497,6 +497,7 @@ Database:<br>&emsp;
 	<option value='ASM82905v1'               synonym="Lactobacillus casei">Lactobacillus casei subsp. casei (ATCC 393) genome, ASM82905v1 (Aug, 2013)</option>
 
 	<option value='eboVir3'                  synonym="Filoviridae ebolavirus">Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
+	<option value='SARS-CoV-2'               synonym="Severe acute respiratory syndrome coronavirus 2;COVID-19">SARS-CoV-2 complete genomes, GenBank 2020/3/17</option>
 
 	<option value='GCA_000009725.1'          synonym="">Synechocystis sp. PCC 6803 genome, GCA_000009725.1</option>
 	<option value='GCA_000009705.1'          synonym="">Nostoc sp. PCC 7120 genome, GCA_000009705.1</option>
@@ -4106,6 +4107,15 @@ set_strand() ;
 	<td>Lactobacillus casei subsp. casei
 	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCA_000829055.1'><!--
 		-->ASM82905v1 (Aug, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/SARS-CoV-2/'>SARS-CoV-2</a>
+	<td>NCBI
+	<td>Viruses
+	<td>SARS-CoV-2
+	<td>Severe acute respiratory syndrome<br>(SARS) coronavirus 2
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/'><!--
+		-->complete genomes, GenBank 2020/3/17</a>
 </tr>
 <tr>
 	<td><a href='/GCA_000009725.1/'>GCA_000009725.1</a>
@@ -8131,6 +8141,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-03-21 SARS-CoV-2 (SARS coronavirus 2) genome is available.
 	<li>2020-03-21 Human Japanese Reference Genome JG1 is available.
 	<li>2020-03-21 Databases updated to GENCODE human 33 (Jan, 2020) and mouse M24 (Jan, 2020).
 	<li>2020-03-21 Database updated to RefSeq rel. 98 (Jan, 2020).
