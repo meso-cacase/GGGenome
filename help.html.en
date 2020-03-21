@@ -876,7 +876,7 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 97 (Nov, 2019)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 98 (Jan, 2020)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
@@ -7497,7 +7497,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq97/'>refseq97</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq98/'>refseq98</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 98 (Jan, 2020)
+</tr>
+<tr>
+	<td><a href='/refseq97/'>refseq97</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -8061,6 +8069,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-03-21 Database updated to RefSeq rel. 98 (Jan, 2020).
 	<li>2020-03-18 Database updated to DDBJ rel. 118.0 (Jan, 2020).
 	<li>2019-11-29 Database updated to RefSeq rel. 97 (Nov, 2019).
 	<li>2019-11-10 Database updated to DDBJ rel. 117.0 (Oct, 2019).
