@@ -162,6 +162,7 @@ Database:<br>&emsp;
 	<option value='hg38'                     synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
 	<option value='hg19' selected                     synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
 	<option value='hg18'                     synonym="Homo sapiens">Human genome, NCBI36/hg18 (Mar, 2006)</option>
+	<option value='JG1'                      synonym="Homo sapiens">Human Japanese Reference Genome, JG1 (JG1.0.0beta) (Feb, 2019)</option>
 	<option value='JRGv2'                    synonym="Homo sapiens">Human Japanese Reference Genome, JRGv2 (Jun, 2017)</option>
 	<option value='decoyJRGv2'               synonym="Homo sapiens">Decoy sequence of the Human Japanese Reference Genome, decoyJRGv2 (Jun, 2017)</option>
 	<option value='JRGv1'                    synonym="Homo sapiens">Human Japanese Reference Genome, JRGv1 (Aug, 2016)</option>
@@ -4006,6 +4007,15 @@ set_strand() ;
 	<td>Oxytricha trifallax
 	<td><a target='_blank' href='http://oxy.ciliate.org/system/downloads/Oxytricha_trifallax_micronuclear_assembly.fasta'><!--
 		-->Oxytricha trifallax micronuclear genome</a>
+</tr>
+<tr>
+	<td><a href='/JG1/'>JG1</a>
+	<td>ToMMo
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://jmorp.megabank.tohoku.ac.jp/202001/downloads/'><!--
+		-->Japanese Reference Genome, JG1 (JG1.0.0beta) (Feb, 2019)</a>
 </tr>
 <tr>
 	<td><a href='/JRGv2/'>JRGv2</a>
@@ -8121,6 +8131,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-03-21 Human Japanese Reference Genome JG1 is available.
 	<li>2020-03-21 Databases updated to GENCODE human 33 (Jan, 2020) and mouse M24 (Jan, 2020).
 	<li>2020-03-21 Database updated to RefSeq rel. 98 (Jan, 2020).
 	<li>2020-03-18 Database updated to DDBJ rel. 118.0 (Jan, 2020).

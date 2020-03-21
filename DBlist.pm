@@ -297,6 +297,7 @@ JRGv1                    	172.18.8.72	28261	ToMMo    	Human Japanese Reference G
 decoyJRGv1               	172.18.8.72	28262	ToMMo    	Decoy sequence of the Human Japanese Reference Genome, decoyJRGv1 (Aug, 2016)	Homo sapiens
 JRGv2                    	172.18.8.72	28263	ToMMo    	Human Japanese Reference Genome, JRGv2 (Jun, 2017)	Homo sapiens
 decoyJRGv2               	172.18.8.72	28264	ToMMo    	Decoy sequence of the Human Japanese Reference Genome, decoyJRGv2 (Jun, 2017)	Homo sapiens
+JG1                      	172.18.8.72	28793	ToMMo    	Human Japanese Reference Genome, JG1 (JG1.0.0beta) (Feb, 2019)	Homo sapiens
 MSMv3                    	172.18.8.72	28265	         	Mouse genome, MSMv3	Mus musculus
 JF1v2                    	172.18.8.72	28266	         	Mouse genome, JF1v2	Mus musculus
 YOKOZUNA-1               	172.18.8.72	28267	         	Ramazzottius variornatus (YOKOZUNA-1) genome (Sep, 2016)	Ramazzottius variornatus;tardigrade;water bear
