@@ -792,10 +792,16 @@ calJac3_refGene_spliced_d3g1906                          	172.18.8.75	28806	D3G	
 GENCODE_26               	172.18.8.75	28726	GENCODE  	GENCODE human release 26 (Mar, 2017)	Homo sapiens
 GENCODE_27               	172.18.8.75	28727	GENCODE  	GENCODE human release 27 (Aug, 2017)	Homo sapiens
 GENCODE_28               	172.18.8.75	28728	GENCODE  	GENCODE human release 28 (Apr, 2018)	Homo sapiens
+GENCODE_30               	172.18.8.75	28797	GENCODE  	GENCODE human release 30 (Apr, 2019)	Homo sapiens
+GENCODE_31               	172.18.8.75	28807	GENCODE  	GENCODE human release 31 (Jul, 2019)	Homo sapiens
+GENCODE_33               	172.18.8.75	28809	GENCODE  	GENCODE human release 33 (Jan, 2020)	Homo sapiens
 GENCODE_M13              	172.18.8.75	28729	GENCODE  	GENCODE mouse release M13 (Mar, 2017)	Mus musculus
 GENCODE_M15              	172.18.8.75	28730	GENCODE  	GENCODE mouse release M15 (Aug, 2017)	Mus musculus
 GENCODE_M16              	172.18.8.75	28731	GENCODE  	GENCODE mouse release M16 (Dec, 2017)	Mus musculus
 GENCODE_M17              	172.18.8.75	28732	GENCODE  	GENCODE mouse release M17 (Apr, 2018)	Mus musculus
+GENCODE_M21              	172.18.8.75	28798	GENCODE  	GENCODE mouse release M21 (Apr, 2019)	Mus musculus
+GENCODE_M22              	172.18.8.75	28808	GENCODE  	GENCODE mouse release M22 (Jul, 2019)	Mus musculus
+GENCODE_M24              	172.18.8.75	28810	GENCODE  	GENCODE mouse release M24 (Jan, 2020)	Mus musculus
 miRBase21                	172.18.8.72	28733	miRBase  	miRBase release 21, stem-loop microRNA sequences (Jun, 2014)	
 miRBase21mat             	172.18.8.72	28734	miRBase  	miRBase release 21, mature microRNA sequences (Jun, 2014)	
 miRBase22                	172.18.8.72	28735	miRBase  	miRBase release 22, stem-loop microRNA sequences (Mar, 2018)	
