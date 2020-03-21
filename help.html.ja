@@ -8399,7 +8399,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='https://www.gencodegenes.org/releases/28.html'><!--
+	<td><a target='_blank' href='https://www.gencodegenes.org/human/release_28.html'><!--
 		-->GENCODE human release 28 (Apr, 2018)</a>
 </tr>
 <tr>
@@ -8409,7 +8409,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='https://www.gencodegenes.org/releases/27.html'><!--
+	<td><a target='_blank' href='https://www.gencodegenes.org/human/release_27.html'><!--
 		-->GENCODE human release 27 (Aug, 2017)</a>
 </tr>
 <tr>
@@ -8419,7 +8419,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='https://www.gencodegenes.org/releases/26.html'><!--
+	<td><a target='_blank' href='https://www.gencodegenes.org/human/release_26.html'><!--
 		-->GENCODE human release 26 (Mar, 2017)</a>
 </tr>
 <tr>
@@ -8459,7 +8459,7 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/17.html'><!--
+	<td><a target='_blank' href='https://www.gencodegenes.org/mouse/release_M17.html'><!--
 		-->GENCODE mouse release M17 (Apr, 2018)</a>
 </tr>
 <tr>
@@ -8469,7 +8469,7 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/16.html'><!--
+	<td><a target='_blank' href='https://www.gencodegenes.org/mouse/release_M16.html'><!--
 		-->GENCODE mouse release M16 (Dec, 2017)</a>
 </tr>
 <tr>
@@ -8479,7 +8479,7 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td><a target='_blank' href='https://www.gencodegenes.org/mouse_releases/15.html'><!--
+	<td><a target='_blank' href='https://www.gencodegenes.org/mouse/release_M15.html'><!--
 		-->GENCODE mouse release M15 (Aug, 2017)</a>
 </tr>
 <tr>
