@@ -4354,7 +4354,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
+	<td><a target='_blank' href='https://jmorp.megabank.tohoku.ac.jp/202001/downloads/legacy/'><!--
 		-->Japanese Reference Genome, JRGv2 (Jun, 2017)</a>
 </tr>
 <tr>
@@ -4364,7 +4364,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
+	<td><a target='_blank' href='https://jmorp.megabank.tohoku.ac.jp/202001/downloads/legacy/'><!--
 		-->Decoy sequence of the Japanese Reference Genome,<br>decoyJRGv2 (Jun, 2017)</a>
 </tr>
 <tr>
@@ -4374,7 +4374,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
+	<td><a target='_blank' href='https://jmorp.megabank.tohoku.ac.jp/202001/downloads/legacy/'><!--
 		-->Japanese Reference Genome, JRGv1 (Aug, 2016)</a>
 </tr>
 <tr>
@@ -4384,7 +4384,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='https://jrg.megabank.tohoku.ac.jp/en/'><!--
+	<td><a target='_blank' href='https://jmorp.megabank.tohoku.ac.jp/202001/downloads/legacy/'><!--
 		-->Decoy sequence of the Japanese Reference Genome,<br>decoyJRGv1 (Aug, 2016)</a>
 </tr>
 <tr>
