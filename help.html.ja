@@ -878,7 +878,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 98 (Jan, 2020)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 99 (Mar, 2020)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
@@ -8241,7 +8241,16 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq98/'>refseq98</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq99/'>refseq99</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 99 (Mar, 2020)
+</tr>
+<tr>
+	<td><a href='/refseq98/'>refseq98</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -8933,6 +8942,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-03-29 RefSeq rel. 99 (Mar, 2020) に更新。
 	<li>2020-03-21 新型コロナウイルス SARS-CoV-2 ゲノムを追加。
 	<li>2020-03-21 日本人基準ゲノム配列 JG1 を追加。
 	<li>2020-03-21 GENCODE ヒト 33 (Jan, 2020) および マウス M24 (Jan, 2020) に更新。
