@@ -759,6 +759,29 @@ $dbmenu = <<"--EOS--" ;
 
 	<option disabled>--------------------</option>
 
+	<option value=\'hg38_RefSeqCurated_prespliced_d3g2003\'               synonym=\"$db_synonym{'hg38_RefSeqCurated_prespliced_d3g2003'               }\">$db_fullname{'hg38_RefSeqCurated_prespliced_d3g2003'               }</option>
+	<option value=\'hg38_RefSeqCurated_spliced_d3g2003\'                  synonym=\"$db_synonym{'hg38_RefSeqCurated_spliced_d3g2003'                  }\">$db_fullname{'hg38_RefSeqCurated_spliced_d3g2003'                  }</option>
+	<option value=\'hg38_RefSeqCuratedProtCoding_prespliced_d3g2003\'     synonym=\"$db_synonym{'hg38_RefSeqCuratedProtCoding_prespliced_d3g2003'     }\">$db_fullname{'hg38_RefSeqCuratedProtCoding_prespliced_d3g2003'     }</option>
+	<option value=\'hg38_RefSeqCuratedProtCoding_spliced_d3g2003\'        synonym=\"$db_synonym{'hg38_RefSeqCuratedProtCoding_spliced_d3g2003'        }\">$db_fullname{'hg38_RefSeqCuratedProtCoding_spliced_d3g2003'        }</option>
+	<option value=\'hg38.p12_d3g2003\'                                    synonym=\"$db_synonym{'hg38.p12_d3g2003'                                    }\">$db_fullname{'hg38.p12_d3g2003'                                    }</option>
+	<option value=\'mm10_RefSeqCurated_prespliced_d3g2003\'               synonym=\"$db_synonym{'mm10_RefSeqCurated_prespliced_d3g2003'               }\">$db_fullname{'mm10_RefSeqCurated_prespliced_d3g2003'               }</option>
+	<option value=\'mm10_RefSeqCurated_spliced_d3g2003\'                  synonym=\"$db_synonym{'mm10_RefSeqCurated_spliced_d3g2003'                  }\">$db_fullname{'mm10_RefSeqCurated_spliced_d3g2003'                  }</option>
+	<option value=\'mm10_RefSeqCuratedProtCoding_prespliced_d3g2003\'     synonym=\"$db_synonym{'mm10_RefSeqCuratedProtCoding_prespliced_d3g2003'     }\">$db_fullname{'mm10_RefSeqCuratedProtCoding_prespliced_d3g2003'     }</option>
+	<option value=\'mm10_RefSeqCuratedProtCoding_spliced_d3g2003\'        synonym=\"$db_synonym{'mm10_RefSeqCuratedProtCoding_spliced_d3g2003'        }\">$db_fullname{'mm10_RefSeqCuratedProtCoding_spliced_d3g2003'        }</option>
+	<option value=\'mm10_d3g2003\'                                        synonym=\"$db_synonym{'mm10_d3g2003'                                        }\">$db_fullname{'mm10_d3g2003'                                        }</option>
+	<option value=\'macFasRKS1912_Trac2003_prespliced_d3g2003\'           synonym=\"$db_synonym{'macFasRKS1912_Trac2003_prespliced_d3g2003'           }\">$db_fullname{'macFasRKS1912_Trac2003_prespliced_d3g2003'           }</option>
+	<option value=\'macFasRKS1912_Trac2003_spliced_d3g2003\'              synonym=\"$db_synonym{'macFasRKS1912_Trac2003_spliced_d3g2003'              }\">$db_fullname{'macFasRKS1912_Trac2003_spliced_d3g2003'              }</option>
+	<option value=\'macFasRKS1912_Trac2003ProtCoding_prespliced_d3g2003\' synonym=\"$db_synonym{'macFasRKS1912_Trac2003ProtCoding_prespliced_d3g2003' }\">$db_fullname{'macFasRKS1912_Trac2003ProtCoding_prespliced_d3g2003' }</option>
+	<option value=\'macFasRKS1912_Trac2003ProtCoding_spliced_d3g2003\'    synonym=\"$db_synonym{'macFasRKS1912_Trac2003ProtCoding_spliced_d3g2003'    }\">$db_fullname{'macFasRKS1912_Trac2003ProtCoding_spliced_d3g2003'    }</option>
+	<option value=\'macFasRKS1912_chrM_d3g2003\'                          synonym=\"$db_synonym{'macFasRKS1912_chrM_d3g2003'                          }\">$db_fullname{'macFasRKS1912_chrM_d3g2003'                          }</option>
+	<option value=\'calJacRKC1912_Trac2003_prespliced_d3g2003\'           synonym=\"$db_synonym{'calJacRKC1912_Trac2003_prespliced_d3g2003'           }\">$db_fullname{'calJacRKC1912_Trac2003_prespliced_d3g2003'           }</option>
+	<option value=\'calJacRKC1912_Trac2003_spliced_d3g2003\'              synonym=\"$db_synonym{'calJacRKC1912_Trac2003_spliced_d3g2003'              }\">$db_fullname{'calJacRKC1912_Trac2003_spliced_d3g2003'              }</option>
+	<option value=\'calJacRKC1912_Trac2003ProtCoding_prespliced_d3g2003\' synonym=\"$db_synonym{'calJacRKC1912_Trac2003ProtCoding_prespliced_d3g2003' }\">$db_fullname{'calJacRKC1912_Trac2003ProtCoding_prespliced_d3g2003' }</option>
+	<option value=\'calJacRKC1912_Trac2003ProtCoding_spliced_d3g2003\'    synonym=\"$db_synonym{'calJacRKC1912_Trac2003ProtCoding_spliced_d3g2003'    }\">$db_fullname{'calJacRKC1912_Trac2003ProtCoding_spliced_d3g2003'    }</option>
+	<option value=\'calJacRKC1912_chrM_d3g2003\'                          synonym=\"$db_synonym{'calJacRKC1912_chrM_d3g2003'                          }\">$db_fullname{'calJacRKC1912_chrM_d3g2003'                          }</option>
+
+	<option disabled>--------------------</option>
+
 	<option value=\'hg38_refSeqCuratedProtCoding_prespliced_d3g1906\' synonym=\"$db_synonym{'hg38_refSeqCuratedProtCoding_prespliced_d3g1906' }\">$db_fullname{'hg38_refSeqCuratedProtCoding_prespliced_d3g1906' }</option>
 	<option value=\'hg38_refSeqCuratedProtCoding_spliced_d3g1906\'    synonym=\"$db_synonym{'hg38_refSeqCuratedProtCoding_spliced_d3g1906'    }\">$db_fullname{'hg38_refSeqCuratedProtCoding_spliced_d3g1906'    }</option>
 	<option value=\'mm10_refSeqCuratedProtCoding_prespliced_d3g1906\' synonym=\"$db_synonym{'mm10_refSeqCuratedProtCoding_prespliced_d3g1906' }\">$db_fullname{'mm10_refSeqCuratedProtCoding_prespliced_d3g1906' }</option>
