@@ -8347,7 +8347,8 @@ set_strand() ;
 	<li>2020-03-30 <a target='_blank' href='https://d3g.riken.jp/release/20.03/'>D3G 20.03</a>,
 		pre-spliced &amp; spliced RNA database from RIKEN is available.
 	<li>2020-03-29 Database updated to RefSeq rel. 99 (Mar, 2020).
-	<li>2020-03-21 SARS-CoV-2 (SARS coronavirus 2) genome is available.
+	<li>2020-03-21 SARS-CoV-2 (SARS coronavirus 2) genome is available -
+		<a target='_blank' href='https://gist.github.com/meso-cacase/30bc9dda28a72c324bcef9ab944d31ce'>Update history</a>
 	<li>2020-03-21 Human Japanese Reference Genome JG1 is available.
 	<li>2020-03-21 Databases updated to GENCODE human 33 (Jan, 2020) and mouse M24 (Jan, 2020).
 	<li>2020-03-21 Database updated to RefSeq rel. 98 (Jan, 2020).
@@ -8484,7 +8485,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Apr 1, 2020 by
+<p class=g>Last modified on Apr 4, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
