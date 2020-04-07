@@ -852,12 +852,13 @@ ddbj118htc               	172.18.8.73	27837	DDBJ     	DDBJ release 118.0, HTC di
 ddbj118htg               	172.18.8.72	27838	DDBJ     	DDBJ release 118.0, HTG division (Jan, 2020)	ddbjhtg
 ddbj118sts               	172.18.8.78	27839	DDBJ     	DDBJ release 118.0, STS division (Jan, 2020)	ddbjsts
 ddbj118una               	172.18.8.73	27840	DDBJ     	DDBJ release 118.0, UNA division (Jan, 2020)	ddbjuna
-SARS-CoV-2               	172.18.8.76	55005	         	SARS-CoV-2 complete genomes, GenBank 2020/4/3	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2               	172.18.8.76	55006	         	SARS-CoV-2 complete genomes, GenBank 2020/4/6	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200317      	172.18.8.76	55001	         	SARS-CoV-2 complete genomes, GenBank 2020/3/17	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200324      	172.18.8.76	55002	         	SARS-CoV-2 complete genomes, GenBank 2020/3/24	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200327      	172.18.8.76	55003	         	SARS-CoV-2 complete genomes, GenBank 2020/3/27	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200330      	172.18.8.76	55004	         	SARS-CoV-2 complete genomes, GenBank 2020/3/30	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200403      	172.18.8.76	55005	         	SARS-CoV-2 complete genomes, GenBank 2020/4/3	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-20200406      	172.18.8.76	55006	         	SARS-CoV-2 complete genomes, GenBank 2020/4/6	Severe acute respiratory syndrome coronavirus 2;COVID-19
 28781                    	172.18.8.75	28781	         	Test Database 28781	
 28782                    	172.18.8.75	28782	         	Test Database 28782	
 28783                    	172.18.8.75	28783	         	Test Database 28783	
