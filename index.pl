@@ -262,7 +262,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -284,7 +284,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -335,7 +335,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -357,7 +357,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -407,7 +407,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -421,7 +421,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -448,7 +448,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -462,7 +462,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -486,7 +486,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -510,7 +510,7 @@ if ($format eq 'txt'){
 	#--- ▽ (-)鎖の検索実行と結果出力
 	unless ($strand eq '+'){
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, undef, $timeout) or
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====
@@ -556,7 +556,7 @@ if ($format eq 'txt'){
 
 	#--- ▽ (+)鎖の検索実行と結果出力
 	unless ($strand eq '-'){
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, $offset, $timeout) or #CHANGE tyamamot
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, $offset, $timeout) or #CHANGE tyamamot
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_plus_done; $uri"] ;   #===== 実行時間計測 =====
@@ -591,7 +591,7 @@ if ($format eq 'txt'){
 		#ADD end tyamamot
 
 		$queryseq = comp($queryseq) ;
-		($hits, $uri) = Approx::approx_q(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, $offset, $timeout) or #CHANGE tyamamot
+		($hits, $uri) = Approx::approx_core(uc(rna2dna($queryseq)), $host, $port, $k, $nogap, $limit, $offset, $timeout) or #CHANGE tyamamot
 			printresult('ERROR : searcher error') ;
 
 		push @timer, [Time::HiRes::time(), "search_minus_done; $uri"] ;  #===== 実行時間計測 =====

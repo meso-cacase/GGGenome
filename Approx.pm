@@ -14,6 +14,7 @@ use LWP::Simple qw($ua get) ;  # 曖昧検索サーバとの接続に使用
 use JSON::XS ;                 # 曖昧検索サーバとの接続に使用
 
 # ====================
+# 【バックエンド切り替えに伴い削除可能】
 sub approx_q {
 
 # 曖昧検索サーバに問い合わせを行う
@@ -50,6 +51,7 @@ my $uri_all = join ' ', @uri_all ;
 return ($hit_all, $uri_all) ;
 } ;
 # ====================
+# 【バックエンド切り替えに伴い削除可能】
 sub iub_expand {  # 塩基配列のIUBコードを展開してリストを返す
 my @in = @_ ;
 my @out ;
@@ -91,7 +93,7 @@ my $q     = $_[0] or return () ;
 my $host  = $_[1] or return () ;
 my $port  = $_[2] or return () ;
 my $k     = $_[3] // 0  ;
-my $nogap = $_[4] ? 1 : 0 ;
+my $nogap = ($_[4] // 0) ? 1 : 0 ;
 my $limit = $_[5] // '' ;
 my $offset  = $_[6] // 0   ;	#ADD tyamamot offsetの追加
 my $timeout = $_[7] // 180 ;	#ADD tyamamot timeoutの追加
@@ -104,6 +106,7 @@ my $json  = get($uri) or return () ;
 return (decode_json($json) // (), $uri) ;
 } ;
 # ====================
+# 【バックエンド切り替えに伴い削除可能】
 sub merge_approx_hit {  # approx_hitの結果のうちjson出力部分をmerge
 my @hit = @_ ;
 
@@ -123,6 +126,7 @@ foreach (@hit){
 	sort { cmp_chrname($a->{docname}, $b->{docname}) || $a->{pos} <=> $b->{pos} }
 	     @{$hit_all->{hits}} ;
 
+# 【バックエンド切り替えに伴い解決】
 # 未実装:ヒットした配列の重複を削除
 # total_hit_numも重複を含んだヒット件数となっている
 
