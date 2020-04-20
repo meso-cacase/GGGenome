@@ -547,8 +547,6 @@ if ($format eq 'txt'){
 #-- ▽ HTML形式
 } else {  # default: html
 	my $limit = ($debug ? $max_hit_debug : $max_hit_html) ;  # 検索を打ち切るヒット数
-	eval 'require Align2seq ; 1' or  # ミスマッチ/ギャップのある配列のハイライトに使用
-		printresult('ERROR : cannot load Align2seq') ;
 
 	my $offset  = $query{'offset'} // 0 ;               #ADD tyamamot offsetの追加
 	my $timeout = $debug ? $timeout_debug : $timeout ;  #ADD tyamamot timeoutの追加
@@ -980,6 +978,8 @@ my $length      = $gene->{length}      // '' ;
 my $position    = $gene->{pos}         // '' ;
 my $snippet     = $gene->{snippet}     // '' ;
 my $snippet_pos = $gene->{snippet_pos} // '' ;
+my $body_based  = $gene->{body_based}  // '' ;
+my $edit_info   = $gene->{edit_info}   // '' ;
 
 my $position_end = ($position and $length) ?
                    $position + $length - 1 :
@@ -993,8 +993,8 @@ my $snippet_3prime = substr($snippet, $position - $snippet_pos + $length) ;
 $snippet_5prime = substr($snippet_5prime, -30) ;
 $snippet_3prime = substr($snippet_3prime, 0, 30) ;
 
-# クエリ文字列とヒット文字列とを比較し、ミスマッチ/ギャップをハイライト
-my $align = Align2seq::diffseq(uc($queryseq), uc($sbjct)) ;
+# ミスマッチおよびギャップをハイライトする
+my $align = diff_highlight(uc($body_based), $edit_info) ;
 
 my $snippet_html =
 	$snippet_5prime                         .
@@ -1049,6 +1049,52 @@ if ($db eq 'prok' and $json->{name} =~ s/^(.*?)\s*\{(.*)\}/$1/){
 	$json->{refseq}     = $9 ;
 }
 return $json ;
+} ;
+# ====================
+sub diff_highlight {
+
+# ミスマッチおよびギャップをハイライトする
+#
+# usage:
+# $html = diffseq($sbjct, $edit_info) ;
+# $html = diffseq('GCAAGAAAAGATTGC', '=======X=======') ;
+#
+# query: GCAAGAAGAGATTGC
+# edit_: =======X=======
+# sbjct: GCAAGAAAAGATTGC
+#
+# -> GCAAGAA<strong>A</strong>AGATTGC
+#
+# query: GCA-AGAAGAGATTGC
+# edit_: ===I============
+# sbjct: GCAGAGAAGAGATTGC
+#
+# -> GCA<ins>G</ins>AGAAGAGATTGC
+#
+# query: GCAAGAAGAGATTGC
+# edit_: =======D=======
+# sbjct: GCAAGAA-AGATTGC
+#
+# -> GCAAGAA<del>-</del>AGATTGC
+
+my $sbjct     = $_[0] // '' ;
+my $edit_info = $_[1] // '' ;
+
+my $html = '' ;
+
+foreach (0..length($sbjct)-1){
+	$html .=
+		(substr($edit_info, $_, 1) eq '=') ?
+			substr($sbjct, $_, 1) :
+		(substr($edit_info, $_, 1) eq 'D') ?
+			'<ins>' . substr($sbjct, $_, 1) . '</ins>' :
+		(substr($edit_info, $_, 1) eq 'I') ?
+			'<del>-</del>' :
+		# else ミスマッチ塩基の場合
+			'<strong>' . substr($sbjct, $_, 1) . '</strong>' ;
+}
+
+return $html ;
 } ;
 # ====================
 sub link_seqname {  # 配列名やヒット位置の情報を整形、NCBIやUCSCへのリンクを設定
