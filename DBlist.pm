@@ -852,7 +852,7 @@ ddbj119htc               	172.18.8.73	27877	DDBJ     	DDBJ release 119.0, HTC di
 ddbj119htg               	172.18.8.72	27878	DDBJ     	DDBJ release 119.0, HTG division (Mar, 2020)	ddbjhtg
 ddbj119sts               	172.18.8.78	27879	DDBJ     	DDBJ release 119.0, STS division (Mar, 2020)	ddbjsts
 ddbj119una               	172.18.8.73	27880	DDBJ     	DDBJ release 119.0, UNA division (Mar, 2020)	ddbjuna
-SARS-CoV-2               	172.18.8.76	55013	         	SARS-CoV-2 complete genomes, GenBank 2020/4/17	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2               	172.18.8.76	55014	         	SARS-CoV-2 complete genomes, GenBank 2020/4/20	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200317      	172.18.8.76	55001	         	SARS-CoV-2 complete genomes, GenBank 2020/3/17	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200324      	172.18.8.76	55002	         	SARS-CoV-2 complete genomes, GenBank 2020/3/24	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200327      	172.18.8.76	55003	         	SARS-CoV-2 complete genomes, GenBank 2020/3/27	Severe acute respiratory syndrome coronavirus 2;COVID-19
@@ -866,6 +866,7 @@ SARS-CoV-2-20200411      	172.18.8.76	55010	         	SARS-CoV-2 complete genome
 SARS-CoV-2-20200413      	172.18.8.76	55011	         	SARS-CoV-2 complete genomes, GenBank 2020/4/13	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200414      	172.18.8.76	55012	         	SARS-CoV-2 complete genomes, GenBank 2020/4/14	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200417      	172.18.8.76	55013	         	SARS-CoV-2 complete genomes, GenBank 2020/4/17	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-20200420      	172.18.8.76	55014	         	SARS-CoV-2 complete genomes, GenBank 2020/4/20	Severe acute respiratory syndrome coronavirus 2;COVID-19
 28781                    	172.18.8.75	28781	         	Test Database 28781	
 28782                    	172.18.8.75	28782	         	Test Database 28782	
 28783                    	172.18.8.75	28783	         	Test Database 28783	
