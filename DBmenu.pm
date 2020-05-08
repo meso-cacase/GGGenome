@@ -759,6 +759,13 @@ $dbmenu = <<"--EOS--" ;
 
 	<option disabled>--------------------</option>
 
+	<option value=\'COVID19-primercheck-EUL-20200501\'  synonym=\"$db_synonym{'COVID19-primercheck-EUL-20200501' }\">$db_fullname{'COVID19-primercheck-EUL-20200501' }</option>
+	<option value=\'COVID19-primercheck-EUA-20200501\'  synonym=\"$db_synonym{'COVID19-primercheck-EUA-20200501' }\">$db_fullname{'COVID19-primercheck-EUA-20200501' }</option>
+	<option value=\'COVID19-primercheck-CoV-20200501\'  synonym=\"$db_synonym{'COVID19-primercheck-CoV-20200501' }\">$db_fullname{'COVID19-primercheck-CoV-20200501' }</option>
+	<option value=\'COVID19-primercheck-bCoV-20200501\' synonym=\"$db_synonym{'COVID19-primercheck-bCoV-20200501'}\">$db_fullname{'COVID19-primercheck-bCoV-20200501'}</option>
+
+	<option disabled>--------------------</option>
+
 	<option value=\'hg38_RefSeqCurated_prespliced_d3g2003\'               synonym=\"$db_synonym{'hg38_RefSeqCurated_prespliced_d3g2003'               }\">$db_fullname{'hg38_RefSeqCurated_prespliced_d3g2003'               }</option>
 	<option value=\'hg38_RefSeqCurated_spliced_d3g2003\'                  synonym=\"$db_synonym{'hg38_RefSeqCurated_spliced_d3g2003'                  }\">$db_fullname{'hg38_RefSeqCurated_spliced_d3g2003'                  }</option>
 	<option value=\'hg38_RefSeqCuratedProtCoding_prespliced_d3g2003\'     synonym=\"$db_synonym{'hg38_RefSeqCuratedProtCoding_prespliced_d3g2003'     }\">$db_fullname{'hg38_RefSeqCuratedProtCoding_prespliced_d3g2003'     }</option>

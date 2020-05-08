@@ -912,6 +912,13 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
+	<option value='COVID19-primercheck-EUL-20200501'  synonym="SARS-CoV-2">Cross-reactivity check for COVID-19 diagnostic primers (7 CoV + 32 organisms in WHO EUL), NIHS 2020/5/1</option>
+	<option value='COVID19-primercheck-EUA-20200501'  synonym="SARS-CoV-2">Cross-reactivity check for COVID-19 diagnostic primers (7 CoV + 20 organisms in US EUA), NIHS 2020/5/1</option>
+	<option value='COVID19-primercheck-CoV-20200501'  synonym="SARS-CoV-2">Cross-reactivity check for COVID-19 diagnostic primers (7 CoV), NIHS 2020/5/1</option>
+	<option value='COVID19-primercheck-bCoV-20200501' synonym="SARS-CoV-2">Cross-reactivity check for COVID-19 diagnostic primers (5 beta-CoV), NIHS 2020/5/1</option>
+
+	<option disabled>--------------------</option>
+
 	<option value='hg38_RefSeqCurated_prespliced_d3g2003'               synonym="Homo sapiens">Human pre-spliced RNA, RefSeq curated on hg38.p12, D3G 20.03 (Mar, 2020)</option>
 	<option value='hg38_RefSeqCurated_spliced_d3g2003'                  synonym="Homo sapiens">Human spliced RNA, RefSeq curated on hg38.p12, D3G 20.03 (Mar, 2020)</option>
 	<option value='hg38_RefSeqCuratedProtCoding_prespliced_d3g2003'     synonym="Homo sapiens">Human pre-spliced RNA, RefSeq curated protein coding on hg38.p12, D3G 20.03 (Mar, 2020)</option>
@@ -8486,7 +8493,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Apr 20, 2020 by
+<p class=g>Last modified on Mar 9, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

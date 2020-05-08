@@ -869,6 +869,10 @@ SARS-CoV-2-20200417      	172.18.8.76	55013	         	SARS-CoV-2 complete genome
 SARS-CoV-2-20200420      	172.18.8.76	55014	         	SARS-CoV-2 complete genomes, GenBank 2020/4/20	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200428      	172.18.8.76	55015	         	SARS-CoV-2 complete genomes, GenBank 2020/4/28	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200506      	172.18.8.76	55016	         	SARS-CoV-2 complete genomes, GenBank 2020/5/6	Severe acute respiratory syndrome coronavirus 2;COVID-19
+COVID19-primercheck-EUL-20200501  	172.18.8.76	28831	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV + 32 organisms in WHO EUL), NIHS 2020/5/1	SARS-CoV-2
+COVID19-primercheck-EUA-20200501  	172.18.8.76	28832	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV + 20 organisms in US EUA), NIHS 2020/5/1	SARS-CoV-2
+COVID19-primercheck-CoV-20200501  	172.18.8.76	28833	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV), NIHS 2020/5/1	SARS-CoV-2
+COVID19-primercheck-bCoV-20200501 	172.18.8.76	28834	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (5 beta-CoV), NIHS 2020/5/1	SARS-CoV-2
 28781                    	172.18.8.75	28781	         	Test Database 28781	
 28782                    	172.18.8.75	28782	         	Test Database 28782	
 28783                    	172.18.8.75	28783	         	Test Database 28783	
