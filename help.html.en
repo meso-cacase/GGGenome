@@ -878,7 +878,7 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 99 (Mar, 2020)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 200 (May, 2020)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
@@ -7589,7 +7589,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq99/'>refseq99</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq200/'>refseq200</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 200 (May, 2020)
+</tr>
+<tr>
+	<td><a href='/refseq99/'>refseq99</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -8351,6 +8359,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-05-27 Database updated to RefSeq rel. 200 (May, 2020).
 	<li>2020-04-20 Database updated to DDBJ rel. 119.0 (Mar, 2020).
 	<li>2020-03-30 <a target='_blank' href='https://d3g.riken.jp/release/20.03/'>D3G 20.03</a>,
 		pre-spliced &amp; spliced RNA database from RIKEN is available.
@@ -8493,7 +8502,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Mar 9, 2020 by
+<p class=g>Last modified on May 27, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
