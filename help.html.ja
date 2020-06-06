@@ -879,12 +879,15 @@ function set_strand(){
 	<option disabled>--------------------</option>
 
 	<option value='refseq'                   synonym="">RefSeq complete RNA release 200 (May, 2020)</option>
+	<option value='hs_refseq200'             synonym="Homo sapiens">RefSeq human RNA release 200 (May, 2020)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
+	<option value='mm_refseq200'             synonym="Mus musculus">RefSeq mouse RNA release 200 (May, 2020)</option>
 	<option value='mm_refseq90'              synonym="Mus musculus">RefSeq mouse RNA release 90 (Sep, 2018)</option>
 	<option value='mm_refseq80'              synonym="Mus musculus">RefSeq mouse RNA release 80 (Jan, 2017)</option>
 	<option value='mm_refseq70'              synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
+	<option value='rn_refseq200'             synonym="Rattus norvegicus">RefSeq rat RNA release 200 (May, 2020)</option>
 	<option value='rn_refseq90'              synonym="Rattus norvegicus">RefSeq rat RNA release 90 (Sep, 2018)</option>
 	<option value='rn_refseq80'              synonym="Rattus norvegicus">RefSeq rat RNA release 80 (Jan, 2017)</option>
 	<option value='rn_refseq70'              synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
@@ -8356,6 +8359,15 @@ set_strand() ;
 	<td>RefSeq complete RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/hs_refseq200/'>hs_refseq200</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td>RefSeq human RNA release 200 (May, 2020)
+</tr>
+<tr>
 	<td><a href='/hs_refseq90/'>hs_refseq90</a>
 	<td>RefSeq
 	<td>Mammal
@@ -8392,6 +8404,15 @@ set_strand() ;
 	<td>RefSeq human RNA release 60 (Jul, 2013)
 </tr>
 <tr>
+	<td><a href='/mm_refseq200/'>mm_refseq200</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td>RefSeq mouse RNA release 200 (May, 2020)
+</tr>
+<tr>
 	<td><a href='/mm_refseq90/'>mm_refseq90</a>
 	<td>RefSeq
 	<td>Mammal
@@ -8426,6 +8447,15 @@ set_strand() ;
 	<td>マウス
 	<td>Mus musculus
 	<td>RefSeq mouse RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/rn_refseq200/'>rn_refseq200</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>ラット
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA release 200 (May, 2020)
 </tr>
 <tr>
 	<td><a href='/rn_refseq90/'>rn_refseq90</a>
@@ -9305,7 +9335,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on May 27, 2020 by
+<p class=g>Last modified on Jun 6, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
