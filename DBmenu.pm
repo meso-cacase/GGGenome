@@ -738,12 +738,14 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'rn_refseq90\'              synonym=\"$db_synonym{'rn_refseq90'             }\">$db_fullname{'rn_refseq90'             }</option>
 	<option value=\'rn_refseq80\'              synonym=\"$db_synonym{'rn_refseq80'             }\">$db_fullname{'rn_refseq80'             }</option>
 	<option value=\'rn_refseq70\'              synonym=\"$db_synonym{'rn_refseq70'             }\">$db_fullname{'rn_refseq70'             }</option>
+	<option value=\'GENCODE_34\'               synonym=\"$db_synonym{'GENCODE_34'              }\">$db_fullname{'GENCODE_34'              }</option>
 	<option value=\'GENCODE_33\'               synonym=\"$db_synonym{'GENCODE_33'              }\">$db_fullname{'GENCODE_33'              }</option>
 	<option value=\'GENCODE_31\'               synonym=\"$db_synonym{'GENCODE_31'              }\">$db_fullname{'GENCODE_31'              }</option>
 	<option value=\'GENCODE_30\'               synonym=\"$db_synonym{'GENCODE_30'              }\">$db_fullname{'GENCODE_30'              }</option>
 	<option value=\'GENCODE_28\'               synonym=\"$db_synonym{'GENCODE_28'              }\">$db_fullname{'GENCODE_28'              }</option>
 	<option value=\'GENCODE_27\'               synonym=\"$db_synonym{'GENCODE_27'              }\">$db_fullname{'GENCODE_27'              }</option>
 	<option value=\'GENCODE_26\'               synonym=\"$db_synonym{'GENCODE_26'              }\">$db_fullname{'GENCODE_26'              }</option>
+	<option value=\'GENCODE_M25\'              synonym=\"$db_synonym{'GENCODE_M25'             }\">$db_fullname{'GENCODE_M25'             }</option>
 	<option value=\'GENCODE_M24\'              synonym=\"$db_synonym{'GENCODE_M24'             }\">$db_fullname{'GENCODE_M24'             }</option>
 	<option value=\'GENCODE_M22\'              synonym=\"$db_synonym{'GENCODE_M22'             }\">$db_fullname{'GENCODE_M22'             }</option>
 	<option value=\'GENCODE_M21\'              synonym=\"$db_synonym{'GENCODE_M21'             }\">$db_fullname{'GENCODE_M21'             }</option>

@@ -891,12 +891,14 @@ function set_strand(){
 	<option value='rn_refseq90'              synonym="Rattus norvegicus">RefSeq rat RNA release 90 (Sep, 2018)</option>
 	<option value='rn_refseq80'              synonym="Rattus norvegicus">RefSeq rat RNA release 80 (Jan, 2017)</option>
 	<option value='rn_refseq70'              synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
+	<option value='GENCODE_34'               synonym="Homo sapiens">GENCODE human release 34 (Apr, 2020)</option>
 	<option value='GENCODE_33'               synonym="Homo sapiens">GENCODE human release 33 (Jan, 2020)</option>
 	<option value='GENCODE_31'               synonym="Homo sapiens">GENCODE human release 31 (Jul, 2019)</option>
 	<option value='GENCODE_30'               synonym="Homo sapiens">GENCODE human release 30 (Apr, 2019)</option>
 	<option value='GENCODE_28'               synonym="Homo sapiens">GENCODE human release 28 (Apr, 2018)</option>
 	<option value='GENCODE_27'               synonym="Homo sapiens">GENCODE human release 27 (Aug, 2017)</option>
 	<option value='GENCODE_26'               synonym="Homo sapiens">GENCODE human release 26 (Mar, 2017)</option>
+	<option value='GENCODE_M25'              synonym="Mus musculus">GENCODE mouse release M25 (Apr, 2020)</option>
 	<option value='GENCODE_M24'              synonym="Mus musculus">GENCODE mouse release M24 (Jan, 2020)</option>
 	<option value='GENCODE_M22'              synonym="Mus musculus">GENCODE mouse release M22 (Jul, 2019)</option>
 	<option value='GENCODE_M21'              synonym="Mus musculus">GENCODE mouse release M21 (Apr, 2019)</option>
@@ -8485,6 +8487,16 @@ set_strand() ;
 	<td>RefSeq rat RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/GENCODE_34/'>GENCODE_34</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://www.gencodegenes.org/human/release_34.html'><!--
+		-->GENCODE human release 34 (Apr, 2020)</a>
+</tr>
+<tr>
 	<td><a href='/GENCODE_33/'>GENCODE_33</a>
 	<td>GENCODE
 	<td>Mammal
@@ -8543,6 +8555,16 @@ set_strand() ;
 	<td>Homo sapiens
 	<td><a target='_blank' href='https://www.gencodegenes.org/human/release_26.html'><!--
 		-->GENCODE human release 26 (Mar, 2017)</a>
+</tr>
+<tr>
+	<td><a href='/GENCODE_M25/'>GENCODE_M25</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td><a target='_blank' href='https://www.gencodegenes.org/mouse/release_M25.html'><!--
+		-->GENCODE mouse release M25 (Apr, 2020)</a>
 </tr>
 <tr>
 	<td><a href='/GENCODE_M24/'>GENCODE_M24</a>
@@ -9193,6 +9215,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-07-15 GENCODE ヒト 34 (Apr, 2020) および マウス M25 (Apr, 2020) に更新。
 	<li>2020-05-27 RefSeq rel. 200 (May, 2020) に更新。
 	<li>2020-04-20 DDBJ rel. 119.0 (Mar, 2020) に更新。
 	<li>2020-03-30 理研の公開するpre-spliced &amp; spliced RNAのデータベース<!--
@@ -9335,7 +9358,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jun 6, 2020 by
+<p class=g>Last modified on Jul 15, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
