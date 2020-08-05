@@ -1,4 +1,0 @@
-NOTICE:
-<ul>
-	<li>Server maintenance: 3 Aug 2020 (JST). Sorry for the inconvenience.
-</ul>
