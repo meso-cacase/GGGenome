@@ -2,7 +2,7 @@ GGGenome REST API
 
 Query format:
 
-http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/SEQUENCE[.FORMAT][.download]
+http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/[nogap]/SEQUENCE[.FORMAT][.download]
   DB (optional):
     'hg19'   - Human genome, GRCh37/hg19 (Feb, 2009)
     'mm10'   - Mouse genome, GRCm38/mm10 (Dec, 2011)
@@ -19,6 +19,8 @@ http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/SEQUENCE[.FORMAT][.download]
   STRAND (optional):
     '+' or 'plus'  - search plus strand only
     '-' or 'minus' - search minus strand only
+  nogap (optional):
+    No gaps. Allow only K mismatches.
   SEQUENCE:
     Nucleotide sequence, case insensitive. IUB code letters can be used.
   FORMAT (optional):
