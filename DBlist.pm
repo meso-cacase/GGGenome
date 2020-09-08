@@ -841,28 +841,28 @@ miRBase22mat             	172.18.8.72	28736	miRBase  	miRBase release 22, mature
 togogenome200            	172.18.8.71	27900	         	TogoGenome from RefSeq 200 (May, 2020)	
 togogenome               	172.18.8.71	27900	         	TogoGenome from RefSeq 200 (May, 2020)	
 ddbj92                   	172.18.8.76	42313	DDBJ     	DDBJ release 92.0 (Feb, 2013)	
-ddbj119                  	172.18.8.71	27860	DDBJ     	DDBJ release 119.0 (Mar, 2020)	
-ddbj                     	172.18.8.71	27860	DDBJ     	DDBJ release 119.0 (Mar, 2020)	
-ddbj119hum               	172.18.8.77	27861	DDBJ     	DDBJ release 119.0, HUM division (Mar, 2020)	ddbjhum
-ddbj119pri               	172.18.8.76	27862	DDBJ     	DDBJ release 119.0, PRI division (Mar, 2020)	ddbjpri
-ddbj119rod               	172.18.8.72	27863	DDBJ     	DDBJ release 119.0, ROD division (Mar, 2020)	ddbjrod
-ddbj119mam               	172.18.8.76	27864	DDBJ     	DDBJ release 119.0, MAM division (Mar, 2020)	ddbjmam
-ddbj119vrt               	172.18.8.76	27865	DDBJ     	DDBJ release 119.0, VRT division (Mar, 2020)	ddbjvrt
-ddbj119inv               	172.18.8.73	27866	DDBJ     	DDBJ release 119.0, INV division (Mar, 2020)	ddbjinv
-ddbj119pln               	172.18.8.78	27867	DDBJ     	DDBJ release 119.0, PLN division (Mar, 2020)	ddbjpln
-ddbj119bct               	172.18.8.75	27868	DDBJ     	DDBJ release 119.0, BCT division (Mar, 2020)	ddbjbct
-ddbj119vrl               	172.18.8.75	27869	DDBJ     	DDBJ release 119.0, VRL division (Mar, 2020)	ddbjvrl
-ddbj119phg               	172.18.8.78	27870	DDBJ     	DDBJ release 119.0, PHG division (Mar, 2020)	ddbjphg
-ddbj119pat               	172.18.8.77	27871	DDBJ     	DDBJ release 119.0, PAT division (Mar, 2020)	ddbjpat
-ddbj119env               	172.18.8.77	27872	DDBJ     	DDBJ release 119.0, ENV division (Mar, 2020)	ddbjenv
-ddbj119syn               	172.18.8.73	27873	DDBJ     	DDBJ release 119.0, SYN division (Mar, 2020)	ddbjsyn
-ddbj119est               	172.18.8.73	27874	DDBJ     	DDBJ release 119.0, EST division (Mar, 2020)	ddbjest
-ddbj119tsa               	172.18.8.72	27875	DDBJ     	DDBJ release 119.0, TSA division (Mar, 2020)	ddbjtsa
-ddbj119gss               	172.18.8.76	27876	DDBJ     	DDBJ release 119.0, GSS division (Mar, 2020)	ddbjgss
-ddbj119htc               	172.18.8.73	27877	DDBJ     	DDBJ release 119.0, HTC division (Mar, 2020)	ddbjhtc
-ddbj119htg               	172.18.8.72	27878	DDBJ     	DDBJ release 119.0, HTG division (Mar, 2020)	ddbjhtg
-ddbj119sts               	172.18.8.78	27879	DDBJ     	DDBJ release 119.0, STS division (Mar, 2020)	ddbjsts
-ddbj119una               	172.18.8.73	27880	DDBJ     	DDBJ release 119.0, UNA division (Mar, 2020)	ddbjuna
+ddbj120                  	172.18.8.71	27500	DDBJ     	DDBJ release 120.0 (Jun, 2020)	
+ddbj                     	172.18.8.71	27500	DDBJ     	DDBJ release 120.0 (Jun, 2020)	
+ddbj120hum               	172.18.8.77	27501	DDBJ     	DDBJ release 120.0, HUM division (Jun, 2020)	ddbjhum
+ddbj120pri               	172.18.8.76	27502	DDBJ     	DDBJ release 120.0, PRI division (Jun, 2020)	ddbjpri
+ddbj120rod               	172.18.8.72	27503	DDBJ     	DDBJ release 120.0, ROD division (Jun, 2020)	ddbjrod
+ddbj120mam               	172.18.8.76	27504	DDBJ     	DDBJ release 120.0, MAM division (Jun, 2020)	ddbjmam
+ddbj120vrt               	172.18.8.77	27505	DDBJ     	DDBJ release 120.0, VRT division (Jun, 2020)	ddbjvrt
+ddbj120inv               	172.18.8.73	27506	DDBJ     	DDBJ release 120.0, INV division (Jun, 2020)	ddbjinv
+ddbj120pln               	172.18.8.78	27507	DDBJ     	DDBJ release 120.0, PLN division (Jun, 2020)	ddbjpln
+ddbj120bct               	172.18.8.72	27508	DDBJ     	DDBJ release 120.0, BCT division (Jun, 2020)	ddbjbct
+ddbj120vrl               	172.18.8.75	27509	DDBJ     	DDBJ release 120.0, VRL division (Jun, 2020)	ddbjvrl
+ddbj120phg               	172.18.8.78	27510	DDBJ     	DDBJ release 120.0, PHG division (Jun, 2020)	ddbjphg
+ddbj120pat               	172.18.8.77	27511	DDBJ     	DDBJ release 120.0, PAT division (Jun, 2020)	ddbjpat
+ddbj120env               	172.18.8.77	27512	DDBJ     	DDBJ release 120.0, ENV division (Jun, 2020)	ddbjenv
+ddbj120syn               	172.18.8.73	27513	DDBJ     	DDBJ release 120.0, SYN division (Jun, 2020)	ddbjsyn
+ddbj120est               	172.18.8.73	27514	DDBJ     	DDBJ release 120.0, EST division (Jun, 2020)	ddbjest
+ddbj120tsa               	172.18.8.72	27515	DDBJ     	DDBJ release 120.0, TSA division (Jun, 2020)	ddbjtsa
+ddbj120gss               	172.18.8.76	27516	DDBJ     	DDBJ release 120.0, GSS division (Jun, 2020)	ddbjgss
+ddbj120htc               	172.18.8.73	27517	DDBJ     	DDBJ release 120.0, HTC division (Jun, 2020)	ddbjhtc
+ddbj120htg               	172.18.8.72	27518	DDBJ     	DDBJ release 120.0, HTG division (Jun, 2020)	ddbjhtg
+ddbj120sts               	172.18.8.78	27519	DDBJ     	DDBJ release 120.0, STS division (Jun, 2020)	ddbjsts
+ddbj120una               	172.18.8.73	27520	DDBJ     	DDBJ release 120.0, UNA division (Jun, 2020)	ddbjuna
 SARS-CoV-2               	172.18.8.76	55040	         	SARS-CoV-2 complete genomes, GenBank 2020/9/4	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200317      	172.18.8.76	55001	         	SARS-CoV-2 complete genomes, GenBank 2020/3/17	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200324      	172.18.8.76	55002	         	SARS-CoV-2 complete genomes, GenBank 2020/3/24	Severe acute respiratory syndrome coronavirus 2;COVID-19
