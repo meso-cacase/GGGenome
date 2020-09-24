@@ -9224,7 +9224,7 @@ set_strand() ;
 		--><a target='_blank' href='https://d3g.riken.jp/release/20.03/'>D3G 20.03</a>を追加。
 	<li>2020-03-29 RefSeq rel. 99 (Mar, 2020) に更新。
 	<li>2020-03-21 新型コロナウイルス SARS-CoV-2 ゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/30bc9dda28a72c324bcef9ab944d31ce'>コロナ更新情報</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/SARS-CoV-2'>コロナ更新情報</a>
 	<li>2020-03-21 日本人基準ゲノム配列 JG1 を追加。
 	<li>2020-03-21 GENCODE ヒト 33 (Jan, 2020) および マウス M24 (Jan, 2020) に更新。
 	<li>2020-03-21 RefSeq rel. 98 (Jan, 2020) に更新。
@@ -9241,7 +9241,7 @@ set_strand() ;
 	<li>2019-01-09 DDBJ rel. 115.0 (Dec, 2018) に更新。
 	<li>2018-12-13 TXT, CSV, JSON出力に、アライメント情報やミスマッチ塩基数などを追加。
 	<li>2018-12-13 36種のゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
 	<li>2018-11-21 RefSeq rel. 91 (Nov, 2018) に更新。
 	<li>2018-10-10 DDBJ rel. 114.0 (Sep, 2018) に更新。
 	<li>2018-09-23 RefSeq rel. 90 (Sep, 2018) に更新。
@@ -9251,7 +9251,7 @@ set_strand() ;
 	<li>2018-04-19 DDBJ rel. 112.0 (Apr, 2018) に更新。
 	<li>2018-04-19 GENCODE ヒト 28 (Apr, 2018) および マウス M17 (Apr, 2018) に更新。
 	<li>2018-04-19 12種のゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
 	<li>2018-03-22 miRBase rel. 22 (Mar, 2018) に更新。
 	<li>2018-03-22 RefSeq rel. 87 (Mar, 2018) に更新。
 	<li>2018-01-26 RefSeq rel. 86 (Jan, 2018) に更新。
@@ -9260,18 +9260,18 @@ set_strand() ;
 	<li>2017-12-11 ニンジンゲノムを追加。
 	<li>2017-11-29 <a target='_blank' href='http://genome.microbedb.jp/cyanobase/'>CyanoBase</a>
 		から376種のゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/CyanoBase'>追加リスト</a>
 	<li>2017-11-17 RefSeq rel. 85 (Nov, 2017) に更新。
 	<li>2017-11-06 DDBJ rel. 110.0 (Sep, 2017) に更新。
 	<li>2017-10-17 5種のゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
 	<li>2017-10-17 miRBase rel. 21のstem-loopおよびmature miRNA配列を追加。
 	<li>2017-10-17 GENCODE ヒト 27 (Aug, 2017) および マウス M15 (Aug, 2017) に更新。
 	<li>2017-10-09 RefSeq rel. 84 (Sep, 2017) に更新。
 	<li>2017-08-07 RefSeq rel. 83 (Jul, 2017) に更新。
 	<li>2017-07-03 DDBJ rel. 109.0 (May, 2017) に更新。
 	<li>2017-06-15 7種のゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
 	<li>2017-06-14 カイコゲノム (SilkBase, Nov. 2016) を追加。
 	<li>2017-06-09 日本人基準ゲノム JRGv2/decoyJRGv2 を追加。
 	<li>2017-06-09 GENCODE ヒト 26 (Mar, 2017) および マウス M13 (Mar, 2017) を追加。
@@ -9281,18 +9281,18 @@ set_strand() ;
 	<li>2017-02-17 ハクサイ (<i>Brassica rapa</i>) ゲノム v1.5 を追加。
 	<li>2017-02-01 DDBJ rel. 107.0 (Jan, 2017) に更新。
 	<li>2017-01-20 8種のゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
 	<li>2017-01-20 RefSeq rel. 80 (Jan, 2017) に更新。
 	<li>2016-11-18 RefSeq rel. 79 (Nov, 2016) に更新。
 	<li>2016-10-03 DDBJ rel. 106.0 (Sep, 2016) に更新。
 	<li>2016-09-16 RefSeq rel. 78 (Sep, 2016) に更新。
 	<li>2016-09-01 10種のゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
 	<li>2016-08-30 日本人基準ゲノム JRGv1/decoyJRGv1 を追加。
 	<li>2016-07-14 DDBJ rel. 105.0 (Jun, 2016) に更新。
 	<li>2016-07-12 RefSeq rel. 77 (Jul, 2016) に更新。
 	<li>2016-06-13 10種のゲノムを追加 -
-		<a target='_blank' href='https://gist.github.com/meso-cacase/b49296a31264b19eb2f52d401b6c4991'>追加リスト</a>
+		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
 	<li>2016-05-26 RefSeq rel. 76 (May, 2016) に更新。
 	<li>2016-04-27 DDBJ rel. 104.0 (Mar, 2016) に更新。
 	<li>2016-03-18 RefSeq rel. 75 (Mar, 2016) に更新。
@@ -9360,7 +9360,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Sep 9, 2020 by
+<p class=g>Last modified on Sep 24, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
