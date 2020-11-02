@@ -326,6 +326,7 @@ AspL_2604                	172.18.8.72	28013	EnsemblFungi	Aspergillus luchuensis 
 Akaw_assembly01          	172.18.8.72	28014	NCBI     	Aspergillus kawachii genome, IFO 4308 (Nov, 2011)	Aspergillus kawachii;white koji
 ASM82905v1               	172.18.8.72	28015	NCBI     	Lactobacillus casei subsp. casei (ATCC 393) genome, ASM82905v1 (Aug, 2013)	Lactobacillus casei
 Gur1                     	172.18.8.72	28749	         	Glycyrrhiza uralensis genome, release 1 (Aug, 2016)	Glycyrrhiza uralensis;chinese licorice
+GCA_003118565.1          	172.18.8.72	28847	NCBI     	Paroedura picta genome, Ppicta_assembly_v1 (Mar, 2018)	Paroedura picta;madagascar ground gecko;ocelot gecko
 16SrRNA                  	172.18.8.77	28286	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3           	172.18.8.74	28287	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1    	172.18.8.74	28288	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss

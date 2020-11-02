@@ -495,6 +495,7 @@ function set_strand(){
 	<option value='ASM15095v2'               synonym="Phaeodactylum tricornutum;diatom">Phaeodactylum tricornutum genome, ASM15095v2 (Feb, 2010)</option>
 	<option value='ASM14940v2'               synonym="Thalassiosira pseudonana;diatom">Thalassiosira pseudonana genome, ASM14940v2 (May, 2014)</option>
 	<option value='ASM82905v1'               synonym="Lactobacillus casei">Lactobacillus casei subsp. casei (ATCC 393) genome, ASM82905v1 (Aug, 2013)</option>
+	<option value='GCA_003118565.1'          synonym="Paroedura picta;madagascar ground gecko;ocelot gecko">Paroedura picta genome, Ppicta_assembly_v1 (Mar, 2018)</option>
 
 	<option value='eboVir3'                  synonym="Filoviridae ebolavirus">Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
 	<option value='SARS-CoV-2'               synonym="Severe acute respiratory syndrome coronavirus 2;COVID-19">SARS-CoV-2 complete genomes, GenBank</option>
@@ -4482,6 +4483,16 @@ set_strand() ;
 	<td>Lactobacillus casei subsp. casei
 	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCA_000829055.1'><!--
 		-->ASM82905v1 (Aug, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/GCA_003118565.1/'>GCA_003118565.1</a>
+	<td>NCBI
+	<td>Vertebrate
+	<td>Madagascar ground gecko
+	<td>ソメワケササクレヤモリ
+	<td>Paroedura picta
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCA_003118565.1'><!--
+		-->Ppicta_assembly_v1 (Mar, 2018)</a>
 </tr>
 <tr>
 	<td><a href='/SARS-CoV-2/'>SARS-CoV-2</a>
@@ -9360,7 +9371,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Sep 24, 2020 by
+<p class=g>Last modified on Nov 2, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
