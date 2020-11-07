@@ -14,6 +14,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'decoyJRGv2\'               synonym=\"$db_synonym{'decoyJRGv2'              }\">$db_fullname{'decoyJRGv2'              }</option>
 	<option value=\'JRGv1\'                    synonym=\"$db_synonym{'JRGv1'                   }\">$db_fullname{'JRGv1'                   }</option>
 	<option value=\'decoyJRGv1\'               synonym=\"$db_synonym{'decoyJRGv1'              }\">$db_fullname{'decoyJRGv1'              }</option>
+	<option value=\'mm39\'                     synonym=\"$db_synonym{'mm39'                    }\">$db_fullname{'mm39'                    }</option>
 	<option value=\'mm10\'                     synonym=\"$db_synonym{'mm10'                    }\">$db_fullname{'mm10'                    }</option>
 	<option value=\'mm9\'                      synonym=\"$db_synonym{'mm9'                     }\">$db_fullname{'mm9'                     }</option>
 	<option value=\'MSMv3\'                    synonym=\"$db_synonym{'MSMv3'                   }\">$db_fullname{'MSMv3'                   }</option>

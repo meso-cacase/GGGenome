@@ -167,6 +167,7 @@ Database:<br>&emsp;
 	<option value='decoyJRGv2'               synonym="Homo sapiens">Decoy sequence of the Human Japanese Reference Genome, decoyJRGv2 (Jun, 2017)</option>
 	<option value='JRGv1'                    synonym="Homo sapiens">Human Japanese Reference Genome, JRGv1 (Aug, 2016)</option>
 	<option value='decoyJRGv1'               synonym="Homo sapiens">Decoy sequence of the Human Japanese Reference Genome, decoyJRGv1 (Aug, 2016)</option>
+	<option value='mm39'                     synonym="Mus musculus">Mouse genome, GRCm39/mm39 (Jun, 2020)</option>
 	<option value='mm10'                     synonym="Mus musculus">Mouse genome, GRCm38/mm10 (Dec, 2011)</option>
 	<option value='mm9'                      synonym="Mus musculus">Mouse genome, NCBI37/mm9 (Jul, 2007)</option>
 	<option value='MSMv3'                    synonym="Mus musculus">Mouse genome, MSMv3</option>
@@ -1164,6 +1165,15 @@ set_strand() ;
 	<td>Homo sapiens
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg18'><!--
 		-->NCBI36/hg18 (Mar, 2006)</a>
+</tr>
+<tr>
+	<td><a href='/mm39/'>mm39</a>
+	<td>UCSC
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm39'><!--
+		-->GRCm39/mm39 (Jun, 2020)</a>
 </tr>
 <tr>
 	<td><a href='/mm10/'>mm10</a>
@@ -8416,6 +8426,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-11-07 Mouse genome GRCm39/mm39 (Jun, 2020) is available.
 	<li>2020-11-07 Database updated to RefSeq rel. 202 (Sep, 2020).
 	<li>2020-09-09 Database updated to DDBJ rel. 120.0 (Jun, 2020).
 	<li>2020-08-11 Database updated to RefSeq rel. 201 (Jul, 2020).

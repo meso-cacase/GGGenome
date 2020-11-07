@@ -19,6 +19,7 @@ $dbconfig =
 <<'--EOS--' ;
 hg38                     	172.18.8.78	28017	UCSC	Human genome, GRCh38/hg38 (Dec, 2013)	Homo sapiens
 hg19                     	172.18.8.78	28018	UCSC	Human genome, GRCh37/hg19 (Feb, 2009)	Homo sapiens
+mm39                     	172.18.8.78	28851	UCSC	Mouse genome, GRCm39/mm39 (Jun, 2020)	Mus musculus
 mm10                     	172.18.8.78	28019	UCSC	Mouse genome, GRCm38/mm10 (Dec, 2011)	Mus musculus
 mm9                      	172.18.8.78	28020	UCSC	Mouse genome, NCBI37/mm9 (Jul, 2007)	Mus musculus
 vicPac2                  	172.18.8.78	28021	UCSC	Alpaca genome, Vicugna_pacos-2.0.1/vicPac2 (Mar, 2013)	Vicugna pacos
