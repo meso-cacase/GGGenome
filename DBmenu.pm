@@ -729,17 +729,41 @@ $dbmenu = <<"--EOS--" ;
 
 	<option value=\'refseq\'                   synonym=\"$db_synonym{'refseq'                  }\">$db_fullname{'refseq'                  }</option>
 	<option value=\'hs_refseq200\'             synonym=\"$db_synonym{'hs_refseq200'            }\">$db_fullname{'hs_refseq200'            }</option>
+	<option value=\'hsnm_refseq200\'           synonym=\"$db_synonym{'hsnm_refseq200'          }\">$db_fullname{'hsnm_refseq200'          }</option>
+	<option value=\'hsxm_refseq200\'           synonym=\"$db_synonym{'hsxm_refseq200'          }\">$db_fullname{'hsxm_refseq200'          }</option>
 	<option value=\'hs_refseq90\'              synonym=\"$db_synonym{'hs_refseq90'             }\">$db_fullname{'hs_refseq90'             }</option>
+	<option value=\'hsnm_refseq90\'            synonym=\"$db_synonym{'hsnm_refseq90'           }\">$db_fullname{'hsnm_refseq90'           }</option>
+	<option value=\'hsxm_refseq90\'            synonym=\"$db_synonym{'hsxm_refseq90'           }\">$db_fullname{'hsxm_refseq90'           }</option>
 	<option value=\'hs_refseq80\'              synonym=\"$db_synonym{'hs_refseq80'             }\">$db_fullname{'hs_refseq80'             }</option>
+	<option value=\'hsnm_refseq80\'            synonym=\"$db_synonym{'hsnm_refseq80'           }\">$db_fullname{'hsnm_refseq80'           }</option>
+	<option value=\'hsxm_refseq80\'            synonym=\"$db_synonym{'hsxm_refseq80'           }\">$db_fullname{'hsxm_refseq80'           }</option>
 	<option value=\'hs_refseq70\'              synonym=\"$db_synonym{'hs_refseq70'             }\">$db_fullname{'hs_refseq70'             }</option>
+	<option value=\'hsnm_refseq70\'            synonym=\"$db_synonym{'hsnm_refseq70'           }\">$db_fullname{'hsnm_refseq70'           }</option>
+	<option value=\'hsxm_refseq70\'            synonym=\"$db_synonym{'hsxm_refseq70'           }\">$db_fullname{'hsxm_refseq70'           }</option>
 	<option value=\'mm_refseq200\'             synonym=\"$db_synonym{'mm_refseq200'            }\">$db_fullname{'mm_refseq200'            }</option>
+	<option value=\'mmnm_refseq200\'           synonym=\"$db_synonym{'mmnm_refseq200'          }\">$db_fullname{'mmnm_refseq200'          }</option>
+	<option value=\'mmxm_refseq200\'           synonym=\"$db_synonym{'mmxm_refseq200'          }\">$db_fullname{'mmxm_refseq200'          }</option>
 	<option value=\'mm_refseq90\'              synonym=\"$db_synonym{'mm_refseq90'             }\">$db_fullname{'mm_refseq90'             }</option>
+	<option value=\'mmnm_refseq90\'            synonym=\"$db_synonym{'mmnm_refseq90'           }\">$db_fullname{'mmnm_refseq90'           }</option>
+	<option value=\'mmxm_refseq90\'            synonym=\"$db_synonym{'mmxm_refseq90'           }\">$db_fullname{'mmxm_refseq90'           }</option>
 	<option value=\'mm_refseq80\'              synonym=\"$db_synonym{'mm_refseq80'             }\">$db_fullname{'mm_refseq80'             }</option>
+	<option value=\'mmnm_refseq80\'            synonym=\"$db_synonym{'mmnm_refseq80'           }\">$db_fullname{'mmnm_refseq80'           }</option>
+	<option value=\'mmxm_refseq80\'            synonym=\"$db_synonym{'mmxm_refseq80'           }\">$db_fullname{'mmxm_refseq80'           }</option>
 	<option value=\'mm_refseq70\'              synonym=\"$db_synonym{'mm_refseq70'             }\">$db_fullname{'mm_refseq70'             }</option>
+	<option value=\'mmnm_refseq70\'            synonym=\"$db_synonym{'mmnm_refseq70'           }\">$db_fullname{'mmnm_refseq70'           }</option>
+	<option value=\'mmxm_refseq70\'            synonym=\"$db_synonym{'mmxm_refseq70'           }\">$db_fullname{'mmxm_refseq70'           }</option>
 	<option value=\'rn_refseq200\'             synonym=\"$db_synonym{'rn_refseq200'            }\">$db_fullname{'rn_refseq200'            }</option>
+	<option value=\'rnnm_refseq200\'           synonym=\"$db_synonym{'rnnm_refseq200'          }\">$db_fullname{'rnnm_refseq200'          }</option>
+	<option value=\'rnxm_refseq200\'           synonym=\"$db_synonym{'rnxm_refseq200'          }\">$db_fullname{'rnxm_refseq200'          }</option>
 	<option value=\'rn_refseq90\'              synonym=\"$db_synonym{'rn_refseq90'             }\">$db_fullname{'rn_refseq90'             }</option>
+	<option value=\'rnnm_refseq90\'            synonym=\"$db_synonym{'rnnm_refseq90'           }\">$db_fullname{'rnnm_refseq90'           }</option>
+	<option value=\'rnxm_refseq90\'            synonym=\"$db_synonym{'rnxm_refseq90'           }\">$db_fullname{'rnxm_refseq90'           }</option>
 	<option value=\'rn_refseq80\'              synonym=\"$db_synonym{'rn_refseq80'             }\">$db_fullname{'rn_refseq80'             }</option>
+	<option value=\'rnnm_refseq80\'            synonym=\"$db_synonym{'rnnm_refseq80'           }\">$db_fullname{'rnnm_refseq80'           }</option>
+	<option value=\'rnxm_refseq80\'            synonym=\"$db_synonym{'rnxm_refseq80'           }\">$db_fullname{'rnxm_refseq80'           }</option>
 	<option value=\'rn_refseq70\'              synonym=\"$db_synonym{'rn_refseq70'             }\">$db_fullname{'rn_refseq70'             }</option>
+	<option value=\'rnnm_refseq70\'            synonym=\"$db_synonym{'rnnm_refseq70'           }\">$db_fullname{'rnnm_refseq70'           }</option>
+	<option value=\'rnxm_refseq70\'            synonym=\"$db_synonym{'rnxm_refseq70'           }\">$db_fullname{'rnxm_refseq70'           }</option>
 	<option value=\'GENCODE_34\'               synonym=\"$db_synonym{'GENCODE_34'              }\">$db_fullname{'GENCODE_34'              }</option>
 	<option value=\'GENCODE_33\'               synonym=\"$db_synonym{'GENCODE_33'              }\">$db_fullname{'GENCODE_33'              }</option>
 	<option value=\'GENCODE_31\'               synonym=\"$db_synonym{'GENCODE_31'              }\">$db_fullname{'GENCODE_31'              }</option>
