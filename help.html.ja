@@ -880,7 +880,7 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 202 (Sep, 2020)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 203 (Nov, 2020)</option>
 	<option value='hs_refseq200'             synonym="Homo sapiens">RefSeq human RNA release 200 (May, 2020)</option>
 	<option value='hs_refseq90'              synonym="Homo sapiens">RefSeq human RNA release 90 (Sep, 2018)</option>
 	<option value='hs_refseq80'              synonym="Homo sapiens">RefSeq human RNA release 80 (Jan, 2017)</option>
@@ -8338,7 +8338,16 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq202/'>refseq202</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq203/'>refseq203</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 203 (Nov, 2020)
+</tr>
+<tr>
+	<td><a href='/refseq202/'>refseq202</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -9246,6 +9255,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2020-12-07 RefSeq rel. 203 (Nov, 2020) に更新。
 	<li>2020-11-07 マウスゲノム GRCm39/mm39 (Jun, 2020) を追加。
 	<li>2020-11-07 RefSeq rel. 202 (Sep, 2020) に更新。
 	<li>2020-09-09 DDBJ rel. 120.0 (Jun, 2020) に更新。
@@ -9393,7 +9403,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Nov 7, 2020 by
+<p class=g>Last modified on Dec 7, 2020 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
