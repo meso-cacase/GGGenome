@@ -1249,6 +1249,10 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href=" .
 	       "https://www.ncbi.nlm.nih.gov/nuccore/$1>$2</a><br>\n\t" .
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
+($db eq 'JG1') ?
+	return "<a class=a target='_blank' href='" .
+	       "https://jmorp.megabank.tohoku.ac.jp/201902/sequence/jbrowse/?" .
+	       "data=data-jg1&loc=$name%3A$pos..$pos_end&tracks=DNA'>$name:$pos-$pos_end</a>" :
 # それ以外の場合
 	return "$name<br>\n\t" .
 	       "position: $pos-$pos_end\n" ;
