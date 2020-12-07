@@ -728,6 +728,10 @@ $dbmenu = <<"--EOS--" ;
 	<option disabled>--------------------</option>
 
 	<option value=\'refseq\'                   synonym=\"$db_synonym{'refseq'                  }\">$db_fullname{'refseq'                  }</option>
+	<option value=\'refseq200\'                synonym=\"$db_synonym{'refseq200'               }\">$db_fullname{'refseq200'               }</option>
+	<option value=\'refseq90\'                 synonym=\"$db_synonym{'refseq90'                }\">$db_fullname{'refseq90'                }</option>
+	<option value=\'refseq80\'                 synonym=\"$db_synonym{'refseq80'                }\">$db_fullname{'refseq80'                }</option>
+	<option value=\'refseq70\'                 synonym=\"$db_synonym{'refseq70'                }\">$db_fullname{'refseq70'                }</option>
 	<option value=\'hs_refseq200\'             synonym=\"$db_synonym{'hs_refseq200'            }\">$db_fullname{'hs_refseq200'            }</option>
 	<option value=\'hsnm_refseq200\'           synonym=\"$db_synonym{'hsnm_refseq200'          }\">$db_fullname{'hsnm_refseq200'          }</option>
 	<option value=\'hsxm_refseq200\'           synonym=\"$db_synonym{'hsxm_refseq200'          }\">$db_fullname{'hsxm_refseq200'          }</option>

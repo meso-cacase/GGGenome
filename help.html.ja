@@ -881,6 +881,10 @@ function set_strand(){
 	<option disabled>--------------------</option>
 
 	<option value='refseq'                   synonym="">RefSeq complete RNA release 203 (Nov, 2020)</option>
+	<option value='refseq200'                synonym="">RefSeq complete RNA release 200 (May, 2020)</option>
+	<option value='refseq90'                 synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
+	<option value='refseq80'                 synonym="">RefSeq complete RNA release 80 (Jan, 2017)</option>
+	<option value='refseq70'                 synonym="">RefSeq complete RNA release 70 (May, 2015)</option>
 	<option value='hs_refseq200'             synonym="Homo sapiens">RefSeq human RNA release 200 (May, 2020)</option>
 	<option value='hsnm_refseq200'           synonym="Homo sapiens">RefSeq human RNA (NM/NR) release 200 (May, 2020)</option>
 	<option value='hsxm_refseq200'           synonym="Homo sapiens">RefSeq human RNA (XM/XR) release 200 (May, 2020)</option>
