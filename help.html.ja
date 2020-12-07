@@ -9463,6 +9463,46 @@ set_strand() ;
 	<td><a target='_blank' href='https://d3g.riken.jp/release/18.04/'><!--
 		-->Human unspliced mRNA,<br>GENCODE27 20170925 on hg38 (Apr, 2018)</a>
 </tr>
+<tr>
+	<td><a href='/COVID19-primercheck-EUL-20200501/'>COVID19-primercheck-EUL-20200501</a>
+	<td>NIHS
+	<td>
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='http://www.nihs.go.jp/mtgt/covid-19info.html'><!--
+		-->Cross-reactivity check for COVID-19 diagnostic primers<br>(7 CoV + 32 organisms in WHO EUL), NIHS 2020/5/1</a>
+</tr>
+<tr>
+	<td><a href='/COVID19-primercheck-EUA-20200501/'>COVID19-primercheck-EUA-20200501</a>
+	<td>NIHS
+	<td>
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='http://www.nihs.go.jp/mtgt/covid-19info.html'><!--
+		-->Cross-reactivity check for COVID-19 diagnostic primers<br>(7 CoV + 20 organisms in US EUA), NIHS 2020/5/1</a>
+</tr>
+<tr>
+	<td><a href='/COVID19-primercheck-CoV-20200501/'>COVID19-primercheck-CoV-20200501</a>
+	<td>NIHS
+	<td>
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='http://www.nihs.go.jp/mtgt/covid-19info.html'><!--
+		-->Cross-reactivity check for COVID-19 diagnostic primers<br>(7 CoV), NIHS 2020/5/1</a>
+</tr>
+<tr>
+	<td><a href='/COVID19-primercheck-bCoV-20200501 /'>COVID19-primercheck-bCoV-20200501 </a>
+	<td>NIHS
+	<td>
+	<td>
+	<td>
+	<td>
+	<td><a target='_blank' href='http://www.nihs.go.jp/mtgt/covid-19info.html'><!--
+		-->Cross-reactivity check for COVID-19 diagnostic primers<br>(5 beta-CoV), NIHS 2020/5/1</a>
+</tr>
 </tbody>
 </table>
 </div>
