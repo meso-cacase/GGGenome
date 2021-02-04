@@ -822,6 +822,31 @@ mm10_RefSeqCurated_spliced_d3g2003                       	172.18.8.75	28827	D3G	
 mm10_RefSeqCuratedProtCoding_prespliced_d3g2003          	172.18.8.75	28828	D3G	Mouse pre-spliced RNA, RefSeq curated protein coding on mm10, D3G 20.03 (Mar, 2020)	Mus musculus
 mm10_RefSeqCuratedProtCoding_spliced_d3g2003             	172.18.8.75	28829	D3G	Mouse spliced RNA, RefSeq curated protein coding on mm10, D3G 20.03 (Mar, 2020)	Mus musculus
 mm10_d3g2003                                             	172.18.8.75	28830	D3G	Mouse genome, GRCm38/mm10 (Jan, 2012)	Mus musculus
+calJacRKC1912_Trac2101_prespliced_d3g2101                	172.18.8.75	28852	D3G	Marmoset pre-spliced RNA, TRaC 21.01 on calJacRKC1912, D3G 21.01 (Jan, 2021)	Callithrix jacchus
+calJacRKC1912_Trac2101_spliced_d3g2101                   	172.18.8.75	28853	D3G	Marmoset spliced RNA, TRaC 21.01 on calJacRKC1912, D3G 21.01 (Jan, 2021)	Callithrix jacchus
+calJacRKC1912_Trac2101ProtCoding_prespliced_d3g2101      	172.18.8.75	28854	D3G	Marmoset pre-spliced RNA, TRaC 21.01 protein coding on calJacRKC1912, D3G 21.01 (Jan, 2021)	Callithrix jacchus
+calJacRKC1912_Trac2101ProtCoding_spliced_d3g2101         	172.18.8.75	28855	D3G	Marmoset spliced RNA, TRaC 21.01 protein coding on calJacRKC1912, D3G 21.01 (Jan, 2021)	Callithrix jacchus
+calJacRKC1912_chrM_d3g2101                               	172.18.8.75	28815	D3G	Marmoset genome, calJacRKC1912 (Dec, 2019)	Callithrix jacchus
+hg38_RefSeqCurated_prespliced_d3g2101                    	172.18.8.75	28856	D3G	Human pre-spliced RNA, RefSeq curated on hg38.p12, D3G 21.01 (Jan, 2021)	Homo sapiens
+hg38_RefSeqCurated_spliced_d3g2101                       	172.18.8.75	28857	D3G	Human spliced RNA, RefSeq curated on hg38.p12, D3G 21.01 (Jan, 2021)	Homo sapiens
+hg38_RefSeqCuratedProtCoding_prespliced_d3g2101          	172.18.8.75	28858	D3G	Human pre-spliced RNA, RefSeq curated protein coding on hg38.p12, D3G 21.01 (Jan, 2021)	Homo sapiens
+hg38_RefSeqCuratedProtCoding_spliced_d3g2101             	172.18.8.75	28859	D3G	Human spliced RNA, RefSeq curated protein coding on hg38.p12, D3G 21.01 (Jan, 2021)	Homo sapiens
+hg38.p12_d3g2101                                         	172.18.8.75	28820	D3G	Human genome, GRCh38/hg38.p12 (Dec, 2017)	Homo sapiens
+macFasRKS1912_Trac2101_prespliced_d3g2101                	172.18.8.75	28860	D3G	Crab-eating macaque pre-spliced RNA, TRaC 21.01 on macFasRKS1912, D3G 21.01 (Jan, 2021)	Macaca fascicularis
+macFasRKS1912_Trac2101_spliced_d3g2101                   	172.18.8.75	28861	D3G	Crab-eating macaque spliced RNA, TRaC 21.01 on macFasRKS1912, D3G 21.01 (Jan, 2021)	Macaca fascicularis
+macFasRKS1912_Trac2101ProtCoding_prespliced_d3g2101      	172.18.8.75	28862	D3G	Crab-eating macaque pre-spliced RNA, TRaC 21.01 protein coding on macFasRKS1912, D3G 21.01 (Jan, 2021)	Macaca fascicularis
+macFasRKS1912_Trac2101ProtCoding_spliced_d3g2101         	172.18.8.75	28863	D3G	Crab-eating macaque spliced RNA, TRaC 21.01 protein coding on macFasRKS1912, D3G 21.01 (Jan, 2021)	Macaca fascicularis
+macFasRKS1912_chrM_d3g2101                               	172.18.8.75	28825	D3G	Crab-eating macaque genome, macFasRKS1912 (Dec, 2019)	Macaca fascicularis
+mm10_RefSeqCurated_prespliced_d3g2101                    	172.18.8.75	28864	D3G	Mouse pre-spliced RNA, RefSeq curated on mm10, D3G 21.01 (Jan, 2021)	Mus musculus
+mm10_RefSeqCurated_spliced_d3g2101                       	172.18.8.75	28865	D3G	Mouse spliced RNA, RefSeq curated on mm10, D3G 21.01 (Jan, 2021)	Mus musculus
+mm10_RefSeqCuratedProtCoding_prespliced_d3g2101          	172.18.8.75	28866	D3G	Mouse pre-spliced RNA, RefSeq curated protein coding on mm10, D3G 21.01 (Jan, 2021)	Mus musculus
+mm10_RefSeqCuratedProtCoding_spliced_d3g2101             	172.18.8.75	28867	D3G	Mouse spliced RNA, RefSeq curated protein coding on mm10, D3G 21.01 (Jan, 2021)	Mus musculus
+mm10_d3g2101                                             	172.18.8.75	28830	D3G	Mouse genome, GRCm38/mm10 (Jan, 2012)	Mus musculus
+rn6_RefSeqCurated_prespliced_d3g2101                     	172.18.8.75	28868	D3G	Rat pre-spliced RNA, RefSeq curated on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
+rn6_RefSeqCurated_spliced_d3g2101                        	172.18.8.75	28869	D3G	Rat spliced RNA, RefSeq curated on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
+rn6_RefSeqCuratedProtCoding_prespliced_d3g2101           	172.18.8.75	28870	D3G	Rat pre-spliced RNA, RefSeq curated protein coding on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
+rn6_RefSeqCuratedProtCoding_spliced_d3g2101              	172.18.8.75	28871	D3G	Rat spliced RNA, RefSeq curated protein coding on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
+rn6_d3g2101                                              	172.18.8.75	28872	D3G	Rat genome, RGSC Rnor_6.0/rn6 (Jul, 2014)	Rattus norvegicus
 GENCODE_26               	172.18.8.75	28726	GENCODE  	GENCODE human release 26 (Mar, 2017)	Homo sapiens
 GENCODE_27               	172.18.8.75	28727	GENCODE  	GENCODE human release 27 (Aug, 2017)	Homo sapiens
 GENCODE_28               	172.18.8.75	28728	GENCODE  	GENCODE human release 28 (Apr, 2018)	Homo sapiens
