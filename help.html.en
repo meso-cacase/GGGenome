@@ -880,7 +880,7 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 203 (Nov, 2020)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 204 (Jan, 2021)</option>
 	<option value='refseq200'                synonym="">RefSeq complete RNA release 200 (May, 2020)</option>
 	<option value='refseq90'                 synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
 	<option value='refseq80'                 synonym="">RefSeq complete RNA release 80 (Jan, 2017)</option>
@@ -7642,7 +7642,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq203/'>refseq203</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq204/'>refseq204</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 204 (Jan, 2021)
+</tr>
+<tr>
+	<td><a href='/refseq203/'>refseq203</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -8682,6 +8690,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2021-02-04 Database updated to RefSeq rel. 204 (Jan, 2021).
 	<li>2020-12-07 Database updated to RefSeq rel. 203 (Nov, 2020).
 	<li>2020-11-07 Mouse genome GRCm39/mm39 (Jun, 2020) is available.
 	<li>2020-11-07 Database updated to RefSeq rel. 202 (Sep, 2020).
@@ -8831,7 +8840,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Dec 7, 2020 by
+<p class=g>Last modified on Feb 4, 2021 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
