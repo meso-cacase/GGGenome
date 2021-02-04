@@ -110,7 +110,7 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
 License
 --------
 
-Copyright &copy; 2012-2020 Yuki Naito
+Copyright &copy; 2012-2021 Yuki Naito
  ([@meso_cacase](http://twitter.com/meso_cacase)) at  
 Database Center for Life Science (DBCLS), Japan.  
 This software is distributed under
