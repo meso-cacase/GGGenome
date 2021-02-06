@@ -821,7 +821,7 @@ mm10_RefSeqCurated_prespliced_d3g2003                    	172.18.8.75	28826	D3G	
 mm10_RefSeqCurated_spliced_d3g2003                       	172.18.8.75	28827	D3G	Mouse spliced RNA, RefSeq curated on mm10, D3G 20.03 (Mar, 2020)	Mus musculus
 mm10_RefSeqCuratedProtCoding_prespliced_d3g2003          	172.18.8.75	28828	D3G	Mouse pre-spliced RNA, RefSeq curated protein coding on mm10, D3G 20.03 (Mar, 2020)	Mus musculus
 mm10_RefSeqCuratedProtCoding_spliced_d3g2003             	172.18.8.75	28829	D3G	Mouse spliced RNA, RefSeq curated protein coding on mm10, D3G 20.03 (Mar, 2020)	Mus musculus
-mm10_d3g2003                                             	172.18.8.75	28830	D3G	Mouse genome, GRCm38/mm10 (Jan, 2012)	Mus musculus
+mm10_d3g2003                                             	172.18.8.78	28019	D3G	Mouse genome, GRCm38/mm10 (Jan, 2012)	Mus musculus
 calJacRKC1912_Trac2101_prespliced_d3g2101                	172.18.8.75	28852	D3G	Marmoset pre-spliced RNA, TRaC 21.01 on calJacRKC1912, D3G 21.01 (Jan, 2021)	Callithrix jacchus
 calJacRKC1912_Trac2101_spliced_d3g2101                   	172.18.8.75	28853	D3G	Marmoset spliced RNA, TRaC 21.01 on calJacRKC1912, D3G 21.01 (Jan, 2021)	Callithrix jacchus
 calJacRKC1912_Trac2101ProtCoding_prespliced_d3g2101      	172.18.8.75	28854	D3G	Marmoset pre-spliced RNA, TRaC 21.01 protein coding on calJacRKC1912, D3G 21.01 (Jan, 2021)	Callithrix jacchus
@@ -841,7 +841,7 @@ mm10_RefSeqCurated_prespliced_d3g2101                    	172.18.8.75	28864	D3G	
 mm10_RefSeqCurated_spliced_d3g2101                       	172.18.8.75	28865	D3G	Mouse spliced RNA, RefSeq curated on mm10, D3G 21.01 (Jan, 2021)	Mus musculus
 mm10_RefSeqCuratedProtCoding_prespliced_d3g2101          	172.18.8.75	28866	D3G	Mouse pre-spliced RNA, RefSeq curated protein coding on mm10, D3G 21.01 (Jan, 2021)	Mus musculus
 mm10_RefSeqCuratedProtCoding_spliced_d3g2101             	172.18.8.75	28867	D3G	Mouse spliced RNA, RefSeq curated protein coding on mm10, D3G 21.01 (Jan, 2021)	Mus musculus
-mm10_d3g2101                                             	172.18.8.75	28830	D3G	Mouse genome, GRCm38/mm10 (Jan, 2012)	Mus musculus
+mm10_d3g2101                                             	172.18.8.78	28019	D3G	Mouse genome, GRCm38/mm10 (Jan, 2012)	Mus musculus
 rn6_RefSeqCurated_prespliced_d3g2101                     	172.18.8.75	28868	D3G	Rat pre-spliced RNA, RefSeq curated on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
 rn6_RefSeqCurated_spliced_d3g2101                        	172.18.8.75	28869	D3G	Rat spliced RNA, RefSeq curated on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
 rn6_RefSeqCuratedProtCoding_prespliced_d3g2101           	172.18.8.75	28870	D3G	Rat pre-spliced RNA, RefSeq curated protein coding on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
