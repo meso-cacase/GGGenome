@@ -2021,7 +2021,7 @@ set_strand() ;
 	<td>UCSC
 	<td>Vertebrate
 	<td>Fugu
-	<td>フグ
+	<td>トラフグ
 	<td>Takifugu rubripes
 	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=fr3'><!--
 		-->FUGU5/fr3 (Oct, 2011)</a>
