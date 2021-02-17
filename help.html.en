@@ -497,6 +497,10 @@ Database:<br>&emsp;
 	<option value='ASM14940v2'               synonym="Thalassiosira pseudonana;diatom">Thalassiosira pseudonana genome, ASM14940v2 (May, 2014)</option>
 	<option value='ASM82905v1'               synonym="Lactobacillus casei">Lactobacillus casei subsp. casei (ATCC 393) genome, ASM82905v1 (Aug, 2013)</option>
 	<option value='GCA_003118565.1'          synonym="Paroedura picta;madagascar ground gecko;ocelot gecko">Paroedura picta genome, Ppicta_assembly_v1 (Mar, 2018)</option>
+	<option value='GCA_002749855.1'          synonym="Aspergillus terreus;ascomycetes">Aspergillus terreus w25 genome, ASM274985v1 (Nov, 2017)</option>
+	<option value='GCA_002982235.1'          synonym="Curvularia geniculata;ascomycetes">Curvularia geniculata W3 genome, ASM298223v1 (Mar, 2018)</option>
+	<option value='GCF_900239965.1'          synonym="Bicyclus anynana;squinting bush brown">Bicyclus anynana genome, Bicyclus_anynana_v1.2 (Jan, 2018)</option>
+	<option value='GCF_901000725.2'          synonym="Takifugu rubripes;fugu">Takifugu rubripes genome, fTakRub1.2 (Jun, 2019)</option>
 
 	<option value='eboVir3'                  synonym="Filoviridae ebolavirus">Ebola virus genome, Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</option>
 	<option value='SARS-CoV-2'               synonym="Severe acute respiratory syndrome coronavirus 2;COVID-19">SARS-CoV-2 complete genomes, GenBank</option>
@@ -4219,6 +4223,42 @@ set_strand() ;
 	<td>Paroedura picta
 	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCA_003118565.1'><!--
 		-->Ppicta_assembly_v1 (Mar, 2018)</a>
+</tr>
+<tr>
+	<td><a href='/GCA_002749855.1/'>GCA_002749855.1</a>
+	<td>NCBI
+	<td>Fungi
+	<td>Aspergillus terreus
+	<td>Aspergillus terreus
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCA_002749855.1'><!--
+		-->ASM274985v1/GCA_002749855.1</a>
+</tr>
+<tr>
+	<td><a href='/GCA_002982235.1/'>GCA_002982235.1</a>
+	<td>NCBI
+	<td>Fungi
+	<td>Curvularia geniculata
+	<td>Curvularia geniculata
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCA_002982235.1'><!--
+		-->ASM298223v1/GCA_002982235.1</a>
+</tr>
+<tr>
+	<td><a href='/GCF_900239965.1/'>GCF_900239965.1</a>
+	<td>NCBI
+	<td>Insect
+	<td>Squinting bush brown butterfly
+	<td>Bicyclus anynana
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCF_900239965.1'><!--
+		-->Bicyclus_anynana_v1.2/GCF_900239965.1 </a>
+</tr>
+<tr>
+	<td><a href='/GCF_901000725.2/'>GCF_901000725.2</a>
+	<td>NCBI
+	<td>Vertebrate
+	<td>Fugu
+	<td>Takifugu rubripes
+	<td><a target='_blank' href='https://www.ncbi.nlm.nih.gov/assembly/GCF_901000725.2'><!--
+		-->fTakRub1.2/GCF_901000725.2 (Jun, 2019)</a>
 </tr>
 <tr>
 	<td><a href='/SARS-CoV-2/'>SARS-CoV-2</a>

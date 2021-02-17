@@ -328,6 +328,10 @@ Akaw_assembly01          	172.18.8.72	28014	NCBI     	Aspergillus kawachii genom
 ASM82905v1               	172.18.8.72	28015	NCBI     	Lactobacillus casei subsp. casei (ATCC 393) genome, ASM82905v1 (Aug, 2013)	Lactobacillus casei
 Gur1                     	172.18.8.72	28749	         	Glycyrrhiza uralensis genome, release 1 (Aug, 2016)	Glycyrrhiza uralensis;chinese licorice
 GCA_003118565.1          	172.18.8.72	28847	NCBI     	Paroedura picta genome, Ppicta_assembly_v1 (Mar, 2018)	Paroedura picta;madagascar ground gecko;ocelot gecko
+GCA_002749855.1          	172.18.8.72	28848	NCBI     	Aspergillus terreus w25 genome, ASM274985v1 (Nov, 2017)	Aspergillus terreus;ascomycetes
+GCA_002982235.1          	172.18.8.72	28849	NCBI     	Curvularia geniculata W3 genome, ASM298223v1 (Mar, 2018)	Curvularia geniculata;ascomycetes
+GCF_900239965.1          	172.18.8.72	28850	NCBI     	Bicyclus anynana genome, Bicyclus_anynana_v1.2 (Jan, 2018)	Bicyclus anynana;squinting bush brown
+GCF_901000725.2          	172.18.8.72	28874	NCBI     	Takifugu rubripes genome, fTakRub1.2 (Jun, 2019)	Takifugu rubripes;fugu
 16SrRNA                  	172.18.8.77	28286	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3           	172.18.8.74	28287	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1    	172.18.8.74	28288	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss
