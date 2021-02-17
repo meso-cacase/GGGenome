@@ -921,6 +921,7 @@ Database:<br>&emsp;
 	<option value='rn_refseq70'              synonym="Rattus norvegicus">RefSeq rat RNA release 70 (May, 2015)</option>
 	<option value='rnnm_refseq70'            synonym="Rattus norvegicus">RefSeq rat RNA (NM/NR) release 70 (May, 2015)</option>
 	<option value='rnxm_refseq70'            synonym="Rattus norvegicus">RefSeq rat RNA (XM/XR) release 70 (May, 2015)</option>
+	<option value='GENCODE_36'               synonym="Homo sapiens">GENCODE human release 36 (Oct, 2020)</option>
 	<option value='GENCODE_34'               synonym="Homo sapiens">GENCODE human release 34 (Apr, 2020)</option>
 	<option value='GENCODE_33'               synonym="Homo sapiens">GENCODE human release 33 (Jan, 2020)</option>
 	<option value='GENCODE_31'               synonym="Homo sapiens">GENCODE human release 31 (Jul, 2019)</option>
@@ -8067,6 +8068,15 @@ set_strand() ;
 	<td>RefSeq rat RNA (XM/XR) release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/GENCODE_36/'>GENCODE_36</a>
+	<td>GENCODE
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://www.gencodegenes.org/human/release_36.html'><!--
+		-->GENCODE human release 36 (Oct, 2020)</a>
+</tr>
+<tr>
 	<td><a href='/GENCODE_34/'>GENCODE_34</a>
 	<td>GENCODE
 	<td>Mammal
@@ -8935,6 +8945,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2021-02-17 Databases updated to GENCODE human 36 (Oct, 2020).
 	<li>2021-02-04 Database updated to RIKEN <a target='_blank' href='https://d3g.riken.jp/release/21.01/'>D3G 21.01</a> (Jan, 2021).
 	<li>2021-02-04 Database updated to RefSeq rel. 204 (Jan, 2021).
 	<li>2020-12-07 Database updated to RefSeq rel. 203 (Nov, 2020).
@@ -9086,7 +9097,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Feb 4, 2021 by
+<p class=g>Last modified on Feb 17, 2021 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

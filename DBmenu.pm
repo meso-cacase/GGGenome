@@ -768,6 +768,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'rn_refseq70\'              synonym=\"$db_synonym{'rn_refseq70'             }\">$db_fullname{'rn_refseq70'             }</option>
 	<option value=\'rnnm_refseq70\'            synonym=\"$db_synonym{'rnnm_refseq70'           }\">$db_fullname{'rnnm_refseq70'           }</option>
 	<option value=\'rnxm_refseq70\'            synonym=\"$db_synonym{'rnxm_refseq70'           }\">$db_fullname{'rnxm_refseq70'           }</option>
+	<option value=\'GENCODE_36\'               synonym=\"$db_synonym{'GENCODE_36'              }\">$db_fullname{'GENCODE_36'              }</option>
 	<option value=\'GENCODE_34\'               synonym=\"$db_synonym{'GENCODE_34'              }\">$db_fullname{'GENCODE_34'              }</option>
 	<option value=\'GENCODE_33\'               synonym=\"$db_synonym{'GENCODE_33'              }\">$db_fullname{'GENCODE_33'              }</option>
 	<option value=\'GENCODE_31\'               synonym=\"$db_synonym{'GENCODE_31'              }\">$db_fullname{'GENCODE_31'              }</option>
