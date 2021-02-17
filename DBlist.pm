@@ -891,7 +891,7 @@ ddbj120htc               	172.18.8.73	27517	DDBJ     	DDBJ release 120.0, HTC di
 ddbj120htg               	172.18.8.72	27518	DDBJ     	DDBJ release 120.0, HTG division (Jun, 2020)	ddbjhtg
 ddbj120sts               	172.18.8.78	27519	DDBJ     	DDBJ release 120.0, STS division (Jun, 2020)	ddbjsts
 ddbj120una               	172.18.8.73	27520	DDBJ     	DDBJ release 120.0, UNA division (Jun, 2020)	ddbjuna
-SARS-CoV-2               	172.18.8.76	55060	         	SARS-CoV-2 complete genomes, GenBank 2021/2/4	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2               	172.18.8.76	55061	         	SARS-CoV-2 complete genomes, GenBank 2021/2/14	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200317      	172.18.8.76	55001	         	SARS-CoV-2 complete genomes, GenBank 2020/3/17	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200324      	172.18.8.76	55002	         	SARS-CoV-2 complete genomes, GenBank 2020/3/24	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200327      	172.18.8.76	55003	         	SARS-CoV-2 complete genomes, GenBank 2020/3/27	Severe acute respiratory syndrome coronavirus 2;COVID-19
@@ -952,6 +952,7 @@ SARS-CoV-2-20210104      	172.18.8.76	55057	         	SARS-CoV-2 complete genome
 SARS-CoV-2-20210114      	172.18.8.76	55058	         	SARS-CoV-2 complete genomes, GenBank 2021/1/14	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20210124      	172.18.8.76	55059	         	SARS-CoV-2 complete genomes, GenBank 2021/1/24	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20210204      	172.18.8.76	55060	         	SARS-CoV-2 complete genomes, GenBank 2021/2/4	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-20210214      	172.18.8.76	55061	         	SARS-CoV-2 complete genomes, GenBank 2021/2/14	Severe acute respiratory syndrome coronavirus 2;COVID-19
 COVID19-primercheck-EUL-20200501  	172.18.8.76	28831	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV + 32 organisms in WHO EUL), NIHS 2020/5/1	SARS-CoV-2
 COVID19-primercheck-EUA-20200501  	172.18.8.76	28832	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV + 20 organisms in US EUA), NIHS 2020/5/1	SARS-CoV-2
 COVID19-primercheck-CoV-20200501  	172.18.8.76	28833	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV), NIHS 2020/5/1	SARS-CoV-2
