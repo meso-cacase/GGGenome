@@ -1110,6 +1110,9 @@ set_strand() ;
 				-->http://GGRNA.dbcls.jp/hs/nanog</a>
 		</ul>
 </ul>
+<ul>
+	<li><a href='help.html#aboutdocker'>GGGenomeパッケージ版 (Docker版) について</a>
+</ul>
 </div>
 
 <h4>動画による解説</h4>
@@ -9844,6 +9847,25 @@ set_strand() ;
 </tr>
 </tbody>
 </table>
+</div>
+
+<a name=aboutdocker></a>
+
+<h4>GGGenomeパッケージ版 (Docker版) について</h4>
+
+<div style='width:80%; padding-left:15px'>
+<p>DBCLSの提供するGGGenomeウェブ版 (本サイト) は、商用・非商用を問わず無償で自由にご利用いただけますが、企業等の利用者から、ウェブツールという形態では秘匿配列の検索には利用しにくいというご意見をいただいておりました。そこで、GGGenomeウェブ版と同等の検索を手元のコンピュータ上で実行可能な「GGGenomeパッケージ版」が、2020年3月に株式会社レトリバより提供開始されました。GGGenomeパッケージ版は、Mac/Windows/Linux上でDockerを使用することによってウェブ版と同様に動作します。また、許容するミスマッチ/ギャップの塩基数や、最大ヒット件数などの制限がウェブ版よりも緩和されています。</p>
+
+<p>詳細は以下の資料をご覧ください。</p>
+
+<ul>
+	<li><a target='_blank' href='https://dbcls.rois.ac.jp/PDF/20200325_GGGenome.pdf'>
+		高速塩基配列検索ソフトウェアGGGenomeパッケージ版の商用化について - DBCLS (PDF)</a>
+	<li><a target='_blank' href='https://gggenome.retrieva.jp/'>
+		超高速ゲノム配列検索GGGenomeパッケージ版 - 株式会社レトリバ</a>
+</ul>
+
+<p>なお、株式会社レトリバによるGGGenomeパッケージ版の発売後も、DBCLSの提供するGGGenomeウェブ版は商用・非商用を問わず無償で自由に利用できます。</p>
 </div>
 
 <h4>文献</h4>
