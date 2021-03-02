@@ -34,16 +34,18 @@
 <!--
 $(document).ready(function(){
 	$('#genomelist').dataTable({
-		'iDisplayLength'  : 25,      // Number of rows per page
+		'iDisplayLength'  : 25,                                         // Number of rows per page
 		'aLengthMenu'     : [[25, 50, 100, -1], [25, 50, 100, 'All']],  // Menu items
-		'sPaginationType' : 'full_numbers',  // Page control method
-		'order'           : [], // No initial order
+		'sPaginationType' : 'full_numbers',                             // Page control method
+		'order'           : [],                                         // No initial order
 	}) ;
 }) ;
 $(document).ready(function(){
 	$('#otherlist').dataTable({
-		'order'           : [], // No initial order
-		'paging'          : false,
+		'iDisplayLength'  : 25,                                         // Number of rows per page
+		'aLengthMenu'     : [[25, 50, 100, -1], [25, 50, 100, 'All']],  // Menu items
+		'sPaginationType' : 'full_numbers',                             // Page control method
+		'order'           : [],                                         // No initial order
 	}) ;
 }) ;
 //-->
@@ -9137,7 +9139,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Feb 17, 2021 by
+<p class=g>Last modified on Mar 2, 2021 by
 <a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
