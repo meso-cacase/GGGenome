@@ -892,6 +892,9 @@ Database:<br>&emsp;
 	<option value='refseq90'                 synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
 	<option value='refseq80'                 synonym="">RefSeq complete RNA release 80 (Jan, 2017)</option>
 	<option value='refseq70'                 synonym="">RefSeq complete RNA release 70 (May, 2015)</option>
+	<option value='hs_refseq205'             synonym="Homo sapiens">RefSeq human RNA release 205 (Mar, 2021)</option>
+	<option value='hsnm_refseq205'           synonym="Homo sapiens">RefSeq human RNA (NM/NR) release 205 (Mar, 2021)</option>
+	<option value='hsxm_refseq205'           synonym="Homo sapiens">RefSeq human RNA (XM/XR) release 205 (Mar, 2021)</option>
 	<option value='hs_refseq200'             synonym="Homo sapiens">RefSeq human RNA release 200 (May, 2020)</option>
 	<option value='hsnm_refseq200'           synonym="Homo sapiens">RefSeq human RNA (NM/NR) release 200 (May, 2020)</option>
 	<option value='hsxm_refseq200'           synonym="Homo sapiens">RefSeq human RNA (XM/XR) release 200 (May, 2020)</option>
@@ -904,6 +907,9 @@ Database:<br>&emsp;
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='hsnm_refseq70'            synonym="Homo sapiens">RefSeq human RNA (NM/NR) release 70 (May, 2015)</option>
 	<option value='hsxm_refseq70'            synonym="Homo sapiens">RefSeq human RNA (XM/XR) release 70 (May, 2015)</option>
+	<option value='mm_refseq205'             synonym="Mus musculus">RefSeq mouse RNA release 205 (Mar, 2021)</option>
+	<option value='mmnm_refseq205'           synonym="Mus musculus">RefSeq mouse RNA (NM/NR) release 205 (Mar, 2021)</option>
+	<option value='mmxm_refseq205'           synonym="Mus musculus">RefSeq mouse RNA (XM/XR) release 205 (Mar, 2021)</option>
 	<option value='mm_refseq200'             synonym="Mus musculus">RefSeq mouse RNA release 200 (May, 2020)</option>
 	<option value='mmnm_refseq200'           synonym="Mus musculus">RefSeq mouse RNA (NM/NR) release 200 (May, 2020)</option>
 	<option value='mmxm_refseq200'           synonym="Mus musculus">RefSeq mouse RNA (XM/XR) release 200 (May, 2020)</option>
@@ -916,6 +922,9 @@ Database:<br>&emsp;
 	<option value='mm_refseq70'              synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='mmnm_refseq70'            synonym="Mus musculus">RefSeq mouse RNA (NM/NR) release 70 (May, 2015)</option>
 	<option value='mmxm_refseq70'            synonym="Mus musculus">RefSeq mouse RNA (XM/XR) release 70 (May, 2015)</option>
+	<option value='rn_refseq205'             synonym="Rattus norvegicus">RefSeq rat RNA release 205 (Mar, 2021)</option>
+	<option value='rnnm_refseq205'           synonym="Rattus norvegicus">RefSeq rat RNA (NM/NR) release 205 (Mar, 2021)</option>
+	<option value='rnxm_refseq205'           synonym="Rattus norvegicus">RefSeq rat RNA (XM/XR) release 205 (Mar, 2021)</option>
 	<option value='rn_refseq200'             synonym="Rattus norvegicus">RefSeq rat RNA release 200 (May, 2020)</option>
 	<option value='rnnm_refseq200'           synonym="Rattus norvegicus">RefSeq rat RNA (NM/NR) release 200 (May, 2020)</option>
 	<option value='rnxm_refseq200'           synonym="Rattus norvegicus">RefSeq rat RNA (XM/XR) release 200 (May, 2020)</option>
@@ -7809,6 +7818,30 @@ set_strand() ;
 	<td>RefSeq complete RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/hs_refseq205/'>hs_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td>RefSeq human RNA release 205 (Mar, 2021)
+</tr>
+<tr>
+	<td><a href='/hsnm_refseq205/'>hsnm_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td>RefSeq human RNA (NM/NR) release 205 (Mar, 2021)
+</tr>
+<tr>
+	<td><a href='/hsxm_refseq205/'>hsxm_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td>RefSeq human RNA (XM/XR) release 205 (Mar, 2021)
+</tr>
+<tr>
 	<td><a href='/hs_refseq200/'>hs_refseq200</a>
 	<td>RefSeq
 	<td>Mammal
@@ -7913,6 +7946,30 @@ set_strand() ;
 	<td>RefSeq human RNA release 60 (Jul, 2013)
 </tr>
 <tr>
+	<td><a href='/mm_refseq205/'>mm_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td>RefSeq mouse RNA release 205 (Mar, 2021)
+</tr>
+<tr>
+	<td><a href='/mmnm_refseq205/'>mmnm_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td>RefSeq mouse RNA (NM/NR) release 205 (Mar, 2021)
+</tr>
+<tr>
+	<td><a href='/mmxm_refseq205/'>mmxm_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td>RefSeq mouse RNA (XM/XR) release 205 (Mar, 2021)
+</tr>
+<tr>
 	<td><a href='/mm_refseq200/'>mm_refseq200</a>
 	<td>RefSeq
 	<td>Mammal
@@ -8015,6 +8072,30 @@ set_strand() ;
 	<td>Mouse
 	<td>Mus musculus
 	<td>RefSeq mouse RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/rn_refseq205/'>rn_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA release 205 (Mar, 2021)
+</tr>
+<tr>
+	<td><a href='/rnnm_refseq205/'>rnnm_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA (NM/NR) release 205 (Mar, 2021)
+</tr>
+<tr>
+	<td><a href='/rnxm_refseq205/'>rnxm_refseq205</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA (XM/XR) release 205 (Mar, 2021)
 </tr>
 <tr>
 	<td><a href='/rn_refseq200/'>rn_refseq200</a>

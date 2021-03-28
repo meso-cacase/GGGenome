@@ -737,6 +737,9 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'refseq90\'                 synonym=\"$db_synonym{'refseq90'                }\">$db_fullname{'refseq90'                }</option>
 	<option value=\'refseq80\'                 synonym=\"$db_synonym{'refseq80'                }\">$db_fullname{'refseq80'                }</option>
 	<option value=\'refseq70\'                 synonym=\"$db_synonym{'refseq70'                }\">$db_fullname{'refseq70'                }</option>
+	<option value=\'hs_refseq205\'             synonym=\"$db_synonym{'hs_refseq205'            }\">$db_fullname{'hs_refseq205'            }</option>
+	<option value=\'hsnm_refseq205\'           synonym=\"$db_synonym{'hsnm_refseq205'          }\">$db_fullname{'hsnm_refseq205'          }</option>
+	<option value=\'hsxm_refseq205\'           synonym=\"$db_synonym{'hsxm_refseq205'          }\">$db_fullname{'hsxm_refseq205'          }</option>
 	<option value=\'hs_refseq200\'             synonym=\"$db_synonym{'hs_refseq200'            }\">$db_fullname{'hs_refseq200'            }</option>
 	<option value=\'hsnm_refseq200\'           synonym=\"$db_synonym{'hsnm_refseq200'          }\">$db_fullname{'hsnm_refseq200'          }</option>
 	<option value=\'hsxm_refseq200\'           synonym=\"$db_synonym{'hsxm_refseq200'          }\">$db_fullname{'hsxm_refseq200'          }</option>
@@ -749,6 +752,9 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'hs_refseq70\'              synonym=\"$db_synonym{'hs_refseq70'             }\">$db_fullname{'hs_refseq70'             }</option>
 	<option value=\'hsnm_refseq70\'            synonym=\"$db_synonym{'hsnm_refseq70'           }\">$db_fullname{'hsnm_refseq70'           }</option>
 	<option value=\'hsxm_refseq70\'            synonym=\"$db_synonym{'hsxm_refseq70'           }\">$db_fullname{'hsxm_refseq70'           }</option>
+	<option value=\'mm_refseq205\'             synonym=\"$db_synonym{'mm_refseq205'            }\">$db_fullname{'mm_refseq205'            }</option>
+	<option value=\'mmnm_refseq205\'           synonym=\"$db_synonym{'mmnm_refseq205'          }\">$db_fullname{'mmnm_refseq205'          }</option>
+	<option value=\'mmxm_refseq205\'           synonym=\"$db_synonym{'mmxm_refseq205'          }\">$db_fullname{'mmxm_refseq205'          }</option>
 	<option value=\'mm_refseq200\'             synonym=\"$db_synonym{'mm_refseq200'            }\">$db_fullname{'mm_refseq200'            }</option>
 	<option value=\'mmnm_refseq200\'           synonym=\"$db_synonym{'mmnm_refseq200'          }\">$db_fullname{'mmnm_refseq200'          }</option>
 	<option value=\'mmxm_refseq200\'           synonym=\"$db_synonym{'mmxm_refseq200'          }\">$db_fullname{'mmxm_refseq200'          }</option>
@@ -761,6 +767,9 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'mm_refseq70\'              synonym=\"$db_synonym{'mm_refseq70'             }\">$db_fullname{'mm_refseq70'             }</option>
 	<option value=\'mmnm_refseq70\'            synonym=\"$db_synonym{'mmnm_refseq70'           }\">$db_fullname{'mmnm_refseq70'           }</option>
 	<option value=\'mmxm_refseq70\'            synonym=\"$db_synonym{'mmxm_refseq70'           }\">$db_fullname{'mmxm_refseq70'           }</option>
+	<option value=\'rn_refseq205\'             synonym=\"$db_synonym{'rn_refseq205'            }\">$db_fullname{'rn_refseq205'            }</option>
+	<option value=\'rnnm_refseq205\'           synonym=\"$db_synonym{'rnnm_refseq205'          }\">$db_fullname{'rnnm_refseq205'          }</option>
+	<option value=\'rnxm_refseq205\'           synonym=\"$db_synonym{'rnxm_refseq205'          }\">$db_fullname{'rnxm_refseq205'          }</option>
 	<option value=\'rn_refseq200\'             synonym=\"$db_synonym{'rn_refseq200'            }\">$db_fullname{'rn_refseq200'            }</option>
 	<option value=\'rnnm_refseq200\'           synonym=\"$db_synonym{'rnnm_refseq200'          }\">$db_fullname{'rnnm_refseq200'          }</option>
 	<option value=\'rnxm_refseq200\'           synonym=\"$db_synonym{'rnxm_refseq200'          }\">$db_fullname{'rnxm_refseq200'          }</option>
