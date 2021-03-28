@@ -886,7 +886,8 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 204 (Jan, 2021)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 205 (Mar, 2021)</option>
+	<option value='refseq205'                synonym="">RefSeq complete RNA release 205 (Mar, 2021)</option>
 	<option value='refseq200'                synonym="">RefSeq complete RNA release 200 (May, 2020)</option>
 	<option value='refseq90'                 synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
 	<option value='refseq80'                 synonym="">RefSeq complete RNA release 80 (Jan, 2017)</option>
@@ -8496,7 +8497,16 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq204/'>refseq204</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq205/'>refseq205</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 205 (Mar, 2021)
+</tr>
+<tr>
+	<td><a href='/refseq204/'>refseq204</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -9909,6 +9919,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2021-03-28 RefSeq rel. 205 (Mar, 2021) に更新。
 	<li>2021-03-28 GENCODE ヒト 37 (Feb, 2021) および マウス M26 (Feb, 2021) に更新。
 	<li>2021-03-28 DDBJ rel. 122.0 (Jan, 2021) に更新。
 	<li>2021-02-17 GENCODE ヒト 36 (Oct, 2020) に更新。
