@@ -772,6 +772,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'rn_refseq70\'              synonym=\"$db_synonym{'rn_refseq70'             }\">$db_fullname{'rn_refseq70'             }</option>
 	<option value=\'rnnm_refseq70\'            synonym=\"$db_synonym{'rnnm_refseq70'           }\">$db_fullname{'rnnm_refseq70'           }</option>
 	<option value=\'rnxm_refseq70\'            synonym=\"$db_synonym{'rnxm_refseq70'           }\">$db_fullname{'rnxm_refseq70'           }</option>
+	<option value=\'GENCODE_37\'               synonym=\"$db_synonym{'GENCODE_37'              }\">$db_fullname{'GENCODE_37'              }</option>
 	<option value=\'GENCODE_36\'               synonym=\"$db_synonym{'GENCODE_36'              }\">$db_fullname{'GENCODE_36'              }</option>
 	<option value=\'GENCODE_34\'               synonym=\"$db_synonym{'GENCODE_34'              }\">$db_fullname{'GENCODE_34'              }</option>
 	<option value=\'GENCODE_33\'               synonym=\"$db_synonym{'GENCODE_33'              }\">$db_fullname{'GENCODE_33'              }</option>
@@ -780,6 +781,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'GENCODE_28\'               synonym=\"$db_synonym{'GENCODE_28'              }\">$db_fullname{'GENCODE_28'              }</option>
 	<option value=\'GENCODE_27\'               synonym=\"$db_synonym{'GENCODE_27'              }\">$db_fullname{'GENCODE_27'              }</option>
 	<option value=\'GENCODE_26\'               synonym=\"$db_synonym{'GENCODE_26'              }\">$db_fullname{'GENCODE_26'              }</option>
+	<option value=\'GENCODE_M26\'              synonym=\"$db_synonym{'GENCODE_M26'             }\">$db_fullname{'GENCODE_M26'             }</option>
 	<option value=\'GENCODE_M25\'              synonym=\"$db_synonym{'GENCODE_M25'             }\">$db_fullname{'GENCODE_M25'             }</option>
 	<option value=\'GENCODE_M24\'              synonym=\"$db_synonym{'GENCODE_M24'             }\">$db_fullname{'GENCODE_M24'             }</option>
 	<option value=\'GENCODE_M22\'              synonym=\"$db_synonym{'GENCODE_M22'             }\">$db_fullname{'GENCODE_M22'             }</option>
