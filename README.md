@@ -23,13 +23,13 @@ English version of GGGenome: https://GGGenome.dbcls.jp/en/
 + https://GGGenome.dbcls.jp/hg19/2/GCAAGAAGAGATTGCCCA  
   ヒトゲノムhg19に対して2ミスマッチ/ギャップ以内で GCAAGAAGAGATTGCCCA を検索
 
-![スクリーンショット](http://data.dbcls.jp/~meso/img/GGGenome_screen.png
+![スクリーンショット](https://data.dbcls.jp/~meso/img/GGGenome_screen.png
 "GGGenome《ゲゲゲノム》スクリーンショットHTML")
 
 + https://GGGenome.dbcls.jp/hg19/2/GCAAGAAGAGATTGCCCA.json  
   上記の結果をJSONで取得
 
-![スクリーンショット](http://data.dbcls.jp/~meso/img/GGGenome_json.png
+![スクリーンショット](https://data.dbcls.jp/~meso/img/GGGenome_json.png
 "GGGenome《ゲゲゲノム》スクリーンショットJSON")
 
 
@@ -92,26 +92,26 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
 挿入、欠失を含む塩基配列の検索を、見落としなく、きわめて高速に実行します。  
 サーチャプログラムはプリファードインフラストラクチャー
 ([PFI](http://preferred.jp/)) が開発しており、  
-[@meso_cacase](http://twitter.com/meso_cacase)
+[@meso_cacase](https://twitter.com/meso_cacase)
 が評価およびデバッグに協力しています。
 
 
 関連プロジェクト
 --------
 
-+ 統合遺伝子検索GGRNA (http://GGRNA.dbcls.jp/)  
++ 統合遺伝子検索GGRNA (https://GGRNA.dbcls.jp/)  
   遺伝子をGoogleのように検索できるウェブサーバ
-  → [紹介記事](http://first.lifesciencedb.jp/from_dbcls/e0001)
+  → [紹介記事](https://first.lifesciencedb.jp/from_dbcls/e0001)
 
-+ CRISPRdirect (http://crispr.dbcls.jp/)  
++ CRISPRdirect (https://crispr.dbcls.jp/)  
   ゲノム編集のためのガイドRNA設計ウェブサーバ
-  → [プレスリリース](http://dbcls.rois.ac.jp/archives/2642)
+  → [プレスリリース (PDF)](https://sr.rois.ac.jp/article/rc/download/pages/press/20141121dbcls.pdf)
 
 License
 --------
 
 Copyright &copy; 2012-2021 Yuki Naito
- ([@meso_cacase](http://twitter.com/meso_cacase)) at  
+ ([@meso_cacase](https://twitter.com/meso_cacase)) at  
 Database Center for Life Science (DBCLS), Japan.  
 This software is distributed under
-[modified BSD license](http://www.opensource.org/licenses/bsd-license.php).
+[modified BSD license](https://opensource.org/licenses/bsd-license.php).

@@ -1116,12 +1116,12 @@ set_strand() ;
 </ul>
 <ul>
 	<li>Search genes and transcripts by various keywords &rarr; Please try
-		<a target='_blank' href='http://GGRNA.dbcls.jp/'>
+		<a target='_blank' href='https://GGRNA.dbcls.jp/'>
 			<img height=20 src='GGRNAlogo_small.png' alt='GGRNA'></a>
 		<ul>
 			<li>Example for searching 'nanog' in human:
-				<a target='_blank' href='http://GGRNA.dbcls.jp/hs/nanog' class=k><!--
-				-->http://GGRNA.dbcls.jp/hs/nanog</a>
+				<a target='_blank' href='https://GGRNA.dbcls.jp/hs/nanog' class=k><!--
+				-->https://GGRNA.dbcls.jp/hs/nanog</a>
 		</ul>
 </ul>
 </div>
@@ -1130,11 +1130,11 @@ set_strand() ;
 
 <div>
 <ul>
-	<a target='_blank' href='http://togotv.dbcls.jp/20150514.html'>
+	<a target='_blank' href='https://togotv.dbcls.jp/20150514.html'>
 	<img src='togotv_en.png' alt='GGGenome: a fast and simple DNA sequence search engine'
 		height=270 width=480 border=0></a>
 	<p class=g>Acknowledgement: We thank Dr. Noriko Furuya for making the tutorial video on
-		<a target='_blank' class=k href='http://togotv.dbcls.jp/en/'>TogoTV</a>.</p>
+		<a target='_blank' class=k href='https://togotv.dbcls.jp/en/'>TogoTV</a>.</p>
 </ul>
 </div>
 
@@ -9244,9 +9244,9 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Mar 28, 2021 by
-<a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
-<a target='_blank' class=a href='http://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
+<p class=g>Last modified on Apr 13, 2021 by
+<a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
+<a target='_blank' class=a href='https://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
 <a target='_blank' class=a href='https://creativecommons.org/licenses/by/4.0/deed.en'>
 Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.</p>

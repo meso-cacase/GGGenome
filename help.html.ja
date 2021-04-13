@@ -1114,12 +1114,12 @@ set_strand() ;
 </ul>
 <ul>
 	<li>遺伝子や転写産物のキーワード検索は
-		<a target='_blank' href='http://GGRNA.dbcls.jp/'>
+		<a target='_blank' href='https://GGRNA.dbcls.jp/'>
 			<img height=20 src='GGRNAlogo_small.png' alt='GGRNA'></a>《ぐぐるな》をお使いください。
 		<ul>
 			<li>例）ヒトの「nanog」を検索：
-				<a target='_blank' href='http://GGRNA.dbcls.jp/hs/nanog' class=k><!--
-				-->http://GGRNA.dbcls.jp/hs/nanog</a>
+				<a target='_blank' href='https://GGRNA.dbcls.jp/hs/nanog' class=k><!--
+				-->https://GGRNA.dbcls.jp/hs/nanog</a>
 		</ul>
 </ul>
 <ul>
@@ -1131,17 +1131,17 @@ set_strand() ;
 
 <div>
 <ul>
-	<a target='_blank' href='http://togotv.dbcls.jp/20181026.html'>
+	<a target='_blank' href='https://togotv.dbcls.jp/20181026.html'>
 	<img src='togotv3_ja.png' alt='GGGenome《ゲゲゲノム》を使って高速塩基配列検索をする 2018'
 		height=270 width=480 border=0></a>
-	<p class=g>（<a target='_blank' class=k href='http://togotv.dbcls.jp/ja/'>統合TV</a>
+	<p class=g>（<a target='_blank' class=k href='https://togotv.dbcls.jp/ja/'>統合TV</a>
 		制作: 渡邊和代氏）</p>
 </ul>
 <ul>
-	<a target='_blank' href='http://togotv.dbcls.jp/20150721.html'>
+	<a target='_blank' href='https://togotv.dbcls.jp/20150721.html'>
 	<img src='togotv2_ja.png' alt='GGGenome《ゲゲゲノム》で転写因子結合サイトを検索してゲノムブラウザに表示する'
 		height=270 width=480 border=0></a>
-	<p class=g>（<a target='_blank' class=k href='http://togotv.dbcls.jp/ja/'>統合TV</a>
+	<p class=g>（<a target='_blank' class=k href='https://togotv.dbcls.jp/ja/'>統合TV</a>
 		制作: 古屋典子氏）</p>
 </ul>
 </div>
@@ -10155,9 +10155,9 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Mar 28, 2021 by
-<a target='_blank' class=a href='http://twitter.com/meso_cacase'>@meso_cacase</a> at 
-<a target='_blank' class=a href='http://dbcls.rois.ac.jp/'>DBCLS</a><br>
+<p class=g>Last modified on Apr 13, 2021 by
+<a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
+<a target='_blank' class=a href='https://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
 <a target='_blank' class=a href='https://creativecommons.org/licenses/by/4.0/deed.ja'>
 Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.</p>
