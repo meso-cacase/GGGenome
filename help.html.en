@@ -1167,8 +1167,8 @@ set_strand() ;
 		<li><span style='color:brown'>download</span>:
 			Download result as a file. (optional)
 	</ul>
-	<li>Example 1: <a href='http://GGGenome.dbcls.jp/TTCATTGACAACATT'><!--
-		-->http://GGGenome.dbcls.jp/<!--
+	<li>Example 1: <a href='https://GGGenome.dbcls.jp/TTCATTGACAACATT'><!--
+		-->https://GGGenome.dbcls.jp/<!--
 		--><span style='color:#008000'>TTCATTGACAACATT</span><!--
 		--></a>
 	<ul>
@@ -1177,8 +1177,8 @@ set_strand() ;
 		<li>with perfect matches (default),
 		<li>output in <span style='color:#FF0080'>html</span> format (default).
 	</ul>
-	<li>Example 2: <a href='http://GGGenome.dbcls.jp/mm10/2/+/nogap/TTCATTGACAACATTGCGT.txt'><!--
-		-->http://GGGenome.dbcls.jp/<!--
+	<li>Example 2: <a href='https://GGGenome.dbcls.jp/mm10/2/+/nogap/TTCATTGACAACATTGCGT.txt'><!--
+		-->https://GGGenome.dbcls.jp/<!--
 		--><span style='color:#FF6600'>mm10</span>/<!--
 		--><span style='color:#0000FF'>2</span>/<!--
 		--><span style='color:#9933FF'>+</span>/<!--

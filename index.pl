@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # GGGenome (ゲゲゲノム)： 塩基配列を高速に検索するサービス
-# http://GGGenome.dbcls.jp/
+# https://GGGenome.dbcls.jp/
 #
 # 曖昧検索サーバに問い合わせを行い、結果を HTML, TXT, JSON 等の形式で出力する
 #

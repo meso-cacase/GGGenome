@@ -9,7 +9,7 @@ English version of GGGenome: https://GGGenome.dbcls.jp/en/
 数塩基のミスマッチ、挿入、欠失を許容した配列検索が可能です。  
 検索結果はHTMLのほか、タブ区切りテキスト、CSV、BED、GFF、JSONの各形式でも取得できます。
 
-+ http://GGGenome.dbcls.jp/  
++ https://GGGenome.dbcls.jp/  
   本レポジトリにあるCGIが実際に稼働しています。
 
 なお、本レポジトリはGGGenomeのウェブインターフェース部分です。  
@@ -20,13 +20,13 @@ English version of GGGenome: https://GGGenome.dbcls.jp/en/
 サンプル画像
 -----
 
-+ http://GGGenome.dbcls.jp/hg19/2/GCAAGAAGAGATTGCCCA  
++ https://GGGenome.dbcls.jp/hg19/2/GCAAGAAGAGATTGCCCA  
   ヒトゲノムhg19に対して2ミスマッチ/ギャップ以内で GCAAGAAGAGATTGCCCA を検索
 
 ![スクリーンショット](http://data.dbcls.jp/~meso/img/GGGenome_screen.png
 "GGGenome《ゲゲゲノム》スクリーンショットHTML")
 
-+ http://GGGenome.dbcls.jp/hg19/2/GCAAGAAGAGATTGCCCA.json  
++ https://GGGenome.dbcls.jp/hg19/2/GCAAGAAGAGATTGCCCA.json  
   上記の結果をJSONで取得
 
 ![スクリーンショット](http://data.dbcls.jp/~meso/img/GGGenome_json.png
@@ -51,7 +51,7 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
   `TAIR10` - シロイヌナズナゲノム [TAIR10 (Nov, 2010)](ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/)  
   `pombe`  - 分裂酵母ゲノム [ASM294v2 (Nov, 2007)](ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz)  
   `refseq` - [RefSeq complete RNA (最新版)](ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  
-   その他   - [検索可能なデータベース一覧](http://GGGenome.dbcls.jp/help.html)
+   その他   - [検索可能なデータベース一覧](https://GGGenome.dbcls.jp/help.html)
 + *`k`* : 許容するミスマッチ/ギャップの数  
   省略時のデフォルト: `0`
 + *`strand`* : 特定の方向のみ検索  
@@ -68,14 +68,14 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
   `json` - JSON
 + *`download`* : 検索結果をファイルとしてダウンロード (txt, csv, bed, gff, jsonのみ)
 
-**例1:** http://GGGenome.dbcls.jp/ce10/1/TTCATTGACAACATT
+**例1:** https://GGGenome.dbcls.jp/ce10/1/TTCATTGACAACATT
 
 + 線虫ゲノム ce10 に対して
 + 1 ミスマッチ/ギャップまで許容して
 + TTCATTGACAACATT を検索し
 + html (省略時のデフォルト) で結果を返す
 
-**例2:** http://GGGenome.dbcls.jp/refseq/+/TTCATTGACAACATT.txt
+**例2:** https://GGGenome.dbcls.jp/refseq/+/TTCATTGACAACATT.txt
 
 + RefSeq complete RNA (refseq) の最新版に対して
 + ミスマッチ/ギャップを許容せず (省略時のデフォルト)

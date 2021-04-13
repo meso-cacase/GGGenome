@@ -1175,8 +1175,8 @@ set_strand() ;
 		<li><span style='color:brown'>download</span> &rarr;
 			URLの最後に付加すると検索結果をファイルとしてダウンロードできる
 	</ul>
-	<li>例1：<a href='http://GGGenome.dbcls.jp/TTCATTGACAACATT'><!--
-		-->http://GGGenome.dbcls.jp/<!--
+	<li>例1：<a href='https://GGGenome.dbcls.jp/TTCATTGACAACATT'><!--
+		-->https://GGGenome.dbcls.jp/<!--
 		--><span style='color:#008000'>TTCATTGACAACATT</span><!--
 		--></a>
 	<ul>
@@ -1185,8 +1185,8 @@ set_strand() ;
 		<li><span style='color:#008000'>TTCATTGACAACATT</span> を検索し
 		<li><span style='color:#FF0080'>html</span> 形式 (省略可) で結果を返す
 	</ul>
-	<li>例2：<a href='http://GGGenome.dbcls.jp/mm10/2/+/nogap/TTCATTGACAACATTGCGT.txt'><!--
-		-->http://GGGenome.dbcls.jp/<!--
+	<li>例2：<a href='https://GGGenome.dbcls.jp/mm10/2/+/nogap/TTCATTGACAACATTGCGT.txt'><!--
+		-->https://GGGenome.dbcls.jp/<!--
 		--><span style='color:#FF6600'>mm10</span>/<!--
 		--><span style='color:#0000FF'>2</span>/<!--
 		--><span style='color:#9933FF'>+</span>/<!--

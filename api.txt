@@ -11,7 +11,7 @@ http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/[nogap]/SEQUENCE[.FORMAT][.download]
     'TAIR10' - Arabidopsis thaliana genome, TAIR10 (Nov, 2010)
     'pombe'  - Schizosaccharomyces pombe (972h-) genome, ASM294v2 (Nov, 2007)
     'refseq' - RefSeq complete RNA, latest release
-    *** List of available databases: http://GGGenome.dbcls.jp/help.html ***
+    *** List of available databases: https://GGGenome.dbcls.jp/help.html ***
     Default: hg19
   K (optional):
     Maximum number of mismatches/gaps.
@@ -36,12 +36,12 @@ http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/[nogap]/SEQUENCE[.FORMAT][.download]
 
 Examples:
 
-http://GGGenome.dbcls.jp/TTCATTGACAACATT
+https://GGGenome.dbcls.jp/TTCATTGACAACATT
   Search 'TTCATTGACAACATT' in human genome hg19. (default)
   Search only perfect match sequences. (default)
   Output in HTML format. (default)
 
-http://GGGenome.dbcls.jp/mm10/2/+/TTCATTGACAACATTGCGT.txt
+https://GGGenome.dbcls.jp/mm10/2/+/TTCATTGACAACATTGCGT.txt
   Search 'TTCATTGACAACATTGCGT' in mouse genome mm10.
   Search sequences within two mismatches and gaps.
   Search for + strand only.

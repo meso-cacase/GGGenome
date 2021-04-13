@@ -1,7 +1,7 @@
 # GGGenome (ゲゲゲノム)： 塩基配列を高速に検索するサービス
-# http://GGGenome.dbcls.jp/
-# http://GGGenome.dbcls.jp/test/ (テスト用)
-# http://GGGenome.dbcls.jp/bitst/ (テスト用)
+# http[s]://GGGenome.dbcls.jp/
+# http[s]://GGGenome.dbcls.jp/test/ (テスト用)
+# http[s]://GGGenome.dbcls.jp/bitst/ (テスト用)
 
 AddLanguage en .en
 AddLanguage ja .ja
