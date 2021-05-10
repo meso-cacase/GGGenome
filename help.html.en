@@ -145,7 +145,7 @@ function set_strand(){
 
 <body style='background:white'>
 
-<a href='.'><img src='GGGlogo_en.png' alt='GGGenome' height=71 width=257 border=0></a>
+<a href='.'><img src='GGGlogo_en.png' alt='GGGenome' height=64 width=305 border=0></a><span style='margin:25px'></span>
 
 <small style='vertical-align:55px'>
 <a href='.'           >Home</a>
@@ -9089,6 +9089,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2021-05-10 The new logo for GGGenome is out.
 	<li>2021-03-28 Database updated to RefSeq rel. 205 (Mar, 2021).
 	<li>2021-03-28 Databases updated to GENCODE human 37 (Feb, 2021) and mouse M26 (Feb, 2021).
 	<li>2021-03-28 Database updated to DDBJ rel. 122.0 (Jan, 2021).
@@ -9244,7 +9245,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Apr 22, 2021 by
+<p class=g>Last modified on May 10, 2021 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
