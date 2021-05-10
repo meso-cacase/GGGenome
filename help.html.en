@@ -155,12 +155,12 @@ function set_strand(){
 
 <form name=gggenome method=GET action='./'>
 <p>
-<input type=text name=query size=70 value=''>
+<input type=text name=query style='width:600;height:22' autofocus value=''>
 <input type=submit value='Search'>
 </p>
 <p>
 Database:<br>&emsp;
-<select id=db name=db>
+<select id=db name=db style='width:630'>
 	<option value='hg38'                     synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
 	<option value='hg19' selected                     synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
 	<option value='hg18'                     synonym="Homo sapiens">Human genome, NCBI36/hg18 (Mar, 2006)</option>
