@@ -90,10 +90,9 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
 検索クエリの実行はサーチャで行なっています。サーチャでは、接尾辞配列および  
 逆接尾辞リンクによるインデックスをSSDに保持することによって、ミスマッチ、  
 挿入、欠失を含む塩基配列の検索を、見落としなく、きわめて高速に実行します。  
-サーチャプログラムはプリファードインフラストラクチャー
-([PFI](http://preferred.jp/)) が開発しており、  
-[@meso_cacase](https://twitter.com/meso_cacase)
-が評価およびデバッグに協力しています。
+サーチャプログラムは [レトリバ](https://retrieva.jp/) が開発しており、
+[@meso_cacase](https://twitter.com/meso_cacase) が評価および  
+デバッグに協力しています。
 
 
 関連プロジェクト
