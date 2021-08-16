@@ -886,7 +886,7 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 206 (May, 2021)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 207 (Jul, 2021)</option>
 	<option value='refseq205'                synonym="">RefSeq complete RNA release 205 (Mar, 2021)</option>
 	<option value='refseq200'                synonym="">RefSeq complete RNA release 200 (May, 2020)</option>
 	<option value='refseq90'                 synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
@@ -7770,7 +7770,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq206/'>refseq206</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq207/'>refseq207</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 207 (Jul, 2021)
+</tr>
+<tr>
+	<td><a href='/refseq206/'>refseq206</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -9089,6 +9097,7 @@ set_strand() ;
 
 <div>
 <ul>
+	<li>2021-08-16 Database updated to RefSeq rel. 207 (Jul, 2021).
 	<li>2021-06-08 Database updated to RefSeq rel. 206 (May, 2021).
 	<li>2021-05-10 The new logo for GGGenome is out.
 	<li>2021-03-28 Database updated to RefSeq rel. 205 (Mar, 2021).
@@ -9246,7 +9255,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Jun 8, 2021 by
+<p class=g>Last modified on Aug 16, 2021 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
