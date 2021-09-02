@@ -1409,7 +1409,7 @@ my $template_top = HTML::Template->new(filename => 'template/top_ja.tmpl') ;
 
 (not $html) and
 $html   = $template_top->output and
-$title  = '超絶高速ゲノム配列検索GGGenome' and
+$title  = '高速塩基配列検索GGGenome' and
 $robots = '' ;
 #- ▲ トップページ：引数がない場合
 
