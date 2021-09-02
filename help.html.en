@@ -11,6 +11,8 @@
 	href='//cdn.sencha.com/ext/gpl/4.2.1/resources/css/ext-all-neptune.css'>
 <link rel='stylesheet' type='text/css' media='all' charset='UTF-8'
 	href='static/css/style.css'>
+<link rel='icon' type='image/svg+xml'
+	href='favicon.svg'>
 <script type='text/javascript' charset='utf-8'
 	src='//cdn.sencha.com/ext/gpl/4.2.1/ext-all.js'></script>
 <script type='text/javascript' charset='utf-8'
