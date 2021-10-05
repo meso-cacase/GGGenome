@@ -6,6 +6,7 @@ package DBlist ;
 # DB	host	port	source	fullname	synonym(複数の場合は;で区切る)
 #
 # ホスト一覧：
+# 172.18.8.70	ssd.dbcls.jp
 # 172.18.8.71	s01.dbcls.jp
 # 172.18.8.72	s02.dbcls.jp
 # 172.18.8.73	s03.dbcls.jp
