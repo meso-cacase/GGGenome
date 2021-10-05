@@ -9093,171 +9093,17 @@ set_strand() ;
 </ul>
 </div>
 
-<a name=news></a>
-
-<h4>What's new</h4>
+<h4>News archive</h4>
 
 <div>
 <ul>
-	<li>2021-08-16 Database updated to RefSeq rel. 207 (Jul, 2021).
-	<li>2021-06-08 Database updated to RefSeq rel. 206 (May, 2021).
-	<li>2021-05-10 The new logo for GGGenome is out.
-	<li>2021-03-28 Database updated to RefSeq rel. 205 (Mar, 2021).
-	<li>2021-03-28 Databases updated to GENCODE human 37 (Feb, 2021) and mouse M26 (Feb, 2021).
-	<li>2021-03-28 Database updated to DDBJ rel. 122.0 (Jan, 2021).
-	<li>2021-02-17 Databases updated to GENCODE human 36 (Oct, 2020).
-	<li>2021-02-04 Database updated to RIKEN <a target='_blank' href='https://d3g.riken.jp/release/21.01/'>D3G 21.01</a> (Jan, 2021).
-	<li>2021-02-04 Database updated to RefSeq rel. 204 (Jan, 2021).
-	<li>2020-12-07 Database updated to RefSeq rel. 203 (Nov, 2020).
-	<li>2020-11-07 Mouse genome GRCm39/mm39 (Jun, 2020) is available.
-	<li>2020-11-07 Database updated to RefSeq rel. 202 (Sep, 2020).
-	<li>2020-09-09 Database updated to DDBJ rel. 120.0 (Jun, 2020).
-	<li>2020-08-11 Database updated to RefSeq rel. 201 (Jul, 2020).
-	<li>2020-07-15 Databases updated to GENCODE human 34 (Apr, 2020) and mouse M25 (Apr, 2020).
-	<li>2020-05-27 Database updated to RefSeq rel. 200 (May, 2020).
-	<li>2020-04-20 Database updated to DDBJ rel. 119.0 (Mar, 2020).
-	<li>2020-03-30 <a target='_blank' href='https://d3g.riken.jp/release/20.03/'>D3G 20.03</a>,
-		pre-spliced &amp; spliced RNA database from RIKEN is available.
-	<li>2020-03-29 Database updated to RefSeq rel. 99 (Mar, 2020).
-	<li>2020-03-21 SARS-CoV-2 (SARS coronavirus 2) genome is available -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/SARS-CoV-2'>Update history</a>
-	<li>2020-03-21 Human Japanese Reference Genome JG1 is available.
-	<li>2020-03-21 Databases updated to GENCODE human 33 (Jan, 2020) and mouse M24 (Jan, 2020).
-	<li>2020-03-21 Database updated to RefSeq rel. 98 (Jan, 2020).
-	<li>2020-03-18 Database updated to DDBJ rel. 118.0 (Jan, 2020).
-	<li>2019-11-29 Database updated to RefSeq rel. 97 (Nov, 2019).
-	<li>2019-11-10 Database updated to DDBJ rel. 117.0 (Oct, 2019).
-	<li>2019-09-25 Database updated to RefSeq rel. 96 (Sep, 2019).
-	<li>2019-07-31 Database updated to RefSeq rel. 95 (Jul, 2019).
-	<li>2019-07-30 Database updated to DDBJ rel. 116.0 (Jun, 2019).
-	<li>2019-06-06 Database updated to RefSeq rel. 94 (May, 2019).
-	<li>2019-04-03 Database updated to RefSeq rel. 93 (Mar, 2019).
-	<li>2019-03-06 nogap (no gaps in alignment) option is available.
-	<li>2019-01-22 Database updated to RefSeq rel. 92 (Jan, 2019).
-	<li>2019-01-09 Database updated to DDBJ rel. 115.0 (Dec, 2018).
-	<li>2018-12-13 TXT/CSV/JSON output includes sequence alignment and numbers of mismatches etc.
-	<li>2018-12-13 Added 36 genome databases -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>List</a>
-	<li>2018-11-21 Database updated to RefSeq rel. 91 (Nov, 2018).
-	<li>2018-10-10 Database updated to DDBJ rel. 114.0 (Sep, 2018).
-	<li>2018-09-23 Database updated to RefSeq rel. 90 (Sep, 2018).
-	<li>2018-08-03 Database updated to RefSeq rel. 89 (Jul, 2018).
-	<li>2018-07-06 Database updated to DDBJ rel. 113.0 (Jun, 2018).
-	<li>2018-05-28 Database updated to RefSeq rel. 88 (May, 2018).
-	<li>2018-04-19 Database updated to DDBJ rel. 112.0 (Apr, 2018).
-	<li>2018-04-19 Databases updated to GENCODE human 28 (Apr, 2018) and mouse M17 (Apr, 2018).
-	<li>2018-04-19 Added 12 genome databases -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>List</a>
-	<li>2018-03-22 Database updated to miRBase rel. 22 (Mar, 2018).
-	<li>2018-03-22 Database updated to RefSeq rel. 87 (Mar, 2018).
-	<li>2018-01-26 Database updated to RefSeq rel. 86 (Jan, 2018).
-	<li>2017-12-30 Database updated to DDBJ rel. 111.0 (Dec, 2017).
-	<li>2017-12-15 Databases updated to GENCODE mouse M16 (Dec, 2017).
-	<li>2017-12-11 Carrot genome is available.
-	<li>2017-11-29 376 genomes from
-		<a target='_blank' href='http://genome.microbedb.jp/cyanobase/'>CyanoBase</a> are added -
-		<a href='https://github.com/meso-cacase/GGGenome/wiki/CyanoBase'>List</a>
-	<li>2017-11-17 Database updated to RefSeq rel. 85 (Nov, 2017).
-	<li>2017-11-06 Database updated to DDBJ rel. 110.0 (Sep, 2017).
-	<li>2017-10-17 Added 5 genome databases -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>List</a>
-	<li>2017-10-17 Added stem-loop/mature miRNAs from miRBase rel. 21.
-	<li>2017-10-17 Databases updated to GENCODE human 27 (Aug, 2017) and mouse M15 (Aug, 2017).
-	<li>2017-10-09 Database updated to RefSeq rel. 84 (Sep, 2017).
-	<li>2017-08-07 Database updated to RefSeq rel. 83 (Jul, 2017).
-	<li>2017-07-03 Database updated to DDBJ rel. 109.0 (May, 2017).
-	<li>2017-06-15 Added 7 genome databases -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>List</a>
-	<li>2017-06-14 Silkworm genome (SilkBase, Nov. 2016) is available.
-	<li>2017-06-09 Human Japanese Reference Genome JRGv2/decoyJRGv2 are available.
-	<li>2017-06-09 GENCODE human 26 (Mar, 2017) and mouse M13 (Mar, 2017) are available.
-	<li>2017-05-18 Database updated to RefSeq rel. 82 (May, 2017).
-	<li>2017-04-20 Database updated to DDBJ rel. 108.0 (Mar, 2017).
-	<li>2017-03-24 Database updated to RefSeq rel. 81 (Mar, 2017).
-	<li>2017-02-17 <i>Brassica rapa</i> genome v1.5 is available.
-	<li>2017-02-01 Database updated to DDBJ rel. 107.0 (Jan, 2017).
-	<li>2017-01-20 Added 8 genome databases -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>List</a>
-	<li>2017-01-20 Database updated to RefSeq rel. 80 (Jan, 2017).
-	<li>2016-11-18 Database updated to RefSeq rel. 79 (Nov, 2016).
-	<li>2016-10-03 Database updated to DDBJ rel. 106.0 (Sep, 2016).
-	<li>2016-09-16 Database updated to RefSeq rel. 78 (Sep, 2016).
-	<li>2016-09-01 Added 10 genome databases -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>List</a>
-	<li>2016-08-30 Human Japanese Reference Genome JRGv1/decoyJRGv1 are available.
-	<li>2016-07-14 Database updated to DDBJ rel. 105.0 (Jun, 2016).
-	<li>2016-07-12 Database updated to RefSeq rel. 77 (Jul, 2016).
-	<li>2016-06-13 Added 10 genome databases -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>List</a>
-	<li>2016-05-26 Database updated to RefSeq rel. 76 (May, 2016).
-	<li>2016-04-27 Database updated to DDBJ rel. 104.0 (Mar, 2016).
-	<li>2016-03-18 Database updated to RefSeq rel. 75 (Mar, 2016).
-	<li>2016-01-28 Database updated to DDBJ rel. 103.0 (Jan, 2016).
-	<li>2016-01-25 Database updated to RefSeq rel. 74 (Jan, 2016).
-	<li>2015-11-11 Database updated to DDBJ rel. 102.0 (Sep, 2015).
-	<li>2015-11-11 Database updated to RefSeq rel. 73 (Nov, 2015).
-	<li>2015-09-08 Added 14 genomes from
-		<a target='_blank' href='http://www.ensembl.org/info/about/species.html'>Ensembl</a>.
-	<li>2015-09-08 Added 35 genomes from
-		<a target='_blank' href='http://metazoa.ensembl.org/species.html'>EnsemblMetazoa</a>.
-	<li>2015-09-08 Added 39 genomes from
-		<a target='_blank' href='http://plants.ensembl.org/species.html'>EnsemblPlants</a>.
-	<li>2015-09-08 Added 23 genomes from
-		<a target='_blank' href='http://phytozome.jgi.doe.gov/'>Phytozome</a>.
-	<li>2015-09-07 Database updated to RefSeq rel. 72 (Sep, 2015).
-	<li>2015-07-22 100+ genome databases are added -
-		<a href='help.html#db_list'>List of databases</a>
-	<li>2015-07-22 Re-installed RefSeq rel. 71 (Jul, 2015).
-	<li>2015-07-16 Suspended RefSeq rel. 71 due to a data error.
-	<li>2015-07-15 Database updated to RefSeq rel. 71 (Jul, 2015).
-	<li>2015-05-28 Database updated to RefSeq rel. 70 (May, 2015).
-	<li>2015-03-18 Parameter for searching specific strand is supported.
-	<li>2015-01-13 HTTPS encrypted connection supported -
-		<a href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
-	<li>2015-01-13 Database updated to RefSeq rel. 69 (Jan, 2015).
-	<li>2014-11-23 Database updated to RefSeq rel. 68 (Nov, 2014).
-	<li>2014-10-28 <i>X. laevis</i> and <i>S. pombe</i> genomes are available.
-	<li>2014-10-01 CSV, BED, GFF outputs are newly supported.
-	<li>2014-10-01 Sequence containing IUB code letters (N, R, Y, ...) can be queried.
-	<li>2014-07-17 Marmoset genome is available.
-	<li>2014-07-17 Database updated to RefSeq rel. 66 (Jul, 2014).
-	<li>2014-06-02 Pig and <i>Sorghum</i> genomes are available.
-	<li>2014-05-30 Database updated to RefSeq rel. 65 (May, 2014).
-	<li>2014-03-17 Database updated to RefSeq rel. 64 (Mar, 2014).
-	<li>2014-01-24 Database updated to RefSeq rel. 63 (Jan, 2014).
-	<li>2013-12-25 <i>S. cerevisiae</i> genome is available.
-	<li>2013-12-18 Database updated to TogoGenome from RefSeq 62 (Nov, 2013).
-	<li>2013-11-17 Database updated to RefSeq rel. 62 (Nov, 2013).
-	<li>2013-10-02 Database updated to TogoGenome from RefSeq 60 (Jul, 2013).
-	<li>2013-09-20 Database updated to RefSeq rel. 61 (Sep, 2013).
-	<li>2013-08-19 Tips: <a target='_blank'
-		href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
-		-->GGGenome search using Google Spreadsheet</a>.
-	<li>2013-07-28 Database updated to RefSeq rel. 60 (Jul, 2013).
-	<li>2013-05-28 Chicken, <i>Xenopus</i>, Zebrafish, <i>Ciona intestinalis</i>
-		and <i>Arabidopsis</i> genomes are available.
-	<li>2013-05-21 Database updated to DDBJ rel. 92.0 (Feb, 2013).
-	<li>2013-05-07 Database updated to RefSeq rel. 59 (May, 2013).
-	<li>2013-03-28 Database updated to RefSeq rel. 58 (Mar, 2013).
-	<li>2013-02-26 Search results are also available for download.
-	<li>2013-02-12 Silkworm genome is available.
-	<li>2013-02-08 English page has launched.
-	<li>2013-02-08 Rice genome is available.
-	<li>2013-02-06 Source code available via
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>.
-	<li>2013-01-16 Database updated to RefSeq rel. 57 (Jan, 2013).
-	<li>2012-12-21 GGGenome REST API is available.
-	<li>2012-12-21 Rat, <i>Drosophila</i> and <i>C. elegans</i> genomes are available.
-	<li>2012-11-15 Database updated to RefSeq rel. 56 (Nov, 2012).
-	<li>2012-07-26 Mouse genome is available.
-	<li>2012-07-25 Database updated to RefSeq rel. 54 (Jul, 2012).
-	<li>2012-07-04 GGGenome launched.
+	<li>GitHub Wiki - <a href='https://github.com/meso-cacase/GGGenome/wiki/GGGenome-news-archive-%7C-en'>GGGenome news archive</a>
 </ul>
 </div>
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Aug 16, 2021 by
+<p class=g>Last modified on Oct 5, 2021 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a

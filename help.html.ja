@@ -10005,171 +10005,17 @@ set_strand() ;
 </ul>
 </div>
 
-<a name=news></a>
-
-<h4>新着情報</h4>
+<h4>過去の新着情報</h4>
 
 <div>
 <ul>
-	<li>2021-08-16 RefSeq rel. 207 (Jul, 2021) に更新。
-	<li>2021-06-08 RefSeq rel. 206 (May, 2021) に更新。
-	<li>2021-05-10 GGGenomeの新しいロゴを公開。
-	<li>2021-03-28 RefSeq rel. 205 (Mar, 2021) に更新。
-	<li>2021-03-28 GENCODE ヒト 37 (Feb, 2021) および マウス M26 (Feb, 2021) に更新。
-	<li>2021-03-28 DDBJ rel. 122.0 (Jan, 2021) に更新。
-	<li>2021-02-17 GENCODE ヒト 36 (Oct, 2020) に更新。
-	<li>2021-02-04 理研のpre-spliced &amp; spliced RNAデータベース<!--
-		--><a target='_blank' href='https://d3g.riken.jp/release/21.01/'>D3G 21.01</a> (Jan, 2021) に更新。
-	<li>2021-02-04 RefSeq rel. 204 (Jan, 2021) に更新。
-	<li>2020-12-07 RefSeq rel. 203 (Nov, 2020) に更新。
-	<li>2020-11-07 マウスゲノム GRCm39/mm39 (Jun, 2020) を追加。
-	<li>2020-11-07 RefSeq rel. 202 (Sep, 2020) に更新。
-	<li>2020-09-09 DDBJ rel. 120.0 (Jun, 2020) に更新。
-	<li>2020-08-11 RefSeq rel. 201 (Jul, 2020) に更新。
-	<li>2020-07-15 GENCODE ヒト 34 (Apr, 2020) および マウス M25 (Apr, 2020) に更新。
-	<li>2020-05-27 RefSeq rel. 200 (May, 2020) に更新。
-	<li>2020-04-20 DDBJ rel. 119.0 (Mar, 2020) に更新。
-	<li>2020-03-30 理研の公開するpre-spliced &amp; spliced RNAのデータベース<!--
-		--><a target='_blank' href='https://d3g.riken.jp/release/20.03/'>D3G 20.03</a>を追加。
-	<li>2020-03-29 RefSeq rel. 99 (Mar, 2020) に更新。
-	<li>2020-03-21 新型コロナウイルス SARS-CoV-2 ゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/SARS-CoV-2'>コロナ更新情報</a>
-	<li>2020-03-21 日本人基準ゲノム配列 JG1 を追加。
-	<li>2020-03-21 GENCODE ヒト 33 (Jan, 2020) および マウス M24 (Jan, 2020) に更新。
-	<li>2020-03-21 RefSeq rel. 98 (Jan, 2020) に更新。
-	<li>2020-03-18 DDBJ rel. 118.0 (Jan, 2020) に更新。
-	<li>2019-11-29 RefSeq rel. 97 (Nov, 2019) に更新。
-	<li>2019-11-10 DDBJ rel. 117.0 (Oct, 2019) に更新。
-	<li>2019-09-25 RefSeq rel. 96 (Sep, 2019) に更新。
-	<li>2019-07-31 RefSeq rel. 95 (Jul, 2019) に更新。
-	<li>2019-07-30 DDBJ rel. 116.0 (Jun, 2019) に更新。
-	<li>2019-06-06 RefSeq rel. 94 (May, 2019) に更新。
-	<li>2019-04-03 RefSeq rel. 93 (Mar, 2019) に更新。
-	<li>2019-03-06 ギャップを許容せずミスマッチのみ許容して検索するnogapオプションを追加。
-	<li>2019-01-22 RefSeq rel. 92 (Jan, 2019) に更新。
-	<li>2019-01-09 DDBJ rel. 115.0 (Dec, 2018) に更新。
-	<li>2018-12-13 TXT, CSV, JSON出力に、アライメント情報やミスマッチ塩基数などを追加。
-	<li>2018-12-13 36種のゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
-	<li>2018-11-21 RefSeq rel. 91 (Nov, 2018) に更新。
-	<li>2018-10-10 DDBJ rel. 114.0 (Sep, 2018) に更新。
-	<li>2018-09-23 RefSeq rel. 90 (Sep, 2018) に更新。
-	<li>2018-08-03 RefSeq rel. 89 (Jul, 2018) に更新。
-	<li>2018-07-06 DDBJ rel. 113.0 (Jun, 2018) に更新。
-	<li>2018-05-28 RefSeq rel. 88 (May, 2018) に更新。
-	<li>2018-04-19 DDBJ rel. 112.0 (Apr, 2018) に更新。
-	<li>2018-04-19 GENCODE ヒト 28 (Apr, 2018) および マウス M17 (Apr, 2018) に更新。
-	<li>2018-04-19 12種のゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
-	<li>2018-03-22 miRBase rel. 22 (Mar, 2018) に更新。
-	<li>2018-03-22 RefSeq rel. 87 (Mar, 2018) に更新。
-	<li>2018-01-26 RefSeq rel. 86 (Jan, 2018) に更新。
-	<li>2017-12-30 DDBJ rel. 111.0 (Dec, 2017) に更新。
-	<li>2017-12-15 GENCODE マウス M16 (Dec, 2017) に更新。
-	<li>2017-12-11 ニンジンゲノムを追加。
-	<li>2017-11-29 <a target='_blank' href='http://genome.microbedb.jp/cyanobase/'>CyanoBase</a>
-		から376種のゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/CyanoBase'>追加リスト</a>
-	<li>2017-11-17 RefSeq rel. 85 (Nov, 2017) に更新。
-	<li>2017-11-06 DDBJ rel. 110.0 (Sep, 2017) に更新。
-	<li>2017-10-17 5種のゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
-	<li>2017-10-17 miRBase rel. 21のstem-loopおよびmature miRNA配列を追加。
-	<li>2017-10-17 GENCODE ヒト 27 (Aug, 2017) および マウス M15 (Aug, 2017) に更新。
-	<li>2017-10-09 RefSeq rel. 84 (Sep, 2017) に更新。
-	<li>2017-08-07 RefSeq rel. 83 (Jul, 2017) に更新。
-	<li>2017-07-03 DDBJ rel. 109.0 (May, 2017) に更新。
-	<li>2017-06-15 7種のゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
-	<li>2017-06-14 カイコゲノム (SilkBase, Nov. 2016) を追加。
-	<li>2017-06-09 日本人基準ゲノム JRGv2/decoyJRGv2 を追加。
-	<li>2017-06-09 GENCODE ヒト 26 (Mar, 2017) および マウス M13 (Mar, 2017) を追加。
-	<li>2017-05-18 RefSeq rel. 82 (May, 2017) に更新。
-	<li>2017-04-20 DDBJ rel. 108.0 (Mar, 2017) に更新。
-	<li>2017-03-24 RefSeq rel. 81 (Mar, 2017) に更新。
-	<li>2017-02-17 ハクサイ (<i>Brassica rapa</i>) ゲノム v1.5 を追加。
-	<li>2017-02-01 DDBJ rel. 107.0 (Jan, 2017) に更新。
-	<li>2017-01-20 8種のゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
-	<li>2017-01-20 RefSeq rel. 80 (Jan, 2017) に更新。
-	<li>2016-11-18 RefSeq rel. 79 (Nov, 2016) に更新。
-	<li>2016-10-03 DDBJ rel. 106.0 (Sep, 2016) に更新。
-	<li>2016-09-16 RefSeq rel. 78 (Sep, 2016) に更新。
-	<li>2016-09-01 10種のゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
-	<li>2016-08-30 日本人基準ゲノム JRGv1/decoyJRGv1 を追加。
-	<li>2016-07-14 DDBJ rel. 105.0 (Jun, 2016) に更新。
-	<li>2016-07-12 RefSeq rel. 77 (Jul, 2016) に更新。
-	<li>2016-06-13 10種のゲノムを追加 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome/wiki/Database-update-history'>追加リスト</a>
-	<li>2016-05-26 RefSeq rel. 76 (May, 2016) に更新。
-	<li>2016-04-27 DDBJ rel. 104.0 (Mar, 2016) に更新。
-	<li>2016-03-18 RefSeq rel. 75 (Mar, 2016) に更新。
-	<li>2016-01-28 DDBJ rel. 103.0 (Jan, 2016) に更新。
-	<li>2016-01-25 RefSeq rel. 74 (Jan, 2016) に更新。
-	<li>2015-11-11 DDBJ rel. 102.0 (Sep, 2015) に更新。
-	<li>2015-11-11 RefSeq rel. 73 (Nov, 2015) に更新。
-	<li>2015-09-08 <a target='_blank' href='http://www.ensembl.org/info/about/species.html'>Ensembl</a>
-		から14種のゲノムを追加。
-	<li>2015-09-08 <a target='_blank' href='http://metazoa.ensembl.org/species.html'>EnsemblMetazoa</a>
-		から35種のゲノムを追加。
-	<li>2015-09-08 <a target='_blank' href='http://plants.ensembl.org/species.html'>EnsemblPlants</a>
-		から39種のゲノムを追加。
-	<li>2015-09-08 <a target='_blank' href='http://phytozome.jgi.doe.gov/'>Phytozome</a>
-		から23種のゲノムを追加。
-	<li>2015-09-07 RefSeq rel. 72 (Sep, 2015) に更新。
-	<li>2015-07-22 100種以上のゲノムを追加 -
-		<a href='help.html#db_list'>検索可能なデータベース一覧</a>
-	<li>2015-07-22 RefSeq rel. 71 (Jul, 2015) を再公開。
-	<li>2015-07-16 データ不備のためRefSeq rel. 71の公開を一時的に停止。
-	<li>2015-07-15 RefSeq rel. 71 (Jul, 2015) に更新。
-	<li>2015-05-28 RefSeq rel. 70 (May, 2015) に更新。
-	<li>2015-03-18 検索の方向を限定するオブションを追加。
-	<li>2015-01-13 HTTPSによる暗号化通信に対応 -
-		<a href='https://GGGenome.dbcls.jp/'>https://GGGenome.dbcls.jp/</a>
-	<li>2015-01-13 RefSeq rel. 69 (Jan, 2015) に更新。
-	<li>2014-11-23 RefSeq rel. 68 (Nov, 2014) に更新。
-	<li>2014-10-28 アフリカツメガエル、分裂酵母のゲノムを追加。
-	<li>2014-10-01 検索結果はHTML, TXT, JSONに加えCSV, BED, GFF形式の出力にも新たに対応。
-	<li>2014-10-01 N, R, Yなどのあいまいな塩基を含む配列の検索に対応。
-	<li>2014-07-17 マーモセットのゲノムを追加。
-	<li>2014-07-17 RefSeq rel. 66 (Jul, 2014) に更新。
-	<li>2014-06-02 ブタ、ソルガムのゲノムを追加。
-	<li>2014-05-30 RefSeq rel. 65 (May, 2014) に更新。
-	<li>2014-03-17 RefSeq rel. 64 (Mar, 2014) に更新。
-	<li>2014-01-24 RefSeq rel. 63 (Jan, 2014) に更新。
-	<li>2013-12-25 出芽酵母のゲノムを追加。
-	<li>2013-12-18 TogoGenome from RefSeq 62 (Nov, 2013) に更新。
-	<li>2013-11-17 RefSeq rel. 62 (Nov, 2013) に更新。
-	<li>2013-10-02 TogoGenome from RefSeq 60 (Jul, 2013) に更新。
-	<li>2013-09-20 RefSeq rel. 61 (Sep, 2013) に更新。
-	<li>2013-08-19 活用事例：<a target='_blank'
-		href='https://docs.google.com/spreadsheet/ccc?key=0AqoKv30zqpDbdHJpSFI1SzJOZmxjVkYzUXByMFhrWWc&usp=sharing'><!--
-		-->Googleスプレッドシート上で配列検索</a> ができます。
-	<li>2013-07-28 RefSeq rel. 60 (Jul, 2013) に更新。
-	<li>2013-05-28 ニワトリ、ツメガエル、ゼブラフィッシュ、ホヤ、シロイヌナズナのゲノムを追加。
-	<li>2013-05-21 DDBJ rel. 92.0 (Feb, 2013) に更新。
-	<li>2013-05-07 RefSeq rel. 59 (May, 2013) に更新。
-	<li>2013-03-28 RefSeq rel. 58 (Mar, 2013) に更新。
-	<li>2013-02-26 検索結果のダウンロードに対応。
-	<li>2013-02-12 カイコゲノムを追加。
-	<li>2013-02-08 <a href='en/'>英語版</a> を公開。
-	<li>2013-02-08 イネゲノムを追加。
-	<li>2013-02-06 ソースを公開 -
-		<a target='_blank' href='https://github.com/meso-cacase/GGGenome'>GitHub</a>
-	<li>2013-01-16 RefSeq rel. 57 (Jan, 2013) に更新。
-	<li>2012-12-21 GGGenome REST APIを公開。
-	<li>2012-12-21 ラット、ショウジョウバエ、線虫のゲノムを追加。
-	<li>2012-11-15 RefSeq rel. 56 (Nov, 2012) に更新。
-	<li>2012-07-26 マウスゲノムを追加。
-	<li>2012-07-25 RefSeq rel. 54 (Jul, 2012) に更新。
-	<li>2012-07-04 ゲゲゲノムのテストサイトを構築
+	<li>GitHub Wiki - <a href='https://github.com/meso-cacase/GGGenome/wiki/GGGenome-news-archive-%7C-ja'>GGGenome過去の新着情報</a>
 </ul>
 </div>
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Aug 16, 2021 by
+<p class=g>Last modified on Oct 5, 2021 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
