@@ -265,8 +265,10 @@ Database:<br>&emsp;
 	<option value='nanPar1'                  synonym="Nanorana parkeri">Tibetan frog genome, BGI_ZX_2015/nanPar1 (Mar, 2015)</option>
 	<option value='melGal5'                  synonym="Meleagris gallopavo">Turkey genome, TGC Turkey_5.0/melGal5 (Nov, 2014)</option>
 	<option value='melGal1'                  synonym="Meleagris gallopavo">Turkey genome, TGC Turkey_2.01/melGal1 (Dec, 2009)</option>
+	<option value='Xenla9.2'                 synonym="Xenopus laevis;african clawed frog">Xenopus laevis genome, XenBase/NCBI 9.2</option>
 	<option value='Xenla9'                   synonym="Xenopus laevis;african clawed frog">Xenopus laevis genome, XenBase/JGI 9.1</option>
 	<option value='Xenla7'                   synonym="Xenopus laevis;african clawed frog">Xenopus laevis genome, JGI 7.1/Xenla7 (Dec, 2013)</option>
+	<option value='Xentr10.0'                synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/UCB 10.0</option>
 	<option value='Xentr9'                   synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 9.0</option>
 	<option value='Xentr8'                   synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 8.0</option>
 	<option value='Xentr7'                   synonym="Xenopus tropicalis;western clawed frog">Xenopus tropicalis genome, XenBase/JGI 7.1</option>
@@ -3477,6 +3479,16 @@ set_strand() ;
 		-->v3.0</a>
 </tr>
 <tr>
+	<td><a href='/Xenla9.2/'>Xenla9.2</a>
+	<td>Xenbase
+	<td>Vertebrate
+	<td>African clawed frog
+	<td>アフリカツメガエル
+	<td>Xenopus laevis
+	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla9.2/'><!--
+		-->XenBase/NCBI 9.2</a>
+</tr>
+<tr>
 	<td><a href='/Xenla9/'>Xenla9</a>
 	<td>Xenbase
 	<td>Vertebrate
@@ -3493,6 +3505,15 @@ set_strand() ;
 	<td>Xenopus laevis
 	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xenla7.1/'><!--
 		-->JGI 7.1/Xenla7 (Dec, 2013)</a>
+</tr>
+<tr>
+	<td><a href='/Xentr10.0/'>Xentr10.0</a>
+	<td>Xenbase
+	<td>Vertebrate
+	<td>Western clawed frog
+	<td>Xenopus tropicalis
+	<td><a target='_blank' href='ftp://ftp.xenbase.org/pub/Genomics/JGI/Xentr10.0/'><!--
+		-->XenBase/UCB 10.0</a>
 </tr>
 <tr>
 	<td><a href='/Xentr9/'>Xentr9</a>

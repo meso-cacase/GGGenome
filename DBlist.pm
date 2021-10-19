@@ -261,6 +261,8 @@ Xentr7                   	172.18.8.77	28225	Xenbase  	Xenopus tropicalis genome,
 Xentr8                   	172.18.8.77	28226	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 8.0	Xenopus tropicalis;western clawed frog
 Xentr9                   	172.18.8.77	28227	Xenbase  	Xenopus tropicalis genome, XenBase/JGI 9.0	Xenopus tropicalis;western clawed frog
 Xenla9                   	172.18.8.77	28228	Xenbase  	Xenopus laevis genome, XenBase/JGI 9.1	Xenopus laevis;african clawed frog
+Xenla9.2                 	172.18.8.77	28888	Xenbase  	Xenopus laevis genome, XenBase/NCBI 9.2	Xenopus laevis;african clawed frog
+Xentr10.0                	172.18.8.77	28889	Xenbase  	Xenopus tropicalis genome, XenBase/UCB 10.0	Xenopus tropicalis;western clawed frog
 macaque_CE_1             	172.18.8.77	28229	         	Crab-eating macaque genome, CE_1.0 (Jul, 2011)	Macaca fascicularis
 macaque_CE_1_cds         	172.18.8.77	28230	         	Crab-eating macaque CDS, CE_1.0 (Jul, 2011)	Macaca fascicularis
 KH                       	172.18.8.77	28231	         	Ciona intestinalis genome, KH (Jul, 2008)	Ciona intestinalis;transparent sea squirt

@@ -108,8 +108,10 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'nanPar1\'                  synonym=\"$db_synonym{'nanPar1'                 }\">$db_fullname{'nanPar1'                 }</option>
 	<option value=\'melGal5\'                  synonym=\"$db_synonym{'melGal5'                 }\">$db_fullname{'melGal5'                 }</option>
 	<option value=\'melGal1\'                  synonym=\"$db_synonym{'melGal1'                 }\">$db_fullname{'melGal1'                 }</option>
+	<option value=\'Xenla9.2\'                 synonym=\"$db_synonym{'Xenla9.2'                }\">$db_fullname{'Xenla9.2'                }</option>
 	<option value=\'Xenla9\'                   synonym=\"$db_synonym{'Xenla9'                  }\">$db_fullname{'Xenla9'                  }</option>
 	<option value=\'Xenla7\'                   synonym=\"$db_synonym{'Xenla7'                  }\">$db_fullname{'Xenla7'                  }</option>
+	<option value=\'Xentr10.0\'                synonym=\"$db_synonym{'Xentr10.0'               }\">$db_fullname{'Xentr10.0'               }</option>
 	<option value=\'Xentr9\'                   synonym=\"$db_synonym{'Xentr9'                  }\">$db_fullname{'Xentr9'                  }</option>
 	<option value=\'Xentr8\'                   synonym=\"$db_synonym{'Xentr8'                  }\">$db_fullname{'Xentr8'                  }</option>
 	<option value=\'Xentr7\'                   synonym=\"$db_synonym{'Xentr7'                  }\">$db_fullname{'Xentr7'                  }</option>
