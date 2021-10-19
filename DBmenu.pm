@@ -343,6 +343,7 @@ $dbmenu = <<"--EOS--" ;
 	<option value=\'ASM15095v2\'               synonym=\"$db_synonym{'ASM15095v2'              }\">$db_fullname{'ASM15095v2'              }</option>
 	<option value=\'ASM14940v2\'               synonym=\"$db_synonym{'ASM14940v2'              }\">$db_fullname{'ASM14940v2'              }</option>
 	<option value=\'ASM82905v1\'               synonym=\"$db_synonym{'ASM82905v1'              }\">$db_fullname{'ASM82905v1'              }</option>
+	<option value=\'GCA_003118565.2\'          synonym=\"$db_synonym{'GCA_003118565.2'         }\">$db_fullname{'GCA_003118565.2'         }</option>
 	<option value=\'GCA_003118565.1\'          synonym=\"$db_synonym{'GCA_003118565.1'         }\">$db_fullname{'GCA_003118565.1'         }</option>
 	<option value=\'GCA_002749855.1\'          synonym=\"$db_synonym{'GCA_002749855.1'         }\">$db_fullname{'GCA_002749855.1'         }</option>
 	<option value=\'GCA_002982235.1\'          synonym=\"$db_synonym{'GCA_002982235.1'         }\">$db_fullname{'GCA_002982235.1'         }</option>
