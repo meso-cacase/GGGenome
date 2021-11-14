@@ -1,4 +1,0 @@
-NOTICE:
-<ul>
-	<li>Server maintenance: 12 Nov 2021, 17:00 to 14 Nov 2021, 18:00 +0900 (JST). Sorry for the inconvenience.
-</ul>
