@@ -735,6 +735,7 @@ $dbmenu = <<"--EOS--" ;
 	<option disabled>--------------------</option>
 
 	<option value=\'refseq\'                   synonym=\"$db_synonym{'refseq'                  }\">$db_fullname{'refseq'                  }</option>
+	<option value=\'refseq210\'                synonym=\"$db_synonym{'refseq210'               }\">$db_fullname{'refseq210'               }</option>
 	<option value=\'refseq205\'                synonym=\"$db_synonym{'refseq205'               }\">$db_fullname{'refseq205'               }</option>
 	<option value=\'refseq200\'                synonym=\"$db_synonym{'refseq200'               }\">$db_fullname{'refseq200'               }</option>
 	<option value=\'refseq90\'                 synonym=\"$db_synonym{'refseq90'                }\">$db_fullname{'refseq90'                }</option>
