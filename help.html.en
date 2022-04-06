@@ -891,7 +891,7 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 207 (Jul, 2021)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 208 (Sep, 2021)</option>
 	<option value='refseq205'                synonym="">RefSeq complete RNA release 205 (Mar, 2021)</option>
 	<option value='refseq200'                synonym="">RefSeq complete RNA release 200 (May, 2020)</option>
 	<option value='refseq90'                 synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
@@ -7802,7 +7802,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq207/'>refseq207</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq208/'>refseq208</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 208 (Sep, 2021)
+</tr>
+<tr>
+	<td><a href='/refseq207/'>refseq207</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -9133,7 +9141,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Oct 19, 2021 by
+<p class=g>Last modified on Apr 6, 2022 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
