@@ -874,6 +874,27 @@ rn6_RefSeqCurated_spliced_d3g2101                        	172.18.8.75	28869	D3G	
 rn6_RefSeqCuratedProtCoding_prespliced_d3g2101           	172.18.8.75	28870	D3G	Rat pre-spliced RNA, RefSeq curated protein coding on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
 rn6_RefSeqCuratedProtCoding_spliced_d3g2101              	172.18.8.75	28871	D3G	Rat spliced RNA, RefSeq curated protein coding on rn6, D3G 21.01 (Jan, 2021)	Rattus norvegicus
 rn6_d3g2101                                              	172.18.8.75	28872	D3G	Rat genome, RGSC Rnor_6.0/rn6 (Jul, 2014)	Rattus norvegicus
+calJac4_RefSeq_prespliced_d3g2202                        	172.18.8.78	28901	D3G	Marmoset pre-spliced RNA, RefSeq on calJac4, D3G 22.02 (Feb, 2022)	Callithrix jacchus
+calJac4_RefSeq_spliced_d3g2202                           	172.18.8.78	28902	D3G	Marmoset spliced RNA, RefSeq on calJac4, D3G 22.02 (Feb, 2022)	Callithrix jacchus
+calJac4_d3g2202                                          	172.18.8.78	28903	D3G	Marmoset genome, calJac4 (May, 2020)	Callithrix jacchus
+hg38_RefSeqCurated_prespliced_d3g2202                    	172.18.8.78	28904	D3G	Human pre-spliced RNA, RefSeq curated on GRCh38/hg38.p13, D3G 22.02 (Feb, 2022)	Homo sapiens
+hg38_RefSeqCurated_spliced_d3g2202                       	172.18.8.78	28905	D3G	Human spliced RNA, RefSeq curated on GRCh38/hg38.p13, D3G 22.02 (Feb, 2022)	Homo sapiens
+hg38_RefSeqCuratedProtCoding_prespliced_d3g2202          	172.18.8.78	28906	D3G	Human pre-spliced RNA, RefSeq curated protein coding on GRCh38/hg38.p13, D3G 22.02 (Feb, 2022)	Homo sapiens
+hg38_RefSeqCuratedProtCoding_spliced_d3g2202             	172.18.8.78	28907	D3G	Human spliced RNA, RefSeq curated protein coding on GRCh38/hg38.p13, D3G 22.02 (Feb, 2022)	Homo sapiens
+hg38.p13_d3g2202                                         	172.18.8.78	28908	D3G	Human genome, GRCh38/hg38.p13 (Feb, 2019)	Homo sapiens
+macFasRKS1912v2_RefSeq_prespliced_d3g2202                	172.18.8.78	28909	D3G	Crab-eating macaque pre-spliced RNA, RefSeq on macFasRKS1912v2, D3G 22.02 (Feb, 2022)	Macaca fascicularis
+macFasRKS1912v2_RefSeq_spliced_d3g2202                   	172.18.8.78	28910	D3G	Crab-eating macaque spliced RNA, RefSeq on macFasRKS1912v2, D3G 22.02 (Feb, 2022)	Macaca fascicularis
+macFasRKS1912v2_d3g2202                                  	172.18.8.78	28911	D3G	Crab-eating macaque genome, macFasRKS1912v2 (Oct, 2021)	Macaca fascicularis
+mm39_RefSeqCurated_prespliced_d3g2202                    	172.18.8.78	28912	D3G	Mouse pre-spliced RNA, RefSeq curated on GRCm39/mm39, D3G 22.02 (Feb, 2022)	Mus musculus
+mm39_RefSeqCurated_spliced_d3g2202                       	172.18.8.78	28913	D3G	Mouse spliced RNA, RefSeq curated on GRCm39/mm39, D3G 22.02 (Feb, 2022)	Mus musculus
+mm39_RefSeqCuratedProtCoding_prespliced_d3g2202          	172.18.8.78	28914	D3G	Mouse pre-spliced RNA, RefSeq curated protein coding on GRCm39/mm39, D3G 22.02 (Feb, 2022)	Mus musculus
+mm39_RefSeqCuratedProtCoding_spliced_d3g2202             	172.18.8.78	28915	D3G	Mouse spliced RNA, RefSeq curated protein coding on GRCm39/mm39, D3G 22.02 (Feb, 2022)	Mus musculus
+mm39_d3g2202                                             	172.18.8.78	28916	D3G	Mouse genome, GRCm39/mm39 (Jun, 2020)	Mus musculus
+rn7_RefSeqCurated_prespliced_d3g2202                     	172.18.8.78	28917	D3G	Rat pre-spliced RNA, RefSeq curated on mRatBN7.2/rn7, D3G 22.02 (Feb, 2022)	Rattus norvegicus
+rn7_RefSeqCurated_spliced_d3g2202                        	172.18.8.78	28918	D3G	Rat spliced RNA, RefSeq curated on mRatBN7.2/rn7, D3G 22.02 (Feb, 2022)	Rattus norvegicus
+rn7_RefSeqCuratedProtCoding_prespliced_d3g2202           	172.18.8.78	28919	D3G	Rat pre-spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 22.02 (Feb, 2022)	Rattus norvegicus
+rn7_RefSeqCuratedProtCoding_spliced_d3g2202              	172.18.8.78	28920	D3G	Rat spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 22.02 (Feb, 2022)	Rattus norvegicus
+rn7_d3g2202                                              	172.18.8.78	28921	D3G	Rat genome, mRatBN7.2/rn7 (Nov, 2020)	Rattus norvegicus
 GENCODE_26               	172.18.8.75	28726	GENCODE  	GENCODE human release 26 (Mar, 2017)	Homo sapiens
 GENCODE_27               	172.18.8.75	28727	GENCODE  	GENCODE human release 27 (Aug, 2017)	Homo sapiens
 GENCODE_28               	172.18.8.75	28728	GENCODE  	GENCODE human release 28 (Apr, 2018)	Homo sapiens
