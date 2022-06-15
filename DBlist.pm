@@ -943,7 +943,6 @@ ddbj125htc               	172.18.8.73	27717	DDBJ     	DDBJ release 125.0, HTC di
 ddbj125htg               	172.18.8.78	27718	DDBJ     	DDBJ release 125.0, HTG division (Dec, 2021)	ddbjhtg
 ddbj125sts               	172.18.8.74	27719	DDBJ     	DDBJ release 125.0, STS division (Dec, 2021)	ddbjsts
 ddbj125una               	172.18.8.73	27720	DDBJ     	DDBJ release 125.0, UNA division (Dec, 2021)	ddbjuna
-SARS-CoV-2               	172.18.8.70	55072	         	SARS-CoV-2 complete genomes, GenBank 2021/8/5	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200317      	172.18.8.70	55001	         	SARS-CoV-2 complete genomes, GenBank 2020/3/17	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200324      	172.18.8.70	55002	         	SARS-CoV-2 complete genomes, GenBank 2020/3/24	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200327      	172.18.8.70	55003	         	SARS-CoV-2 complete genomes, GenBank 2020/3/27	Severe acute respiratory syndrome coronavirus 2;COVID-19
@@ -1016,6 +1015,36 @@ SARS-CoV-2-20210511      	172.18.8.70	55069	         	SARS-CoV-2 complete genome
 SARS-CoV-2-20210524      	172.18.8.70	55070	         	SARS-CoV-2 complete genomes, GenBank 2021/5/24	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20210604      	172.18.8.70	55071	         	SARS-CoV-2 complete genomes, GenBank 2021/6/4	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20210805      	172.18.8.70	55072	         	SARS-CoV-2 complete genomes, GenBank 2021/8/5	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2               	172.18.8.79	55100	         	SARS-CoV-2 complete genomes in GenBank (2022/05)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202001        	172.18.8.79	55101	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/01)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202002        	172.18.8.79	55102	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/02)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202003        	172.18.8.79	55103	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/03)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202004        	172.18.8.79	55104	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/04)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202005        	172.18.8.79	55105	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/05)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202006        	172.18.8.79	55106	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/06)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202007        	172.18.8.79	55107	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/07)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202008        	172.18.8.79	55108	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/08)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202009        	172.18.8.79	55109	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/09)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202010        	172.18.8.79	55110	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/10)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202011        	172.18.8.79	55111	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/11)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202012        	172.18.8.79	55112	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2020/12)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202101        	172.18.8.79	55113	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/01)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202102        	172.18.8.79	55114	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/02)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202103        	172.18.8.79	55115	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/03)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202104        	172.18.8.79	55116	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/04)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202105        	172.18.8.79	55117	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/05)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202106        	172.18.8.79	55118	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/06)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202107        	172.18.8.79	55119	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/07)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202108        	172.18.8.79	55120	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/08)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202109        	172.18.8.79	55121	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/09)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202110        	172.18.8.79	55122	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/10)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202111        	172.18.8.79	55123	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/11)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202112        	172.18.8.79	55124	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2021/12)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202201        	172.18.8.79	55125	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2022/01)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202202        	172.18.8.79	55126	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2022/02)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202203        	172.18.8.79	55127	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2022/03)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202204        	172.18.8.79	55128	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2022/04)	Severe acute respiratory syndrome coronavirus 2;COVID-19
+SARS-CoV-2-202205        	172.18.8.79	55129	         	SARS-CoV-2 complete genomes in GenBank, monthly updates (2022/05)	Severe acute respiratory syndrome coronavirus 2;COVID-19
 COVID19-primercheck-EUL-20200501  	172.18.8.76	28831	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV + 32 organisms in WHO EUL), NIHS 2020/5/1	SARS-CoV-2
 COVID19-primercheck-EUA-20200501  	172.18.8.76	28832	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV + 20 organisms in US EUA), NIHS 2020/5/1	SARS-CoV-2
 COVID19-primercheck-CoV-20200501  	172.18.8.76	28833	NIHS	Cross-reactivity check for COVID-19 diagnostic primers (7 CoV), NIHS 2020/5/1	SARS-CoV-2
