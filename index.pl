@@ -1150,24 +1150,32 @@ my $db      = $_[3] // '' ;
 	       "r=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'Xenla7') ?
 	return "<a class=a target='_blank' href='" .
-	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xl7_1/?" .
-	       "name=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
+	       "https://jbrowse.xenbase.org/JBrowse/?data=data/xl7_1&" .
+	       "loc=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
 ($db eq 'Xenla9') ?
 	return "<a class=a target='_blank' href='" .
-	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xl9_1/?" .
-	       "name=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
+	       "https://jbrowse.xenbase.org/JBrowse/?data=data/xl9_1&" .
+	       "loc=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
+($db eq 'Xenla9.2') ?
+	return "<a class=a target='_blank' href='" .
+	       "https://jbrowse.xenbase.org/JBrowse/?data=data/xl9_2&" .
+	       "loc=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
 ($db eq 'Xentr7') ?
 	return "<a class=a target='_blank' href='" .
-	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xt7_1/?" .
-	       "name=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
+	       "https://jbrowse.xenbase.org/JBrowse/?data=data/xt7_1&" .
+	       "loc=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
 ($db eq 'Xentr8') ?
 	return "<a class=a target='_blank' href='" .
-	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xt8_0/?" .
-	       "name=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
+	       "https://jbrowse.xenbase.org/JBrowse/?data=data/xt8_0&" .
+	       "loc=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
 ($db eq 'Xentr9') ?
 	return "<a class=a target='_blank' href='" .
-	       "http://gbrowse.xenbase.org/fgb2/gbrowse/xt9_0/?" .
-	       "name=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
+	       "https://jbrowse.xenbase.org/JBrowse/?data=data/xt9_0&" .
+	       "loc=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
+($db eq 'Xentr10.0') ?
+	return "<a class=a target='_blank' href='" .
+	       "https://jbrowse.xenbase.org/JBrowse/?data=data/xt10_0&" .
+	       "loc=$name%3A$pos..$pos_end'>$name:<br>$pos-$pos_end</a>" :
 ($db eq 'TAIR10' and $name =~ s/\s*CHROMOSOME dumped from.*// and
 	eval '$name =~ s/^chloroplast$/ChrC/ ; $name =~ s/^mitochondria$/ChrM/ ; 1') ?
 	# GBrowseにリンクするため chloroplast → ChrC, mitochondria → ChrM に置換
