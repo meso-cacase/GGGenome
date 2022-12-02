@@ -1,0 +1,4 @@
+NOTICE:
+<ul>
+	<li>Server maintenance: 2 Dec 2022, 17:00 to 4 Dec 2022, 18:00 +0900 (JST).
+</ul>
