@@ -746,7 +746,6 @@ refseq90                 	172.18.8.74	28003	RefSeq   	RefSeq complete RNA releas
 refseq200                	172.18.8.74	28835	RefSeq   	RefSeq complete RNA release 200 (May, 2020)	
 refseq205                	172.18.8.73	28886	RefSeq   	RefSeq complete RNA release 205 (Mar, 2021)	
 refseq210                	172.18.8.70	28891	RefSeq   	RefSeq complete RNA release 210 (Jan, 2022)	
-refseq214                	172.18.8.72	27494	RefSeq   	RefSeq complete RNA release 214 (Sep, 2022)	
 refseq215                	172.18.8.73	28929	RefSeq   	RefSeq complete RNA release 215 (Nov, 2022)	
 refseq216                	172.18.8.77	27496	RefSeq   	RefSeq complete RNA release 216 (Jan, 2023)	
 refseq                   	172.18.8.77	27496	RefSeq   	RefSeq complete RNA release 216 (Jan, 2023)	
