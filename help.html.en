@@ -891,7 +891,7 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 215 (Nov, 2022)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 216 (Jan, 2023)</option>
 	<option value='refseq215'                synonym="">RefSeq complete RNA release 215 (Nov, 2022)</option>
 	<option value='refseq210'                synonym="">RefSeq complete RNA release 210 (Jan, 2022)</option>
 	<option value='refseq205'                synonym="">RefSeq complete RNA release 205 (Mar, 2021)</option>
@@ -7891,7 +7891,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq215/'>refseq215</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq216/'>refseq216</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 216 (Jan, 2023)
+</tr>
+<tr>
+	<td><a href='/refseq215/'>refseq215</a>
 	<td>RefSeq
 	<td>
 	<td>
