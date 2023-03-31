@@ -1166,7 +1166,7 @@ set_strand() ;
 <ul>
 	<li>Search genes and transcripts by various keywords &rarr; Please try
 		<a target='_blank' href='https://GGRNA.dbcls.jp/'>
-			<img height=20 src='GGRNAlogo_small.png' alt='GGRNA'></a>
+			<img height=20 src='GGRNAlogo_small.png' alt='GGRNA' style='vertical-align:-4px'></a>
 		<ul>
 			<li>Example for searching 'nanog' in human:
 				<a target='_blank' href='https://GGRNA.dbcls.jp/hs/nanog' class=k><!--
