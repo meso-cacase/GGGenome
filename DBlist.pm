@@ -905,8 +905,8 @@ rn7_RefSeqCurated_spliced_d3g2202                        	172.18.8.78	28918	D3G	
 rn7_RefSeqCuratedProtCoding_prespliced_d3g2202           	172.18.8.78	28919	D3G	Rat pre-spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 22.02 (Feb, 2022)	Rattus norvegicus
 rn7_RefSeqCuratedProtCoding_spliced_d3g2202              	172.18.8.78	28920	D3G	Rat spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 22.02 (Feb, 2022)	Rattus norvegicus
 rn7_d3g2202                                              	172.18.8.78	28921	D3G	Rat genome, mRatBN7.2/rn7 (Nov, 2020)	Rattus norvegicus
-calJac4_RefSeq_prespliced_d3g2302                        	172.18.8.78	28930	D3G	Marmoset pre-spliced RNA, TRaC 22.02 on calJac4, D3G 23.02 (Feb, 2023)	Callithrix jacchus
-calJac4_RefSeq_spliced_d3g2302                           	172.18.8.78	28931	D3G	Marmoset spliced RNA, TRaC 22.02 on calJac4, D3G 23.02 (Feb, 2023)	Callithrix jacchus
+calJac4_RefSeq_prespliced_d3g2302                        	172.18.8.78	28930	D3G	Marmoset pre-spliced RNA, RefSeq on calJac4, D3G 23.02 (Feb, 2023)	Callithrix jacchus
+calJac4_RefSeq_spliced_d3g2302                           	172.18.8.78	28931	D3G	Marmoset spliced RNA, RefSeq on calJac4, D3G 23.02 (Feb, 2023)	Callithrix jacchus
 calJac4_d3g2302                                          	172.18.8.78	28932	D3G	Marmoset genome, calJac4, D3G 23.02 (Feb, 2023)	Callithrix jacchus
 hg38_RefSeqCurated_prespliced_d3g2302                    	172.18.8.78	28933	D3G	Human pre-spliced RNA, RefSeq curated on GRCh38/hg38.p14, D3G 23.02 (Feb, 2023)	Homo sapiens
 hg38_RefSeqCurated_spliced_d3g2302                       	172.18.8.78	28934	D3G	Human spliced RNA, RefSeq curated on GRCh38/hg38.p14, D3G 23.02 (Feb, 2023)	Homo sapiens
@@ -926,11 +926,11 @@ rn7_RefSeqCurated_spliced_d3g2302                        	172.18.8.78	28947	D3G	
 rn7_RefSeqCuratedProtCoding_prespliced_d3g2302           	172.18.8.78	28948	D3G	Rat pre-spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 23.02 (Feb, 2023)	Rattus norvegicus
 rn7_RefSeqCuratedProtCoding_spliced_d3g2302              	172.18.8.78	28949	D3G	Rat spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 23.02 (Feb, 2023)	Rattus norvegicus
 rn7_d3g2302                                              	172.18.8.78	28950	D3G	Rat genome, mRatBN7.2/rn7, D3G 23.02 (Feb, 2023)	Rattus norvegicus
-rheMac10_RefSeq_prespliced_d3g2302                       	172.18.8.78	28951	D3G	Rhesus pre-spliced RNA on Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)	Macaca mulatta
-rheMac10_RefSeq_spliced_d3g2302                          	172.18.8.78	28952	D3G	Rhesus spliced RNA on Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)	Macaca mulatta
+rheMac10_RefSeq_prespliced_d3g2302                       	172.18.8.78	28951	D3G	Rhesus pre-spliced RNA, RefSeq on Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)	Macaca mulatta
+rheMac10_RefSeq_spliced_d3g2302                          	172.18.8.78	28952	D3G	Rhesus spliced RNA, RefSeq on Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)	Macaca mulatta
 rheMac10_d3g2302                                         	172.18.8.78	28953	D3G	Rhesus genome, Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)	Macaca mulatta
-UM_NZW_1.0chr_RefSeq_prespliced_d3g2302                  	172.18.8.78	28954	D3G	Rabbit pre-spliced RNA on UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)	Oryctolagus cuniculus
-UM_NZW_1.0chr_RefSeq_spliced_d3g2302                     	172.18.8.78	28955	D3G	Rabbit spliced RNA on UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)	Oryctolagus cuniculus
+UM_NZW_1.0chr_RefSeq_prespliced_d3g2302                  	172.18.8.78	28954	D3G	Rabbit pre-spliced RNA, RefSeq on UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)	Oryctolagus cuniculus
+UM_NZW_1.0chr_RefSeq_spliced_d3g2302                     	172.18.8.78	28955	D3G	Rabbit spliced RNA, RefSeq on UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)	Oryctolagus cuniculus
 UM_NZW_1.0chr_d3g2302                                    	172.18.8.78	28956	D3G	Rabbit genome, UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)	Oryctolagus cuniculus
 GENCODE_26               	172.18.8.75	28726	GENCODE  	GENCODE human release 26 (Mar, 2017)	Homo sapiens
 GENCODE_27               	172.18.8.75	28727	GENCODE  	GENCODE human release 27 (Aug, 2017)	Homo sapiens
