@@ -913,8 +913,8 @@ hg38_RefSeqCurated_spliced_d3g2302                       	172.18.8.78	28934	D3G	
 hg38_RefSeqCuratedProtCoding_prespliced_d3g2302          	172.18.8.78	28935	D3G	Human pre-spliced RNA, RefSeq curated protein coding on GRCh38/hg38.p14, D3G 23.02 (Feb, 2023)	Homo sapiens
 hg38_RefSeqCuratedProtCoding_spliced_d3g2302             	172.18.8.78	28936	D3G	Human spliced RNA, RefSeq curated protein coding on GRCh38/hg38.p14, D3G 23.02 (Feb, 2023)	Homo sapiens
 hg38.p14_d3g2302                                         	172.18.8.78	28937	D3G	Human genome, GRCh38/hg38.p14, D3G 23.02 (Feb, 2023)	Homo sapiens
-macFasRKS1912v2_RefSeq_prespliced_d3g2302                	172.18.8.78	28938	D3G	Crab-eating macaque pre-spliced RNA, TRaC 22.02 on macFasRKS1912v2, D3G 23.02 (Feb, 2023)	Macaca fascicularis
-macFasRKS1912v2_RefSeq_spliced_d3g2302                   	172.18.8.78	28939	D3G	Crab-eating macaque spliced RNA, TRaC 22.02 on macFasRKS1912v2, D3G 23.02 (Feb, 2023)	Macaca fascicularis
+macFasRKS1912v2_RefSeq_prespliced_d3g2302                	172.18.8.78	28938	D3G	Crab-eating macaque pre-spliced RNA, RefSeq on macFasRKS1912v2, D3G 23.02 (Feb, 2023)	Macaca fascicularis
+macFasRKS1912v2_RefSeq_spliced_d3g2302                   	172.18.8.78	28939	D3G	Crab-eating macaque spliced RNA, RefSeq on macFasRKS1912v2, D3G 23.02 (Feb, 2023)	Macaca fascicularis
 macFasRKS1912v2_d3g2302                                  	172.18.8.78	28940	D3G	Crab-eating macaque genome, macFasRKS1912v2, D3G 23.02 (Feb, 2023)	Macaca fascicularis
 mm39_RefSeqCurated_prespliced_d3g2302                    	172.18.8.78	28941	D3G	Mouse pre-spliced RNA, RefSeq curated on GRCm39/mm39, D3G 23.02 (Feb, 2023)	Mus musculus
 mm39_RefSeqCurated_spliced_d3g2302                       	172.18.8.78	28942	D3G	Mouse spliced RNA, RefSeq curated on GRCm39/mm39, D3G 23.02 (Feb, 2023)	Mus musculus
