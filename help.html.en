@@ -1013,17 +1013,17 @@ Database:<br>&emsp;
 	<option value='rn7_RefSeqCuratedProtCoding_prespliced_d3g2302'      synonym="Rattus norvegicus">Rat pre-spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 23.02 (Feb, 2023)</option>
 	<option value='rn7_RefSeqCuratedProtCoding_spliced_d3g2302'         synonym="Rattus norvegicus">Rat spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 23.02 (Feb, 2023)</option>
 	<option value='rn7_d3g2302'                                         synonym="Rattus norvegicus">Rat genome, mRatBN7.2/rn7, D3G 23.02 (Feb, 2023)</option>
-	<option value='macFasRKS1912v2_RefSeq_prespliced_d3g2302'           synonym="Macaca fascicularis">Crab-eating macaque pre-spliced RNA, TRaC 22.02 on macFasRKS1912v2, D3G 23.02 (Feb, 2023)</option>
-	<option value='macFasRKS1912v2_RefSeq_spliced_d3g2302'              synonym="Macaca fascicularis">Crab-eating macaque spliced RNA, TRaC 22.02 on macFasRKS1912v2, D3G 23.02 (Feb, 2023)</option>
+	<option value='macFasRKS1912v2_RefSeq_prespliced_d3g2302'           synonym="Macaca fascicularis">Crab-eating macaque pre-spliced RNA, RefSeq on macFasRKS1912v2, D3G 23.02 (Feb, 2023)</option>
+	<option value='macFasRKS1912v2_RefSeq_spliced_d3g2302'              synonym="Macaca fascicularis">Crab-eating macaque spliced RNA, RefSeq on macFasRKS1912v2, D3G 23.02 (Feb, 2023)</option>
 	<option value='macFasRKS1912v2_d3g2302'                             synonym="Macaca fascicularis">Crab-eating macaque genome, macFasRKS1912v2, D3G 23.02 (Feb, 2023)</option>
-	<option value='calJac4_RefSeq_prespliced_d3g2302'                   synonym="Callithrix jacchus">Marmoset pre-spliced RNA, TRaC 22.02 on calJac4, D3G 23.02 (Feb, 2023)</option>
-	<option value='calJac4_RefSeq_spliced_d3g2302'                      synonym="Callithrix jacchus">Marmoset spliced RNA, TRaC 22.02 on calJac4, D3G 23.02 (Feb, 2023)</option>
+	<option value='calJac4_RefSeq_prespliced_d3g2302'                   synonym="Callithrix jacchus">Marmoset pre-spliced RNA, RefSeq on calJac4, D3G 23.02 (Feb, 2023)</option>
+	<option value='calJac4_RefSeq_spliced_d3g2302'                      synonym="Callithrix jacchus">Marmoset spliced RNA, RefSeq on calJac4, D3G 23.02 (Feb, 2023)</option>
 	<option value='calJac4_d3g2302'                                     synonym="Callithrix jacchus">Marmoset genome, calJac4, D3G 23.02 (Feb, 2023)</option>
-	<option value='rheMac10_RefSeq_prespliced_d3g2302'                  synonym="Macaca mulatta">Rhesus pre-spliced RNA on Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)</option>
-	<option value='rheMac10_RefSeq_spliced_d3g2302'                     synonym="Macaca mulatta">Rhesus spliced RNA on Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)</option>
+	<option value='rheMac10_RefSeq_prespliced_d3g2302'                  synonym="Macaca mulatta">Rhesus pre-spliced RNA, RefSeq on Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)</option>
+	<option value='rheMac10_RefSeq_spliced_d3g2302'                     synonym="Macaca mulatta">Rhesus spliced RNA, RefSeq on Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)</option>
 	<option value='rheMac10_d3g2302'                                    synonym="Macaca mulatta">Rhesus genome, Mmul_10/rheMac10, D3G 23.02 (Feb, 2023)</option>
-	<option value='UM_NZW_1.0chr_RefSeq_prespliced_d3g2302'             synonym="Oryctolagus cuniculus">Rabbit pre-spliced RNA on UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)</option>
-	<option value='UM_NZW_1.0chr_RefSeq_spliced_d3g2302'                synonym="Oryctolagus cuniculus">Rabbit spliced RNA on UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)</option>
+	<option value='UM_NZW_1.0chr_RefSeq_prespliced_d3g2302'             synonym="Oryctolagus cuniculus">Rabbit pre-spliced RNA, RefSeq on UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)</option>
+	<option value='UM_NZW_1.0chr_RefSeq_spliced_d3g2302'                synonym="Oryctolagus cuniculus">Rabbit spliced RNA, RefSeq on UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)</option>
 	<option value='UM_NZW_1.0chr_d3g2302'                               synonym="Oryctolagus cuniculus">Rabbit genome, UM_NZW_1.0chr, D3G 23.02 (Feb, 2023)</option>
 
 	<option disabled>--------------------</option>
@@ -9548,7 +9548,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Mar 31, 2023 by
+<p class=g>Last modified on Apr 11, 2023 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
