@@ -1008,6 +1008,36 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
+	<option value='hg38_RefSeqCurated_prespliced_d3g2403'               synonym="Homo sapiens">Human pre-spliced RNA, RefSeq curated on GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</option>
+	<option value='hg38_RefSeqCurated_spliced_d3g2403'                  synonym="Homo sapiens">Human spliced RNA, RefSeq curated on GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</option>
+	<option value='hg38_RefSeqCuratedProtCoding_prespliced_d3g2403'     synonym="Homo sapiens">Human pre-spliced RNA, RefSeq curated protein coding on GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</option>
+	<option value='hg38_RefSeqCuratedProtCoding_spliced_d3g2403'        synonym="Homo sapiens">Human spliced RNA, RefSeq curated protein coding on GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</option>
+	<option value='hg38.p14_d3g2403'                                    synonym="Homo sapiens">Human genome, GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</option>
+	<option value='mm39_RefSeqCurated_prespliced_d3g2403'               synonym="Mus musculus">Mouse pre-spliced RNA, RefSeq curated on GRCm39/mm39, D3G 24.03 (Mar, 2024)</option>
+	<option value='mm39_RefSeqCurated_spliced_d3g2403'                  synonym="Mus musculus">Mouse spliced RNA, RefSeq curated on GRCm39/mm39, D3G 24.03 (Mar, 2024)</option>
+	<option value='mm39_RefSeqCuratedProtCoding_prespliced_d3g2403'     synonym="Mus musculus">Mouse pre-spliced RNA, RefSeq curated protein coding on GRCm39/mm39, D3G 24.03 (Mar, 2024)</option>
+	<option value='mm39_RefSeqCuratedProtCoding_spliced_d3g2403'        synonym="Mus musculus">Mouse spliced RNA, RefSeq curated protein coding on GRCm39/mm39, D3G 24.03 (Mar, 2024)</option>
+	<option value='mm39_d3g2403'                                        synonym="Mus musculus">Mouse genome, GRCm39/mm39, D3G 24.03 (Mar, 2024)</option>
+	<option value='rn7_RefSeqCurated_prespliced_d3g2403'                synonym="Rattus norvegicus">Rat pre-spliced RNA, RefSeq curated on mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</option>
+	<option value='rn7_RefSeqCurated_spliced_d3g2403'                   synonym="Rattus norvegicus">Rat spliced RNA, RefSeq curated on mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</option>
+	<option value='rn7_RefSeqCuratedProtCoding_prespliced_d3g2403'      synonym="Rattus norvegicus">Rat pre-spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</option>
+	<option value='rn7_RefSeqCuratedProtCoding_spliced_d3g2403'         synonym="Rattus norvegicus">Rat spliced RNA, RefSeq curated protein coding on mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</option>
+	<option value='rn7_d3g2403'                                         synonym="Rattus norvegicus">Rat genome, mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</option>
+	<option value='macFasRKS1912v2_RefSeq_prespliced_d3g2403'           synonym="Macaca fascicularis">Crab-eating macaque pre-spliced RNA, RefSeq on macFasRKS1912v2, D3G 24.03 (Mar, 2024)</option>
+	<option value='macFasRKS1912v2_RefSeq_spliced_d3g2403'              synonym="Macaca fascicularis">Crab-eating macaque spliced RNA, RefSeq on macFasRKS1912v2, D3G 24.03 (Mar, 2024)</option>
+	<option value='macFasRKS1912v2_d3g2403'                             synonym="Macaca fascicularis">Crab-eating macaque genome, macFasRKS1912v2, D3G 24.03 (Mar, 2024)</option>
+	<option value='calJac4_RefSeq_prespliced_d3g2403'                   synonym="Callithrix jacchus">Marmoset pre-spliced RNA, RefSeq on calJac4, D3G 24.03 (Mar, 2024)</option>
+	<option value='calJac4_RefSeq_spliced_d3g2403'                      synonym="Callithrix jacchus">Marmoset spliced RNA, RefSeq on calJac4, D3G 24.03 (Mar, 2024)</option>
+	<option value='calJac4_d3g2403'                                     synonym="Callithrix jacchus">Marmoset genome, calJac4, D3G 24.03 (Mar, 2024)</option>
+	<option value='rheMac10_RefSeq_prespliced_d3g2403'                  synonym="Macaca mulatta">Rhesus pre-spliced RNA, RefSeq on Mmul_10/rheMac10, D3G 24.03 (Mar, 2024)</option>
+	<option value='rheMac10_RefSeq_spliced_d3g2403'                     synonym="Macaca mulatta">Rhesus spliced RNA, RefSeq on Mmul_10/rheMac10, D3G 24.03 (Mar, 2024)</option>
+	<option value='rheMac10_d3g2403'                                    synonym="Macaca mulatta">Rhesus genome, Mmul_10/rheMac10, D3G 24.03 (Mar, 2024)</option>
+	<option value='UM_NZW_1.0chr_RefSeq_prespliced_d3g2403'             synonym="Oryctolagus cuniculus">Rabbit pre-spliced RNA, RefSeq on UM_NZW_1.0chr, D3G 24.03 (Mar, 2024)</option>
+	<option value='UM_NZW_1.0chr_RefSeq_spliced_d3g2403'                synonym="Oryctolagus cuniculus">Rabbit spliced RNA, RefSeq on UM_NZW_1.0chr, D3G 24.03 (Mar, 2024)</option>
+	<option value='UM_NZW_1.0chr_d3g2403'                               synonym="Oryctolagus cuniculus">Rabbit genome, UM_NZW_1.0chr, D3G 24.03 (Mar, 2024)</option>
+
+	<option disabled>--------------------</option>
+
 	<option value='hg38_RefSeqCurated_prespliced_d3g2302'               synonym="Homo sapiens">Human pre-spliced RNA, RefSeq curated on GRCh38/hg38.p14, D3G 23.02 (Feb, 2023)</option>
 	<option value='hg38_RefSeqCurated_spliced_d3g2302'                  synonym="Homo sapiens">Human spliced RNA, RefSeq curated on GRCh38/hg38.p14, D3G 23.02 (Feb, 2023)</option>
 	<option value='hg38_RefSeqCuratedProtCoding_prespliced_d3g2302'     synonym="Homo sapiens">Human pre-spliced RNA, RefSeq curated protein coding on GRCh38/hg38.p14, D3G 23.02 (Feb, 2023)</option>
@@ -7784,6 +7814,69 @@ set_strand() ;
 		-->GCA_001458455.1</a>
 </tr>
 <tr>
+	<td><a href='/hg38.p14_d3g2403/'>hg38.p14_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/mm39_d3g2403/'>mm39_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->GRCm39/mm39, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/rn7_d3g2403/'>rn7_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/macFasRKS1912v2_d3g2403/'>macFasRKS1912v2_<br>d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Crab-eating macaque
+	<td>Macaca fascicularis
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->macFasRKS1912v2, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/calJac4_d3g2403/'>calJac4_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Marmoset
+	<td>Callithrix jacchus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->calJac4, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/rheMac10_d3g2403/'>rheMac10_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rhesus macaque
+	<td>Macaca mulatta
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Mmul_10/rheMac10, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/UM_NZW_1.0chr_d3g2403/'>UM_NZW_1.0chr_<br>d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rabbit
+	<td>Oryctolagus cuniculus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->UM_NZW_1.0chr, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
 	<td><a href='/hg38.p14_d3g2302/'>hg38.p14_d3g2302</a>
 	<td>D3G
 	<td>Mammal
@@ -9074,6 +9167,186 @@ set_strand() ;
 	<td>Crab-eating macaque CDS, CE_1.0 (Jul, 2011)
 </tr>
 <tr>
+	<td><a href='/hg38_RefSeqCurated_prespliced_d3g2403/'>hg38_RefSeqCurated_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Human pre-spliced RNA,<br>RefSeq curated on GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/hg38_RefSeqCurated_spliced_d3g2403/'>hg38_RefSeqCurated_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Human spliced RNA,<br>RefSeq curated on GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/hg38_RefSeqCuratedProtCoding_prespliced_d3g2403/'>hg38_RefSeqCuratedProtCoding_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Human pre-spliced RNA,<br>RefSeq curated protein coding on GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/hg38_RefSeqCuratedProtCoding_spliced_d3g2403/'>hg38_RefSeqCuratedProtCoding_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Human spliced RNA,<br>RefSeq curated protein coding on GRCh38/hg38.p14, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/mm39_RefSeqCurated_prespliced_d3g2403/'>mm39_RefSeqCurated_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Mouse pre-spliced RNA,<br>RefSeq curated on GRCm39/mm39, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/mm39_RefSeqCurated_spliced_d3g2403/'>mm39_RefSeqCurated_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Mouse spliced RNA,<br>RefSeq curated on GRCm39/mm39, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/mm39_RefSeqCuratedProtCoding_prespliced_d3g2403/'>mm39_RefSeqCuratedProtCoding_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Mouse pre-spliced RNA,<br>RefSeq curated protein coding on GRCm39/mm39, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/mm39_RefSeqCuratedProtCoding_spliced_d3g2403/'>mm39_RefSeqCuratedProtCoding_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Mouse
+	<td>Mus musculus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Mouse spliced RNA,<br>RefSeq curated protein coding on GRCm39/mm39, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/rn7_RefSeqCurated_prespliced_d3g2403/'>rn7_RefSeqCurated_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Rat pre-spliced RNA,<br>RefSeq curated on mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/rn7_RefSeqCurated_spliced_d3g2403/'>rn7_RefSeqCurated_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Rat spliced RNA,<br>RefSeq curated on mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/rn7_RefSeqCuratedProtCoding_prespliced_d3g2403/'>rn7_RefSeqCuratedProtCoding_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Rat pre-spliced RNA,<br>RefSeq curated protein coding on mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/rn7_RefSeqCuratedProtCoding_spliced_d3g2403/'>rn7_RefSeqCuratedProtCoding_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rat
+	<td>Rattus norvegicus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Rat spliced RNA,<br>RefSeq curated protein coding on mRatBN7.2/rn7, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/macFasRKS1912v2_RefSeq_prespliced_d3g2403/'>macFasRKS1912v2_RefSeq_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Crab-eating macaque
+	<td>Macaca fascicularis
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Crab-eating macaque pre-spliced RNA,<br>RefSeq on macFasRKS1912v2, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/macFasRKS1912v2_RefSeq_spliced_d3g2403/'>macFasRKS1912v2_RefSeq_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Crab-eating macaque
+	<td>Macaca fascicularis
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Crab-eating macaque spliced RNA,<br>RefSeq on macFasRKS1912v2, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/calJac4_RefSeq_prespliced_d3g2403/'>calJac4_RefSeq_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Marmoset
+	<td>Callithrix jacchus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Marmoset pre-spliced RNA,<br>RefSeq on calJac4, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/calJac4_RefSeq_spliced_d3g2403/'>calJac4_RefSeq_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Marmoset
+	<td>Callithrix jacchus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Marmoset spliced RNA,<br>RefSeq on calJac4, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/rheMac10_RefSeq_prespliced_d3g2403/'>rheMac10_RefSeq_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rhesus macaque
+	<td>Macaca mulatta
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Rhesus pre-spliced RNA,<br>RefSeq on Mmul_10/rheMac10, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/rheMac10_RefSeq_spliced_d3g2403/'>rheMac10_RefSeq_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rhesus macaque
+	<td>Macaca mulatta
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Rhesus spliced RNA,<br>RefSeq on Mmul_10/rheMac10, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/UM_NZW_1.0chr_RefSeq_prespliced_d3g2403/'>UM_NZW_1.0chr_RefSeq_<br>prespliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rabbit
+	<td>Oryctolagus cuniculus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Rabbit pre-spliced RNA,<br>RefSeq on UM_NZW_1.0chr, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
+	<td><a href='/UM_NZW_1.0chr_RefSeq_spliced_d3g2403/'>UM_NZW_1.0chr_RefSeq_<br>spliced_d3g2403</a>
+	<td>D3G
+	<td>Mammal
+	<td>Rabbit
+	<td>Oryctolagus cuniculus
+	<td><a target='_blank' href='https://d3g.riken.jp/release/24.03/'><!--
+		-->Rabbit spliced RNA,<br>RefSeq on UM_NZW_1.0chr, D3G 24.03 (Mar, 2024)</a>
+</tr>
+<tr>
 	<td><a href='/hg38_RefSeqCurated_prespliced_d3g2302/'>hg38_RefSeqCurated_<br>prespliced_d3g2302</a>
 	<td>D3G
 	<td>Mammal
@@ -9889,7 +10162,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Dec 31, 2023 by
+<p class=g>Last modified on May 4, 2024 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
