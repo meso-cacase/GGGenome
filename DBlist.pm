@@ -6,19 +6,20 @@ package DBlist ;
 # DB	host	port	source	fullname	synonym(複数の場合は;で区切る)
 #
 # ホスト一覧：
-# 172.18.8.70	ssd.dbcls.jp
-# 172.18.8.71	s01.dbcls.jp
-# 172.18.8.72	s02.dbcls.jp
-# 172.18.8.73	s03.dbcls.jp
-# 172.18.8.74	s04.dbcls.jp
-# 172.18.8.75	s05.dbcls.jp
-# 172.18.8.76	s06.dbcls.jp
-# 172.18.8.77	s07.dbcls.jp
-# 172.18.8.78	s08.dbcls.jp
-# 172.18.8.135	t1.dbcls.jp
-# 172.18.8.136	t2.dbcls.jp
-# 172.18.8.137	t3.dbcls.jp
-# 172.18.8.138	t4.dbcls.jp
+# 172.18.8.70	ssd.dbcls.local
+# 172.18.8.71	s01.dbcls.local
+# 172.18.8.72	s02.dbcls.local
+# 172.18.8.73	s03.dbcls.local
+# 172.18.8.74	s04.dbcls.local
+# 172.18.8.75	s05.dbcls.local
+# 172.18.8.76	s06.dbcls.local
+# 172.18.8.77	s07.dbcls.local
+# 172.18.8.78	s08.dbcls.local
+# 172.18.8.79	fs1.dbcls.local
+# 172.18.8.135	t1.dbcls.local
+# 172.18.8.136	t2.dbcls.local
+# 172.18.8.137	t3.dbcls.local
+# 172.18.8.138	t4.dbcls.local
 
 $dbconfig =
 <<'--EOS--' ;
