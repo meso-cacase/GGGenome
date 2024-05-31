@@ -1002,26 +1002,26 @@ $dbmenu = <<"--EOS--" ;
 	<option disabled>--------------------</option>
 
 	<option value=\'ddbj\'                     synonym=\"$db_synonym{'ddbj'                    }\">$db_fullname{'ddbj'                    }</option>
-	<option value=\'ddbj125hum\'               synonym=\"$db_synonym{'ddbj125hum'              }\">$db_fullname{'ddbj125hum'              }</option>
-	<option value=\'ddbj125pri\'               synonym=\"$db_synonym{'ddbj125pri'              }\">$db_fullname{'ddbj125pri'              }</option>
-	<option value=\'ddbj125rod\'               synonym=\"$db_synonym{'ddbj125rod'              }\">$db_fullname{'ddbj125rod'              }</option>
-	<option value=\'ddbj125mam\'               synonym=\"$db_synonym{'ddbj125mam'              }\">$db_fullname{'ddbj125mam'              }</option>
-	<option value=\'ddbj125vrt\'               synonym=\"$db_synonym{'ddbj125vrt'              }\">$db_fullname{'ddbj125vrt'              }</option>
-	<option value=\'ddbj125inv\'               synonym=\"$db_synonym{'ddbj125inv'              }\">$db_fullname{'ddbj125inv'              }</option>
-	<option value=\'ddbj125pln\'               synonym=\"$db_synonym{'ddbj125pln'              }\">$db_fullname{'ddbj125pln'              }</option>
-	<option value=\'ddbj125bct\'               synonym=\"$db_synonym{'ddbj125bct'              }\">$db_fullname{'ddbj125bct'              }</option>
-	<option value=\'ddbj125vrl\'               synonym=\"$db_synonym{'ddbj125vrl'              }\">$db_fullname{'ddbj125vrl'              }</option>
-	<option value=\'ddbj125phg\'               synonym=\"$db_synonym{'ddbj125phg'              }\">$db_fullname{'ddbj125phg'              }</option>
-	<option value=\'ddbj125pat\'               synonym=\"$db_synonym{'ddbj125pat'              }\">$db_fullname{'ddbj125pat'              }</option>
-	<option value=\'ddbj125env\'               synonym=\"$db_synonym{'ddbj125env'              }\">$db_fullname{'ddbj125env'              }</option>
-	<option value=\'ddbj125syn\'               synonym=\"$db_synonym{'ddbj125syn'              }\">$db_fullname{'ddbj125syn'              }</option>
-	<option value=\'ddbj125est\'               synonym=\"$db_synonym{'ddbj125est'              }\">$db_fullname{'ddbj125est'              }</option>
-	<option value=\'ddbj125tsa\'               synonym=\"$db_synonym{'ddbj125tsa'              }\">$db_fullname{'ddbj125tsa'              }</option>
-	<option value=\'ddbj125gss\'               synonym=\"$db_synonym{'ddbj125gss'              }\">$db_fullname{'ddbj125gss'              }</option>
-	<option value=\'ddbj125htc\'               synonym=\"$db_synonym{'ddbj125htc'              }\">$db_fullname{'ddbj125htc'              }</option>
-	<option value=\'ddbj125htg\'               synonym=\"$db_synonym{'ddbj125htg'              }\">$db_fullname{'ddbj125htg'              }</option>
-	<option value=\'ddbj125sts\'               synonym=\"$db_synonym{'ddbj125sts'              }\">$db_fullname{'ddbj125sts'              }</option>
-	<option value=\'ddbj125una\'               synonym=\"$db_synonym{'ddbj125una'              }\">$db_fullname{'ddbj125una'              }</option>
+	<option value=\'ddbj133hum\'               synonym=\"$db_synonym{'ddbj133hum'              }\">$db_fullname{'ddbj133hum'              }</option>
+	<option value=\'ddbj133pri\'               synonym=\"$db_synonym{'ddbj133pri'              }\">$db_fullname{'ddbj133pri'              }</option>
+	<option value=\'ddbj133rod\'               synonym=\"$db_synonym{'ddbj133rod'              }\">$db_fullname{'ddbj133rod'              }</option>
+	<option value=\'ddbj133mam\'               synonym=\"$db_synonym{'ddbj133mam'              }\">$db_fullname{'ddbj133mam'              }</option>
+	<option value=\'ddbj133vrt\'               synonym=\"$db_synonym{'ddbj133vrt'              }\">$db_fullname{'ddbj133vrt'              }</option>
+	<option value=\'ddbj133inv\'               synonym=\"$db_synonym{'ddbj133inv'              }\">$db_fullname{'ddbj133inv'              }</option>
+	<option value=\'ddbj133pln\'               synonym=\"$db_synonym{'ddbj133pln'              }\">$db_fullname{'ddbj133pln'              }</option>
+	<option value=\'ddbj133bct\'               synonym=\"$db_synonym{'ddbj133bct'              }\">$db_fullname{'ddbj133bct'              }</option>
+	<option value=\'ddbj133vrl\'               synonym=\"$db_synonym{'ddbj133vrl'              }\">$db_fullname{'ddbj133vrl'              }</option>
+	<option value=\'ddbj133phg\'               synonym=\"$db_synonym{'ddbj133phg'              }\">$db_fullname{'ddbj133phg'              }</option>
+	<option value=\'ddbj133pat\'               synonym=\"$db_synonym{'ddbj133pat'              }\">$db_fullname{'ddbj133pat'              }</option>
+	<option value=\'ddbj133env\'               synonym=\"$db_synonym{'ddbj133env'              }\">$db_fullname{'ddbj133env'              }</option>
+	<option value=\'ddbj133syn\'               synonym=\"$db_synonym{'ddbj133syn'              }\">$db_fullname{'ddbj133syn'              }</option>
+	<option value=\'ddbj133est\'               synonym=\"$db_synonym{'ddbj133est'              }\">$db_fullname{'ddbj133est'              }</option>
+	<option value=\'ddbj133tsa\'               synonym=\"$db_synonym{'ddbj133tsa'              }\">$db_fullname{'ddbj133tsa'              }</option>
+	<option value=\'ddbj133gss\'               synonym=\"$db_synonym{'ddbj133gss'              }\">$db_fullname{'ddbj133gss'              }</option>
+	<option value=\'ddbj133htc\'               synonym=\"$db_synonym{'ddbj133htc'              }\">$db_fullname{'ddbj133htc'              }</option>
+	<option value=\'ddbj133htg\'               synonym=\"$db_synonym{'ddbj133htg'              }\">$db_fullname{'ddbj133htg'              }</option>
+	<option value=\'ddbj133sts\'               synonym=\"$db_synonym{'ddbj133sts'              }\">$db_fullname{'ddbj133sts'              }</option>
+	<option value=\'ddbj133una\'               synonym=\"$db_synonym{'ddbj133una'              }\">$db_fullname{'ddbj133una'              }</option>
 
 	<option disabled>--------------------</option>
 

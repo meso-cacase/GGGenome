@@ -1158,27 +1158,27 @@ function set_strand(){
 
 	<option disabled>--------------------</option>
 
-	<option value='ddbj'                     synonym="">DDBJ release 125.0 (Dec, 2021)</option>
-	<option value='ddbj125hum'               synonym="ddbjhum">DDBJ release 125.0, HUM division (Dec, 2021)</option>
-	<option value='ddbj125pri'               synonym="ddbjpri">DDBJ release 125.0, PRI division (Dec, 2021)</option>
-	<option value='ddbj125rod'               synonym="ddbjrod">DDBJ release 125.0, ROD division (Dec, 2021)</option>
-	<option value='ddbj125mam'               synonym="ddbjmam">DDBJ release 125.0, MAM division (Dec, 2021)</option>
-	<option value='ddbj125vrt'               synonym="ddbjvrt">DDBJ release 125.0, VRT division (Dec, 2021)</option>
-	<option value='ddbj125inv'               synonym="ddbjinv">DDBJ release 125.0, INV division (Dec, 2021)</option>
-	<option value='ddbj125pln'               synonym="ddbjpln">DDBJ release 125.0, PLN division (Dec, 2021)</option>
-	<option value='ddbj125bct'               synonym="ddbjbct">DDBJ release 125.0, BCT division (Dec, 2021)</option>
-	<option value='ddbj125vrl'               synonym="ddbjvrl">DDBJ release 125.0, VRL division (Dec, 2021)</option>
-	<option value='ddbj125phg'               synonym="ddbjphg">DDBJ release 125.0, PHG division (Dec, 2021)</option>
-	<option value='ddbj125pat'               synonym="ddbjpat">DDBJ release 125.0, PAT division (Dec, 2021)</option>
-	<option value='ddbj125env'               synonym="ddbjenv">DDBJ release 125.0, ENV division (Dec, 2021)</option>
-	<option value='ddbj125syn'               synonym="ddbjsyn">DDBJ release 125.0, SYN division (Dec, 2021)</option>
-	<option value='ddbj125est'               synonym="ddbjest">DDBJ release 125.0, EST division (Dec, 2021)</option>
-	<option value='ddbj125tsa'               synonym="ddbjtsa">DDBJ release 125.0, TSA division (Dec, 2021)</option>
-	<option value='ddbj125gss'               synonym="ddbjgss">DDBJ release 125.0, GSS division (Dec, 2021)</option>
-	<option value='ddbj125htc'               synonym="ddbjhtc">DDBJ release 125.0, HTC division (Dec, 2021)</option>
-	<option value='ddbj125htg'               synonym="ddbjhtg">DDBJ release 125.0, HTG division (Dec, 2021)</option>
-	<option value='ddbj125sts'               synonym="ddbjsts">DDBJ release 125.0, STS division (Dec, 2021)</option>
-	<option value='ddbj125una'               synonym="ddbjuna">DDBJ release 125.0, UNA division (Dec, 2021)</option>
+	<option value='ddbj'                     synonym="">DDBJ release 133.0 (Dec, 2023)</option>
+	<option value='ddbj133hum'               synonym="ddbjhum">DDBJ release 133.0, HUM division (Dec, 2023)</option>
+	<option value='ddbj133pri'               synonym="ddbjpri">DDBJ release 133.0, PRI division (Dec, 2023)</option>
+	<option value='ddbj133rod'               synonym="ddbjrod">DDBJ release 133.0, ROD division (Dec, 2023)</option>
+	<option value='ddbj133mam'               synonym="ddbjmam">DDBJ release 133.0, MAM division (Dec, 2023)</option>
+	<option value='ddbj133vrt'               synonym="ddbjvrt">DDBJ release 133.0, VRT division (Dec, 2023)</option>
+	<option value='ddbj133inv'               synonym="ddbjinv">DDBJ release 133.0, INV division (Dec, 2023)</option>
+	<option value='ddbj133pln'               synonym="ddbjpln">DDBJ release 133.0, PLN division (Dec, 2023)</option>
+	<option value='ddbj133bct'               synonym="ddbjbct">DDBJ release 133.0, BCT division (Dec, 2023)</option>
+	<option value='ddbj133vrl'               synonym="ddbjvrl">DDBJ release 133.0, VRL division (Dec, 2023)</option>
+	<option value='ddbj133phg'               synonym="ddbjphg">DDBJ release 133.0, PHG division (Dec, 2023)</option>
+	<option value='ddbj133pat'               synonym="ddbjpat">DDBJ release 133.0, PAT division (Dec, 2023)</option>
+	<option value='ddbj133env'               synonym="ddbjenv">DDBJ release 133.0, ENV division (Dec, 2023)</option>
+	<option value='ddbj133syn'               synonym="ddbjsyn">DDBJ release 133.0, SYN division (Dec, 2023)</option>
+	<option value='ddbj133est'               synonym="ddbjest">DDBJ release 133.0, EST division (Dec, 2023)</option>
+	<option value='ddbj133tsa'               synonym="ddbjtsa">DDBJ release 133.0, TSA division (Dec, 2023)</option>
+	<option value='ddbj133gss'               synonym="ddbjgss">DDBJ release 133.0, GSS division (Dec, 2023)</option>
+	<option value='ddbj133htc'               synonym="ddbjhtc">DDBJ release 133.0, HTC division (Dec, 2023)</option>
+	<option value='ddbj133htg'               synonym="ddbjhtg">DDBJ release 133.0, HTG division (Dec, 2023)</option>
+	<option value='ddbj133sts'               synonym="ddbjsts">DDBJ release 133.0, STS division (Dec, 2023)</option>
+	<option value='ddbj133una'               synonym="ddbjuna">DDBJ release 133.0, UNA division (Dec, 2023)</option>
 
 	<option disabled>--------------------</option>
 
@@ -9781,194 +9781,194 @@ set_strand() ;
 		-->GENCODE mouse release M13 (Mar, 2017)</a>
 </tr>
 <tr>
-	<td><a href='/ddbj/'>ddbj</a> (alias of latest release)<br><a href='/ddbj125/'>ddbj125</a>
+	<td><a href='/ddbj/'>ddbj</a> (alias of latest release)<br><a href='/ddbj133/'>ddbj133</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td><a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/release_note_archive/ddbj/ddbjrel.125.txt'><!--
-		-->DDBJ release 125.0 (Dec, 2021)</a><br>(all divisions, excluding bulk sequence data in TLS, TSA, WGS)
+	<td><a target='_blank' href='ftp://ftp.ddbj.nig.ac.jp/ddbj_database/release_note_archive/ddbj/ddbjrel.133.txt'><!--
+		-->DDBJ release 133.0 (Dec, 2023)</a><br>(all divisions, excluding bulk sequence data in TLS, TSA, WGS)
 </tr>
 <tr>
-	<td><a href='/ddbj125hum/'>ddbj125hum</a>
+	<td><a href='/ddbj133hum/'>ddbj133hum</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, HUM division (Dec, 2021)
+	<td>DDBJ release 133.0, HUM division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125pri/'>ddbj125pri</a>
+	<td><a href='/ddbj133pri/'>ddbj133pri</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, PRI division (Dec, 2021)
+	<td>DDBJ release 133.0, PRI division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125rod/'>ddbj125rod</a>
+	<td><a href='/ddbj133rod/'>ddbj133rod</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, ROD division (Dec, 2021)
+	<td>DDBJ release 133.0, ROD division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125mam/'>ddbj125mam</a>
+	<td><a href='/ddbj133mam/'>ddbj133mam</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, MAM division (Dec, 2021)
+	<td>DDBJ release 133.0, MAM division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125vrt/'>ddbj125vrt</a>
+	<td><a href='/ddbj133vrt/'>ddbj133vrt</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, VRT division (Dec, 2021)
+	<td>DDBJ release 133.0, VRT division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125inv/'>ddbj125inv</a>
+	<td><a href='/ddbj133inv/'>ddbj133inv</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, INV division (Dec, 2021)
+	<td>DDBJ release 133.0, INV division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125pln/'>ddbj125pln</a>
+	<td><a href='/ddbj133pln/'>ddbj133pln</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, PLN division (Dec, 2021)
+	<td>DDBJ release 133.0, PLN division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125bct/'>ddbj125bct</a>
+	<td><a href='/ddbj133bct/'>ddbj133bct</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, BCT division (Dec, 2021)
+	<td>DDBJ release 133.0, BCT division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125vrl/'>ddbj125vrl</a>
+	<td><a href='/ddbj133vrl/'>ddbj133vrl</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, VRL division (Dec, 2021)
+	<td>DDBJ release 133.0, VRL division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125phg/'>ddbj125phg</a>
+	<td><a href='/ddbj133phg/'>ddbj133phg</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, PHG division (Dec, 2021)
+	<td>DDBJ release 133.0, PHG division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125pat/'>ddbj125pat</a>
+	<td><a href='/ddbj133pat/'>ddbj133pat</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, PAT division (Dec, 2021)
+	<td>DDBJ release 133.0, PAT division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125env/'>ddbj125env</a>
+	<td><a href='/ddbj133env/'>ddbj133env</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, ENV division (Dec, 2021)
+	<td>DDBJ release 133.0, ENV division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125syn/'>ddbj125syn</a>
+	<td><a href='/ddbj133syn/'>ddbj133syn</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, SYN division (Dec, 2021)
+	<td>DDBJ release 133.0, SYN division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125est/'>ddbj125est</a>
+	<td><a href='/ddbj133est/'>ddbj133est</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, EST division (Dec, 2021)
+	<td>DDBJ release 133.0, EST division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125tsa/'>ddbj125tsa</a>
+	<td><a href='/ddbj133tsa/'>ddbj133tsa</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, TSA division (Dec, 2021)
+	<td>DDBJ release 133.0, TSA division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125gss/'>ddbj125gss</a>
+	<td><a href='/ddbj133gss/'>ddbj133gss</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, GSS division (Dec, 2021)
+	<td>DDBJ release 133.0, GSS division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125htc/'>ddbj125htc</a>
+	<td><a href='/ddbj133htc/'>ddbj133htc</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, HTC division (Dec, 2021)
+	<td>DDBJ release 133.0, HTC division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125htg/'>ddbj125htg</a>
+	<td><a href='/ddbj133htg/'>ddbj133htg</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, HTG division (Dec, 2021)
+	<td>DDBJ release 133.0, HTG division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125sts/'>ddbj125sts</a>
+	<td><a href='/ddbj133sts/'>ddbj133sts</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, STS division (Dec, 2021)
+	<td>DDBJ release 133.0, STS division (Dec, 2023)
 </tr>
 <tr>
-	<td><a href='/ddbj125una/'>ddbj125una</a>
+	<td><a href='/ddbj133una/'>ddbj133una</a>
 	<td>DDBJ
 	<td>
 	<td>
 	<td>
 	<td>
-	<td>DDBJ release 125.0, UNA division (Dec, 2021)
+	<td>DDBJ release 133.0, UNA division (Dec, 2023)
 </tr>
 <tr>
 	<td><a href='/ddbj92/'>ddbj92</a>
@@ -11185,7 +11185,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on May 4, 2024 by
+<p class=g>Last modified on May 31, 2024 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
