@@ -166,6 +166,7 @@ Database:<br>&emsp;
 	<option value='hg38'                     synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
 	<option value='hg19' selected                     synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
 	<option value='hg18'                     synonym="Homo sapiens">Human genome, NCBI36/hg18 (Mar, 2006)</option>
+	<option value='T2T-CHM13v2.0'            synonym="Homo sapiens">Human genome, T2T-CHM13v2.0 (Jan, 2022)</option>
 	<option value='JG1'                      synonym="Homo sapiens">Human Japanese Reference Genome, JG1 (JG1.0.0beta) (Feb, 2019)</option>
 	<option value='JRGv2'                    synonym="Homo sapiens">Human Japanese Reference Genome, JRGv2 (Jun, 2017)</option>
 	<option value='decoyJRGv2'               synonym="Homo sapiens">Decoy sequence of the Human Japanese Reference Genome, decoyJRGv2 (Jun, 2017)</option>
@@ -4266,6 +4267,15 @@ set_strand() ;
 	<td>Oxytricha trifallax
 	<td><a target='_blank' href='http://oxy.ciliate.org/system/downloads/Oxytricha_trifallax_micronuclear_assembly.fasta'><!--
 		-->Oxytricha trifallax micronuclear genome</a>
+</tr>
+<tr>
+	<td><a href='/T2T-CHM13v2.0/'>T2T-CHM13v2.0</a>
+	<td>
+	<td>Mammal
+	<td>Human
+	<td>Homo sapiens
+	<td><a target='_blank' href='https://github.com/marbl/CHM13'><!--
+		-->T2T-CHM13v2.0 (Jan, 2022)</a>
 </tr>
 <tr>
 	<td><a href='/JG1/'>JG1</a>

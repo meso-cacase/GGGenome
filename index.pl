@@ -1261,6 +1261,10 @@ my $db      = $_[3] // '' ;
 	return "<a class=a target='_blank' href='" .
 	       "https://jmorp.megabank.tohoku.ac.jp/201902/sequence/jbrowse/?" .
 	       "data=data-jg1&loc=$name%3A$pos..$pos_end&tracks=DNA'>$name:$pos-$pos_end</a>" :
+($db eq 'T2T-CHM13v2.0' and $name =~ /^(\S+)/) ?
+	return "<a class=a target='_blank' href='" .
+	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
+	       "db=hs1&position=$1%3A$pos-$pos_end'>$1:$pos-$pos_end</a>" :
 # それ以外の場合
 	return "$name<br>\n\t" .
 	       "position: $pos-$pos_end\n" ;
