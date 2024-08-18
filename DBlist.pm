@@ -1001,28 +1001,28 @@ miRBase22mat             	172.18.8.72	28736	miRBase  	miRBase release 22, mature
 togogenome211            	172.18.8.71	27910	         	TogoGenome from RefSeq 211 (Mar, 2022)	
 togogenome               	172.18.8.71	27910	         	TogoGenome from RefSeq 211 (Mar, 2022)	
 ddbj92                   	172.18.8.76	42313	DDBJ     	DDBJ release 92.0 (Feb, 2013)	
-ddbj133                  	172.18.8.135	50300	DDBJ     	DDBJ release 133.0 (Dec, 2023)	
-ddbj                     	172.18.8.135	50300	DDBJ     	DDBJ release 133.0 (Dec, 2023)	
-ddbj133hum               	172.18.8.135	50301	DDBJ     	DDBJ release 133.0, HUM division (Dec, 2023)	ddbjhum
-ddbj133pri               	172.18.8.138	50302	DDBJ     	DDBJ release 133.0, PRI division (Dec, 2023)	ddbjpri
-ddbj133rod               	172.18.8.136	50303	DDBJ     	DDBJ release 133.0, ROD division (Dec, 2023)	ddbjrod
-ddbj133mam               	172.18.8.138	50304	DDBJ     	DDBJ release 133.0, MAM division (Dec, 2023)	ddbjmam
-ddbj133vrt               	172.18.8.135	50305	DDBJ     	DDBJ release 133.0, VRT division (Dec, 2023)	ddbjvrt
-ddbj133inv               	172.18.8.135	50306	DDBJ     	DDBJ release 133.0, INV division (Dec, 2023)	ddbjinv
-ddbj133pln               	172.18.8.135	50307	DDBJ     	DDBJ release 133.0, PLN division (Dec, 2023)	ddbjpln
-ddbj133bct               	172.18.8.135	50308	DDBJ     	DDBJ release 133.0, BCT division (Dec, 2023)	ddbjbct
-ddbj133vrl               	172.18.8.135	50309	DDBJ     	DDBJ release 133.0, VRL division (Dec, 2023)	ddbjvrl
-ddbj133phg               	172.18.8.135	50310	DDBJ     	DDBJ release 133.0, PHG division (Dec, 2023)	ddbjphg
-ddbj133pat               	172.18.8.135	50311	DDBJ     	DDBJ release 133.0, PAT division (Dec, 2023)	ddbjpat
-ddbj133env               	172.18.8.136	50312	DDBJ     	DDBJ release 133.0, ENV division (Dec, 2023)	ddbjenv
-ddbj133syn               	172.18.8.137	50313	DDBJ     	DDBJ release 133.0, SYN division (Dec, 2023)	ddbjsyn
-ddbj133est               	172.18.8.137	50314	DDBJ     	DDBJ release 133.0, EST division (Dec, 2023)	ddbjest
-ddbj133tsa               	172.18.8.138	50315	DDBJ     	DDBJ release 133.0, TSA division (Dec, 2023)	ddbjtsa
-ddbj133gss               	172.18.8.136	50316	DDBJ     	DDBJ release 133.0, GSS division (Dec, 2023)	ddbjgss
-ddbj133htc               	172.18.8.137	50317	DDBJ     	DDBJ release 133.0, HTC division (Dec, 2023)	ddbjhtc
-ddbj133htg               	172.18.8.137	50318	DDBJ     	DDBJ release 133.0, HTG division (Dec, 2023)	ddbjhtg
-ddbj133sts               	172.18.8.136	50319	DDBJ     	DDBJ release 133.0, STS division (Dec, 2023)	ddbjsts
-ddbj133una               	172.18.8.138	50320	DDBJ     	DDBJ release 133.0, UNA division (Dec, 2023)	ddbjuna
+ddbj134                  	172.18.8.135	50400	DDBJ     	DDBJ release 134.0 (Mar, 2024)	
+ddbj                     	172.18.8.135	50400	DDBJ     	DDBJ release 134.0 (Mar, 2024)	
+ddbj134hum               	172.18.8.135	50401	DDBJ     	DDBJ release 134.0, HUM division (Mar, 2024)	ddbjhum
+ddbj134pri               	172.18.8.138	50402	DDBJ     	DDBJ release 134.0, PRI division (Mar, 2024)	ddbjpri
+ddbj134rod               	172.18.8.136	50403	DDBJ     	DDBJ release 134.0, ROD division (Mar, 2024)	ddbjrod
+ddbj134mam               	172.18.8.138	50404	DDBJ     	DDBJ release 134.0, MAM division (Mar, 2024)	ddbjmam
+ddbj134vrt               	172.18.8.135	50405	DDBJ     	DDBJ release 134.0, VRT division (Mar, 2024)	ddbjvrt
+ddbj134inv               	172.18.8.135	50406	DDBJ     	DDBJ release 134.0, INV division (Mar, 2024)	ddbjinv
+ddbj134pln               	172.18.8.135	50407	DDBJ     	DDBJ release 134.0, PLN division (Mar, 2024)	ddbjpln
+ddbj134bct               	172.18.8.135	50408	DDBJ     	DDBJ release 134.0, BCT division (Mar, 2024)	ddbjbct
+ddbj134vrl               	172.18.8.135	50409	DDBJ     	DDBJ release 134.0, VRL division (Mar, 2024)	ddbjvrl
+ddbj134phg               	172.18.8.135	50410	DDBJ     	DDBJ release 134.0, PHG division (Mar, 2024)	ddbjphg
+ddbj134pat               	172.18.8.135	50411	DDBJ     	DDBJ release 134.0, PAT division (Mar, 2024)	ddbjpat
+ddbj134env               	172.18.8.136	50412	DDBJ     	DDBJ release 134.0, ENV division (Mar, 2024)	ddbjenv
+ddbj134syn               	172.18.8.137	50413	DDBJ     	DDBJ release 134.0, SYN division (Mar, 2024)	ddbjsyn
+ddbj134est               	172.18.8.137	50414	DDBJ     	DDBJ release 134.0, EST division (Mar, 2024)	ddbjest
+ddbj134tsa               	172.18.8.138	50415	DDBJ     	DDBJ release 134.0, TSA division (Mar, 2024)	ddbjtsa
+ddbj134gss               	172.18.8.136	50416	DDBJ     	DDBJ release 134.0, GSS division (Mar, 2024)	ddbjgss
+ddbj134htc               	172.18.8.137	50417	DDBJ     	DDBJ release 134.0, HTC division (Mar, 2024)	ddbjhtc
+ddbj134htg               	172.18.8.137	50418	DDBJ     	DDBJ release 134.0, HTG division (Mar, 2024)	ddbjhtg
+ddbj134sts               	172.18.8.136	50419	DDBJ     	DDBJ release 134.0, STS division (Mar, 2024)	ddbjsts
+ddbj134una               	172.18.8.138	50420	DDBJ     	DDBJ release 134.0, UNA division (Mar, 2024)	ddbjuna
 SARS-CoV-2-20200317      	172.18.8.70	55001	         	SARS-CoV-2 complete genomes, GenBank 2020/3/17	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200324      	172.18.8.70	55002	         	SARS-CoV-2 complete genomes, GenBank 2020/3/24	Severe acute respiratory syndrome coronavirus 2;COVID-19
 SARS-CoV-2-20200327      	172.18.8.70	55003	         	SARS-CoV-2 complete genomes, GenBank 2020/3/27	Severe acute respiratory syndrome coronavirus 2;COVID-19
