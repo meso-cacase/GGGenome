@@ -132,6 +132,7 @@ $db = lc(                             # 生物種 (データベース)
 	$db          //                   # 2) QUERY_STRING未指定 → URIから
 	'') ;                             # 3) URI未指定 → 空欄
 grep {$db =~ s/^$_$/$_/i} keys(%db_fullname) ;  # DBの大文字小文字を正規化
+$db = 'hg38' if $query_string and not $db ;     # 検索結果の表示ではDBを省略しない
 
 $k =                                  # 許容するミスマッチ/ギャップの数
 	(defined $query{'k'} and $query{'k'} =~ /^\d+$/) ?
