@@ -1106,7 +1106,7 @@ my $db      = $_[3] // '' ;
 
 (grep {$source{$db} eq 'UCSC'} keys(%source)) ?
 	return "<a class=a target='_blank' href='" .
-	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
+	       "https://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=$db&position=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
 (grep {$source{$db} eq 'Phytozome'} keys(%source) and
 	eval '$db eq "Dcarota_v2.0" and $name =~ s/\s*\[.*// ; 1') ?
@@ -1143,11 +1143,11 @@ my $db      = $_[3] // '' ;
 	       "name=$name%3A$pos..$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'ASM15162v1' and $name =~ s/\s.*//) ?
 	return "<a class=a target='_blank' href='" .
-	       "http://metazoa.ensembl.org/Bombyx_mori/Location/View?" .
+	       "https://metazoa.ensembl.org/Bombyx_mori/Location/View?" .
 	       "r=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'Tcas3' and $name =~ s/\s.*//) ?
 	return "<a class=a target='_blank' href='" .
-	       "http://metazoa.ensembl.org/Tribolium_castaneum/Location/View?" .
+	       "https://metazoa.ensembl.org/Tribolium_castaneum/Location/View?" .
 	       "r=$name%3A$pos-$pos_end'>$name:$pos-$pos_end</a>" :
 ($db eq 'Xenla7') ?
 	return "<a class=a target='_blank' href='" .
@@ -1249,7 +1249,7 @@ my $db      = $_[3] // '' ;
 	       "<font color='#0E774A'>$1</font>:$pos-$pos_end" :
 ($db =~ /^GENCODE/ and $name =~ /^(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)$/) ?
 	return "<a class=a target='_blank' href=" .
-	       "http://www.ensembl.org/Multi/Search/Results?q=$1>$5</a> <font color=silver>|</font> " .
+	       "https://www.ensembl.org/Multi/Search/Results?q=$1>$5</a> <font color=silver>|</font> " .
 	       "transcript <font color=silver>|</font> $8<br>\n\t" .
 	       "<font color='#0E774A'>$1</font> <font color=silver>|</font> " .
 	       "<font color='#7F3737'>$4</font><br>\n\t" .
@@ -1264,7 +1264,7 @@ my $db      = $_[3] // '' ;
 	       "data=data-jg1&loc=$name%3A$pos..$pos_end&tracks=DNA'>$name:$pos-$pos_end</a>" :
 ($db eq 'T2T-CHM13v2.0' and $name =~ /^(\S+)/) ?
 	return "<a class=a target='_blank' href='" .
-	       "http://genome.ucsc.edu/cgi-bin/hgTracks?" .
+	       "https://genome.ucsc.edu/cgi-bin/hgTracks?" .
 	       "db=hs1&position=$1%3A$pos-$pos_end'>$1:$pos-$pos_end</a>" :
 # それ以外の場合
 	return "$name<br>\n\t" .

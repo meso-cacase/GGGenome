@@ -45,9 +45,9 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
 + *`db`* : 塩基配列データベース  
   `hg38`   - ヒトゲノム [GRCh38/hg38 (Dec, 2013)](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/)
              (省略時のデフォルト)  
-  `mm10`   - マウスゲノム [GRCm38/mm10 (Dec, 2011)](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
-  `dm3`    - ショウジョウバエゲノム [BDGP R5/dm3 (Apr, 2006)](http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
-  `ce10`   - 線虫ゲノム [WS220/ce10 (Oct, 2010)](http://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
+  `mm10`   - マウスゲノム [GRCm38/mm10 (Dec, 2011)](https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
+  `dm3`    - ショウジョウバエゲノム [BDGP R5/dm3 (Apr, 2006)](https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  
+  `ce10`   - 線虫ゲノム [WS220/ce10 (Oct, 2010)](https://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/)  
   `TAIR10` - シロイヌナズナゲノム [TAIR10 (Nov, 2010)](ftp://ftp.arabidopsis.org/home/tair/Sequences/whole_chromosomes/)  
   `pombe`  - 分裂酵母ゲノム [ASM294v2 (Nov, 2007)](ftp://ftp.ensemblgenomes.org/pub/fungi/current/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.23.dna.genome.fa.gz)  
   `refseq` - [RefSeq complete RNA (最新版)](ftp://ftp.ncbi.nlm.nih.gov/refseq/release/complete/)  

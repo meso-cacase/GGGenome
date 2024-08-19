@@ -1350,7 +1350,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg38'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=hg38'><!--
 		-->GRCh38/hg38 (Dec, 2013)</a>
 </tr>
 <tr>
@@ -1360,7 +1360,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg19'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=hg19'><!--
 		-->GRCh37/hg19 (Feb, 2009)</a>
 </tr>
 <tr>
@@ -1370,7 +1370,7 @@ set_strand() ;
 	<td>Human
 	<td>ヒト
 	<td>Homo sapiens
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg18'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=hg18'><!--
 		-->NCBI36/hg18 (Mar, 2006)</a>
 </tr>
 <tr>
@@ -1380,7 +1380,7 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm39'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=mm39'><!--
 		-->GRCm39/mm39 (Jun, 2020)</a>
 </tr>
 <tr>
@@ -1390,7 +1390,7 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm10'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=mm10'><!--
 		-->GRCm38/mm10 (Dec, 2011)</a>
 </tr>
 <tr>
@@ -1400,7 +1400,7 @@ set_strand() ;
 	<td>Mouse
 	<td>マウス
 	<td>Mus musculus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm9'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=mm9'><!--
 		-->NCBI37/mm9 (Jul, 2007)</a>
 </tr>
 <tr>
@@ -1410,7 +1410,7 @@ set_strand() ;
 	<td>Rat
 	<td>ラット
 	<td>Rattus norvegicus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rn6'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=rn6'><!--
 		-->RGSC 6.0/rn6 (Jul, 2014)</a>
 </tr>
 <tr>
@@ -1420,7 +1420,7 @@ set_strand() ;
 	<td>Rat
 	<td>ラット
 	<td>Rattus norvegicus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rn5'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=rn5'><!--
 		-->RGSC 5.0/rn5 (Mar, 2012)</a>
 </tr>
 <tr>
@@ -1430,7 +1430,7 @@ set_strand() ;
 	<td>Alpaca
 	<td>アルパカ
 	<td>Vicugna pacos
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=vicPac2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=vicPac2'><!--
 		-->Vicugna_pacos-2.0.1/vicPac2 (Mar, 2013)</a>
 </tr>
 <tr>
@@ -1440,7 +1440,7 @@ set_strand() ;
 	<td>Armadillo
 	<td>アルマジロ
 	<td>Dasypus novemcinctus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dasNov3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=dasNov3'><!--
 		-->Baylor/dasNov3 (Dec, 2011)</a>
 </tr>
 <tr>
@@ -1450,7 +1450,7 @@ set_strand() ;
 	<td>Baboon
 	<td>ヒヒ
 	<td>Papio anubis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=papAnu2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=papAnu2'><!--
 		-->Baylor Panu_2.0/papAnu2 (Mar, 2012)</a>
 </tr>
 <tr>
@@ -1460,7 +1460,7 @@ set_strand() ;
 	<td>American bison
 	<td>アメリカバイソン
 	<td>Bison bison
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=bisBis1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=bisBis1'><!--
 		-->Bison_UMD1.0/bisBis1 (Oct, 2014)</a>
 </tr>
 <tr>
@@ -1470,7 +1470,7 @@ set_strand() ;
 	<td>Bonobo
 	<td>ボノボ
 	<td>Pan paniscus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=panPan2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=panPan2'><!--
 		-->MPI-EVA panpan1.1/panPan2 (Aug, 2015)</a>
 </tr>
 <tr>
@@ -1480,7 +1480,7 @@ set_strand() ;
 	<td>Bushbaby
 	<td>オオガラゴの一種
 	<td>Otolemur garnettii
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=otoGar3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=otoGar3'><!--
 		-->Broad/otoGar3 (Mar, 2011)</a>
 </tr>
 <tr>
@@ -1490,7 +1490,7 @@ set_strand() ;
 	<td>Cat
 	<td>ネコ
 	<td>Felis catus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=felCat8'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=felCat8'><!--
 		-->ICGSC Felis_catus_8.0/felCat8 (Nov, 2014)</a>
 </tr>
 <tr>
@@ -1500,7 +1500,7 @@ set_strand() ;
 	<td>Cat
 	<td>ネコ
 	<td>Felis catus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=felCat5'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=felCat5'><!--
 		-->ICGSC Felis_catus 6.2/felCat5 (Sep, 2011)</a>
 </tr>
 <tr>
@@ -1510,7 +1510,7 @@ set_strand() ;
 	<td>Chimpanzee
 	<td>チンパンジー
 	<td>Pan troglodytes
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=panTro5'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=panTro5'><!--
 		-->Pan_tro 3.0/panTro5 (May, 2016)</a>
 </tr>
 <tr>
@@ -1520,7 +1520,7 @@ set_strand() ;
 	<td>Chimpanzee
 	<td>チンパンジー
 	<td>Pan troglodytes
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=panTro4'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=panTro4'><!--
 		-->CSAC 2.1.4/panTro4 (Feb, 2011)</a>
 </tr>
 <tr>
@@ -1530,7 +1530,7 @@ set_strand() ;
 	<td>Chinese hamster
 	<td>チャイニーズハムスター
 	<td>Cricetulus griseus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=criGri1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=criGri1'><!--
 		-->C_griseus_v1.0/criGri1 (Jul, 2013)</a>
 </tr>
 <tr>
@@ -1540,7 +1540,7 @@ set_strand() ;
 	<td>Chinese pangolin
 	<td>ミミセンザンコウ
 	<td>Manis pentadactyla
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=manPen1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=manPen1'><!--
 		-->M_pentadactyla-1.1.1/manPen1 (Aug, 2014)</a>
 </tr>
 <tr>
@@ -1550,7 +1550,7 @@ set_strand() ;
 	<td>Cow
 	<td>ウシ
 	<td>Bos taurus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=bosTau8'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=bosTau8'><!--
 		-->Bos_taurus_UMD_3.1.1/bosTau8 (Jun, 2014)</a>
 </tr>
 <tr>
@@ -1560,7 +1560,7 @@ set_strand() ;
 	<td>Cow
 	<td>ウシ
 	<td>Bos taurus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=bosTau7'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=bosTau7'><!--
 		-->Btau_4.6.1/bosTau7 (Oct, 2011)</a>
 </tr>
 <tr>
@@ -1570,7 +1570,7 @@ set_strand() ;
 	<td>Crab-eating macaque
 	<td>カニクイザル
 	<td>Macaca fascicularis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=macFas5'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=macFas5'><!--
 		-->Macaca_fascicularis_5.0/macFas5 (Jun, 2013)</a>
 </tr>
 <tr>
@@ -1580,7 +1580,7 @@ set_strand() ;
 	<td>Dog
 	<td>イヌ
 	<td>Canis familiaris
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=canFam3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=canFam3'><!--
 		-->Broad CanFam3.1/canFam3 (Sep, 2011)</a>
 </tr>
 <tr>
@@ -1590,7 +1590,7 @@ set_strand() ;
 	<td>Dolphin
 	<td>イルカ
 	<td>Tursiops truncatus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=turTru2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=turTru2'><!--
 		-->Baylor Ttru_1.4/turTru2 (Oct, 2011)</a>
 </tr>
 <tr>
@@ -1600,7 +1600,7 @@ set_strand() ;
 	<td>Elephant
 	<td>ゾウ
 	<td>Loxodonta africana
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=loxAfr3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=loxAfr3'><!--
 		-->Broad/loxAfr3 (Jul, 2009)</a>
 </tr>
 <tr>
@@ -1610,7 +1610,7 @@ set_strand() ;
 	<td>Ferret
 	<td>フェレット
 	<td>Mustela putorius furo
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=musFur1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=musFur1'><!--
 		-->MusPutFur1.0/musFur1 (Apr, 2011)</a>
 </tr>
 <tr>
@@ -1620,7 +1620,7 @@ set_strand() ;
 	<td>Gibbon
 	<td>テナガザル
 	<td>Nomascus leucogenys
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=nomLeu3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=nomLeu3'><!--
 		-->GGSC Nleu3.0/nomLeu3 (Oct, 2012)</a>
 </tr>
 <tr>
@@ -1630,7 +1630,7 @@ set_strand() ;
 	<td>Golden snub-nosed monkey
 	<td>キンシコウ
 	<td>Rhinopithecus roxellana
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rhiRox1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=rhiRox1'><!--
 		-->Rrox_v1/rhiRox1 (Oct, 2014)</a>
 </tr>
 <tr>
@@ -1640,7 +1640,7 @@ set_strand() ;
 	<td>Gorilla
 	<td>ゴリラ
 	<td>Gorilla gorilla gorilla
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gorGor5'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=gorGor5'><!--
 		-->GMSRT3/gorGor5 (Mar, 2016)</a>
 </tr>
 <tr>
@@ -1650,7 +1650,7 @@ set_strand() ;
 	<td>Gorilla
 	<td>ゴリラ
 	<td>Gorilla gorilla gorilla
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gorGor3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=gorGor3'><!--
 		-->gorGor3.1/gorGor3 (May, 2011)</a>
 </tr>
 <tr>
@@ -1660,7 +1660,7 @@ set_strand() ;
 	<td>Green monkey
 	<td>ミドリザル
 	<td>Chlorocebus sabaeus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=chlSab2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=chlSab2'><!--
 		-->Chlorocebus_sabeus 1.1/chlSab2 (Mar, 2014)</a>
 </tr>
 <tr>
@@ -1670,7 +1670,7 @@ set_strand() ;
 	<td>Guinea pig
 	<td>モルモット
 	<td>Cavia porcellus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cavPor3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=cavPor3'><!--
 		-->Broad/cavPor3 (Feb, 2008)</a>
 </tr>
 <tr>
@@ -1680,7 +1680,7 @@ set_strand() ;
 	<td>Hedgehog
 	<td>ハリネズミ
 	<td>Erinaceus europaeus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=eriEur2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=eriEur2'><!--
 		-->EriEur2.0/eriEur2 (May, 2012)</a>
 </tr>
 <tr>
@@ -1690,7 +1690,7 @@ set_strand() ;
 	<td>Horse
 	<td>ウマ
 	<td>Equus caballus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=equCab2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=equCab2'><!--
 		-->Broad/equCab2 (Sep, 2007)</a>
 </tr>
 <tr>
@@ -1700,7 +1700,7 @@ set_strand() ;
 	<td>Kangaroo rat
 	<td>カンガルーネズミ
 	<td>Dipodomys ordii
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dipOrd1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=dipOrd1'><!--
 		-->Broad/dipOrd1 (Jul, 2008)</a>
 </tr>
 <tr>
@@ -1710,7 +1710,7 @@ set_strand() ;
 	<td>Malayan flying lemur
 	<td>マレーヒヨケザル
 	<td>Galeopterus variegatus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=galVar1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=galVar1'><!--
 		-->G_variegatus-3.0.2/galVar1 (Jun, 2014)</a>
 </tr>
 <tr>
@@ -1720,7 +1720,7 @@ set_strand() ;
 	<td>Manatee
 	<td>マナティー
 	<td>Trichechus manatus latirostris
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=triMan1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=triMan1'><!--
 		-->Broad v1.0/triMan1 (Oct, 2011)</a>
 </tr>
 <tr>
@@ -1730,7 +1730,7 @@ set_strand() ;
 	<td>Marmoset
 	<td>マーモセット
 	<td>Callithrix jacchus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=calJac3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=calJac3'><!--
 		-->WUGSC 3.2/calJac3 (Mar, 2009)</a>
 </tr>
 <tr>
@@ -1740,7 +1740,7 @@ set_strand() ;
 	<td>Megabat
 	<td>オオコウモリ
 	<td>Pteropus vampyrus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=pteVam1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=pteVam1'><!--
 		-->Broad/pteVam1 (Jul, 2008)</a>
 </tr>
 <tr>
@@ -1750,7 +1750,7 @@ set_strand() ;
 	<td>Microbat
 	<td>ココウモリ
 	<td>Myotis lucifugus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=myoLuc2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=myoLuc2'><!--
 		-->Broad Institute Myoluc2.0/myoLuc2 (Jul, 2010)</a>
 </tr>
 <tr>
@@ -1760,7 +1760,7 @@ set_strand() ;
 	<td>Minke whale
 	<td>ミンククジラ
 	<td>Balaenoptera acutorostrata scammoni
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=balAcu1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=balAcu1'><!--
 		-->BalAcu1.0/balAcu1 (Oct, 2013)</a>
 </tr>
 <tr>
@@ -1770,7 +1770,7 @@ set_strand() ;
 	<td>Mouse lemur
 	<td>ネズミキツネザル
 	<td>Microcebus murinus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=micMur2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=micMur2'><!--
 		-->Mouse lemur/micMur2 (May, 2015)</a>
 </tr>
 <tr>
@@ -1780,7 +1780,7 @@ set_strand() ;
 	<td>Mouse lemur
 	<td>ネズミキツネザル
 	<td>Microcebus murinus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=micMur1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=micMur1'><!--
 		-->Broad/micMur1 (Jul, 2007)</a>
 </tr>
 <tr>
@@ -1790,7 +1790,7 @@ set_strand() ;
 	<td>Naked mole rat
 	<td>ハダカデバネズミ
 	<td>Heterocephalus glaber
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=hetGla2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=hetGla2'><!--
 		-->Broad HetGla_female_1.0/hetGla2 (Jan, 2012)</a>
 </tr>
 <tr>
@@ -1800,7 +1800,7 @@ set_strand() ;
 	<td>Opossum
 	<td>オポッサム
 	<td>Monodelphis domestica
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=monDom5'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=monDom5'><!--
 		-->Broad/monDom5 (Oct, 2006)</a>
 </tr>
 <tr>
@@ -1810,7 +1810,7 @@ set_strand() ;
 	<td>Orangutan
 	<td>オランウータン
 	<td>Pongo abelii
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ponAbe3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ponAbe3'><!--
 		-->Susie_PABv2/ponAbe3 (Jan, 2018)</a>
 </tr>
 <tr>
@@ -1820,7 +1820,7 @@ set_strand() ;
 	<td>Orangutan
 	<td>オランウータン
 	<td>Pongo abelii
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ponAbe2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ponAbe2'><!--
 		-->WUGSC 2.0.2/ponAbe2 (Jul, 2007)</a>
 </tr>
 <tr>
@@ -1830,7 +1830,7 @@ set_strand() ;
 	<td>Panda
 	<td>パンダ
 	<td>Ailuropoda melanoleuca
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ailMel1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ailMel1'><!--
 		-->BGI-Shenzhen 1.0/ailMel1 (Dec, 2009)</a>
 </tr>
 <tr>
@@ -1840,7 +1840,7 @@ set_strand() ;
 	<td>Pig
 	<td>ブタ, イノシシ
 	<td>Sus scrofa
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=susScr11'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=susScr11'><!--
 		-->SGSC Sscrofa11.1/susScr11 (Feb, 2017)</a>
 </tr>
 <tr>
@@ -1850,7 +1850,7 @@ set_strand() ;
 	<td>Pig
 	<td>ブタ, イノシシ
 	<td>Sus scrofa
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=susScr3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=susScr3'><!--
 		-->SGSC Sscrofa10.2/susScr3 (Aug, 2011)</a>
 </tr>
 <tr>
@@ -1860,7 +1860,7 @@ set_strand() ;
 	<td>Pika
 	<td>ナキウサギ
 	<td>Ochotona princeps
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ochPri3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ochPri3'><!--
 		-->OchPri3.0/ochPri3 (May, 2012)</a>
 </tr>
 <tr>
@@ -1870,7 +1870,7 @@ set_strand() ;
 	<td>Platypus
 	<td>カモノハシ
 	<td>Ornithorhynchus anatinus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ornAna2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ornAna2'><!--
 		-->ASM227v2/ornAna2 (Feb, 2007)</a>
 </tr>
 <tr>
@@ -1880,7 +1880,7 @@ set_strand() ;
 	<td>Platypus
 	<td>カモノハシ
 	<td>Ornithorhynchus anatinus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ornAna1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ornAna1'><!--
 		-->WUGSC 5.0.1/ornAna1 (Mar, 2007)</a>
 </tr>
 <tr>
@@ -1890,7 +1890,7 @@ set_strand() ;
 	<td>Proboscis monkey
 	<td>テングザル
 	<td>Nasalis larvatus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=nasLar1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=nasLar1'><!--
 		-->Charlie1.0/nasLar1 (Nov, 2014)</a>
 </tr>
 <tr>
@@ -1900,7 +1900,7 @@ set_strand() ;
 	<td>Rabbit
 	<td>ウサギ
 	<td>Oryctolagus cuniculus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oryCun2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=oryCun2'><!--
 		-->Broad/oryCun2 (Apr, 2009)</a>
 </tr>
 <tr>
@@ -1910,7 +1910,7 @@ set_strand() ;
 	<td>Rhesus macaque
 	<td>アカゲザル
 	<td>Macaca mulatta
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rheMac8'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=rheMac8'><!--
 		-->BCM Mmul_8.0.1/rheMac8 (Nov, 2015)</a>
 </tr>
 <tr>
@@ -1920,7 +1920,7 @@ set_strand() ;
 	<td>Rhesus macaque
 	<td>アカゲザル
 	<td>Macaca mulatta
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=rheMac3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=rheMac3'><!--
 		-->BGI CR_1.0/rheMac3 (Oct, 2010)</a>
 </tr>
 <tr>
@@ -1930,7 +1930,7 @@ set_strand() ;
 	<td>Rock hyrax, Cape hyrax
 	<td>ケープハイラックス
 	<td>Procavia capensis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=proCap1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=proCap1'><!--
 		-->Broad/proCap1 (Jul, 2008)</a>
 </tr>
 <tr>
@@ -1940,7 +1940,7 @@ set_strand() ;
 	<td>Sheep
 	<td>ヒツジ
 	<td>Ovis aries
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oviAri4'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=oviAri4'><!--
 		-->ISGC Oar_v4.0/oviAri4 (Nov, 2015)</a>
 </tr>
 <tr>
@@ -1950,7 +1950,7 @@ set_strand() ;
 	<td>Sheep
 	<td>ヒツジ
 	<td>Ovis aries
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oviAri3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=oviAri3'><!--
 		-->ISGC Oar_v3.1/oviAri3 (Aug, 2012)</a>
 </tr>
 <tr>
@@ -1960,7 +1960,7 @@ set_strand() ;
 	<td>Shrew
 	<td>トガリネズミ
 	<td>Sorex araneus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=sorAra2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=sorAra2'><!--
 		-->Broad/sorAra2 (Aug, 2008)</a>
 </tr>
 <tr>
@@ -1970,7 +1970,7 @@ set_strand() ;
 	<td>Sloth
 	<td>ナマケモノ
 	<td>Choloepus hoffmanni
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=choHof1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=choHof1'><!--
 		-->Broad/choHof1 (Jul, 2008)</a>
 </tr>
 <tr>
@@ -1980,7 +1980,7 @@ set_strand() ;
 	<td>Squirrel
 	<td>リス
 	<td>Spermophilus tridecemlineatus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=speTri2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=speTri2'><!--
 		-->Broad/speTri2 (Nov, 2011)</a>
 </tr>
 <tr>
@@ -1990,7 +1990,7 @@ set_strand() ;
 	<td>Squirrel monkey
 	<td>リスザル
 	<td>Saimiri boliviensis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=saiBol1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=saiBol1'><!--
 		-->Broad/saiBol1 (Oct, 2011)</a>
 </tr>
 <tr>
@@ -2000,7 +2000,7 @@ set_strand() ;
 	<td>Tarsier
 	<td>メガネザル
 	<td>Tarsius syrichta
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=tarSyr2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=tarSyr2'><!--
 		-->Tarsius_syrichta-2.0.1/tarSyr2 (Sep, 2013)</a>
 </tr>
 <tr>
@@ -2010,7 +2010,7 @@ set_strand() ;
 	<td>Tarsier
 	<td>メガネザル
 	<td>Tarsius syrichta
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=tarSyr1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=tarSyr1'><!--
 		-->Broad/tarSyr1 (Aug, 2008)</a>
 </tr>
 <tr>
@@ -2020,7 +2020,7 @@ set_strand() ;
 	<td>Tasmanian devil
 	<td>タスマニアデビル
 	<td>Sarcophilus harrisii
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=sarHar1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=sarHar1'><!--
 		-->WTSI Devil_ref v7.0/sarHar1 (Feb, 2011)</a>
 </tr>
 <tr>
@@ -2030,7 +2030,7 @@ set_strand() ;
 	<td>Tenrec
 	<td>テンレック
 	<td>Echinops telfairi
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=echTel2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=echTel2'><!--
 		-->Broad/echTel2 (Nov, 2012)</a>
 </tr>
 <tr>
@@ -2040,7 +2040,7 @@ set_strand() ;
 	<td>Tree shrew
 	<td>ツパイ
 	<td>Tupaia belangeri
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=tupBel1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=tupBel1'><!--
 		-->Broad/tupBel1 (Dec, 2006)</a>
 </tr>
 <tr>
@@ -2050,7 +2050,7 @@ set_strand() ;
 	<td>Wallaby
 	<td>ワラビー
 	<td>Macropus eugenii
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=macEug2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=macEug2'><!--
 		-->TWGS Meug_1.1/macEug2 (Sep, 2009)</a>
 </tr>
 <tr>
@@ -2060,7 +2060,7 @@ set_strand() ;
 	<td>White rhinoceros
 	<td>シロサイ
 	<td>Ceratotherium simum
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cerSim1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=cerSim1'><!--
 		-->CerSimSim1.0/cerSim1 (May, 2012)</a>
 </tr>
 <tr>
@@ -2070,7 +2070,7 @@ set_strand() ;
 	<td>African clawed frog
 	<td>アフリカツメガエル
 	<td>Xenopus laevis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=xenLae2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=xenLae2'><!--
 		-->Xenopus_laevis_v2/xenLae2 (Aug, 2016)</a>
 </tr>
 <tr>
@@ -2080,7 +2080,7 @@ set_strand() ;
 	<td>American alligator
 	<td>アメリカアリゲーター
 	<td>Alligator mississippiensis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=allMis1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=allMis1'><!--
 		-->allMis0.2/allMis1 (Aug, 2012)</a>
 </tr>
 <tr>
@@ -2090,7 +2090,7 @@ set_strand() ;
 	<td>Atlantic cod
 	<td>タイセイヨウダラ
 	<td>Gadus morhua
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gadMor1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=gadMor1'><!--
 		-->Genofisk GadMor_May2010/gadMor1 (May, 2010)</a>
 </tr>
 <tr>
@@ -2100,7 +2100,7 @@ set_strand() ;
 	<td>Southern brown kiwi
 	<td>キーウィ
 	<td>Apteryx australis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=aptMan1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=aptMan1'><!--
 		-->MPI-EVA AptMant0/aptMan1 (Jun, 2015)</a>
 </tr>
 <tr>
@@ -2110,7 +2110,7 @@ set_strand() ;
 	<td>Budgerigar
 	<td>セキセイインコ
 	<td>Melopsittacus undulatus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=melUnd1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=melUnd1'><!--
 		-->WUSTL v6.3/melUnd1 (Sep, 2011)</a>
 </tr>
 <tr>
@@ -2120,7 +2120,7 @@ set_strand() ;
 	<td>Chicken
 	<td>ニワトリ
 	<td>Gallus gallus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=galGal5'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=galGal5'><!--
 		-->Gallus_gallus-5.0/galGal5 (Dec, 2015)</a>
 </tr>
 <tr>
@@ -2130,7 +2130,7 @@ set_strand() ;
 	<td>Chicken
 	<td>ニワトリ
 	<td>Gallus gallus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=galGal4'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=galGal4'><!--
 		-->ICGSC Gallus_gallus-4.0/galGal4 (Nov, 2011)</a>
 </tr>
 <tr>
@@ -2140,7 +2140,7 @@ set_strand() ;
 	<td>Coelacanth
 	<td>シーラカンス
 	<td>Latimeria chalumnae
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=latCha1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=latCha1'><!--
 		-->Broad/latCha1 (Aug, 2011)</a>
 </tr>
 <tr>
@@ -2150,7 +2150,7 @@ set_strand() ;
 	<td>Elephant shark
 	<td>ゾウギンザメ
 	<td>Callorhinchus milii
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=calMil1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=calMil1'><!--
 		-->Callorhinchus_milii-6.1.3/calMil1 (Dec, 2013)</a>
 </tr>
 <tr>
@@ -2160,7 +2160,7 @@ set_strand() ;
 	<td>Fugu
 	<td>トラフグ
 	<td>Takifugu rubripes
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=fr3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=fr3'><!--
 		-->FUGU5/fr3 (Oct, 2011)</a>
 </tr>
 <tr>
@@ -2170,7 +2170,7 @@ set_strand() ;
 	<td>Garter snake
 	<td>ガーターヘビ
 	<td>Thamnophis sirtalis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=thaSir1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=thaSir1'><!--
 		-->Thanmnophis_sirtalis-6.0/thaSir1 (Jun, 2015)</a>
 </tr>
 <tr>
@@ -2180,7 +2180,7 @@ set_strand() ;
 	<td>Golden eagle
 	<td>イヌワシ
 	<td>Aquila chrysaetos canadensis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=aquChr2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=aquChr2'><!--
 		-->aquChr-1.0.2/aquChr2 (Oct, 2014)</a>
 </tr>
 <tr>
@@ -2190,7 +2190,7 @@ set_strand() ;
 	<td>Lamprey
 	<td>ヤツメウナギ
 	<td>Petromyzon marinus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=petMar2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=petMar2'><!--
 		-->WUGSC 7.0/petMar2 (Sep, 2010)</a>
 </tr>
 <tr>
@@ -2200,7 +2200,7 @@ set_strand() ;
 	<td>Lizard
 	<td>トカゲ
 	<td>Anolis carolinensis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=anoCar2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=anoCar2'><!--
 		-->Broad AnoCar2.0/anoCar2 (May, 2010)</a>
 </tr>
 <tr>
@@ -2210,7 +2210,7 @@ set_strand() ;
 	<td>Medaka
 	<td>メダカ
 	<td>Oryzias latipes
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oryLat2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=oryLat2'><!--
 		-->NIG/UT MEDAKA1/oryLat2 (Oct, 2005)</a>
 </tr>
 <tr>
@@ -2220,7 +2220,7 @@ set_strand() ;
 	<td>Medium ground finch
 	<td>ガラパゴスフィンチ
 	<td>Geospiza fortis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=geoFor1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=geoFor1'><!--
 		-->GeoFor_1.0/geoFor1 (Apr, 2012)</a>
 </tr>
 <tr>
@@ -2230,7 +2230,7 @@ set_strand() ;
 	<td>Nile tilapia
 	<td>ナイルティラピア
 	<td>Oreochromis niloticus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=oreNil2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=oreNil2'><!--
 		-->Broad oreNil1.1/oreNil2 (Jan, 2011)</a>
 </tr>
 <tr>
@@ -2240,7 +2240,7 @@ set_strand() ;
 	<td>Painted turtle
 	<td>ニシキガメ
 	<td>Chrysemys picta bellii
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=chrPic1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=chrPic1'><!--
 		-->v3.0.1/chrPic1 (Dec, 2011)</a>
 </tr>
 <tr>
@@ -2250,7 +2250,7 @@ set_strand() ;
 	<td>Stickleback
 	<td>トゲウオ
 	<td>Gasterosteus aculeatus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=gasAcu1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=gasAcu1'><!--
 		-->Broad/gasAcu1 (Feb, 2006)</a>
 </tr>
 <tr>
@@ -2260,7 +2260,7 @@ set_strand() ;
 	<td>Tetraodon
 	<td>ミドリフグ
 	<td>Tetraodon nigroviridis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=tetNig2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=tetNig2'><!--
 		-->Genoscope 8.0/tetNig2 (Mar, 2007)</a>
 </tr>
 <tr>
@@ -2270,7 +2270,7 @@ set_strand() ;
 	<td>Tibetan frog
 	<td>ナノラナ属のカエル
 	<td>Nanorana parkeri
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=nanPar1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=nanPar1'><!--
 		-->BGI_ZX_2015/nanPar1 (Mar, 2015)</a>
 </tr>
 <tr>
@@ -2280,7 +2280,7 @@ set_strand() ;
 	<td>Turkey
 	<td>シチメンチョウ
 	<td>Meleagris gallopavo
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=melGal5'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=melGal5'><!--
 		-->TGC Turkey_5.0/melGal5 (Nov, 2014)</a>
 </tr>
 <tr>
@@ -2290,7 +2290,7 @@ set_strand() ;
 	<td>Turkey
 	<td>シチメンチョウ
 	<td>Meleagris gallopavo
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=melGal1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=melGal1'><!--
 		-->TGC Turkey_2.01/melGal1 (Dec, 2009)</a>
 </tr>
 <tr>
@@ -2300,7 +2300,7 @@ set_strand() ;
 	<td>Western clawed frog
 	<td>ネッタイツメガエル
 	<td>Xenopus tropicalis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=xenTro9'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=xenTro9'><!--
 		-->JGI 9.1/xenTro9 (Jul, 2016)</a>
 </tr>
 <tr>
@@ -2310,7 +2310,7 @@ set_strand() ;
 	<td>Western clawed frog
 	<td>ネッタイツメガエル
 	<td>Xenopus tropicalis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=xenTro3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=xenTro3'><!--
 		-->JGI 4.2/xenTro3 (Nov, 2009)</a>
 </tr>
 <tr>
@@ -2320,7 +2320,7 @@ set_strand() ;
 	<td>Zebra finch
 	<td>キンカチョウ
 	<td>Taeniopygia guttata
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=taeGut2'><!--
 		-->WashU taeGut324/taeGut2 (Feb, 2013)</a>
 </tr>
 <tr>
@@ -2330,7 +2330,7 @@ set_strand() ;
 	<td>Zebrafish
 	<td>ゼブラフィッシュ
 	<td>Danio rerio
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer11'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer11'><!--
 		-->GRCz11/danRer11 (May, 2017)</a>
 </tr>
 <tr>
@@ -2340,7 +2340,7 @@ set_strand() ;
 	<td>Zebrafish
 	<td>ゼブラフィッシュ
 	<td>Danio rerio
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer10'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer10'><!--
 		-->GRCz10/danRer10 (Sep, 2014)</a>
 </tr>
 <tr>
@@ -2350,7 +2350,7 @@ set_strand() ;
 	<td>Zebrafish
 	<td>ゼブラフィッシュ
 	<td>Danio rerio
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer7'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=danRer7'><!--
 		-->Zv9/danRer7 (Jul, 2010)</a>
 </tr>
 <tr>
@@ -2360,7 +2360,7 @@ set_strand() ;
 	<td>Transparent sea squirt
 	<td>カタユウレイボヤ
 	<td>Ciona intestinalis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ci3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ci3'><!--
 		-->Kyoto KH/ci3 (Apr, 2011)</a>
 </tr>
 <tr>
@@ -2370,7 +2370,7 @@ set_strand() ;
 	<td>Transparent sea squirt
 	<td>カタユウレイボヤ
 	<td>Ciona intestinalis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ci2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ci2'><!--
 		-->JGI 2.1/ci2 (Mar, 2005)</a>
 </tr>
 <tr>
@@ -2380,7 +2380,7 @@ set_strand() ;
 	<td>Lancelet
 	<td>ナメクジウオ
 	<td>Branchiostoma floridae
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=braFlo1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=braFlo1'><!--
 		-->JGI 1.0/braFlo1 (Mar, 2006)</a>
 </tr>
 <tr>
@@ -2390,7 +2390,7 @@ set_strand() ;
 	<td>Purple sea urchin
 	<td>ムラサキウニ
 	<td>Strongylocentrotus purpuratus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=strPur2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=strPur2'><!--
 		-->Baylor 2.1/strPur2 (Sep, 2006)</a>
 </tr>
 <tr>
@@ -2400,7 +2400,7 @@ set_strand() ;
 	<td>African malaria mosquito
 	<td>ハマダラカ
 	<td>Anopheles gambiae
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=anoGam3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=anoGam3'><!--
 		-->ICSAGA P3/anoGam3 (Nov, 2006)</a>
 </tr>
 <tr>
@@ -2410,7 +2410,7 @@ set_strand() ;
 	<td>African malaria mosquito
 	<td>ハマダラカ
 	<td>Anopheles gambiae
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=anoGam1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=anoGam1'><!--
 		-->IAGEC MOZ2/anoGam1 (Feb, 2003)</a>
 </tr>
 <tr>
@@ -2420,7 +2420,7 @@ set_strand() ;
 	<td>Honeybee
 	<td>ミツバチ
 	<td>Apis mellifera
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=apiMel3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=apiMel3'><!--
 		-->Baylor HGSC Amel_3.0/apiMel3 (May, 2005)</a>
 </tr>
 <tr>
@@ -2430,7 +2430,7 @@ set_strand() ;
 	<td>Honeybee
 	<td>ミツバチ
 	<td>Apis mellifera
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=apiMel2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=apiMel2'><!--
 		-->Baylor 2.0/apiMel2 (Jan, 2005)</a>
 </tr>
 <tr>
@@ -2440,7 +2440,7 @@ set_strand() ;
 	<td>D. ananassae (Fruit fly)
 	<td>アナナスショウジョウバエ
 	<td>Drosophila ananassae
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droAna2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droAna2'><!--
 		-->Agencourt prelim/droAna2 (Aug, 2005)</a>
 </tr>
 <tr>
@@ -2450,7 +2450,7 @@ set_strand() ;
 	<td>D. erecta (Fruit fly)
 	<td>キリシマキノコショウジョウバエ
 	<td>Drosophila erecta
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droEre1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droEre1'><!--
 		-->Agencourt prelim/droEre1 (Aug, 2005)</a>
 </tr>
 <tr>
@@ -2460,7 +2460,7 @@ set_strand() ;
 	<td>D. grimshawi (Fruit fly)
 	<td>ショウジョウバエ属
 	<td>Drosophila grimshawi
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droGri1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droGri1'><!--
 		-->Agencourt prelim/droGri1 (Aug, 2005)</a>
 </tr>
 <tr>
@@ -2470,7 +2470,7 @@ set_strand() ;
 	<td>D. melanogaster (Fruit fly)
 	<td>キイロショウジョウバエ
 	<td>Drosophila melanogaster
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dm6'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=dm6'><!--
 		-->BDGP Release 6 + ISO1 MT/dm6 (Aug, 2014)</a>
 </tr>
 <tr>
@@ -2480,7 +2480,7 @@ set_strand() ;
 	<td>D. melanogaster (Fruit fly)
 	<td>キイロショウジョウバエ
 	<td>Drosophila melanogaster
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dm3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=dm3'><!--
 		-->BDGP R5/dm3 (Apr, 2006)</a>
 </tr>
 <tr>
@@ -2490,7 +2490,7 @@ set_strand() ;
 	<td>D. mojavensis (Fruit fly)
 	<td>ショウジョウバエ属
 	<td>Drosophila mojavensis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droMoj2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droMoj2'><!--
 		-->Agencourt prelim/droMoj2 (Aug, 2005)</a>
 </tr>
 <tr>
@@ -2500,7 +2500,7 @@ set_strand() ;
 	<td>D. persimilis (Fruit fly)
 	<td>ショウジョウバエ属
 	<td>Drosophila persimilis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droPer1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droPer1'><!--
 		-->Broad/droPer1 (Oct, 2005)</a>
 </tr>
 <tr>
@@ -2510,7 +2510,7 @@ set_strand() ;
 	<td>D. pseudoobscura (Fruit fly)
 	<td>ニセウスグロショウジョウバエ
 	<td>Drosophila pseudoobscura
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=dp3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=dp3'><!--
 		-->FlyBase 1.03/dp3 (Nov, 2004)</a>
 </tr>
 <tr>
@@ -2520,7 +2520,7 @@ set_strand() ;
 	<td>D. sechellia (Fruit fly)
 	<td>セイシェルショウジョウバエ
 	<td>Drosophila sechellia
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droSec1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droSec1'><!--
 		-->Broad/droSec1 (Oct, 2005)</a>
 </tr>
 <tr>
@@ -2530,7 +2530,7 @@ set_strand() ;
 	<td>D. simulans (Fruit fly)
 	<td>オナジショウジョウバエ
 	<td>Drosophila simulans
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droSim1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droSim1'><!--
 		-->WUGSC mosaic 1.0/droSim1 (Apr, 2005)</a>
 </tr>
 <tr>
@@ -2540,7 +2540,7 @@ set_strand() ;
 	<td>D. virilis (Fruit fly)
 	<td>クロショウジョウバエ
 	<td>Drosophila virilis
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droVir2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droVir2'><!--
 		-->Agencourt prelim/droVir2 (Aug, 2005)</a>
 </tr>
 <tr>
@@ -2550,7 +2550,7 @@ set_strand() ;
 	<td>D. yakuba (Fruit fly)
 	<td>ヤクバショウジョウバエ
 	<td>Drosophila yakuba
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=droYak2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=droYak2'><!--
 		-->WUGSC 7.1/droYak2 (Nov, 2005)</a>
 </tr>
 <tr>
@@ -2560,7 +2560,7 @@ set_strand() ;
 	<td>C. brenneri (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis brenneri
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caePb2'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=caePb2'><!--
 		-->WUGSC 6.0.1/caePb2 (Feb, 2008)</a>
 </tr>
 <tr>
@@ -2570,7 +2570,7 @@ set_strand() ;
 	<td>C. briggsae (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis briggsae
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=cb3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=cb3'><!--
 		-->WUGSC 1.0/cb3 (Jan, 2007)</a>
 </tr>
 <tr>
@@ -2580,7 +2580,7 @@ set_strand() ;
 	<td>C. elegans (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis elegans
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ce11'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ce11'><!--
 		-->WS220/ce11 (Feb, 2013)</a>
 </tr>
 <tr>
@@ -2590,7 +2590,7 @@ set_strand() ;
 	<td>C. elegans (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis elegans
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=ce10'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=ce10'><!--
 		-->WS220/ce10 (Oct, 2010)</a>
 </tr>
 <tr>
@@ -2600,7 +2600,7 @@ set_strand() ;
 	<td>C. japonica (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis japonica
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caeJap1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=caeJap1'><!--
 		-->WUGSC 3.0.2/caeJap1 (Mar, 2008)</a>
 </tr>
 <tr>
@@ -2610,7 +2610,7 @@ set_strand() ;
 	<td>C. remanei (Nematode worm)
 	<td>線虫
 	<td>Caenorhabditis remanei
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=caeRem3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=caeRem3'><!--
 		-->WUGSC 15.0.1/caeRem3 (May, 2007)</a>
 </tr>
 <tr>
@@ -2620,7 +2620,7 @@ set_strand() ;
 	<td>P. pacificus (Parasitic nematode)
 	<td>線虫
 	<td>Pristionchus pacificus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=priPac1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=priPac1'><!--
 		-->WUGSC 5.0/priPac1 (Feb, 2007)</a>
 </tr>
 <tr>
@@ -2630,7 +2630,7 @@ set_strand() ;
 	<td>Budding yeast
 	<td>出芽酵母
 	<td>Saccharomyces cerevisiae
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=sacCer3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=sacCer3'><!--
 		-->SacCer_Apr2011/sacCer3 (Apr, 2011)</a>
 </tr>
 <tr>
@@ -2640,7 +2640,7 @@ set_strand() ;
 	<td>Sea hare
 	<td>アメフラシ
 	<td>Aplysia californica
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=aplCal1'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=aplCal1'><!--
 		-->Broad 2.0/aplCal1 (Sep, 2008)</a>
 </tr>
 <tr>
@@ -2650,7 +2650,7 @@ set_strand() ;
 	<td>Ebola virus
 	<td>エボラウイルス
 	<td>Filoviridae ebolavirus
-	<td><a target='_blank' href='http://genome.ucsc.edu/cgi-bin/hgGateway?db=eboVir3'><!--
+	<td><a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgGateway?db=eboVir3'><!--
 		-->Sierra Leone G3683/KM034562.1/eboVir3 (Jun, 2014)</a>
 </tr>
 <tr>
@@ -2670,7 +2670,7 @@ set_strand() ;
 	<td>Amazon molly
 	<td>アマゾンモーリー
 	<td>Poecilia formosa
-	<td><a target='_blank' href='http://www.ensembl.org/Poecilia_formosa/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Poecilia_formosa/'><!--
 		-->Poecilia_formosa-5.1.2 (Oct, 2013)</a>
 </tr>
 <tr>
@@ -2680,7 +2680,7 @@ set_strand() ;
 	<td>Pacific transparent sea squirt
 	<td>ユウレイボヤ
 	<td>Ciona savignyi
-	<td><a target='_blank' href='http://www.ensembl.org/Ciona_savignyi/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Ciona_savignyi/'><!--
 		-->CSAV 2.0 (Oct, 2005)</a>
 </tr>
 <tr>
@@ -2690,7 +2690,7 @@ set_strand() ;
 	<td>Blind cave fish
 	<td>ブラインドケープテトラ
 	<td>Astyanax mexicanus
-	<td><a target='_blank' href='http://www.ensembl.org/Astyanax_mexicanus/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Astyanax_mexicanus/'><!--
 		-->AstMex102 (Apr, 2013)</a>
 </tr>
 <tr>
@@ -2700,7 +2700,7 @@ set_strand() ;
 	<td>Chinese softshell turtle
 	<td>スッポン
 	<td>Pelodiscus sinensis
-	<td><a target='_blank' href='http://www.ensembl.org/Pelodiscus_sinensis/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Pelodiscus_sinensis/'><!--
 		-->PelSin_1.0 (Oct, 2011)</a>
 </tr>
 <tr>
@@ -2720,7 +2720,7 @@ set_strand() ;
 	<td>Duck
 	<td>マガモ
 	<td>Anas platyrhynchos
-	<td><a target='_blank' href='http://www.ensembl.org/Anas_platyrhynchos/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Anas_platyrhynchos/'><!--
 		-->BGI_duck_1.0 (Apr, 2013)</a>
 </tr>
 <tr>
@@ -2730,7 +2730,7 @@ set_strand() ;
 	<td>Flycatcher
 	<td>シロエリヒタキ
 	<td>Ficedula albicollis
-	<td><a target='_blank' href='http://www.ensembl.org/Ficedula_albicollis/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Ficedula_albicollis/'><!--
 		-->FicAlb_1.4 (Jan, 2012)</a>
 </tr>
 <tr>
@@ -2750,7 +2750,7 @@ set_strand() ;
 	<td>Platyfish
 	<td>サザンプラティフィッシュ
 	<td>Xiphophorus maculatus
-	<td><a target='_blank' href='http://www.ensembl.org/Xiphophorus_maculatus/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Xiphophorus_maculatus/'><!--
 		-->Xipmac4.4.2 (Jan, 2012)</a>
 </tr>
 <tr>
@@ -2780,7 +2780,7 @@ set_strand() ;
 	<td>Spotted gar
 	<td>スポッテッドガー
 	<td>Lepisosteus oculatus
-	<td><a target='_blank' href='http://www.ensembl.org/Lepisosteus_oculatus/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Lepisosteus_oculatus/'><!--
 		-->LepOcu1 (Dec, 2011)</a>
 </tr>
 <tr>
@@ -2790,7 +2790,7 @@ set_strand() ;
 	<td>Green monkey
 	<td>ミドリザル
 	<td>Chlorocebus sabaeus
-	<td><a target='_blank' href='http://www.ensembl.org/Chlorocebus_sabaeus/'><!--
+	<td><a target='_blank' href='https://www.ensembl.org/Chlorocebus_sabaeus/'><!--
 		-->ChlSab1.1 (Mar, 2014)</a>
 </tr>
 <tr>
@@ -2800,7 +2800,7 @@ set_strand() ;
 	<td>Pea aphid
 	<td>エンドウヒゲナガアブラムシ
 	<td>Acyrthosiphon pisum
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Acyrthosiphon_pisum/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Acyrthosiphon_pisum/'><!--
 		-->Acyr_2.0 (Jun, 2010)</a>
 </tr>
 <tr>
@@ -2820,7 +2820,7 @@ set_strand() ;
 	<td>Yellow fever mosquito
 	<td>ネッタイシマカ
 	<td>Aedes aegypti
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Aedes_aegypti/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Aedes_aegypti/'><!--
 		-->AaegL3 (Dec, 2013)</a>
 </tr>
 <tr>
@@ -2850,7 +2850,7 @@ set_strand() ;
 	<td>Sponge
 	<td>カイメン
 	<td>Amphimedon queenslandica
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Amphimedon_queenslandica/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Amphimedon_queenslandica/'><!--
 		-->Aqu1 (Oct, 2010)</a>
 </tr>
 <tr>
@@ -2860,7 +2860,7 @@ set_strand() ;
 	<td>American malaria mosquito
 	<td>ハマダラカ
 	<td>Anopheles darlingi
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Anopheles_darlingi/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Anopheles_darlingi/'><!--
 		-->AdarC3 (Jan, 2014)</a>
 </tr>
 <tr>
@@ -2870,7 +2870,7 @@ set_strand() ;
 	<td>Leafcutter ant
 	<td>ハキリアリ
 	<td>Atta cephalotes
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Atta_cephalotes/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Atta_cephalotes/'><!--
 		-->Attacep1.0 (Jul, 2012)</a>
 </tr>
 <tr>
@@ -2880,7 +2880,7 @@ set_strand() ;
 	<td>Silkworm
 	<td>カイコガ
 	<td>Bombyx mori
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Bombyx_mori/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Bombyx_mori/'><!--
 		-->ASM15162v1 (Feb, 2013)</a>
 </tr>
 <tr>
@@ -2890,7 +2890,7 @@ set_strand() ;
 	<td>Filarial nematode worm
 	<td>マレー糸状虫
 	<td>Brugia malayi
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Brugia_malayi/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Brugia_malayi/'><!--
 		-->B_malayi-3.0 (Dec, 2012)</a>
 </tr>
 <tr>
@@ -2900,7 +2900,7 @@ set_strand() ;
 	<td>Polychaete worm
 	<td>イトゴカイ
 	<td>Capitella teleta
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Capitella_teleta/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Capitella_teleta/'><!--
 		-->Capitella teleta v1.0 (Dec, 2012)</a>
 </tr>
 <tr>
@@ -2910,7 +2910,7 @@ set_strand() ;
 	<td>Pacific oyster
 	<td>マガキ
 	<td>Crassostrea gigas
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Crassostrea_gigas/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Crassostrea_gigas/'><!--
 		-->oyster_v9 (Sep, 2012)</a>
 </tr>
 <tr>
@@ -2920,7 +2920,7 @@ set_strand() ;
 	<td>Southern house mosquito
 	<td>ネッタイイエカ
 	<td>Culex quinquefasciatus
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Culex_quinquefasciatus/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Culex_quinquefasciatus/'><!--
 		-->CpipJ2 (Jan, 2007)</a>
 </tr>
 <tr>
@@ -2930,7 +2930,7 @@ set_strand() ;
 	<td>Monarch butterfly
 	<td>オオカバマダラ
 	<td>Danaus plexippus
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Danaus_plexippus/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Danaus_plexippus/'><!--
 		-->DanPle_1.0 (Nov, 2011)</a>
 </tr>
 <tr>
@@ -2940,7 +2940,7 @@ set_strand() ;
 	<td>Water flea
 	<td>ミジンコ
 	<td>Daphnia pulex
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Daphnia_pulex/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Daphnia_pulex/'><!--
 		-->V1.0 (Feb, 2011)</a>
 </tr>
 <tr>
@@ -2950,7 +2950,7 @@ set_strand() ;
 	<td>Mountain pine beetle
 	<td>キクイムシ
 	<td>Dendroctonus ponderosae
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Dendroctonus_ponderosae/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Dendroctonus_ponderosae/'><!--
 		-->DendPond_male_1.0 (Apr, 2013)</a>
 </tr>
 <tr>
@@ -2960,7 +2960,7 @@ set_strand() ;
 	<td>D. willistoni (Fruit fly)
 	<td>ショウジョウバエ属
 	<td>Drosophila willistoni
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Drosophila_willistoni/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Drosophila_willistoni/'><!--
 		-->dwil_caf1 (Jul, 2008)</a>
 </tr>
 <tr>
@@ -2970,7 +2970,7 @@ set_strand() ;
 	<td>Postman butterfly
 	<td>ドクチョウ
 	<td>Heliconius melpomene
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Heliconius_melpomene/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Heliconius_melpomene/'><!--
 		-->Hmel1 (Feb, 2012)</a>
 </tr>
 <tr>
@@ -2980,7 +2980,7 @@ set_strand() ;
 	<td>Californian leech
 	<td>ヒル
 	<td>Helobdella robusta
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Helobdella_robusta/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Helobdella_robusta/'><!--
 		-->Helro1 (Dec, 2012)</a>
 </tr>
 <tr>
@@ -2990,7 +2990,7 @@ set_strand() ;
 	<td>Black-legged tick
 	<td>クロアシマダニ
 	<td>Ixodes scapularis
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Ixodes_scapularis/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Ixodes_scapularis/'><!--
 		-->IscaW1 (Aug, 2007)</a>
 </tr>
 <tr>
@@ -3000,7 +3000,7 @@ set_strand() ;
 	<td>Eye worm
 	<td>ロア糸状虫
 	<td>Loa loa
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Loa_loa/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Loa_loa/'><!--
 		-->Loa_loa_V3 (Jan, 2010)</a>
 </tr>
 <tr>
@@ -3010,7 +3010,7 @@ set_strand() ;
 	<td>Giant owl limpet
 	<td>カサガイ
 	<td>Lottia gigantea
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Lottia_gigantea/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Lottia_gigantea/'><!--
 		-->Lotgi1 (Jan, 2013)</a>
 </tr>
 <tr>
@@ -3020,7 +3020,7 @@ set_strand() ;
 	<td>Humpbacked fly
 	<td>クサビノミバエ
 	<td>Megaselia scalaris
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Megaselia_scalaris/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Megaselia_scalaris/'><!--
 		-->Msca1 (Feb, 2013)</a>
 </tr>
 <tr>
@@ -3030,7 +3030,7 @@ set_strand() ;
 	<td>Glanville fritillary
 	<td>グランヴィルヒョウモンモドキ
 	<td>Melitaea cinxia
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Melitaea_cinxia/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Melitaea_cinxia/'><!--
 		-->MelCinx1.0 (Jul, 2014)</a>
 </tr>
 <tr>
@@ -3040,7 +3040,7 @@ set_strand() ;
 	<td>Sea walnut
 	<td>ムネミオプシス・レイディ
 	<td>Mnemiopsis leidyi
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Mnemiopsis_leidyi/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Mnemiopsis_leidyi/'><!--
 		-->MneLei_Aug2011 (Sep, 2011)</a>
 </tr>
 <tr>
@@ -3050,7 +3050,7 @@ set_strand() ;
 	<td>Parasitic wasp
 	<td>キョウソヤドリコバチ
 	<td>Nasonia vitripennis
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Nasonia_vitripennis/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Nasonia_vitripennis/'><!--
 		-->Nvit_2.1 (Nov, 2012)</a>
 </tr>
 <tr>
@@ -3060,7 +3060,7 @@ set_strand() ;
 	<td>Starlet sea anemone
 	<td>ムシモドキギンチャク科
 	<td>Nematostella vectensis
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Nematostella_vectensis/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Nematostella_vectensis/'><!--
 		-->ASM20922v1 (Sep, 2007)</a>
 </tr>
 <tr>
@@ -3070,7 +3070,7 @@ set_strand() ;
 	<td>O. volvulus (Parasitic nematode)
 	<td>回旋糸状虫
 	<td>Onchocerca volvulus
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Onchocerca_volvulus/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Onchocerca_volvulus/'><!--
 		-->Cameroon_v3 (Nov, 2013)</a>
 </tr>
 <tr>
@@ -3080,7 +3080,7 @@ set_strand() ;
 	<td>Body louse
 	<td>ヒトジラミ
 	<td>Pediculus humanus
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Pediculus_humanus/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Pediculus_humanus/'><!--
 		-->PhumU2 (Nov, 2008)</a>
 </tr>
 <tr>
@@ -3090,7 +3090,7 @@ set_strand() ;
 	<td>Triatomid bug
 	<td>サシガメ
 	<td>Rhodnius prolixus
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Rhodnius_prolixus/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Rhodnius_prolixus/'><!--
 		-->RproC1 (Dec, 2010)</a>
 </tr>
 <tr>
@@ -3100,7 +3100,7 @@ set_strand() ;
 	<td>Blood fluke
 	<td>マンソン住血吸虫
 	<td>Schistosoma mansoni
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Schistosoma_mansoni/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Schistosoma_mansoni/'><!--
 		-->ASM23792v2 (Apr, 2012)</a>
 </tr>
 <tr>
@@ -3110,7 +3110,7 @@ set_strand() ;
 	<td>Red imported fire ant
 	<td>アカヒアリ
 	<td>Solenopsis invicta
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Solenopsis_invicta/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Solenopsis_invicta/'><!--
 		-->Si_gnG (Feb, 2011)</a>
 </tr>
 <tr>
@@ -3120,7 +3120,7 @@ set_strand() ;
 	<td>European centipede
 	<td>ムカデ
 	<td>Strigamia maritima
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Strigamia_maritima/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Strigamia_maritima/'><!--
 		-->Smar1 (Feb, 2013)</a>
 </tr>
 <tr>
@@ -3130,7 +3130,7 @@ set_strand() ;
 	<td>Two-spotted spider mite
 	<td>ナミハダニ
 	<td>Tetranychus urticae
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Tetranychus_urticae/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Tetranychus_urticae/'><!--
 		-->ASM23943v1 (Nov, 2011)</a>
 </tr>
 <tr>
@@ -3140,7 +3140,7 @@ set_strand() ;
 	<td>Red flour beetle
 	<td>コクヌストモドキ
 	<td>Tribolium castaneum
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Tribolium_castaneum/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Tribolium_castaneum/'><!--
 		-->Tcas3 (Feb, 2010)</a>
 </tr>
 <tr>
@@ -3150,7 +3150,7 @@ set_strand() ;
 	<td>Trichina worm
 	<td>旋毛虫
 	<td>Trichinella spiralis
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Trichinella_spiralis/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Trichinella_spiralis/'><!--
 		-->Tspiralis1 (Mar, 2011)</a>
 </tr>
 <tr>
@@ -3160,7 +3160,7 @@ set_strand() ;
 	<td>T. adhaerens
 	<td>センモウヒラムシ
 	<td>Trichoplax adhaerens
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Trichoplax_adhaerens/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Trichoplax_adhaerens/'><!--
 		-->ASM15027v1 (Aug, 2006)</a>
 </tr>
 <tr>
@@ -3170,7 +3170,7 @@ set_strand() ;
 	<td>Dampwood termite
 	<td>ネバダオオシロアリ
 	<td>Zootermopsis nevadensis
-	<td><a target='_blank' href='http://metazoa.ensembl.org/Zootermopsis_nevadensis/'><!--
+	<td><a target='_blank' href='https://metazoa.ensembl.org/Zootermopsis_nevadensis/'><!--
 		-->ZooNev1.0 (Jun, 2014)</a>
 </tr>
 <tr>
@@ -3180,7 +3180,7 @@ set_strand() ;
 	<td>Tausch's goatgrass
 	<td>タルホコムギ
 	<td>Aegilops tauschii
-	<td><a target='_blank' href='http://plants.ensembl.org/Aegilops_tauschii/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Aegilops_tauschii/'><!--
 		-->ASM34733v1 (Dec, 2013)</a>
 </tr>
 <tr>
@@ -3190,7 +3190,7 @@ set_strand() ;
 	<td>A. trichopoda
 	<td>アムボレラ・トリコポダ
 	<td>Amborella trichopoda
-	<td><a target='_blank' href='http://plants.ensembl.org/Amborella_trichopoda/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Amborella_trichopoda/'><!--
 		-->AMTR1.0 (Jan, 2014)</a>
 </tr>
 <tr>
@@ -3200,7 +3200,7 @@ set_strand() ;
 	<td>Lyre-leaved rock-cress
 	<td>シロイヌナズナ属
 	<td>Arabidopsis lyrata
-	<td><a target='_blank' href='http://plants.ensembl.org/Arabidopsis_lyrata/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Arabidopsis_lyrata/'><!--
 		-->v.1.0 (Dec, 2008)</a>
 </tr>
 <tr>
@@ -3210,7 +3210,7 @@ set_strand() ;
 	<td>Thale cress
 	<td>シロイヌナズナ
 	<td>Arabidopsis thaliana
-	<td><a target='_blank' href='http://plants.ensembl.org/Arabidopsis_thaliana/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Arabidopsis_thaliana/'><!--
 		-->TAIR10 (Sep, 2010)</a>
 </tr>
 <tr>
@@ -3220,7 +3220,7 @@ set_strand() ;
 	<td>Purple false brome
 	<td>セイヨウヤマカモジ,<br>ミナトカモジグサ
 	<td>Brachypodium distachyon
-	<td><a target='_blank' href='http://plants.ensembl.org/Brachypodium_distachyon/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Brachypodium_distachyon/'><!--
 		-->v1.0 (Jan, 2009)</a>
 </tr>
 <tr>
@@ -3230,7 +3230,7 @@ set_strand() ;
 	<td>Wild cabbage
 	<td>ヤセイカンラン,<br>ワイルドキャベツ
 	<td>Brassica oleracea
-	<td><a target='_blank' href='http://plants.ensembl.org/Brassica_oleracea/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Brassica_oleracea/'><!--
 		-->v2.1</a>
 </tr>
 <tr>
@@ -3240,7 +3240,7 @@ set_strand() ;
 	<td>Chinese cabbage
 	<td>ハクサイ, サントウサイ
 	<td>Brassica rapa ssp. pekinensis
-	<td><a target='_blank' href='http://plants.ensembl.org/Brassica_rapa/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Brassica_rapa/'><!--
 		-->IVFCAASv1 (Aug, 2009)</a>
 </tr>
 <tr>
@@ -3250,7 +3250,7 @@ set_strand() ;
 	<td>Green algae
 	<td>クラミドモナス
 	<td>Chlamydomonas reinhardtii
-	<td><a target='_blank' href='http://plants.ensembl.org/Chlamydomonas_reinhardtii/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Chlamydomonas_reinhardtii/'><!--
 		-->v3.1 (Nov, 2007)</a>
 </tr>
 <tr>
@@ -3260,7 +3260,7 @@ set_strand() ;
 	<td>Red alga
 	<td>シアニディオシゾン
 	<td>Cyanidioschyzon merolae
-	<td><a target='_blank' href='http://plants.ensembl.org/Cyanidioschyzon_merolae/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Cyanidioschyzon_merolae/'><!--
 		-->ASM9120v1 (Nov, 2008)</a>
 </tr>
 <tr>
@@ -3270,7 +3270,7 @@ set_strand() ;
 	<td>Soybean
 	<td>ダイズ
 	<td>Glycine max
-	<td><a target='_blank' href='http://plants.ensembl.org/Glycine_max/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Glycine_max/'><!--
 		-->v2.0 (Nov, 2015)</a>
 </tr>
 <tr>
@@ -3280,7 +3280,7 @@ set_strand() ;
 	<td>Soybean
 	<td>ダイズ
 	<td>Glycine max
-	<td><a target='_blank' href='http://plants.ensembl.org/Glycine_max/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Glycine_max/'><!--
 		-->V1.0 (Jan, 2010)</a>
 </tr>
 <tr>
@@ -3290,7 +3290,7 @@ set_strand() ;
 	<td>Barley
 	<td>オオムギ
 	<td>Hordeum vulgare
-	<td><a target='_blank' href='http://plants.ensembl.org/Hordeum_vulgare/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Hordeum_vulgare/'><!--
 		-->082214v1 (Mar, 2012)</a>
 </tr>
 <tr>
@@ -3300,7 +3300,7 @@ set_strand() ;
 	<td>L. perrieri
 	<td>イネ科サヤヌカグサ属
 	<td>Leersia perrieri
-	<td><a target='_blank' href='http://plants.ensembl.org/Leersia_perrieri/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Leersia_perrieri/'><!--
 		-->Lperr_V1.4 (Mar, 2014)</a>
 </tr>
 <tr>
@@ -3310,7 +3310,7 @@ set_strand() ;
 	<td>Barrel medic
 	<td>タルウマゴヤシ
 	<td>Medicago truncatula str. A17
-	<td><a target='_blank' href='http://plants.ensembl.org/Medicago_truncatula/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Medicago_truncatula/'><!--
 		-->MedtrA17_4.0 (Jun, 2014)</a>
 </tr>
 <tr>
@@ -3320,7 +3320,7 @@ set_strand() ;
 	<td>Banana
 	<td>バナナ
 	<td>Musa acuminata
-	<td><a target='_blank' href='http://plants.ensembl.org/Musa_acuminata/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Musa_acuminata/'><!--
 		-->MA1 (Aug, 2012)</a>
 </tr>
 <tr>
@@ -3330,7 +3330,7 @@ set_strand() ;
 	<td>African wild rice
 	<td>イネ・野生種
 	<td>Oryza barthii
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_barthii/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_barthii/'><!--
 		-->Obart_v1.0 (Apr, 2014)</a>
 </tr>
 <tr>
@@ -3340,7 +3340,7 @@ set_strand() ;
 	<td>African wild rice
 	<td>イネ・野生種
 	<td>Oryza brachyantha
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_brachyantha/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_brachyantha/'><!--
 		-->Oryza_brachyantha.v1.4b (May, 2011)</a>
 </tr>
 <tr>
@@ -3350,7 +3350,7 @@ set_strand() ;
 	<td>African wild rice
 	<td>イネ・野生種
 	<td>Oryza glaberrima
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_glaberrima/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_glaberrima/'><!--
 		-->AGI1.1 (May, 2011)</a>
 </tr>
 <tr>
@@ -3360,7 +3360,7 @@ set_strand() ;
 	<td>Brazilian wild rice
 	<td>イネ・野生種
 	<td>Oryza glumaepatula
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_glumaepatula/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_glumaepatula/'><!--
 		-->ALNU02000000 (Aug, 2013)</a>
 </tr>
 <tr>
@@ -3370,7 +3370,7 @@ set_strand() ;
 	<td>Longstamen rice
 	<td>イネ・野生種
 	<td>Oryza longistaminata
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_longistaminata/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_longistaminata/'><!--
 		-->v0117-2013Aug (Aug, 2013)</a>
 </tr>
 <tr>
@@ -3380,7 +3380,7 @@ set_strand() ;
 	<td>Australian wild rice
 	<td>イネ・野生種
 	<td>Oryza meridionalis
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_meridionalis/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_meridionalis/'><!--
 		-->Oryza_meridionalis_v1.3 (Oct, 2014)</a>
 </tr>
 <tr>
@@ -3390,7 +3390,7 @@ set_strand() ;
 	<td>Indian wild rice
 	<td>イネ・野生種
 	<td>Oryza nivara
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_nivara/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_nivara/'><!--
 		-->AWHD00000000 (Aug, 2013)</a>
 </tr>
 <tr>
@@ -3400,7 +3400,7 @@ set_strand() ;
 	<td>Red rice
 	<td>イネ・野生種
 	<td>Oryza punctata
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_punctata/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_punctata/'><!--
 		-->AVCL00000000 (Aug, 2013)</a>
 </tr>
 <tr>
@@ -3410,7 +3410,7 @@ set_strand() ;
 	<td>Brownbeard rice
 	<td>イネ・野生種
 	<td>Oryza rufipogon
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_rufipogon/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_rufipogon/'><!--
 		-->PRJEB4137 (Aug, 2013)</a>
 </tr>
 <tr>
@@ -3420,7 +3420,7 @@ set_strand() ;
 	<td>Rice (Indica)
 	<td>イネ・インディカ種
 	<td>Oryza sativa ssp. indica
-	<td><a target='_blank' href='http://plants.ensembl.org/Oryza_indica/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Oryza_indica/'><!--
 		-->ASM465v1 (Jan, 2005)</a>
 </tr>
 <tr>
@@ -3430,7 +3430,7 @@ set_strand() ;
 	<td>O. lucimarinus
 	<td>オストレオコッカス
 	<td>Ostreococcus lucimarinus
-	<td><a target='_blank' href='http://plants.ensembl.org/Ostreococcus_lucimarinus/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Ostreococcus_lucimarinus/'><!--
 		-->ASM9206v1 (Jan, 2011)</a>
 </tr>
 <tr>
@@ -3440,7 +3440,7 @@ set_strand() ;
 	<td>Moss
 	<td>ヒメツリガネゴケ
 	<td>Physcomitrella patens
-	<td><a target='_blank' href='http://plants.ensembl.org/Physcomitrella_patens/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Physcomitrella_patens/'><!--
 		-->ASM242v1 (Jul, 2006)</a>
 </tr>
 <tr>
@@ -3450,7 +3450,7 @@ set_strand() ;
 	<td>Western balsam poplar
 	<td>ポプラ, コットンウッド
 	<td>Populus trichocarpa
-	<td><a target='_blank' href='http://plants.ensembl.org/Populus_trichocarpa/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Populus_trichocarpa/'><!--
 		-->JGI2.0 (Jan, 2010)</a>
 </tr>
 <tr>
@@ -3460,7 +3460,7 @@ set_strand() ;
 	<td>Peach
 	<td>モモ
 	<td>Prunus persica
-	<td><a target='_blank' href='http://plants.ensembl.org/Prunus_persica/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Prunus_persica/'><!--
 		-->Prupe1_0 (Mar, 2013)</a>
 </tr>
 <tr>
@@ -3470,7 +3470,7 @@ set_strand() ;
 	<td>Spikemoss
 	<td>イヌタカヒバ
 	<td>Selaginella moellendorffii
-	<td><a target='_blank' href='http://plants.ensembl.org/Selaginella_moellendorffii/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Selaginella_moellendorffii/'><!--
 		-->v1.0 (May, 2011)</a>
 </tr>
 <tr>
@@ -3480,7 +3480,7 @@ set_strand() ;
 	<td>Foxtail millet
 	<td>アワ
 	<td>Setaria italica
-	<td><a target='_blank' href='http://plants.ensembl.org/Setaria_italica/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Setaria_italica/'><!--
 		-->JGIv2.0 (Jan, 2012)</a>
 </tr>
 <tr>
@@ -3490,7 +3490,7 @@ set_strand() ;
 	<td>Tomato
 	<td>トマト
 	<td>Solanum lycopersicum str. Heinz 1706
-	<td><a target='_blank' href='http://plants.ensembl.org/Solanum_lycopersicum/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Solanum_lycopersicum/'><!--
 		-->SL2.50 (Oct, 2014)</a>
 </tr>
 <tr>
@@ -3500,7 +3500,7 @@ set_strand() ;
 	<td>Potato
 	<td>ジャガイモ
 	<td>Solanum tuberosum
-	<td><a target='_blank' href='http://plants.ensembl.org/Solanum_tuberosum/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Solanum_tuberosum/'><!--
 		-->SolTub_3.0 (May, 2011)</a>
 </tr>
 <tr>
@@ -3510,7 +3510,7 @@ set_strand() ;
 	<td>Sorghum
 	<td>モロコシ
 	<td>Sorghum bicolor
-	<td><a target='_blank' href='http://plants.ensembl.org/Sorghum_bicolor/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Sorghum_bicolor/'><!--
 		-->NCBIv3 (Jun, 2017)</a>
 </tr>
 <tr>
@@ -3520,7 +3520,7 @@ set_strand() ;
 	<td>Sorghum
 	<td>モロコシ
 	<td>Sorghum bicolor
-	<td><a target='_blank' href='http://plants.ensembl.org/Sorghum_bicolor/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Sorghum_bicolor/'><!--
 		-->Sorbi1 (Dec, 2007)</a>
 </tr>
 <tr>
@@ -3530,7 +3530,7 @@ set_strand() ;
 	<td>Cacao
 	<td>カカオ
 	<td>Theobroma cacao
-	<td><a target='_blank' href='http://plants.ensembl.org/Theobroma_cacao/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Theobroma_cacao/'><!--
 		-->Theobroma_cacao_20110822 (May, 2014)</a>
 </tr>
 <tr>
@@ -3540,7 +3540,7 @@ set_strand() ;
 	<td>Wheat
 	<td>コムギ
 	<td>Triticum aestivum
-	<td><a target='_blank' href='http://plants.ensembl.org/Triticum_aestivum/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Triticum_aestivum/'><!--
 		-->IWGSC1.0+popseq (Nov, 2014)</a>
 </tr>
 <tr>
@@ -3550,7 +3550,7 @@ set_strand() ;
 	<td>Red wild einkorn
 	<td>ウラルツコムギ
 	<td>Triticum urartu
-	<td><a target='_blank' href='http://plants.ensembl.org/Triticum_urartu/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Triticum_urartu/'><!--
 		-->ASM34745v1 (Apr, 2013)</a>
 </tr>
 <tr>
@@ -3560,7 +3560,7 @@ set_strand() ;
 	<td>Grape
 	<td>ブドウ
 	<td>Vitis vinifera
-	<td><a target='_blank' href='http://plants.ensembl.org/Vitis_vinifera/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Vitis_vinifera/'><!--
 		-->IGGP_12x (Jun, 2011)</a>
 </tr>
 <tr>
@@ -3570,7 +3570,7 @@ set_strand() ;
 	<td>Maize, Corn
 	<td>トウモロコシ
 	<td>Zea mays
-	<td><a target='_blank' href='http://plants.ensembl.org/Zea_mays/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Zea_mays/'><!--
 		-->AGPv4 (Mar, 2016)</a>
 </tr>
 <tr>
@@ -3580,7 +3580,7 @@ set_strand() ;
 	<td>Maize, Corn
 	<td>トウモロコシ
 	<td>Zea mays
-	<td><a target='_blank' href='http://plants.ensembl.org/Zea_mays/'><!--
+	<td><a target='_blank' href='https://plants.ensembl.org/Zea_mays/'><!--
 		-->AGPv3 (Apr, 2013)</a>
 </tr>
 <tr>
@@ -4290,7 +4290,7 @@ set_strand() ;
 	<td>Rice blast fungus (70-15)
 	<td>イネいもち病菌
 	<td>Magnaporthe oryzae
-	<td><a target='_blank' href='http://fungi.ensembl.org/Magnaporthe_oryzae/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Magnaporthe_oryzae/'><!--
 		-->MG8 (Sep, 2011)</a>
 </tr>
 <tr>
@@ -4300,7 +4300,7 @@ set_strand() ;
 	<td>Marine yeast (CBS767)
 	<td>耐塩性酵母
 	<td>Debaryomyces hansenii
-	<td><a target='_blank' href='http://fungi.ensembl.org/Debaryomyces_hansenii_cbs767/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Debaryomyces_hansenii_cbs767/'><!--
 		-->ASM644v2 (Feb, 2015)</a>
 </tr>
 <tr>
@@ -4310,7 +4310,7 @@ set_strand() ;
 	<td>Kluyveromyces yeast
 	<td>Kluyveromyces酵母
 	<td>Kluyveromyces lactis
-	<td><a target='_blank' href='http://fungi.ensembl.org/Kluyveromyces_lactis/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Kluyveromyces_lactis/'><!--
 		-->ASM251v1 (Feb, 2015)</a>
 </tr>
 <tr>
@@ -4320,7 +4320,7 @@ set_strand() ;
 	<td>Kluyveromyces yeast
 	<td>Kluyveromyces酵母
 	<td>Kluyveromyces marxianus
-	<td><a target='_blank' href='http://fungi.ensembl.org/Kluyveromyces_marxianus/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Kluyveromyces_marxianus/'><!--
 		-->KM1777_03 (Oct, 2014)</a>
 </tr>
 <tr>
@@ -4330,7 +4330,7 @@ set_strand() ;
 	<td>Methylotrophic yeast (CBS 7435)
 	<td>メタノール資化性酵母
 	<td>Komagataella phaffii<br>(Pichia pastoris)
-	<td><a target='_blank' href='http://fungi.ensembl.org/Komagataella_phaffii_cbs_7435/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Komagataella_phaffii_cbs_7435/'><!--
 		-->PicPas_Mar2011 (Oct, 2016)</a>
 </tr>
 <tr>
@@ -4340,7 +4340,7 @@ set_strand() ;
 	<td>Oleaginous yeast
 	<td>アルカン資化性酵母
 	<td>Yarrowia lipolytica
-	<td><a target='_blank' href='http://fungi.ensembl.org/Yarrowia_lipolytica/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Yarrowia_lipolytica/'><!--
 		-->ASM252v1 (May, 2012)</a>
 </tr>
 <tr>
@@ -4350,7 +4350,7 @@ set_strand() ;
 	<td>Wheat head blight fungus
 	<td>フザリウム菌
 	<td>Fusarium graminearum<br>(Gibberella zeae)
-	<td><a target='_blank' href='http://fungi.ensembl.org/Fusarium_graminearum/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Fusarium_graminearum/'><!--
 		-->RR (Nov, 2014)</a>
 </tr>
 <tr>
@@ -4360,7 +4360,7 @@ set_strand() ;
 	<td>Inky cap fungus
 	<td>ウシグソヒトヨタケ
 	<td>Coprinopsis cinerea<br>(Hormographiella aspergillata)
-	<td><a target='_blank' href='http://fungi.ensembl.org/Coprinopsis_cinerea_okayama7_130/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Coprinopsis_cinerea_okayama7_130/'><!--
 		-->CC3 (Aug, 2014)</a>
 </tr>
 <tr>
@@ -4370,7 +4370,7 @@ set_strand() ;
 	<td>Torulaspora yeast
 	<td>Torulaspora酵母
 	<td>Torulaspora delbrueckii
-	<td><a target='_blank' href='http://fungi.ensembl.org/Torulaspora_delbrueckii/'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Torulaspora_delbrueckii/'><!--
 		-->ASM24337v1 (Feb, 2015)</a>
 </tr>
 <tr>
@@ -4380,7 +4380,7 @@ set_strand() ;
 	<td>A. luchuensis
 	<td>黒麹菌, アワモリコウジカビ
 	<td>Aspergillus luchuensis
-	<td><a target='_blank' href='http://fungi.ensembl.org/Aspergillus_luchuensis_gca_001602395/Info/Index'><!--
+	<td><a target='_blank' href='https://fungi.ensembl.org/Aspergillus_luchuensis_gca_001602395/Info/Index'><!--
 		-->AspL_2604</a>
 </tr>
 <tr>
@@ -4700,7 +4700,7 @@ set_strand() ;
 	<td>Diatom
 	<td>珪藻
 	<td>Phaeodactylum tricornutum
-	<td><a target='_blank' href='http://protists.ensembl.org/Phaeodactylum_tricornutum/Info/Index'><!--
+	<td><a target='_blank' href='https://protists.ensembl.org/Phaeodactylum_tricornutum/Info/Index'><!--
 		-->ASM15095v2 (Feb, 2010)</a>
 </tr>
 <tr>
@@ -4710,7 +4710,7 @@ set_strand() ;
 	<td>Diatom
 	<td>珪藻
 	<td>Thalassiosira pseudonana
-	<td><a target='_blank' href='http://protists.ensembl.org/Thalassiosira_pseudonana/Info/Index'><!--
+	<td><a target='_blank' href='https://protists.ensembl.org/Thalassiosira_pseudonana/Info/Index'><!--
 		-->ASM14940v2 (May, 2014)</a>
 </tr>
 <tr>
@@ -11114,7 +11114,7 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td><a target='_blank' href='http://www.nihs.go.jp/mtgt/covid-19info.html'><!--
+	<td><a target='_blank' href='https://www.nihs.go.jp/mtgt/covid-19info.html'><!--
 		-->Cross-reactivity check for COVID-19 diagnostic primers<br>(7 CoV + 32 organisms in WHO EUL), NIHS 2020/5/1</a>
 </tr>
 <tr>
@@ -11124,7 +11124,7 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td><a target='_blank' href='http://www.nihs.go.jp/mtgt/covid-19info.html'><!--
+	<td><a target='_blank' href='https://www.nihs.go.jp/mtgt/covid-19info.html'><!--
 		-->Cross-reactivity check for COVID-19 diagnostic primers<br>(7 CoV + 20 organisms in US EUA), NIHS 2020/5/1</a>
 </tr>
 <tr>
@@ -11134,7 +11134,7 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td><a target='_blank' href='http://www.nihs.go.jp/mtgt/covid-19info.html'><!--
+	<td><a target='_blank' href='https://www.nihs.go.jp/mtgt/covid-19info.html'><!--
 		-->Cross-reactivity check for COVID-19 diagnostic primers<br>(7 CoV), NIHS 2020/5/1</a>
 </tr>
 <tr>
@@ -11144,7 +11144,7 @@ set_strand() ;
 	<td>
 	<td>
 	<td>
-	<td><a target='_blank' href='http://www.nihs.go.jp/mtgt/covid-19info.html'><!--
+	<td><a target='_blank' href='https://www.nihs.go.jp/mtgt/covid-19info.html'><!--
 		-->Cross-reactivity check for COVID-19 diagnostic primers<br>(5 beta-CoV), NIHS 2020/5/1</a>
 </tr>
 </tbody>
