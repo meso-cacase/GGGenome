@@ -43,7 +43,7 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
 ```
 
 + *`db`* : 塩基配列データベース  
-  `hg19`   - ヒトゲノム [GRCh37/hg19 (Feb, 2009)](http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
+  `hg38`   - ヒトゲノム [GRCh38/hg38 (Dec, 2013)](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/)
              (省略時のデフォルト)  
   `mm10`   - マウスゲノム [GRCm38/mm10 (Dec, 2011)](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/)  
   `dm3`    - ショウジョウバエゲノム [BDGP R5/dm3 (Apr, 2006)](http://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/)  

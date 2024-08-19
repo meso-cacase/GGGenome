@@ -72,7 +72,7 @@ function set_db(){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?((\+|\-)\/)?help.html$/)[1] ;
 		document.gggenome.db.value = db ;
 		if (document.gggenome.db.selectedIndex < 0){
-			document.gggenome.db.value = 'hg19' ;
+			document.gggenome.db.value = 'hg38' ;
 		}
 	}
 }
@@ -163,8 +163,8 @@ function set_strand(){
 <p>
 データベース：<br>&emsp;
 <select id=db name=db style='width:630'>
-	<option value='hg38'                     synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
-	<option value='hg19' selected                     synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
+	<option value='hg38' selected                     synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
+	<option value='hg19'                     synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
 	<option value='hg18'                     synonym="Homo sapiens">Human genome, NCBI36/hg18 (Mar, 2006)</option>
 	<option value='T2T-CHM13v2.0'            synonym="Homo sapiens">Human genome, T2T-CHM13v2.0 (Jan, 2022)</option>
 	<option value='JG1'                      synonym="Homo sapiens">Human Japanese Reference Genome, JG1 (JG1.0.0beta) (Feb, 2019)</option>
@@ -1280,7 +1280,7 @@ set_strand() ;
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#FF6600'>db</span> &rarr;
-			hg19, mm10, dm3, ce10, TAIR10, pombe, refseq, etc. 省略時は hg19<br>
+			hg38, mm10, dm3, ce10, TAIR10, pombe, refseq, etc. 省略時は hg38<br>
 			検索可能なデータベースは <a href='help.html#db_list'>下記の一覧</a> を参照。
 		<li><span style='color:#0000FF'>k</span> &rarr;
 			許容するミスマッチ/ギャップの数。あまり大きいとしぼうする。省略時は 0
@@ -1300,7 +1300,7 @@ set_strand() ;
 		--><span style='color:#008000'>TTCATTGACAACATT</span><!--
 		--></a>
 	<ul>
-		<li>ヒトゲノム <span style='color:#FF6600'>hg19</span> (省略可) で
+		<li>ヒトゲノム <span style='color:#FF6600'>hg38</span> (省略可) で
 		<li>ミスマッチ/ギャップを許容せず (省略可)
 		<li><span style='color:#008000'>TTCATTGACAACATT</span> を検索し
 		<li><span style='color:#FF0080'>html</span> 形式 (省略可) で結果を返す

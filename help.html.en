@@ -72,7 +72,7 @@ function set_db(){
 		db = location.pathname.match(/\/(\w+)\/(\d+\/)?((\+|\-)\/)?help.html$/)[1] ;
 		document.gggenome.db.value = db ;
 		if (document.gggenome.db.selectedIndex < 0){
-			document.gggenome.db.value = 'hg19' ;
+			document.gggenome.db.value = 'hg38' ;
 		}
 	}
 }
@@ -163,8 +163,8 @@ function set_strand(){
 <p>
 Database:<br>&emsp;
 <select id=db name=db style='width:630'>
-	<option value='hg38'                     synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
-	<option value='hg19' selected                     synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
+	<option value='hg38' selected                     synonym="Homo sapiens">Human genome, GRCh38/hg38 (Dec, 2013)</option>
+	<option value='hg19'                     synonym="Homo sapiens">Human genome, GRCh37/hg19 (Feb, 2009)</option>
 	<option value='hg18'                     synonym="Homo sapiens">Human genome, NCBI36/hg18 (Mar, 2006)</option>
 	<option value='T2T-CHM13v2.0'            synonym="Homo sapiens">Human genome, T2T-CHM13v2.0 (Jan, 2022)</option>
 	<option value='JG1'                      synonym="Homo sapiens">Human Japanese Reference Genome, JG1 (JG1.0.0beta) (Feb, 2019)</option>
@@ -1272,7 +1272,7 @@ set_strand() ;
 		-->[.<span style='color:brown'>download</span>]
 	<ul>
 		<li><span style='color:#FF6600'>db</span>:
-			hg19, mm10, dm3, ce10, TAIR10, pombe, refseq, etc. (default: hg19)<br>
+			hg38, mm10, dm3, ce10, TAIR10, pombe, refseq, etc. (default: hg38)<br>
 			<a href='help.html#db_list'>Full list of databases is available below.</a>
 		<li><span style='color:#0000FF'>k</span>:
 			Maximum number of mismatches/gaps. (default: 0)
@@ -1293,7 +1293,7 @@ set_strand() ;
 		--></a>
 	<ul>
 		<li>Search <span style='color:#008000'>TTCATTGACAACATT</span> in
-		<li>human genome <span style='color:#FF6600'>hg19</span> (default),
+		<li>human genome <span style='color:#FF6600'>hg38</span> (default),
 		<li>with perfect matches (default),
 		<li>output in <span style='color:#FF0080'>html</span> format (default).
 	</ul>

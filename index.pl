@@ -68,7 +68,7 @@ push @timer, [Time::HiRes::time(), 'start;'] ;                       #===== 実�
 
 #-- ▽ 使用するパラメータ一覧
 my $lang         = '' ;  # HTMLの場合の日本語/英語: ja, en
-my $db           = '' ;  # 生物種 (データベース): hg19, mm10, ...
+my $db           = '' ;  # 生物種 (データベース): hg38, mm10, ...
 my $k            = '' ;  # 許容するミスマッチ/ギャップの数: 0, 1, 2, ...
 my $strand       = '' ;  # 検索する方向: +, -
 my $nogap        = '' ;  # nogapモード
@@ -202,7 +202,7 @@ if ($ENV{'HTTP_HOST'} and                       # HTTP経由のリクエスト�
 $lang     ||= ($0 =~ /ja$/) ? 'ja' :  # lang が未定義で実行ファイルが index.cgi.ja の場合
               ($0 =~ /en$/) ? 'en' :  # lang が未定義で実行ファイルが index.cgi.en の場合
                               'en' ;  # default: en
-$db       ||= 'hg19' ;
+$db       ||= 'hg38' ;
 $k        ||= 0 ;
 $strand   ||= '' ;
 $nogap    ||= '' ;
@@ -236,11 +236,11 @@ eval {
 
 #-- ▽ 生物種 $db により切り替えるパラメータ
 my $db_fullname = $db_fullname{$db} //    # データベースの正式名
-                  $db_fullname{'hg19'} ;  # default: Human genome (hg19)
+                  $db_fullname{'hg38'} ;  # default: Human genome (hg38)
 my $host        = $host{$db} //           # 曖昧検索サーバ
-                  $host{'hg19'} ;         # default: Human genome (hg19)
+                  $host{'hg38'} ;         # default: Human genome (hg38)
 my $port        = $port{$db} //           # 曖昧検索サーバのポート
-                  $port{'hg19'} ;         # default: Human genome (hg19)
+                  $port{'hg38'} ;         # default: Human genome (hg38)
 #-- △ 生物種 $db により切り替えるパラメータ
 
 push @timer, [Time::HiRes::time(), 'search_start;'] ;                #===== 実行時間計測 =====
@@ -1388,7 +1388,7 @@ $db and $select =~ s/(?<=option value=\'$db\')/ selected/ or  # 種を選択
 	$db_fullname{$db} and $select =                           # 種を追加
 		"	<option value=$db selected>$db_fullname{$db}</option>\n" .
 		"	<option disabled>----------</option>\n" . $select or
-	$select =~ s/(?<=option value=hg19)/ selected/ ;          # default: Human genome (hg19)
+	$select =~ s/(?<=option value=hg38)/ selected/ ;          # default: Human genome (hg38)
 #-- △ プルダウンメニュー
 
 #-- ▽ strand選択ボタン
@@ -1490,7 +1490,7 @@ $db and $select =~ s/(?<=option value=\'$db\')/ selected/ or  # 種を選択
 	$db_fullname{$db} and $select =                           # 種を追加
 		"	<option value=$db selected>$db_fullname{$db}</option>\n" .
 		"	<option disabled>----------</option>\n" . $select or
-	$select =~ s/(?<=option value=hg19)/ selected/ ;          # default: Human genome (hg19)
+	$select =~ s/(?<=option value=hg38)/ selected/ ;          # default: Human genome (hg38)
 #-- △ プルダウンメニュー
 
 #-- ▽ strand選択ボタン

@@ -4,7 +4,7 @@ Query format:
 
 http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/[nogap]/SEQUENCE[.FORMAT][.download]
   DB (optional):
-    'hg19'   - Human genome, GRCh37/hg19 (Feb, 2009)
+    'hg38'   - Human genome, GRCh38/hg38 (Dec, 2013)
     'mm10'   - Mouse genome, GRCm38/mm10 (Dec, 2011)
     'dm3'    - Drosophila genome, BDGP R5/dm3 (Apr, 2006)
     'ce10'   - C. elegans genome, WS220/ce10 (Oct, 2010)
@@ -12,7 +12,7 @@ http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/[nogap]/SEQUENCE[.FORMAT][.download]
     'pombe'  - Schizosaccharomyces pombe (972h-) genome, ASM294v2 (Nov, 2007)
     'refseq' - RefSeq complete RNA, latest release
     *** List of available databases: https://GGGenome.dbcls.jp/help.html ***
-    Default: hg19
+    Default: hg38
   K (optional):
     Maximum number of mismatches/gaps.
     Default: 0
@@ -37,7 +37,7 @@ http[s]://GGGenome.dbcls.jp/DB/K/[STRAND]/[nogap]/SEQUENCE[.FORMAT][.download]
 Examples:
 
 https://GGGenome.dbcls.jp/TTCATTGACAACATT
-  Search 'TTCATTGACAACATT' in human genome hg19. (default)
+  Search 'TTCATTGACAACATT' in human genome hg38. (default)
   Search only perfect match sequences. (default)
   Output in HTML format. (default)
 
