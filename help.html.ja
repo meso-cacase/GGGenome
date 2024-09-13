@@ -901,6 +901,9 @@ function set_strand(){
 	<option value='refseq90'                 synonym="">RefSeq complete RNA release 90 (Sep, 2018)</option>
 	<option value='refseq80'                 synonym="">RefSeq complete RNA release 80 (Jan, 2017)</option>
 	<option value='refseq70'                 synonym="">RefSeq complete RNA release 70 (May, 2015)</option>
+	<option value='hs_refseq225'             synonym="Homo sapiens">RefSeq human RNA release 225 (Jul, 2024)</option>
+	<option value='hsnm_refseq225'           synonym="Homo sapiens">RefSeq human RNA (NM/NR) release 225 (Jul, 2024)</option>
+	<option value='hsxm_refseq225'           synonym="Homo sapiens">RefSeq human RNA (XM/XR) release 225 (Jul, 2024)</option>
 	<option value='hs_refseq220'             synonym="Homo sapiens">RefSeq human RNA release 220 (Sep, 2023)</option>
 	<option value='hsnm_refseq220'           synonym="Homo sapiens">RefSeq human RNA (NM/NR) release 220 (Sep, 2023)</option>
 	<option value='hsxm_refseq220'           synonym="Homo sapiens">RefSeq human RNA (XM/XR) release 220 (Sep, 2023)</option>
@@ -925,6 +928,9 @@ function set_strand(){
 	<option value='hs_refseq70'              synonym="Homo sapiens">RefSeq human RNA release 70 (May, 2015)</option>
 	<option value='hsnm_refseq70'            synonym="Homo sapiens">RefSeq human RNA (NM/NR) release 70 (May, 2015)</option>
 	<option value='hsxm_refseq70'            synonym="Homo sapiens">RefSeq human RNA (XM/XR) release 70 (May, 2015)</option>
+	<option value='mm_refseq225'             synonym="Mus musculus">RefSeq mouse RNA release 225 (Jul, 2024)</option>
+	<option value='mmnm_refseq225'           synonym="Mus musculus">RefSeq mouse RNA (NM/NR) release 225 (Jul, 2024)</option>
+	<option value='mmxm_refseq225'           synonym="Mus musculus">RefSeq mouse RNA (XM/XR) release 225 (Jul, 2024)</option>
 	<option value='mm_refseq220'             synonym="Mus musculus">RefSeq mouse RNA release 220 (Sep, 2023)</option>
 	<option value='mmnm_refseq220'           synonym="Mus musculus">RefSeq mouse RNA (NM/NR) release 220 (Sep, 2023)</option>
 	<option value='mmxm_refseq220'           synonym="Mus musculus">RefSeq mouse RNA (XM/XR) release 220 (Sep, 2023)</option>
@@ -949,6 +955,9 @@ function set_strand(){
 	<option value='mm_refseq70'              synonym="Mus musculus">RefSeq mouse RNA release 70 (May, 2015)</option>
 	<option value='mmnm_refseq70'            synonym="Mus musculus">RefSeq mouse RNA (NM/NR) release 70 (May, 2015)</option>
 	<option value='mmxm_refseq70'            synonym="Mus musculus">RefSeq mouse RNA (XM/XR) release 70 (May, 2015)</option>
+	<option value='rn_refseq225'             synonym="Rattus norvegicus">RefSeq rat RNA release 225 (Jul, 2024)</option>
+	<option value='rnnm_refseq225'           synonym="Rattus norvegicus">RefSeq rat RNA (NM/NR) release 225 (Jul, 2024)</option>
+	<option value='rnxm_refseq225'           synonym="Rattus norvegicus">RefSeq rat RNA (XM/XR) release 225 (Jul, 2024)</option>
 	<option value='rn_refseq220'             synonym="Rattus norvegicus">RefSeq rat RNA release 220 (Sep, 2023)</option>
 	<option value='rnnm_refseq220'           synonym="Rattus norvegicus">RefSeq rat RNA (NM/NR) release 220 (Sep, 2023)</option>
 	<option value='rnxm_refseq220'           synonym="Rattus norvegicus">RefSeq rat RNA (XM/XR) release 220 (Sep, 2023)</option>
@@ -8948,6 +8957,33 @@ set_strand() ;
 	<td>RefSeq complete RNA release 70 (May, 2015)
 </tr>
 <tr>
+	<td><a href='/hs_refseq225/'>hs_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td>RefSeq human RNA release 225 (Jul, 2024)
+</tr>
+<tr>
+	<td><a href='/hsnm_refseq225/'>hsnm_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td>RefSeq human RNA (NM/NR) release 225 (Jul, 2024)
+</tr>
+<tr>
+	<td><a href='/hsxm_refseq225/'>hsxm_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Human
+	<td>ヒト
+	<td>Homo sapiens
+	<td>RefSeq human RNA (XM/XR) release 225 (Jul, 2024)
+</tr>
+<tr>
 	<td><a href='/hs_refseq220/'>hs_refseq220</a>
 	<td>RefSeq
 	<td>Mammal
@@ -9173,6 +9209,33 @@ set_strand() ;
 	<td>RefSeq human RNA release 60 (Jul, 2013)
 </tr>
 <tr>
+	<td><a href='/mm_refseq225/'>mm_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td>RefSeq mouse RNA release 225 (Jul, 2024)
+</tr>
+<tr>
+	<td><a href='/mmnm_refseq225/'>mmnm_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td>RefSeq mouse RNA (NM/NR) release 225 (Jul, 2024)
+</tr>
+<tr>
+	<td><a href='/mmxm_refseq225/'>mmxm_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Mouse
+	<td>マウス
+	<td>Mus musculus
+	<td>RefSeq mouse RNA (XM/XR) release 225 (Jul, 2024)
+</tr>
+<tr>
 	<td><a href='/mm_refseq220/'>mm_refseq220</a>
 	<td>RefSeq
 	<td>Mammal
@@ -9396,6 +9459,33 @@ set_strand() ;
 	<td>マウス
 	<td>Mus musculus
 	<td>RefSeq mouse RNA release 60 (Jul, 2013)
+</tr>
+<tr>
+	<td><a href='/rn_refseq225/'>rn_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>ラット
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA release 225 (Jul, 2024)
+</tr>
+<tr>
+	<td><a href='/rnnm_refseq225/'>rnnm_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>ラット
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA (NM/NR) release 225 (Jul, 2024)
+</tr>
+<tr>
+	<td><a href='/rnxm_refseq225/'>rnxm_refseq225</a>
+	<td>RefSeq
+	<td>Mammal
+	<td>Rat
+	<td>ラット
+	<td>Rattus norvegicus
+	<td>RefSeq rat RNA (XM/XR) release 225 (Jul, 2024)
 </tr>
 <tr>
 	<td><a href='/rn_refseq220/'>rn_refseq220</a>
@@ -11218,7 +11308,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Aug 19, 2024 by
+<p class=g>Last modified on Sep 13, 2024 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/'>DBCLS</a><br>
 This page is licensed under a
