@@ -892,7 +892,8 @@ Database:<br>&emsp;
 
 	<option disabled>--------------------</option>
 
-	<option value='refseq'                   synonym="">RefSeq complete RNA release 225 (Jul, 2024)</option>
+	<option value='refseq'                   synonym="">RefSeq complete RNA release 226 (Sep, 2024)</option>
+	<option value='refseq225'                synonym="">RefSeq complete RNA release 225 (Jul, 2024)</option>
 	<option value='refseq220'                synonym="">RefSeq complete RNA release 220 (Sep, 2023)</option>
 	<option value='refseq215'                synonym="">RefSeq complete RNA release 215 (Nov, 2022)</option>
 	<option value='refseq210'                synonym="">RefSeq complete RNA release 210 (Jan, 2022)</option>
@@ -8108,7 +8109,15 @@ set_strand() ;
 </thead>
 <tbody>
 <tr>
-	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq225/'>refseq225</a>
+	<td><a href='/refseq/'>refseq</a> (alias of latest release)<br><a href='/refseq226/'>refseq226</a>
+	<td>RefSeq
+	<td>
+	<td>
+	<td>
+	<td>RefSeq complete RNA release 226 (Sep, 2024)
+</tr>
+<tr>
+	<td><a href='/refseq225/'>refseq225</a>
 	<td>RefSeq
 	<td>
 	<td>
@@ -10273,7 +10282,7 @@ set_strand() ;
 
 <hr><!-- __________________________________________________ -->
 
-<p class=g>Last modified on Sep 13, 2024 by
+<p class=g>Last modified on Oct 1, 2024 by
 <a target='_blank' class=a href='https://twitter.com/meso_cacase'>@meso_cacase</a> at 
 <a target='_blank' class=a href='https://dbcls.rois.ac.jp/en/'>DBCLS</a><br>
 This page is licensed under a
