@@ -23,10 +23,10 @@ package DBlist ;
 
 $dbconfig =
 <<'--EOS--' ;
-hg38                     	172.18.8.138	28017	UCSC	Human genome, GRCh38/hg38 (Dec, 2013)	Homo sapiens
-hg19                     	172.18.8.138	28018	UCSC	Human genome, GRCh37/hg19 (Feb, 2009)	Homo sapiens
-mm39                     	172.18.8.138	28851	UCSC	Mouse genome, GRCm39/mm39 (Jun, 2020)	Mus musculus
-mm10                     	172.18.8.138	28019	UCSC	Mouse genome, GRCm38/mm10 (Dec, 2011)	Mus musculus
+hg38                     	172.18.8.78	28017	UCSC	Human genome, GRCh38/hg38 (Dec, 2013)	Homo sapiens
+hg19                     	172.18.8.78	28018	UCSC	Human genome, GRCh37/hg19 (Feb, 2009)	Homo sapiens
+mm39                     	172.18.8.78	28851	UCSC	Mouse genome, GRCm39/mm39 (Jun, 2020)	Mus musculus
+mm10                     	172.18.8.78	28019	UCSC	Mouse genome, GRCm38/mm10 (Dec, 2011)	Mus musculus
 mm9                      	172.18.8.78	28020	UCSC	Mouse genome, NCBI37/mm9 (Jul, 2007)	Mus musculus
 vicPac2                  	172.18.8.78	28021	UCSC	Alpaca genome, Vicugna_pacos-2.0.1/vicPac2 (Mar, 2013)	Vicugna pacos
 dasNov3                  	172.18.8.78	28022	UCSC	Armadillo genome, Baylor/dasNov3 (Dec, 2011)	Dasypus novemcinctus
@@ -341,7 +341,7 @@ GCA_002749855.1          	172.18.8.72	28848	NCBI     	Aspergillus terreus w25 ge
 GCA_002982235.1          	172.18.8.72	28849	NCBI     	Curvularia geniculata W3 genome, ASM298223v1 (Mar, 2018)	Curvularia geniculata;ascomycetes
 GCF_900239965.1          	172.18.8.72	28850	NCBI     	Bicyclus anynana genome, Bicyclus_anynana_v1.2 (Jan, 2018)	Bicyclus anynana;squinting bush brown
 GCF_901000725.2          	172.18.8.72	28874	NCBI     	Takifugu rubripes genome, fTakRub1.2 (Jun, 2019)	Takifugu rubripes;fugu
-T2T-CHM13v2.0            	172.18.8.138	28922	         	Human genome, T2T-CHM13v2.0 (Jan, 2022)	Homo sapiens
+T2T-CHM13v2.0            	172.18.8.78	28922	         	Human genome, T2T-CHM13v2.0 (Jan, 2022)	Homo sapiens
 16SrRNA                  	172.18.8.77	28286	         	DDBJ 16S rRNA of prokaryotes (Dec, 2014)	
 Ppatens_251_v3           	172.18.8.74	28287	Phytozome	Physcomitrella patens genome, v3.0 (Oct, 2007)	Physcomitrella patens;moss
 Smoellendorffii_91_v1    	172.18.8.74	28288	Phytozome	Selaginella moellendorffii genome, v1.0 (Dec, 2007)	Selaginella moellendorffii;spikemoss
