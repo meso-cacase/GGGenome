@@ -849,6 +849,15 @@ mmxm_refseq225           	172.18.8.136	29000	RefSeq   	RefSeq mouse RNA (XM/XR) 
 rn_refseq225             	172.18.8.136	29001	RefSeq   	RefSeq rat RNA release 225 (Jul, 2024)	Rattus norvegicus
 rnnm_refseq225           	172.18.8.136	29002	RefSeq   	RefSeq rat RNA (NM/NR) release 225 (Jul, 2024)	Rattus norvegicus
 rnxm_refseq225           	172.18.8.136	29003	RefSeq   	RefSeq rat RNA (XM/XR) release 225 (Jul, 2024)	Rattus norvegicus
+hs_refseq230             	172.18.8.137	29013	RefSeq   	RefSeq human RNA release 230 (May, 2025)	Homo sapiens
+hsnm_refseq230           	172.18.8.137	29014	RefSeq   	RefSeq human RNA (NM/NR) release 230 (May, 2025)	Homo sapiens
+hsxm_refseq230           	172.18.8.137	29015	RefSeq   	RefSeq human RNA (XM/XR) release 230 (May, 2025)	Homo sapiens
+mm_refseq230             	172.18.8.137	29016	RefSeq   	RefSeq mouse RNA release 230 (May, 2025)	Mus musculus
+mmnm_refseq230           	172.18.8.137	29017	RefSeq   	RefSeq mouse RNA (NM/NR) release 230 (May, 2025)	Mus musculus
+mmxm_refseq230           	172.18.8.137	29018	RefSeq   	RefSeq mouse RNA (XM/XR) release 230 (May, 2025)	Mus musculus
+rn_refseq230             	172.18.8.137	29019	RefSeq   	RefSeq rat RNA release 230 (May, 2025)	Rattus norvegicus
+rnnm_refseq230           	172.18.8.137	29020	RefSeq   	RefSeq rat RNA (NM/NR) release 230 (May, 2025)	Rattus norvegicus
+rnxm_refseq230           	172.18.8.137	29021	RefSeq   	RefSeq rat RNA (XM/XR) release 230 (May, 2025)	Rattus norvegicus
 hg19_pre_mRNA_refGene171101	172.18.8.75	28719	         	Human pre mRNA, refGene 171101 on hg19	Homo sapiens
 hg19_pre_mRNA_FANTOMlv1  	172.18.8.75	28720	         	Human pre mRNA, FANTOM lv1 on hg19	Homo sapiens
 hg19_pre_mRNA_FANTOMlv4  	172.18.8.75	28721	         	Human pre mRNA, FANTOM lv4 on hg19	Homo sapiens
